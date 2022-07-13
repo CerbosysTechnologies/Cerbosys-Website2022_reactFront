@@ -17,10 +17,11 @@ const Navbar = () => {
             alt="logo"
             className="md:cursor-pointer w-[150px] h-auto"
           />
-          <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
-            <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
+            {/* Test Code */}
+            <div className="text-5xl md:hidden text-white mt-5" onClick={() => setOpen(!open)}>
+              <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
+            </div>
           </div>
-        </div>
 
         {/* Menu */}
 
@@ -86,17 +87,17 @@ const Navbar = () => {
         {/* Mobile nav */}
         <ul
           className={`
-        md:hidden bg-white fixed w-full top-0 overflow-y-auto bottom-0 py-24 pl-4
+        md:hidden bg-[#404CDC] fixed w-full top-[95px] overflow-y-auto bottom-0 py-1 pl-4 text-white font-heading
         duration-500 ${open ? "left-0" : "left-[-100%]"}
         `}
         >
           <li>
-            <Link to="/" className="py-7 px-3 inline-block">
+            <Link to="/" className="py-1 px-1 inline-block">
               Home
             </Link>
           </li>
           <NavLinks />
-          <div className="py-5"></div>
+          <div className="py-2"></div>
         </ul>
       </div>
     </nav>
