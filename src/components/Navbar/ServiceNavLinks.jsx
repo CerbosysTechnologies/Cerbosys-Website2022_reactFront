@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+
 
 const NavLinks = () => {
   const [heading, setHeading] = useState("Services");
@@ -22,7 +22,7 @@ const NavLinks = () => {
       <div>
         <div className="px-3 text-left md:cursor-pointer group">
           <h1
-            className="py-7 flex justify-between items-center md:pr-0 pr-5 group"
+            className="md:py-7 sm:py-3 flex justify-between items-center md:pr-0 pr-5 group"
             onClick={() => {
               heading !== "Services" ? setHeading("Services") : setHeading("");
               setSubHeading("");
@@ -41,9 +41,9 @@ const NavLinks = () => {
 
           <div>
             <div className="absolute top-25 left-2 right-2 hidden group-hover:md:block hover:md:block ">
-              <div className="bg-[#404CDC] flex flex-row flex-wrap items-center justify-center">
+              <div className="bg-[#404CDC] flex flex-row items-center justify-center">
                 {/* First Row */}
-                <div className="flex flex-wrap flex-col m-2">
+                <div className="flex flex-wrap flex-col m-2 border-r-2">
                   <div className="mt-[-46px] ">
                     <h1 className="font-heading underline text-lg">
                       Web Development
@@ -55,7 +55,7 @@ const NavLinks = () => {
                     </ul>
                   </div>
 
-                  <div className="mt-16">
+                  <div className="mt-16 ">
                     <h1 className="font-heading underline text-lg">
                       Lead Generation
                     </h1>
@@ -67,7 +67,7 @@ const NavLinks = () => {
                 {/* First Row Ends */}
 
                 {/* Second Row */}
-                <div className="flex flex-wrap flex-col m-2">
+                <div className="flex flex-wrap flex-col m-2 border-r-2">
                   <div className="mt-[2px]">
                     <h1 className="font-heading underline text-lg">
                       Mobile Development
@@ -95,7 +95,7 @@ const NavLinks = () => {
                 {/* Second Row Ends */}
 
                 {/* Third Row */}
-                <div className="flex flex-wrap flex-col m-2">
+                <div className="flex flex-wrap flex-col m-2 border-r-2">
                   <div className="mt-[-5px]">
                     <h1 className="font-heading underline text-lg">
                       Staff Augmentation
@@ -121,33 +121,35 @@ const NavLinks = () => {
                   <div className="">
                     <button
                       className="bg-blue-400 rounded-full 
-            font-heading px-6 py-3 text-white uppercase m-10"
+            font-heading px-6 py-3 text-white uppercase m-8"
                     >
                       Get Free Estimation
                     </button>
 
-                    <div className="font-subheading text-lg m-10">
+                    <div className="font-subheading text-lg m-8">
                       call us at
                       <p>+91 731 499 3444</p>
                       <p>+91 88 3969 7183</p>
                     </div>
 
-                    <div className="font-subheading text-lg m-10">
+                    <div className="font-subheading text-lg m-8">
                       email us at
                       <p>info@cerbosys.com</p>
                     </div>
                   </div>
                 </div>
                 {/* Fourth Row */}
-
-                {/* Slogan Line */}
-
-                <div className="font-heading text-xl ">
+ 
+              {/* Slogan Line */}
+                <div className="bottom-[-5px] font-heading text-xl text-center absolute border-t-2 my-7">
                   Enabling Business Make business
                 </div>
                 {/* Slogan Ends */}
+               
                 {/* ))} */}
               </div>
+              
+
             </div>
           </div>
         </div>
@@ -168,11 +170,10 @@ const NavLinks = () => {
                     ? setSubHeading(slinks.Head)
                     : setSubHeading("")
                 }
-                className="py-4 pl-2 font-heading md:pr-0 pr-5 
-                flex justify-between items-center text-white "
+                className="py-2 pl-2 font-heading md:pr-0 pr-5 flex justify-between items-center text-white "
               >
                 <div className="flex flex-wrap flex-col m-2">
-                  <div className="mt-[-26px] ">
+                  <div className="mt-[-10px] ">
                     <h1 className="font-heading underline text-lg">
                       Web Development
                     </h1>
@@ -221,11 +222,11 @@ const NavLinks = () => {
                       <li>Hire .Net Developer</li>
                     </ul>
                   </div>
-                  <div className="mt-16">
+                  <div className="mt-3">
                     <h1 className="font-heading underline text-lg">
                       Lead Generation
                     </h1>
-                    <h1 className="font-heading underline text-lg">
+                    <h1 className="mt-3 font-heading underline text-lg">
                       Brand Packaging
                     </h1>
                   </div>

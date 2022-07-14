@@ -97,7 +97,31 @@ const Navbar = () => {
             </Link>
           </li>
           <NavLinks />
-          <div className="py-2"></div>
+          <li>
+            <Link to="/" className="py-1 px-1 inline-block">
+              Industries
+            </Link>
+          </li>
+          <li>
+            <Link to="/" className="py-1 px-1 inline-block">
+              Case Study
+            </Link>
+          </li>
+          <li>
+            <Link to="/" className="py-1 px-1 inline-block">
+              Blog
+            </Link>
+          </li>
+          <li>
+            <Link to="/" className="py-1 px-1 inline-block">
+              Case Study
+            </Link>
+          </li>
+          <li>
+            <Link to="/" className="py-1 px-1 inline-block">
+              Contact Us
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
