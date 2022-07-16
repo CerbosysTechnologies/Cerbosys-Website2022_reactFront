@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import cerbosyswhite from "../../assets/cerbo_logo_white.svg";
 import callicon from "../../assets/call_icon.png";
 import NavLinks from "./ServiceNavLinks";
+import IndustryNavLinks from "./IndustryNavLinks";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -42,11 +43,12 @@ const Navbar = () => {
             </Link>
           </li> */}
           <NavLinks></NavLinks>
-          <li>
+          {/* <li>
             <Link to="/" className="py-7 px-1 inline-block">
               Industries
             </Link>
-          </li>
+          </li> */}
+          <IndustryNavLinks></IndustryNavLinks>
           <li>
             <Link to="/" className="py-7 px-1 inline-block">
               Case Study
@@ -86,8 +88,8 @@ const Navbar = () => {
 
         {/* Mobile nav */}
         <ul
-          className={`
-        md:hidden bg-[#404CDC] fixed w-full top-[95px] overflow-y-auto bottom-0 py-1 pl-4 text-white font-heading
+          className={`bg-[#404CDC]
+        md:hidden fixed w-full top-[95px] overflow-y-auto bottom-0 py-1 pl-4 text-white font-heading
         duration-500 ${open ? "left-0" : "left-[-100%]"}
         `}
         >

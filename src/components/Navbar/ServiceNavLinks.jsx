@@ -22,7 +22,7 @@ const NavLinks = () => {
       <div>
         <div className="px-3 text-left md:cursor-pointer group">
           <h1
-            className="md:py-7 sm:py-3 flex justify-between items-center md:pr-0 pr-5 group"
+            className="md:py-4 sm:py-3 flex justify-between items-center md:pr-0 pr-5 group"
             onClick={() => {
               heading !== "Services" ? setHeading("Services") : setHeading("");
               setSubHeading("");
@@ -34,9 +34,9 @@ const NavLinks = () => {
                 name={`${heading === "Services" ? "toggle-up" : "toggle-down"}`}
               ></ion-icon>
             </span>
-            <span className="text-xl md:mt-1 md:ml-2 md:block hidden group-hover:rotate-180 group-hover:-mt-2">
+            {/* <span className="text-xl md:mt-1 md:ml-2 md:block hidden group-hover:rotate-180 group-hover:-mt-2">
               <ion-icon name="toggle-down"></ion-icon>
-            </span>
+            </span> */}
           </h1>
 
           <div>
@@ -141,7 +141,7 @@ const NavLinks = () => {
                 {/* Fourth Row */}
  
               {/* Slogan Line */}
-                <div className="bottom-[-5px] font-heading text-xl text-center absolute border-t-2 my-7">
+                <div className="bottom-[0px] font-heading text-xl text-center absolute border-t-2 ">
                   Enabling Business Make business
                 </div>
                 {/* Slogan Ends */}
