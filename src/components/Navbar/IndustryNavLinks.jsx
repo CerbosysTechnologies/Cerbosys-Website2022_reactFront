@@ -9,11 +9,11 @@ const IndustryNavLinks = () => {
       <div className="px-3 text-left md:cursor-pointer group">
         <h1>{"Industries"}</h1>
 
-        <div className="absolute top-24 left-2 right-2 hidden group-hover:md:block hover:md:block ">
-          <div className="bg-[#404CDC] flex flex-row items-center justify-center h-[23rem]">
+        <div className="absolute top-20 left-2 right-2 hidden group-hover:md:block hover:md:block ">
+          <div className="bg-[#404CDC] flex flex-row items-center justify-center h-[21rem]">
             {/* First Row */}
             <div className="flex flex-wrap flex-col m-2 border-r-2">
-              <div className="mt-[16px] ">
+              <div className="mt-[10px] ">
                 <ul className="text-sm font-subheading list-inside list-disc">
                   <li> Agriculture</li>
                   <li> Ecommerce and Retail</li>
@@ -54,7 +54,7 @@ const IndustryNavLinks = () => {
             {/* Fourth Row */}
 
   {/* Slogan Line */}
-  <div className="bottom-1.5 font-heading text-xl text-center absolute border-t-2 ">
+  <div className="bottom-1 font-heading text-xl text-center absolute border-t-2 ">
                   Enabling Business Make business
                 </div>
                 {/* Slogan Ends */}
@@ -69,7 +69,7 @@ const IndustryNavLinks = () => {
 
   <div
   className={`
-      ${heading === "Industries" ? "" : "md:hidden"}
+      ${heading === "Industries" ? "hidden" : "md:hidden"}
     `}>
 
 <div className="flex flex-wrap flex-col m-2">

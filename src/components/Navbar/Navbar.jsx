@@ -1,22 +1,35 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import cerbosyswhite from "../../assets/cerbo_logo_white.svg";
+import cerbosyswhite from "../../assets/cerbosys_blueball_white_svg.svg";
 import callicon from "../../assets/call_icon.png";
 import NavLinks from "./ServiceNavLinks";
 import IndustryNavLinks from "./IndustryNavLinks";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () =>{
+     if(window.scrollY >= 80){        
+       setColorchange(true);
+     }
+     else{
+       setColorchange(false);
+     }
+  };
+  window.addEventListener('scroll', changeNavbarColor);
+
+
+
 
   return (
-    <nav className="bg-transparent">
+    <nav className="bg-transparent sticky">
       <div className="flex items-center font-heading justify-around">
         {/* Logo Div */}
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
           <img
             src={cerbosyswhite}
             alt="logo"
-            className="md:cursor-pointer w-[150px] h-auto"
+            className="md:cursor-pointer w-[150px] h-14"
           />
             {/* Test Code */}
             <div className="text-5xl md:hidden text-white mt-5" onClick={() => setOpen(!open)}>
