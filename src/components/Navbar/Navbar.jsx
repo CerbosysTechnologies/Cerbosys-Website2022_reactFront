@@ -8,6 +8,7 @@ import IndustryNavLinks from "./IndustryNavLinks";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [colorChange, setColorchange] = useState(false);
+
   const changeNavbarColor = () =>{
      if(window.scrollY >= 80){        
        setColorchange(true);
@@ -22,10 +23,10 @@ const Navbar = () => {
 
 
   return (
-    <nav className="bg-transparent sticky">
+    <nav className="z-0 bg-transparent fixed m-auto  w-full">
       <div className="flex items-center font-heading justify-around">
         {/* Logo Div */}
-        <div className="z-50 p-5 md:w-auto w-full flex justify-between">
+        <div className="z-10 p-5 md:w-auto w-full flex justify-between">
           <img
             src={cerbosyswhite}
             alt="logo"
@@ -39,7 +40,7 @@ const Navbar = () => {
 
         {/* Menu */}
 
-        <ul className="md:flex hidden uppercase items-center gap-1 font-heading text-white">
+        <ul className="md:flex hidden uppercase items-center gap-1 font-heading text-white text-sm">
           <li>
             <Link to="/" className="py-7 px-1 inline-block">
               Home
@@ -88,9 +89,9 @@ const Navbar = () => {
         {/* Call Icon */}
         <div className="md:flex hidden">
           <img
-            className="w-[40px] h-[30px] mr-1"
+            className="w-[40px] h-[30px] mr-1 cursor-pointer"
             src={callicon}
-            alt="callicon"
+            alt="callicon" 
           />
           <span className="text-sm font-heading mt-1 text-white">
             0731-4993444
