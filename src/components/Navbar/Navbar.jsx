@@ -1,29 +1,54 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import cerbosyswhite from "../../assets/cerbosys_blueball_white_svg.svg";
+import cerbosysblack from "../../assets/cerbosys_blueball_black_svg.svg";
 import callicon from "../../assets/call_icon.png";
 import NavLinks from "./ServiceNavLinks";
 import IndustryNavLinks from "./IndustryNavLinks";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  const [colorChange, setColorchange] = useState(false);
 
-  const changeNavbarColor = () =>{
-     if(window.scrollY >= 80){        
-       setColorchange(true);
-     }
-     else{
-       setColorchange(false);
-     }
-  };
-  window.addEventListener('scroll', changeNavbarColor);
+  //navbar scroll when active state
+  const [navbar, setNavbar] = useState(false)
 
+  //logo scroll when active
+  const [navbarLogo, setNavbarLogo] = useState(cerbosyswhite)
 
+    //navbar scroll changeBackground function
+    const changeBackground = () => {
+      console.log(window.scrollY)
+      if (window.scrollY >= 66) {
+        setNavbar(true)
+      } else {
+        setNavbar(false)
+      }
+    }
+
+    useEffect(() => {
+      changeBackground()      // adding the event when scroll change background
+      window.addEventListener("scroll", changeBackground)
+    })
+  
+    //logo scroll function
+    const changeLogo = () => {
+      if (window.scrollY >= 60) {
+        setNavbarLogo(cerbosysblack)
+      } else {
+        setNavbarLogo(cerbosyswhite)
+      }
+    }
+  
+    useEffect(() => {
+      changeLogo()
+      // adding the event when scroll change Logo
+      window.addEventListener("scroll", changeLogo)
+    })
 
 
   return (
     <nav className="z-0 bg-transparent fixed m-auto  w-full">
+       
       <div className="flex items-center font-heading justify-around">
         {/* Logo Div */}
         <div className="z-10 p-5 md:w-auto w-full flex justify-between">
@@ -42,12 +67,12 @@ const Navbar = () => {
 
         <ul className="md:flex hidden uppercase items-center gap-1 font-heading text-white text-sm">
           <li>
-            <Link to="/" className="py-7 px-1 inline-block">
+            <Link to="/" className="py-5 px-1 inline-block">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/" className="py-7 px-1 inline-block">
+            <Link to="/" className="py-5 px-1 inline-block">
               Company
             </Link>
           </li>
@@ -64,22 +89,22 @@ const Navbar = () => {
           </li> */}
           <IndustryNavLinks></IndustryNavLinks>
           <li>
-            <Link to="/" className="py-7 px-1 inline-block">
+            <Link to="/" className="py-5 px-1 inline-block">
               Case Study
             </Link>
           </li>
           <li>
-            <Link to="/" className="py-7 px-1 inline-block">
+            <Link to="/" className="py-5 px-1 inline-block">
               Blog
             </Link>
           </li>
           <li>
-            <Link to="/" className="py-7 px-1 inline-block">
+            <Link to="/" className="py-5 px-1 inline-block">
               Team
             </Link>
           </li>
           <li>
-            <Link to="/" className="py-7 px-1 inline-block">
+            <Link to="/" className="py-5 px-1 inline-block">
               Contact Us
             </Link>
           </li>

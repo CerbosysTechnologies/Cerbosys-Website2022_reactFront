@@ -5,8 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+  
     backgroundImage: {
       Hero: "url('assets/header.png')",
+      Service: "url('assets/services/service_ page_background.png')",
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],
