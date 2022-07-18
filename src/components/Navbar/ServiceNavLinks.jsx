@@ -45,9 +45,9 @@ const NavLinks = () => {
                 {/* First Row */}
                 <div className="flex flex-wrap flex-col m-2 border-r-2">
                   <div className="mt-[-46px] ">
-                    <h1 className="font-heading underline text-lg">
+                    <span className="font-heading underline text-lg">
                       Web Development
-                    </h1>
+                    </span>
                     <ul className="text-sm font-subheading list-inside list-disc">
                       <li> Reactjs Development</li>
                       <li> Nodejs Development</li>

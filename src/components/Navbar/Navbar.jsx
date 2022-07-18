@@ -10,25 +10,35 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   //navbar scroll when active state
-  const [navbar, setNavbar] = useState(false)
+  //const [navbar, setNavbar] = useState(false)
 
   //logo scroll when active
   const [navbarLogo, setNavbarLogo] = useState(cerbosyswhite)
 
     //navbar scroll changeBackground function
-    const changeBackground = () => {
-      console.log(window.scrollY)
-      if (window.scrollY >= 66) {
-        setNavbar(true)
-      } else {
-        setNavbar(false)
-      }
-    }
+    // const changeBackground = () => {
+    //   console.log(window.scrollY)
+    //   if (window.scrollY >= 66) {
+    //     setNavbar(true)
+    //   } else {
+    //     setNavbar(false)
+    //   }
+    // }
+
+    const [headerVisible, setheaderVisible] = useState(false);
 
     useEffect(() => {
-      changeBackground()      // adding the event when scroll change background
-      window.addEventListener("scroll", changeBackground)
-    })
+      if (typeof window !== "undefined") {
+        window.addEventListener("scroll", () =>
+        setheaderVisible(window.pageYOffset > 100)
+        );
+      }
+    }, []);
+
+    // useEffect(() => {
+    //   changeBackground()      // adding the event when scroll change background
+    //   window.addEventListener("scroll", changeBackground)
+    // })
   
     //logo scroll function
     const changeLogo = () => {
@@ -47,13 +57,12 @@ const Navbar = () => {
 
 
   return (
-    <nav className="z-0 bg-transparent fixed m-auto  w-full">
-       
+    <nav className={!headerVisible ? "z-0 bg-transparent fixed m-auto w-full": "z-0 bg-gray-500 fixed m-auto w-full" }>
       <div className="flex items-center font-heading justify-around">
         {/* Logo Div */}
         <div className="z-10 p-5 md:w-auto w-full flex justify-between">
           <img
-            src={cerbosyswhite}
+            src={!headerVisible ? cerbosyswhite : cerbosysblack}
             alt="logo"
             className="md:cursor-pointer w-[150px] h-14"
           />
@@ -166,6 +175,7 @@ const Navbar = () => {
         </ul>
       </div>
     </nav>
+ 
   );
 };
 
