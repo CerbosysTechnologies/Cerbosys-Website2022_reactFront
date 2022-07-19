@@ -8,23 +8,7 @@ import IndustryNavLinks from "./IndustryNavLinks";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-
-  //navbar scroll when active state
-  //const [navbar, setNavbar] = useState(false)
-
-  //logo scroll when active
-  const [navbarLogo, setNavbarLogo] = useState(cerbosyswhite)
-
-    //navbar scroll changeBackground function
-    // const changeBackground = () => {
-    //   console.log(window.scrollY)
-    //   if (window.scrollY >= 66) {
-    //     setNavbar(true)
-    //   } else {
-    //     setNavbar(false)
-    //   }
-    // }
-
+    //Nevbar scrolling effect
     const [headerVisible, setheaderVisible] = useState(false);
 
     useEffect(() => {
@@ -35,29 +19,10 @@ const Navbar = () => {
       }
     }, []);
 
-    // useEffect(() => {
-    //   changeBackground()      // adding the event when scroll change background
-    //   window.addEventListener("scroll", changeBackground)
-    // })
-  
-    //logo scroll function
-    const changeLogo = () => {
-      if (window.scrollY >= 60) {
-        setNavbarLogo(cerbosysblack)
-      } else {
-        setNavbarLogo(cerbosyswhite)
-      }
-    }
-  
-    useEffect(() => {
-      changeLogo()
-      // adding the event when scroll change Logo
-      window.addEventListener("scroll", changeLogo)
-    })
 
 
   return (
-    <nav className={!headerVisible ? "z-0 bg-transparent fixed m-auto w-full": "z-0 bg-gray-500 fixed m-auto w-full" }>
+    <nav className={!headerVisible ? "z-0 bg-transparent fixed m-auto w-full": "z-0 bg-white fixed m-auto w-full" }>
       <div className="flex items-center font-heading justify-around">
         {/* Logo Div */}
         <div className="z-10 p-5 md:w-auto w-full flex justify-between">
@@ -74,7 +39,9 @@ const Navbar = () => {
 
         {/* Menu */}
 
-        <ul className="md:flex hidden uppercase items-center gap-1 font-heading text-white text-sm">
+        <ul className={`md:flex hidden uppercase items-center gap-1 font-heading text-white text-sm
+        ${!headerVisible ? "text-white" : "text-black"}
+        `}>
           <li>
             <Link to="/" className="py-5 px-1 inline-block">
               Home
@@ -127,7 +94,8 @@ const Navbar = () => {
             src={callicon}
             alt="callicon" 
           />
-          <span className="text-sm font-heading mt-1 text-white">
+          <span className={`text-sm font-heading mt-1 text-white
+          ${!headerVisible ? "text-white" : "text-black"}`}>
             0731-4993444
           </span>
         </div>
