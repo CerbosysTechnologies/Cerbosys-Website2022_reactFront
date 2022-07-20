@@ -29,6 +29,7 @@ const ServiceHomePage = () => {
                 Asperiores, consectetur? Placeat, nostrum? Tempore totam cumque deserunt nobis velit dicta 
                 dignissimos iste a perferendis? Aut molestias rem tempore.
             </p>
+
             <div className='mx-auto grid md:grid-cols-3 grid-cols-2 
             items-center justify-center text-center gap-8 w-3/4'>
                     {/* Mobile App Developemnt */}
@@ -65,7 +66,10 @@ const ServiceHomePage = () => {
                     <div>
                     <img alt='Lead Generation Icon' src={leadrgenerationicon} className='w-[70px] h-[70px] mb-2'/>
                         <h1 className='font-subheading text-left text-xl w-1/2'>Lead Generation</h1>
-                        <p className='font-content text-left text-sm'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum enim illo sit facilis </p>
+                        <p className='font-content text-left text-sm'>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum enim illo sit facilis 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nihil vitae labore dicta! Magni reiciendis placeat quod aut accusamus veritatis voluptatibus facere, soluta maiores sit aspernatur magnam. Illo, dolor rerum.    
+                        </p>
                     </div>
                 </div>
             </div>
