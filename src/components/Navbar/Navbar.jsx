@@ -32,7 +32,9 @@ const Navbar = () => {
             className="md:cursor-pointer w-[150px] h-14"
           />
             {/* Test Code */}
-            <div className="text-5xl md:hidden text-white mt-5" onClick={() => setOpen(!open)}>
+            <div className={`text-5xl md:hidden mt-5 ${!headerVisible ? "text-white" : "text-black"}`} onClick={() => 
+              setOpen(!open)
+              }>
               <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
             </div>
           </div>

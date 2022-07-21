@@ -60,7 +60,7 @@ const NavLinks = () => {
                       Lead Generation
                     </h1>
                     <h1 className="font-heading underline text-lg">
-                      Brand Packaging
+                      Brand And Packaging
                     </h1>
                   </div>
                 </div>
