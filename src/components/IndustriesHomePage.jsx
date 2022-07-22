@@ -19,14 +19,15 @@ const IndustriesHomePage = () => {
     <div className="bg-[#404CDC] mx-auto w-full h-full py-16 px-4 ">
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
         {/* Content Part */}
-        <div className='flex flex-col justify-center'>
-          <h1 className='text-white font-heading text-xl'>Our Industries</h1>
-          <p className='text-white font-content text-lg'>
+        <div className='flex flex-col text-justify justify-center px-16'>
+
+          <h1 className='text-white font-heading md:text-xl text-lg '>Our Industries</h1>
+          <div className='text-white font-content text-sm md:text-lg'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
             molestiae delectus culpa hic assumenda, voluptate reprehenderit
             dolore autem cum ullam sed odit perspiciatis. Doloribus quos velit,
             eveniet ex deserunt fuga?
-          </p>
+          </div>
         </div>
         {/* Content Part */}
         {/* Icons Starts */}

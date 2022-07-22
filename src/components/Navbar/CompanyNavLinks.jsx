@@ -1,22 +1,19 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 
-const IndustryNavLinks = () => {
-  const [heading, setHeading] = useState("Industries");
-  const [subHeading, setSubHeading] = useState("");
+const CompanyNavLinks = () => {
+    const [heading, setHeading] = useState("Company");
+    const [subHeading, setSubHeading] = useState("");
 
   return (
     <div>
       <div className="px-3 text-left md:cursor-pointer group">
         <h1
-          onClick={() => {
-            heading !== "Industries"
-              ? setHeading("Industries")
+        onClick={() => {
+            heading !== "Company"
+              ? setHeading("Company")
               : setHeading("");
             setSubHeading("");
-          }}
-        >
-          {"Industries"}
-        </h1>
+          }}>{"Company"}</h1>
 
         <div className="absolute top-20 left-2 right-2 hidden group-hover:md:block hover:md:block ">
           <div className="bg-[#404CDC] flex flex-row items-center justify-center md:h-[450px]">
@@ -24,15 +21,15 @@ const IndustryNavLinks = () => {
             <div className="flex flex-wrap flex-col m-2 border-r-2 py-10">
               <div className="mt-[10px] ">
                 <ul className="text-sm font-subheading list-inside list-disc px-5">
-                  <li> Agriculture</li>
-                  <li> Ecommerce and Retail</li>
-                  <li> Healthcare and Life Science</li>
-                  <li> Banking and Finance</li>
-                  <li> Mining</li>
-                  <li> Transport and Logistics</li>
-                  <li> Education</li>
-                  <li> Real Estate and Construction</li>
-                  <li> Manufacturing</li>
+                  <li> Overview</li>
+                  <li> About Us</li>
+                  <li> CEO'S Desk</li>
+                  <li> Board Of Directors</li>
+                  <li> Training and Development</li>
+                  <li> Team</li>
+                  <li> Life @ Cerbosys</li>
+                  <li> Diversity @ Cerbosys</li>
+                  <li> Current Openings</li>
                 </ul>
               </div>
             </div>
@@ -43,7 +40,7 @@ const IndustryNavLinks = () => {
               <div className="">
                 <button
                   className="bg-blue-400 rounded-full 
-            font-heading px-6 py-2 text-white uppercase m-6"
+              font-heading px-6 py-2 text-white uppercase m-6"
                 >
                   Get Free Estimation
                 </button>
@@ -76,19 +73,22 @@ const IndustryNavLinks = () => {
       {/* Mobile Menu Starts */}
 
       <div
-        className={` ${heading === "Industries" ? "hidden" : "md:hidden"}`}>
+        className={`
+        ${heading === "Company" ? "hidden" : "md:hidden"}
+      `}
+      >
         <div className="flex flex-wrap flex-col m-2">
           <div className="mt-[-10px] ">
             <ul className="text-sm font-subheading list-inside list-disc">
-              <li> Agriculture</li>
-              <li> Ecommerce and Retail</li>
-              <li> Healthcare and Life Science</li>
-              <li> Banking and Finance</li>
-              <li> Mining</li>
-              <li> Transport and Logistics</li>
-              <li> Education</li>
-              <li> Real Estate and Construction</li>
-              <li> Manufacturing</li>
+              <li> Overview</li>
+              <li> About Us</li>
+              <li> CEO'S Desk</li>
+              <li> Board Of Directors</li>
+              <li> Training and Development</li>
+              <li> Team</li>
+              <li> Life @ Cerbosys</li>
+              <li> Diversity @ Cerbosys</li>
+              <li> Current Openings</li>
             </ul>
           </div>
         </div>
@@ -99,4 +99,4 @@ const IndustryNavLinks = () => {
   );
 };
 
-export default IndustryNavLinks;
+export default CompanyNavLinks;

@@ -1,11 +1,14 @@
 import React from "react";
 import Navbar from "./Navbar/Navbar";
 
+import fb from '../assets/footer/Facebook.svg'
+
 const Hero = () => {
   return (
     <>
       <Navbar />
-      <div className="mx-auto w-full h-screen py-16 px-4 bg-Hero bg-cover md:bg-top bg-center">
+      <div className="mx-auto w-full md:h-screen h-full py-16 px-4 bg-Hero bg-cover md:bg-top bg-center">
+
 
         {/* Free Quote */}
         <div className="fixed z-20 top-1/2 right-[-4.55rem] bg-[#404CDC] 
@@ -17,21 +20,21 @@ const Hero = () => {
 
 {/* Content Section */}
         <div className="flex flex-col justify-center text-center items-center h-3/4 mx-auto">
-          <p className="text-white font-heading py-2 md:text-lg text-sm mb-4 mt-20">
+          <p className="text-white font-heading py-2 md:text-lg text-sm mb-8 md:mt-48">
             Experience A New Degree Of Innovation
           </p>
-          <p className="text-white font-heading py-3 md:text-3xl text-lg">
+          <p className="text-white font-heading py-3 md:text-3xl text-lg md:w-[500px] w-[350px] mb-8">
             The Ultimate Mobile App & Web Solutions for Every Trade
           </p>
 
-          <p className="text-white font-heading md:text-sm text-xs">
+          <p className="text-white font-heading md:text-lg text-sm mb-8 md:w-[730px] w-[420px]">
             Accelerate your business growth with our customer-led, insights
             driven and innovative solutions
           </p>
 
             <button
               className="bg-[#404CDC] rounded-full font-heading md:px-5 md:py-2 md:text-lg
-              text-white uppercase px-3 py-1.5 text-xs"
+              text-white uppercase px-3 py-1.5 text-xs mb-6"
             >
               start your free consulation
             </button>

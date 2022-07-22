@@ -41,10 +41,10 @@ const NavLinks = () => {
 
           <div>
             <div className="absolute top-25 left-2 right-2 hidden group-hover:md:block hover:md:block ">
-              <div className="bg-[#404CDC] flex flex-row items-center justify-center">
+              <div className="bg-[#404CDC] flex flex-row items-center justify-center md:h-[450px]">
                 {/* First Row */}
-                <div className="flex flex-wrap flex-col m-2 border-r-2">
-                  <div className="mt-[-46px] ">
+                <div className="flex flex-wrap flex-col m-2 border-r-2 py-8">
+                  <div className="mx-6">
                     <span className="font-heading underline text-lg">
                       Web Development
                     </span>
@@ -67,8 +67,8 @@ const NavLinks = () => {
                 {/* First Row Ends */}
 
                 {/* Second Row */}
-                <div className="flex flex-wrap flex-col m-2 border-r-2">
-                  <div className="mt-[2px]">
+                <div className="flex flex-wrap flex-col m-2 border-r-2 py-8">
+                  <div className="mx-5">
                     <h1 className="font-heading underline text-lg">
                       Mobile Development
                     </h1>
@@ -79,7 +79,7 @@ const NavLinks = () => {
                     </ul>
                   </div>
 
-                  <div className="">
+                  <div className="mx-5">
                     <h1 className="font-heading underline text-lg ">
                       UI/UX Development
                     </h1>
@@ -94,9 +94,9 @@ const NavLinks = () => {
                 </div>
                 {/* Second Row Ends */}
 
-                {/* Third Row */}
-                <div className="flex flex-wrap flex-col m-2 border-r-2">
-                  <div className="mt-[-5px]">
+                {/* Third Row */} 
+                <div className="flex flex-wrap flex-col m-2 border-r-2 py-8">
+                  <div className="mx-5">
                     <h1 className="font-heading underline text-lg">
                       Staff Augmentation
                     </h1>
@@ -117,22 +117,22 @@ const NavLinks = () => {
                 {/* Third Row Ends */}
 
                 {/* Fourth Row */}
-                <div className="flex flex-wrap flex-col justify-evenly">
-                  <div className="">
+                <div className="flex flex-wrap flex-col justify-evenly py-8">
+                  <div className="mx-3">
                     <button
                       className="bg-blue-400 rounded-full 
-            font-heading px-6 py-3 text-white uppercase m-8"
+            font-heading px-6 py-3 text-white uppercase "
                     >
                       Get Free Estimation
                     </button>
 
-                    <div className="font-subheading text-lg m-8">
+                    <div className="font-subheading text-lg mt-8">
                       call us at
                       <p>+91 731 499 3444</p>
                       <p>+91 88 3969 7183</p>
                     </div>
 
-                    <div className="font-subheading text-lg m-8">
+                    <div className="font-subheading text-lg mt-8">
                       email us at
                       <p>info@cerbosys.com</p>
                     </div>

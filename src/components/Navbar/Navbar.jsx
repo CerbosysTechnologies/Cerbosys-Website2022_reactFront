@@ -5,6 +5,7 @@ import cerbosysblack from "../../assets/cerbosys_blueball_black_svg.svg";
 import callicon from "../../assets/call_icon.png";
 import NavLinks from "./ServiceNavLinks";
 import IndustryNavLinks from "./IndustryNavLinks";
+import CompanyNavLinks from "./CompanyNavLinks";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -43,28 +44,20 @@ const Navbar = () => {
 
         <ul className={`md:flex hidden uppercase items-center gap-1 font-heading text-white text-sm
         ${!headerVisible ? "text-white" : "text-black"}
-        `}>
-          <li>
-            <Link to="/" className="py-5 px-1 inline-block">
-              Home
-            </Link>
-          </li>
-          <li>
+        `}>         
+          {/* <li>
             <Link to="/" className="py-5 px-1 inline-block">
               Company
             </Link>
-          </li>
+          </li> */}
+          <CompanyNavLinks></CompanyNavLinks>
           {/* <li >
             <Link to="/" className="py-7 px-1 inline-block">
               Services
             </Link>
           </li> */}
           <NavLinks></NavLinks>
-          {/* <li>
-            <Link to="/" className="py-7 px-1 inline-block">
-              Industries
-            </Link>
-          </li> */}
+
           <IndustryNavLinks></IndustryNavLinks>
           <li>
             <Link to="/" className="py-5 px-1 inline-block">
@@ -76,11 +69,7 @@ const Navbar = () => {
               Blog
             </Link>
           </li>
-          <li>
-            <Link to="/" className="py-5 px-1 inline-block">
-              Team
-            </Link>
-          </li>
+
           <li>
             <Link to="/" className="py-5 px-1 inline-block">
               Contact Us
@@ -111,17 +100,9 @@ const Navbar = () => {
         duration-500 ${open ? "left-0" : "left-[-100%]"}
         `}
         >
-          <li>
-            <Link to="/" className="py-1 px-1 inline-block">
-              Home
-            </Link>
-          </li>
+          <CompanyNavLinks></CompanyNavLinks>
           <NavLinks />
-          <li>
-            <Link to="/" className="py-1 px-1 inline-block">
-              Industries
-            </Link>
-          </li>
+          <IndustryNavLinks />
           <li>
             <Link to="/" className="py-1 px-1 inline-block">
               Case Study
@@ -131,12 +112,7 @@ const Navbar = () => {
             <Link to="/" className="py-1 px-1 inline-block">
               Blog
             </Link>
-          </li>
-          <li>
-            <Link to="/" className="py-1 px-1 inline-block">
-              Case Study
-            </Link>
-          </li>
+          </li>         
           <li>
             <Link to="/" className="py-1 px-1 inline-block">
               Contact Us
