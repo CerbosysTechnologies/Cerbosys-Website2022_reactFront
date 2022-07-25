@@ -9,6 +9,7 @@ module.exports = {
     backgroundImage: {
       Hero: "url('assets/header.png')",
       Service: "url('assets/services/service_ page_background.png')",
+      WebDevelopment: "url('assets/innerpage/webdevelopment/web_developmentpage_background.jpg')"
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],
