@@ -15,7 +15,7 @@ const Footer = () => {
     <div>
       <div className="bg-[#24262A] w-full h-full mx-auto py-5 px-16 ">
         <div className="max-w-[1240px] mx-auto">
-          <div className="grid md:grid-cols-5 gap-10">
+          <div className="grid md:grid-cols-4 gap-5">
             {/* First Col */}
             <div>
               <img
@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
             {/* First Col Ends */}
             {/* Main Div of all three columns */}
-            <div className="md:col-span-4 flex justify-between m-10 mt-16">
+            <div className="md:col-span-3  flex flex-wrap justify-between m-10 mt-16">
               {/* Second Column */}
               <div>
                 <h6 className="font-heading text-lg text-white uppercase mb-3">

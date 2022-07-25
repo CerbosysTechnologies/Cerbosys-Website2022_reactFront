@@ -15,6 +15,9 @@ const NavLinks = () => {
     {
       Head: "UI/UX Development",
     },
+    {
+      Head: "Digital Marketing",
+    },
   ];
 
   return (
@@ -44,7 +47,7 @@ const NavLinks = () => {
               <div className="bg-[#404CDC] flex flex-row items-center justify-center md:h-[450px]">
                 {/* First Row */}
                 <div className="flex flex-wrap flex-col m-2 border-r-2 py-8">
-                  <div className="mx-6">
+                  <div className="mx-4">
                     <span className="font-heading underline text-lg">
                       Web Development
                     </span>
@@ -55,7 +58,19 @@ const NavLinks = () => {
                     </ul>
                   </div>
 
-                  <div className="mt-16 ">
+                  <div className="mx-4">
+                    <span className="font-heading underline text-lg">
+                      Digital Marketing
+                    </span>
+                    <ul className="text-sm font-subheading list-inside list-disc">
+                      <li> Search Engine Optimization</li>
+                      <li> Social Media Marketing</li>
+                      <li> Paid Advertising</li>
+                    </ul>
+                  </div>
+
+
+                  <div className="mt-4 mx-4">
                     <h1 className="font-heading underline text-lg">
                       Lead Generation
                     </h1>
@@ -68,7 +83,7 @@ const NavLinks = () => {
 
                 {/* Second Row */}
                 <div className="flex flex-wrap flex-col m-2 border-r-2 py-8">
-                  <div className="mx-5">
+                  <div className="mx-4">
                     <h1 className="font-heading underline text-lg">
                       Mobile Development
                     </h1>
@@ -79,7 +94,7 @@ const NavLinks = () => {
                     </ul>
                   </div>
 
-                  <div className="mx-5">
+                  <div className="mx-4">
                     <h1 className="font-heading underline text-lg ">
                       UI/UX Development
                     </h1>
@@ -96,7 +111,7 @@ const NavLinks = () => {
 
                 {/* Third Row */} 
                 <div className="flex flex-wrap flex-col m-2 border-r-2 py-8">
-                  <div className="mx-5">
+                  <div className="mx-4">
                     <h1 className="font-heading underline text-lg">
                       Staff Augmentation
                     </h1>
