@@ -69,7 +69,7 @@ const ServiceDesc = () => {
 
         {/* Third Section */}
             <div className="flex flex-row flex-wrap items-center gap-8 mt-36 mx-auto">
-                <img src={technologyicon} alt="Technology Icon" />
+                <img src={technologyicon} alt="Technology Icon" className=""/>
             </div>
         {/* Third Section Ends*/}
 

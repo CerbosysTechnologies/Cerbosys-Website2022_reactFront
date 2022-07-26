@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+
 
 
 const NavLinks = () => {
@@ -49,7 +51,7 @@ const NavLinks = () => {
                 <div className="flex flex-wrap flex-col m-2 border-r-2 py-8">
                   <div className="mx-4">
                     <span className="font-heading underline text-lg">
-                      Web Development
+                      <Link to={"./WebDevelopment"}>Web Development</Link>
                     </span>
                     <ul className="text-sm font-subheading list-inside list-disc">
                       <li> Reactjs Development</li>

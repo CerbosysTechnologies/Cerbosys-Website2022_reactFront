@@ -1,5 +1,10 @@
 import React from "react";
 import Navbar from "./Navbar/Navbar";
+import ServiceHomePage from '../components/ServiceHomePage';
+import TechnologyHomePage from '../components/TechnologyHomePage';
+import IndustriesHomePage from '../components/IndustriesHomePage';
+import CustomerRelationHomePage from '../components/CustomerRelationHomePage';
+import Footer from '../components/Footer';
 
 import fb from '../assets/footer/Facebook.svg'
 
@@ -44,8 +49,13 @@ const Hero = () => {
           </p>
         </div>
 
-        {/* Content Section Ends*/}
+        {/* Content Section Ends*/}       
       </div>
+      <ServiceHomePage />
+      <IndustriesHomePage />
+      <CustomerRelationHomePage />
+      <TechnologyHomePage />
+      <Footer />
     </>
   );
 };

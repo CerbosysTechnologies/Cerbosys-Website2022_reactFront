@@ -14,11 +14,12 @@ const InnerNavbar = () => {
       <div className="flex items-center font-heading justify-around">
         {/* Logo Div */}
         <div className="z-10 p-5 md:w-auto w-full flex justify-between h-24">
+          <Link to="/">
           <img
             src={cerbosysblack}
             alt="logo"
             className="md:cursor-pointer w-[150px] h-14"
-          />
+          /></Link>
             {/* Test Code */}
             <div className={`text-5xl md:hidden mt-5 text-black`} onClick={() => 
               setOpen(!open)

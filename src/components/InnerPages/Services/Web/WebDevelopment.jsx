@@ -3,6 +3,7 @@ import Footer from "../../../Footer";
 import InnerNavbar from '../../../Navbar/InnerNavbar'
 import ServiceDesc from "./ServiceDesc";
 import ServiceDiagram from "./ServiceDiagram";
+import ServiceForm from "./ServiceForm";
 import ServiceProcess from "./ServiceProcess";
 
 const WebDevelopment = () => {
@@ -51,6 +52,7 @@ const WebDevelopment = () => {
         <ServiceDesc />
         <ServiceDiagram />
         <ServiceProcess />
+        <ServiceForm />
         <Footer />
       </>
     </div>
