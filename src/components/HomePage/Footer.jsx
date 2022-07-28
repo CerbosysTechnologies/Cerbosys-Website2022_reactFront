@@ -1,19 +1,19 @@
 import React from "react";
-import callicon from "../assets/footer/call_icon.svg";
-import emailicon from "../assets/footer/email_icon.svg";
-import fbcon from "../assets/footer/Facebook.svg";
-import instagramicon from "../assets/footer/Instagram.svg";
-import linkedinicon from "../assets/footer/Linkedin.svg";
-import locationicon from "../assets/footer/Location_icon.svg";
-import twittericon from "../assets/footer/Twittter.svg";
-import whatsappicon from "../assets/footer/Whatsapp_icon.svg";
-import youtubeicon from "../assets/footer/Youtube.svg";
-import footerlogo from "../assets/footer/Logo_in_footer.svg";
+import callicon from "../../assets/footer/call_icon.svg";
+import emailicon from "../../assets/footer/email_icon.svg";
+import fbcon from "../../assets/footer/Facebook.svg";
+import instagramicon from "../../assets/footer/Instagram.svg";
+import linkedinicon from "../../assets/footer/Linkedin.svg";
+import locationicon from "../../assets/footer/Location_icon.svg";
+import twittericon from "../../assets/footer/Twittter.svg";
+import whatsappicon from "../../assets/footer/Whatsapp_icon.svg";
+import youtubeicon from "../../assets/footer/Youtube.svg";
+import footerlogo from "../../assets/footer/Logo_in_footer.svg";
 
 const Footer = () => {
   return (
     <div>
-      <div className="bg-[#24262A] w-full h-full mx-auto py-5 px-16 ">
+      <div className="bg-[#24262A] w-full h-full mx-auto py-4 px-24">
         <div className="max-w-[1240px] mx-auto">
           <div className="grid md:grid-cols-4 gap-5">
             {/* First Col */}
@@ -35,13 +35,13 @@ const Footer = () => {
             </div>
             {/* First Col Ends */}
             {/* Main Div of all three columns */}
-            <div className="md:col-span-3  flex flex-wrap justify-between m-10 mt-16">
+            <div className="md:col-span-3 flex flex-wrap justify-center m-3 mt-16 gap-4">
               {/* Second Column */}
               <div>
                 <h6 className="font-heading text-lg text-white uppercase mb-3">
                   Explore
                 </h6>
-                <ul className="text-gray-400 font-subheading text-xs grid md:grid-cols-2 pr-6">
+                <ul className="text-gray-400 font-subheading text-xs grid md:grid-cols-2 pr-3">
                   <li className="col-start-1">Home</li>
                   <li className="col-start-1">Company</li>
                   <li className="col-start-1">Services</li>
@@ -80,7 +80,8 @@ const Footer = () => {
                 <h6 className="font-heading text-lg text-white uppercase grid grid-flow-row mb-3">
                   Contact Us
                 </h6>
-                <div className="flex flex-row mb-5">
+                
+                <div className="flex flex-row mb-5 md:w-64">
                   <img
                     src={locationicon}
                     alt="Location Icon"

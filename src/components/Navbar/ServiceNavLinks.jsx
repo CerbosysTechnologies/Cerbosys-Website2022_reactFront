@@ -46,7 +46,7 @@ const NavLinks = () => {
 
           <div>
             <div className="absolute top-25 left-2 right-2 hidden group-hover:md:block hover:md:block ">
-              <div className="bg-[#404CDC] flex flex-row items-center justify-center md:h-[450px]">
+              <div className="bg-Primary flex flex-row items-center justify-center md:h-[450px]">
                 {/* First Row */}
                 <div className="flex flex-wrap flex-col m-2 border-r-2 py-8">
                   <div className="mx-4">

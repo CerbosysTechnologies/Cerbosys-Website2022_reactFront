@@ -4,8 +4,13 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
-    extend: {},
-  
+    extend: {
+      colors: {
+        'Primary':'#151F53',
+        'Secondary': '#404CDC',
+      },
+    },
+
     backgroundImage: {
       Hero: "url('assets/header.png')",
       Service: "url('assets/services/service_ page_background.png')",
@@ -16,6 +21,7 @@ module.exports = {
       subheading: ['"Subheading"', "Montserrat-Medium"],
       content: ['"Content"', "Montserrat-Regular"],
     },
+
     theme: {
       screens: {
         'sm': '640px',

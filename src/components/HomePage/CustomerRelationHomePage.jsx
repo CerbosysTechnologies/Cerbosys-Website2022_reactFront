@@ -1,9 +1,9 @@
 import React from "react";
 
-import clientinteractionicon from "../assets/customer/Client_interaction.svg";
-import consolidationicon from "../assets/customer/Consolidation.svg";
-import deliverablesicon from "../assets/customer/Deliverables.svg";
-import developmenticon from "../assets/customer/Development.svg";
+import clientinteractionicon from "../../assets/customer/Client_interaction.svg";
+import consolidationicon from "../../assets/customer/Consolidation.svg";
+import deliverablesicon from "../../assets/customer/Deliverables.svg";
+import developmenticon from "../../assets/customer/Development.svg";
 
 const CustomerRelationHomePage = () => {
   return (
@@ -77,7 +77,7 @@ const CustomerRelationHomePage = () => {
 
               <div>
                 <span
-                  className="bg-[#404CDC] rounded-full font-heading md:py-3 md:px-3 md:text-lg
+                  className="bg-Primary rounded-full font-heading md:py-3 md:px-3 md:text-lg
                   text-[9px] px-1 py-1 text-white">
                   Let's Work Together
                 </span>

@@ -1,11 +1,11 @@
 import React from 'react'
-import mobileicon from '../assets/services/mobile_app_development.svg'
-import webdevelopmenticon from '../assets/services/web_development.svg'
-import staffaugmentationicon from '../assets/services/staff_augmentation.svg';
-import brandpackingicon from '../assets/services/branding_packaging.svg';
-import digitalmarketingicon from '../assets/services/digital_marketing.svg';
-import leadrgenerationicon from '../assets/services/lead_generation.svg';
-import uxdevelopmenticon from '../assets/services/ux_Development.svg';
+import mobileicon from '../../assets/services/mobile_app_development.svg'
+import webdevelopmenticon from '../../assets/services/web_development.svg'
+import staffaugmentationicon from '../../assets/services/staff_augmentation.svg';
+import brandpackingicon from '../../assets/services/branding_packaging.svg';
+import digitalmarketingicon from '../../assets/services/digital_marketing.svg';
+import leadrgenerationicon from '../../assets/services/lead_generation.svg';
+import uxdevelopmenticon from '../../assets/services/ux_Development.svg';
 
 
 

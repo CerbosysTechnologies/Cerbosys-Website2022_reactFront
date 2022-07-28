@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "./Navbar/Navbar";
-import ServiceHomePage from '../components/ServiceHomePage';
-import TechnologyHomePage from '../components/TechnologyHomePage';
-import IndustriesHomePage from '../components/IndustriesHomePage';
-import CustomerRelationHomePage from '../components/CustomerRelationHomePage';
-import Footer from '../components/Footer';
+import Navbar from "../Navbar/Navbar";
+import ServiceHomePage from '../../components/HomePage/ServiceHomePage';
+import TechnologyHomePage from '../../components/HomePage/TechnologyHomePage';
+import IndustriesHomePage from '../../components/HomePage/IndustriesHomePage';
+import CustomerRelationHomePage from '../../components/HomePage/CustomerRelationHomePage';
+import Footer from '../../components/HomePage/Footer';
 
-import fb from '../assets/footer/Facebook.svg'
+
 
 const Hero = () => {
   return (
@@ -16,7 +16,7 @@ const Hero = () => {
 
 
         {/* Free Quote */}
-        <div className="fixed z-20 top-1/2 right-[-4.55rem] bg-[#404CDC] 
+        <div className="fixed z-20 top-1/2 right-[-4.55rem] bg-Primary
          p-1 px-2 justify-end items-end rotate-90 rounded-bl-3xl rounded-br-3xl text-white">
           <span className="uppercase font-heading text-base">Get a free quote</span>
         </div>
@@ -38,7 +38,7 @@ const Hero = () => {
           </p>
 
             <button
-              className="bg-[#404CDC] rounded-full font-heading md:px-5 md:py-2 md:text-lg
+              className="bg-Primary rounded-full font-heading md:px-5 md:py-2 md:text-lg
               text-white uppercase px-3 py-1.5 text-xs mb-6"
             >
               start your free consulation

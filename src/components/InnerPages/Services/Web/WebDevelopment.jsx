@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../../../Footer";
+import Footer from "../../../HomePage/Footer";
 import InnerNavbar from '../../../Navbar/InnerNavbar'
 import ServiceDesc from "./ServiceDesc";
 import ServiceDiagram from "./ServiceDiagram";

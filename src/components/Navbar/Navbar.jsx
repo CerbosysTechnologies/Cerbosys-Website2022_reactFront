@@ -95,7 +95,7 @@ const Navbar = () => {
 
         {/* Mobile nav */}
         <ul
-          className={`bg-[#404CDC]
+          className={`bg-Primary
         md:hidden fixed w-full top-[95px] overflow-y-auto bottom-0 py-1 pl-4 text-white font-heading
         duration-500 ${open ? "left-0" : "left-[-100%]"}
         `}

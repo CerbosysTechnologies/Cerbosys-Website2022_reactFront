@@ -1,14 +1,14 @@
 import React from "react";
 
-import androidicon from "../assets/technology/andriod_icon.svg";
-import fluttericon from "../assets/technology/flutter.svg";
-import iosicon from "../assets/technology/iOS.svg";
-import mongodbicon from "../assets/technology/mongo_db.svg";
-import mysqlicon from "../assets/technology/my_sql.svg";
-import neticon from "../assets/technology/net.svg";
-import nodejsicon from "../assets/technology/node_js.svg";
-import reactjsicon from "../assets/technology/react_js.svg";
-import wordpressicon from "../assets/technology/wordpress.svg";
+import androidicon from "../../assets/technology/andriod_icon.svg";
+import fluttericon from "../../assets/technology/flutter.svg";
+import iosicon from "../../assets/technology/iOS.svg";
+import mongodbicon from "../../assets/technology/mongo_db.svg";
+import mysqlicon from "../../assets/technology/my_sql.svg";
+import neticon from "../../assets/technology/net.svg";
+import nodejsicon from "../../assets/technology/node_js.svg";
+import reactjsicon from "../../assets/technology/react_js.svg";
+import wordpressicon from "../../assets/technology/wordpress.svg";
 
 const TechnologyHomePage = () => {
   return (

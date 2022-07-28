@@ -1,5 +1,5 @@
 
-import Hero from './components/Hero'
+import Hero from './components/HomePage/Hero'
 import WebDevelopment from './components/InnerPages/Services/Web/WebDevelopment';
 import {Routes, Switch, Route} from "react-router-dom";
 
