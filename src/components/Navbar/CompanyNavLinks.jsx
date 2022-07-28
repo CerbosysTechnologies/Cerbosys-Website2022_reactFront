@@ -7,15 +7,15 @@ const CompanyNavLinks = () => {
   return (
     <div>
       <div className="px-3 text-left md:cursor-pointer group">
-        <h1
+        <h1 className="md:py-4 sm:py-3 flex justify-between items-center md:pr-0 pr-5 group"
         onClick={() => {
-            heading !== "Company"
-              ? setHeading("Company")
-              : setHeading("");
+            heading !== "Company" ? setHeading("Company") : setHeading("");
             setSubHeading("");
-          }}>{"Company"}</h1>
+          }}>{"Company"}
+                  
+          </h1>
 
-        <div className="absolute top-20 left-2 right-2 hidden group-hover:md:block hover:md:block ">
+        <div className="absolute top-20 left-2 right-2 hidden group-hover:md:block hover:md:block">
           <div className="bg-Primary flex flex-row items-center justify-center md:h-[450px]">
             {/* First Row */}
             <div className="flex flex-wrap flex-col m-2 border-r-2 py-10">

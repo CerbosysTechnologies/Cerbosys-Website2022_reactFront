@@ -74,7 +74,8 @@ const ServiceProcess = () => {
               className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
             />
           </div>
-          <div className="grid md:grid-cols-2 mt-10 gap-6 md:px-28 px-10 justify-center">
+
+          <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <div className="mx-auto flex flex-col text-justify">
               <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Creating Blueprint
@@ -93,7 +94,7 @@ const ServiceProcess = () => {
             <img
               src={processicon2}
               alt="Process Icon 2"
-              className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem] "
+              className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem]"
             />
           </div>
 
@@ -144,7 +145,7 @@ const ServiceProcess = () => {
               className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
             />
           </div>
-          <div className="grid md:grid-cols-2 mt-10 gap-6 md:px-28 px-10 justify-center">
+          <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <div className="mx-auto flex flex-col text-justify">
               <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Testing And Launching

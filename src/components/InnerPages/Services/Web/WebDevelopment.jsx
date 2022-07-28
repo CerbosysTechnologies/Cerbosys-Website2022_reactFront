@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../../../HomePage/Footer";
-import InnerNavbar from '../../../Navbar/InnerNavbar'
+import Navbar from '../../../Navbar/Navbar'
 import ServiceDesc from "./ServiceDesc";
 import ServiceDiagram from "./ServiceDiagram";
 import ServiceForm from "./ServiceForm";
@@ -10,7 +10,7 @@ const WebDevelopment = () => {
   return (
     <div>
       <>
-        <InnerNavbar />
+        <Navbar />
         <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">
           {/* Free Quote */}
           <div
@@ -38,7 +38,7 @@ const WebDevelopment = () => {
           </p>
 
           <button
-              className="bg-[#404CDC] rounded-full font-heading md:px-5 md:py-2 md:text-lg
+              className="bg-Primary rounded-full font-heading md:px-5 md:py-2 md:text-lg
               text-white uppercase px-3 py-1.5 text-xs mb-6"
             >
               Contact Us

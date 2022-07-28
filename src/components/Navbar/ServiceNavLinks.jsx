@@ -1,11 +1,18 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+
 
 
 
 const NavLinks = () => {
   const [heading, setHeading] = useState("Services");
   const [subHeading, setSubHeading] = useState("");
+
+  const history = useNavigate();
+
+  function redirect(){
+    history("./WebDevelopment")
+  }
 
   const slinks = [
     {
@@ -34,13 +41,10 @@ const NavLinks = () => {
             }}
           >
             {"Services"}
-            <span className="text-xl md:hidden inline">
+            {/* <span className="text-xl md:hidden inline">
               <ion-icon
                 name={`${heading === "Services" ? "toggle-up" : "toggle-down"}`}
               ></ion-icon>
-            </span>
-            {/* <span className="text-xl md:mt-1 md:ml-2 md:block hidden group-hover:rotate-180 group-hover:-mt-2">
-              <ion-icon name="toggle-down"></ion-icon>
             </span> */}
           </h1>
 
@@ -48,76 +52,55 @@ const NavLinks = () => {
             <div className="absolute top-25 left-2 right-2 hidden group-hover:md:block hover:md:block ">
               <div className="bg-Primary flex flex-row items-center justify-center md:h-[450px]">
                 {/* First Row */}
-                <div className="flex flex-wrap flex-col m-2 border-r-2 py-8">
-                  <div className="mx-4">
-                    <span className="font-heading underline text-lg">
-                      <Link to={"./WebDevelopment"}>Web Development</Link>
-                    </span>
-                    <ul className="text-sm font-subheading list-inside list-disc">
-                      <li> Reactjs Development</li>
-                      <li> Nodejs Development</li>
-                      <li> MEAN Development</li>
-                    </ul>
+                <div className="flex flex-wrap flex-col  border-r-2  py-8 px-10 ">
+
+                  <div className="mt-4">
+                    <h1 className="font-subheading md:text-sm text-xs">
+                      <Link to="/WebDevelopment">Web Development</Link>
+                    </h1>                
                   </div>
 
-                  <div className="mx-4">
-                    <span className="font-heading underline text-lg">
+                  <div className="mt-5">
+                    <h1 className="font-subheading md:text-sm text-xs">
                       Digital Marketing
-                    </span>
-                    <ul className="text-sm font-subheading list-inside list-disc">
-                      <li> Search Engine Optimization</li>
-                      <li> Social Media Marketing</li>
-                      <li> Paid Advertising</li>
-                    </ul>
+                    </h1>                    
                   </div>
 
 
-                  <div className="mt-4 mx-4">
-                    <h1 className="font-heading underline text-lg">
+                  <div className="mt-5">
+                    <h1 className="font-subheading md:text-sm text-xs">
                       Lead Generation
                     </h1>
-                    <h1 className="font-heading underline text-lg">
+                    </div>
+                    <div className="mt-5">
+                    <h1 className="font-subheading md:text-sm text-xs">
                       Brand And Packaging
-                    </h1>
+                    </h1>                    
                   </div>
+
+                  <div className="mt-5">
+                    <h1 className="font-subheading md:text-sm text-xs">
+                      Mobile Development
+                    </h1>                  
+                  </div>
+
+                  <div className="mt-5">
+                    <h1 className="font-subheading md:text-sm text-xs">
+                      UI/UX Development
+                    </h1>                   
+                  </div>
+
                 </div>
                 {/* First Row Ends */}
 
-                {/* Second Row */}
-                <div className="flex flex-wrap flex-col m-2 border-r-2 py-8">
-                  <div className="mx-4">
-                    <h1 className="font-heading underline text-lg">
-                      Mobile Development
-                    </h1>
-                    <ul className="text-sm font-subheading list-inside list-disc">
-                      <li>Android Development</li>
-                      <li>Mobile Development</li>
-                      <li>IOS Development</li>
-                    </ul>
-                  </div>
-
-                  <div className="mx-4">
-                    <h1 className="font-heading underline text-lg ">
-                      UI/UX Development
-                    </h1>
-                    <ul className="text-sm font-subheading list-inside list-disc">
-                      <li>UI research and analysis</li>
-                      <li>User Interface Design</li>
-                      <li>Wireframes and Prototyping</li>
-                      <li>Alternative Frontend Design</li>
-                      <li>User Experience Research and Development</li>
-                    </ul>
-                  </div>
-                </div>
-                {/* Second Row Ends */}
-
+              
                 {/* Third Row */} 
-                <div className="flex flex-wrap flex-col m-2 border-r-2 py-8">
+                <div className="flex flex-wrap flex-col m-2 border-r-2 py-7 ">
                   <div className="mx-4">
-                    <h1 className="font-heading underline text-lg">
+                    <h1 className="font-subheading md:text-sm text-xs">
                       Staff Augmentation
                     </h1>
-                    <ul className="text-sm font-subheading list-inside list-disc">
+                    <ul className="text-sm font-subheading list-inside list-disc capitalize">
                       <li>Hire Reacjs Developer</li>
                       <li>Hire Node.js Developer</li>
                       <li>Hire Android Developer</li>

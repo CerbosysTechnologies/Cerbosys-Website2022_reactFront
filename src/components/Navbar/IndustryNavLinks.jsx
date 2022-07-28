@@ -7,7 +7,7 @@ const IndustryNavLinks = () => {
   return (
     <div>
       <div className="px-3 text-left md:cursor-pointer group">
-        <h1
+        <h1 className="md:py-4 sm:py-3 flex justify-between items-center md:pr-0 pr-5 group"
           onClick={() => {
             heading !== "Industries"
               ? setHeading("Industries")

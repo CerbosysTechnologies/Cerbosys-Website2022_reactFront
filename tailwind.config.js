@@ -6,15 +6,21 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'Primary':'#151F53',
+        //'Primary':'#151F53',
+        'Primary':'#0F52BA', // Sapphire Blue
+        //'Primary':'#003399', // Rotary Blue
+        //'Primary':'#4169E1', // King Blue
+        //'Primary':'#0050B5', // Cobolt Blue
         'Secondary': '#404CDC',
+
       },
     },
 
     backgroundImage: {
       Hero: "url('assets/header.png')",
       Service: "url('assets/services/service_ page_background.png')",
-      WebDevelopment: "url('assets/innerpage/webdevelopment/web_developmentpage_background.jpg')"
+      WebDevelopment: "url('assets/innerpage/webdevelopment/web_developmentpage_background.jpg')",
+      FooterBackground: "url('assets/footer/footer_background.svg')"
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],
