@@ -5,6 +5,7 @@ import TechnologyHomePage from '../../components/HomePage/TechnologyHomePage';
 import IndustriesHomePage from '../../components/HomePage/IndustriesHomePage';
 import CustomerRelationHomePage from '../../components/HomePage/CustomerRelationHomePage';
 import Footer from '../../components/HomePage/Footer';
+import { ScrollToTop } from "../Common/ScrollToTop";
 
 
 
@@ -50,12 +51,20 @@ const Hero = () => {
         </div>
 
         {/* Content Section Ends*/}       
+
+{/* Testing Code */}
+
+
+
+{/* Testing Code Ends */}
       </div>
       <ServiceHomePage />
       <IndustriesHomePage />
       <CustomerRelationHomePage />
       <TechnologyHomePage />
       <Footer />
+
+      <ScrollToTop />
     </>
   );
 };
