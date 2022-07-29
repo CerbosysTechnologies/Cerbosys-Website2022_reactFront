@@ -20,7 +20,7 @@ module.exports = {
       Hero: "url('assets/header.png')",
       Service: "url('assets/services/service_ page_background.png')",
       WebDevelopment: "url('assets/innerpage/webdevelopment/web_developmentpage_background.jpg')",
-      FooterBackground: "url('assets/footer/footer_background.svg')"
+      FooterBackground: "url('assets/footer/footer.png')"
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],

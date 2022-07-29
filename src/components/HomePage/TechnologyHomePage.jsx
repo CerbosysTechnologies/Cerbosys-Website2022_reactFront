@@ -1,14 +1,18 @@
 import React from "react";
 
-import androidicon from "../../assets/technology/andriod_icon.svg";
+import androidicon from "../../assets/technology/andriod.svg";
 import fluttericon from "../../assets/technology/flutter.svg";
 import iosicon from "../../assets/technology/iOS.svg";
-import mongodbicon from "../../assets/technology/mongo_db.svg";
-import mysqlicon from "../../assets/technology/my_sql.svg";
+import mongodbicon from "../../assets/technology/mongodb.svg";
+import mysqlicon from "../../assets/technology/MySQL.svg";
 import neticon from "../../assets/technology/net.svg";
-import nodejsicon from "../../assets/technology/node_js.svg";
-import reactjsicon from "../../assets/technology/react_js.svg";
+import nodejsicon from "../../assets/technology/nodejs.svg";
+import reactjsicon from "../../assets/technology/reactjs.svg";
 import wordpressicon from "../../assets/technology/wordpress.svg";
+import angularicon from "../../assets/technology/angular.svg";
+import codeignitericon from "../../assets/technology/codeigniter.svg";
+import laravelicon from "../../assets/technology/laravel.svg";
+import phpicon from "../../assets/technology/php.svg";
 
 const TechnologyHomePage = () => {
   return (
@@ -68,6 +72,21 @@ const TechnologyHomePage = () => {
     <img src={neticon} alt="Net Icon" className='w-[90px] h-[90px] mb-2'></img>
 </div>  
 
+<div>
+    <img src={phpicon} alt="Php Icon" className='w-[90px] h-[90px] mb-2'></img>
+</div> 
+
+<div>
+    <img src={angularicon} alt="Angular Icon" className='w-[90px] h-[90px] mb-2'></img>
+</div> 
+
+<div>
+    <img src={laravelicon} alt="Laravel Icon" className='w-[90px] h-[90px] mb-2'></img>
+</div> 
+
+<div>
+    <img src={codeignitericon} alt="CI Icon" className='w-[90px] h-[90px] mb-2'></img>
+</div> 
 
 </div>
 

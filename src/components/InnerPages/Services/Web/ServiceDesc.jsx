@@ -38,7 +38,7 @@ const ServiceDesc = () => {
           {/* First Section Ends */}
 
           {/* Second Section */}
-          <div className="grid md:grid-cols-2 bg-[#404CDC] mt-8 rounded-3xl gap-2">
+          <div className="grid md:grid-cols-2 bg-Primary mt-8 rounded-3xl gap-2">
             {/* Image Section */}
             <img
               src={webserviceclip_articon}

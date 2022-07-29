@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-
-
-
 const NavLinks = () => {
   const [heading, setHeading] = useState("Services");
   const [subHeading, setSubHeading] = useState("");
@@ -50,7 +47,7 @@ const NavLinks = () => {
 
           <div>
             <div className="absolute top-25 left-2 right-2 hidden group-hover:md:block hover:md:block ">
-              <div className="bg-Primary flex flex-row items-center justify-center md:h-[450px]">
+              <div className="bg-Primary flex flex-row items-center justify-center md:h-[450px] text-white">
                 {/* First Row */}
                 <div className="flex flex-wrap flex-col  border-r-2  py-8 px-10 ">
 
@@ -97,7 +94,7 @@ const NavLinks = () => {
                 {/* Third Row */} 
                 <div className="flex flex-wrap flex-col m-2 border-r-2 py-7 ">
                   <div className="mx-4">
-                    <h1 className="font-subheading md:text-sm text-xs">
+                    <h1 className="font-subheading md:text-sm text-xs text-center">
                       Staff Augmentation
                     </h1>
                     <ul className="text-sm font-subheading list-inside list-disc capitalize">

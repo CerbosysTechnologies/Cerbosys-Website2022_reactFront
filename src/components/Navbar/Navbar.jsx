@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import cerbosyswhite from "../../assets/cerbosys_blueball_white_svg.svg";
+import cerbosyswhite from "../../assets/logo_tagline.svg";
 import cerbosysblack from "../../assets/cerbosys_blueball_black_svg.svg";
 import callicon from "../../assets/call_icon.png";
 import NavLinks from "./ServiceNavLinks";
@@ -42,8 +42,8 @@ const Navbar = () => {
 
         {/* Menu */}
 
-        <ul className={`md:flex hidden uppercase items-center gap-1 font-heading text-white text-sm
-        ${!headerVisible ? "text-white" : "text-black"}
+        <ul className={`md:flex hidden uppercase items-center gap-1 font-heading  text-sm
+       md:text-white  ${!headerVisible ? "" : "md:text-black"}
         `}>         
           {/* <li>
             <Link to="/" className="py-5 px-1 inline-block">

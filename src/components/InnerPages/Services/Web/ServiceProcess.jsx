@@ -15,7 +15,7 @@ const ServiceProcess = () => {
         <div className="max-w-[1240px] mx-auto ">
           {/* Heading */}
           <div className="flex flex-col flex-wrap items-center">
-            <h1 className="font-heading md:text-3xl uppercase text-[#404CDC] text-xl">
+            <h1 className="font-heading md:text-3xl uppercase text-Primary text-xl">
               Process
             </h1>
             <h2 className="font-subheading md:text-xl text-black text-sm">

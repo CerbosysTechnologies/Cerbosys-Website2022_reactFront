@@ -5,6 +5,7 @@ import ServiceDesc from "./ServiceDesc";
 import ServiceDiagram from "./ServiceDiagram";
 import ServiceForm from "./ServiceForm";
 import ServiceProcess from "./ServiceProcess";
+import { ScrollToTop } from "../../../Common/ScrollToTop";
 
 const WebDevelopment = () => {
   return (
@@ -14,7 +15,7 @@ const WebDevelopment = () => {
         <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">
           {/* Free Quote */}
           <div
-            className="fixed z-20 top-1/2 right-[-4.55rem] bg-[#404CDC] 
+            className="fixed z-20 top-1/2 right-[-4.55rem] bg-Primary
          p-1 px-2 justify-end items-end rotate-90 rounded-bl-3xl rounded-br-3xl text-white"
           >
             <span className="uppercase font-heading text-base">
@@ -54,6 +55,7 @@ const WebDevelopment = () => {
         <ServiceProcess />
         <ServiceForm />
         <Footer />
+        <ScrollToTop />
       </>
     </div>
   );

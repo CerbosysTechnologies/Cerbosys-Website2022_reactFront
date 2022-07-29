@@ -1,16 +1,16 @@
 import React from 'react'
 import agricultureicon from '../../assets/industry/Agriculture.svg';
 import bankingicon from '../../assets/industry/Banking.svg';
-import ecommerceicon from '../../assets/industry/E-commerce.svg';
+import ecommerceicon from '../../assets/industry/e-commerce.svg';
 import educationicon from '../../assets/industry/Education.svg';
 import fitnessicon from '../../assets/industry/Fitness.svg';
 import foodicon from '../../assets/industry/Food.svg';
-import healthcareicon from '../../assets/industry/Healthcare.svg';
-import logisticsicon from '../../assets/industry/Logistics.svg';
-import manufacturingicon from '../../assets/industry/Manufacturing.svg';
-import miningicon from '../../assets/industry/Mining.svg';
-import realestateicon from '../../assets/industry/Real_estate.svg';
-import transportationicon from '../../assets/industry/Transportation.svg';
+import healthcareicon from '../../assets/industry/health.svg';
+import logisticsicon from '../../assets/industry/logistics.svg';
+import manufacturingicon from '../../assets/industry/manufacturing.svg';
+import miningicon from '../../assets/industry/mining.svg';
+import realestateicon from '../../assets/industry/real_estate.svg';
+import transportationicon from '../../assets/industry/transportation.svg';
 
 const IndustriesHomePage = () => {
   return (
