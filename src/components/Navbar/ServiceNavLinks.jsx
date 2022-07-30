@@ -7,9 +7,9 @@ const NavLinks = () => {
 
   const history = useNavigate();
 
-  function redirect(){
-    history("./WebDevelopment")
-  }
+  // function redirect(){
+  //   history("./WebDevelopment")
+  // }
 
   const slinks = [
     {
@@ -77,7 +77,7 @@ const NavLinks = () => {
 
                   <div className="mt-5">
                     <h1 className="font-subheading md:text-sm text-xs">
-                      Mobile Development
+                      <Link to="/MobileDevelopment">Mobile Development</Link>
                     </h1>                  
                   </div>
 

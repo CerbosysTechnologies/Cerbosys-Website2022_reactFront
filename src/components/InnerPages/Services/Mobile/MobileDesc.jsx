@@ -1,17 +1,18 @@
-import React from "react";
-import webserviceicon from "../../../../assets/innerpage/webdevelopment/web_development_services_image.png";
-import webserviceclip_articon from "../../../../assets/innerpage/webdevelopment/illustrator.svg";
-import technologyicon from "../../../../assets/innerpage/webdevelopment/technologies_icons.svg"
-const ServiceDesc = () => {
+import React from 'react'
+import mobileserviceicon from '../../../../assets/innerpage/mobiledevelopment/mobile_app_services_image.png'
+import mobileservice_articon from '../../../../assets/innerpage/mobiledevelopment/illustrator.svg'
+import mobiletechnologyicon from '../../../../assets/innerpage/mobiledevelopment/tectnologies_mobile_app.svg'
+
+const MobileDesc = () => {
   return (
     <div>
-      <div className="bg-Service mx-auto w-full py-16 px-4 ">
+         <div className="bg-Service mx-auto w-full py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
           {/* First Section */}
           <div className="grid md:grid-cols-2">
             {/* Content Section */}
             <div className="mx-auto flex flex-col md:px-24 px-14 text-justify">
-              <h1 className="font-heading md:text-xl text-sm"> Web Development Services </h1>
+              <h1 className="font-heading md:text-xl text-sm"> Mobile App Development </h1>
               <p className="font-content md:text-sm text-xs">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
                 omnis magni! Maiores aspernatur incidunt labore minus quo hic,
@@ -27,8 +28,8 @@ const ServiceDesc = () => {
 
             {/* Image Section */}
             <img
-              src={webserviceicon}
-              alt="Web Service Icon"
+              src={mobileserviceicon}
+              alt="Mobile Service Icon"
               className="mx-auto md:w-[28rem]
              w-[18rem] mt-8"
             />
@@ -41,8 +42,8 @@ const ServiceDesc = () => {
           <div className="grid md:grid-cols-2 bg-Primary mt-8 rounded-3xl gap-2">
             {/* Image Section */}
             <img
-              src={webserviceclip_articon}
-              alt="Web Service Icon"
+              src={mobileservice_articon}
+              alt="Mobile Service Icon"
               className="md:w-[24rem] mx-auto my-8
              w-[18rem] mt-8"
             />
@@ -50,7 +51,9 @@ const ServiceDesc = () => {
 
             {/* Content Section */}
             <div className="flex flex-col md:px-24 px-14 mx-auto text-justify mt-8">
-              <h1 className="font-heading md:text-xl text-sm text-white"> Web Development Services </h1>
+              <h1 className="font-heading md:text-xl text-sm text-white"> 
+              We are aware of the Technology Pulse that Leads to Better Performance
+              </h1>
               <p className="font-content md:text-sm text-xs mb-8 text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
                 omnis magni! Maiores aspernatur incidunt labore minus quo hic,
@@ -69,7 +72,7 @@ const ServiceDesc = () => {
 
         {/* Third Section */}
             <div className="flex flex-row flex-wrap items-center gap-8 mt-36 mx-auto">
-                <img src={technologyicon} alt="Technology Icon" className=""/>
+                <img src={mobiletechnologyicon} alt="Technology Icon" className=""/>
             </div>
         {/* Third Section Ends*/}
 
@@ -78,7 +81,8 @@ const ServiceDesc = () => {
       </div>
       {/* Second Div Ends */}
     </div>
-  );
-};
+    
+  )
+}
 
-export default ServiceDesc;
+export default MobileDesc
