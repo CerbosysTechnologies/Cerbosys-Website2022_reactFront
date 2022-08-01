@@ -4,8 +4,8 @@ import ServiceHomePage from '../../components/HomePage/ServiceHomePage';
 import TechnologyHomePage from '../../components/HomePage/TechnologyHomePage';
 import IndustriesHomePage from '../../components/HomePage/IndustriesHomePage';
 import CustomerRelationHomePage from '../../components/HomePage/CustomerRelationHomePage';
-import Footer from '../../components/HomePage/Footer';
-import { ScrollToTop } from "../Common/ScrollToTop";
+import Footer from '../../components/Common/Component/Footer';
+import { ScrollToTop } from "../../components/Common/Component/ScrollToTop";
 
 
 

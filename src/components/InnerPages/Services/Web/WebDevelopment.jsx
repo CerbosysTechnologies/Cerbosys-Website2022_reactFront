@@ -1,11 +1,11 @@
 import React from "react";
-import Footer from "../../../HomePage/Footer";
 import Navbar from '../../../Navbar/Navbar'
 import ServiceDesc from "./ServiceDesc";
 import ServiceDiagram from "./ServiceDiagram";
 import ServiceForm from "./ServiceForm";
 import ServiceProcess from "./ServiceProcess";
-import { ScrollToTop } from "../../../Common/ScrollToTop";
+import Footer from '../../../Common/Component/Footer';
+import { ScrollToTop } from "../../../Common/Component/ScrollToTop";
 
 const WebDevelopment = () => {
   return (

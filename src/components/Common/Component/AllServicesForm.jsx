@@ -1,7 +1,7 @@
 import React from "react";
-import mobileservice_technologyicon from "../../../../assets/innerpage/mobiledevelopment/formimage.png";
+import mobileservice_technologyicon from "../../../assets/innerpage/mobiledevelopment/mobile_app_services_image.png";
 
-const MobileForm = () => {
+const AllServiceForm = () => {
   return (
     <div>
       <div className="bg-Primary mx-auto w-full py-16 px-4 ">
@@ -215,4 +215,4 @@ const MobileForm = () => {
   );
 };
 
-export default MobileForm;
+export default AllServiceForm;

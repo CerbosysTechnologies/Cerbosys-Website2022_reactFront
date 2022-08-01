@@ -1,14 +1,14 @@
 import React from "react";
-import callicon from "../../assets/footer/call_icon.svg";
-import emailicon from "../../assets/footer/email_icon.svg";
-import fbcon from "../../assets/footer/facebook.svg";
-import instagramicon from "../../assets/footer/Instagram.svg";
-import linkedinicon from "../../assets/footer/Linkedin.svg";
-import locationicon from "../../assets/footer/Location_icon.svg";
-import twittericon from "../../assets/footer/Twittter.svg";
-import whatsappicon from "../../assets/footer/Whatsapp_icon.svg";
-import youtubeicon from "../../assets/footer/youtube.svg";
-import footerlogo from "../../assets/footer/Logo_in_footer.svg";
+import callicon from "../../../assets/footer/call_icon.svg";
+import emailicon from "../../../assets/footer/email_icon.svg";
+import fbcon from "../../../assets/footer/facebook.svg";
+import instagramicon from "../../../assets/footer/Instagram.svg";
+import linkedinicon from "../../../assets/footer/Linkedin.svg";
+import locationicon from "../../../assets/footer/Location_icon.svg";
+import twittericon from "../../../assets/footer/Twittter.svg";
+import whatsappicon from "../../../assets/footer/Whatsapp_icon.svg";
+import youtubeicon from "../../../assets/footer/youtube.svg";
+import footerlogo from "../../../assets/footer/Logo_in_footer.svg";
 
 const Footer = () => {
   return (
@@ -38,7 +38,7 @@ const Footer = () => {
             <div className="md:col-span-3 flex flex-wrap justify-center items-center m-3 mt-16 gap-24">
               {/* Second Column */}
               <div>
-                <h6 className="font-heading text-lg text-white uppercase mb-3">
+                <h6 className="font-heading text-sm md:text-lg text-white uppercase mb-3">
                   Explore
                 </h6>
                 <ul className="text-white font-subheading text-xs ">
@@ -50,6 +50,7 @@ const Footer = () => {
                   <li className="">Blog</li>
                   <li className="">Team</li>
                   <li className="">Contact Us</li>
+                  <li></li>
                 </ul>
               </div>
 
@@ -58,7 +59,7 @@ const Footer = () => {
               {/* Third Column */}
 
               <div>
-                <h6 className="font-heading text-lg text-white uppercase mb-3">
+                <h6 className="font-heading text-sm md:text-lg text-white uppercase mb-3">
                   Services
                 </h6>
                 <ul className="text-white font-subheading text-xs">
@@ -70,6 +71,7 @@ const Footer = () => {
                   <li className="">Digital Marketing</li>
                   <li className="">Brand And Packiging</li>
                   <li className="">Lead Generation</li>
+                  <li></li>
                 </ul>
               </div>
               {/* Third Column Ends*/}
@@ -77,11 +79,11 @@ const Footer = () => {
               {/* Fourth Column */}
        {/* Industry Div */}
        <div>
-            <h1 className="font-heading text-white text-sm md:text-lg mb-3 ">
+            <h1 className="font-heading text-white text-sm md:text-lg mb-3 uppercase">
               Industries
             </h1>
         
-                <ul className="text-white font-subheading text-xs pr-6">
+                <ul className="text-white font-subheading text-xs">
                   <li className="">Agriculture</li>
                   <li className="">Ecommerce And Retail</li>
                   <li className="">Healthcare And Life Science</li>

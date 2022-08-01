@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { BiArrowFromBottom } from 'react-icons/bi'
 
-import { classNames } from './utils/classNames'
+import { classNames } from '../utils/classNames'
 
 export const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false)
@@ -36,11 +36,12 @@ export const ScrollToTop = () => {
         onClick={scrollToTop}
         className={classNames(
           isVisible ? 'opacity-100' : 'opacity-0',
-          `bg-Primary hover:bg-Primary focus:bg-Primary inline-flex items-center rounded-full 
-            p-3  text-white shadow-sm transition-opacity focus:outline-none focus:ring-2 focus:ring-offset-2`,
+          `bg-white hover:bg-white focus:bg-white inline-flex items-center rounded-full 
+            p-2  text-Primary shadow-sm transition-opacity focus:outline-none 
+            focus:ring-2 focus:ring-offset-2 animate-bounce`,
         )}
       >
-        <BiArrowFromBottom className="h-6 w-6" aria-hidden="true" ></BiArrowFromBottom>
+        <BiArrowFromBottom className="h-5 w-5" aria-hidden="true" ></BiArrowFromBottom>
       </button>
     </div>
   )

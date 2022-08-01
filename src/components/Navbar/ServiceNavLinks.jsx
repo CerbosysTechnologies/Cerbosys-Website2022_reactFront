@@ -59,7 +59,7 @@ const NavLinks = () => {
 
                   <div className="mt-5">
                     <h1 className="font-subheading md:text-sm text-xs">
-                      Digital Marketing
+                    <Link to="/DigitalMarketing">Digital Marketing</Link>
                     </h1>                    
                   </div>
 
@@ -71,7 +71,7 @@ const NavLinks = () => {
                     </div>
                     <div className="mt-5">
                     <h1 className="font-subheading md:text-sm text-xs">
-                      Brand And Packaging
+                      Branding And Packaging
                     </h1>                    
                   </div>
 
