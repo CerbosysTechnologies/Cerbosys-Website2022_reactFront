@@ -18,7 +18,7 @@ const ServiceForm = () => {
             {/* Heading Ends */}
 
             {/* Form Design */}
-            <div className="grid md:grid-cols-2  mb-4 md:px-36 py-5  mt-10">
+            <div className="grid md:grid-cols-2 mb-4 md:px-36 py-5  mt-10">
               {/* Client Section */}
               <div className="mx-auto px-10 bg-[#D9D9D9] items-center justify-center text-center">
                 <h1 className="font-heading text-3xl text-Primary"> " </h1>

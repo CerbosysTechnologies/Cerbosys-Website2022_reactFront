@@ -4,9 +4,10 @@ import Navbar from '../../../Navbar/Navbar'
 import MobileDesc from './MobileDesc';
 import MobileDiagram from './MobileDiagram';
 import MobileProcess from './MobileProcess';
+import MobileForm from './MobileForm';
 import Footer from '../../../Common/Component/Footer';
 import { ScrollToTop } from "../../../Common/Component/ScrollToTop";
-import AllServiceForm from '../../../Common/Component/AllServicesForm';
+
 
 const MobileDevelopment = () => {
   return (
@@ -53,7 +54,7 @@ const MobileDevelopment = () => {
         <MobileDesc />
         <MobileDiagram />
         <MobileProcess />
-        <AllServiceForm />
+        <MobileForm />
         <Footer />
         <ScrollToTop />
 

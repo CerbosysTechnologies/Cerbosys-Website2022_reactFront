@@ -33,7 +33,7 @@ const Navbar = () => {
             className="md:cursor-pointer w-[150px] h-14"
           /></Link>
             {/* Test Code */}
-            <div className={`text-5xl md:hidden mt-5 ${!headerVisible ? "text-white" : "text-black"}`} onClick={() => 
+            <div className={`text-5xl md:hidden m-5 ${!headerVisible ? "text-white" : "text-black"}`} onClick={() => 
               setOpen(!open)
               }>
               <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
@@ -100,21 +100,28 @@ const Navbar = () => {
         duration-500 ${open ? "left-0" : "left-[-100%]"}
         `}
         >
+          <li className="py-2 px-2 inline-block">
           <CompanyNavLinks></CompanyNavLinks>
+          </li>
+          <li className="py-2 px-2 ">
           <NavLinks />
+          </li>
+          <li className="py-2 px-2 inline-block">
           <IndustryNavLinks />
+          </li>
+
           <li>
-            <Link to="/" className="py-1 px-1 inline-block">
+            <Link to="/" className="py-3 px-3 ">
               Case Study
             </Link>
           </li>
           <li>
-            <Link to="/" className="py-1 px-1 inline-block">
+            <Link to="/" className="py-3 px-3 inline-block">
               Blog
             </Link>
           </li>         
           <li>
-            <Link to="/" className="py-1 px-1 inline-block">
+            <Link to="/" className="py-1 px-3 inline-block">
               Contact Us
             </Link>
           </li>

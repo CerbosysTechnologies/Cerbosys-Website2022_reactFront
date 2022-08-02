@@ -1,15 +1,11 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 const NavLinks = () => {
   const [heading, setHeading] = useState("Services");
   const [subHeading, setSubHeading] = useState("");
 
-  const history = useNavigate();
 
-  // function redirect(){
-  //   history("./WebDevelopment")
-  // }
 
   const slinks = [
     {
@@ -66,12 +62,12 @@ const NavLinks = () => {
 
                   <div className="mt-5">
                     <h1 className="font-subheading md:text-sm text-xs">
-                      Lead Generation
+                      <Link to="/LeadGeneration">Lead Generation</Link>
                     </h1>
                     </div>
                     <div className="mt-5">
                     <h1 className="font-subheading md:text-sm text-xs">
-                      Branding And Packaging
+                      <Link to='/BrandingAndPackaging'>Branding And Packaging</Link>
                     </h1>                    
                   </div>
 
@@ -94,7 +90,7 @@ const NavLinks = () => {
                 {/* Third Row */} 
                 <div className="flex flex-wrap flex-col m-2 border-r-2 py-7 ">
                   <div className="mx-4">
-                    <h1 className="font-subheading md:text-sm text-xs text-center">
+                    <h1 className="font-subheading md:text-sm text-xs">
                       Staff Augmentation
                     </h1>
                     <ul className="text-sm font-subheading list-inside list-disc capitalize">
@@ -138,7 +134,7 @@ const NavLinks = () => {
                 {/* Fourth Row */}
  
               {/* Slogan Line */}
-                <div className="bottom-[0px] font-heading text-xl text-center absolute border-t-2 ">
+                <div className="bottom-[0px] font-heading text-xl text-center absolute border-t-2 mb-5">
                   Enabling Business Make business
                 </div>
                 {/* Slogan Ends */}
@@ -170,41 +166,34 @@ const NavLinks = () => {
                 className="py-2 pl-2 font-heading md:pr-0 pr-5 flex justify-between items-center text-white "
               >
                 <div className="flex flex-wrap flex-col m-2">
-                  <div className="mt-[-10px] ">
-                    <h1 className="font-heading underline text-lg">
-                      Web Development
+                  <div className="mt-[5px] ">
+                    <h1 className="font-heading text-sm">
+                      <Link to='/WebDevelopment'>Web Development</Link>
                     </h1>
-                    <ul className="text-sm font-subheading list-inside list-disc">
-                      <li> Reactjs Development</li>
-                      <li> Nodejs Development</li>
-                      <li> MEAN Development</li>
-                    </ul>
+                   
                   </div>
 
-                  <div className="mt-[2px]">
-                    <h1 className="font-heading underline text-lg">
-                      Mobile Development
+                  <div className="mt-[8px]">
+                    <h1 className="font-heading text-sm">
+                    <Link to='/MobileDevelopment'>Mobile Development</Link>
                     </h1>
-                    <ul className="text-sm font-subheading list-inside list-disc">
-                      <li>Android Development</li>
-                      <li>Mobile Development</li>
-                      <li>IOS Development</li>
-                    </ul>
                   </div>
-                  <div className="">
-                    <h1 className="font-heading underline text-lg ">
+                  <div className="mt-[8px]">
+                    <h1 className="font-heading  text-sm ">
                       UI/UX Development
                     </h1>
-                    <ul className="text-sm font-subheading list-inside list-disc">
-                      <li>UI research and analysis</li>
-                      <li>User Interface Design</li>
-                      <li>Wireframes and Prototyping</li>
-                      <li>Alternative Frontend Design</li>
-                      <li>User Experience Research and Development</li>
-                    </ul>
+                   
                   </div>
-                  <div className="mt-[-5px]">
-                    <h1 className="font-heading underline text-lg">
+                  <div className="mt-[8px]">
+                    <h1 className="font-heading text-sm">
+                    <Link to='/LeadGeneration'>Lead Generation</Link>
+                    </h1>
+                    <h1 className="mt-[8px] font-heading text-sm">
+                    <Link to='/BrandingAndPackaging'>Branding And Packaging</Link>
+                    </h1>
+                  </div>
+                  <div className="mt-[5px]">
+                    <h1 className="font-heading text-sm">
                       Staff Augmentation
                     </h1>
                     <ul className="text-sm font-subheading list-inside list-disc">
@@ -219,14 +208,7 @@ const NavLinks = () => {
                       <li>Hire .Net Developer</li>
                     </ul>
                   </div>
-                  <div className="mt-3">
-                    <h1 className="font-heading underline text-lg">
-                      Lead Generation
-                    </h1>
-                    <h1 className="mt-3 font-heading underline text-lg">
-                      Brand Packaging
-                    </h1>
-                  </div>
+                  
                 </div>
 
                 {/* First Row Ends */}

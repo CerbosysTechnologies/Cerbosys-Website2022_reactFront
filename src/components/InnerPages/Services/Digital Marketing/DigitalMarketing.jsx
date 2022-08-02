@@ -6,6 +6,7 @@ import DigitalProcess from '../Digital Marketing/DigitalProcess';
 import Footer from '../../../Common/Component/Footer';
 import { ScrollToTop } from "../../../Common/Component/ScrollToTop";
 import AllServiceForm from '../../../Common/Component/AllServicesForm';
+import DigitalForm from './DigitalForm';
 
 const DigitalMarketing = () => {
   return (
@@ -52,7 +53,7 @@ const DigitalMarketing = () => {
         <DigitalDesc />
         <DigitalDiagram/>        
         <DigitalProcess />
-        <AllServiceForm />
+        <DigitalForm />
         <Footer />
         <ScrollToTop />
 
