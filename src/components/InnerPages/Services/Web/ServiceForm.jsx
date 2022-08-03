@@ -3,7 +3,7 @@ import clienticon from "../../../../assets/innerpage/webdevelopment/client.jfif"
 
 const ServiceForm = () => {
   return (
-    <div>
+    <div className="">
       <div className="bg-Primary mx-auto w-full py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
           <div className="flex flex-col flex-wrap items-center">

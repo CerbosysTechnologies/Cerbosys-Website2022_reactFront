@@ -2,10 +2,11 @@ import React from "react";
 
 const ServicesForm = () => {
   return (
+    <div >
     <div className="bg-white md:px-1 items-center justify-center text-center">
       <form>
         {/* Name Div */}
-        <div class="z-0 mb-6 w-full group">
+        <div class="mb-6 md:w-full group">
           <input
             type="text"
             name="username"
@@ -20,7 +21,7 @@ const ServicesForm = () => {
         {/* Name Div Ends */}
 
         {/* Email Div */}
-        <div class="z-0 mb-6 w-full group">
+        <div class="mb-6 md:w-full group">
           <input
             type="email"
             name="email"
@@ -35,7 +36,7 @@ const ServicesForm = () => {
         {/* Email Div Ends*/}
 
         {/* Subject Div */}
-        <div class="z-0 mb-6 w-full group">
+        <div class="mb-6 md:w-full group">
           <input
             type="text"
             name="subject"
@@ -50,7 +51,7 @@ const ServicesForm = () => {
         {/* Subject Div Ends*/}
 
         {/* Contact Number Div */}
-        <div class="z-0 mb-6 w-full group">
+        <div class=" mb-6 md:w-full group">
           <input
             type="tel"
             name="contact_number"
@@ -65,9 +66,9 @@ const ServicesForm = () => {
         {/* Contact Number Div Ends*/}
  
  {/* Selection Div */}
- <div className="z-0 mb-3 w-full group">
+ <div className=" mb-3 w-full group">
                   <select
-                    className="dropdown text-gray-400 font-heading  text-sm flex
+                    className="dropdown text-gray-400 font-heading  text-sm flex flex-wrap
                     border-2 rounded-lg px-2 py-2 border-gray-400
                     
                     ">
@@ -85,11 +86,11 @@ const ServicesForm = () => {
                   {/* Selection Div Ends*/}
 
         {/* Hear About Div */}
-        <div class="z-0 mb-6 w-full group">
+        <div class="mb-6 md:w-full group">
           <label className="flex py-2.5 w-full font-heading text-sm text-gray-400">
             How Did You Hear About Us?
           </label>
-          <div className="flex items-center mb-4">
+          <div className="flex flex-wrap  mb-4">
             <input
               id="checkbox-1"
               type="checkbox"
@@ -119,10 +120,10 @@ const ServicesForm = () => {
             </label>
 
             <input
-              id="checkbox-LinkdIn"
+              id="checkbox-Facebook"
               type="checkbox"
               value=""
-              class="ml-4 w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
+              class="ml-5 w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
             />
             <label
               for="checkbox-Facebook"
@@ -132,8 +133,8 @@ const ServicesForm = () => {
               Facebook
             </label>
 
-            <input
-              id="checkbox-LinkdIn"
+            {/* <input
+              id="checkbox-Instagram"
               type="checkbox"
               value=""
               class="ml-4 w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
@@ -144,19 +145,32 @@ const ServicesForm = () => {
                       dark:text-gray-500"
             >
               Instagram
-            </label>
+            </label> */}
           </div>
 
-          <div className="flex items-center mb-4">
+          <div className="flex mb-4">
+          <input
+              id="checkbox-Instagram"
+              type="checkbox"
+              value=""
+              class=" w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
+            />
+            <label
+              for="checkbox-Instagram"
+              class="ml-2 text-sm font-heading text-gray-600 
+                      dark:text-gray-500 mr-2 "
+            >
+              Instagram
+            </label>
           <input
               id="checkbox-FriendSuggested"
               type="checkbox"
               value=""
-              class="w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
+              class="ml-2 w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
             />
             <label
               for="checkbox-FriendSuggested"
-              class="ml-2 text-sm font-heading text-gray-600 
+              class="md:ml-2 text-sm font-heading text-gray-600 
                       dark:text-gray-500"
             >
               Friend Suggested
@@ -166,7 +180,7 @@ const ServicesForm = () => {
               id="checkbox-Others"
               type="checkbox"
               value=""
-              class="ml-5 w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
+              class="ml-4  w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
             />
             <label
               for="checkbox-Others"
@@ -180,7 +194,7 @@ const ServicesForm = () => {
         {/* Hear About Div Ends*/}
 
          {/* Message Div */}
-         <div class="relative z-0 mb-6 w-full group">
+         <div class=" mb-6 md:w-full group">
          <input
             type="text"
             name="message"
@@ -201,6 +215,7 @@ const ServicesForm = () => {
                     value="Submit"
                   />
       </form>
+    </div>
     </div>
   );
 };

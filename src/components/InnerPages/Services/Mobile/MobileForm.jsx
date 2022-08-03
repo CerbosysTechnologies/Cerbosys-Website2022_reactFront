@@ -5,7 +5,7 @@ import ServicesForm from '../../../Common/Component/ServicesForm'
 const MobileForm = () => {
   return (
     <div>
-        <div className="bg-Primary mx-auto w-full py-16 px-4 ">
+        <div className="bg-Primary mx-auto w-full py-16 px-2">
         <div className="max-w-[1240px] mx-auto ">
           <div className="flex flex-col flex-wrap items-center">
             {/* Heading */}
@@ -20,7 +20,7 @@ const MobileForm = () => {
              {/* Form Design */}
              <div className="grid md:grid-cols-2 mb-4 md:px-6 py-5  mt-10 md:w-10/12 ">
               {/* Image Section */}
-              <div className="mx-auto items-center justify-center col-span-1">
+              <div className="mx-auto items-center justify-center">
               <img src={mobileservice_technologyicon} alt="" className="h-full"></img>
               </div>
               {/* Image Section Ends*/}
