@@ -5,6 +5,8 @@ import MobileDevelopment from './components/InnerPages/Services/Mobile/MobileDev
 import DigitalMarketing from "./components/InnerPages/Services/Digital Marketing/DigitalMarketing";
 import LeadGeneration from "./components/InnerPages/Services/Lead Generation/LeadGeneration"
 import BrandingAndPackaging from './components/InnerPages/Services/Branding And Packaging/BrandingAndPackaging.jsx'
+import UIAndUX from './components/InnerPages/Services/UI And UX/UI&UX.jsx';
+import StaffAugmentation from './components/InnerPages/Services/Staff Augmentation/StaffAugmentation';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
      <Route path='/DigitalMarketing' element={< DigitalMarketing />} />
      <Route path='/LeadGeneration' element={< LeadGeneration />} />
      <Route path='/BrandingAndPackaging' element={< BrandingAndPackaging />} />
+     <Route path='/UIAndUX' element={< UIAndUX />} />
+     <Route path='/StaffAugmentation' element={< StaffAugmentation />} />
   </Routes>
     
   

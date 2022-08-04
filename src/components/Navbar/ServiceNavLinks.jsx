@@ -79,7 +79,7 @@ const NavLinks = () => {
 
                   <div className="mt-5">
                     <h1 className="font-subheading md:text-sm text-xs">
-                      UI/UX Development
+                      <Link to='/UIAndUX'>UI/UX Development</Link>
                     </h1>                   
                   </div>
 
@@ -91,7 +91,7 @@ const NavLinks = () => {
                 <div className="flex flex-wrap flex-col m-2 border-r-2 py-7 ">
                   <div className="mx-4">
                     <h1 className="font-subheading md:text-sm text-xs">
-                      Staff Augmentation
+                    <Link to='/StaffAugmentation'>Staff Augmentation</Link>
                     </h1>
                     <ul className="text-sm font-subheading list-inside list-disc capitalize">
                       <li>Hire Reacjs Developer</li>
