@@ -1,0 +1,1 @@
+export const SERVER = "https://cerbosys.in:3700/cerbosys";
