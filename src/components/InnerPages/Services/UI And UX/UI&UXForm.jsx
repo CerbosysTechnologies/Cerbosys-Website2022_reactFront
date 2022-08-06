@@ -1,6 +1,6 @@
 import React from 'react'
 import ServicesForm from '../../../Common/Component/ServicesForm'
-import uiandux_formicon from '../../../../assets/innerpage/ui and ux/Vector.png'
+import uiandux_formicon from '../../../../assets/innerpage/ui and ux/contact_image.png'
 
 const UIAndUXForm = () => {
   return (
