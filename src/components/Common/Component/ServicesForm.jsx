@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { SERVER } from "../../../ServerUrls";
 import axios from "axios";
 
@@ -8,11 +8,28 @@ const ServicesForm = () => {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [contactNumber, setContactNumber] = useState("");
-  const [service, setService] = useState("");
+  const [serviceId, setServiceId] = useState("");
   const [hearaboutus, setHearaboutus] = useState("");
   const [message, setMessage] = useState("");
 
   const insertEnquiry = () => {};
+
+  const getAllServices = () => {
+    axios
+      .get(SERVER + "/getAllServices", {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+      .then((res) => {
+        console.log("Get All Services->", res.data.data);
+        setServiceId(res.data.data);
+      });
+  };
+  
+  useEffect(() => {
+    getAllServices();
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -21,19 +38,20 @@ const ServicesForm = () => {
       email: email,
       subject: subject,
       contact_number: contactNumber,
-      enquiry_service: service,
+      myservice_id: serviceId,
       hearabout_us: "",
       message: message,
     };
 
-    axios.post(SERVER + "/insertEnquiry",insertData,{
-    headers:{
-      "Content-Type": "application/json",
-    }
-    
-    }).then((res) => {
-      console.log("Insert Enquiry Res", res);
-    });
+    axios
+      .post(SERVER + "/insertEnquiry", insertData, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+      .then((res) => {
+        console.log("Insert Enquiry Res", res);
+      });
   };
 
   return (
@@ -113,10 +131,22 @@ const ServicesForm = () => {
             <select
               className="dropdown text-gray-400 font-heading  text-sm flex flex-wrap
                     border-2 rounded-lg px-2 py-2 border-gray-400"
-              onChange={(e) => setService(e.target.value)}
-              value={service}
+              onChange={(e) => setServiceId(e.target.value)}
+              // value={serviceId}
             >
-              <option value="">Select</option>
+              <option >Select</option>
+
+                {
+                 serviceId ?(
+
+                serviceId.map((val, i) => (
+                  <option value={val.myservices_id}>{val.service_name}</option>
+                )) 
+                   ):(
+                  <option value="">Select</option>
+                )
+          } 
+              {/* 
               <option value="Web Development">Web Development</option>
               <option value="Digital Marketing">Digital Marketing</option>
               <option value="Lead Generation">Lead Generation</option>
@@ -125,7 +155,7 @@ const ServicesForm = () => {
               </option>
               <option value="Mobile Development">Mobile Development</option>
               <option value="UI/UX Development">UI/UX Development</option>
-              <option value="Staff Augmentation">Staff Augmentation</option>
+              <option value="Staff Augmentation">Staff Augmentation</option> */}
             </select>
           </div>
           {/* Selection Div Ends*/}
