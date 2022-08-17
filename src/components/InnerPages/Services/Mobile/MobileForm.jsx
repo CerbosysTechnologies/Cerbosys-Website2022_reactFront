@@ -5,7 +5,7 @@ import ServicesForm from '../../../Common/Component/ServicesForm'
 const MobileForm = () => {
   return (
     <div>
-        <div className="bg-Primary mx-auto w-full py-16 px-2">
+        <div className="bg-Primary mx-auto w-full py-16 px-2 object-contain bg-cover bg-center">
         <div className="max-w-[1240px] mx-auto ">
           <div className="flex flex-col flex-wrap items-center">
             {/* Heading */}

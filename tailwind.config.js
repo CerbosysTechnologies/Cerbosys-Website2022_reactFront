@@ -12,6 +12,7 @@ module.exports = {
         //'Primary':'#4169E1', // King Blue
         //'Primary':'#0050B5', // Cobolt Blue
         'Secondary': '#404CDC',
+        'Green': '#3C9612',
 
       },
     },
@@ -20,7 +21,8 @@ module.exports = {
       Hero: "url('assets/header.png')",
       Service: "url('assets/services/service_ page_background.png')",
       WebDevelopment: "url('assets/innerpage/webdevelopment/web_developmentpage_background.jpg')",
-      FooterBackground: "url('assets/footer/footer.png')"
+      FooterBackground: "url('assets/footer/footer.png')",
+      FormBackground: "url('assets/innerpage/letstalk.png')"
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],

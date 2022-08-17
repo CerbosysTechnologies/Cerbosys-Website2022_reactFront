@@ -87,7 +87,7 @@ const NavLinks = () => {
                 {/* First Row Ends */}
 
               
-                {/* Third Row */} 
+                {/* Second Row */} 
                 <div className="flex flex-wrap flex-col m-2 border-r-2 py-7 ">
                   <div className="mx-4">
                     <h1 className="font-subheading md:text-sm text-xs">
@@ -107,17 +107,12 @@ const NavLinks = () => {
                   </div>
                 </div>
 
-                {/* Third Row Ends */}
+                {/* Second Row Ends */}
 
-                {/* Fourth Row */}
+                {/* Third Row */}
                 <div className="flex flex-wrap flex-col justify-evenly py-8">
                   <div className="mx-3">
-                    <button
-                      className="bg-blue-400 rounded-full 
-            font-heading px-6 py-3 text-white uppercase "
-                    >
-                      Get Free Estimation
-                    </button>
+                   
 
                     <div className="font-subheading text-lg mt-8">
                       call us at
@@ -131,7 +126,19 @@ const NavLinks = () => {
                     </div>
                   </div>
                 </div>
-                {/* Fourth Row */}
+                {/* Third Row */}
+
+{/* Fourth Row */}
+<div>
+<button
+                      className="bg-Green rounded-full 
+            font-heading px-6 py-3 text-white uppercase "
+                    >
+                      Get Free Estimation
+                    </button>
+</div>
+{/* Fourth Row Ends*/}
+
  
               {/* Slogan Line */}
                 <div className="bottom-[0px] font-heading text-xl text-center absolute border-t-2 mb-5">

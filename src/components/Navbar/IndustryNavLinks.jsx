@@ -7,7 +7,7 @@ const IndustryNavLinks = () => {
   return (
     <div>
       <div className="px-3 text-left md:cursor-pointer group">
-        <h1 className="md:py-4 sm:py-3 flex justify-between items-center md:pr-0 pr-5 group"
+        <h1 className="md:py-4 sm:py-3 flex justify-between items-center md:pr-0 pr-5 group "
           onClick={() => {
             heading !== "Industries"
               ? setHeading("Industries")
@@ -19,7 +19,8 @@ const IndustryNavLinks = () => {
         </h1>
 
         <div className="absolute top-20 left-2 right-2 hidden group-hover:md:block hover:md:block ">
-          <div className="bg-Primary flex flex-row items-center justify-center md:h-[450px] text-white">
+          <div className="bg-Primary flex flex-row items-center justify-center md:h-[450px] text-white
+          ">
             {/* First Row */}
             <div className="flex flex-wrap flex-col m-2 border-r-2 py-10">
               <div className="mt-[10px] ">
@@ -38,15 +39,10 @@ const IndustryNavLinks = () => {
             </div>
             {/* First Row Ends */}
 
-            {/* Fourth Row */}
+            {/* Second Row */}
             <div className="flex flex-wrap flex-col justify-evenly">
               <div className="">
-                <button
-                  className="bg-blue-400 rounded-full 
-            font-heading px-6 py-2 text-white uppercase m-6"
-                >
-                  Get Free Estimation
-                </button>
+               
 
                 <div className="font-subheading text-lg m-6">
                   call us at
@@ -60,7 +56,18 @@ const IndustryNavLinks = () => {
                 </div>
               </div>
             </div>
-            {/* Fourth Row */}
+            {/* Second Row */}
+
+            {/* Third Row */}
+<div>
+<button
+                      className="bg-Green rounded-full 
+            font-heading px-6 py-3 text-white uppercase "
+                    >
+                      Get A Free Estimate
+                    </button>
+</div>
+{/* Third Row Ends*/}
 
             {/* Slogan Line */}
             <div className="bottom-1 font-heading text-xl text-center absolute border-t-2 ">

@@ -14,7 +14,7 @@ const LeadGeneration = () => {
         <div className="mx-auto w-full md:h-[30rem] h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">
           {/* Free Quote */}
           <div
-            className="fixed z-20 top-1/2 right-[-4.55rem] bg-Primary
+            className="fixed z-20 top-1/2 right-[-4.55rem] bg-Green
          p-1 px-2 justify-end items-end rotate-90 rounded-bl-3xl rounded-br-3xl text-white"
           >
             <span className="uppercase font-heading text-base">
