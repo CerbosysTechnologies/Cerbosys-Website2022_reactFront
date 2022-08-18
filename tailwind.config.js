@@ -22,7 +22,10 @@ module.exports = {
       Service: "url('assets/services/service_ page_background.png')",
       WebDevelopment: "url('assets/innerpage/webdevelopment/web_developmentpage_background.jpg')",
       FooterBackground: "url('assets/footer/footer.png')",
-      FormBackground: "url('assets/innerpage/letstalk.png')"
+      FormBackground: "url('assets/innerpage/letstalk.png')",
+      TeamBackground: "url('assets/innerpage/team/team_image_background.png')",
+      OverviewBackground: "url('assets/innerpage/overview/overview_image.png')"
+      
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],

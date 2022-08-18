@@ -7,7 +7,7 @@ const IndustryNavLinks = () => {
   return (
     <div>
       <div className="px-3 text-left md:cursor-pointer group">
-        <h1 className="md:py-4 sm:py-3 flex justify-between items-center md:pr-0 pr-5 group "
+        <h1 className="md:py-4 sm:py-3 flex justify-between items-center md:pr-0 pr-5 group"
           onClick={() => {
             heading !== "Industries"
               ? setHeading("Industries")
@@ -23,7 +23,7 @@ const IndustryNavLinks = () => {
           ">
             {/* First Row */}
             <div className="flex flex-wrap flex-col m-2 border-r-2 py-10">
-              <div className="mt-[10px] ">
+              <div className="mt-[10px]">
                 <ul className="text-sm font-subheading list-inside list-disc px-5">
                   <li> Agriculture</li>
                   <li> Ecommerce and Retail</li>

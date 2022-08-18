@@ -7,6 +7,8 @@ import LeadGeneration from "./components/InnerPages/Services/Lead Generation/Lea
 import BrandingAndPackaging from './components/InnerPages/Services/Branding And Packaging/BrandingAndPackaging.jsx'
 import UIAndUX from './components/InnerPages/Services/UI And UX/UI&UX.jsx';
 import StaffAugmentation from './components/InnerPages/Services/Staff Augmentation/StaffAugmentation';
+import Team from './components/InnerPages/Company/Team/Team';
+import Overview from './components/InnerPages/Company/Overview/Overview'
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
      <Route path='/BrandingAndPackaging' element={< BrandingAndPackaging />} />
      <Route path='/UIAndUX' element={< UIAndUX />} />
      <Route path='/StaffAugmentation' element={< StaffAugmentation />} />
+     <Route path='/Team' element={< Team />} />
+     <Route path='/Overview' element={< Overview />} />
   </Routes>
     
   
