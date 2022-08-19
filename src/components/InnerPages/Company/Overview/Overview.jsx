@@ -7,6 +7,7 @@ const Overview = () => {
   return (
     <div>
         <>
+        <Navbar />
         <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-OverviewBackground bg-cover md:bg-top bg-center">
           {/* Free Quote */}
           <div
