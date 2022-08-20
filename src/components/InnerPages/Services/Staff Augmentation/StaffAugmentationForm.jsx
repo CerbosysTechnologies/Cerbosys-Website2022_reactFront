@@ -5,7 +5,7 @@ import contactimage_formicon from '../../../../assets/innerpage/staffaugmentatio
 const StaffAugmentationForm = () => {
   return (
     <div>
-         <div className="bg-Primary mx-auto w-full py-16 px-4 ">
+         <div className="bg-FormBackground mx-auto w-full py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
           <div className="flex flex-col flex-wrap items-center">
             {/* Heading */}

@@ -18,7 +18,7 @@ const MobileForm = () => {
             </h2>
             {/* Heading Ends */}
              {/* Form Design */}
-             <div className="grid md:grid-cols-2 mb-4 md:px-6 py-5  mt-10 md:w-10/12 shadow-xl shadow-gray-600">
+             <div className="grid md:grid-cols-2 mb-4 mt-10 md:w-10/12 shadow-xl shadow-gray-600">
               {/* Image Section */}
               <div className="mx-auto items-center justify-center ">
               <img src={mobileservice_technologyicon} alt="" className="h-full"></img>

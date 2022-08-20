@@ -75,18 +75,18 @@ const AllServiceForm = () => {
                   {/* Email Div Ends */}
 
                   {/* Subject Div */}
-                  <div class="relative z-0 mb-6 w-full group">
+                  <div className="relative z-0 mb-6 w-full group">
                     <input
                       type="text"
                       name="floating_subject"
                       id="floating_subject"
-                      class="block py-2.5 px-0 w-full text-sm md:text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer font-subheading"
+                      className="block py-2.5 px-0 w-full text-sm md:text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer font-subheading"
                       placeholder=" "
                       required
                     />
                     <label
                       for="floating_subject"
-                      class="peer-focus:font-subheading absolute text-sm md:text-lg text-gray-500 dark:text-gray-400 
+                      className="peer-focus:font-subheading absolute text-sm md:text-lg text-gray-500 dark:text-gray-400 
                       duration-300 transform -translate-y-6 scale-75 top-3 left-1
                       -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 font-subheading"
                     >
@@ -96,12 +96,12 @@ const AllServiceForm = () => {
                   {/* Subject Div Ends */}
 
                   {/* Contact Number Div */}
-                  <div class="relative z-0 mb-6 w-full group">
+                  <div className="relative z-0 mb-6 w-full group">
                     <input
                       type="tel"
                       name="floating_cn"
                       id="floating_cn"
-                      class="block py-2.5 px-0 w-full text-sm md:text-lg text-gray-900 
+                      className="block py-2.5 px-0 w-full text-sm md:text-lg text-gray-900 
                       bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white
                        dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                       placeholder=" "
@@ -109,7 +109,7 @@ const AllServiceForm = () => {
                     />
                     <label
                       for="floating_cn"
-                      class="peer-focus:font-subheading absolute text-sm md:text-lg
+                      className="peer-focus:font-subheading absolute text-sm md:text-lg
                        text-gray-500 dark:text-gray-400 
                       duration-300 transform -translate-y-6 scale-75 top-3 left-1
                       -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600
@@ -172,12 +172,12 @@ const AllServiceForm = () => {
                   {/*   Hear About Us Ends*/}
 
                    {/* Message Div */}
-                   <div class="relative z-0 mb-6 w-full group">
+                   <div className="relative z-0 mb-6 w-full group">
                     <input
                       type="tel"
                       name="floating_cn"
                       id="floating_cn"
-                      class="block py-2.5 px-0 w-full text-sm md:text-lg text-gray-900 
+                      className="block py-2.5 px-0 w-full text-sm md:text-lg text-gray-900 
                       bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white
                        dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                       placeholder=" "
@@ -185,7 +185,7 @@ const AllServiceForm = () => {
                     />
                     <label
                       for="floating_cn"
-                      class="peer-focus:font-subheading absolute text-sm md:text-lg
+                      className="peer-focus:font-subheading absolute text-sm md:text-lg
                        text-gray-500 dark:text-gray-400 
                       duration-300 transform -translate-y-6 scale-75 top-3 left-1
                       -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600

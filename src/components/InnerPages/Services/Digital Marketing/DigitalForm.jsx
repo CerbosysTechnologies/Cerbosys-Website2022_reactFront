@@ -18,7 +18,7 @@ const DigitalForm = () => {
             </h2>
             {/* Heading Ends */}
              {/* Form Design */}
-             <div className="grid md:grid-cols-2  mb-4 md:px-36 py-5  mt-10">
+             <div className="grid md:grid-cols-2  mb-4 mt-10 shadow-xl shadow-gray-600">
               {/* Image Section */}
               <div className="">
               <img src={digitalmarketing_formicon} alt="" className="h-full"></img>

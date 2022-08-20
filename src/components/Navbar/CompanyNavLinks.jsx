@@ -1,7 +1,5 @@
 import React, {useState} from "react";
 import { Link} from "react-router-dom";
-import team from '../InnerPages/Company/Team/Team'
-import Overview from "../InnerPages/Company/Overview/Overview";
 
 const CompanyNavLinks = () => {
     const [heading, setHeading] = useState("Company");
@@ -24,10 +22,7 @@ const CompanyNavLinks = () => {
             <div className="flex flex-wrap flex-col m-2 border-r-2 py-10">
               <div className="mt-[10px] ">
                 <ul className="text-sm font-subheading list-inside list-disc px-5">
-                  <li> <Link to="/Overview">Overview</Link></li>
-                  <li> About Us</li>
-                  <li> CEO'S Desk</li>
-                  <li> Board Of Directors</li>
+                  <li> <Link to="/Overview">Overview</Link></li>                              
                   <li> Training and Development</li>
                   <li> <Link to="/Team">Team</Link></li>
                   <li> Life @ Cerbosys</li>
@@ -83,12 +78,9 @@ const CompanyNavLinks = () => {
         <div className="flex flex-wrap flex-col m-2">
           <div className="mt-[-10px] ">
             <ul className="text-sm font-subheading list-inside list-disc">
-              <li> Overview</li>
-              <li> About Us</li>
-              <li> CEO'S Desk</li>
-              <li> Board Of Directors</li>
+              <li> <Link to="/Overview">Overview</Link></li>                      
               <li> Training and Development</li>
-              <li> Team</li>
+              <li> <Link to="/Team">Team</Link></li>
               <li> Life @ Cerbosys</li>
               <li> Diversity @ Cerbosys</li>
               <li> Current Openings</li>
