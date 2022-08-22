@@ -12,6 +12,9 @@ const ServicesForm = () => {
   const [hearaboutus, setHearaboutus] = useState("");
   const [message, setMessage] = useState("");
 
+  //Image
+  const [techimg, setTechImg] = useState("");
+
   const insertEnquiry = () => {};
 
   const getAllServices = () => {
@@ -135,12 +138,12 @@ const ServicesForm = () => {
               // value={serviceId}
             >
               <option >Select</option>
-
                 {
                  serviceId ?(
 
-                serviceId.map((val, i) => (
-                  <option value={val.myservices_id}>{val.service_name}</option>
+                serviceId.map((val) => (
+                  <option 
+                  onChange={(e) => setTechImg(val.service_image) }>{val.service_name}</option>
                 )) 
                    ):(
                   <option value="">Select</option>
