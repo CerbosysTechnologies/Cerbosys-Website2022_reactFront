@@ -10,6 +10,8 @@ import StaffAugmentation from './components/InnerPages/Services/Staff Augmentati
 import Team from './components/InnerPages/Company/Team/Team';
 import Overview from './components/InnerPages/Company/Overview/Overview'
 
+import Thanku from './components/Common/Component/Thankumodal'
+
 function App() {
   return (
   <Routes>
@@ -22,7 +24,7 @@ function App() {
      <Route path='/UIAndUX' element={< UIAndUX />} />
      <Route path='/StaffAugmentation' element={< StaffAugmentation />} />
      <Route path='/Team' element={< Team />} />
-     <Route path='/Overview' element={< Overview />} />
+     <Route path='/Overview' element={< Thanku />} />
   </Routes>
     
   
