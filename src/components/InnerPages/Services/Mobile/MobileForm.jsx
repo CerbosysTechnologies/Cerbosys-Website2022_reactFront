@@ -1,10 +1,18 @@
 import React from 'react'
+import { useState } from 'react'
 import mobileservice_technologyicon from '../../../../assets/innerpage/mobiledevelopment/formimage.png'
 import ServicesForm from '../../../Common/Component/ServicesForm'
 
-const MobileForm = (props) => {
+const MobileForm = ({setImage}) => {
 
-  console.log('Mobile', props.techimg)
+  const [ImageList , setImageList ] = useState(1)
+  
+  const imageHandler=() => {
+    setImageList()
+  }
+
+
+  
   return (
    
     <div>
@@ -23,14 +31,14 @@ const MobileForm = (props) => {
              {/* Form Design */}
              <div className="grid md:grid-cols-2 mb-4 mt-10 md:w-10/12 shadow-xl shadow-gray-600">
               {/* Image Section */}
-              <div className="mx-auto items-center justify-center ">
-              <img src={props.techimg ? console.log('Mobile', props.techimg) : mobileservice_technologyicon} alt="" className="h-full"></img>
+              <div className="mx-auto items-center justify-center " ImageSelect={imageHandler}>
+              <img src={mobileservice_technologyicon} alt="" className="h-full"></img>
               </div>
               {/* Image Section Ends*/}
 
               {/* Form Section */}
               <div className="bg-white md:px-14 px-10 items-center justify-center text-center ">
-               <ServicesForm />
+               <ServicesForm setImage="name" />
                 </div>
               {/* Form Section Ends*/}
 

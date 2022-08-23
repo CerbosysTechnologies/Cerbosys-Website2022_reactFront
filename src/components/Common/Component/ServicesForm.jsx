@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { SERVER } from "../../../ServerUrls";
 import axios from "axios";
+import MobileForm from "../../InnerPages/Services/Mobile/MobileForm";
 
-const ServicesForm = () => {
+const ServicesForm = (props) => {
+
+  
   //hooks
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
@@ -17,8 +20,18 @@ const ServicesForm = () => {
   //Image
   const [techimg, setTechImg] = useState("");
 
+  const [showImageSec, setShowImageSection] =useState(true)
+
   const insertEnquiry = () => {};
 
+useEffect(()=>{
+  console.log("techimg",techimg)
+})
+const  companyList =(event)=>{
+  console.log(event.target.value)
+  console.log("Props", props.setImage);
+  
+}
   const getAllServices = () => {
     axios
       .get(SERVER + "/getAllServices", {
@@ -69,6 +82,7 @@ const ServicesForm = () => {
 
   return (
     <div>
+          
       <div className="bg-white md:px-1 items-center justify-center text-center">
         <form onSubmit={(e) => handleSubmit(e)}>
           {/* Name Div */}
@@ -144,9 +158,8 @@ const ServicesForm = () => {
             <select
               className="dropdown text-gray-400 font-heading  text-sm flex flex-wrap
                     border-2 rounded-lg px-2 py-2 border-gray-400"
-                    onChange = {(e) => 
-                      {setTechImg(e.target.value)
-                        console.log('TechImage', techimg)}} 
+                    onChange = {companyList}
+                     
             >
       {serviceitems.map(item => (
 
@@ -155,7 +168,7 @@ const ServicesForm = () => {
           value={item.service_image} > {item.service_name} </option>
       ))}
 
-
+                {/* <MobileForm  />             */}
 
              
               {/* 
@@ -304,6 +317,7 @@ const ServicesForm = () => {
           />
         </form>
       </div>
+     
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React from 'react'
-import agricultureicon from '../../assets/industry/agriculture.svg';
+//import agricultureicon from '../../assets/industry/agriculture.svg';
 import bankingicon from '../../assets/industry/banking.svg';
 import ecommerceicon from '../../assets/industry/e-commerce.svg';
 import educationicon from '../../assets/industry/education.svg';
@@ -33,8 +33,8 @@ const IndustriesHomePage = () => {
         {/* Icons Starts */}
         <div className='mx-auto my-4 grid md:grid-cols-4 md:gap-4 grid-cols-2 gap-10'>
             <div>
-                <img src={agricultureicon} alt="Agriculture Icon" className='md:w-[170px] md:h-[170px] 
-                w-[120px] h-[120px]'></img>
+                {/* <img src={agricultureicon} alt="Agriculture Icon" className='md:w-[170px] md:h-[170px] 
+                w-[120px] h-[120px]'></img> */}
             </div>
 
             <div>
