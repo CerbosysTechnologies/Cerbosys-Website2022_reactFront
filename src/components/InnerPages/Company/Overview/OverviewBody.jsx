@@ -32,13 +32,13 @@ const OverviewBody = () => {
           </div>
         {/* Cloud Section */}
 
-          <div class="flex py-10">
-            <ol class="relative border-l border-Green  dark:border-Green">
-              <li class="mb-10 ml-6">
-                <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-Green rounded-full ring-8 ring-white dark:bg-Primary">
+          <div className="flex py-10">
+            <ol className="relative border-l border-Green  dark:border-Green">
+              <li className="mb-10 ml-6">
+                <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-Green rounded-full ring-8 ring-white dark:bg-Primary">
                   <svg
                     aria-hidden="true"
-                    class="w-3 h-3 text-blue-600 dark:text-blue-400"
+                    className="w-3 h-3 text-blue-600 dark:text-blue-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -108,11 +108,11 @@ const OverviewBody = () => {
 
 
 
-              <li class="mb-10 ml-6">
-                <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-Green rounded-full ring-8 ring-white dark:bg-Primary">
+              <li className="mb-10 ml-6">
+                <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-Green rounded-full ring-8 ring-white dark:bg-Primary">
                   <svg
                     aria-hidden="true"
-                    class="w-3 h-3 text-blue-600 dark:text-blue-400"
+                    className="w-3 h-3 text-blue-600 dark:text-blue-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -184,11 +184,11 @@ const OverviewBody = () => {
           </div>
         {/* Cloud Section */}
 
-              <li class="mb-10 ml-6">
-                <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-Green rounded-full ring-8 ring-white dark:bg-Primary">
+              <li className="mb-10 ml-6">
+                <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-Green rounded-full ring-8 ring-white dark:bg-Primary">
                   <svg
                     aria-hidden="true"
-                    class="w-3 h-3 text-blue-600 dark:text-blue-400"
+                    className="w-3 h-3 text-blue-600 dark:text-blue-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"

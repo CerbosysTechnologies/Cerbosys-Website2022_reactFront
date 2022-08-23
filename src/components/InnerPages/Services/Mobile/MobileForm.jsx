@@ -3,7 +3,10 @@ import mobileservice_technologyicon from '../../../../assets/innerpage/mobiledev
 import ServicesForm from '../../../Common/Component/ServicesForm'
 
 const MobileForm = (props) => {
+
+  console.log('Mobile', props.techimg)
   return (
+   
     <div>
         <div className="bg-FormBackground mx-auto w-full py-16 px-2 object-contain bg-cover bg-center">
         <div className="max-w-[1240px] mx-auto ">
@@ -21,7 +24,7 @@ const MobileForm = (props) => {
              <div className="grid md:grid-cols-2 mb-4 mt-10 md:w-10/12 shadow-xl shadow-gray-600">
               {/* Image Section */}
               <div className="mx-auto items-center justify-center ">
-              <img src={mobileservice_technologyicon ? mobileservice_technologyicon : props.techimg} alt="" className="h-full"></img>
+              <img src={props.techimg ? console.log('Mobile', props.techimg) : mobileservice_technologyicon} alt="" className="h-full"></img>
               </div>
               {/* Image Section Ends*/}
 

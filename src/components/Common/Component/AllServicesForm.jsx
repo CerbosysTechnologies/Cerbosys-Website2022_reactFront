@@ -29,19 +29,19 @@ const AllServiceForm = () => {
               <div className="bg-white md:px-14 px-10 items-center justify-center text-center ">
                 <form>
                   {/* Name Div */}
-                  <div class="relative z-0 mb-6 mt-5 w-full group">
+                  <div className="relative z-0 mb-6 mt-5 w-full group">
                     <input
                       type="text"
                       name="floating_name"
                       id="floating_name"
-                      class="block py-2.5 px-0 w-full text-sm md:text-lg
+                      className="block py-2.5 px-0 w-full text-sm md:text-lg
                        text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                       placeholder=" "
                       required
                     />
                     <label
                       for="floating_name"
-                      class="peer-focus:font-subheading absolute text-sm md:text-lg text-gray-500 dark:text-gray-400 
+                      className="peer-focus:font-subheading absolute text-sm md:text-lg text-gray-500 dark:text-gray-400 
                       duration-300 transform -translate-y-6 scale-75 top-3 left-1
                       -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 
                       peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 
@@ -53,18 +53,18 @@ const AllServiceForm = () => {
                   {/* Name Div Ends */}
 
                   {/* Email Div */}
-                  <div class="sticky z-0 mb-6 w-full group">
+                  <div className="sticky z-0 mb-6 w-full group">
                     <input
                       type="email"
                       name="floating_email"
                       id="floating_email"
-                      class="block py-2.5 px-0 w-full text-sm md:text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                      className="block py-2.5 px-0 w-full text-sm md:text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                       placeholder=" "
                       required
                     />
                     <label
                       for="floating_email"
-                      class="peer-focus:font-subheading absolute md:text-lg text-gray-500 dark:text-gray-400 
+                      className="peer-focus:font-subheading absolute md:text-lg text-gray-500 dark:text-gray-400 
                       duration-300 transform -translate-y-6 scale-75 top-3 left-1
                       -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 
                       peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 font-subheading"
@@ -145,28 +145,28 @@ const AllServiceForm = () => {
                   <div className="group">
                     <label className="flex font-subheading md:text-lg text-md justify-start text-gray-400">How Did You Hear About Us?</label>
                     <div className="flex items-center mb-4">
-                      <input checked id="checkbox-1" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                      <label for="checkbox-Google" class="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300">Google</label>
+                      <input checked id="checkbox-1" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+                      <label for="checkbox-Google" className="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300">Google</label>
 
 
-                      <input checked id="checkbox-1" type="checkbox" value="" class="ml-4 w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                      <label for="checkbox-LinkdIn" class="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300">LinkedIn</label>
+                      <input checked id="checkbox-1" type="checkbox" value="" className="ml-4 w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+                      <label for="checkbox-LinkdIn" className="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300">LinkedIn</label>
                     
 
-                    <input checked id="checkbox-1" type="checkbox" value="" class="ml-4 w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                    <label for="checkbox-Facebook" class="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300">Facebook</label>
+                    <input checked id="checkbox-1" type="checkbox" value="" className="ml-4 w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+                    <label for="checkbox-Facebook" className="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300">Facebook</label>
 
-                    <input checked id="checkbox-1" type="checkbox" value="" class="ml-4 w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                    <label for="checkbox-Instagram" class="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300">Instagram</label>
+                    <input checked id="checkbox-1" type="checkbox" value="" className="ml-4 w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+                    <label for="checkbox-Instagram" className="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300">Instagram</label>
 
                  </div>
 
                  <div className="flex items-center mb-4">
-                 <input checked id="checkbox-1" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                    <label for="checkbox-FriendSuggested" class="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300">Friend Suggested</label>
+                 <input checked id="checkbox-1" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+                    <label for="checkbox-FriendSuggested" className="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300">Friend Suggested</label>
 
-                    <input checked id="checkbox-1" type="checkbox" value="" class="ml-4 w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                    <label for="checkbox-Others" class="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300">Others</label>   
+                    <input checked id="checkbox-1" type="checkbox" value="" className="ml-4 w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+                    <label for="checkbox-Others" className="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300">Others</label>   
                  </div>
                   </div>
                   {/*   Hear About Us Ends*/}
