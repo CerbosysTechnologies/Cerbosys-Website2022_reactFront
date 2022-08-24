@@ -1,10 +1,11 @@
 import React from 'react'
+import tickicon from '../../../assets/tick.svg'
 
 const Thankumodal = () => {
   return (
     <div>
 
-<div id="popup-modal" tabindex="-1" class="overflow-y-auto overflow-x-hidden 
+{/* <div id="popup-modal" tabindex="-1" class="overflow-y-auto overflow-x-hidden 
 fixed top-0 right-0 left-0 z-50 md:inset-0 h-modal md:h-full justify-center items-center flex" 
 aria-modal="true" role="dialog">
     <div class="relative p-4 w-full max-w-md h-full md:h-auto">
@@ -23,7 +24,35 @@ aria-modal="true" role="dialog">
             </div>
         </div>
     </div>
+</div> */}
+
+
+
+<div className="modal px-10 py-10 fade fixed top-0 left-0 w-full h-full outline-none overflow-x-hidden overflow-y-auto backdrop-blur-sm bg-black/60 backdrop-brightness-125 backdrop-contrast-50" 
+id="exampleModalLg" tabindex="-1" aria-labelledby="exampleModalLgLabel" aria-modal="true" role="dialog">
+  
+  <div className="modal-dialog modal-lg relative w-auto pointer-events-none">
+    <div className="modal-content border-none shadow-xl relative flex flex-col w-full h-1/2 pointer-events-auto 
+    bg-gradient
+    bg-clip-padding rounded-md outline-none text-current">
+
+
+      <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
+        
+        <button type="button"
+          className="btn-close box-content w-4 h-4 p-1 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
+          data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div className="modal-body relative p-4">
+        ...
+      </div>
+    </div>
+  </div>
 </div>
+
+
+
+
 
     </div>
   )
