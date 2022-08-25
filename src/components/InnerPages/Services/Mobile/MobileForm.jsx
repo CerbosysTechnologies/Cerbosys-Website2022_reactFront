@@ -5,10 +5,18 @@ import ServicesForm from '../../../Common/Component/ServicesForm'
 
 const MobileForm = ({setImage}) => {
 
-  const [ImageList , setImageList ] = useState(1)
+  const [imageList , setImageList ] = useState()
   
+  const  handleChange = (newValue) =>{
+   setImageList(newValue)
+   console.log('Mobile', imageList)
+   console.log('Mobile Prop', setImage);
+}
+
+
+
   const imageHandler=() => {
-    setImageList()
+    //setImageList()
   }
 
 
@@ -38,7 +46,7 @@ const MobileForm = ({setImage}) => {
 
               {/* Form Section */}
               <div className="bg-white md:px-14 px-10 items-center justify-center text-center ">
-               <ServicesForm setImage="name" />
+               <ServicesForm value={imageList}  onChange={handleChange}/>
                 </div>
               {/* Form Section Ends*/}
 

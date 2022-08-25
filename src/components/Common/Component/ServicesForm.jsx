@@ -26,10 +26,13 @@ const ServicesForm = (props) => {
 
 useEffect(()=>{
   console.log("techimg",techimg)
-})
+  props.onChange(techimg)
+},[techimg])
+
 const  companyList =(event)=>{
   console.log(event.target.value)
-  console.log("Props", props.setImage);
+  props.onChange(techimg);
+  console.log("Props", props.techimg);
   
 }
   const getAllServices = () => {
@@ -54,7 +57,7 @@ const  companyList =(event)=>{
   };
   
   useEffect(() => {
-    getAllServices();
+    getAllServices();  
   }, []);
 
   const handleSubmit = (e) => {
@@ -162,15 +165,10 @@ const  companyList =(event)=>{
                      
             >
       {serviceitems.map(item => (
-
         <option
           key={item.service_name}
           value={item.service_image} > {item.service_name} </option>
-      ))}
-
-                {/* <MobileForm  />             */}
-
-             
+      ))}             
               {/* 
               <option value="Web Development">Web Development</option>
               <option value="Digital Marketing">Digital Marketing</option>
