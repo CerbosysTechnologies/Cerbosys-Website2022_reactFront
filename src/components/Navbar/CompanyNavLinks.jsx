@@ -26,8 +26,8 @@ const CompanyNavLinks = () => {
                   <li> Training and Development</li>
                   <li> <Link to="/Team">Team</Link></li>
                   <li> Life @ Cerbosys</li>
-                  <li> Diversity @ Cerbosys</li>
-                  <li> Current Openings</li>
+                  <li> <Link to="/Diversity">Diversity @ Cerbosys</Link></li>
+                  <li> <Link to="/CurrentOpening">Current Openings</Link></li>
                 </ul>
               </div>
             </div>
@@ -82,8 +82,8 @@ const CompanyNavLinks = () => {
               <li> Training and Development</li>
               <li> <Link to="/Team">Team</Link></li>
               <li> Life @ Cerbosys</li>
-              <li> Diversity @ Cerbosys</li>
-              <li> Current Openings</li>
+              <li> <Link to="/Diversity">Diversity @ Cerbosys</Link></li>
+              <li> <Link to="/CurrentOpening">Current Openings</Link></li>
             </ul>
           </div>
         </div>

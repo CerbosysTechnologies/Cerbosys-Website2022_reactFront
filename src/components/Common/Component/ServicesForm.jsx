@@ -25,7 +25,7 @@ const ServicesForm = (props) => {
   const insertEnquiry = () => {};
 
 useEffect(()=>{
-  console.log("techimg",techimg)
+  //console.log("techimg",techimg)
   props.onChange(techimg)
 },[techimg])
 

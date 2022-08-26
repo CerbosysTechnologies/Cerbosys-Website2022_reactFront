@@ -9,7 +9,8 @@ import UIAndUX from './components/InnerPages/Services/UI And UX/UI&UX.jsx';
 import StaffAugmentation from './components/InnerPages/Services/Staff Augmentation/StaffAugmentation';
 import Team from './components/InnerPages/Company/Team/Team';
 import Overview from './components/InnerPages/Company/Overview/Overview'
-
+import CurrentOpening from './components/InnerPages/Company/CurrentOpening/CurrentOpening'
+import Diversity from "./components/InnerPages/Company/DiversityCerbosys/Diversity";
 import Thanku from './components/Common/Component/Thankumodal'
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
      <Route path='/StaffAugmentation' element={< StaffAugmentation />} />
      <Route path='/Team' element={< Team />} />
      <Route path='/Overview' element={< Thanku />} />
+     <Route path='/CurrentOpening' element={< CurrentOpening />} />
+     <Route path='/Diversity' element={< Diversity />} />
   </Routes>
     
   

@@ -24,7 +24,10 @@ module.exports = {
       FooterBackground: "url('assets/footer/footer.svg')",
       FormBackground: "url('assets/innerpage/letstalk.png')",
       TeamBackground: "url('assets/innerpage/team/team_image_background.png')",
-      OverviewBackground: "url('assets/innerpage/overview/overview_image.png')"
+      OverviewBackground: "url('assets/innerpage/overview/overview_image.png')",
+      CurrentOpeningBackground: "url('assets/innerpage/currentopening/banner_image.png')",
+      PerksBackground: "url('assets/innerpage/currentopening/perks_benefits.png')",
+      DiversityBackground: "url('assets/innerpage/diversity/banner_image.jpg')"
       
     },
     fontFamily: {
