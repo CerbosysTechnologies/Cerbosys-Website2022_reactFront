@@ -20,6 +20,8 @@ import icon17 from '../../assets/clientlogo/19.png'
 
 
 import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
+
 
 
 const featuredicons = [
@@ -33,8 +35,8 @@ const featuredicons = [
 
 const ClientLogoSlider = () => {
 
-    <AliceCarousel mouseTracking items={featuredicons}/>
-    // <AliceCarousel mouseTracking items={featuredProducts} />
+    
+    
     // const [currentIndex, setCurrentIndex] = useState(0);
 
     // const slideRef = useRef();
@@ -82,7 +84,7 @@ const ClientLogoSlider = () => {
 
   return (
     <div>
-
+     <AliceCarousel mouseTracking items={featuredicons} /> 
 {/* <div ref={slideRef} className="w-full select-none relative mt-10">
       <div className="aspect-w-8 aspect-h-9">
         <img src={featuredProducts[currentIndex]} alt="" className='mx-16 w-32'/>
