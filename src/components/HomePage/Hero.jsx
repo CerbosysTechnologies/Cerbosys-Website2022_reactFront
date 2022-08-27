@@ -6,6 +6,7 @@ import IndustriesHomePage from '../../components/HomePage/IndustriesHomePage';
 import CustomerRelationHomePage from '../../components/HomePage/CustomerRelationHomePage';
 import Footer from '../../components/Common/Component/Footer';
 import { ScrollToTop } from "../../components/Common/Component/ScrollToTop";
+import ClientLogoPage from "./ClientLogoPage";
 
 
 
@@ -61,6 +62,7 @@ const Hero = () => {
       <ServiceHomePage />
       <IndustriesHomePage />
       <CustomerRelationHomePage />
+      <ClientLogoPage />
       <TechnologyHomePage />
       <Footer />
       
