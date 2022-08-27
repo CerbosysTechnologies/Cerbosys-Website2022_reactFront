@@ -19,8 +19,8 @@ import icon16 from '../../assets/clientlogo/18.png'
 import icon17 from '../../assets/clientlogo/19.png'
 
 
-import AliceCarousel from 'react-alice-carousel';
-import 'react-alice-carousel/lib/alice-carousel.css';
+// import AliceCarousel from 'react-alice-carousel';
+// import 'react-alice-carousel/lib/alice-carousel.css';
 
 
 
@@ -37,60 +37,68 @@ const ClientLogoSlider = () => {
 
     
     
-    // const [currentIndex, setCurrentIndex] = useState(0);
+    const [currentIndex, setCurrentIndex] = useState(0);
 
-    // const slideRef = useRef();
+    const slideRef = useRef();
   
-    // const removeAnimation = () => {
-    //   slideRef.current.classList.remove("fade-anim");
-    // };
+    const removeAnimation = () => {
+      slideRef.current.classList.remove("fade-anim");
+    };
   
-    // useEffect(() => {
-    //   slideRef.current.addEventListener("animationend", removeAnimation);
-    //   slideRef.current.addEventListener("mouseenter", pauseSlider);
-    //   slideRef.current.addEventListener("mouseleave", startSlider);
+    useEffect(() => {
+      slideRef.current.addEventListener("animationend", removeAnimation);
+      slideRef.current.addEventListener("mouseenter", pauseSlider);
+      slideRef.current.addEventListener("mouseleave", startSlider);
   
-    //   startSlider();
-    //   return () => {
-    //     pauseSlider();
-    //   };
-    //   // eslint-disable-next-line
-    // }, []);
+      startSlider();
+      return () => {
+        pauseSlider();
+      };
+      // eslint-disable-next-line
+    }, []);
   
-    // const startSlider = () => {
-    //   slideInterval = setInterval(() => {
-    //     handleOnNextClick();
-    //   }, 3000);
-    // };
+    const startSlider = () => {
+      slideInterval = setInterval(() => {
+        //handleOnNextClick();
+        autoslider();
+      }, 2000);
+    };
   
-    // const pauseSlider = () => {
-    //   clearInterval(slideInterval);
-    // };
+    const pauseSlider = () => {
+      clearInterval(slideInterval);
+    };
   
-    // const handleOnNextClick = () => {
-    //   count = (count + 3) % featuredProducts.length;
-    //   setCurrentIndex(count);
-    //   slideRef.current.classList.add("fade-anim");
-    // };
-    // const handleOnPrevClick = () => {
-    //   const productsLength = featuredProducts.length;
-    //   count = (currentIndex + productsLength - 1) % productsLength;
-    //   setCurrentIndex(count);
-    //   slideRef.current.classList.add("fade-anim");
-    // };
+    const autoslider = () =>{
+      count = count + 2;
+      setCurrentIndex(count);
+      slideRef.current.classList.add("fade-anim");
+    }
+    const handleOnNextClick = () => {
+      count = (count + 1) % featuredicons.length;
+      setCurrentIndex(count);
+      slideRef.current.classList.add("fade-anim");
+    };
+    const handleOnPrevClick = () => {
+      const productsLength = featuredicons.length;
+      count = (currentIndex + productsLength - 1) % productsLength;
+      setCurrentIndex(count);
+      slideRef.current.classList.add("fade-anim");
+    };
   
 
 
 
   return (
     <div>
-     <AliceCarousel mouseTracking items={featuredicons} /> 
-{/* <div ref={slideRef} className="w-full select-none relative mt-10">
-      <div className="aspect-w-8 aspect-h-9">
-        <img src={featuredProducts[currentIndex]} alt="" className='mx-16 w-32'/>
+     {/* <AliceCarousel mouseTracking items={featuredicons} />  */}
+<div ref={slideRef} className="w-full select-none relative mt-10">
+      <div className="aspect-w-8 aspect-h-9 flex ml-3">
+        <img src={featuredicons[currentIndex]} alt="" className='mx-16 w-32'/>
+        <img src={featuredicons[currentIndex]} alt="" className='mx-16 w-32'/>
+        
       </div>
 
-      <div className="absolute w-full top-1/2 transform -translate-y-1/2 px-3 
+      {/* <div className="absolute w-full top-1/2 transform -translate-y-1/2 px-3 
       flex justify-between items-center">
         <button
           className="bg-black text-white p-1 rounded-full bg-opacity-50 cursor-pointer hover:bg-opacity-100 transition"
@@ -104,8 +112,8 @@ const ClientLogoSlider = () => {
         >
           <AiOutlineVerticalLeft size={30} />
         </button>
-      </div>
-    </div> */}
+      </div> */}
+    </div>
     </div>
   )
 }
