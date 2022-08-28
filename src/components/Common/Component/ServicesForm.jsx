@@ -24,17 +24,17 @@ const ServicesForm = (props) => {
 
   const insertEnquiry = () => {};
 
-useEffect(()=>{
-  //console.log("techimg",techimg)
-  props.onChange(techimg)
-},[techimg])
 
-const  companyList =(event)=>{
-  console.log(event.target.value)
-  props.onChange(techimg);
-  console.log("Props", props.techimg);
+  const handerChange =(event)=>{
+    props.onChangeSelected(event.target.value)
+  }
+
+// const  companyList =(event)=>{
+//   console.log(event.target.value)
+//   props.onChange(techimg);
+//   console.log("Props", props.techimg);
   
-}
+// }
   const getAllServices = () => {
     axios
       .get(SERVER + "/getAllServices", {
@@ -161,7 +161,7 @@ const  companyList =(event)=>{
             <select
               className="dropdown text-gray-400 font-heading  text-sm flex flex-wrap
                     border-2 rounded-lg px-2 py-2 border-gray-400"
-                    onChange = {companyList}
+                    onChange={handerChange}
                      
             >
       {serviceitems.map(item => (

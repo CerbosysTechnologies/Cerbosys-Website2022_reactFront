@@ -2,22 +2,19 @@ import React from 'react'
 import { useState } from 'react'
 import mobileservice_technologyicon from '../../../../assets/innerpage/mobiledevelopment/formimage.png'
 import ServicesForm from '../../../Common/Component/ServicesForm'
-
-const MobileForm = ({setImage}) => {
-
-  const [imageList , setImageList ] = useState()
-  
-  const  handleChange = (newValue) =>{
-   setImageList(newValue)
-   console.log('Mobile', imageList)
-   console.log('Mobile Prop', setImage);
-}
+import { IMAGE_SERVER } from "../../../../ServerUrls";
 
 
+const MobileForm = ({onChangeSelected}) => {
 
-  const imageHandler=() => {
-    //setImageList()
+  const [imgName, setImgName] = useState();
+  const onChangeSelection=(newValue)=>{
+    console.log("newValue",newValue)
+    let new_name = newValue.substring(8);
+    setImgName(IMAGE_SERVER + new_name);  
+    console.log('ImgName', imgName)  
   }
+
 
 
   
@@ -39,14 +36,14 @@ const MobileForm = ({setImage}) => {
              {/* Form Design */}
              <div className="grid md:grid-cols-2 mb-4 mt-10 md:w-10/12 shadow-xl shadow-gray-600">
               {/* Image Section */}
-              <div className="mx-auto items-center justify-center " ImageSelect={imageHandler}>
-              <img src={mobileservice_technologyicon} alt="" className="h-full"></img>
+              <div className="mx-auto items-center justify-center " >
+              <img src={!imgName ? mobileservice_technologyicon : imgName} alt="" className="h-full"></img>
               </div>
               {/* Image Section Ends*/}
 
               {/* Form Section */}
               <div className="bg-white md:px-14 px-10 items-center justify-center text-center ">
-               <ServicesForm value={imageList}  onChange={handleChange}/>
+               <ServicesForm onChangeSelected={onChangeSelection}/>
                 </div>
               {/* Form Section Ends*/}
 
