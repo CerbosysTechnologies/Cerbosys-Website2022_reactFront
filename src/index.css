@@ -1,21 +1,3 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
-/* @import "react-alice-carousel/lib/alice-carousel.css"; */
-/* @import "react-alice-carousel/lib/scss/alice-carousel.scss"; */
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -40,7 +22,4 @@ code {
     font-family: "Content";
     src: url("./fonts/Montserrat-Regular.ttf");
   }
-
-
-
 }
