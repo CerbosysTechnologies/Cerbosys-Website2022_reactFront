@@ -35,17 +35,19 @@ const ClientLogoSlider = () => {
 
   return (
     <div>
-      <Swiper
+      <Swiper className="sm:h-64"
+       modules={[Autoplay, Pagination]}
+       pagination={{
+        clickable: true}}
         loop={true}
-        slidesPerView={3}
-        centeredSlides={true}
+        slidesPerView={3}       
         autoplay={{
           delay: 500,
           disableOnInteraction: false,
         }}>
         {featuredicons.map((slideContent, index) => (
           <SwiperSlide key={slideContent} virtualIndex={index}>
-            <img src={slideContent} alt="" className="w-40 h-36 mt-16" />
+            <img src={slideContent} alt="" className="w-40 h-36 mt-10" />
           </SwiperSlide>
         ))}
       </Swiper>

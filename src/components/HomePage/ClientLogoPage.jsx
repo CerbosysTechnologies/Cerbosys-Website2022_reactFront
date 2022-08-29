@@ -25,12 +25,15 @@ const ClientLogoPage = () => {
           {/* Content Part */}
 
           {/* Icons Start */}
+          <div className=''>
           <ClientLogoSlider />
+          </div>
           {/* Icons Ends */}
 
         </div>
       </div>
     </div>
+    
   );
 };
 
