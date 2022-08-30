@@ -34,8 +34,8 @@ const ClientLogoSlider = () => {
   SwiperCore.use([Autoplay]);
 
   return (
-    <div>
-      <Swiper className="sm:h-64"
+    <div className="flex flex-wrap items-center z-[-15]">
+      <Swiper className="md:h-64 h-72"
        modules={[Autoplay, Pagination]}
        pagination={{
         clickable: true}}
@@ -47,7 +47,7 @@ const ClientLogoSlider = () => {
         }}>
         {featuredicons.map((slideContent, index) => (
           <SwiperSlide key={slideContent} virtualIndex={index}>
-            <img src={slideContent} alt="" className="w-40 h-36 mt-10" />
+            <img src={slideContent} alt="" className="w-40 h-36 mt-10 mx-6 " />
           </SwiperSlide>
         ))}
       </Swiper>

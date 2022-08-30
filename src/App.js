@@ -11,7 +11,9 @@ import Team from './components/InnerPages/Company/Team/Team';
 import Overview from './components/InnerPages/Company/Overview/Overview'
 import CurrentOpening from './components/InnerPages/Company/CurrentOpening/CurrentOpening'
 import Diversity from "./components/InnerPages/Company/DiversityCerbosys/Diversity";
-import Thanku from './components/Common/Component/Thankumodal'
+import Thanku from './components/Common/Component/Thankumodal';
+import ContactUs from "./components/InnerPages/OtherPages/ContactUs/ContactUs";
+
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
      <Route path='/Overview' element={< Thanku />} />
      <Route path='/CurrentOpening' element={< CurrentOpening />} />
      <Route path='/Diversity' element={< Diversity />} />
+     <Route path='/ContactUs' element={< ContactUs />} />
+
   </Routes>
     
   

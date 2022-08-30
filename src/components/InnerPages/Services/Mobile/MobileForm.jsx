@@ -8,11 +8,13 @@ import { IMAGE_SERVER } from "../../../../ServerUrls";
 const MobileForm = ({onChangeSelected}) => {
 
   const [imgName, setImgName] = useState();
+
+
   const onChangeSelection=(newValue)=>{
     console.log("newValue",newValue)
     let new_name = newValue.substring(8);
     setImgName(IMAGE_SERVER + new_name);  
-    console.log('ImgName', imgName)  
+    console.log('ImgName', imgName)
   }
 
 

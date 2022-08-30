@@ -27,7 +27,8 @@ module.exports = {
       OverviewBackground: "url('assets/innerpage/overview/overview_image.png')",
       CurrentOpeningBackground: "url('assets/innerpage/currentopening/banner_image.png')",
       PerksBackground: "url('assets/innerpage/currentopening/perks_benefits.png')",
-      DiversityBackground: "url('assets/innerpage/diversity/banner_image.jpg')"
+      DiversityBackground: "url('assets/innerpage/diversity/banner_image.jpg')",
+      ContactUsBackgroud: "url('assets/contactus/banner_image.png')"
       
     },
     fontFamily: {

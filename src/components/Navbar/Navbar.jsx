@@ -71,7 +71,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <Link to="/" className="py-5 px-1 inline-block">
+            <Link to="/ContactUs" className="py-5 px-1 inline-block">
               Contact Us
             </Link>
           </li>
@@ -121,7 +121,7 @@ const Navbar = () => {
             </Link>
           </li>         
           <li>
-            <Link to="/" className="py-1 px-3 inline-block">
+            <Link to="/ContactUs" className="py-1 px-3 inline-block">
               Contact Us
             </Link>
           </li>
