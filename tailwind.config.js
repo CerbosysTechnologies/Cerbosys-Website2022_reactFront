@@ -28,8 +28,8 @@ module.exports = {
       CurrentOpeningBackground: "url('assets/innerpage/currentopening/banner_image.png')",
       PerksBackground: "url('assets/innerpage/currentopening/perks_benefits.png')",
       DiversityBackground: "url('assets/innerpage/diversity/banner_image.jpg')",
-      ContactUsBackgroud: "url('assets/contactus/banner_image.png')"
-      
+      ContactUsBackgroud: "url('assets/contactus/banner_image.png')",
+      ContactLeaf:"url('assets/contactus/backgroundleaf.png')"
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],
