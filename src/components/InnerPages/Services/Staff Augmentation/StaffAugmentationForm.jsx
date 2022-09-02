@@ -1,8 +1,22 @@
 import React from 'react'
 import ServicesForm from '../../../Common/Component/ServicesForm'
 import contactimage_formicon from '../../../../assets/innerpage/staffaugmentation/contact_image.png'
+import { useState } from 'react'
+import { IMAGE_SERVER } from "../../../../ServerUrls";
 
-const StaffAugmentationForm = () => {
+
+const StaffAugmentationForm = ({onChangeSelected}) => {
+
+  
+  const [imgName, setImgName] = useState();
+
+  const onChangeSelection=(newValue)=>{
+    console.log("newValue",newValue)
+    let new_name = newValue.substring(8);
+    setImgName(IMAGE_SERVER + new_name);  
+    console.log('ImgName', imgName)
+  }
+
   return (
     <div>
          <div className="bg-FormBackground mx-auto w-full py-16 px-4 ">
@@ -21,13 +35,13 @@ const StaffAugmentationForm = () => {
              <div className="grid md:grid-cols-2  mb-4 md:px-36 py-5  mt-10">
               {/* Image Section */}
               <div className="">
-              <img src={contactimage_formicon} alt="" className="h-full"></img>
+              <img src={!imgName ? contactimage_formicon : imgName} alt="" className="h-full"></img>
               </div>
               {/* Image Section Ends*/}
 
               {/* Form Section */}
               <div className="bg-white md:px-14 px-10 items-center justify-center text-center ">
-               <ServicesForm />
+              <ServicesForm onChangeSelected={onChangeSelection}/>
                 </div>
               {/* Form Section Ends*/}
 

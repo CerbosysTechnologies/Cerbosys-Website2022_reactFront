@@ -1,8 +1,22 @@
 import React from "react";
 import webdevelopmenticon from "../../../../assets/innerpage/webdevelopment/web_development_contact_us.png";
 import ServicesForm from '../../../Common/Component/ServicesForm'
+import { IMAGE_SERVER } from "../../../../ServerUrls";
+import { useState } from "react";
 
-const ServiceForm = () => {
+
+const ServiceForm = ({ onChangeSelected }) => {
+
+  const [imgName, setImgName] = useState();
+
+  const onChangeSelection = (newValue) => {
+    console.log("newValue", newValue);
+    let new_name = newValue.substring(8);
+    setImgName(IMAGE_SERVER + new_name);
+    console.log("ImgName", imgName);
+  };
+
+
   return (
     <div className="">
       <div className="bg-FormBackground mx-auto w-full py-16 px-4 ">
@@ -22,13 +36,13 @@ const ServiceForm = () => {
             <div className="grid md:grid-cols-2 mb-4 mt-10 shadow-xl shadow-gray-600">
                {/* Image Section */}
                <div className="mx-auto items-center justify-center ">
-              <img src={webdevelopmenticon} alt="" className="h-full"></img>
+              <img src={!imgName ? webdevelopmenticon : imgName} alt="" className="h-full"></img>
               </div>
               {/* Image Section Ends*/}
 
               {/* Form Section */}
               <div className="bg-white md:px-14 px-10 items-center justify-center text-center ">
-               <ServicesForm />
+              <ServicesForm onChangeSelected={onChangeSelection} />
                 </div>
               {/* Form Section Ends*/}
 

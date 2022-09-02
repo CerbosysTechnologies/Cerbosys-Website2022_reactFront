@@ -42,7 +42,7 @@ const ClientLogoSlider = () => {
         loop={true}
         slidesPerView={3}       
         autoplay={{
-          delay: 500,
+          delay: 700,
           disableOnInteraction: false,
         }}>
         {featuredicons.map((slideContent, index) => (

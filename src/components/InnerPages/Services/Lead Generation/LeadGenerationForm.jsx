@@ -1,8 +1,19 @@
 import React from 'react'
 import ServicesForm from '../../../Common/Component/ServicesForm'
 import leadgenration_formicon from '../../../../assets/innerpage/leadgeneration/contactimage.png'
+import { IMAGE_SERVER } from "../../../../ServerUrls";
+import { useState } from "react";
 
-const LeadGenerationForm = () => {
+const LeadGenerationForm = ({ onChangeSelected }) => {
+  const [imgName, setImgName] = useState();
+
+  const onChangeSelection = (newValue) => {
+    console.log("newValue", newValue);
+    let new_name = newValue.substring(8);
+    setImgName(IMAGE_SERVER + new_name);
+    console.log("ImgName", imgName);
+  };
+
   return (
     <div>
          <div className="bg-Primary mx-auto w-full py-16 px-4 ">
@@ -21,13 +32,13 @@ const LeadGenerationForm = () => {
              <div className="grid md:grid-cols-2  mb-4 mt-10 shadow-xl shadow-gray-600">
               {/* Image Section */}
               <div className="">
-              <img src={leadgenration_formicon} alt="" className="h-full"></img>
+              <img src={!imgName ? leadgenration_formicon : imgName} alt="" className="h-full"></img>
               </div>
               {/* Image Section Ends*/}
 
               {/* Form Section */}
               <div className="bg-white md:px-14 px-10 items-center justify-center text-center ">
-               <ServicesForm />
+              <ServicesForm onChangeSelected={onChangeSelection} />
                 </div>
               {/* Form Section Ends*/}
 

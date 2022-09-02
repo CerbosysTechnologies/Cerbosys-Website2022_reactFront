@@ -8,7 +8,7 @@ const ContactUs = () => {
     <div>
           <>
         <Navbar />
-        <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-TeamBackground bg-cover md:bg-top bg-center">
+        <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-ContactUsBackgroud bg-cover md:bg-top bg-center">
           {/* Free Quote */}
           <div
             className="fixed z-20 top-1/2 right-[-4.55rem] bg-Green

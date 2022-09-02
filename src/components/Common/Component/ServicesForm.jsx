@@ -161,13 +161,14 @@ const ServicesForm = (props) => {
             <select
               className="dropdown text-gray-400 font-heading  text-sm flex flex-wrap
                     border-2 rounded-lg px-2 py-2 border-gray-400"
-                    onChange={handlerChange}
+                    onChange={(e) => handlerChange(e)}
                      
             >
       {serviceitems.map(item => (
         <option
           key={item.service_name}
           value={item.service_image} > {item.service_name} </option>
+          
       ))}             
               {/* 
               <option value="Web Development">Web Development</option>
