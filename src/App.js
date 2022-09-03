@@ -15,9 +15,11 @@ import Thanku from './components/Common/Component/Thankumodal';
 import ContactUs from "./components/InnerPages/OtherPages/ContactUs/ContactUs";
 
 
+
 function App() {
   return (
   <Routes>
+   
      <Route exact path="/" element={<Hero />} />
      <Route path="/WebDevelopment" element={<WebDevelopment />} />
      <Route path='/MobileDevelopment' element={< MobileDevelopment />} />

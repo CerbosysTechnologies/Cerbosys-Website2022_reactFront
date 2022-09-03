@@ -9,6 +9,7 @@ import uxdevelopmenticon from '../../assets/services/ux_Development.svg';
 
 
 
+
 const ServiceHomePage = () => {
   return (
     <div>
@@ -83,6 +84,7 @@ const ServiceHomePage = () => {
            {/* Services Part Ends */}
 
         </div>
+   
     </div>
   )
 }

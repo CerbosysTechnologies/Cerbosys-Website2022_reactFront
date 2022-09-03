@@ -4,15 +4,13 @@ import axios from "axios";
 import MobileForm from "../../InnerPages/Services/Mobile/MobileForm";
 
 const ServicesForm = (props) => {
-
-  
   //hooks
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [contactNumber, setContactNumber] = useState("");
   const [serviceId, setServiceId] = useState("");
-  const [hearaboutus, setHearaboutus] = useState("");
+  const [hearaboutus, setHearaboutus] = useState([]);
   const [message, setMessage] = useState("");
 
   const [serviceitems, setServiceItems] = React.useState([]);
@@ -20,21 +18,14 @@ const ServicesForm = (props) => {
   //Image
   const [techimg, setTechImg] = useState("");
 
-  const [showImageSec, setShowImageSection] =useState(true)
+  const [showImageSec, setShowImageSection] = useState(true);
 
   const insertEnquiry = () => {};
 
+  const handlerChange = (event) => {
+    props.onChangeSelected(event.target.value);
+  };
 
-  const handlerChange =(event)=>{
-    props.onChangeSelected(event.target.value)
-  }
-
-// const  companyList =(event)=>{
-//   console.log(event.target.value)
-//   props.onChange(techimg);
-//   console.log("Props", props.techimg);
-  
-// }
   const getAllServices = () => {
     axios
       .get(SERVER + "/getAllServices", {
@@ -46,18 +37,17 @@ const ServicesForm = (props) => {
         console.log("Get All Services->", res.data.data);
         setServiceItems(res.data.data);
         //console.log('TechImage', techimg)
-        // setServiceItems(res.data.data.map((val) => 
+        // setServiceItems(res.data.data.map((val) =>
         // (
         //   console.log("Map Value", val),
         //   { label: val.service_name, value: val.service_name },
         //   console.log('TechImage', techimg)
         //   )));
-        
       });
   };
-  
+
   useEffect(() => {
-    getAllServices();  
+    getAllServices();
   }, []);
 
   const handleSubmit = (e) => {
@@ -68,7 +58,7 @@ const ServicesForm = (props) => {
       subject: subject,
       contact_number: contactNumber,
       myservice_id: serviceId,
-      hearabout_us: "",
+      hearabout_us: hearaboutus,
       message: message,
     };
 
@@ -83,9 +73,26 @@ const ServicesForm = (props) => {
       });
   };
 
+
+  const addHearAboutUs = (e) => {
+    //let newTask = {content: e, completed: false};
+    let hear = [];
+    hear.push(e)
+      console.log(hear);
+      let uniqueNames;
+      if(hear.length >0){
+        uniqueNames = (...new Set(hear));
+      }
+      console.log("UN", uniqueNames)
+      // setHearaboutus(prevTask => {
+      //   return ([...prevTask, uniqueNames]);
+      // });  
+      console.log(hearaboutus);
+  
+  }
+
   return (
     <div>
-          
       <div className="bg-white md:px-1 items-center justify-center text-center">
         <form onSubmit={(e) => handleSubmit(e)}>
           {/* Name Div */}
@@ -161,25 +168,15 @@ const ServicesForm = (props) => {
             <select
               className="dropdown text-gray-400 font-heading  text-sm flex flex-wrap
                     border-2 rounded-lg px-2 py-2 border-gray-400"
-                    onChange={(e) => handlerChange(e)}
-                     
+              onChange={(e) => handlerChange(e)}
             >
-      {serviceitems.map(item => (
-        <option
-          key={item.service_name}
-          value={item.service_image} > {item.service_name} </option>
-          
-      ))}             
-              {/* 
-              <option value="Web Development">Web Development</option>
-              <option value="Digital Marketing">Digital Marketing</option>
-              <option value="Lead Generation">Lead Generation</option>
-              <option value="Branding and Packaging">
-                Branding and Packaging
-              </option>
-              <option value="Mobile Development">Mobile Development</option>
-              <option value="UI/UX Development">UI/UX Development</option>
-              <option value="Staff Augmentation">Staff Augmentation</option> */}
+              {serviceitems.map((item) => (
+                <option key={item.service_name} value={item.service_image}>
+                  {" "}
+                  {item.service_name}{" "}
+                </option>
+              ))}
+
             </select>
           </div>
           {/* Selection Div Ends*/}
@@ -193,11 +190,12 @@ const ServicesForm = (props) => {
               <input
                 id="checkbox-1"
                 type="checkbox"
-                value=""
+                onChange={(e) => addHearAboutUs(e.target.value)}
+                value="Google"
                 className="w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
               />
               <label
-                htmlFor ="checkbox-Google"
+                htmlFor="checkbox-Google"
                 className="ml-2 text-sm font-heading text-gray-600 
                       dark:text-gray-500"
               >
@@ -207,11 +205,12 @@ const ServicesForm = (props) => {
               <input
                 id="checkbox-LinkdIn"
                 type="checkbox"
-                value=""
+                onChange={(e) => addHearAboutUs(e.target.value)}
+                value="LinkedIn"
                 className="ml-4 w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
               />
               <label
-                htmlFor ="checkbox-Google"
+                htmlFor="checkbox-Google"
                 className="ml-2 text-sm font-heading text-gray-600 
                       dark:text-gray-500"
               >
@@ -221,11 +220,12 @@ const ServicesForm = (props) => {
               <input
                 id="checkbox-Facebook"
                 type="checkbox"
-                value=""
+                onChange={(e) => addHearAboutUs(e.target.value)}
+                value="Facebook"
                 className="ml-5 w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
               />
               <label
-                htmlFor ="checkbox-Facebook"
+                htmlFor="checkbox-Facebook"
                 className="ml-2 text-sm font-heading text-gray-600 
                       dark:text-gray-500"
               >
@@ -252,11 +252,11 @@ const ServicesForm = (props) => {
                 id="checkbox-Instagram"
                 type="checkbox"
                 value=""
-                className =" w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
+                className=" w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
               />
               <label
-                htmlFor ="checkbox-Instagram"
-                className ="ml-2 text-sm font-heading text-gray-600 
+                htmlFor="checkbox-Instagram"
+                className="ml-2 text-sm font-heading text-gray-600 
                       dark:text-gray-500 mr-2 "
               >
                 Instagram
@@ -265,11 +265,11 @@ const ServicesForm = (props) => {
                 id="checkbox-FriendSuggested"
                 type="checkbox"
                 value=""
-                className ="ml-2 w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
+                className="ml-2 w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
               />
               <label
-                htmlFor ="checkbox-FriendSuggested"
-                className ="md:ml-2 text-sm font-heading text-gray-600 
+                htmlFor="checkbox-FriendSuggested"
+                className="md:ml-2 text-sm font-heading text-gray-600 
                       dark:text-gray-500"
               >
                 Friend Suggested
@@ -279,11 +279,11 @@ const ServicesForm = (props) => {
                 id="checkbox-Others"
                 type="checkbox"
                 value=""
-                className ="ml-4  w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
+                className="ml-4  w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
               />
               <label
-                htmlFor ="checkbox-Others"
-                className ="ml-2 text-sm font-heading text-gray-600 
+                htmlFor="checkbox-Others"
+                className="ml-2 text-sm font-heading text-gray-600 
                       dark:text-gray-500"
               >
                 Others
@@ -293,12 +293,12 @@ const ServicesForm = (props) => {
           {/* Hear About Div Ends*/}
 
           {/* Message Div */}
-          <div className =" mb-6 md:w-full group">
+          <div className=" mb-6 md:w-full group">
             <input
               type="text"
               name="message"
               id="message"
-              className ="block mt-5 py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent border-0 border-b-2 
+              className="block mt-5 py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent border-0 border-b-2 
       border-gray-300 appearance-none  dark:border-gray-400 
        focus:outline-none focus:ring-0 peer"
               placeholder="Message"
@@ -316,7 +316,6 @@ const ServicesForm = (props) => {
           />
         </form>
       </div>
-     
     </div>
   );
 };
