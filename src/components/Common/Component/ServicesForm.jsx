@@ -80,9 +80,9 @@ const ServicesForm = (props) => {
     hear.push(e)
       console.log(hear);
       let uniqueNames;
-      if(hear.length >0){
-        uniqueNames = (...new Set(hear));
-      }
+      // if(hear.length >0){
+      //   uniqueNames = (...new Set(hear));
+      // }
       console.log("UN", uniqueNames)
       // setHearaboutus(prevTask => {
       //   return ([...prevTask, uniqueNames]);
