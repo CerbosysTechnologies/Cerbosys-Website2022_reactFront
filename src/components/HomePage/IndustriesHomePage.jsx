@@ -1,5 +1,5 @@
 import React from 'react'
-//import agricultureicon from '../../assets/industry/agriculture.svg';
+import agricultureicon from '../../assets/industry/agriculture.svg';
 import bankingicon from '../../assets/industry/banking.svg';
 import ecommerceicon from '../../assets/industry/e-commerce.svg';
 import educationicon from '../../assets/industry/education.svg';
@@ -23,18 +23,20 @@ const IndustriesHomePage = () => {
 
           <h1 className='text-white font-heading md:text-xl text-lg '>Our Industries</h1>
           <div className='text-white font-content text-sm md:text-lg'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            molestiae delectus culpa hic assumenda, voluptate reprehenderit
-            dolore autem cum ullam sed odit perspiciatis. Doloribus quos velit,
-            eveniet ex deserunt fuga?
+          Cerbosys has successfully managed to win the trust and hold hands with clients in several emerging business sectors across the country which include: education, agriculture, transport & logistics, healthcare, finance, e-commerce, and many more.
           </div>
+
+            <div className='text-white font-heading text-lg md:text-xl uppercase mt-28 italic bold'>
+            Connect with Cerbosys if you are looking to grow your business online.
+            </div>
+
         </div>
         {/* Content Part */}
         {/* Icons Starts */}
         <div className='mx-auto my-4 grid md:grid-cols-4 md:gap-4 grid-cols-2 gap-10'>
             <div>
-                {/* <img src={agricultureicon} alt="Agriculture Icon" className='md:w-[170px] md:h-[170px] 
-                w-[120px] h-[120px]'></img> */}
+                <img src={agricultureicon} alt="Agriculture Icon" className='md:w-[170px] md:h-[170px] 
+                w-[120px] h-[120px]'></img>
             </div>
 
             <div>

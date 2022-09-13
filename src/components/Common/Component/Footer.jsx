@@ -9,13 +9,14 @@ import twittericon from "../../../assets/footer/Twittter.svg";
 import whatsappicon from "../../../assets/footer/Whatsapp_icon.svg";
 import youtubeicon from "../../../assets/footer/youtube.svg";
 import footerlogo from "../../../assets/footer/Logo_in_footer.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div>
       <div className="bg-FooterBackground w-full h-full mx-auto py-4 px-24">
         <div className="max-w-[1240px] mx-auto">
-          <div className="grid md:grid-cols-4 gap-5">
+          <div className="grid md:grid-cols-4 gap-4">
             {/* First Col */}
             <div>
               <img
@@ -26,23 +27,24 @@ const Footer = () => {
               <h1 className="font-heading  text-sm md:text-lg text-white">
                 About Us
               </h1>
-              <p className="font-content text-gray-400 md:text-sm text-xs">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Aspernatur adipisci mollitia iste consectetur exercitationem
-                voluptatibus neque deserunt! Vel, cumque amet! Voluptates iure
-                expedita animi veritatis sunt soluta perspiciatis tempora illo!
+              <p className="font-content text-gray-400 md:text-sm text-xs font-extrabold  ">
+              Cerbosys is an experienced professional services provider company with a proven track record of excellence which fosters long-term relationships with our clients. 
+              <br></br>
+              <br></br>
+Our ability to understand and problem-solve complex client issues in multiple business areas helps us differentiate in the services sector. Our mission is to ensure consistent growth in the performance of our clients. 
+
               </p>
             </div>
             {/* First Col Ends */}
             {/* Main Div of all three columns */}
-            <div className="md:col-span-3 flex flex-wrap justify-center items-center m-3 mt-16 gap-24">
+            <div className="md:col-span-3 flex flex-wrap md:justify-center md:items-center md:m-3 md:mt-16 md:gap-24 gap-6">
               {/* Second Column */}
-              <div>
-                <h6 className="font-heading text-sm md:text-lg text-white uppercase mb-3">
-                  Explore
+              <div className="">
+                <h6 className="font-heading text-sm md:text-lg text-white uppercase mb-3 md:px-0 ">
+                  Explore 
                 </h6>
                 <ul className="text-white font-subheading text-xs ">
-                  <li className="">Home</li>
+                  <li className=""><Link to="/">Home</Link></li>
                   <li className="">Company</li>
                   <li className="">Services</li>
                   <li className="">Industries</li>
@@ -124,7 +126,7 @@ const Footer = () => {
                 <div className="flex flex-row mb-5">
                   <img src={callicon} alt="Call Icon" className="mr-3"></img>
                   <span className="font-subheading text-sm text-white">
-                    07314993444
+                  0731-499-34-44
                   </span>
                 </div>
 
@@ -135,7 +137,7 @@ const Footer = () => {
                     className="mr-3"
                   ></img>
                   <span className="font-subheading text-sm text-white">
-                    07314993444
+                  0731-499-34-44
                   </span>
                 </div>
 
@@ -153,11 +155,23 @@ const Footer = () => {
 
         {/* Social Icons Div */}
         <div className="flex flex-row items-center justify-center mt-20 gap-2">
-            <img src={fbcon} alt="Facebook Icon" className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"/>
-            <img src={instagramicon} alt="Facebook Icon" className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"/>
-            <img src={twittericon} alt="Facebook Icon" className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"/>
-            <img src={linkedinicon} alt="Facebook Icon" className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"/>
-            <img src={youtubeicon} alt="Facebook Icon" className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"/>
+            <Link to="https://www.facebook.com/cerbosystech/">
+              <img src={fbcon} alt="Facebook Icon" className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"/>
+            </Link>
+            <Link to="https://www.instagram.com/cerbosys/?hl=en">
+              <img src={instagramicon} alt="Facebook Icon" className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"/>
+            </Link>
+            
+            <Link to="https://twitter.com/CerbosysTech">
+              <img src={twittericon} alt="Twitter Icon" className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"/>
+            </Link>
+
+            <Link to="https://in.linkedin.com/company/cerbosys">
+              <img src={linkedinicon} alt="LinkedIn Icon" className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"/>
+            </Link>
+            <Link to="https://www.youtube.com/channel/UCUXbH7ByTAyE0D8ZgAL5Muw?app=desktop">
+              <img src={youtubeicon} alt="Youtube Icon" className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"/>
+            </Link>
         </div>
      
         {/* Social Icons Div Ends*/}

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import cerbosyswhite from "../../assets/logo_tagline.svg";
-import cerbosysblack from "../../assets/cerbosys_blueball_black_svg.svg";
-import callicon from "../../assets/call_icon.png";
+import cerbosyswhite from "../../assets/cerbosyswhite.svg";
+import cerbosysblack from "../../assets/cerbosysblack.svg";
+import callicon from "../../assets/call_icon.svg";
 import NavLinks from "./ServiceNavLinks";
 import IndustryNavLinks from "./IndustryNavLinks";
 import CompanyNavLinks from "./CompanyNavLinks";
@@ -26,11 +26,11 @@ const Navbar = () => {
     <nav className={!headerVisible ? "z-0 bg-transparent fixed m-auto w-full": "z-0 bg-white fixed m-auto w-full" }>
       <div className="flex items-center font-heading justify-around">
         {/* Logo Div */}
-        <div className="z-10 p-5 md:w-auto w-full flex justify-between">
+        <div className="z-10 p-2 md:w-auto w-full flex justify-between">
           <Link to="/"><img
             src={!headerVisible ? cerbosyswhite : cerbosysblack}
             alt="logo"
-            className="md:cursor-pointer w-[150px] h-14"
+            className="md:cursor-pointer md:w-[300px] md:h-24 md:mt-0 mt-5 w-[200px] h-[65px]"
           /></Link>
             {/* Test Code */}
             <div className={`text-5xl md:hidden m-5 ${!headerVisible ? "text-white" : "text-black"}`} onClick={() => 
@@ -85,9 +85,9 @@ const Navbar = () => {
             src={callicon}
             alt="callicon" 
           />
-          <span className={`text-sm font-heading mt-1 text-white
+          <span className={`text-sm font-heading mt-1 
           ${!headerVisible ? "text-white" : "text-black"}`}>
-            0731-4993444
+            0731-499-34-44
           </span>
         </div>
 

@@ -29,7 +29,7 @@ function App() {
      <Route path='/UIAndUX' element={< UIAndUX />} />
      <Route path='/StaffAugmentation' element={< StaffAugmentation />} />
      <Route path='/Team' element={< Team />} />
-     <Route path='/Overview' element={< Thanku />} />
+     <Route path='/Overview' element={< Overview />} />
      <Route path='/CurrentOpening' element={< CurrentOpening />} />
      <Route path='/Diversity' element={< Diversity />} />
      <Route path='/ContactUs' element={< ContactUs />} />

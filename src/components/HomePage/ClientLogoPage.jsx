@@ -16,10 +16,13 @@ const ClientLogoPage = () => {
                 Trusted by over 500+ clients
             </h2>
             <div className="text-black font-content text-lg md:text-lg md:text-left md:items-center md:w-[500px] whitespace-pre-wrap">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum molestiae delectus culpa hic assumenda, voluptate
-              reprehenderit dolore autem cum ullam sed odit perspiciatis.
-              Doloribus quos velit, eveniet ex deserunt fuga?
+            With more than 4 years of working experience, Cerbosys has successfully managed to handle several clients by providing them 360 degrees in IT & business service solutions.
+            <br></br>
+            <br></br>
+            Our team of multidisciplinary designers and developers is ready to make your vision a reality -- and we’re trusted by over 500+ clients.
+            <br></br>
+            <br></br>            
+            We take pride in our work and we love to show you why we are the <b><i>#the most trusted choice</i></b> for small businesses and startups. 
             </div>
           </div>
           {/* Content Part */}
