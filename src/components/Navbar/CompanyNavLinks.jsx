@@ -23,7 +23,7 @@ const CompanyNavLinks = () => {
               <div className="mt-[10px] ">
                 <ul className="text-sm font-subheading list-inside list-disc px-5">
                   <li> <Link to="/Overview">Overview</Link></li>                              
-                  <li> Training and Development</li>
+                  <li> <Link to="TrainingAndDevelopment">Training and Development</Link></li>
                   <li> <Link to="/Team">Team</Link></li>
                   <li> Life @ Cerbosys</li>
                   <li> <Link to="/Diversity">Diversity @ Cerbosys</Link></li>
@@ -78,12 +78,12 @@ const CompanyNavLinks = () => {
         <div className="flex flex-wrap flex-col m-2">
           <div className="mt-[-10px] ">
             <ul className="text-sm font-subheading list-inside list-disc">
-              <li> <Link to="/Overview">Overview</Link></li>                      
-              <li> Training and Development</li>
+              <li> <Link to="Overview">Overview</Link></li>                      
+              <li> <Link to="TrainingAndDevelopment">Training and Development </Link></li>
               {/* <li> <Link to="/Team">Team</Link></li> */}
               <li> Life @ Cerbosys</li>
-              <li> <Link to="/Diversity">Diversity @ Cerbosys</Link></li>
-              <li> <Link to="/CurrentOpening">Current Openings</Link></li>
+              <li> <Link to="Diversity">Diversity @ Cerbosys</Link></li>
+              <li> <Link to="CurrentOpening">Current Openings</Link></li>
             </ul>
           </div>
         </div>

@@ -13,6 +13,7 @@ import CurrentOpening from './components/InnerPages/Company/CurrentOpening/Curre
 import Diversity from "./components/InnerPages/Company/DiversityCerbosys/Diversity";
 import Thanku from './components/Common/Component/Thankumodal';
 import ContactUs from "./components/InnerPages/OtherPages/ContactUs/ContactUs";
+import TrainingAndDevelopment from "./components/InnerPages/Company/TrainingAndDevelopment/TrainingAndDevelopment";
 
 
 
@@ -33,6 +34,7 @@ function App() {
      <Route path='/CurrentOpening' element={< CurrentOpening />} />
      <Route path='/Diversity' element={< Diversity />} />
      <Route path='/ContactUs' element={< ContactUs />} />
+     <Route path='/TrainingAndDevelopment' element={< TrainingAndDevelopment />} />
 
   </Routes>
     

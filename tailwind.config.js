@@ -29,7 +29,9 @@ module.exports = {
       PerksBackground: "url('assets/innerpage/currentopening/perks_benefits.png')",
       DiversityBackground: "url('assets/innerpage/diversity/banner_image.jpg')",
       ContactUsBackgroud: "url('assets/contactus/banner_image.png')",
-      ContactLeaf:"url('assets/contactus/backgroundleaf.png')"
+      ContactLeaf:"url('assets/contactus/backgroundleaf.png')",
+      TrainingAndDevelopment:"url('assets/innerpage/traininganddevelopment/trainingbackground.svg')",
+      TrainingAndDevelopmentBody:"url('assets/innerpage/traininganddevelopment/trainingbody.svg')",
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],
