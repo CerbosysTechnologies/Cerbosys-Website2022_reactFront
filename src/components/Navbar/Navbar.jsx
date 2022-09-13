@@ -59,7 +59,7 @@ const Navbar = () => {
           <NavLinks></NavLinks>
 
           <IndustryNavLinks></IndustryNavLinks>
-          <li>
+          {/* <li>
             <Link to="/" className="py-5 px-1 inline-block">
               Case Study
             </Link>
@@ -67,6 +67,12 @@ const Navbar = () => {
           <li>
             <Link to="/" className="py-5 px-1 inline-block">
               Blog
+            </Link>
+          </li> */}
+
+          <li>
+            <Link to="/Team" className="py-5 px-1 inline-block">
+              Team
             </Link>
           </li>
 

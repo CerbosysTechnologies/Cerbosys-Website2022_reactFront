@@ -26,7 +26,7 @@ const IndustriesHomePage = () => {
           Cerbosys has successfully managed to win the trust and hold hands with clients in several emerging business sectors across the country which include: education, agriculture, transport & logistics, healthcare, finance, e-commerce, and many more.
           </div>
 
-            <div className='text-white font-heading text-lg md:text-xl uppercase mt-28 italic bold'>
+            <div className='text-white font-heading text-lg md:text-xl uppercase mt-20 mb-3 italic bold text-left'>
             Connect with Cerbosys if you are looking to grow your business online.
             </div>
 

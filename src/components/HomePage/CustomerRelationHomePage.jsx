@@ -26,10 +26,10 @@ const CustomerRelationHomePage = () => {
                   src={clientinteractionicon}
                   alt="Client Interaction Icon"
                   className="md:w-[320px] md:h-[320px] 
-                w-[220px] h-[620px]"
+                w-[220px] h-[620px] "
                 ></img>
                 <p className="text-black font-heading md:text-[10px] absolute md:top-32 md:mt-2 md:left-12 md:w-48 md:h-16 text-center
-                  top-[18rem] w-36 mt-2 text-[8px] left-[2rem]">
+                  top-[18rem] w-36 mt-2 text-[8px] left-[1.5rem] ">
                 Client interaction is the first impression a client will have about our business & a friendly and professional interaction from our side helps a lot in boosting our client’s business reputation and growth in the market.
                 </p>
               </div>
@@ -42,7 +42,7 @@ const CustomerRelationHomePage = () => {
                 w-[220px] h-[620px]"
                 ></img>
                 <p className="text-black font-heading md:text-[10px] absolute md:top-32 md:mt-4 md:left-[23rem] md:w-48 md:h-16 text-center
-                  top-[18rem] w-36 mt-2 text-[9px] left-[15rem]">
+                  top-[18rem] w-36 mt-2 text-[8px] left-[14rem]">
                 Consolidation is basically the unification process of our company with the vision of our clients, which eventually helps to produce better results for their business growth.
                 </p>
               </div>
@@ -55,7 +55,7 @@ const CustomerRelationHomePage = () => {
                 w-[220px] h-[620px]"
                 ></img>
                   <p className="text-black font-heading md:text-[10px] absolute md:top-[29rem] md:mt-2 md:left-12 md:w-48 md:h-16 text-center
-                  top-[35rem] w-28 mt-2 text-[9px] left-[3rem]">
+                  top-[35rem] w-28 mt-2 text-[8px] left-[2.5rem]">
                 Executing strategic opportunities, initiatives, ideas & creativity for business expansion is a major part of the development process.
                 </p>
               </div>
@@ -68,7 +68,7 @@ const CustomerRelationHomePage = () => {
                 w-[220px] h-[620px]"
                 ></img>
                  <p className="text-black font-heading md:text-[10px] absolute md:top-[29rem] md:mt-2 md:left-96 md:w-48 md:h-16 text-center
-                  top-[35rem] w-32 mt-2 text-[9px] left-[16rem]">
+                  top-[35rem] w-32 mt-2 text-[8px] left-[14rem]">
                 This process is a systematic approach to fulfill a project, which helps the project manager and other team members to plan, execute and control their work more effectively.
                 </p>
               </div>

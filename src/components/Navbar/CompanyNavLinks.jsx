@@ -59,7 +59,7 @@ const CompanyNavLinks = () => {
 
             {/* Slogan Line */}
             <div className="bottom-1 font-heading text-xl text-center absolute border-t-2 ">
-              Enabling Business Make business
+            WE CREATE WHAT YOU BELIEVE!!
             </div>
             {/* Slogan Ends */}
           </div>
@@ -80,7 +80,7 @@ const CompanyNavLinks = () => {
             <ul className="text-sm font-subheading list-inside list-disc">
               <li> <Link to="/Overview">Overview</Link></li>                      
               <li> Training and Development</li>
-              <li> <Link to="/Team">Team</Link></li>
+              {/* <li> <Link to="/Team">Team</Link></li> */}
               <li> Life @ Cerbosys</li>
               <li> <Link to="/Diversity">Diversity @ Cerbosys</Link></li>
               <li> <Link to="/CurrentOpening">Current Openings</Link></li>

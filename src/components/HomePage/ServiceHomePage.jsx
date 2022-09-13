@@ -32,15 +32,17 @@ const ServiceHomePage = () => {
                     <div className=''>
                         <img alt='Mobile Icon' src={mobileicon} className='w-[70px] h-[70px] mb-2'/>
                         <h1 className='font-subheading text-left text-xl w-1/2'>Mobile App Developements</h1>
-                        <p className='font-content text-justify text-sm'>
+                        <p className='font-content text-justify text-sm md:mb-0 mb-2'>
                         Smartphones are a crucial part of our lives, so it's important to have an app that'll make your life easier. If you need help with app development, we have the experience and knowledge needed to create something functional and appealing for any industry and budget.    
+                        <br></br>
+                        <br></br>
                         </p>
                     </div>
                     <div>
                     <img alt='Web Icon' src={webdevelopmenticon} className='w-[70px] h-[70px] mb-2'/>
                         <h1 className='font-subheading text-left text-xl w-1/2'>Web Developement</h1>
                         <p className='font-content text-justify text-sm'>
-                        Whether you're looking for a new website or want to improve the current one, we'll make it happen. We are experts in designing and developing websites that are appealing to both users and search engine crawlers alike. 
+                        Website development is the process of creating a new website or updating it to a newer version. Whether you're looking for a new website or want to improve the current one, we'll make it happen. We are experts in designing and developing websites that are appealing to both users and search engine crawlers alike. 
                         </p>
                     </div>
                     <div>
@@ -53,14 +55,14 @@ const ServiceHomePage = () => {
                     <div>
                     <img alt='Staff Augmentation Icon' src={staffaugmentationicon} className='w-[70px] h-[70px] mb-2'/>
                         <h1 className='font-subheading text-left text-xl w-1/2'>Staff Augmentation</h1>
-                        <p className='font-content text-justify text-sm'>
+                        <p className='font-content text-justify text-sm md:mb-0 mb-16'>
                         Since one of the primary elements of staff augmentation is talent, Cerbosys acts as a link to augment the capacity of your organization and we can help your company to build an entirely effective team that can add good value to your brand and projects.
                         </p>
                     </div>
                     <div>
                     <img alt='UI/UX Icon' src={uxdevelopmenticon} className='w-[70px] h-[70px] mb-2'/>
                         <h1 className='font-subheading text-left text-xl w-1/2'>UI/UX Development</h1>
-                        <p className='font-content text-justify text-sm'>
+                        <p className='font-content text-justify text-sm md:mb-0 mb-12'>
                         We have a team that is especially concerned about the entire process of product design. Apart from designing and useability, we also provide a meaningful and enjoyable experience for the users. Since a better user experience can increase your sales effectively.
                         </p>
                     </div>
@@ -74,7 +76,7 @@ const ServiceHomePage = () => {
                     <div>
                     <img alt='Lead Generation Icon' src={leadrgenerationicon} className='w-[70px] h-[70px] mb-2'/>
                         <h1 className='font-subheading text-left text-xl w-1/2'>Lead Generation</h1>
-                        <p className='font-content text-justify text-sm'>
+                        <p className='font-content text-justify text-sm mb-16'>
                         Getting high-quality leads and clients through Search Engine Optimization (SEO) and Social Media Marketing (SMM) - Drive higher engagement rates for your brand on social media platforms by having a social media marketing campaign tailored to your needs.
                         </p>
                     </div>

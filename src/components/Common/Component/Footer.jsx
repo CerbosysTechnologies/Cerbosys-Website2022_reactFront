@@ -45,14 +45,19 @@ Our ability to understand and problem-solve complex client issues in multiple bu
                 </h6>
                 <ul className="text-white font-subheading text-xs ">
                   <li className=""><Link to="/">Home</Link></li>
-                  <li className="">Company</li>
-                  <li className="">Services</li>
+                  <li className=""><Link to="Overview">Company</Link></li>
+                  {/* <li className="">Services</li>
                   <li className="">Industries</li>
                   <li className="">Case Study</li>
-                  <li className="">Blog</li>
-                  <li className="">Team</li>
-                  <li className="">Contact Us</li>
-                  <li></li>
+                  <li className="">Blog</li> */}
+                  <li className=""><Link to="Team">Team</Link></li>
+                  <li className=""><Link to="ContactUs">Contact Us</Link></li>                 
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
                 </ul>
               </div>
 
@@ -65,15 +70,15 @@ Our ability to understand and problem-solve complex client issues in multiple bu
                   Services
                 </h6>
                 <ul className="text-white font-subheading text-xs">
-                  <li className="">Web Development</li>
-                  <li className="">Staff Augmentation</li>
-                  <li className="">Mobile Development</li>
-                  <li className="">UI/UX Development</li>
-                  <li className="">Digital Marketing</li>
-                  <li className="">Digital Marketing</li>
-                  <li className="">Brand And Packiging</li>
-                  <li className="">Lead Generation</li>
-                  <li></li>
+                  <li className=""><Link to="WebDevelopment">Web Development</Link></li>
+                  <li className=""><Link to="StaffAugmentation">Staff Augmentation</Link></li>
+                  <li className=""><Link to="MobileDevelopment">Mobile Development</Link></li>
+                  <li className=""><Link to="UIAndUX">UI/UX Development</Link></li>
+                  <li className=""><Link to="DigitalMarketing">Digital Marketing</Link></li>                 
+                  <li className=""><Link to="BrandingAndPackaging">Brand And Packaging</Link></li>
+                  <li className=""><Link to="LeadGeneration">Lead Generation</Link></li>
+                 <br></br>
+                 <br></br>
                 </ul>
               </div>
               {/* Third Column Ends*/}
@@ -154,7 +159,9 @@ Our ability to understand and problem-solve complex client issues in multiple bu
 
 
         {/* Social Icons Div */}
-        <div className="flex flex-row items-center justify-center mt-20 gap-2">
+        
+        <div className="flex flex-row items-center justify-center mt-20 gap-2 mb-2">
+          
             <a href="https://www.facebook.com/cerbosystech/" target="_blank">
               <img src={fbcon} alt="Facebook Icon" className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"/>
             </a>
@@ -175,6 +182,13 @@ Our ability to understand and problem-solve complex client issues in multiple bu
         </div>
      
         {/* Social Icons Div Ends*/}
+        <hr></hr>
+        <div className="flex flex-row items-center justify-center mt-2 gap-2 text-white font-heading text-sm">
+        &copy;2022 Cerbosys Technologies. All Rights Reserved.
+        </div>
+
+
+
         </div>
         {/* Max Width Div Ends */}
       </div>
