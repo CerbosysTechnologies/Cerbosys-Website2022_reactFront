@@ -155,23 +155,23 @@ Our ability to understand and problem-solve complex client issues in multiple bu
 
         {/* Social Icons Div */}
         <div className="flex flex-row items-center justify-center mt-20 gap-2">
-            <Link to="https://www.facebook.com/cerbosystech/">
+            <a href="https://www.facebook.com/cerbosystech/" target="_blank">
               <img src={fbcon} alt="Facebook Icon" className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"/>
-            </Link>
-            <Link to="https://www.instagram.com/cerbosys/?hl=en">
+            </a>
+            <a href="https://www.instagram.com/cerbosys/?hl=en" target="_blank">
               <img src={instagramicon} alt="Facebook Icon" className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"/>
-            </Link>
+            </a>
             
-            <Link to="https://twitter.com/CerbosysTech">
+            <a href="https://twitter.com/CerbosysTech" target="_blank">
               <img src={twittericon} alt="Twitter Icon" className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"/>
-            </Link>
+            </a>
 
-            <Link to="https://in.linkedin.com/company/cerbosys">
+            <a href="https://in.linkedin.com/company/cerbosys" target="_blank">
               <img src={linkedinicon} alt="LinkedIn Icon" className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"/>
-            </Link>
-            <Link to="https://www.youtube.com/channel/UCUXbH7ByTAyE0D8ZgAL5Muw?app=desktop">
+            </a>
+            <a href="https://www.youtube.com/channel/UCUXbH7ByTAyE0D8ZgAL5Muw?app=desktop" target="_blank">
               <img src={youtubeicon} alt="Youtube Icon" className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"/>
-            </Link>
+            </a>
         </div>
      
         {/* Social Icons Div Ends*/}
