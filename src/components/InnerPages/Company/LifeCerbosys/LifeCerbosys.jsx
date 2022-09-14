@@ -9,7 +9,7 @@ const LifeCerbosys = () => {
     <div>
         <>
         <Navbar />
-        <div className="mx-auto w-full md:h-[40rem]  h-96 py-12 px-4 bg-TrainingAndDevelopment  bg-cover md:bg-top bg-center">
+        <div className="mx-auto w-full md:h-[40rem]  h-96 py-12 px-4 bg-LifeCerbosys  bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
             <p className="text-white font-heading py-2 md:text-8xl text-lg mt-72">

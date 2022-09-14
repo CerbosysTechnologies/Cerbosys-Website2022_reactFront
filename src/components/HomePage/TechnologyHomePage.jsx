@@ -28,7 +28,7 @@ const TechnologyHomePage = () => {
 
           {/* Content */}
           <p className="font-content text-lg md:text-xl md:text-center md:items-center md:indent-24  md:w-[620px] whitespace-pre-wrap">
-          We work with different technologies, including few &nbsp; of the lastest and most talked about stacks.
+          We work with different technologies, including few of the lastest and most talked about stacks.
           </p>          
           {/* Content Ends */}
   

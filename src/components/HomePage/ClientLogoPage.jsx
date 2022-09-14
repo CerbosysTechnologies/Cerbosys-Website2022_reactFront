@@ -13,30 +13,36 @@ const ClientLogoPage = () => {
             </h1>
 
             <h2 className="font-heading md:text-3xl text-lg text-gray-800 mb-5 w-64">
-                Trusted by over 500+ clients
+              Trusted by over 200+ clients
             </h2>
             <div className="text-black font-content text-lg md:text-lg md:text-left md:items-center md:w-[500px] whitespace-pre-wrap">
-            With more than 4 years of working experience, Cerbosys has successfully managed to handle several clients by providing them 360 degrees in IT & business service solutions.
-            <br></br>
-            <br></br>
-            Our team of multidisciplinary designers and developers is ready to make your vision a reality -- and we’re trusted by over 500+ clients.
-            <br></br>
-            <br></br>            
-            We take pride in our work and we love to show you why we are the <b><i>#the most trusted choice</i></b> for small businesses and startups. 
+              With more than four years of working experience, Cerbosys has
+              successfully managed to handle several clients by providing them
+              360 degrees in IT and business service solutions.
+              <br></br>
+              <br></br>
+              Our team of multi-disciplinary designers and developers is ready to
+              make your vision a reality -- <strong>and we are trusted by over 200+
+              clients.</strong>
+              <br></br>
+              <br></br>
+              We take pride in our work and we love to show you why we are the{" "}
+              <b>
+                <i>#the most trusted choice</i>
+              </b>{" "}
+              for small businesses and startups.
             </div>
           </div>
           {/* Content Part */}
 
           {/* Icons Start */}
-          <div className=''>
-          <ClientLogoSlider />
+          <div className="">
+            <ClientLogoSlider />
           </div>
           {/* Icons Ends */}
-
         </div>
       </div>
     </div>
-    
   );
 };
 

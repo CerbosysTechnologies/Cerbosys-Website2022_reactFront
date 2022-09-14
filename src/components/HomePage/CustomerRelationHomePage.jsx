@@ -29,7 +29,7 @@ const CustomerRelationHomePage = () => {
                 w-[220px] h-[620px] "
                 ></img>
                 <p className="text-black font-heading md:text-[10px] absolute md:top-32 md:mt-2 md:left-12 md:w-48 md:h-16 text-center
-                  top-[18rem] w-36 mt-2 text-[8px] left-[1.5rem] ">
+                  top-[18rem] w-36 mt-2 text-[7px] left-[1.8rem] ">
                 Client interaction is the first impression a client will have about our business & a friendly and professional interaction from our side helps a lot in boosting our client’s business reputation and growth in the market.
                 </p>
               </div>

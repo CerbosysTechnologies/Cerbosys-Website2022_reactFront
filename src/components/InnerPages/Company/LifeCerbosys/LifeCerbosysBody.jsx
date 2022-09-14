@@ -4,7 +4,8 @@ import gifticon from "../../../../assets/innerpage/lifecerbosys/gift.svg";
 import diwaliicon from "../../../../assets/innerpage/lifecerbosys/diwali.svg";
 import flagicon from "../../../../assets/innerpage/lifecerbosys/flag.svg";
 import holiicon from "../../../../assets/innerpage/lifecerbosys/holi.svg";
-import newyearicon from "../../../../assets/innerpage/lifecerbosys/newyear.svg";
+import newyearicon from "../../../../assets/innerpage/lifecerbosys/newyear.svg"
+//import bossthoughticon from "../../../../assets/innerpage/lifecerbosys/bossthought.svg";
 
 const LifeCerbosysBody = () => {
   return (
@@ -53,7 +54,7 @@ const LifeCerbosysBody = () => {
               />
 
               <p className="font-content md:text-sm md:w-80 w-64 text-xs -mt-40">
-                <h1 className="font-heading text-center">The Farewell</h1>
+                <h1 className="font-heading text-center">Employee Farewell</h1>
                 <br></br>
                 The company event this year was intended for the employees and
                 clients to discuss some strategies and have fun of course.
@@ -191,6 +192,13 @@ const LifeCerbosysBody = () => {
               environment.
             </p>
           </div>
+
+          {/* Image Thought Section */}
+          <div>
+            {/* <img src={bossthoughticon} alt="Boss Thought" /> */}
+          </div>
+          {/* Image Thought Section Ends*/}
+          
           {/* Heading Section Ends */}
 
 
