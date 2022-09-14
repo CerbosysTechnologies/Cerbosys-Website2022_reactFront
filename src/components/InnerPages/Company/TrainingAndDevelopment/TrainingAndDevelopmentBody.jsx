@@ -8,7 +8,7 @@ import boxfour_icon from "../../../../assets/innerpage/traininganddevelopment/4b
 const TrainingAndDevelopmentBody = () => {
   return (
     <div>
-      <div className="mx-auto w-full py-16 px-4 bg-TrainingAndDevelopmentBody">
+      <div className="mx-auto w-full py-16 px-4 bg-TrainingAndDevelopmentBody bg-no-repeat object-fill bg-center bg-contain">
         <div className="max-w-[1240px] mx-auto ">
           {/* Heading Section */}
           <div className="flex flex-wrap items-center justify-center">

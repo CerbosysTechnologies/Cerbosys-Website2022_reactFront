@@ -8,7 +8,7 @@ import locationicon from "../../../assets/footer/Location_icon.svg";
 import twittericon from "../../../assets/footer/Twittter.svg";
 import whatsappicon from "../../../assets/footer/Whatsapp_icon.svg";
 import youtubeicon from "../../../assets/footer/youtube.svg";
-import footerlogo from "../../../assets/footer/Logo_in_footer.svg";
+import footerlogo from "../../../assets/footer/logo_white.svg";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -22,7 +22,7 @@ const Footer = () => {
               <img
                 src={footerlogo}
                 alt="Logo Footer"
-                className="w-[150px] h-[150px]"
+                className="w-[250px] h-[200px]"
               />
               <h1 className="font-heading  text-sm md:text-lg text-white">
                 About Us
