@@ -1,13 +1,13 @@
 import React from "react";
 import callicon from "../../../assets/footer/call_icon.svg";
 import emailicon from "../../../assets/footer/email_icon.svg";
-import fbcon from "../../../assets/footer/Facebook.svg";
+import fbcon from "../../../assets/footer/facebook.svg";
 import instagramicon from "../../../assets/footer/Instagram.svg";
 import linkedinicon from "../../../assets/footer/Linkedin.svg";
 import locationicon from "../../../assets/footer/Location_icon.svg";
 import twittericon from "../../../assets/footer/Twittter.svg";
 import whatsappicon from "../../../assets/footer/Whatsapp_icon.svg";
-import youtubeicon from "../../../assets/footer/Youtube.svg";
+import youtubeicon from "../../../assets/footer/youtube.svg";
 import footerlogo from "../../../assets/footer/logo_white.svg";
 import { Link } from "react-router-dom";
 
