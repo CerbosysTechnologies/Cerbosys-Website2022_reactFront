@@ -17,14 +17,12 @@ const Hero = () => {
 
 {/* Content Section */}
         <div className="flex flex-col justify-center text-center items-center h-3/4 mx-auto">
-          <p className="text-white font-heading py-2 md:text-lg text-sm mb-8 md:mt-48 mt-6">
-          Let's collaborate to accelerate your business growth with us!!
-          </p>
-          <p className="text-white font-heading py-3 md:text-3xl text-lg md:w-[600px] w-[300px] mb-8 animate-pulse">
+          
+          {/* <p className="text-white font-heading py-3 md:text-3xl text-lg md:w-[600px] w-[300px] mb-8 animate-pulse">
           The Ideal Web and Mobile Solutions for your emerging business- You’re just one click away!!
-          </p>
+          </p> */}
 
-          <p className="text-white font-heading md:text-lg text-sm mb-8 md:w-[730px] w-[350px]">
+          <p className="text-white font-heading md:text-lg text-sm mb-8 md:w-[730px] w-[350px] mt-36">
           Generating innovative ideas that convert the clicks into leads for your business - with the help of highly enthusiastic and creative tech-wizards.
           </p>
 
@@ -35,7 +33,7 @@ const Hero = () => {
             </button>
 
           <p className="font-heading text-white md:text-base text-xs">
-          Feel Free to Reach Us!! For Best Consultation & Services 
+          Let's collaborate to accelerate your business growth with us!!
           </p>
         </div>
       

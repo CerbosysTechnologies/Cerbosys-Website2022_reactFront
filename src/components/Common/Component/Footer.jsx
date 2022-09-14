@@ -167,7 +167,7 @@ const Footer = () => {
                 className="mr-3"
               ></img>
               <span className="font-subheading text-sm text-white">
-                0731-499-34-44
+                999-999-2892, 883-969-7183
               </span>
             </div>
 
@@ -227,8 +227,8 @@ const Footer = () => {
 
           {/* Social Icons Div Ends*/}
           <hr></hr>
-          <div className="flex flex-row items-center justify-center mt-2 gap-2 text-white font-heading text-sm">
-            &copy;2022 Cerbosys Technologies. All Rights Reserved.
+          <div className="flex flex-row items-center justify-center mt-2 gap-2 text-white font-heading text-sm text-center">
+            &copy;2022 Cerbosys Technologies Inc. <br></br>All Rights Reserved.
           </div>
         </div>
         {/* Max Width Div Ends */}
