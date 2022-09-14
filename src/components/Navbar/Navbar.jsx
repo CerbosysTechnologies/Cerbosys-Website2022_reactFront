@@ -23,7 +23,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className={!headerVisible ? "z-0 bg-transparent fixed m-auto w-full": "z-0 bg-white fixed m-auto w-full" }>
+    <nav className={!headerVisible ? "z-[999] bg-transparent fixed m-auto w-full": "z-[999] bg-white fixed m-auto w-full" }>
       <div className="flex items-center font-heading justify-around">
         {/* Logo Div */}
         <div className="z-10 p-2 md:w-auto w-full flex justify-between">
@@ -116,7 +116,7 @@ const Navbar = () => {
           <IndustryNavLinks />
           </li>
 
-          <li>
+          {/* <li>
             <Link to="/" className="py-3 px-3 ">
               Case Study
             </Link>
@@ -125,7 +125,7 @@ const Navbar = () => {
             <Link to="/" className="py-3 px-3 inline-block">
               Blog
             </Link>
-          </li>         
+          </li>          */}
           <li>
             <Link to="/ContactUs" className="py-1 px-3 inline-block">
               Contact Us

@@ -1,27 +1,28 @@
-import React from 'react'
-import leadgenerationicon from '../../../../assets/innerpage/leadgeneration/lead_generation.svg';
-import leadgeneration_articon from '../../../../assets/innerpage/leadgeneration/illustrator.svg';
-
+import React from "react";
+import leadgenerationicon from "../../../../assets/innerpage/leadgeneration/lead_generation.svg";
+import leadgeneration_articon from "../../../../assets/innerpage/leadgeneration/illustrator.svg";
 
 const LeadGenerationDesc = () => {
   return (
     <div>
-         <div className="bg-Service mx-auto w-full py-16 px-4 ">
+      <div className="bg-Service mx-auto w-full py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
           {/* First Section */}
           <div className="grid md:grid-cols-2">
             {/* Content Section */}
             <div className="mx-auto flex flex-col md:px-24 px-14 text-justify">
-              <h1 className="font-heading md:text-xl text-sm"> Lead Generation </h1>
-              <p className="font-content md:text-sm text-xs">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-                omnis magni! Maiores aspernatur incidunt labore minus quo hic,
-                tenetur delectus, deleniti praesentium esse pariatur in
-                provident? Aliquid vel alias eos! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Rem, omnis magni! Maiores
-                aspernatur incidunt labore minus quo hic, tenetur delectus,
-                deleniti praesentium esse pariatur in provident? Aliquid vel
-                alias eos!
+              <h1 className="font-heading md:text-2xl text-lg mb-5">
+                {" "}
+                Lead Generation{" "}
+              </h1>
+              <p className="font-content md:text-lg text-sm">
+                Lead generation can happen in a number of ways, but most often
+                it involves either online or offline marketing activities. Our
+                online activities include things like creating a website or
+                blog, conducting online search engine marketing (SEM) campaigns,
+                or creating online ads. Offline activities include things like
+                attending trade shows or events, conducting direct mail
+                campaigns, orCold-calling.
               </p>
             </div>
             {/* Content Section Ends*/}
@@ -51,34 +52,32 @@ const LeadGenerationDesc = () => {
 
             {/* Content Section */}
             <div className="flex flex-col md:px-24 px-14 mx-auto text-justify mt-8">
-              <h1 className="font-heading md:text-xl text-sm text-white"> 
-              We are aware of the Technology Pulse that Leads to Better Performance
+              <h1 className="font-heading md:text-2xl text-lg text-white mb-3">
+                We are aware of the Technology Pulse that Leads to Better
+                Performance
               </h1>
-              <p className="font-content md:text-sm text-xs mb-8 text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-                omnis magni! Maiores aspernatur incidunt labore minus quo hic,
-                tenetur delectus, deleniti praesentium esse pariatur in
-                provident? Aliquid vel alias eos! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Rem, omnis magni! Maiores
-                aspernatur incidunt labore minus quo hic, tenetur delectus,
-                deleniti praesentium esse pariatur in provident? Aliquid vel
-                alias eos!
+              <p className="font-content md:text-lg text-sm mb-8 text-white">
+                Our lead generation team helps businesses, especially small size
+                businesses to convert interest into a sales opportunity. Which
+                eventually nurtures the performance of that business online.
+                <br></br>
+                <br></br>
+                Our main focus is to convert clicks into sales by using
+                effective lead generation tactics like search engine marketing
+                (SEM) campaigns, or creating online ads that deliver real value
+                to our clients.
               </p>
             </div>
             {/* Content Section Ends*/}
           </div>
           {/* Grid Div */}
           {/* Second Section Ends */}
-
-      
-
         </div>
         {/* Max Width Div Ends */}
       </div>
       {/* Second Div Ends */}
     </div>
-    
-  )
-}
+  );
+};
 
-export default LeadGenerationDesc
+export default LeadGenerationDesc;

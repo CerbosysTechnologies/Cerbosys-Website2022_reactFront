@@ -32,6 +32,7 @@ module.exports = {
       ContactLeaf:"url('assets/contactus/backgroundleaf.png')",
       TrainingAndDevelopment:"url('assets/innerpage/traininganddevelopment/trainingbackground.svg')",
       TrainingAndDevelopmentBody:"url('assets/innerpage/traininganddevelopment/trainingbody.svg')",
+      LifeCerbosysBody:"url('assets/innerpage/lifecerbosys/dotsbackground.svg')",
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],

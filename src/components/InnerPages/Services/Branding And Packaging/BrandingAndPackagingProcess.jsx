@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import oneicon from "../../../../assets/innerpage/brandingandpackaging/1.svg";
 import twoicon from "../../../../assets/innerpage/brandingandpackaging/2.svg";
 import threeicon from "../../../../assets/innerpage/brandingandpackaging/3.svg";
@@ -6,7 +6,7 @@ import fouricon from "../../../../assets/innerpage/brandingandpackaging/4.svg";
 import fiveicon from "../../../../assets/innerpage/brandingandpackaging/5.svg";
 import sixicon from "../../../../assets/innerpage/brandingandpackaging/6.svg";
 import processicon1 from "../../../../assets/innerpage/brandingandpackaging/brand_research.png";
-import processicon2 from "../../../../assets/innerpage/brandingandpackaging/brand_strategy.png"
+import processicon2 from "../../../../assets/innerpage/brandingandpackaging/brand_strategy.png";
 import processicon3 from "../../../../assets/innerpage/brandingandpackaging/brand_identity.png";
 import processicon4 from "../../../../assets/innerpage/brandingandpackaging/brand_tools.png";
 import processicon5 from "../../../../assets/innerpage/brandingandpackaging/brand_launch.png";
@@ -15,7 +15,7 @@ import processicon6 from "../../../../assets/innerpage/brandingandpackaging/bran
 const BrandAndPackagingProcess = () => {
   return (
     <div>
-         <div className="bg-white mx-auto w-full py-5 px-16 ">
+      <div className="bg-white mx-auto w-full py-5 px-16 ">
         <div className="max-w-[1240px] mx-auto ">
           {/* Heading */}
           <div className="flex flex-col flex-wrap items-center">
@@ -26,10 +26,9 @@ const BrandAndPackagingProcess = () => {
               Our Brand And Packaging Process
             </h2>
             <p className="font-content md:text-lg text-black text-sm text-justify align-baseline md:px-28 px-10">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae,
-              inventore, odit, perferendis eius possimus corporis vitae
-              excepturi porro totam facilis dicta. Rerum, at? Accusantium harum
-              tempora, reiciendis quibusdam a quod?
+              Our brand and packaging process is segmented into six steps which
+              includes: Lead acquisition, marketing and sales qualification,
+              customer retention, lead nurturing, sales transfer and conversion.
             </p>
           </div>
           {/* Heading Ends */}
@@ -54,15 +53,13 @@ const BrandAndPackagingProcess = () => {
                 {" "}
                 Brand Research
               </h1>
-              <p className="font-content md:text-sm text-xs col-span-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-                omnis magni! Maiores aspernatur incidunt labore minus quo hic,
-                tenetur delectus, deleniti praesentium esse pariatur in
-                provident? Aliquid vel alias eos! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Rem, omnis magni! Maiores
-                aspernatur incidunt labore minus quo hic, tenetur delectus,
-                deleniti praesentium esse pariatur in provident? Aliquid vel
-                alias eos!
+              <p className="font-content md:text-lg text-sm col-span-2">
+                A brand research is a process of investigating the relationship
+                between a brand and its customers. It is used to understand how
+                the brand is perceived by its customers, what they think of the
+                brand, and how they feel about it. We use brand research to
+                measure the effectiveness of a brand's marketing campaigns, and
+                to identify areas where the brand can improve.
               </p>
             </div>
           </div>
@@ -82,17 +79,14 @@ const BrandAndPackagingProcess = () => {
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <div className="mx-auto flex flex-col text-justify">
               <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
-              Brand Strategy
+                Brand Strategy
               </h1>
-              <p className="font-content md:text-sm text-xs col-span-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-                omnis magni! Maiores aspernatur incidunt labore minus quo hic,
-                tenetur delectus, deleniti praesentium esse pariatur in
-                provident? Aliquid vel alias eos! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Rem, omnis magni! Maiores
-                aspernatur incidunt labore minus quo hic, tenetur delectus,
-                deleniti praesentium esse pariatur in provident? Aliquid vel
-                alias eos!
+              <p className="font-content md:text-lg text-sm col-span-2">
+                To achieve a series of long-term goals, we implement a long-term
+                plan which involves our brand strategy. Our brand strategy is
+                not just about creating a logo or website. It's about defining
+                who you are, what you stand for, and how you want to be
+                perceived by your target audience.
               </p>
             </div>
             <img
@@ -103,7 +97,6 @@ const BrandAndPackagingProcess = () => {
           </div>
 
           {/* Brand Strategy Div Ends*/}
-
 
           {/* Brand Identity Div */}
 
@@ -122,27 +115,24 @@ const BrandAndPackagingProcess = () => {
             />
             <div className="mx-auto flex flex-col text-justify">
               <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
-              Brand Identity
+                Brand Identity
               </h1>
-              <p className="font-content md:text-sm text-xs col-span-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-                omnis magni! Maiores aspernatur incidunt labore minus quo hic,
-                tenetur delectus, deleniti praesentium esse pariatur in
-                provident? Aliquid vel alias eos! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Rem, omnis magni! Maiores
-                aspernatur incidunt labore minus quo hic, tenetur delectus,
-                deleniti praesentium esse pariatur in provident? Aliquid vel
-                alias eos!
+              <p className="font-content md:text-lg text-sm col-span-2">
+                Brand identity is how your customers and prospects perceive your
+                company. It's the overall look and feel of your business, and it
+                includes your logo, your color palette, your tagline, your
+                fonts, and everything else that makes up your visual brand. For
+                this, we create a strong brand identity that is essential to the
+                success of your business.
               </p>
             </div>
           </div>
 
           {/* Brand Identity Div Ends*/}
 
+          {/* Brand Tools Div */}
 
-{/* Brand Tools Div */}
-
-<div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
+          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
             <img
               src={fouricon}
               alt="Icon Four"
@@ -152,17 +142,16 @@ const BrandAndPackagingProcess = () => {
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <div className="mx-auto flex flex-col text-justify">
               <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
-              Brand Tools
+                Brand Tools
               </h1>
-              <p className="font-content md:text-sm text-xs col-span-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-                omnis magni! Maiores aspernatur incidunt labore minus quo hic,
-                tenetur delectus, deleniti praesentium esse pariatur in
-                provident? Aliquid vel alias eos! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Rem, omnis magni! Maiores
-                aspernatur incidunt labore minus quo hic, tenetur delectus,
-                deleniti praesentium esse pariatur in provident? Aliquid vel
-                alias eos!
+              <p className="font-content md:text-lg text-sm col-span-2">
+                There are many different branding tools available to businesses
+                these days. But one of the most important branding tools is your
+                website. Your website is often the first point of contact
+                between you and your potential customers. Which is why we make
+                sure it's well designed and user-friendly. Another important
+                branding tool is your company logo & apart from that social
+                media is also a great branding tool.
               </p>
             </div>
             <img
@@ -173,7 +162,6 @@ const BrandAndPackagingProcess = () => {
           </div>
 
           {/* Brand Tools Div Ends*/}
-
 
           {/* Brand Launch Div */}
 
@@ -192,27 +180,23 @@ const BrandAndPackagingProcess = () => {
             />
             <div className="mx-auto flex flex-col text-justify">
               <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
-              Brand Launch
+                Brand Launch
               </h1>
-              <p className="font-content md:text-sm text-xs col-span-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-                omnis magni! Maiores aspernatur incidunt labore minus quo hic,
-                tenetur delectus, deleniti praesentium esse pariatur in
-                provident? Aliquid vel alias eos! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Rem, omnis magni! Maiores
-                aspernatur incidunt labore minus quo hic, tenetur delectus,
-                deleniti praesentium esse pariatur in provident? Aliquid vel
-                alias eos!
+              <p className="font-content md:text-lg text-sm col-span-2">
+                Brand launching is a big undertaking, but it can be an
+                incredibly rewarding experience. Here are a few things we follow
+                to launch your brand: Brand definition, developing strong visual
+                identity, creating compelling content, getting involved in the
+                community & finally brand promotion on several platforms.
               </p>
             </div>
           </div>
 
           {/* Brand Launch Div Ends*/}
 
+          {/* Brand Building Div */}
 
-{/* Brand Building Div */}
-
-<div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
+          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
             <img
               src={sixicon}
               alt="Icon Six"
@@ -222,17 +206,16 @@ const BrandAndPackagingProcess = () => {
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <div className="mx-auto flex flex-col text-justify">
               <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
-              Brand Building 
+                Brand Building
               </h1>
-              <p className="font-content md:text-sm text-xs col-span-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-                omnis magni! Maiores aspernatur incidunt labore minus quo hic,
-                tenetur delectus, deleniti praesentium esse pariatur in
-                provident? Aliquid vel alias eos! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Rem, omnis magni! Maiores
-                aspernatur incidunt labore minus quo hic, tenetur delectus,
-                deleniti praesentium esse pariatur in provident? Aliquid vel
-                alias eos!
+              <p className="font-content md:text-lg text-sm col-span-2">
+                Branding is the process of creating a unique identity for a
+                company or product. A strong brand can differentiate a company
+                from its competitors, and can help to build customer loyalty.
+                Branding can also help to increase brand awareness and
+                preference. There are many different elements that are involved
+                in brand building, including market research, target audience
+                analysis, brand positioning, and more.
               </p>
             </div>
             <img
@@ -243,13 +226,10 @@ const BrandAndPackagingProcess = () => {
           </div>
 
           {/* Brand Building  Div Ends*/}
-
-
-
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default BrandAndPackagingProcess
+export default BrandAndPackagingProcess;

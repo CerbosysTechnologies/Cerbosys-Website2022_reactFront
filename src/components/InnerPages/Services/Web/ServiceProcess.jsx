@@ -18,14 +18,13 @@ const ServiceProcess = () => {
             <h1 className="font-heading md:text-3xl uppercase text-Primary text-xl">
               Process
             </h1>
-            <h2 className="font-subheading md:text-xl text-black text-sm">
+            <h2 className="font-subheading md:text-xl text-black text-sm mb-5">
               Our Web Development Process
             </h2>
             <p className="font-content md:text-lg text-black text-sm text-justify align-baseline md:px-28 px-10">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae,
-              inventore, odit, perferendis eius possimus corporis vitae
-              excepturi porro totam facilis dicta. Rerum, at? Accusantium harum
-              tempora, reiciendis quibusdam a quod?
+              Our web development process involves information gathering,
+              planning, designing, creating content and assembling it, coding
+              and testing, reviewing, and in the end its maintenance.
             </p>
           </div>
           {/* Heading Ends */}
@@ -50,15 +49,16 @@ const ServiceProcess = () => {
                 {" "}
                 Requirement Analysis{" "}
               </h1>
-              <p className="font-content md:text-sm text-xs col-span-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-                omnis magni! Maiores aspernatur incidunt labore minus quo hic,
-                tenetur delectus, deleniti praesentium esse pariatur in
-                provident? Aliquid vel alias eos! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Rem, omnis magni! Maiores
-                aspernatur incidunt labore minus quo hic, tenetur delectus,
-                deleniti praesentium esse pariatur in provident? Aliquid vel
-                alias eos!
+              <p className="font-content md:text-lg text-sm col-span-2">
+                In order to create a website that perfectly suits your needs, we
+                first need to understand what those needs are. That's where
+                requirement analysis comes in.
+                <br></br>
+                <br></br>
+                Through conversation and discussion with you, the client, we
+                will identify every aspect of the desired website. This includes
+                everything from its outward appearance to the specific
+                functionality it must have.
               </p>
             </div>
           </div>
@@ -80,15 +80,14 @@ const ServiceProcess = () => {
               <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Creating Blueprint
               </h1>
-              <p className="font-content md:text-sm text-xs col-span-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-                omnis magni! Maiores aspernatur incidunt labore minus quo hic,
-                tenetur delectus, deleniti praesentium esse pariatur in
-                provident? Aliquid vel alias eos! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Rem, omnis magni! Maiores
-                aspernatur incidunt labore minus quo hic, tenetur delectus,
-                deleniti praesentium esse pariatur in provident? Aliquid vel
-                alias eos!
+              <p className="font-content md:text-lg text-sm col-span-2">
+                One of the most important steps to do in order to create a
+                successful website is to create a website blueprint. A website
+                blueprint is an easy and effective way to plan and organize the
+                website. It's a visual guide that helps us to clarify the goals
+                of the website required by the client. A blueprint also helps us
+                to establish the purpose of the site, and prioritize content and
+                features.
               </p>
             </div>
             <img
@@ -99,7 +98,6 @@ const ServiceProcess = () => {
           </div>
 
           {/* Creating Blueprint Div Ends*/}
-
 
           {/* Development Div */}
 
@@ -120,25 +118,23 @@ const ServiceProcess = () => {
               <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Development
               </h1>
-              <p className="font-content md:text-sm text-xs col-span-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-                omnis magni! Maiores aspernatur incidunt labore minus quo hic,
-                tenetur delectus, deleniti praesentium esse pariatur in
-                provident? Aliquid vel alias eos! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Rem, omnis magni! Maiores
-                aspernatur incidunt labore minus quo hic, tenetur delectus,
-                deleniti praesentium esse pariatur in provident? Aliquid vel
-                alias eos!
+              <p className="font-content md:text-lg text-sm col-span-2">
+                The website development is performed in two steps that are,
+                Front-end development and Back-end development. It is a
+                comprehensive process that includes everything from information
+                gathering and planning to coding and testing to review and
+                maintenance. The server side of the website is termed the
+                backend and the frontend is that part of the website where the
+                user interacts directly.
               </p>
             </div>
           </div>
 
           {/* Development Div Ends*/}
 
+          {/* Testing And Launching Div */}
 
-{/* Testing And Launching Div */}
-
-<div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
+          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
             <img
               src={fouricon}
               alt="Icon Four"
@@ -150,15 +146,16 @@ const ServiceProcess = () => {
               <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Testing And Launching
               </h1>
-              <p className="font-content md:text-sm text-xs col-span-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-                omnis magni! Maiores aspernatur incidunt labore minus quo hic,
-                tenetur delectus, deleniti praesentium esse pariatur in
-                provident? Aliquid vel alias eos! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Rem, omnis magni! Maiores
-                aspernatur incidunt labore minus quo hic, tenetur delectus,
-                deleniti praesentium esse pariatur in provident? Aliquid vel
-                alias eos!
+              <p className="font-content md:text-lg text-sm col-span-2">
+                The final step involved in website development is testing &
+                launching. The web application testing process ensures the
+                quality of a web app by testing its functionality. This allows
+                you to find and fix bugs before release.
+                <br></br>
+                <br></br>
+                Then comes the launching of the website, which means that, after
+                your website goes live, people from all over the world will be
+                able to view it.
               </p>
             </div>
             <img
@@ -169,9 +166,6 @@ const ServiceProcess = () => {
           </div>
 
           {/* Testing And Launching Div Ends*/}
-
-
-
         </div>
       </div>
     </div>

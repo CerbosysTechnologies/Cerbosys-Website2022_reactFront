@@ -5,7 +5,6 @@ import TechnologyHomePage from '../../components/HomePage/TechnologyHomePage';
 import IndustriesHomePage from '../../components/HomePage/IndustriesHomePage';
 import CustomerRelationHomePage from '../../components/HomePage/CustomerRelationHomePage';
 import Footer from '../../components/Common/Component/Footer';
-import { ScrollToTop } from "../../components/Common/Component/ScrollToTop";
 import ClientLogoPage from "./ClientLogoPage";
 
 
@@ -15,15 +14,6 @@ const Hero = () => {
     <>
       <Navbar />
       <div className="mx-auto w-full md:h-screen h-full py-16 px-4 bg-Hero bg-cover md:bg-top bg-center">
-
-
-        {/* Free Quote */}
-        <div className="fixed z-20 top-1/2 right-[-4.55rem] bg-Green
-         p-1 px-2 justify-end items-end rotate-90 rounded-bl-3xl rounded-br-3xl text-white">
-          <span className="uppercase font-heading text-base">Get a free quote</span>
-        </div>
-
-        {/* Free Quote Ends */}
 
 {/* Content Section */}
         <div className="flex flex-col justify-center text-center items-center h-3/4 mx-auto">
@@ -63,7 +53,7 @@ const Hero = () => {
       <ClientLogoPage />
       <TechnologyHomePage />
       <Footer />      
-      <ScrollToTop />
+    
 
 
     </>

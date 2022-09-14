@@ -1,27 +1,31 @@
-import React from 'react'
-import brandingandpackagingicon from '../../../../assets/innerpage/brandingandpackaging/image.jpg';
-import brandingandpackaging_articon from '../../../../assets/innerpage/brandingandpackaging/illustrator.svg';
-
+import React from "react";
+import brandingandpackagingicon from "../../../../assets/innerpage/brandingandpackaging/image.jpg";
+import brandingandpackaging_articon from "../../../../assets/innerpage/brandingandpackaging/illustrator.svg";
 
 const BrandingAndPackagingDesc = () => {
   return (
     <div>
-         <div className="bg-Service mx-auto w-full py-16 px-4 ">
+      <div className="bg-Service mx-auto w-full py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
           {/* First Section */}
           <div className="grid md:grid-cols-2">
             {/* Content Section */}
             <div className="mx-auto flex flex-col md:px-24 px-14 text-justify">
-              <h1 className="font-heading md:text-xl text-sm"> Branding And Packaging </h1>
-              <p className="font-content md:text-sm text-xs">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-                omnis magni! Maiores aspernatur incidunt labore minus quo hic,
-                tenetur delectus, deleniti praesentium esse pariatur in
-                provident? Aliquid vel alias eos! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Rem, omnis magni! Maiores
-                aspernatur incidunt labore minus quo hic, tenetur delectus,
-                deleniti praesentium esse pariatur in provident? Aliquid vel
-                alias eos!
+              <h1 className="font-heading md:text-2xl text-lg mb-4">
+                {" "}
+                Branding And Packaging{" "}
+              </h1>
+              <p className="font-content md:text-lg text-sm">
+                Both branding and packaging are important for getting your
+                product noticed and ensuring that it makes a lasting impression.
+                Used together, they can create a powerful marketing tool that
+                will help you boost sales and build a loyal customer base.
+                <br></br>
+                <br></br>
+                Branding and packaging are two of the most important aspects of
+                any product or service. They are what help to make a product or
+                service unique and recognizable, and they can also be used to
+                influence customer perceptions and preferences.
               </p>
             </div>
             {/* Content Section Ends*/}
@@ -51,34 +55,31 @@ const BrandingAndPackagingDesc = () => {
 
             {/* Content Section */}
             <div className="flex flex-col md:px-24 px-14 mx-auto text-justify mt-8">
-              <h1 className="font-heading md:text-xl text-sm text-white"> 
-              We are aware of the Technology Pulse that Leads to Better Performance
+              <h1 className="font-heading md:text-2xl text-lg text-white mb-4">
+                We are aware of the Technology Pulse that Leads to Better
+                Performance
               </h1>
-              <p className="font-content md:text-sm text-xs mb-8 text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-                omnis magni! Maiores aspernatur incidunt labore minus quo hic,
-                tenetur delectus, deleniti praesentium esse pariatur in
-                provident? Aliquid vel alias eos! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Rem, omnis magni! Maiores
-                aspernatur incidunt labore minus quo hic, tenetur delectus,
-                deleniti praesentium esse pariatur in provident? Aliquid vel
-                alias eos!
+              <p className="font-content md:text-lg text-sm mb-8 text-white">
+                Our brand and packaging team helps businesses, especially small
+                size businesses to make it stand out from the competition using
+                creativity unique packaging models.
+                <br></br>
+                <br></br>
+                Our main focus is to get your product noticed and ensure that it
+                makes a lasting impression on the users so that it can build a
+                loyal customer base.
               </p>
             </div>
             {/* Content Section Ends*/}
           </div>
           {/* Grid Div */}
           {/* Second Section Ends */}
-
-      
-
         </div>
         {/* Max Width Div Ends */}
       </div>
       {/* Second Div Ends */}
     </div>
-    
-  )
-}
+  );
+};
 
-export default BrandingAndPackagingDesc
+export default BrandingAndPackagingDesc;
