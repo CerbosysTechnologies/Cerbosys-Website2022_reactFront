@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../../../Common/Component/Footer";
 import Navbar from "../../../Navbar/Navbar";
 import Teambody from "./Teambody";
+import TeamForm from "./TeamForm";
 
 const Team = () => {
   return (
@@ -26,6 +27,7 @@ const Team = () => {
         </div>
       </>
       <Teambody />
+      <TeamForm />
       <Footer />
     </div>
   );
