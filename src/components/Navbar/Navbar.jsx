@@ -126,6 +126,11 @@ const Navbar = () => {
               Blog
             </Link>
           </li>          */}
+           <li>
+            <Link to="/Team" className="py-5 px-1 inline-block">
+              Team
+            </Link>
+          </li>
           <li>
             <Link to="/ContactUs" className="py-1 px-3 inline-block">
               Contact Us

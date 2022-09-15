@@ -11,7 +11,7 @@ import laliticon from "../../../../assets/innerpage/team/lalitsir.svg";
 import rishabhicon from "../../../../assets/innerpage/team/rishabhsir.svg";
 import shewtaicon from "../../../../assets/innerpage/team/swetamam.svg";
 import shubhamicon from "../../../../assets/innerpage/team/shubhamsir.svg";
-//import shubhamicon from "../../../../assets/innerpage/team/a"; akash
+import akashicon from "../../../../assets/innerpage/team/aakashsir.svg"; 
 import prasangicon from "../../../../assets/innerpage/team/prasangsir.svg";
 import manwomanicon from "../../../../assets/innerpage/team/man_woman.svg";
 
@@ -108,27 +108,7 @@ const Teambody = () => {
           {/* Third Grid */}
           <div className="grid md:grid-cols-2 mt-8">
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
-              <img
-                src={sadaficon}
-                alt="Sadaf Armaani"
-                className="md:w-72 md:h-72 w-56 h-56"
-              />
-
-              <p className="font-heading md:text-lg text-sm text-center mt-10">
-                Sadaf Armani (Administrative Specialist)
-                <br></br>
-                Hello, I am Sadaf Armani, Administrative Specialist at Cerbosys.
-                <br></br>
-                <br></br>
-                <i>
-                  “The only natural resource that matters is - the human
-                  resource”!{" "}
-                </i>
-              </p>
-            </div>
-
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
-              <img
+            <img
                 src={jyotiicon}
                 alt="Jyoti Rajpal"
                 className="md:w-72 md:h-72 w-56 h-56"
@@ -144,6 +124,27 @@ const Teambody = () => {
                 <i>
                   “Let’s work together and grow together to achieve something
                   which is beyond limitations”!{" "}
+                </i>
+              </p>
+            
+            </div>
+
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
+            <img
+                src={sadaficon}
+                alt="Sadaf Armaani"
+                className="md:w-72 md:h-72 w-56 h-56"
+              />
+
+              <p className="font-heading md:text-lg text-sm text-center mt-10">
+                Sadaf Armani (Administrative Specialist)
+                <br></br>
+                Hello, I am Sadaf Armani, Administrative Specialist at Cerbosys.
+                <br></br>
+                <br></br>
+                <i>
+                  “The only natural resource that matters is - the human
+                  resource”!{" "}
                 </i>
               </p>
             </div>
@@ -230,19 +231,19 @@ const Teambody = () => {
           {/* Sixth Grid */}
           <div className="grid md:grid-cols-2 mt-8">
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
-              <img
-                src={rishabhicon}
-                alt="Rishabh Shrivastava"
+            <img
+                src={akashicon}
+                alt="Akash Yadav"
                 className="md:w-72 md:h-72 w-56 h-56"
               />
 
               <p className="font-heading md:text-lg text-sm text-center mt-10">
-                Rishabh Shrivastava (Graphic Designer)
+              Akash Yadav (Motion Graphics Designer)
                 <br></br>
-                Hi, I am Rishabh Shrivastava, Graphic Designer at Cerbosys.
+                Hey, I am Akash Yadav, Motion Graphics Designer at Cerbosys.
                 <br></br>
                 <br></br>
-                <i>“You believe we design, to make your business shine”!</i>
+                <i>“Let’s promote your brand with visual trends”!</i>
               </p>
             </div>
 
@@ -268,7 +269,47 @@ const Teambody = () => {
           {/* Seventh Grid */}
           <div className="grid md:grid-cols-2 mt-8">
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
-              <img
+            <img
+                src={rishabhicon}
+                alt="Rishabh Shrivastava"
+                className="md:w-72 md:h-72 w-56 h-56"
+              />
+
+              <p className="font-heading md:text-lg text-sm text-center mt-10">
+                Rishabh Shrivastava (Graphic Designer)
+                <br></br>
+                Hi, I am Rishabh Shrivastava, Graphic Designer at Cerbosys.
+                <br></br>
+                <br></br>
+                <i>“You believe we design, to make your business shine”!</i>
+              </p>
+            
+            </div>
+
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
+            <img
+                src={prasangicon}
+                alt="Prasang Jain"
+                className="md:w-72 md:h-72 w-56 h-56"
+              />
+
+              <p className="font-heading md:text-lg text-sm text-center mt-10">
+              Prasang Jain (UI/UX and Graphic Designer)
+                <br></br>
+                Hey, I am Prasang Jain, UI/UX and Graphic Designer at Cerbosys.
+                <br></br>
+                <br></br>
+                <i>“We design the best to stand out from rest”!</i>
+              </p>
+            
+            </div>
+          </div>
+          {/* Seventh Grid Ends */}
+
+          {/* 8 Grid */}
+          <div className="grid md:grid-cols-2 mt-8">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
+            <img
                 src={shubhamicon}
                 alt="Shubham Shrivastava"
                 className="md:w-72 md:h-72 w-56 h-56"
@@ -282,44 +323,7 @@ const Teambody = () => {
                 <br></br>
                 <i>“Content without emotion, is like a brand without promotion.”!</i>
               </p>
-            </div>
-
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
-              <img
-                src={manwomanicon}
-                alt="Akash Yadav"
-                className="md:w-72 md:h-72 w-56 h-56"
-              />
-
-              <p className="font-heading md:text-lg text-sm text-center mt-10">
-              Akash Yadav (Motion Graphics Designer)
-                <br></br>
-                Hey, I am Akash Yadav, Motion Graphics Designer at Cerbosys.
-                <br></br>
-                <br></br>
-                <i>“Let’s promote your brand with visual trends”!</i>
-              </p>
-            </div>
-          </div>
-          {/* Seventh Grid Ends */}
-
-          {/* 8 Grid */}
-          <div className="grid md:grid-cols-2 mt-8">
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
-              <img
-                src={prasangicon}
-                alt="Prasang Jain"
-                className="md:w-72 md:h-72 w-56 h-56"
-              />
-
-              <p className="font-heading md:text-lg text-sm text-center mt-10">
-              Prasang Jain (Graphic Designer)
-                <br></br>
-                Hey, I am Prasang Jain, Graphic Designer at Cerbosys.
-                <br></br>
-                <br></br>
-                <i>“We design the best to stand out from rest”!</i>
-              </p>
+             
             </div>
 
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">

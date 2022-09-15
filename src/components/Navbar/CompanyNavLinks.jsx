@@ -34,10 +34,10 @@ const CompanyNavLinks = () => {
                       Training and Development
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     {" "}
                     <Link to="/Team">Team</Link>
-                  </li>
+                  </li> */}
                   <li> Life @ Cerbosys</li>
                   <li>
                     {" "}

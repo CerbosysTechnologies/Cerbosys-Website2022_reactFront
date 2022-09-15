@@ -4,7 +4,7 @@ import gifticon from "../../../../assets/innerpage/lifecerbosys/gift.svg";
 import diwaliicon from "../../../../assets/innerpage/lifecerbosys/diwali.svg";
 import flagicon from "../../../../assets/innerpage/lifecerbosys/flag.svg";
 import holiicon from "../../../../assets/innerpage/lifecerbosys/holi.svg";
-import newyearicon from "../../../../assets/innerpage/lifecerbosys/newyear.svg"
+import newyearicon from "../../../../assets/innerpage/lifecerbosys/newyear.svg";
 //import bossthoughticon from "../../../../assets/innerpage/lifecerbosys/bossthought.svg";
 
 const LifeCerbosysBody = () => {
@@ -12,8 +12,6 @@ const LifeCerbosysBody = () => {
     <div>
       <div className="mx-auto w-full py-16 px-4 bg-LifeCerbosysBody ">
         <div className="max-w-[1240px] mx-auto ">
-        
-
           {/* Body Section */}
           <div className="grid md:grid-cols-2 mt-32">
             {/* First Grid */}
@@ -56,13 +54,14 @@ const LifeCerbosysBody = () => {
               <p className="font-content md:text-sm md:w-80 w-64 text-xs -mt-40">
                 <h1 className="font-heading text-center">Employee Farewell</h1>
                 <br></br>
-                The company event this year was intended for the employees and
-                clients to discuss some strategies and have fun of course.
+                As we say goodbye to our valued employees, the team always
+                celebrates this opportunity to thank them for their dedication
+                and service over their work tenure.
                 <br></br>
                 <br></br>
-                Discussions do not need to be serious every time, sometimes it's
-                all about working with fun and involvement. #company event and
-                strategies
+                Rather than a formal goodbye, we always try to make it a more
+                memorable last-day work experience for the employee. 
+                <strong>#employee farewell</strong>
               </p>
             </div>
 
@@ -172,9 +171,8 @@ const LifeCerbosysBody = () => {
           </div>
           {/* Body Section Ends */}
 
-
-            {/* Heading Section */}
-            <div className="flex flex-wrap items-center justify-center mt-10">
+          {/* Heading Section */}
+          <div className="flex flex-wrap items-center justify-center mt-10">
             <p className="font-heading text-2xl text-center">
               What Our Employees Say About Us:
             </p>
@@ -194,14 +192,10 @@ const LifeCerbosysBody = () => {
           </div>
 
           {/* Image Thought Section */}
-          <div>
-            {/* <img src={bossthoughticon} alt="Boss Thought" /> */}
-          </div>
+          <div>{/* <img src={bossthoughticon} alt="Boss Thought" /> */}</div>
           {/* Image Thought Section Ends*/}
-          
+
           {/* Heading Section Ends */}
-
-
         </div>
       </div>
     </div>
