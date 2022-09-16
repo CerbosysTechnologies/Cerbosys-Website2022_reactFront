@@ -8,12 +8,15 @@ import {
   Route,
   BrowserRouter,
 } from "react-router-dom";
+import PageScrollToTop from "./components/Common/Component/PageScrollToTop";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    <PageScrollToTop />
       <App />
+     
     </BrowserRouter>
   </React.StrictMode>
 );

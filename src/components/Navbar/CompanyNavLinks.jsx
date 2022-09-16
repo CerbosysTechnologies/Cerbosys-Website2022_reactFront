@@ -18,11 +18,11 @@ const CompanyNavLinks = () => {
           {"Company"}
         </h1>
 
-        <div className="absolute top-28 left-0 right-0 hidden group-hover:md:block hover:md:block">
-          <div className="bg-Primary flex flex-row items-center justify-center md:h-[450px] text-white">
+        <div className="absolute top-32 left-0 right-0 hidden group-hover:md:block hover:md:block">
+          <div className="bg-Primary flex flex-row items-center justify-center md:h-[300px] text-white mb-2">
             {/* First Row */}
             <div className="flex flex-wrap flex-col m-0 border-r-2 py-10">
-              <div className="mt-[10px] ">
+              <div className="mt-[4px] ">
                 <ul className="text-sm font-subheading list-inside list-disc px-5">
                   <li>
                     {" "}
@@ -34,19 +34,20 @@ const CompanyNavLinks = () => {
                       Training and Development
                     </Link>
                   </li>
-                  {/* <li>
+                  <li>
                     {" "}
                     <Link to="/Team">Team</Link>
-                  </li> */}
+                  </li>
                   <li> <Link to="/LifeCerbosys">Life @ Cerbosys</Link></li>
                   <li>
                     {" "}
                     <Link to="/Diversity">Diversity @ Cerbosys</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     {" "}
                     <Link to="/CurrentOpening">Current Openings</Link>
-                  </li>
+            
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -56,10 +57,10 @@ const CompanyNavLinks = () => {
             <div className="flex flex-wrap flex-col justify-evenly">
               <div className="">               
 
-                <div className="font-subheading text-lg m-6">
+                <div className="font-subheading text-lg m-4">
                   call us at
-                  <p>+91 731 499 3444</p>
-                  <p>+91 88 3969 7183</p>
+                  <p>0731-499-3-444</p>
+                  <p>+91 88-3969-7183</p>
                 </div>
 
                 <div className="font-subheading text-lg m-6">
@@ -82,7 +83,7 @@ const CompanyNavLinks = () => {
 {/* Button Row Ends*/}
 
             {/* Slogan Line */}
-            <div className="bottom-1 font-heading text-xl text-center absolute border-t-2 ">
+            <div className="bottom-2 font-heading text-xl text-center absolute border-t-2 ">
               WE CREATE WHAT YOU BELIEVE!!
             </div>
             {/* Slogan Ends */}

@@ -18,12 +18,12 @@ const IndustryNavLinks = () => {
           {"Industries"}
         </h1>
 
-        <div className="absolute top-28 left-0 right-0 hidden group-hover:md:block hover:md:block ">
-          <div className="bg-Primary flex flex-row items-center justify-center md:h-[450px] text-white
+        <div className="absolute top-32 left-0 right-0 hidden group-hover:md:block hover:md:block ">
+          <div className="bg-Primary flex flex-row items-center justify-center md:h-[400px] text-white mb-2
           ">
             {/* First Row */}
-            <div className="flex flex-wrap flex-col m-2 border-r-2 py-10">
-              <div className="mt-[10px]">
+            <div className="flex flex-wrap flex-col m-2 border-r-2 py-7">
+              <div className="mt-[5px]">
                 <ul className="text-sm font-subheading list-inside list-disc px-5">
                   <li> Agriculture</li>
                   <li> Ecommerce and Retail</li>
@@ -46,8 +46,8 @@ const IndustryNavLinks = () => {
 
                 <div className="font-subheading text-lg m-6">
                   call us at
-                  <p>+91 731 499 3444</p>
-                  <p>+91 88 3969 7183</p>
+                  <p>0731-499-3-444</p>
+                  <p>+91 88-3969-7183</p>
                 </div>
 
                 <div className="font-subheading text-lg m-6">
@@ -70,7 +70,7 @@ const IndustryNavLinks = () => {
 {/* Third Row Ends*/}
 
             {/* Slogan Line */}
-            <div className="bottom-1 font-heading text-xl text-center absolute border-t-2 ">
+            <div className="bottom-1 font-heading text-xl text-center absolute border-t-2 mb-2">
             Let’s work together & grow together!!
             </div>
             {/* Slogan Ends */}
