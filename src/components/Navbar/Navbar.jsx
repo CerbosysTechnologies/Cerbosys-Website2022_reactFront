@@ -30,7 +30,7 @@ const Navbar = () => {
           <Link to="/"><img
             src={!headerVisible ? cerbosyswhite : cerbosysblack}
             alt="logo"
-            className="md:cursor-pointer md:w-[300px] md:h-20 md:mt-0 mt-5 w-[200px] h-[65px]"
+            className="md:cursor-pointer md:w-[300px] md:h-28 md:mt-0 mt-5 w-[200px] h-[65px]"
           /></Link>
             {/* Test Code */}
             <div className={`text-5xl md:hidden m-5 ${!headerVisible ? "text-white" : "text-black"}`} onClick={() => 
@@ -71,9 +71,7 @@ const Navbar = () => {
           </li> */}
 
           <li>
-            <Link to="/Team" className="py-5 px-1 inline-block">
-              Team
-            </Link>
+            <Link to="/CurrentOpening">Career</Link>
           </li>
 
           <li>
@@ -93,7 +91,7 @@ const Navbar = () => {
           />
           <span className={`text-sm font-heading mt-1 
           ${!headerVisible ? "text-white" : "text-black"}`}>
-            0731-499-34-44
+            0731-499-3-444
           </span>
         </div>
 
@@ -127,12 +125,12 @@ const Navbar = () => {
             </Link>
           </li>          */}
            <li>
-            <Link to="/Team" className="py-5 px-1 inline-block">
-              Team
+            <Link to="/Current" className="py-5 px-1 inline-block">
+              Career
             </Link>
           </li>
           <li>
-            <Link to="/ContactUs" className="py-1 px-3 inline-block">
+            <Link to="/CurrentOpening" className="py-1 px-3 inline-block">
               Contact Us
             </Link>
           </li>

@@ -12,17 +12,14 @@ const ContactUs = () => {
 
 
           {/* Content Section */}
-          <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
-            <p className="text-white font-heading py-2 md:text-3xl text-xl mb-2">
+          <div className="flex flex-col justify-center text-center items-center md:h-[35rem] h-96 mx-auto">
+            <p className="text-white font-heading py-2 md:text-6xl text-2xl ">
               Contact Us
             </p>
 
-            <p className="text-Primary font-heading py-2 md:text-lg text-xs mb-8 md:w-[480px] text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus officia repudiandae neque amet minima voluptas iure,
-              modi aspernatur laboriosam recusandae quidem odit, illum nobis,
-              necessitatibus at veritatis? Assumenda, totam. Nihil?
-            </p>
+            {/* <p className="text-Primary font-heading py-2 md:text-lg text-xs mb-8 md:w-[480px] text-justify">
+            
+            </p> */}
           </div>
           {/* Content Section Ends */}
 

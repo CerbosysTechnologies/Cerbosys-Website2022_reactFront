@@ -34,7 +34,7 @@ module.exports = {
       TrainingAndDevelopmentBody:"url('assets/innerpage/traininganddevelopment/trainingbody.svg')",
       LifeCerbosysBody:"url('assets/innerpage/lifecerbosys/dotsbackground.svg')",
       LifeCerbosys:"url('assets/innerpage/lifecerbosys/life@cerbosysheader.svg')",
-      //TeamCerbosys:"url('assets/innerpage/team/meetourteamheader-min.png')",
+      TeamCerbosys:"url('assets/innerpage/team/meetourteamheader-min.png')",
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],

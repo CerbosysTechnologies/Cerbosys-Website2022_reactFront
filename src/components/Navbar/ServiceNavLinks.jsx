@@ -1,11 +1,9 @@
 import React, { useState } from "react";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const NavLinks = () => {
   const [heading, setHeading] = useState("Services");
   const [subHeading, setSubHeading] = useState("");
-
-
 
   const slinks = [
     {
@@ -42,56 +40,55 @@ const NavLinks = () => {
           </h1>
 
           <div>
-            <div className="absolute top-28 left-0 right-0 hidden group-hover:md:block hover:md:block ">
-              <div className="bg-Primary flex flex-row items-center justify-center md:h-[450px] text-white">
+            <div className="absolute top-32
+             left-0 right-0 hidden group-hover:md:block hover:md:block ">
+              <div className="bg-Primary flex flex-row items-center justify-center md:h-[380px] text-white mb-5">
                 {/* First Row */}
-                <div className="flex flex-wrap flex-col  border-r-2  py-8 px-10 ">
-
+                <div className="flex flex-wrap flex-col  border-r-2  py-4 px-10 ">
                   <div className="mt-4">
                     <h1 className="font-subheading md:text-sm text-xs">
                       <Link to="/WebDevelopment">Web Development</Link>
-                    </h1>                
+                    </h1>
                   </div>
 
                   <div className="mt-5">
                     <h1 className="font-subheading md:text-sm text-xs">
-                    <Link to="/DigitalMarketing">Digital Marketing</Link>
-                    </h1>                    
+                      <Link to="/DigitalMarketing">Digital Marketing</Link>
+                    </h1>
                   </div>
-
 
                   <div className="mt-5">
                     <h1 className="font-subheading md:text-sm text-xs">
                       <Link to="/LeadGeneration">Lead Generation</Link>
                     </h1>
-                    </div>
-                    <div className="mt-5">
+                  </div>
+                  <div className="mt-5">
                     <h1 className="font-subheading md:text-sm text-xs">
-                      <Link to='/BrandingAndPackaging'>Branding And Packaging</Link>
-                    </h1>                    
+                      <Link to="/BrandingAndPackaging">
+                        Branding And Packaging
+                      </Link>
+                    </h1>
                   </div>
 
                   <div className="mt-5">
                     <h1 className="font-subheading md:text-sm text-xs">
                       <Link to="/MobileDevelopment">Mobile Development</Link>
-                    </h1>                  
+                    </h1>
                   </div>
 
                   <div className="mt-5">
                     <h1 className="font-subheading md:text-sm text-xs">
-                      <Link to='/UIAndUX'>UI/UX Development</Link>
-                    </h1>                   
+                      <Link to="/UIAndUX">UI/UX Development</Link>
+                    </h1>
                   </div>
-
                 </div>
                 {/* First Row Ends */}
 
-              
-                {/* Second Row */} 
-                <div className="flex flex-wrap flex-col m-2 border-r-2 py-7 ">
+                {/* Second Row */}
+                <div className="flex flex-wrap flex-col m-2 border-r-2 py-4">
                   <div className="mx-4">
                     <h1 className="font-subheading md:text-sm text-xs">
-                    <Link to='/StaffAugmentation'>Staff Augmentation</Link>
+                      <Link to="/StaffAugmentation">Staff Augmentation</Link>
                     </h1>
                     <ul className="text-sm font-subheading list-inside list-disc capitalize">
                       <li>Hire Reacjs Developer</li>
@@ -112,12 +109,10 @@ const NavLinks = () => {
                 {/* Third Row */}
                 <div className="flex flex-wrap flex-col justify-evenly py-8">
                   <div className="mx-3">
-                   
-
                     <div className="font-subheading text-lg mt-8">
                       call us at
-                      <p>+91 731 499 3444</p>
-                      <p>+91 88 3969 7183</p>
+                      <p>0731-4993-444</p>
+                      <p>+91 88-3969-7183</p>
                     </div>
 
                     <div className="font-subheading text-lg mt-8">
@@ -128,28 +123,25 @@ const NavLinks = () => {
                 </div>
                 {/* Third Row */}
 
-{/* Fourth Row */}
-<div>
-<button
-                      className="bg-Green rounded-full 
+                {/* Fourth Row */}
+                <div>
+                  <button
+                    className="bg-Green rounded-full 
             font-heading px-6 py-3 text-white uppercase "
-                    >
-                      Get Free Estimation
-                    </button>
-</div>
-{/* Fourth Row Ends*/}
+                  >
+                    Get Free Estimation
+                  </button>
+                </div>
+                {/* Fourth Row Ends*/}
 
- 
-              {/* Slogan Line */}
+                {/* Slogan Line */}
                 <div className="bottom-[0px] font-heading text-xl text-center absolute border-t-2 mb-5">
-                BUILD A FUTURE IN ONLINE BUSINESS WITH OUR TEAM
+                  BUILD A FUTURE IN ONLINE BUSINESS WITH OUR TEAM
                 </div>
                 {/* Slogan Ends */}
-               
+
                 {/* ))} */}
               </div>
-              
-
             </div>
           </div>
         </div>
@@ -175,34 +167,32 @@ const NavLinks = () => {
                 <div className="flex flex-wrap flex-col m-2">
                   <div className="mt-[5px] ">
                     <h1 className="font-heading text-sm">
-                      <Link to='/WebDevelopment'>Web Development</Link>
+                      <Link to="/WebDevelopment">Web Development</Link>
                     </h1>
-                   
                   </div>
 
                   <div className="mt-[8px]">
                     <h1 className="font-heading text-sm">
-                    <Link to='/MobileDevelopment'>Mobile Development</Link>
+                      <Link to="/MobileDevelopment">Mobile Development</Link>
                     </h1>
                   </div>
                   <div className="mt-[8px]">
                     <h1 className="font-heading  text-sm ">
                       UI/UX Development
                     </h1>
-                   
                   </div>
                   <div className="mt-[8px]">
                     <h1 className="font-heading text-sm">
-                    <Link to='/LeadGeneration'>Lead Generation</Link>
+                      <Link to="/LeadGeneration">Lead Generation</Link>
                     </h1>
                     <h1 className="mt-[8px] font-heading text-sm">
-                    <Link to='/BrandingAndPackaging'>Branding And Packaging</Link>
+                      <Link to="/BrandingAndPackaging">
+                        Branding And Packaging
+                      </Link>
                     </h1>
                   </div>
                   <div className="mt-[5px]">
-                    <h1 className="font-heading text-sm">
-                      Staff Augmentation
-                    </h1>
+                    <h1 className="font-heading text-sm">Staff Augmentation</h1>
                     <ul className="text-sm font-subheading list-inside list-disc">
                       <li>Hire Reacjs Developer</li>
                       <li>Hire Node.js Developer</li>
@@ -215,7 +205,6 @@ const NavLinks = () => {
                       <li>Hire .Net Developer</li>
                     </ul>
                   </div>
-                  
                 </div>
 
                 {/* First Row Ends */}

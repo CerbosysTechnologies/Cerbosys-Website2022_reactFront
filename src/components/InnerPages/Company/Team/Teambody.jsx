@@ -1,19 +1,19 @@
 import React from "react";
-// import ankiticon from "../../../../assets/innerpage/team/ankitsir.svg";
-// import vineeticon from "../../../../assets/innerpage/team/vineetsir.svg";
-// import nidhiicon from "../../../../assets/innerpage/team/nidhimam.svg";
-// import jyotiicon from "../../../../assets/innerpage/team/jyotimam.svg";
-// import sadaficon from "../../../../assets/innerpage/team/sadafmam.svg";
-// import aarificon from "../../../../assets/innerpage/team/arifsir.svg";
-// import kanchanicon from "../../../../assets/innerpage/team/kanchanmam.svg";
-// import omicon from "../../../../assets/innerpage/team/omprakashsir.svg";
-// import laliticon from "../../../../assets/innerpage/team/lalitsir.svg";
-// import rishabhicon from "../../../../assets/innerpage/team/rishabhsir.svg";
-// import shewtaicon from "../../../../assets/innerpage/team/swetamam.svg";
-// import shubhamicon from "../../../../assets/innerpage/team/shubhamsir.svg";
-// import akashicon from "../../../../assets/innerpage/team/aakashsir.svg"; 
-// import prasangicon from "../../../../assets/innerpage/team/prasangsir.svg";
-// import manwomanicon from "../../../../assets/innerpage/team/man_woman.svg";
+import ankiticon from "../../../../assets/innerpage/team/ankitsir.png";
+import vineeticon from "../../../../assets/innerpage/team/vineetsir.png";
+import nidhiicon from "../../../../assets/innerpage/team/nidhimam.png";
+import jyotiicon from "../../../../assets/innerpage/team/jyotimam.png";
+import sadaficon from "../../../../assets/innerpage/team/sadafmam.png";
+import aarificon from "../../../../assets/innerpage/team/arifsir.png";
+import kanchanicon from "../../../../assets/innerpage/team/kanchanmam.png";
+import omicon from "../../../../assets/innerpage/team/omprakashsir.png";
+import laliticon from "../../../../assets/innerpage/team/lalitsir.png";
+import rishabhicon from "../../../../assets/innerpage/team/rishabsir.png";
+import shewtaicon from "../../../../assets/innerpage/team/swetamam.png";
+import shubhamicon from "../../../../assets/innerpage/team/shubhamsir.png";
+import akashicon from "../../../../assets/innerpage/team/aakashsir.png"; 
+import prasangicon from "../../../../assets/innerpage/team/prasangsir.png";
+import manwomanicon from "../../../../assets/innerpage/team/man_woman.png";
 
 const Teambody = () => {
   return (
@@ -50,11 +50,11 @@ const Teambody = () => {
 
           {/* First Grid */}
           <div className="flex flex-wrap flex-col items-center justify-center mt-10">
-            {/* <img
+            <img
               src={ankiticon}
               alt="Ankit Goyel"
               className="md:w-72 md:h-72 w-56 h-56 "
-            /> */}
+            />
             <p className="font-heading md:text-lg text-sm text-center mt-6">              
               <br></br> Hi, this is Ankit Goyel, CEO and Managing Director
               <br></br>
@@ -68,11 +68,11 @@ const Teambody = () => {
           {/* Second Grid */}
           <div className="grid md:grid-cols-2 mt-8">
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
-              {/* <img
+              <img
                 src={vineeticon}
                 alt="Vineet Goyel"
                 className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
+              />
 
               <p className="font-heading md:text-lg text-sm text-center mt-10">                
                 <br></br>
@@ -84,11 +84,11 @@ const Teambody = () => {
             </div>
 
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
-              {/* <img
+              <img
                 src={nidhiicon}
                 alt="Nidhi Goyel"
                 className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
+              />
 
               <p className="font-heading md:text-lg text-sm text-center mt-10">
                 <br></br>
@@ -104,11 +104,11 @@ const Teambody = () => {
           {/* Third Grid */}
           <div className="grid md:grid-cols-2 mt-8">
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
-            {/* <img
+            <img
                 src={jyotiicon}
                 alt="Jyoti Rajpal"
                 className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
+              />
 
               <p className="font-heading md:text-lg text-sm text-center mt-10">                
                 <br></br>
@@ -124,11 +124,11 @@ const Teambody = () => {
             </div>
 
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
-            {/* <img
+            <img
                 src={sadaficon}
                 alt="Sadaf Armaani"
                 className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
+              />
 
               <p className="font-heading md:text-lg text-sm text-center mt-10">               
                 <br></br>
@@ -147,11 +147,11 @@ const Teambody = () => {
           {/* Fourth Grid */}
           <div className="grid md:grid-cols-2 mt-8">
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
-              {/* <img
+              <img
                 src={aarificon}
                 alt="Aarif Hussain"
                 className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
+              />
 
               <p className="font-heading md:text-lg text-sm text-center mt-10">                
                 <br></br>
@@ -163,11 +163,11 @@ const Teambody = () => {
             </div>
 
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
-              {/* <img
+              <img
                 src={kanchanicon}
                 alt="Kanchan Gupta"
                 className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
+              />
 
               <p className="font-heading md:text-lg text-sm text-center mt-10">                
                 <br></br>
@@ -183,11 +183,11 @@ const Teambody = () => {
           {/* Fifth Grid */}
           <div className="grid md:grid-cols-2 mt-8">
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
-              {/* <img
+              <img
                 src={omicon}
                 alt="Om Prakash"
                 className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
+              />
 
               <p className="font-heading md:text-lg text-sm text-center mt-10">                
                 <br></br>
@@ -199,11 +199,11 @@ const Teambody = () => {
             </div>
 
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
-            {/* <img
+            <img
                 src={shewtaicon}
                 alt="Shweta Deshpande"
                 className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
+              />
 
               <p className="font-heading md:text-lg text-sm text-center mt-10">             
                 <br></br>
@@ -220,11 +220,11 @@ const Teambody = () => {
           {/* Sixth Grid */}
           <div className="grid md:grid-cols-2 mt-8">
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
-            {/* <img
+            <img
                 src={akashicon}
                 alt="Akash Yadav"
                 className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
+              />
 
               <p className="font-heading md:text-lg text-sm text-center mt-10">              
                 <br></br>
@@ -236,11 +236,11 @@ const Teambody = () => {
             </div>
 
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
-            {/* <img
+            <img
                 src={laliticon}
                 alt="Lalit Yadav"
                 className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
+              />
 
               <p className="font-heading md:text-lg text-sm text-center mt-10">                
                 <br></br>
@@ -256,11 +256,11 @@ const Teambody = () => {
           {/* Seventh Grid */}
           <div className="grid md:grid-cols-2 mt-8">
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
-            {/* <img
+            <img
                 src={rishabhicon}
                 alt="Rishabh Shrivastava"
                 className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
+              />
 
               <p className="font-heading md:text-lg text-sm text-center mt-10">                
                 <br></br>
@@ -273,11 +273,11 @@ const Teambody = () => {
             </div>
 
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
-            {/* <img
+            <img
                 src={prasangicon}
                 alt="Prasang Jain"
                 className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
+              />
 
               <p className="font-heading md:text-lg text-sm text-center mt-10">              
                 <br></br>
@@ -294,11 +294,11 @@ const Teambody = () => {
           {/* 8 Grid */}
           <div className="grid md:grid-cols-2 mt-8">
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
-            {/* <img
+            <img
                 src={shubhamicon}
                 alt="Shubham Shrivastava"
                 className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
+              />
 
               <p className="font-heading md:text-lg text-sm text-center mt-10">             
                 <br></br>
@@ -311,11 +311,11 @@ const Teambody = () => {
             </div>
 
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
-              {/* <img
+              <img
                 src={manwomanicon}
                 alt="Coming Soon"
                 className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
+              />
 
               <p className="font-heading md:text-lg text-sm text-center mt-10">
               Many More....
