@@ -25,7 +25,7 @@ const NavLinks = () => {
       <div>
         <div className="px-3 text-left md:cursor-pointer group">
           <h1
-            className="md:py-4 sm:py-3 flex justify-between items-center md:pr-0 pr-5 group"
+            className="md:py-4 sm:py-3 flex justify-between items-center md:pr-0 pr-5 group md:h-32"
             onClick={() => {
               heading !== "Services" ? setHeading("Services") : setHeading("");
               setSubHeading("");
@@ -38,10 +38,11 @@ const NavLinks = () => {
               ></ion-icon>
             </span> */}
           </h1>
-
           <div>
-            <div className="absolute top-32
-             left-0 right-0 hidden group-hover:md:block hover:md:block ">
+            <div
+              className="absolute top-32
+             left-0 right-0 hidden group-hover:md:block hover:md:block "
+            >
               <div className="bg-Primary flex flex-row items-center justify-center md:h-[380px] text-white mb-5">
                 {/* First Row */}
                 <div className="flex flex-wrap flex-col  border-r-2  py-4 px-10 ">
