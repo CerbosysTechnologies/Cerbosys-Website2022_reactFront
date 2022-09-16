@@ -14,12 +14,7 @@
     "react-animated-text": "^0.1.4",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
-<<<<<<< HEAD
-    "react-lottie-player": "^1.4.3",
-    "react-router-dom": "^6.0.2",
-=======
     "react-router-dom": "^6.3.0",
->>>>>>> f234f79407531c6e093f668871aae877c9dfd6c4
     "react-scripts": "5.0.1",
     "react-text-transition": "^3.0.2",
     "react-typewriter-effect": "^1.1.0",
