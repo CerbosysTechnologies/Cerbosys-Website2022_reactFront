@@ -7,7 +7,7 @@ import CustomerRelationHomePage from "../../components/HomePage/CustomerRelation
 import Footer from "../../components/Common/Component/Footer";
 import ClientLogoPage from "./ClientLogoPage";
 import { Random } from "react-animated-text";
-
+import TypeWriterEffect from "react-typewriter-effect";
 const Hero = () => {
   const exampleStyle = {
     display: "inline-block",
@@ -24,12 +24,31 @@ const Hero = () => {
       <div className="mx-auto w-full md:h-screen h-full py-16 px-4 bg-Hero bg-cover md:bg-top bg-center">
         {/* Content Section */}
         <div className="flex flex-col justify-center text-center items-center h-3/4 mx-auto">
+          {/* Home Contet Animation start */}
           <p className="text-white font-heading py-3 md:text-6xl text-xl md:w-[1000px] w-[400px] mb-8 md:mt-2 mt-24">
             {/* The Ideal Web and Mobile Solutions for your emerging business- You’re just one click away!! */}
-            YOUR VISION IS OUR PASSION 
+            {/* YOUR VISION IS OUR PASSION */}
+            <TypeWriterEffect
+              textStyle={{
+                fontFamily: "Red Hat Display",
+                color: "#ffffff",
+                fontWeight: 500,
+                fontSize: "1.5em",
+              }}
+              startDelay={2000}
+              cursorColor="#ffffff"
+              multiText={[
+                "YOUR VISION IS OUR PASSION ",
+                "WE CREATE WHAT YOU BELIEVE",
+                "INNOVATION IS OUR MOTIVATION",
+              ]}
+              multiTextDelay={1000}
+              typeSpeed={30}
+            />
             {/* <br></br>WE CREATE WHAT YOU BELIEVE 
             <br></br>INNOVATION IS OUR MOTIVATION */}
           </p>
+          {/* Home Contet Animation End */}
 
           {/* <p className="text-white font-heading md:text-lg text-sm mb-8 md:w-[730px] w-[350px] mt-36">
             Generating innovative ideas that convert the clicks into leads for
