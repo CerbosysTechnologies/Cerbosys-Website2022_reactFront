@@ -18,7 +18,7 @@ const CompanyNavLinks = () => {
           {"Company"}
         </h1>
 
-        <div className="absolute top-20 left-0 right-0 hidden group-hover:md:block hover:md:block">
+        <div className="absolute top-28 left-0 right-0 hidden group-hover:md:block hover:md:block">
           <div className="bg-Primary flex flex-row items-center justify-center md:h-[450px] text-white">
             {/* First Row */}
             <div className="flex flex-wrap flex-col m-0 border-r-2 py-10">
