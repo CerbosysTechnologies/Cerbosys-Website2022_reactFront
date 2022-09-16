@@ -5,7 +5,7 @@ import diwaliicon from "../../../../assets/innerpage/lifecerbosys/diwali.svg";
 import flagicon from "../../../../assets/innerpage/lifecerbosys/flag.svg";
 import holiicon from "../../../../assets/innerpage/lifecerbosys/holi.svg";
 import newyearicon from "../../../../assets/innerpage/lifecerbosys/newyear.svg";
-//import bossthoughticon from "../../../../assets/innerpage/lifecerbosys/bossthought.svg";
+import bossthoughticon from "../../../../assets/innerpage/lifecerbosys/bossthought.svg";
 
 const LifeCerbosysBody = () => {
   return (
@@ -122,7 +122,7 @@ const LifeCerbosysBody = () => {
             {/* Fifth Grid */}
             <div
               className="relative mx-auto flex flex-col md:px-10 px-10 py-10 
-                text-justify border-4 border-Primary rounded-xl items-center mt-52"
+                text-justify border-4 border-Primary rounded-xl items-center md:mt-52 mt-32"
             >
               <img
                 src={holiicon}
@@ -192,7 +192,9 @@ const LifeCerbosysBody = () => {
           </div>
 
           {/* Image Thought Section */}
-          <div>{/* <img src={bossthoughticon} alt="Boss Thought" /> */}</div>
+          <div className="items-center justify-center md:px-28 md:py-5 mt-10 md:-mb-96 -mb-56">
+            <img src={bossthoughticon} alt="Boss Thought" className="md:w-[60rem] md:h-[70rem]"/>
+          </div>
           {/* Image Thought Section Ends*/}
 
           {/* Heading Section Ends */}

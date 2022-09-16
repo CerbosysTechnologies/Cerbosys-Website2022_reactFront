@@ -30,7 +30,7 @@ const Navbar = () => {
           <Link to="/"><img
             src={!headerVisible ? cerbosyswhite : cerbosysblack}
             alt="logo"
-            className="md:cursor-pointer md:w-[300px] md:h-24 md:mt-0 mt-5 w-[200px] h-[65px]"
+            className="md:cursor-pointer md:w-[300px] md:h-20 md:mt-0 mt-5 w-[200px] h-[65px]"
           /></Link>
             {/* Test Code */}
             <div className={`text-5xl md:hidden m-5 ${!headerVisible ? "text-white" : "text-black"}`} onClick={() => 

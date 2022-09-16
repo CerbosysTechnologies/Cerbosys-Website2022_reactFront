@@ -149,7 +149,7 @@ const Footer = () => {
                 className="mr-3"
               ></img>
               <span className="font-subheading text-sm text-white">
-                15-16, Lakshya Vihar,Vaibhav Nagar, Indore (MP) 452016
+                15-16, Kanadia Road,Vaibhav Nagar, Indore (MP) 452016
               </span>
             </div>
 

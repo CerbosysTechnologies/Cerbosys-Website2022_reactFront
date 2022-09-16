@@ -18,7 +18,7 @@ const IndustryNavLinks = () => {
           {"Industries"}
         </h1>
 
-        <div className="absolute top-20 left-2 right-2 hidden group-hover:md:block hover:md:block ">
+        <div className="absolute top-20 left-0 right-0 hidden group-hover:md:block hover:md:block ">
           <div className="bg-Primary flex flex-row items-center justify-center md:h-[450px] text-white
           ">
             {/* First Row */}
@@ -71,7 +71,7 @@ const IndustryNavLinks = () => {
 
             {/* Slogan Line */}
             <div className="bottom-1 font-heading text-xl text-center absolute border-t-2 ">
-              Enabling Business Make business
+            Let’s work together & grow together!!
             </div>
             {/* Slogan Ends */}
           </div>

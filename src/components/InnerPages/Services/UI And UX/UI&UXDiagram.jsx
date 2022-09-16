@@ -1,4 +1,6 @@
 import React from 'react'
+import uiuxicon from '../../../../assets/innerpage/ui and ux/UIUX.svg'
+
 
 const UIAndUXDiagram = () => {
   return (
@@ -14,7 +16,7 @@ const UIAndUXDiagram = () => {
             {/* Heading Ends */}
 
             {/* Image */}
-                {/* <img src={} alt="Mobile Service Logo" className="md:w-[42rem] mt-10 w-80"/> */}
+                <img src={uiuxicon} alt="Ui/UX Service Logo" className="md:w-[42rem] mt-10 w-80"/>
             {/* Image Ends */}
             </div>
         </div>

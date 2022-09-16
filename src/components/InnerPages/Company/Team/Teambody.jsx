@@ -53,7 +53,7 @@ const Teambody = () => {
             <img
               src={ankiticon}
               alt="Ankit Goyel"
-              className="md:w-72 md:h-72 w-56 h-56"
+              className="md:w-72 md:h-72 w-56 h-56 "
             />
             <p className="font-heading md:text-lg text-sm text-center mt-6">
               Ankit Goyel (Managing Director)
@@ -137,9 +137,9 @@ const Teambody = () => {
               />
 
               <p className="font-heading md:text-lg text-sm text-center mt-10">
-                Sadaf Armani (Administrative Specialist)
+                Sadaf Armaani (Administrative Specialist)
                 <br></br>
-                Hello, I am Sadaf Armani, Administrative Specialist at Cerbosys.
+                Hello, I am Sadaf Armaani, Administrative Specialist at Cerbosys.
                 <br></br>
                 <br></br>
                 <i>

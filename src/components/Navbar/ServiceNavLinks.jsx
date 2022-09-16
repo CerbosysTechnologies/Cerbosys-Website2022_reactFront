@@ -42,7 +42,7 @@ const NavLinks = () => {
           </h1>
 
           <div>
-            <div className="absolute top-25 left-2 right-2 hidden group-hover:md:block hover:md:block ">
+            <div className="absolute top-20 left-0 right-0 hidden group-hover:md:block hover:md:block ">
               <div className="bg-Primary flex flex-row items-center justify-center md:h-[450px] text-white">
                 {/* First Row */}
                 <div className="flex flex-wrap flex-col  border-r-2  py-8 px-10 ">
@@ -142,7 +142,7 @@ const NavLinks = () => {
  
               {/* Slogan Line */}
                 <div className="bottom-[0px] font-heading text-xl text-center absolute border-t-2 mb-5">
-                  Enabling Business Make business
+                BUILD A FUTURE IN ONLINE BUSINESS WITH OUR TEAM
                 </div>
                 {/* Slogan Ends */}
                
