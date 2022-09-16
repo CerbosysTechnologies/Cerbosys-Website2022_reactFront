@@ -9,6 +9,7 @@ import ClientLogoPage from "./ClientLogoPage";
 import { Random } from "react-animated-text";
 
 const Hero = () => {
+  
   const exampleStyle = {
     display: "inline-block",
     // border: "1px solid #ccc",
