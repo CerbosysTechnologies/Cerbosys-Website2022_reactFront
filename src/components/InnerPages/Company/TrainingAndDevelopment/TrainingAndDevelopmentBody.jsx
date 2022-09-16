@@ -4,7 +4,8 @@ import boxone_icon from "../../../../assets/innerpage/traininganddevelopment/1bo
 import boxtwo_icon from "../../../../assets/innerpage/traininganddevelopment/2box.svg";
 import boxthree_icon from "../../../../assets/innerpage/traininganddevelopment/3box.svg";
 import boxfour_icon from "../../../../assets/innerpage/traininganddevelopment/4box.svg";
-
+// import Lottie from "react-lottie-player";
+// import lottieJson from "../../../../assets/JSN/circle-fade-loader.json";
 const TrainingAndDevelopmentBody = () => {
   return (
     <div>
@@ -38,11 +39,19 @@ const TrainingAndDevelopmentBody = () => {
           <div className="grid md:grid-cols-2 mt-8">
             {/* First Grid */}
             <div className="mx-auto flex flex-col md:px-14 md:py-14 px-10 py-14 text-justify border-4 border-gray-700 rounded-xl items-center">
+              {/* <Lottie
+                loop
+                animationData={lottieJson}
+                play
+                style={{ width: 300, height: 300 }}
+              > */}
               <img
                 src={boxone_icon}
                 alt="First Icon"
                 className="md:w-80 md:h-80 w-52 h-52"
               />
+              {/* </Lottie> */}
+
               <p className="font-content md:text-sm md:w-96 mt-10 w-64 text-xs">
                 <h1 className="font-heading text-center">
                   Ideas And Creativity

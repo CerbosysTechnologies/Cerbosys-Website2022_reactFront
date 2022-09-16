@@ -2,12 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  li{
-    @apply p-1
-
+@layer base {
+  li {
+    @apply p-1;
   }
-  
+
   @font-face {
     font-family: "Heading";
     src: url("./fonts/Montserrat-Bold.ttf");
@@ -23,3 +22,4 @@
     src: url("./fonts/Montserrat-Regular.ttf");
   }
 }
+

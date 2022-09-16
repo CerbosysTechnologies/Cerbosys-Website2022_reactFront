@@ -52,17 +52,17 @@ const Footer = () => {
                     <Link to="/">Home</Link>
                   </li>
                   <li className="">
-                    <Link to="Overview">Company</Link>
+                    <Link to="/Overview">Company</Link>
                   </li>
                   {/* <li className="">Services</li>
                   <li className="">Industries</li>
                   <li className="">Case Study</li>
                   <li className="">Blog</li> */}
                   <li className="">
-                    <Link to="Team">Team</Link>
+                    <Link to="/Team">Team</Link>
                   </li>
                   <li className="">
-                    <Link to="ContactUs">Contact Us</Link>
+                    <Link to="/ContactUs">Contact Us</Link>
                   </li>
                   <br></br>
                   <br></br>
@@ -83,25 +83,25 @@ const Footer = () => {
                 </h6>
                 <ul className="text-white font-subheading text-xs">
                   <li className="">
-                    <Link to="WebDevelopment">Web Development</Link>
+                    <Link to="/WebDevelopment">Web Development</Link>
                   </li>
                   <li className="">
-                    <Link to="StaffAugmentation">Staff Augmentation</Link>
+                    <Link to="/StaffAugmentation">Staff Augmentation</Link>
                   </li>
                   <li className="">
-                    <Link to="MobileDevelopment">Mobile Development</Link>
+                    <Link to="/MobileDevelopment">Mobile Development</Link>
                   </li>
                   <li className="">
-                    <Link to="UIAndUX">UI/UX Development</Link>
+                    <Link to="/UIAndUX">UI/UX Development</Link>
                   </li>
                   <li className="">
-                    <Link to="DigitalMarketing">Digital Marketing</Link>
+                    <Link to="/DigitalMarketing">Digital Marketing</Link>
                   </li>
                   <li className="">
-                    <Link to="BrandingAndPackaging">Brand And Packaging</Link>
+                    <Link to="/BrandingAndPackaging">Brand And Packaging</Link>
                   </li>
                   <li className="">
-                    <Link to="LeadGeneration">Lead Generation</Link>
+                    <Link to="/LeadGeneration">Lead Generation</Link>
                   </li>
                   <br></br>
                   <br></br>

@@ -17,7 +17,10 @@ const TrainingAndDevelopment = () => {
             </p>
 
             <p className="text-Primary font-heading py-2 md:text-lg text-xs mb-8 md:w-[480px] text-justify">
-            Cerbosys conducts an extensive training and development program for our new recruits. Under the guidance of experienced employees, subject matter experts and personality development mentors, we improve the employee’s performance. 
+              Cerbosys conducts an extensive training and development program
+              for our new recruits. Under the guidance of experienced employees,
+              subject matter experts and personality development mentors, we
+              improve the employee’s performance.
             </p>
           </div>
           {/* Content Section Ends */}

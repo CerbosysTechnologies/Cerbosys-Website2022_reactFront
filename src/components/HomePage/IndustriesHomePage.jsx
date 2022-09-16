@@ -4,7 +4,7 @@ import bankingicon from '../../assets/industry/banking.svg';
 import ecommerceicon from '../../assets/industry/e-commerce.svg';
 import educationicon from '../../assets/industry/education.svg';
 import fitnessicon from '../../assets/industry/fitness.svg';
-import foodicon from '../../assets/industry/food.svg';
+import foodicon from '../../assets/industry/Food.svg';
 import healthcareicon from '../../assets/industry/health.svg';
 import logisticsicon from '../../assets/industry/Logistics.svg';
 import manufacturingicon from '../../assets/industry/Manufacturing.svg';

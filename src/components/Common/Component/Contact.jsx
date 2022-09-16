@@ -5,18 +5,23 @@ import axios from "axios";
 const Contact = () => {
   //hooks
   const [username, setUsername] = useState("");
+  const [errorsname, setErrorsName] = useState("");
+  const [errorsNa, setErrorsNa] = useState("");
   const [email, setEmail] = useState("");
+
   const [subject, setSubject] = useState("");
+  const [errorsEmail_s, setErrorsEmail_s] = useState("");
+  const [errorsEml, setErrorsEml] = useState(false);
+
   const [contactNumber, setContactNumber] = useState("");
+  const [errorscon, setErrorsCon] = useState(false);
+  const [errorscontact, setErrorsContact] = useState("");
   const [serviceId, setServiceId] = useState("");
   const [hearaboutus, setHearaboutus] = useState("");
   const [message, setMessage] = useState("");
-
   const [serviceitems, setServiceItems] = React.useState([]);
-
   //Image
   const [techimg, setTechImg] = useState("");
-
   const [showImageSec, setShowImageSection] = useState(true);
 
   //   const handlerChange =(event)=>{
@@ -39,6 +44,31 @@ const Contact = () => {
   useEffect(() => {
     getAllServices();
   }, []);
+  // Form Validation
+  const onchangeFullName = (e) => {
+    const username = e.target.value.replace(/[^a-z]/gi, " ");
+    setUsername(username);
+    if (username.length <= 5) {
+      setErrorsName("Enter Name");
+      setErrorsNa(true);
+      return username;
+    } else {
+      setErrorsName(false);
+    }
+  };
+
+  const onchangeContact = (e) => {
+    // console.log("onchangeContact");
+    const contactNumber = e.target.value.replace(/([^0-9])+/i, "");
+    setContactNumber(contactNumber);
+    // (contact.length < 10 || contact.length > 10)
+    if (contactNumber.length < 10) {
+      setErrorsContact("Enter valid Contact");
+      setErrorsCon(true);
+    } else {
+      setErrorsCon(false);
+    }
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -77,9 +107,14 @@ const Contact = () => {
        focus:outline-none focus:ring-0 peer"
               placeholder="Name"
               required
-              onChange={(e) => setUsername(e.target.value)}
               value={username}
+              onChange={onchangeFullName}
+              // onChange={(e) => setUsername(e.target.value)}
+              // value={username}
             />
+            {errorsNa && (
+              <div className="text-left text-red-500">{errorsname}</div>
+            )}
           </div>
           {/* Name Div Ends */}
 
@@ -110,9 +145,12 @@ const Contact = () => {
         border-gray-300 appearance-none  dark:border-gray-400 focus:outline-none focus:ring-0 peer"
               placeholder="Subject"
               required
-              onChange={(e) => setSubject(e.target.value)}
               value={subject}
+              onChange={(e) => setSubject(e.target.value)}
             />
+            {errorsEml && (
+              <div className="text-left text-red-500">{errorsEmail_s}</div>
+            )}
           </div>
           {/* Subject Div Ends*/}
 
@@ -127,9 +165,14 @@ const Contact = () => {
        focus:outline-none focus:ring-0 peer"
               placeholder="Contact Number"
               required
-              onChange={(e) => setContactNumber(e.target.value)}
+              // onChange={(e) => setContactNumber(e.target.value)}
               value={contactNumber}
+              onChange={onchangeContact}
+              maxLength="10"
             />
+            {errorscon && (
+              <div className="text-left text-red-500">{errorscontact}</div>
+            )}
           </div>
           {/* Contact Number Div Ends*/}
 
@@ -169,6 +212,7 @@ const Contact = () => {
             className="mt-6 mb-6 bg-Primary text-white font-heading py-2 px-4 rounded "
             type="submit"
             value="Submit"
+            disabled={username === "" || contactNumber === "" ? true : false}
           />
         </form>
       </div>
