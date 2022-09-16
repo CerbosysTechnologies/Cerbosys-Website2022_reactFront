@@ -61,7 +61,7 @@ const Hero = () => {
                   "PASSION ",
                   "SATISFACTION",
                 ]}
-                multiTextDelay={2000}
+                multiTextDelay={5000}
                 typeSpeed={500}
               ></TypeWriter>
             </span>

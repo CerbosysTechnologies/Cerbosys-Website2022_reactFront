@@ -9,7 +9,7 @@ const CompanyNavLinks = () => {
     <div>
       <div className="px-3 text-left md:cursor-pointer group">
         <h1
-          className="md:py-4 sm:py-3 flex justify-between items-center md:pr-0 pr-5 group"
+          className="md:py-4 sm:py-3 flex justify-between items-center md:pr-0 pr-5 group  md:h-32"
           onClick={() => {
             heading !== "Company" ? setHeading("Company") : setHeading("");
             setSubHeading("");
@@ -17,8 +17,7 @@ const CompanyNavLinks = () => {
         >
           {"Company"}
         </h1>
-
-        <div className="absolute top-32 left-0 right-0 hidden group-hover:md:block hover:md:block">
+        <div className="absolute top-32 left-0 right-0 hidden group-hover:md:block hover:md:block transition duration-700 hover:duration-700">
           <div className="bg-Primary flex flex-row items-center justify-center md:h-[300px] text-white mb-2">
             {/* First Row */}
             <div className="flex flex-wrap flex-col m-0 border-r-2 py-10">
@@ -38,7 +37,10 @@ const CompanyNavLinks = () => {
                     {" "}
                     <Link to="/Team">Team</Link>
                   </li>
-                  <li> <Link to="/LifeCerbosys">Life @ Cerbosys</Link></li>
+                  <li>
+                    {" "}
+                    <Link to="/LifeCerbosys">Life @ Cerbosys</Link>
+                  </li>
                   <li>
                     {" "}
                     <Link to="/Diversity">Diversity @ Cerbosys</Link>
@@ -55,8 +57,7 @@ const CompanyNavLinks = () => {
 
             {/* Fourth Row */}
             <div className="flex flex-wrap flex-col justify-evenly">
-              <div className="">               
-
+              <div className="">
                 <div className="font-subheading text-lg m-4">
                   call us at
                   <p>0731-499-3-444</p>
@@ -72,15 +73,15 @@ const CompanyNavLinks = () => {
             {/* Fourth Row */}
 
             {/* Button Row */}
-<div>
-<button
-                      className="bg-Green rounded-full 
+            <div>
+              <button
+                className="bg-Green rounded-full 
             font-heading px-6 py-3 text-white uppercase "
-                    >
-                      Get Free Estimation
-                    </button>
-</div>
-{/* Button Row Ends*/}
+              >
+                Get Free Estimation
+              </button>
+            </div>
+            {/* Button Row Ends*/}
 
             {/* Slogan Line */}
             <div className="bottom-2 font-heading text-xl text-center absolute border-t-2 ">
@@ -114,7 +115,10 @@ const CompanyNavLinks = () => {
                 </Link>
               </li>
               {/* <li> <Link to="/Team">Team</Link></li> */}
-              <li> <Link to="/LifeCerbosys">Life @ Cerbosys</Link></li>
+              <li>
+                {" "}
+                <Link to="/LifeCerbosys">Life @ Cerbosys</Link>
+              </li>
               <li>
                 {" "}
                 <Link to="/Diversity">Diversity @ Cerbosys</Link>
