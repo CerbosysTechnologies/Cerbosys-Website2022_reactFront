@@ -1,9 +1,9 @@
 import React from "react";
-import cloudicon from "../../../../assets/innerpage/lifecerbosys/cloud.svg";
-import gifticon from "../../../../assets/innerpage/lifecerbosys/gift.svg";
-import diwaliicon from "../../../../assets/innerpage/lifecerbosys/diwali.svg";
-import flagicon from "../../../../assets/innerpage/lifecerbosys/flag.svg";
-import holiicon from "../../../../assets/innerpage/lifecerbosys/holi.svg";
+import cloudicon from "../../../../assets/innerpage/lifecerbosys/cloud.png";
+import gifticon from "../../../../assets/innerpage/lifecerbosys/gift.png";
+import diwaliicon from "../../../../assets/innerpage/lifecerbosys/diwali.png";
+import flagicon from "../../../../assets/innerpage/lifecerbosys/flag.png";
+import holiicon from "../../../../assets/innerpage/lifecerbosys/holi.png";
 import newyearicon from "../../../../assets/innerpage/lifecerbosys/newyear.svg";
 import bossthoughticon from "../../../../assets/innerpage/lifecerbosys/bossthought.svg";
 
@@ -22,7 +22,7 @@ const LifeCerbosysBody = () => {
               <img
                 src={cloudicon}
                 alt="Cloud Icon"
-                className="md:w-96 md:h-96 w-52 relative md:bottom-56 bottom-32"
+                className="md:w-96 md:h-96 w-52 relative md:bottom-56 bottom-32 object-contain"
               />
 
               <p className="font-content md:text-sm md:w-80 w-64 text-xs md:-mt-64 -mt-32">
@@ -48,7 +48,7 @@ const LifeCerbosysBody = () => {
               <img
                 src={gifticon}
                 alt="Gift Icon"
-                className="md:w-80 md:h-80 w-52 relative bottom-48"
+                className="md:w-80 md:h-80 w-52 relative bottom-48 object-contain"
               />
 
               <p className="font-content md:text-sm md:w-80 w-64 text-xs -mt-40">
@@ -75,7 +75,7 @@ const LifeCerbosysBody = () => {
               <img
                 src={diwaliicon}
                 alt="Diwali Icon"
-                className="md:w-96 md:h-96 w-56 relative md:bottom-48 bottom-32"
+                className="md:w-96 md:h-96 w-56 relative md:bottom-48 bottom-32 object-contain "
               />
 
               <p className="font-content md:text-sm md:w-80 w-64 text-xs md:-mt-60 -mt-28">
@@ -101,7 +101,7 @@ const LifeCerbosysBody = () => {
               <img
                 src={flagicon}
                 alt="Flag Icon"
-                className="md:w-96 md:h-96 w-52 relative bottom-48"
+                className="md:w-96 md:h-96 w-52 relative bottom-48 object-contain"
               />
 
               <p className="font-content md:text-sm md:w-80 w-64 text-xs -mt-48">
@@ -127,7 +127,7 @@ const LifeCerbosysBody = () => {
               <img
                 src={holiicon}
                 alt="Holi Icon"
-                className="md:w-96 md:h-96 w-56 relative md:bottom-48 bottom-32"
+                className="md:w-96 md:h-96 w-56 relative md:bottom-48 bottom-32 object-contain"
               />
 
               <p className="font-content md:text-sm md:w-80 w-64 text-xs md:-mt-48 -mt-28">
@@ -149,7 +149,7 @@ const LifeCerbosysBody = () => {
               <img
                 src={newyearicon}
                 alt="New Year Icon"
-                className="md:w-96 md:h-96 w-52 relative bottom-48"
+                className="md:w-96 md:h-96 w-52 relative bottom-48 object-contain"
               />
 
               <p className="font-content md:text-sm md:w-80 w-64 text-xs -mt-44">

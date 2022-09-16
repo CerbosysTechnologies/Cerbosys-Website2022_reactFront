@@ -38,12 +38,12 @@ const Hero = () => {
               WE WORK FOR
               <TypeWriter
                 textStyle={{
-                  color: "green",
+                  color: "#0F52BA",
                   fontSize: "1.5em",
                   textAlign: "center",
                 }}
                 startDelay={2000}
-                cursorColor="green"
+                cursorColor="#0F52BA"
                 multiText={[
                   "INNOVATION ",
                   "PASSION ",
