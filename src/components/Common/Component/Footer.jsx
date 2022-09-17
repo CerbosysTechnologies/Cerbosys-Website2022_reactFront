@@ -181,7 +181,7 @@ const Footer = () => {
           {/* Contact Us Div Ends*/}
 
           {/* Social Icons Div */}
-          <div className="flex flex-row items-center justify-center mt-20 gap-2">
+          <div className="flex flex-row items-center justify-center mt-20 gap-2 mb-4">
             <img
               src={fbcon}
               alt="Facebook Icon"
@@ -211,6 +211,11 @@ const Footer = () => {
 
           {/* Social Icons Div Ends*/}
         </div>
+        <hr></hr>
+        <div className="font-heading text-center text-white text-sm">
+          &copy; Cerbosys Technologies Inc.
+          <br></br> All rights reserved
+                  </div>
         {/* Max Width Div Ends */}
       </div>
     </div>
