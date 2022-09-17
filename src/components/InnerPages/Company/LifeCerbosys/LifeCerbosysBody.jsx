@@ -16,7 +16,7 @@ const LifeCerbosysBody = () => {
           <div className="grid md:grid-cols-2 mt-32">
             {/* First Grid */}
             <div
-              className="relative mx-auto flex flex-col md:px-10 px-10 py-10 
+              className="relative mx-auto flex flex-col md:px-10 px-6 py-10 
                 text-justify border-4 border-Primary rounded-xl items-center"
             >
               <img
@@ -42,7 +42,7 @@ const LifeCerbosysBody = () => {
 
             {/* Second Grid */}
             <div
-              className="relative mx-auto flex flex-col md:px-10 px-10 py-10 
+              className="relative mx-auto flex flex-col md:px-10 px-6 py-10 
                 text-justify border-4 border-Primary rounded-xl items-center md:mt-0 mt-40"
             >
               <img
@@ -69,7 +69,7 @@ const LifeCerbosysBody = () => {
 
             {/* Third Grid */}
             <div
-              className="relative mx-auto flex flex-col md:px-10 px-10 py-10 
+              className="relative mx-auto flex flex-col md:px-10 px-6 py-10 
                 text-justify border-4 border-Primary rounded-xl items-center mt-36"
             >
               <img
@@ -95,7 +95,7 @@ const LifeCerbosysBody = () => {
 
             {/* Fourth Grid */}
             <div
-              className="relative mx-auto flex flex-col md:px-10 px-10 py-10 
+              className="relative mx-auto flex flex-col md:px-10 px-6 py-10 
                 text-justify border-4 border-Primary rounded-xl items-center mt-48"
             >
               <img
@@ -121,7 +121,7 @@ const LifeCerbosysBody = () => {
 
             {/* Fifth Grid */}
             <div
-              className="relative mx-auto flex flex-col md:px-10 px-10 py-10 
+              className="relative mx-auto flex flex-col md:px-10 px-6 py-10 
                 text-justify border-4 border-Primary rounded-xl items-center md:mt-52 mt-32"
             >
               <img
@@ -143,7 +143,7 @@ const LifeCerbosysBody = () => {
 
             {/* Sixth Grid */}
             <div
-              className="relative mx-auto flex flex-col md:px-10 px-10 py-10 
+              className="relative mx-auto flex flex-col md:px-10 px-6 py-10 
                 text-justify border-4 border-Primary rounded-xl items-center mt-52"
             >
               <img
@@ -167,7 +167,7 @@ const LifeCerbosysBody = () => {
               </p>
             </div>
 
-            {/* Fourth Grid Ends */}
+            {/* Sixth Grid Ends */}
           </div>
           {/* Body Section Ends */}
 

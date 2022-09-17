@@ -125,7 +125,7 @@ const Navbar = () => {
             </Link>
           </li>          */}
            <li>
-            <Link to="/Current" className="py-5 px-1 inline-block">
+            <Link to="/Current" className="py-1 px-3 inline-block">
               Career
             </Link>
           </li>

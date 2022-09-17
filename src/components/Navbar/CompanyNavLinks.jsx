@@ -114,7 +114,7 @@ const CompanyNavLinks = () => {
                   Training and Development{" "}
                 </Link>
               </li>
-              {/* <li> <Link to="/Team">Team</Link></li> */}
+              <li> <Link to="/Team">Team</Link></li>  
               <li>
                 {" "}
                 <Link to="/LifeCerbosys">Life @ Cerbosys</Link>
@@ -123,10 +123,10 @@ const CompanyNavLinks = () => {
                 {" "}
                 <Link to="/Diversity">Diversity @ Cerbosys</Link>
               </li>
-              <li>
+              {/* <li>
                 {" "}
                 <Link to="/CurrentOpening">Current Openings</Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

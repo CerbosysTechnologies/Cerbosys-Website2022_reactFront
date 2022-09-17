@@ -21,12 +21,12 @@ const TrainingAndDevelopmentForm = () => {
              <div className="grid md:grid-cols-2 mb-4 mt-10 md:w-10/12 shadow-xl shadow-gray-600">
               {/* Image Section */}
               <div className="mx-auto items-center justify-center " >
-              <img src={contact_icon} alt="" className="h-full"></img>
+              <img src={contact_icon} alt="" className="md:h-full"></img>
               </div>
               {/* Image Section Ends*/}
 
               {/* Form Section */}
-              <div className="bg-white md:px-14 px-10 items-center justify-center text-center ">
+              <div className="bg-white md:px-14 px-4 items-center justify-center text-center ">
                <ServicesForm />
                 </div>
               {/* Form Section Ends*/}

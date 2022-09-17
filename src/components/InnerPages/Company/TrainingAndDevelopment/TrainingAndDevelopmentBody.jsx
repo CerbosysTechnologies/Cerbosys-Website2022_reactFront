@@ -38,7 +38,7 @@ const TrainingAndDevelopmentBody = () => {
 
           <div className="grid md:grid-cols-2 mt-8">
             {/* First Grid */}
-            <div className="mx-auto flex flex-col md:px-14 md:py-14 px-10 py-14 text-justify border-4 border-gray-700 rounded-xl items-center">
+            <div className="mx-auto flex flex-col md:px-14 md:py-14 px-6 py-6 text-justify border-4 border-gray-700 rounded-xl items-center">
               {/* <Lottie
                 loop
                 animationData={lottieJson}
@@ -73,7 +73,7 @@ const TrainingAndDevelopmentBody = () => {
 
             {/* Second Grid  */}
 
-            <div className="md:mt-0 mt-20 mx-auto flex flex-col md:px-14 py-14 px-10 text-justify border-4 border-gray-700 rounded-xl items-center">
+            <div className="md:mt-0 mt-20 mx-auto flex flex-col md:px-14 py-6 px-6 text-justify border-4 border-gray-700 rounded-xl items-center">
               <img
                 src={boxtwo_icon}
                 alt="Second Icon"
@@ -101,7 +101,7 @@ const TrainingAndDevelopmentBody = () => {
 
             {/* Third Grid  */}
 
-            <div className=" mt-20 mx-auto flex flex-col md:px-14 py-14 px-10 text-justify border-4 border-gray-700 rounded-xl items-center">
+            <div className=" mt-20 mx-auto flex flex-col md:px-14 py-6 px-6 text-justify border-4 border-gray-700 rounded-xl items-center">
               <img
                 src={boxthree_icon}
                 alt="Third Icon"
@@ -130,7 +130,7 @@ const TrainingAndDevelopmentBody = () => {
 
             {/* Fourth Grid  */}
 
-            <div className=" mt-20 mx-auto flex flex-col md:px-14 py-14 px-10 text-justify border-4 border-gray-700 rounded-xl items-center">
+            <div className=" mt-20 mx-auto flex flex-col md:px-14 py-6 px-6 text-justify border-4 border-gray-700 rounded-xl items-center">
               <img
                 src={boxfour_icon}
                 alt="Fourth Icon"
