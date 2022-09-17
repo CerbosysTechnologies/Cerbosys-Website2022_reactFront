@@ -212,7 +212,7 @@ const Footer = () => {
           {/* Social Icons Div Ends*/}
         </div>
         <hr></hr>
-        <div className="font-heading text-center text-white text-sm">
+        <div className="font-heading text-center text-white md:text-sm text-xs">
           &copy; Cerbosys Technologies Inc.
           <br></br> All rights reserved
                   </div>

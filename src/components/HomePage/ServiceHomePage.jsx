@@ -189,8 +189,8 @@ const ServiceHomePage = () => {
               </div>
             </Bounce>
 
-            <div className="col-span-2">
-              <img src={quoteicon} className="md:mx-16 md:w-[40rem] md:h-96" alt="Quote"></img>
+            <div className="md:col-span-2 col-span-1">
+              <img src={quoteicon} className="md:mx-16 md:w-[40rem] md:h-96 mb-10 -mt-10" alt="Quote"></img>
             </div>
           </div>
         </div>
