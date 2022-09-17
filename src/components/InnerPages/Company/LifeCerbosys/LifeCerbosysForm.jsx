@@ -27,7 +27,7 @@ const LifeCerbosysForm = () => {
 
               {/* Form Section */}
               <div className="bg-white md:px-14 px-10 items-center justify-center text-center ">
-               {/* <ServicesForm /> */}
+               <ServicesForm />
                 </div>
               {/* Form Section Ends*/}
 
