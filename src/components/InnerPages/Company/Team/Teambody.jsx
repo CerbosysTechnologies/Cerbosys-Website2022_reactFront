@@ -14,6 +14,12 @@ import shubhamicon from "../../../../assets/innerpage/team/shubhamsir.png";
 import akashicon from "../../../../assets/innerpage/team/aakashsir.png"; 
 import prasangicon from "../../../../assets/innerpage/team/prasangsir.png";
 import manwomanicon from "../../../../assets/innerpage/team/man_woman.png";
+import rajniicon from "../../../../assets/innerpage/team/rajnimam.png";
+import prashanticon from "../../../../assets/innerpage/team/prasant.png";
+import avtarmanblueicon from "../../../../assets/innerpage/team/avtarmanblue.png";
+import avtarmangreenicon from "../../../../assets/innerpage/team/avtarmangreen.png";
+import avtarwomenblueicon from "../../../../assets/innerpage/team/avtarwomenblue.png";
+import avtarwomengreenicon from "../../../../assets/innerpage/team/avtarwomengreen.png";
 
 const Teambody = () => {
   return (
@@ -55,47 +61,45 @@ const Teambody = () => {
               alt="Ankit Goyel"
               className="md:w-72 md:h-72 w-56 h-56 "
             />
-            <p className="font-heading md:text-lg text-sm text-center mt-6">              
-              <br></br> Hi, this is Ankit Goyel, CEO and Managing Director
+            <p className="font-heading md:text-lg text-sm text-center mt-4">              
+              Hi, this is Ankit Goyel
+              <br></br> Founder and Managing Director
               <br></br>
-              <br></br>
-              <i>“Let’s give your business a human touch online”</i>
+              <i className="text-Primary">“Let’s give your business a human touch online”</i>
             </p>
           </div>
 
           {/* First Grid Ends */}
 
           {/* Second Grid */}
-          <div className="grid md:grid-cols-2 mt-8">
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
+          <div className="grid md:grid-cols-2 md:mt-8">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <img
                 src={vineeticon}
                 alt="Vineet Goyel"
                 className="md:w-72 md:h-72 w-56 h-56"
               />
 
-              <p className="font-heading md:text-lg text-sm text-center mt-10">                
+              <p className="font-heading md:text-lg text-sm text-center mt-6">                                
+                Hello, I am Vineet Goyel 
+                <br></br>Director of Technology                
                 <br></br>
-                Hello, I am Vineet Goyel, Director of Technology
-                <br></br>
-                <br></br>
-                <i>“Let’s innovate, connect and inspire” </i>
+                <i className="text-Primary">“Let’s innovate, connect and inspire” </i>
               </p>
             </div>
 
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <img
                 src={nidhiicon}
                 alt="Nidhi Goyel"
                 className="md:w-72 md:h-72 w-56 h-56"
               />
 
-              <p className="font-heading md:text-lg text-sm text-center mt-10">
-                <br></br>
-                Hi, I am Nidhi Garg Goyel Director of Finance
-                <br></br>
-                <br></br>
-                <i>“In the end it’s all about investments”</i>
+              <p className="font-heading md:text-lg text-sm text-center md:mt-4">                
+                Hi, I am Nidhi Garg Goyel 
+                <br></br>Director of Finance
+                <br></br>                
+                <i className="text-Green">“In the end it’s all about investments”</i>
               </p>
             </div>
           </div>
@@ -103,19 +107,18 @@ const Teambody = () => {
 
           {/* Third Grid */}
           <div className="grid md:grid-cols-2 mt-8">
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
             <img
                 src={jyotiicon}
                 alt="Jyoti Rajpal"
                 className="md:w-72 md:h-72 w-56 h-56"
               />
 
-              <p className="font-heading md:text-lg text-sm text-center mt-10">                
-                <br></br>
-                Hi, I am Jyoti Rajpal Senior Team Lead and Developer
-                <br></br>
-                <br></br>
-                <i>
+              <p className="font-heading md:text-lg text-sm text-center md:mt-4">                                
+                Hi, I am Jyoti Rajpal 
+                <br></br>Senior Team Lead and Developer
+                <br></br>                
+                <i className="text-Green">
                   “Let’s work together and grow together to achieve something
                   which is beyond limitations”
                 </i>
@@ -123,19 +126,19 @@ const Teambody = () => {
             
             </div>
 
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
             <img
                 src={sadaficon}
                 alt="Sadaf Armaani"
                 className="md:w-72 md:h-72 w-56 h-56"
               />
 
-              <p className="font-heading md:text-lg text-sm text-center mt-10">               
+              <p className="font-heading md:text-lg text-sm text-center md:mt-4">                               
+                Hello, I am Sadaf Armaani, 
+                <br></br>Administrative Specialist
                 <br></br>
-                Hello, I am Sadaf Armaani, Administrative Specialist
-                <br></br>
-                <br></br>
-                <i>
+                
+                <i className="text-Primary">
                   “The only natural resource that matters is - the human
                   resource”{" "}
                 </i>
@@ -146,35 +149,33 @@ const Teambody = () => {
 
           {/* Fourth Grid */}
           <div className="grid md:grid-cols-2 mt-8">
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <img
                 src={aarificon}
                 alt="Aarif Hussain"
                 className="md:w-72 md:h-72 w-56 h-56"
               />
 
-              <p className="font-heading md:text-lg text-sm text-center mt-10">                
-                <br></br>
-                Hi, I am Aarif Husain, Senior Designer
-                <br></br>
-                <br></br>
-                <i>“I can't find Adobe Xd enough for my design”</i>
+              <p className="font-heading md:text-lg text-sm text-center mt-6">                                
+                Hi, I am Aarif Husain
+                <br></br>Senior Designer
+                <br></br>           
+                <i className="text-Primary">“I can't find Adobe Xd enough for my design”</i>
               </p>
             </div>
 
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <img
                 src={kanchanicon}
                 alt="Kanchan Gupta"
                 className="md:w-72 md:h-72 w-56 h-56"
               />
 
-              <p className="font-heading md:text-lg text-sm text-center mt-10">                
-                <br></br>
-                Hello, I am Kanchan Gupta, Marketing Executive
-                <br></br>
-                <br></br>
-                <i>“Lead generation is the future of business generation”</i>
+              <p className="font-heading md:text-lg text-sm text-center mt-6">               
+                Hello, I am Kanchan Gupta
+                <br></br> Marketing Executive
+                <br></br>                
+                <i className="text-Green">“Lead generation is the future of business generation”</i>
               </p>
             </div>
           </div>
@@ -182,35 +183,33 @@ const Teambody = () => {
 
           {/* Fifth Grid */}
           <div className="grid md:grid-cols-2 mt-8">
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <img
                 src={omicon}
                 alt="Om Prakash"
                 className="md:w-72 md:h-72 w-56 h-56"
               />
 
-              <p className="font-heading md:text-lg text-sm text-center mt-10">                
-                <br></br>
-                Hey, I am Omprakash Nath, Digital marketer.
-                <br></br>
-                <br></br>
-                <i>“Ready to feed, the #trending you need”</i>
+              <p className="font-heading md:text-lg text-sm text-center mt-6">                                
+                Hey, I am Omprakash Nath 
+                <br></br>Digital marketer
+                <br></br>                
+                <i className="text-Green">“Ready to feed, the #trending you need”</i>
               </p>
             </div>
 
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
             <img
                 src={shewtaicon}
                 alt="Shweta Deshpande"
                 className="md:w-72 md:h-72 w-56 h-56"
               />
 
-              <p className="font-heading md:text-lg text-sm text-center mt-10">             
-                <br></br>
-                Hey, this is Shweta Deshpande, Senior Digital Marketer
-                <br></br>
-                <br></br>
-                <i>“Marketing is an art but promotion is a strategy”</i>
+              <p className="font-heading md:text-lg text-sm text-center mt-10">                             
+                Hey, this is Shweta Deshpande
+                <br></br> Senior Digital Marketer
+                <br></br>                
+                <i className="text-Primary">“Marketing is an art but promotion is a strategy”</i>
               </p>
               
             </div>
@@ -219,35 +218,33 @@ const Teambody = () => {
 
           {/* Sixth Grid */}
           <div className="grid md:grid-cols-2 mt-8">
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
             <img
                 src={akashicon}
                 alt="Akash Yadav"
                 className="md:w-72 md:h-72 w-56 h-56"
               />
 
-              <p className="font-heading md:text-lg text-sm text-center mt-10">              
-                <br></br>
-                Hey, I am Akash Yadav, Motion Graphics Designer
-                <br></br>
-                <br></br>
-                <i>“Let’s promote your brand with visual trends”</i>
+              <p className="font-heading md:text-lg text-sm text-center mt-6">                              
+                Hey, I am Akash Yadav
+                 Motion Graphics Designer
+                <br></br>                
+                <i className="text-Primary">“Let’s promote your brand with visual trends”</i>
               </p>
             </div>
 
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
             <img
                 src={laliticon}
                 alt="Lalit Yadav"
                 className="md:w-72 md:h-72 w-56 h-56"
               />
 
-              <p className="font-heading md:text-lg text-sm text-center mt-10">                
-                <br></br>
-                Hey, I am Lalit Yadav, Front end Developer
-                <br></br>
-                <br></br>
-                <i>“Don’t break the code, just write it”</i>
+              <p className="font-heading md:text-lg text-sm text-center md:mt-4">               
+                Hey, I am Lalit Yadav
+                <br></br> Front end Developer
+                <br></br>                
+                <i className="text-Green">“Don’t break the code, just write it”</i>
               </p>
             </div>
           </div>
@@ -255,36 +252,35 @@ const Teambody = () => {
 
           {/* Seventh Grid */}
           <div className="grid md:grid-cols-2 mt-8">
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
             <img
                 src={rishabhicon}
                 alt="Rishabh Shrivastava"
                 className="md:w-72 md:h-72 w-56 h-56"
               />
 
-              <p className="font-heading md:text-lg text-sm text-center mt-10">                
-                <br></br>
-                Hi, I am Rishabh Shrivastava, Graphic Designer
-                <br></br>
-                <br></br>
-                <i>“You believe we design, to make your business shine”</i>
+              <p className="font-heading md:text-lg text-sm text-center md:mt-4">                
+                Hi, I am Rishabh Shrivastava
+                <br></br>Graphic Designer
+                <br></br>                
+                <i className="text-Green">“You believe we design, to make your business shine”</i>
               </p>
             
             </div>
 
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
             <img
                 src={prasangicon}
                 alt="Prasang Jain"
                 className="md:w-72 md:h-72 w-56 h-56"
               />
 
-              <p className="font-heading md:text-lg text-sm text-center mt-10">              
+              <p className="font-heading md:text-lg text-sm text-center mt-6">                              
+                  Hey, I am Prasang Jain
+                <br></br> UI/UX and Graphic Designer
                 <br></br>
-                Hey, I am Prasang Jain, UI/UX and Graphic Designer
-                <br></br>
-                <br></br>
-                <i>“We design the best to stand out from rest”</i>
+                
+                <i className="text-Primary">“We design the best to stand out from rest”</i>
               </p>
             
             </div>
@@ -293,41 +289,125 @@ const Teambody = () => {
 
           {/* 8 Grid */}
           <div className="grid md:grid-cols-2 mt-8">
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
             <img
                 src={shubhamicon}
                 alt="Shubham Shrivastava"
                 className="md:w-72 md:h-72 w-56 h-56"
               />
 
-              <p className="font-heading md:text-lg text-sm text-center mt-10">             
-                <br></br>
-                Hello, I am Shubham Shrivastava, Content Writer
-                <br></br>
-                <br></br>
-                <i>“Content without emotion, is like a brand without promotion.”</i>
+              <p className="font-heading md:text-lg text-sm text-center mt-6">                             
+                Hello, I am Shubham Shrivastava
+                <br></br> Content Writer
+                <br></br>                
+                <i className="text-Primary">“Content without emotion, is like a brand without promotion.”</i>
               </p>
              
             </div>
 
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center mt-6">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <img
-                src={manwomanicon}
-                alt="Coming Soon"
+                src={prashanticon}
+                alt="Prashant Goutam"
                 className="md:w-72 md:h-72 w-56 h-56"
               />
 
-              <p className="font-heading md:text-lg text-sm text-center mt-10">
-              Many More....
-                {/* <br></br>
-                Hey, I am Akash Yadav, Motion Graphics Designer at Cerbosys.
-                <br></br>
-                <br></br>
-                <i>“Let’s promote your brand with visual trends”!</i> */}
+              <p className="font-heading md:text-lg text-sm text-center mt-6">
+               Hey, I am Prashant Gautam
+               <br></br> Hardware Specialist.
+              <br></br>
+              <i className="text-Green">“Press any KEY to continue…”</i>
               </p>
             </div>
           </div>
           {/* 8 Grid Ends */}
+
+
+          {/* 9 Grid */}
+          <div className="grid md:grid-cols-2 mt-8">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
+            <img
+                src={rajniicon}
+                alt="Rajni Gajabhiye"
+                className="md:w-72 md:h-72 w-56 h-56"
+              />
+
+              <p className="font-heading md:text-lg text-sm text-center mt-6">                             
+                Hi, I am Rajni Gajabhiye
+                <br></br> Tester
+                <br></br>                
+                <i className="text-Green">“There’s no test like production.”</i>
+              </p>
+             
+            </div>
+
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
+              <img
+                src={avtarmanblueicon}
+                alt="Anil Banwar"
+                className="md:w-72 md:h-72 w-56 h-56"
+              />
+
+              <p className="font-heading md:text-lg text-sm text-center mt-6">
+                Hey, I am Anil Banwar
+               <br></br> Senior FullStack Developer.
+              <br></br>
+              <i className="text-Primary">“Let’s write a code to solve your problem”</i>
+              </p>
+            </div>
+          </div>
+          {/* 9 Grid Ends */}
+
+           {/* 10 Grid */}
+           <div className="grid md:grid-cols-2 mt-8">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
+            <img
+                src={avtarmanblueicon}
+                alt="CS Sir"
+                className="md:w-72 md:h-72 w-56 h-56"
+              />
+
+              <p className="font-heading md:text-lg text-sm text-center mt-6">                             
+                Hey, I am CS Bairagi
+                <br></br> Senior .Net Developer
+                <br></br>                
+                <i className="text-Primary">“Code for the best and prepare for the worst”</i>
+              </p>
+             
+            </div>
+
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
+              <img
+                src={avtarmangreenicon}
+                alt="Mohit Nayak"
+                className="md:w-72 md:h-72 w-56 h-56"
+              />
+
+              <p className="font-heading md:text-lg text-sm text-center mt-6">
+              Hey, I am Mohit Nayak 
+               <br></br>Senior Php Developer.
+              <br></br>
+              <i className="text-Green">“Legacy is always sustainable”!</i>
+              </p>
+            </div>
+          </div>
+          {/* 10 Grid Ends */}
+
+           {/* 11 Grid */}
+           <div className="flex flex-wrap flex-col items-center justify-center md:mt-4">
+            <img
+              src={manwomanicon}
+              alt="Many More"
+              className="md:w-72 md:h-72 w-56 h-56 "
+            />
+            <p className="font-heading md:text-lg text-sm text-center mt-4">              
+            Hii, I am your new mate 😊               
+              <br></br>
+              <i className="text-Primary">“Looking forward to join you soon”</i>
+            </p>
+          </div>
+
+          {/* 11 Grid Ends */}
 
         </div>
       </div>

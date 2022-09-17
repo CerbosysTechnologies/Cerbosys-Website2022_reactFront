@@ -100,7 +100,7 @@ const DiversityBody = () => {
             {/* Image Section Ends*/}
           </div>
 
-          <div className="flex items-center justify-center md:mt-20">
+          <div className="flex items-center justify-center md:mt-20 mt-10 mx-6">
             <img
               src={gificon}
               alt="Gif Icon"
