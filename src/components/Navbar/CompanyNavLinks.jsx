@@ -18,7 +18,7 @@ const CompanyNavLinks = () => {
           {"Company"}
         </h1>
         <div className="absolute top-32 left-0 right-0 hidden group-hover:md:block hover:md:block transition duration-700 hover:duration-700">
-          <div className="bg-Primary flex flex-row items-center justify-center md:h-[300px] text-white mb-2">
+          <div className="bg-Primary flex flex-row items-center justify-center md:h-[330px] text-white mb-2">
             {/* First Row */}
             <div className="flex flex-wrap flex-col m-0 border-r-2 py-10">
               <div className="mt-[4px] ">
@@ -45,11 +45,11 @@ const CompanyNavLinks = () => {
                     {" "}
                     <Link to="/Diversity">Diversity @ Cerbosys</Link>
                   </li>
-                  {/* <li>
+                  <li>
                     {" "}
-                    <Link to="/CurrentOpening">Current Openings</Link>
+                    <Link to="/Testimonial">Testimonial</Link>
             
-                  </li> */}
+                  </li>
                 </ul>
               </div>
             </div>
@@ -84,7 +84,7 @@ const CompanyNavLinks = () => {
             {/* Button Row Ends*/}
 
             {/* Slogan Line */}
-            <div className="bottom-2 font-heading text-xl text-center absolute border-t-2 ">
+            <div className="bottom-3 font-heading text-xl text-center absolute border-t-2 ">
               WE CREATE WHAT YOU BELIEVE!!
             </div>
             {/* Slogan Ends */}
@@ -123,10 +123,10 @@ const CompanyNavLinks = () => {
                 {" "}
                 <Link to="/Diversity">Diversity @ Cerbosys</Link>
               </li>
-              {/* <li>
+              <li>
                 {" "}
-                <Link to="/CurrentOpening">Current Openings</Link>
-              </li> */}
+                <Link to="/Testimonial">Testimonial</Link>
+              </li>
             </ul>
           </div>
         </div>

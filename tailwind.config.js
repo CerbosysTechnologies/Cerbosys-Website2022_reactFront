@@ -28,7 +28,7 @@ module.exports = {
       OverviewBackgroundBody: "url('assets/innerpage/overview/overviewbackground.svg')",
       CurrentOpeningBackground: "url('assets/innerpage/currentopening/banner_image.png')",
       PerksBackground: "url('assets/innerpage/currentopening/perks_benefits.png')",
-      DiversityBackground: "url('assets/innerpage/diversity/banner_image.svg')",
+      DiversityBackground: "url('assets/innerpage/diversity/banner_image.png')",
       ContactUsBackgroud: "url('assets/contactus/banner_image.png')",
       ContactLeaf:"url('assets/contactus/backgroundleaf.png')",
       TrainingAndDevelopment:"url('assets/innerpage/traininganddevelopment/trainingbackground-min.png')",
@@ -36,6 +36,7 @@ module.exports = {
       LifeCerbosysBody:"url('assets/innerpage/lifecerbosys/dotsbackground.svg')",
       LifeCerbosys:"url('assets/innerpage/lifecerbosys/life@cerbosysheader-min.png')",
       TeamCerbosys:"url('assets/innerpage/team/meetourteamheader-min.png')",
+      TestimonialHeader:"url('assets/innerpage/testimonial/testimoniyalheader.svg')",
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],

@@ -16,6 +16,7 @@ import ContactUs from "./components/InnerPages/OtherPages/ContactUs/ContactUs";
 import TrainingAndDevelopment from "./components/InnerPages/Company/TrainingAndDevelopment/TrainingAndDevelopment";
 import LifeCerbosys from "./components/InnerPages/Company/LifeCerbosys/LifeCerbosys";
 import FreeQuote from "./components/Common/Component/FreeQuote";
+import Testimonial from "./components/InnerPages/Company/Testimonial/Testimonial";
 import { ScrollToTop } from "../src/components/Common/Component/ScrollToTop";
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/TrainingAndDevelopment" element={<TrainingAndDevelopment />} />
         <Route path="/LifeCerbosys" element={<LifeCerbosys />} />
+        <Route path="/Testimonial" element={<Testimonial />} />
       </Routes>
       <ScrollToTop />
     </>
