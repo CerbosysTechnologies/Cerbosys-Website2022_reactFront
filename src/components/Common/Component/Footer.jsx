@@ -149,14 +149,14 @@ const Footer = () => {
                 className="mr-3"
               ></img>
               <span className="font-subheading text-sm text-white">
-                15-16, Lakshya Vihar,Vaibhav Nagar, Indore (MP) 452016
+                15-16, Lakshya Vihar,kanadia Road, Indore (MP) 452016
               </span>
             </div>
 
             <div className="flex flex-row mb-5">
               <img src={callicon} alt="Call Icon" className="mr-3"></img>
               <span className="font-subheading text-sm text-white">
-                07314993444
+                0731-499-34-44
               </span>
             </div>
 
@@ -167,7 +167,7 @@ const Footer = () => {
                 className="mr-3"
               ></img>
               <span className="font-subheading text-sm text-white">
-                07314993444
+              999-999-2892, 883-969-7183
               </span>
             </div>
 

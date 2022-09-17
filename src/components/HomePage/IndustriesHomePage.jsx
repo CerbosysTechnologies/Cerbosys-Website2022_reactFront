@@ -34,9 +34,11 @@ const IndustriesHomePage = () => {
 
 
 
-            <div className="font-heading italic text-white md:text-2xl text-lg mt-10 ">
+            <div className="font-heading italic text-white md:text-2xl text-lg mt-10">
             Connect with US if you are looking to grow your business.
             </div>
+
+    
           </div>
           {/* Content Part */}
           {/* Icons Starts */}

@@ -13,7 +13,7 @@ const ClientLogoPage = () => {
             </h1>
 
             <h2 className="font-heading md:text-3xl text-lg text-gray-800 mb-5 w-64">
-              Trusted by over 200+ clients
+              Trusted by 150+ clients
             </h2>
             <div className="text-black font-content text-lg md:text-lg md:text-left md:items-center md:w-[500px] whitespace-pre-wrap">
               With more than four years of working experience, Cerbosys has
@@ -22,7 +22,7 @@ const ClientLogoPage = () => {
               <br></br>
               <br></br>
               Our team of multi-disciplinary designers and developers is ready to
-              make your vision a reality -- <strong>and we are trusted by over 200+
+              make your vision a reality -- <strong>and we are trusted by over 150
               clients.</strong>
               <br></br>
               <br></br>

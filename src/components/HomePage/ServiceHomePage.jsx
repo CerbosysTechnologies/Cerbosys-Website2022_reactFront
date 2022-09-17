@@ -95,7 +95,7 @@ const ServiceHomePage = () => {
                   className="w-[70px] h-[70px] mb-2 scale-100 hover:scale-75 ease-out duration-500"
                 />
 
-                <h1 className="font-subheading text-left text-xl w-1/2">
+                <h1 className="font-subheading text-left text-xl w-1/3">
                   Digital Marketing
                 </h1>
                 <p className="font-content text-justify text-sm">
@@ -157,7 +157,7 @@ const ServiceHomePage = () => {
                 />
 
                 <h1 className="font-subheading text-left text-xl w-1/2">
-                  Brand And Packaging
+                  Branding And Packaging
                 </h1>
                 <p className="font-content text-justify text-sm">
                   We serve your product from branding to packaging, that is,
@@ -190,7 +190,7 @@ const ServiceHomePage = () => {
             </Bounce>
 
             <div className="col-span-2">
-              <img src={quoteicon} className="" alt="Quote"></img>
+              <img src={quoteicon} className="md:mx-16 md:w-[40rem] md:h-96" alt="Quote"></img>
             </div>
           </div>
         </div>
