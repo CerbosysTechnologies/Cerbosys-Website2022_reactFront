@@ -1,6 +1,6 @@
 import React from "react";
 import badal from "../../../../assets/innerpage/overview/badal.svg";
-import overviewtrack from "../../../../assets/innerpage/overview/overviweroad.svg";
+import overviewtrack from "../../../../assets/innerpage/overview/overviewroad.svg";
 
 const OverviewBody = () => {
   return (
@@ -17,7 +17,7 @@ const OverviewBody = () => {
 
         {/* Track */}
           <div className="">
-            <img src={overviewtrack} alt="Overview Track" className="w-10/12" />
+            <img src={overviewtrack} alt="Overview Track" className="md:w-10/12 w-11/12" />
           </div>
         {/* Track Ends */}
       </div>

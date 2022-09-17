@@ -28,7 +28,7 @@ module.exports = {
       OverviewBackgroundBody: "url('assets/innerpage/overview/overviewbackground.svg')",
       CurrentOpeningBackground: "url('assets/innerpage/currentopening/banner_image.png')",
       PerksBackground: "url('assets/innerpage/currentopening/perks_benefits.png')",
-      DiversityBackground: "url('assets/innerpage/diversity/banner_image.jpg')",
+      DiversityBackground: "url('assets/innerpage/diversity/banner_image.svg')",
       ContactUsBackgroud: "url('assets/contactus/banner_image.png')",
       ContactLeaf:"url('assets/contactus/backgroundleaf.png')",
       TrainingAndDevelopment:"url('assets/innerpage/traininganddevelopment/trainingbackground-min.png')",
