@@ -6,6 +6,7 @@ import brandpackingicon from "../../assets/services/branding_packaging.svg";
 import digitalmarketingicon from "../../assets/services/digital_marketing.svg";
 import leadrgenerationicon from "../../assets/services/lead_generation.svg";
 import uxdevelopmenticon from "../../assets/services/ux_development.svg";
+import quoteicon from "../../assets/services/quote.svg";
 import RubberBand from "react-reveal/RubberBand";
 import Slide from "react-reveal/Slide";
 import Bounce from "react-reveal/Bounce";
@@ -187,6 +188,10 @@ const ServiceHomePage = () => {
                 </p>
               </div>
             </Bounce>
+
+            <div className="col-span-2">
+              <img src={quoteicon} className="" alt="Quote"></img>
+            </div>
           </div>
         </div>
         {/* Header Part Finish*/}

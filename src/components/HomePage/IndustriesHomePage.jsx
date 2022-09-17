@@ -22,14 +22,20 @@ const IndustriesHomePage = () => {
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
           {/* Content Part */}
           <div className="flex flex-col text-justify justify-center px-16">
-            <h1 className="text-white font-heading md:text-xl text-lg ">
+            <h1 className="text-white font-heading md:text-3xl text-lg mb-3">
               Our Industries
             </h1>
-            <div className="text-white font-content text-sm md:text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum molestiae delectus culpa hic assumenda, voluptate
-              reprehenderit dolore autem cum ullam sed odit perspiciatis.
-              Doloribus quos velit, eveniet ex deserunt fuga?
+            <div className="text-white font-content text-xl md:text-lg">
+              Cerbosys has successfully managed to win the trust and hold hands
+              with clients in several emerging business sectors across the
+              country which include: education, agriculture, transport &
+              logistics, healthcare, finance, e-commerce, and many more.
+            </div>
+
+
+
+            <div className="font-heading italic text-white md:text-2xl text-lg mt-10 ">
+            Connect with US if you are looking to grow your business.
             </div>
           </div>
           {/* Content Part */}
