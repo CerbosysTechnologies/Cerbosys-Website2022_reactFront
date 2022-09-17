@@ -3,6 +3,7 @@ import { SERVER } from "../../../ServerUrls";
 import axios from "axios";
 
 const Contact = () => {
+  let a = 1=="contect" && 0=="Quote"
   //hooks
   const [username, setUsername] = useState("");
   const [errorsname, setErrorsName] = useState("");
@@ -17,6 +18,8 @@ const Contact = () => {
   const [errorscon, setErrorsCon] = useState(false);
   const [errorscontact, setErrorsContact] = useState("");
   const [serviceId, setServiceId] = useState("");
+  console.log(serviceId);
+
   const [hearaboutus, setHearaboutus] = useState("");
   const [message, setMessage] = useState("");
   const [serviceitems, setServiceItems] = React.useState([]);
@@ -24,9 +27,11 @@ const Contact = () => {
   const [techimg, setTechImg] = useState("");
   const [showImageSec, setShowImageSection] = useState(true);
 
-  //   const handlerChange =(event)=>{
-  //     props.onChangeSelected(event.target.value)
-  //   }
+  const handlerChange = (event) => {
+    // props.onChangeSelected(event.target.value)
+    setServiceId(event.target.value);
+    // console.log(serviceId);
+  };
 
   const getAllServices = () => {
     axios
@@ -73,23 +78,25 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const insertData = {
-      username: username,
+      fullname: username,
       email: email,
-      subject: subject,
+      // subject: subject,
       contact_number: contactNumber,
       myservice_id: serviceId,
-      hearabout_us: "",
       message: message,
+      obtained_from: "contact",
     };
-
+    console.log("befor", insertData);
     axios
-      .post(SERVER + "/insertEnquiry", insertData, {
+      .post(SERVER + "/insertQuoteEnquiry", insertData, {
         headers: {
           "Content-Type": "application/json",
         },
       })
       .then((res) => {
         console.log("Insert Enquiry Res", res);
+        console.log("afterrun api", res.data);
+        window.location.reload();
       });
   };
   return (
@@ -136,7 +143,7 @@ const Contact = () => {
           {/* Email Div Ends*/}
 
           {/* Subject Div */}
-          <div className="mb-6 md:w-full group">
+          {/* <div className="mb-6 md:w-full group">
             <input
               type="text"
               name="subject"
@@ -151,7 +158,7 @@ const Contact = () => {
             {errorsEml && (
               <div className="text-left text-red-500">{errorsEmail_s}</div>
             )}
-          </div>
+          </div> */}
           {/* Subject Div Ends*/}
 
           {/* Contact Number Div */}
@@ -181,9 +188,13 @@ const Contact = () => {
             <select
               className="dropdown text-gray-400 font-heading  text-sm flex flex-wrap
                     border-2 rounded-lg px-2 py-2 border-gray-400"
+              onChange={(e) => {
+                handlerChange(e);
+                // hadalChnageID();
+              }}
             >
               {serviceitems.map((item) => (
-                <option key={item.service_name} value={item.service_image}>
+                <option key={item.service_name} value={item.myservices_id}>
                   {item.service_name}
                 </option>
               ))}

@@ -28,7 +28,7 @@ const CustomerRelationHomePage = () => {
                   src={clientinteractionicon}
                   alt="Client Interaction Icon"
                   className="md:w-[320px] md:h-[320px] 
-                w-[160px] h-[620px] "
+                w-[160px] h-[620px] scale-100 hover:scale-125 ease-in duration-500 "
                 ></img>
                 {/* <p className="text-black font-heading md:text-[10px] absolute md:top-32 md:mt-2 md:left-12 md:w-48 md:h-16 text-center
                   top-[18rem] w-36 mt-2 text-[7px] left-[1.8rem] ">
@@ -41,7 +41,7 @@ const CustomerRelationHomePage = () => {
                   src={consolidationicon}
                   alt="Consolidation Icon"
                   className="md:w-[320px] md:h-[320px] 
-                w-[160px] h-[620px]"
+                w-[160px] h-[620px] scale-100 hover:scale-125 ease-in duration-500"
                 ></img>
               </div>
 
@@ -50,7 +50,7 @@ const CustomerRelationHomePage = () => {
                   src={developmenticon}
                   alt="Development Icon"
                   className="md:w-[320px] md:h-[320px] 
-                w-[160px] h-[620px]"
+                w-[160px] h-[620px] scale-100 hover:scale-125 ease-in duration-500"
                 ></img>
                 {/* <p className="text-black font-heading md:text-[10px] absolute md:top-[29rem] md:mt-2 md:left-12 md:w-48 md:h-16 text-center
                   top-[35rem] w-28 mt-2 text-[8px] left-[2.5rem]">
@@ -63,7 +63,7 @@ const CustomerRelationHomePage = () => {
                   src={deliverablesicon}
                   alt="Deliverables Icon"
                   className="md:w-[320px] md:h-[320px] 
-                w-[160px] h-[620px]"
+                w-[160px] h-[620px] scale-100 hover:scale-125 ease-in duration-500"
                 ></img>
                 {/* <p className="text-black font-heading md:text-[10px] absolute md:top-[29rem] md:mt-2 md:left-96 md:w-48 md:h-16 text-center
                   top-[35rem] w-32 mt-2 text-[8px] left-[14rem]">

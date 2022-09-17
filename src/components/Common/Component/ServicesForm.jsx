@@ -15,9 +15,7 @@ const ServicesForm = (props) => {
   const [errorscontact, setErrorsContact] = useState("");
   console.log("contactNumber", contactNumber);
   const [serviceId, setServiceId] = useState("");
-  console.log("serviceId", serviceId);
   const [hearaboutus, setHearaboutus] = useState("");
-  const [Heard, setHeard] = useState("");
   const [message, setMessage] = useState("");
   const [serviceitems, setServiceItems] = React.useState([]);
   const [myservicesid, setmyservicesid] = useState([]);
@@ -36,15 +34,10 @@ const ServicesForm = (props) => {
 
   const handlerChange = (event) => {
     props.onChangeSelected(event.target.value);
-    // setServiceId(event.target.);
-
-    // hadalChnageID();
+    setServiceId(event.target.name);
+    console.log(serviceId);
   };
-  // const hadalChnageID = (item) => {
-  //   console.log(item);
-  //   setServiceId(item.target.myservices_id);
-  //   // console.log(serviceId);
-  // };
+  const hadalChnageID = (e) => {};
 
   const getAllServices = () => {
     axios
@@ -80,7 +73,7 @@ const ServicesForm = (props) => {
       subject: subject,
       contact_number: contactNumber,
       myservice_id: serviceId,
-      hearabout_us: Heard,
+      hearabout_us: hearaboutus,
       message: message,
     };
     console.log("befor", insertData);
@@ -102,8 +95,7 @@ const ServicesForm = (props) => {
     // setHearaboutus({ ...hearaboutus });
     setHearaboutus([...hearaboutus, e.target.value]);
     // setHearaboutus(...hearaboutus, [e.target.value]);
-    setHeard([...hearaboutus]);
-    console.log(...hearaboutus);
+    console.log(hearaboutus);
     // let hear = [];
     // hear.push(e);
     // console.log(hear);
@@ -116,7 +108,7 @@ const ServicesForm = (props) => {
     //   return ([...prevTask, uniqueNames]);
     // });
   };
-  // Form Validation
+
   const onchangeFullName = (e) => {
     const username = e.target.value.replace(/[^a-z]/gi, " ");
     setUsername(username);
@@ -230,6 +222,7 @@ const ServicesForm = (props) => {
                     border-2 rounded-lg px-2 py-2 border-gray-400"
               onChange={(e) => {
                 handlerChange(e);
+                // hadalChnageID();
               }}
             >
               {serviceitems.map((item) => (
@@ -243,6 +236,8 @@ const ServicesForm = (props) => {
                   //   console.log(item);
                   // }}
                 >
+                  {/* {item.myservices_id} */}
+
                   {item.service_name}
                 </option>
               ))}

@@ -9,10 +9,12 @@ import ClientLogoPage from "./ClientLogoPage";
 import { Random } from "react-animated-text";
 import TypeWriter from "react-typewriter-effect";
 import MovingComponent from "react-moving-text";
+
 const Hero = () => {
   {
     /* animation for buthhon logic start */
   }
+
   const AnimationsForChaining = ["swing"];
   const [animationIndex, setAnimationIndex] = useState(0);
   const [animationType, setAnimationType] = useState(AnimationsForChaining[0]);
@@ -62,7 +64,7 @@ const Hero = () => {
                   "SATISFACTION",
                 ]}
                 multiTextDelay={5000}
-                typeSpeed={500}
+                typeSpeed={80}
               ></TypeWriter>
             </span>
           </p>
@@ -81,7 +83,7 @@ const Hero = () => {
             duration="20000ms"
             // timing="linear"
             fillMode="forwards"
-            iteration={20}
+            iteration={100}
           >
             <button
               className="bg-Green rounded-full font-heading md:px-5 md:py-2 md:text-lg
@@ -101,6 +103,7 @@ const Hero = () => {
               effectChange={0.4}
               effectDuration={0.5}
             />
+
             {/* </div> */}
             {/* Let's collaborate to accelerate your business growth with us!! */}
           </p>

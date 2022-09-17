@@ -8,7 +8,7 @@ import locationicon from "../../../assets/footer/Location_icon.svg";
 import twittericon from "../../../assets/footer/Twittter.svg";
 import whatsappicon from "../../../assets/footer/Whatsapp_icon.svg";
 import youtubeicon from "../../../assets/footer/youtube.svg";
-import footerlogo from "../../../assets/footer/logo_white.svg";
+import footerlogo from "../../../assets/footer/Logo_in_footer.svg";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -149,14 +149,14 @@ const Footer = () => {
                 className="mr-3"
               ></img>
               <span className="font-subheading text-sm text-white">
-                15-16, Kanadia Road,Vaibhav Nagar, Indore (MP) 452016
+                15-16, Lakshya Vihar,Vaibhav Nagar, Indore (MP) 452016
               </span>
             </div>
 
             <div className="flex flex-row mb-5">
               <img src={callicon} alt="Call Icon" className="mr-3"></img>
               <span className="font-subheading text-sm text-white">
-                0731-499-34-44
+                07314993444
               </span>
             </div>
 
@@ -167,7 +167,7 @@ const Footer = () => {
                 className="mr-3"
               ></img>
               <span className="font-subheading text-sm text-white">
-                999-999-2892, 883-969-7183
+                07314993444
               </span>
             </div>
 
@@ -181,55 +181,35 @@ const Footer = () => {
           {/* Contact Us Div Ends*/}
 
           {/* Social Icons Div */}
-
-          <div className="flex flex-row items-center justify-center mt-20 gap-2 mb-2">
-            <a href="https://www.facebook.com/cerbosystech/" target="_blank">
-              <img
-                src={fbcon}
-                alt="Facebook Icon"
-                className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"
-              />
-            </a>
-            <a href="https://www.instagram.com/cerbosys/?hl=en" target="_blank">
-              <img
-                src={instagramicon}
-                alt="Facebook Icon"
-                className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"
-              />
-            </a>
-
-            <a href="https://twitter.com/CerbosysTech" target="_blank">
-              <img
-                src={twittericon}
-                alt="Twitter Icon"
-                className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"
-              />
-            </a>
-
-            <a href="https://in.linkedin.com/company/cerbosys" target="_blank">
-              <img
-                src={linkedinicon}
-                alt="LinkedIn Icon"
-                className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"
-              />
-            </a>
-            <a
-              href="https://www.youtube.com/channel/UCUXbH7ByTAyE0D8ZgAL5Muw?app=desktop"
-              target="_blank"
-            >
-              <img
-                src={youtubeicon}
-                alt="Youtube Icon"
-                className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"
-              />
-            </a>
+          <div className="flex flex-row items-center justify-center mt-20 gap-2">
+            <img
+              src={fbcon}
+              alt="Facebook Icon"
+              className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
+            />
+            <img
+              src={instagramicon}
+              alt="Facebook Icon"
+              className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
+            />
+            <img
+              src={twittericon}
+              alt="Facebook Icon"
+              className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
+            />
+            <img
+              src={linkedinicon}
+              alt="Facebook Icon"
+              className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
+            />
+            <img
+              src={youtubeicon}
+              alt="Facebook Icon"
+              className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
+            />
           </div>
 
           {/* Social Icons Div Ends*/}
-          <hr></hr>
-          <div className="flex flex-row items-center justify-center mt-2 gap-2 text-white font-heading text-sm text-center">
-            &copy;2022 Cerbosys Technologies Inc. <br></br>All Rights Reserved.
-          </div>
         </div>
         {/* Max Width Div Ends */}
       </div>
