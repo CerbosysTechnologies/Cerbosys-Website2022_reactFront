@@ -9,6 +9,7 @@ import ClientLogoPage from "./ClientLogoPage";
 import { Random } from "react-animated-text";
 import TypeWriter from "react-typewriter-effect";
 import MovingComponent from "react-moving-text";
+import Recommendations from "./Recommendations";
 
 const Hero = () => {
   {
@@ -120,6 +121,7 @@ const Hero = () => {
       <CustomerRelationHomePage />
       <ClientLogoPage />
       <TechnologyHomePage />
+      <Recommendations />
       <Footer />
     </>
   );
