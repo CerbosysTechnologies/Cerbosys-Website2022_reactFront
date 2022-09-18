@@ -22,7 +22,7 @@ const Footer = () => {
               <img
                 src={footerlogo}
                 alt="Logo Footer"
-                className="w-[250px] h-[200px]"
+                className="w-[350px] h-[200px]"
               />
               <h1 className="font-heading  text-sm md:text-lg text-white">
                 About Us
@@ -149,14 +149,14 @@ const Footer = () => {
                 className="mr-3"
               ></img>
               <span className="font-subheading text-sm text-white">
-                15-16, Lakshya Vihar,kanadia Road, Indore (MP) 452016
+                15-16, Lakshya Vihar,kanadia Road, Indore, M.P.-452016
               </span>
             </div>
 
             <div className="flex flex-row mb-5">
               <img src={callicon} alt="Call Icon" className="mr-3"></img>
               <span className="font-subheading text-sm text-white">
-                0731-499-34-44
+                0731-499-3-444
               </span>
             </div>
 
@@ -167,7 +167,7 @@ const Footer = () => {
                 className="mr-3"
               ></img>
               <span className="font-subheading text-sm text-white">
-              999-999-2892, 883-969-7183
+              999-999-2892, 88-3969-7183
               </span>
             </div>
 

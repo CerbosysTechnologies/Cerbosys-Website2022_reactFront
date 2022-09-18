@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import clientinteractionicon from "../../assets/customer/client_interaction.svg";
 import consolidationicon from "../../assets/customer/consolidation.svg";
@@ -22,7 +23,7 @@ const CustomerRelationHomePage = () => {
           {/* Main Container For Image and Content */}
           <div className="grid md:grid-cols-2">
             {/* Image Section */}
-            <div className="mx-auto md:my-6 grid md:grid-cols-2 md:gap-4 grid-cols-2 gap-2 relative mt-[-10rem]">
+            <div className="mx-auto md:my-6 grid md:grid-cols-2 md:gap-4 grid-cols-2 gap-6 relative mt-[-10rem]">
               <div>
                 <img
                   src={clientinteractionicon}
@@ -45,7 +46,7 @@ const CustomerRelationHomePage = () => {
                 ></img>
               </div>
 
-              <div className="md:mt-0 -mt-[22rem]">
+              <div className="md:mt-0 -mt-[26rem]">
                 <img
                   src={developmenticon}
                   alt="Development Icon"
@@ -58,7 +59,7 @@ const CustomerRelationHomePage = () => {
                 </p> */}
               </div>
 
-              <div className="md:mt-0 -mt-[22rem]">
+              <div className="md:mt-0 -mt-[26rem]">
                 <img
                   src={deliverablesicon}
                   alt="Deliverables Icon"
@@ -74,11 +75,11 @@ const CustomerRelationHomePage = () => {
             {/* Image Section Ends */}
 
             {/* Content Section */}
-            <div className="mx-auto flex flex-col justify-center ">
-              <h1 className="text-white font-heading md:text-xl text-sm align-top mb-8 md:-mt-[5rem] -mt-[10rem]">
+            <div className="mx-auto flex flex-col justify-center  ">
+              <h1 className="text-white font-heading md:text-2xl text-lg align-top mb-8 md:-mt-[5rem] -mt-[10rem]">
                 Our Customer On-Boarding Process
               </h1>
-              <p className="text-white font-content md:text-lg  text-xs mb-10 text-justify">
+              <p className="text-white font-content md:text-lg  text-xl mb-10 text-justify md:px-0 px-4">
                 The customer onboarding process is undoubtedly the most crucial
                 stage of the customer lifecycle, and since the products from
                 Cerbosys are designed with simplicity and ease of use in mind.
@@ -86,18 +87,20 @@ const CustomerRelationHomePage = () => {
                 what industry you're in.
               </p>
 
-              <p className="text-white bold italic font-heading md:text-lg text-xs text-justify md:mb-28 mb-10">
+              <p className="text-white bold italic font-heading md:text-xl text-lg text-justify md:mb-28 mb-10 px-4">
                 As innovative and creative digital creators, we have broken down
                 this typical process into four major steps that involve:
               </p>
 
               <div>
+                <Link to="/ContactUs">
                 <span
                   className="bg-Primary rounded-full font-heading md:py-3 md:px-3 md:text-lg
-                  text-[9px] px-1 py-1 text-white "
+                  text-[12px] px-2 py-2 text-white "
                 >
                   Let's Work Together
                 </span>
+                </Link>
               </div>
             </div>
 

@@ -37,6 +37,8 @@ module.exports = {
       LifeCerbosys:"url('assets/innerpage/lifecerbosys/life@cerbosysheader-min.png')",
       TeamCerbosys:"url('assets/innerpage/team/meetourteamheader-min.png')",
       TestimonialHeader:"url('assets/innerpage/testimonial/testimoniyalheader.svg')",
+      AgricultureHeader:"url('assets/innerpage/agriculture/agricultureheader.svg')",
+      BankingHeader:"url('assets/innerpage/banking/bankingheader.svg')",
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],

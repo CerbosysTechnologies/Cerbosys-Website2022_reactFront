@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const IndustryNavLinks = () => {
   const [heading, setHeading] = useState("Industries");
@@ -61,12 +62,14 @@ const IndustryNavLinks = () => {
 
             {/* Third Row */}
             <div>
+            <Link to="/ContactUs">
               <button
                 className="bg-Green rounded-full 
             font-heading px-6 py-3 text-white uppercase "
               >
                 Get A Free Estimate
               </button>
+              </Link>
             </div>
             {/* Third Row Ends*/}
 

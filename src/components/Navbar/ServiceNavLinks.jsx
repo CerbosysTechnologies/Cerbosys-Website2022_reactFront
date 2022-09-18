@@ -126,12 +126,14 @@ const NavLinks = () => {
 
                 {/* Fourth Row */}
                 <div>
+                  <Link to="/ContactUs">
                   <button
                     className="bg-Green rounded-full 
             font-heading px-6 py-3 text-white uppercase "
                   >
                     Get Free Estimation
                   </button>
+                  </Link>
                 </div>
                 {/* Fourth Row Ends*/}
 

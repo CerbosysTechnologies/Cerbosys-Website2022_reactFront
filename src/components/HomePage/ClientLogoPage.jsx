@@ -7,7 +7,7 @@ const ClientLogoPage = () => {
       <div className="bg-[#FAF6F5] mx-auto w-full h-full py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto md:grid md:grid-cols-2">
           {/* Content Part */}
-          <div className="flex flex-col text-justify justify-center px-16 ">
+          <div className="flex flex-col text-justify justify-center md:px-16 px-4">
             <h1 className="text-gray-500 font-heading md:text-xl text-lg uppercase mb-5">
               Our Clients
             </h1>
@@ -15,7 +15,7 @@ const ClientLogoPage = () => {
             <h2 className="font-heading md:text-3xl text-lg text-gray-800 mb-5 w-64">
               Trusted by 150+ clients
             </h2>
-            <div className="text-black font-content text-lg md:text-lg md:text-left md:items-center md:w-[500px] whitespace-pre-wrap">
+            <div className="text-black font-content text-lg md:text-xl md:text-left md:items-center md:w-[500px] md:whitespace-pre-wrap ">
               With more than four years of working experience, Cerbosys has
               successfully managed to handle several clients by providing them
               360 degrees in IT and business service solutions.

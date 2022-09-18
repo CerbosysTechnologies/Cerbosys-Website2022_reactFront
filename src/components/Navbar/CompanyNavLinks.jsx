@@ -48,7 +48,6 @@ const CompanyNavLinks = () => {
                   <li>
                     {" "}
                     <Link to="/Testimonial">Testimonial</Link>
-            
                   </li>
                 </ul>
               </div>
@@ -74,12 +73,14 @@ const CompanyNavLinks = () => {
 
             {/* Button Row */}
             <div>
-              <button
-                className="bg-Green rounded-full 
+              <Link to="/ContactUs">
+                <button
+                  className="bg-Green rounded-full 
             font-heading px-6 py-3 text-white uppercase "
-              >
-                Get Free Estimation
-              </button>
+                >
+                  Get Free Estimation
+                </button>
+              </Link>
             </div>
             {/* Button Row Ends*/}
 
@@ -114,7 +115,10 @@ const CompanyNavLinks = () => {
                   Training and Development{" "}
                 </Link>
               </li>
-              <li> <Link to="/Team">Team</Link></li>  
+              <li>
+                {" "}
+                <Link to="/Team">Team</Link>
+              </li>
               <li>
                 {" "}
                 <Link to="/LifeCerbosys">Life @ Cerbosys</Link>
