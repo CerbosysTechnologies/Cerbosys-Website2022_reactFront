@@ -10,6 +10,7 @@ import { Random } from "react-animated-text";
 import TypeWriter from "react-typewriter-effect";
 import MovingComponent from "react-moving-text";
 import Recommendations from "./Recommendations";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   {
@@ -86,12 +87,14 @@ const Hero = () => {
             fillMode="forwards"
             iteration={100}
           >
+            <Link to="/ContactUs">
             <button
               className="bg-Green rounded-full font-heading md:px-5 md:py-2 md:text-lg
               text-white uppercase px-3 py-1.5 text-xs mb-6 md:mt-10"
             >
               Click to Connect
             </button>
+            </Link>
           </MovingComponent>
           {/* animation for buthhon end */}
 
