@@ -23,7 +23,7 @@ const BankingBody = () => {
 
             {/* Side */}
             <div className="flex flex-wrap flex-col ">
-              <h1 className="text-Green md:text-4xl text-center mb-6">
+              <h1 className="text-Green md:text-4xl text-center mb-6 text-xl mt-4 font-heading md:w-96 items-center justify-center mx-10">
                 Banking And Finance In Business
               </h1>
               <img

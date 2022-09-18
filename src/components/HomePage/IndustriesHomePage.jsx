@@ -14,6 +14,7 @@ import agricultureicon from "../../assets/industry/agriculture.svg";
 import Flip from "react-reveal/Flip";
 import Roll from "react-reveal/Roll";
 import LightSpeed from "react-reveal/LightSpeed";
+import { Link } from "react-router-dom";
 
 const IndustriesHomePage = () => {
   return (
@@ -28,8 +29,15 @@ const IndustriesHomePage = () => {
             <div className="text-white font-content text-xl md:text-xl text-justify">
               Cerbosys has successfully managed to win the trust and hold hands
               with clients in several emerging business sectors across the
-              country which include: education, agriculture, transport and
-              logistics, healthcare, finance, e-commerce, and many more.
+              country which include:-
+              <ul className="font-content md:text-xl text-xl list-disc">
+                <li>Agriculture</li>
+                <li>Ecommerce And Retail</li>
+                <li>Healthcare And Life Science</li>
+                <li>Banking And Finance</li>
+                <li>Mining</li>
+              </ul>
+              and many more.
             </div>
 
 
@@ -45,49 +53,59 @@ const IndustriesHomePage = () => {
           <div className="mx-auto my-4 grid md:grid-cols-4 md:gap-4 grid-cols-2 gap-10">
             <Flip duration={4000}>
               <div>
+                <Link to="/Agriculture">
                 <img
                   src={agricultureicon}
                   alt="Agriculture Icon"
                   className="md:w-[170px] md:h-[170px] 
                 w-[120px] h-[120px]"
                 ></img>
+                </Link>
               </div>
 
               <div>
+              <Link to="/Ecommerce">
                 <img
                   src={ecommerceicon}
                   alt="E-commerce Icon"
                   className="md:w-[170px] md:h-[170px] 
                 w-[120px] h-[120px]"
                 ></img>
+                </Link>
               </div>
 
               <div>
+              <Link to="/HealthCare">
                 <img
                   src={healthcareicon}
                   alt="Healthcare Icon"
                   className="md:w-[170px] md:h-[170px] 
                 w-[120px] h-[120px]"
                 ></img>
+                </Link>
               </div>
 
               <div>
+              <Link to="/Banking">
                 <img
                   src={bankingicon}
                   alt="Banking Icon"
                   className="md:w-[170px] md:h-[170px] 
                 w-[120px] h-[120px]"
                 ></img>
+                </Link>
               </div>
             </Flip>
             <LightSpeed left duration={4000}>
               <div>
+              <Link to="/Mining">
                 <img
                   src={miningicon}
                   alt="Mining Icon"
                   className="md:w-[170px] md:h-[170px] 
                 w-[120px] h-[120px]"
                 ></img>
+                </Link>
               </div>
 
               <div>
@@ -100,12 +118,14 @@ const IndustriesHomePage = () => {
               </div>
 
               <div>
+              <Link to="/Transportation">
                 <img
                   src={transportationicon}
                   alt="Transportation Icon"
                   className="md:w-[170px] md:h-[170px] 
                 w-[120px] h-[120px]"
                 ></img>
+                </Link>
               </div>
 
               <div>

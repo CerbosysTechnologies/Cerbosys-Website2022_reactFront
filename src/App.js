@@ -20,6 +20,10 @@ import Testimonial from "./components/InnerPages/Company/Testimonial/Testimonial
 import { ScrollToTop } from "../src/components/Common/Component/ScrollToTop";
 import Agriculture from "./components/InnerPages/Industries/Agriculture/Agriculture";
 import Banking from "./components/InnerPages/Industries/Banking/Banking";
+import Ecommerce from "./components/InnerPages/Industries/Ecommerce/Ecommerce";
+import HealthCare from "./components/InnerPages/Industries/HealthCare/HealthCare";
+import Mining from "./components/InnerPages/Industries/Mining/Mining";
+import Transport from "./components/InnerPages/Industries/Transportation/Transport";
 
 function App() {
   return (
@@ -47,6 +51,10 @@ function App() {
         <Route path="/Testimonial" element={<Testimonial />} />
         <Route path="/Agriculture" element={<Agriculture />} />
         <Route path="/Banking" element={<Banking />} />
+        <Route path="/Ecommerce" element={<Ecommerce />} />
+        <Route path="/HealthCare" element={<HealthCare />} />
+        <Route path="/Mining" element={<Mining />} />
+        <Route path="/Transport" element={<Transport />} />
       </Routes>
       <ScrollToTop />
     </>

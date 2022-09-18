@@ -117,15 +117,15 @@ const Footer = () => {
                 </h1>
 
                 <ul className="text-white font-subheading text-xs">
-                  <li className="">Agriculture</li>
-                  <li className="">Ecommerce And Retail</li>
-                  <li className="">Healthcare And Life Science</li>
-                  <li className="">Banking And Finance</li>
-                  <li className="">Mining</li>
-                  <li className="">Transport And Logistics</li>
-                  <li className="">Education</li>
-                  <li className="">Real Estate And Construction</li>
-                  <li className="">Manufacturing</li>
+                  <li className=""><Link to="/Agriculture">Agriculture</Link></li>
+                  <li className=""><Link to="/Ecommerce">Ecommerce And Retail</Link></li>
+                  <li className=""><Link to="/HealthCare">Healthcare And Life Science</Link></li>
+                  <li className=""><Link to="/Banking">Banking And Finance</Link></li>
+                  <li className=""><Link to="/Mining">Mining</Link></li>
+                  <li className=""><Link to="/Transport">Transport And Logistics</Link></li>
+                  <li className=""><Link to="">Education</Link></li>
+                  <li className=""><Link to="">Real Estate And Construction</Link></li>
+                  <li className=""><Link to="">Manufacturing</Link></li>
                 </ul>
               </div>
               {/* Industry Div Ends*/}
@@ -142,7 +142,7 @@ const Footer = () => {
               Contact Us
             </h6>
 
-            <div className="flex flex-row mb-5 md:w-64">
+            <div className="flex flex-row mb-5 md:w-64 w-64">
               <img
                 src={locationicon}
                 alt="Location Icon"
@@ -160,14 +160,14 @@ const Footer = () => {
               </span>
             </div>
 
-            <div className="flex flex-row mb-5">
+            <div className="flex flex-row mb-5 w-72">
               <img
                 src={whatsappicon}
                 alt="What'sApp Icon"
                 className="mr-3"
               ></img>
               <span className="font-subheading text-sm text-white">
-              999-999-2892, 88-3969-7183
+              999-999-2892, &nbsp;88-3969-7183 
               </span>
             </div>
 

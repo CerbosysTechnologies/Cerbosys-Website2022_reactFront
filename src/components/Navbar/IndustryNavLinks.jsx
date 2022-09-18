@@ -29,15 +29,15 @@ const IndustryNavLinks = () => {
             <div className="flex flex-wrap flex-col m-2 border-r-2 py-7">
               <div className="mt-[5px]">
                 <ul className="text-sm font-subheading list-inside list-disc px-5">
-                  <li> Agriculture</li>
-                  <li> Ecommerce and Retail</li>
-                  <li> Healthcare and Life Science</li>
-                  <li> Banking and Finance</li>
-                  <li> Mining</li>
-                  <li> Transport and Logistics</li>
-                  <li> Education</li>
-                  <li> Real Estate and Construction</li>
-                  <li> Manufacturing</li>
+                  <li> <Link to="/Agriculture">Agriculture</Link></li>
+                  <li> <Link to="/Ecommerce">Ecommerce and Retail</Link></li>
+                  <li> <Link to="/HealthCare">Healthcare and Life Science</Link></li>
+                  <li> <Link to="/Banking">Banking and Finance</Link></li>
+                  <li> <Link to="/Mining">Mining</Link></li>
+                  <li> <Link to="/Transport">Transport and Logistics</Link></li>
+                  <li> <Link to="">Education</Link></li>
+                  <li> <Link to="">Real Estate and Construction</Link></li>
+                  <li> <Link to="">Manufacturing</Link></li>
                 </ul>
               </div>
             </div>
@@ -90,15 +90,15 @@ const IndustryNavLinks = () => {
         <div className="flex flex-wrap flex-col m-2">
           <div className="mt-[-10px] ">
             <ul className="text-sm font-subheading list-inside list-disc">
-              <li> Agriculture</li>
-              <li> Ecommerce and Retail</li>
-              <li> Healthcare and Life Science</li>
-              <li> Banking and Finance</li>
-              <li> Mining</li>
-              <li> Transport and Logistics</li>
-              <li> Education</li>
-              <li> Real Estate and Construction</li>
-              <li> Manufacturing</li>
+            <li> <Link to="/Agriculture">Agriculture</Link></li>
+                  <li> <Link to="/Ecommerce">Ecommerce and Retail</Link></li>
+                  <li> <Link to="/HealthCare">Healthcare and Life Science</Link></li>
+                  <li> <Link to="/Banking">Banking and Finance</Link></li>
+                  <li> <Link to="/Mining">Mining</Link></li>
+                  <li> <Link to="/Transport">Transport and Logistics</Link></li>
+                  <li> <Link to="">Education</Link></li>
+                  <li> <Link to="">Real Estate and Construction</Link></li>
+                  <li> <Link to="">Manufacturing</Link></li>
             </ul>
           </div>
         </div>

@@ -39,6 +39,10 @@ module.exports = {
       TestimonialHeader:"url('assets/innerpage/testimonial/testimoniyalheader.svg')",
       AgricultureHeader:"url('assets/innerpage/agriculture/agricultureheader.svg')",
       BankingHeader:"url('assets/innerpage/banking/bankingheader.svg')",
+      EcommerceHeader:"url('assets/innerpage/ecommerce/ecommerceheader.svg')",
+      HealthCareHeader:"url('assets/innerpage/healthcare/healthheader.svg')",
+      MiningHeader:"url('assets/innerpage/mining/miningheader.svg')",
+      TransportHeader:"url('assets/innerpage/transport/transportheader.svg')",
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],
