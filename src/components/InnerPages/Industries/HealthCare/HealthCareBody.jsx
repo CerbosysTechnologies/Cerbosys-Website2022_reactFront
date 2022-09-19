@@ -31,7 +31,7 @@ const HealthCareBody = () => {
                 alt="HealthCare Business"
                 className="md:h-[20rem]"
               />
-              <p className="font-subheading md:text-xl text-lg md:w-[30rem] mt-6 text-justify items-center">
+              <p className="font-subheading md:text-xl text-lg md:w-[33rem] mt-6 text-justify items-center">
                 Healthcare and Life Science offers a comprehensive range of
                 products and services which includes a wide range of healthcare
                 equipment, pharmaceuticals, vascular solutions, medical
@@ -41,6 +41,50 @@ const HealthCareBody = () => {
             </div>
             {/* Side Image*/}
           </div>
+
+          {/* Bullet Section */}
+          <div className="flex flex-wrap flex-col mx-auto">
+            <div className="font-heading md:text-4xl text-xl mt-10 text-center">
+              Our Services for the Healthcare and Life Science Industry
+            </div>
+
+            <ul className="text-justify font-content md:text-xl text-sm mt-10 list-disc">
+              <li>
+                <strong>Advisory Services :-</strong>
+                We provide an online platform that will be engaged in providing
+                advisory services to your clients in the Healthcare and Life
+                Science Industry. By developing a professional interface for
+                your industry, our experienced team of experts can help you to
+                serve patients online.
+              </li>
+
+              <li>
+                <strong>Digital Patient Care platform :-</strong>The Digital
+                Patient care platform created by our company helps end users
+                manage their patients and undertake their regular checkups
+                without going anywhere. These are all about medical treatment,
+                medication, and diseases. It is a web-based software that works
+                as help for doctors as well as for patients.
+              </li>
+
+              <li>
+                <strong>Quality platform :-</strong> Our quality management
+                solution is aimed to help improve the Overall Quality Management
+                processes of your Healthcare and Life Science enterprises, with
+                a high impact on reducing the cost and increasing flexibility in
+                all stages of healthcare manufacturing.
+              </li>
+
+              <li>
+                <strong>Data Safety Management :-</strong> Our Data Safety
+                Management Solutions offer a Web-hosted safety data exchange
+                application that promotes the efficient exchange of safety
+                information. This system implements easy and fast access to the
+                entire data protected by our company.
+              </li>
+            </ul>
+          </div>
+          {/* Bullet Section Ends*/}
         </div>
       </div>
     </div>

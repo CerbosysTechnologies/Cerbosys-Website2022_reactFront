@@ -31,7 +31,7 @@ const BankingBody = () => {
                 alt="Banking Business"
                 className="md:h-[20rem]"
               />
-              <p className="font-subheading md:text-xl text-lg md:w-[30rem] mt-6 text-justify">
+              <p className="font-subheading md:text-xl text-lg md:w-[33rem] mt-6 text-justify">
                 Banking and Finance is the industry that finds people with the
                 skills to create, advance, or manage financial services. It is a
                 very large industry, which includes banks, credit institutions,
@@ -42,6 +42,50 @@ const BankingBody = () => {
             </div>
             {/* Side Image*/}
           </div>
+
+          {/* Bullet Section */}
+          <div className="flex flex-wrap flex-col mx-auto">
+            <div className="font-heading md:text-4xl text-xl mt-10 text-center">
+              Our Services for the Banking and Finance Industry
+            </div>
+
+            <ul className="text-justify font-content md:text-xl text-sm mt-10 list-disc">
+              <li>
+                <strong>Digital Transformation :-</strong>
+                Our technical services provide improved customer satisfaction,
+                drive innovation in business processes, simplify services, and
+                drive major changes across the industry. It also helps to
+                accelerate key processes and create new revenue opportunities in
+                the banking and finance sectors.
+              </li>
+
+              <li>
+                <strong>Mobility Solutions :-</strong>Whether it's increasing
+                the adoption of banking IT services, mobile payments or mobile
+                portfolio management, or mobile stock trading – our mobile and
+                web services has proven to be a driving force behind a
+                successful transformation.
+              </li>
+
+              <li>
+                <strong>Banking Compliance Reporting :-</strong> Our services
+                help financial institutions and banks to comply with regulatory
+                requirements while also helping them to report their business
+                risks and operational risks in the required formats. Our
+                technical frameworks help create reliable, secure systems that
+                are completely flexible according to your needs.
+              </li>
+
+              <li>
+                <strong>Business Analytics :-</strong> When it comes to
+                analyzing and transforming large volumes of data into actionable
+                information, financial institutions need to rely on companies
+                like us for technical support. So that they can move forward
+                with their business activities.
+              </li>
+            </ul>
+          </div>
+          {/* Bullet Section Ends*/}
         </div>
       </div>
     </div>

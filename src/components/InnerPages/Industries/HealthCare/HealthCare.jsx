@@ -9,7 +9,7 @@ const HealthCare = () => {
     <div>
       <>
         <Navbar />
-        <div className="mx-auto w-full md:h-[36rem] bg-AgricultureHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
+        <div className="mx-auto w-full md:h-[36rem] bg-HealthCareHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
             <p className="text-white font-heading py-2 md:text-5xl text-2xl md:mb-48 mb-28">
