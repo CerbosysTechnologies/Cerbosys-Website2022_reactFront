@@ -21,10 +21,7 @@ const CurrentOpening = () => {
             </p>
 
             <p className="text-Primary font-heading py-2 md:text-lg text-xs mb-8 md:w-[480px] text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus officia repudiandae neque amet minima voluptas iure,
-              modi aspernatur laboriosam recusandae quidem odit, illum nobis,
-              necessitatibus at veritatis? Assumenda, totam. Nihil?
+            Join us: We are one of the most well-versed & innovative business solution provider companies in India.
             </p>
           </div>
           {/* Content Section Ends */}
