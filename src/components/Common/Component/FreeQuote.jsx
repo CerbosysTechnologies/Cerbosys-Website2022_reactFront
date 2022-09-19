@@ -146,7 +146,7 @@ const FreeQuote = () => {
             className="inline-block bg-white 
             2xl:mt-52
            
-            rounded-lg text-left shadow-xl transform transition-all md:w-10/12 md:mt-40 mt-28"
+            rounded-lg text-left shadow-xl transform transition-all md:w-10/12 md:mt- mt-28"
             role="dialog"
             aria-modal="true"
             aria-labelledby="modal-headline"
