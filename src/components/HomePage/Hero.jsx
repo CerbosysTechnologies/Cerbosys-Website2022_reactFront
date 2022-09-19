@@ -11,16 +11,13 @@ import TypeWriter from "react-typewriter-effect";
 import MovingComponent from "react-moving-text";
 import Recommendations from "./Recommendations";
 import { Link } from "react-router-dom";
-
 const Hero = () => {
   {
     /* animation for buthhon logic start */
   }
-
   const AnimationsForChaining = ["bounce"];
   const [animationIndex, setAnimationIndex] = useState(0);
   const [animationType, setAnimationType] = useState(AnimationsForChaining[0]);
-
   const handleChainAnimation = () => {
     setAnimationIndex(animationIndex + 1);
     setAnimationType([animationIndex + 1]);
@@ -28,7 +25,6 @@ const Hero = () => {
   {
     /* animation for buthhon logic end */
   }
-
   return (
     <>
       <Navbar />
@@ -71,15 +67,12 @@ const Hero = () => {
             </span>
           </p>
           {/* Home Contet Animation End */}
-
           {/* <p className="text-white font-heading md:text-lg text-sm mb-8 md:w-[730px] w-[350px] mt-36">
             Generating innovative ideas that convert the clicks into leads for
             your business - with the help of highly enthusiastic and creative
             tech-wizards.
           </p> */}
-
           {/* animation for buthhon start */}
-
           <Link to="/ContactUs">
             <button
               className="bg-Green rounded-full font-heading md:px-5 md:py-2 md:text-lg
@@ -88,9 +81,7 @@ const Hero = () => {
               Click to Connect
             </button>
           </Link>
-
           {/* animation for buthhon end */}
-
           <p className="font-heading text-white md:text-base text-xs md:mt-3 mt-10">
             {/* <div style={exampleStyle}> */}
             <div className="uppercase flex md:mt-8">
@@ -120,11 +111,8 @@ const Hero = () => {
             {/* Let's collaborate to accelerate your business growth with us!! */}
           </p>
         </div>
-
         {/* Content Section Ends*/}
-
         {/* Testing Code */}
-
         {/* Testing Code Ends */}
       </div>
       <ServiceHomePage />
@@ -137,5 +125,4 @@ const Hero = () => {
     </>
   );
 };
-
 export default Hero;
