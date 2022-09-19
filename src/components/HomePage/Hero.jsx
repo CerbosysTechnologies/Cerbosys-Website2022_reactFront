@@ -17,7 +17,7 @@ const Hero = () => {
     /* animation for buthhon logic start */
   }
 
-  const AnimationsForChaining = ["swing"];
+  const AnimationsForChaining = ["bounce"];
   const [animationIndex, setAnimationIndex] = useState(0);
   const [animationType, setAnimationType] = useState(AnimationsForChaining[0]);
 
@@ -79,35 +79,43 @@ const Hero = () => {
           </p> */}
 
           {/* animation for buthhon start */}
-          <MovingComponent
-            onAnimationEnd={handleChainAnimation}
-            type={animationType}
-            duration="20000ms"
-            // timing="linear"
-            fillMode="forwards"
-            iteration={100}
-          >
-            <Link to="/ContactUs">
+
+          <Link to="/ContactUs">
             <button
               className="bg-Green rounded-full font-heading md:px-5 md:py-2 md:text-lg
               text-white uppercase px-3 py-1.5 text-xs mb-6 md:mt-10"
             >
               Click to Connect
             </button>
-            </Link>
-          </MovingComponent>
+          </Link>
+
           {/* animation for buthhon end */}
 
           <p className="font-heading text-white md:text-base text-xs md:mt-3 mt-10">
             {/* <div style={exampleStyle}> */}
-            <Random
+            <div className="uppercase flex md:mt-8">
+              <div>Let's collaborate to</div>
+              <div>
+                <MovingComponent
+                  onAnimationEnd={handleChainAnimation}
+                  type={animationType}
+                  duration="2000ms"
+                  // timing="linear"
+                  fillMode="forwards"
+                  iteration={500}
+                >
+                  &nbsp;@accelerate&nbsp;
+                </MovingComponent>
+              </div>
+              <div>your business growth </div>
+            </div>
+            {/* <Random
               text="Let's collaborate to accelerate your
                 business growth"
               effect="jump"
               effectChange={0.4}
               effectDuration={0.5}
-            />
-
+            /> */}
             {/* </div> */}
             {/* Let's collaborate to accelerate your business growth with us!! */}
           </p>
