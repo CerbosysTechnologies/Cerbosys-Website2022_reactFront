@@ -20,7 +20,6 @@ const CurrentOpeningBody = () => {
 
   const [position, setPosition] = React.useState("");
   const [application, setApplication] = React.useState("");
-  console.log(application);
 
   const [location, setLocation] = React.useState("");
   const [type, setType] = React.useState("");
@@ -32,8 +31,6 @@ const CurrentOpeningBody = () => {
   const [CoverLeter, setCoverLeter] = React.useState("");
   const [TotalCurrentOpenings, setTotalCurrentOpenings] = useState("");
 
-  const [TotalEnqury, setTotalEnqury] = useState([]);
-  console.log(TotalEnqury);
   const [errorspos, setErrorspos] = React.useState(false);
   const [errorsloc, setErrorsloc] = React.useState(false);
   const [errorsty, setErrorsty] = React.useState(false);
@@ -70,7 +67,6 @@ const CurrentOpeningBody = () => {
   const [errorscon, setErrorsCon] = useState(false);
   const [errorscontact, setErrorsContact] = useState("");
   const [serviceId, setServiceId] = useState("");
-  console.log(serviceId);
 
   const [serviceitems, setServiceItems] = React.useState([]);
 
@@ -96,7 +92,8 @@ const CurrentOpeningBody = () => {
   }, []);
 
   // post api
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
     var formdata = new FormData();
     formdata.append("positionapplied", position);
     formdata.append("fullname", username);
@@ -105,25 +102,25 @@ const CurrentOpeningBody = () => {
     formdata.append("resume", jobicons);
     formdata.append("coverletter", CoverLeter);
     formdata.append("resume_description", desc);
-
-    fetch(SERVER + "/insertCareer", {
+    console.log(formdata);
+    fetch(SERVER + "//insertCareer", {
+      method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      method: "post",
+      mode: "no-cors",
+
       body: formdata,
     })
       .then((res) =>
         res.json().then((formdata) => {
           console.log("Response", formdata);
           alert("job Succefully Add");
+          console.log(formdata);
         })
       )
       .catch((err) => {
         console.log("not post");
-        // setTimeout(() => {
-        //   window.location.reload();
-        // }, 3000);
       });
   };
   // Job post section for tak value and  and set value in state  with validation
@@ -448,152 +445,151 @@ const CurrentOpeningBody = () => {
                   </div>
                 </div>
                 <div className="bg-white md:px-1 items-center justify-center text-center">
-                  <form onSubmit={(e) => handleSubmit(e)}>
-                    {/* Name Div */}
-                    <div className="mb-6 md:w-full group">
-                      <input
-                        type="text"
-                        name="username"
-                        id="username"
-                        className="block mt-5 py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent border-0 border-b-2 
+                  {/* Name Div */}
+                  <div className="mb-6 md:w-full group">
+                    <input
+                      type="text"
+                      name="fullname"
+                      id="username"
+                      className="block mt-5 py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent border-0 border-b-2 
       border-gray-300 appearance-none  dark:border-gray-400 
        focus:outline-none focus:ring-0 peer"
-                        placeholder="Fullname"
-                        required
-                        value={username}
-                        onChange={onchangeFullName}
-                        // onChange={(e) => setUsername(e.target.value)}
-                        // value={username}
-                      />
-                      {errorsNa && (
-                        <div className="text-left text-red-500">
-                          {errorsname}
-                        </div>
-                      )}
-                    </div>
-                    {/* Name Div Ends */}
+                      placeholder="Fullname"
+                      required
+                      value={username}
+                      onChange={onchangeFullName}
+                      // onChange={(e) => setUsername(e.target.value)}
+                      // value={username}
+                    />
+                    {errorsNa && (
+                      <div className="text-left text-red-500">{errorsname}</div>
+                    )}
+                  </div>
+                  {/* Name Div Ends */}
 
-                    {/* Email Div */}
-                    <div className="mb-6 md:w-full group">
-                      <input
-                        type="email"
-                        name="email"
-                        id="email"
-                        className="block py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent border-0 border-b-2 
+                  {/* Email Div */}
+                  <div className="mb-6 md:w-full group">
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      className="block py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent border-0 border-b-2 
       border-gray-300 appearance-none  dark:border-gray-400 
        focus:outline-none focus:ring-0 peer"
-                        placeholder="Email"
-                        required
-                        onChange={(e) => setEmail(e.target.value)}
-                        value={email}
-                      />
-                    </div>
-                    {/* Email Div Ends*/}
+                      placeholder="Email"
+                      required
+                      onChange={(e) => setEmail(e.target.value)}
+                      value={email}
+                    />
+                  </div>
+                  {/* Email Div Ends*/}
 
-                    {/* Contact Number Div */}
-                    <div className=" mb-6 md:w-full group">
-                      <input
-                        type="tel"
-                        name="contact_number"
-                        id="contact_number"
-                        className="block py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent 
+                  {/* Contact Number Div */}
+                  <div className=" mb-6 md:w-full group">
+                    <input
+                      type="text"
+                      name="mobilenumber"
+                      id="contact_number"
+                      className="block py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent 
             border-0 border-b-2 border-gray-300 appearance-none  dark:border-gray-400 
        focus:outline-none focus:ring-0 peer"
-                        placeholder="Mobile Number"
-                        required
-                        // onChange={(e) => setContactNumber(e.target.value)}
-                        value={contactNumber}
-                        onChange={onchangeContact}
-                        // maxLength="10"
-                      />
-                      {errorscon && (
-                        <div className="text-left text-red-500">
-                          {errorscontact}
-                        </div>
-                      )}
-                    </div>
-                    <div className="mb-6 md:w-full group">
-                      <input
-                        type="text"
-                        name="username"
-                        id="username"
-                        className="block mt-5 py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent border-0 border-b-2 
-      border-gray-300 appearance-none  dark:border-gray-400 
-       focus:outline-none focus:ring-0 peer"
-                        placeholder="Position Applied"
-                        required
-                        value={position}
-                        onChange={onchangePosition}
-                      />
-                      {errorspos && (
-                        <div className="text-left text-red-500">
-                          {errorsposition}
-                        </div>
-                      )}
-                    </div>
-
-                    {/*  */}
-                    {/* Contact Number Div Ends*/}
-                    <div className=" mb-6 md:w-full group flex ">
-                      <div
-                        className="block mt-5 py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent border-0 border-b-2 
-      border-gray-300 appearance-none  dark:border-gray-400 
-       focus:outline-none focus:ring-0 peer"
-                      >
-                        <label htmlFor="Resume">Resume</label>
-
-                        <input
-                          type="file"
-                          file={jobicons}
-                          id="myFile"
-                          name="filename"
-                          placeholder="Resume"
-                          onChange={onchangeResume}
-                        />
-                      </div>
-                    </div>
-                    <div className=" mb-6 md:w-full group flex ">
-                      <div
-                        className="block mt-5 py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent border-0 border-b-2 
-      border-gray-300 appearance-none  dark:border-gray-400 
-       focus:outline-none focus:ring-0 peer"
-                      >
-                        <label htmlFor="Coverletter">Cover Letter</label>
-                        <input
-                          type="file"
-                          file={CoverLeter}
-                          id="myFile"
-                          name="filename"
-                          placeholder="Coverletter"
-                          onChange={onchangeCoverLeter}
-                        />
-                      </div>
-                    </div>
-                    {/* Message Div */}
-                    <div className=" mb-6 md:w-full group">
-                      <input
-                        type="text"
-                        name="message"
-                        id="message"
-                        className="block mt-5 py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent border-0 border-b-2 
-      border-gray-300 appearance-none  dark:border-gray-400 
-       focus:outline-none focus:ring-0 peer"
-                        placeholder="Resume_description"
-                        required
-                        // onChange={(e) => setMessage(e.target.value)}
-                        // value={message}
-                        value={desc}
-                        onChange={onchangeDesc}
-                      />
-                    </div>
-                    {/* Message Div Ends */}
-
-                    <input
-                      className="mt-6 mb-6 bg-Primary text-white font-heading py-2 px-4 rounded "
-                      type="submit"
-                      value="Submit"
+                      placeholder="Mobile Number"
+                      required
+                      // onChange={(e) => setContactNumber(e.target.value)}
+                      value={contactNumber}
+                      onChange={onchangeContact}
+                      // maxLength="10"
                     />
-                  </form>
+                    {errorscon && (
+                      <div className="text-left text-red-500">
+                        {errorscontact}
+                      </div>
+                    )}
+                  </div>
+                  <div className="mb-6 md:w-full group">
+                    <input
+                      type="text"
+                      name="positionapplied"
+                      id="positionapplied"
+                      className="block mt-5 py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent border-0 border-b-2 
+      border-gray-300 appearance-none  dark:border-gray-400 
+       focus:outline-none focus:ring-0 peer"
+                      placeholder="Position Applied"
+                      required
+                      value={position}
+                      onChange={onchangePosition}
+                    />
+                    {errorspos && (
+                      <div className="text-left text-red-500">
+                        {errorsposition}
+                      </div>
+                    )}
+                  </div>
+
+                  {/*  */}
+                  {/* Contact Number Div Ends*/}
+                  <div className=" mb-6 md:w-full group flex ">
+                    <div
+                      className="block mt-5 py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent border-0 border-b-2 
+      border-gray-300 appearance-none  dark:border-gray-400 
+       focus:outline-none focus:ring-0 peer"
+                    >
+                      <label htmlFor="Resume">Resume</label>
+
+                      <input
+                        type="file"
+                        file={jobicons}
+                        id="myFile"
+                        name="resume"
+                        placeholder="Resume"
+                        onChange={onchangeResume}
+                      />
+                    </div>
+                  </div>
+                  <div className=" mb-6 md:w-full group flex ">
+                    <div
+                      className="block mt-5 py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent border-0 border-b-2 
+      border-gray-300 appearance-none  dark:border-gray-400 
+       focus:outline-none focus:ring-0 peer"
+                    >
+                      <label htmlFor="Coverletter">Cover Letter</label>
+                      <input
+                        type="file"
+                        file={CoverLeter}
+                        id="myFile"
+                        name="coverletter"
+                        placeholder="Coverletter"
+                        onChange={onchangeCoverLeter}
+                      />
+                    </div>
+                  </div>
+                  {/* Message Div */}
+                  <div className=" mb-6 md:w-full group">
+                    <input
+                      type="text"
+                      name="resume_description"
+                      id="message"
+                      className="block mt-5 py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent border-0 border-b-2 
+      border-gray-300 appearance-none  dark:border-gray-400 
+       focus:outline-none focus:ring-0 peer"
+                      placeholder="Resume_description"
+                      required
+                      // onChange={(e) => setMessage(e.target.value)}
+                      // value={message}
+                      value={desc}
+                      onChange={onchangeDesc}
+                    />
+                  </div>
+                  {/* Message Div Ends */}
+
+                  <button
+                    className="mt-6 mb-6 bg-Primary text-white font-heading py-2 px-4 rounded "
+                    type="submit"
+                    // value="Submit"
+                    onClick={handleSubmit}
+                  >
+                    Submit
+                  </button>
                 </div>
               </div>
             </div>
