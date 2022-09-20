@@ -8,7 +8,7 @@ import hands from "../../../../assets/Careerpage/hands.svg";
 import place from "../../../../assets/Careerpage/ic_place_24px.svg";
 import description from "../../../../assets/Careerpage/ic_description_24px.svg";
 import { AiOutlineClose } from "react-icons/ai";
-
+import vacancy from "../../../../assets/Careerpage/job800500.svg";
 const CurrentOpeningBody = () => {
   const ModalPotion = () => {
     document.getElementById("ModalPotion").style.display = "block";
@@ -21,54 +21,33 @@ const CurrentOpeningBody = () => {
   const [position, setPosition] = React.useState("");
   const [application, setApplication] = React.useState("");
 
-  const [location, setLocation] = React.useState("");
-  const [type, setType] = React.useState("");
-  const [experience, setExperience] = React.useState("");
-  const [salary, setSalary] = React.useState(0);
-  const [salary2, setSalary2] = React.useState(0);
   const [desc, setDesc] = React.useState("");
   const [jobicons, setJobIcon] = React.useState("");
   const [CoverLeter, setCoverLeter] = React.useState("");
-  const [TotalCurrentOpenings, setTotalCurrentOpenings] = useState("");
 
   const [errorspos, setErrorspos] = React.useState(false);
-  const [errorsloc, setErrorsloc] = React.useState(false);
-  const [errorsty, setErrorsty] = React.useState(false);
-  const [errorsex, setErrorsex] = React.useState(false);
-  const [errorssal, setErrorssal] = React.useState(false);
+
   const [errorsdes, setErrorsdes] = React.useState(false);
   const [errorsicon, setErroricon] = React.useState(false);
 
   const [errorsposition, setErrorsposition] = React.useState("");
-  const [errorslocation, setErrorslocation] = React.useState("");
-  const [errorssalary, setErrorssalary] = React.useState("");
+
   const [errorsdesc, setErrorsdesc] = React.useState("");
   const [errorsexp, setErrorsexp] = React.useState("");
   const [errorstype, setErrorstype] = React.useState("");
   const [errorsicons, setErroricons] = React.useState("");
 
-  const [enquir, setEnquir] = useState("");
-  const [name, setName] = useState("");
-
-  const [phone, setPhone] = useState("");
-  const [enquiryservice, setenquiryservice] = useState("");
-  const [hearaboutus, setHearaboutus] = useState("");
-
-  const [message, setMessage] = useState("");
   // -------------
   const [username, setUsername] = useState("");
   const [errorsname, setErrorsName] = useState("");
   const [errorsNa, setErrorsNa] = useState("");
   const [email, setEmail] = useState("");
 
-  const [subject, setSubject] = useState("");
-
   const [contactNumber, setContactNumber] = useState("");
   const [errorscon, setErrorsCon] = useState(false);
   const [errorscontact, setErrorsContact] = useState("");
   const [serviceId, setServiceId] = useState("");
 
-  const [serviceitems, setServiceItems] = React.useState([]);
 
   const IMG = "https://cerbosys.in:3700/job_post/";
   const [Job, setJob] = useState([]);
@@ -127,6 +106,7 @@ const CurrentOpeningBody = () => {
   const onchangeFullName = (e) => {
     const username = e.target.value.replace(/[^a-z]/gi, " ");
     setUsername(username);
+    console.log(username);
     if (username.length <= 5) {
       setErrorsName("Enter Name");
       setErrorsNa(true);
@@ -140,6 +120,8 @@ const CurrentOpeningBody = () => {
     // console.log("onchangeContact");
     const contactNumber = e.target.value.replace(/([^0-9])+/i, "");
     setContactNumber(contactNumber);
+    console.log(contactNumber);
+
     // (contact.length < 10 || contact.length > 10)
     if (contactNumber.length < 10) {
       setErrorsContact("Enter valid Contact");
@@ -152,6 +134,7 @@ const CurrentOpeningBody = () => {
   const onchangePosition = (e) => {
     const position = e.target.value.replace(/[^a-z]/gi, " ");
     setPosition(position);
+    console.log(position);
     if (position.length <= 3) {
       setErrorsposition("Enter Position");
       setErrorspos(true);
@@ -205,6 +188,7 @@ const CurrentOpeningBody = () => {
           <div className="flex flex-wrap mt-10  justify-between">
             {Job ? (
               Job.map((item, index) => {
+           
                 return (
                   <div className="mx-2 mt-5">
                     <a
@@ -214,7 +198,8 @@ const CurrentOpeningBody = () => {
                       <h5
                         className="mb-2 text-2xl font-heading tracking-tight text-gray-500
               uppercase text-center"
-                      >
+                      key={index}>
+                        
                         {item.jobposition}
                       </h5>
                       <p className="font-content text-gray-700 text-justify mt-5 mb-10">
@@ -327,78 +312,83 @@ const CurrentOpeningBody = () => {
               <div>
                 <div className="flex flex-wrap">
                   <img src={tripicon} />
-                  <h1 className="font-heading text-2xl p-2">Test</h1>
+                  <h1 className="font-heading text-2xl p-2">
+                    Healthy Work Environment
+                  </h1>
                 </div>
                 <p className="font-content text-sm ml-14">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
-                  quo perspiciatis fugiat consequuntur fuga doloremque eius?
-                  Itaque rerum ducimus vitae fuga veniam, molestias praesentium
-                  quas numquam sapiente. Consequatur, fugit nihil?
+                  Cerbosys constantly strives to provide the best possible
+                  working environment for its employees. Since the work
+                  environment directly affects the mentality & performance of
+                  the employee.
                 </p>
               </div>
 
               <div>
                 <div className="flex flex-wrap">
                   <img src={tripicon} />
-                  <h1 className="font-heading text-2xl p-2">Test</h1>
+                  <h1 className="font-heading text-2xl p-2">
+                    Performance Linked Incentives & Reward Programs
+                  </h1>
                 </div>
                 <p className="font-content text-sm ml-14">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
-                  quo perspiciatis fugiat consequuntur fuga doloremque eius?
-                  Itaque rerum ducimus vitae fuga veniam, molestias praesentium
-                  quas numquam sapiente. Consequatur, fugit nihil?
+                  Our PLI & rewards programs help to increase employee
+                  efficiency & performance. As employees give their best
+                  performance to get rewarded & receive the best pay increase.
                 </p>
               </div>
 
               <div>
                 <div className="flex flex-wrap">
                   <img src={tripicon} />
-                  <h1 className="font-heading text-2xl p-2">Test</h1>
+                  <h1 className="font-heading text-2xl p-2">
+                    Training & Development Sessions
+                  </h1>
                 </div>
                 <p className="font-content text-sm ml-14">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
-                  quo perspiciatis fugiat consequuntur fuga doloremque eius?
-                  Itaque rerum ducimus vitae fuga veniam, molestias praesentium
-                  quas numquam sapiente. Consequatur, fugit nihil?
+                  Cerbosys conducts an extensive training and development
+                  program to improve the overall performance and competitiveness
+                  of our employees.
                 </p>
               </div>
 
               <div>
                 <div className="flex flex-wrap">
                   <img src={tripicon} />
-                  <h1 className="font-heading text-2xl p-2">Test</h1>
+                  <h1 className="font-heading text-2xl p-2">Team Activities</h1>
                 </div>
                 <p className="font-content text-sm ml-14">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
-                  quo perspiciatis fugiat consequuntur fuga doloremque eius?
-                  Itaque rerum ducimus vitae fuga veniam, molestias praesentium
-                  quas numquam sapiente. Consequatur, fugit nihil?
+                  Cerbosys organizes several team activities like conferencing,
+                  games, trips, extempore, etc. which brings the team together,
+                  keeps the employees happy & increases employee retention.
                 </p>
               </div>
 
               <div>
                 <div className="flex flex-wrap">
                   <img src={tripicon} />
-                  <h1 className="font-heading text-2xl p-2">Test</h1>
+                  <h1 className="font-heading text-2xl p-2">
+                    Maternity & Paternity Leaves
+                  </h1>
                 </div>
                 <p className="font-content text-sm ml-14">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
-                  quo perspiciatis fugiat consequuntur fuga doloremque eius?
-                  Itaque rerum ducimus vitae fuga veniam, molestias praesentium
-                  quas numquam sapiente. Consequatur, fugit nihil?
+                  Our company provides maternity & paternity leaves for our
+                  employees when they can avail to take care of their newly born
+                  child.
                 </p>
               </div>
 
               <div>
                 <div className="flex flex-wrap">
                   <img src={tripicon} />
-                  <h1 className="font-heading text-2xl p-2">Test</h1>
+                  <h1 className="font-heading text-2xl p-2">
+                    Work/Life Balance
+                  </h1>
                 </div>
                 <p className="font-content text-sm ml-14">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
-                  quo perspiciatis fugiat consequuntur fuga doloremque eius?
-                  Itaque rerum ducimus vitae fuga veniam, molestias praesentium
-                  quas numquam sapiente. Consequatur, fugit nihil?
+                  We manage to create a balance between work and life in the
+                  best way for our employees so that coming to work each day is
+                  refreshing for them.
                 </p>
               </div>
             </div>
@@ -410,7 +400,7 @@ const CurrentOpeningBody = () => {
       <div
         class="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden"
         id="ModalPotion"
-        style={{ display: "none" }}
+        // style={{ display: "none" }}
       >
         <div className="flex items-center justify-center max-height-100vh pt-4 px-4 pb-20 text-center sm:block sm:p-0">
           <div className="fixed inset-0 transition-opacity">
@@ -430,9 +420,9 @@ const CurrentOpeningBody = () => {
             aria-modal="true"
             aria-labelledby="modal-headline"
           >
-            <div className="grid md:grid-cols-2 md:mb-4 md:mt-5 mt-5 md:h-1/2 overflow-auto">
+           <div className="grid md:grid-cols-2 md:mb-4 md:mt-5 mt-5 md:h-1/2 overflow-auto">
               <div className="mx-10 hidden md:block">
-                {/* <img src={imagepopup} alt="" className="h-full w-screen" /> */}
+                <img src={vacancy} alt="" className="h-full w-screen" />
               </div>
               <div className="bg-white md:mx-20 mx-10">
                 <div className="flex justify-between">
@@ -525,7 +515,6 @@ const CurrentOpeningBody = () => {
                       </div>
                     )}
                   </div>
-
                   {/*  */}
                   {/* Contact Number Div Ends*/}
                   <div className=" mb-6 md:w-full group flex ">
@@ -581,7 +570,6 @@ const CurrentOpeningBody = () => {
                     />
                   </div>
                   {/* Message Div Ends */}
-
                   <button
                     className="mt-6 mb-6 bg-Primary text-white font-heading py-2 px-4 rounded "
                     type="submit"

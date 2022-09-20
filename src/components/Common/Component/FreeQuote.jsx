@@ -109,8 +109,8 @@ const FreeQuote = () => {
         console.log("after Quote api", res.data);
       });
 
-    document.getElementById("modal").style.display = "none";
-    window.location.reload();
+    // document.getElementById("modal").style.display = "none";
+    // window.location.reload();
   };
 
   return (

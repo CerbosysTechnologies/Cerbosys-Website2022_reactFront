@@ -96,7 +96,7 @@ const Contact = () => {
       .then((res) => {
         console.log("Insert Enquiry Res", res);
         console.log("afterrun api", res.data);
-        window.location.reload();
+        // window.location.reload();
       });
   };
   return (

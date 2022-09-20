@@ -35,9 +35,9 @@ const IndustryNavLinks = () => {
                   <li> <Link to="/Banking">Banking and Finance</Link></li>
                   <li> <Link to="/Mining">Mining</Link></li>
                   <li> <Link to="/Transport">Transport and Logistics</Link></li>
-                  <li> <Link to="">Education</Link></li>
-                  <li> <Link to="">Real Estate and Construction</Link></li>
-                  <li> <Link to="">Manufacturing</Link></li>
+                  <li> <Link to="/Education">Education</Link></li>
+                  <li> <Link to="/RealEstate">Real Estate and Construction</Link></li>
+                  <li> <Link to="/Manufacturing">Manufacturing</Link></li>
                 </ul>
               </div>
             </div>
@@ -96,9 +96,9 @@ const IndustryNavLinks = () => {
                   <li> <Link to="/Banking">Banking and Finance</Link></li>
                   <li> <Link to="/Mining">Mining</Link></li>
                   <li> <Link to="/Transport">Transport and Logistics</Link></li>
-                  <li> <Link to="">Education</Link></li>
-                  <li> <Link to="">Real Estate and Construction</Link></li>
-                  <li> <Link to="">Manufacturing</Link></li>
+                  <li> <Link to="/Education">Education</Link></li>
+                  <li> <Link to="/RealEstate">Real Estate and Construction</Link></li>
+                  <li> <Link to="/Manufacturing">Manufacturing</Link></li>
             </ul>
           </div>
         </div>

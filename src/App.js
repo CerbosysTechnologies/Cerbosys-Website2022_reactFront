@@ -24,6 +24,9 @@ import Ecommerce from "./components/InnerPages/Industries/Ecommerce/Ecommerce";
 import HealthCare from "./components/InnerPages/Industries/HealthCare/HealthCare";
 import Mining from "./components/InnerPages/Industries/Mining/Mining";
 import Transport from "./components/InnerPages/Industries/Transportation/Transport";
+import Education from "./components/InnerPages/Industries/Education/Education";
+import RealEstate from "./components/InnerPages/Industries/RealEstate/RealEstate";
+import Manufacturing from "./components/InnerPages/Industries/Manufacuring/Manufacturing";
 
 function App() {
   return (
@@ -55,6 +58,9 @@ function App() {
         <Route path="/HealthCare" element={<HealthCare />} />
         <Route path="/Mining" element={<Mining />} />
         <Route path="/Transport" element={<Transport />} />
+        <Route path="/Education" element={<Education />} />
+        <Route path="/RealEstate" element={<RealEstate />} />
+        <Route path="/Manufacturing" element={<Manufacturing />} />
       </Routes>
       <ScrollToTop />
     </>

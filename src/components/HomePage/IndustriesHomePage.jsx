@@ -62,6 +62,8 @@ const IndustriesHomePage = () => {
                 ></img>
                 </Link>
               </div>
+            </Flip>
+
 
               <div>
               <Link to="/Ecommerce">
@@ -95,8 +97,7 @@ const IndustriesHomePage = () => {
                 ></img>
                 </Link>
               </div>
-            </Flip>
-            <LightSpeed left duration={4000}>
+           
               <div>
               <Link to="/Mining">
                 <img
@@ -107,6 +108,7 @@ const IndustriesHomePage = () => {
                 ></img>
                 </Link>
               </div>
+              <Flip duration={4000}>
 
               <div>
                 <img
@@ -116,7 +118,7 @@ const IndustriesHomePage = () => {
                 w-[120px] h-[120px]"
                 ></img>
               </div>
-
+</Flip>
               <div>
               <Link to="/Transportation">
                 <img
@@ -136,8 +138,8 @@ const IndustriesHomePage = () => {
                 w-[120px] h-[120px]"
                 ></img>
               </div>
-            </LightSpeed>
-            <Roll duration={4000}>
+          
+          
               <div>
                 <img
                   src={foodicon}
@@ -155,7 +157,7 @@ const IndustriesHomePage = () => {
                 w-[120px] h-[120px]"
                 ></img>
               </div>
-
+              <Flip duration={4000}>
               <div>
                 <img
                   src={realestateicon}
@@ -164,7 +166,7 @@ const IndustriesHomePage = () => {
                 w-[120px] h-[120px]"
                 ></img>
               </div>
-
+</Flip>
               <div>
                 <img
                   src={manufacturingicon}
@@ -173,7 +175,7 @@ const IndustriesHomePage = () => {
                 w-[120px] h-[120px]"
                 ></img>
               </div>
-            </Roll>
+           
           </div>
           {/* Icons Ends */}
         </div>
