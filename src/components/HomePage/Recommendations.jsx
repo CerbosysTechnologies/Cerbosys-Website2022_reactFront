@@ -47,7 +47,7 @@ import React from "react";
                       <img
                         src={slideContent}
                         alt=""
-                        className="md:w-72 md:h-72 mt-10 md:mx-4 px-2 w-80 h-80 md:mt-0 -mt-10"
+                        className="md:w-72 md:h-72 mt-10 md:mx-4 px-2 w-80 h-80 md:mt-0 -mt-10 scale-100 hover:scale-125 ease-out duration-500"
                       />
                     </SwiperSlide>
                   ))}
