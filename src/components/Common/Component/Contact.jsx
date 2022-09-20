@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { SERVER } from "../../../ServerUrls";
 import axios from "axios";
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const Contact = () => {
-  let a = 1=="contect" && 0=="Quote"
   //hooks
   const [username, setUsername] = useState("");
   const [errorsname, setErrorsName] = useState("");
@@ -96,7 +96,17 @@ const Contact = () => {
       .then((res) => {
         console.log("Insert Enquiry Res", res);
         console.log("afterrun api", res.data);
-        // window.location.reload();
+        toast.success("Request sent successfully ");
+        setTimeout(() => {
+          window.location.reload();
+        }, 2000);
+      })
+      .catch((err) => {
+        console.log("not post", err);
+        toast.error("something wrong");
+        setTimeout(() => {
+          window.location.reload();
+        }, 2000);
       });
   };
   return (
@@ -227,6 +237,7 @@ const Contact = () => {
           />
         </form>
       </div>
+      <ToastContainer />
     </div>
   );
 };

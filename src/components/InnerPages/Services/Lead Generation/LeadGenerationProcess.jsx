@@ -11,7 +11,7 @@ import processicon3 from "../../../../assets/innerpage/leadgeneration/customer_r
 import processicon4 from "../../../../assets/innerpage/leadgeneration/lead nurturing.png";
 import processicon5 from "../../../../assets/innerpage/leadgeneration/sales_transfer.png";
 import processicon6 from "../../../../assets/innerpage/leadgeneration/conversion.png";
-
+import { Flip } from "react-reveal";
 const LeadGenerationProcess = () => {
   return (
     <div>
@@ -36,11 +36,14 @@ const LeadGenerationProcess = () => {
           {/* Lead Acquistion Div */}
 
           <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
-            <img
-              src={oneicon}
-              alt="Icon One"
-              className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-            />
+            <Flip duration={3000}>
+              {" "}
+              <img
+                src={oneicon}
+                alt="Icon One"
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+              />
+            </Flip>
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
             <img
@@ -73,11 +76,14 @@ const LeadGenerationProcess = () => {
           {/* Marketing and Sales Lead Qualification Div */}
 
           <div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
-            <img
-              src={twoicon}
-              alt="Icon Two"
-              className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-            />
+            <Flip duration={3000}>
+              {" "}
+              <img
+                src={twoicon}
+                alt="Icon Two"
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+              />
+            </Flip>
           </div>
 
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
@@ -109,11 +115,14 @@ const LeadGenerationProcess = () => {
           {/* Customer Retention Div */}
 
           <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
-            <img
-              src={threeicon}
-              alt="Icon Three"
-              className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-            />
+            <Flip duration={3000}>
+              {" "}
+              <img
+                src={threeicon}
+                alt="Icon Three"
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+              />
+            </Flip>
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
             <img
@@ -141,11 +150,14 @@ const LeadGenerationProcess = () => {
           {/* Lead Nurturing Div */}
 
           <div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
-            <img
-              src={fouricon}
-              alt="Icon Four"
-              className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-            />
+            <Flip duration={3000}>
+              {" "}
+              <img
+                src={fouricon}
+                alt="Icon Four"
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+              />
+            </Flip>
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <div className="mx-auto flex flex-col text-justify">
@@ -175,11 +187,14 @@ const LeadGenerationProcess = () => {
           {/* Sales Tranfer Div */}
 
           <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
-            <img
-              src={fiveicon}
-              alt="Icon Five"
-              className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-            />
+            <Flip duration={3000}>
+              {" "}
+              <img
+                src={fiveicon}
+                alt="Icon Five"
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+              />
+            </Flip>
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
             <img
@@ -211,11 +226,13 @@ const LeadGenerationProcess = () => {
           {/* Conversion Div */}
 
           <div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
-            <img
-              src={sixicon}
-              alt="Icon Six"
-              className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-            />
+            <Flip duration={3000}>
+              <img
+                src={sixicon}
+                alt="Icon Six"
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+              />
+            </Flip>
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <div className="mx-auto flex flex-col text-justify">

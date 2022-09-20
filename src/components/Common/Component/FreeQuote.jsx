@@ -4,7 +4,8 @@ import axios from "axios";
 import { AiOutlineClose } from "react-icons/ai";
 import Contact from "./Contact";
 import imagepopup from "../../../assets/contactus/Getintuch.png";
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const FreeQuote = () => {
   // const [serviceitems, setServiceItems] = React.useState([]);
   // const [serviceId, setServiceId] = useState("");
@@ -107,6 +108,17 @@ const FreeQuote = () => {
       .then((res) => {
         console.log("Insert Enquiry Res", res);
         console.log("after Quote api", res.data);
+        toast.success("Enquiry sent successfully ");
+        setTimeout(() => {
+          window.location.reload();
+        }, 2000);
+      })
+      .catch((err) => {
+        console.log("not post", err); 
+        toast.error("something wrong");
+        setTimeout(() => {
+          window.location.reload();
+        }, 2000);
       });
 
     // document.getElementById("modal").style.display = "none";
@@ -286,6 +298,7 @@ const FreeQuote = () => {
             </div>
           </div>
         </div>
+        <ToastContainer />
       </div>
     </>
   );

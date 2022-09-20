@@ -7,7 +7,7 @@ import processicon1 from "../../../../assets/innerpage/mobiledevelopment/process
 import processicon2 from "../../../../assets/innerpage/mobiledevelopment/processimage2.png";
 import processicon3 from "../../../../assets/innerpage/mobiledevelopment/processimage3.png";
 import processicon4 from "../../../../assets/innerpage/mobiledevelopment/processimage4.png";
-
+import { Flip } from "react-reveal";
 const MobileProcess = () => {
   return (
     <div>
@@ -36,11 +36,13 @@ const MobileProcess = () => {
           {/* App Concept Div */}
 
           <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
-            <img
-              src={oneicon}
-              alt="Icon One"
-              className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-            />
+            <Flip duration={3000}>
+              <img
+                src={oneicon}
+                alt="Icon One"
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+              />
+            </Flip>
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
             <img
@@ -50,7 +52,6 @@ const MobileProcess = () => {
             />
             <div className="mx-auto flex flex-col text-justify">
               <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
-                {" "}
                 App Concept
               </h1>
               <p className="font-content md:text-lg text-sm col-span-2">
@@ -72,11 +73,14 @@ const MobileProcess = () => {
           {/* Understanding the Requirement Div */}
 
           <div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
-            <img
-              src={twoicon}
-              alt="Icon Two"
-              className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-            />
+            <Flip duration={3000}>
+              {" "}
+              <img
+                src={twoicon}
+                alt="Icon Two"
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+              />
+            </Flip>
           </div>
 
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
@@ -102,11 +106,14 @@ const MobileProcess = () => {
           {/* Agile App Development Div */}
 
           <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
-            <img
-              src={threeicon}
-              alt="Icon Three"
-              className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-            />
+            <Flip duration={3000}>
+              {" "}
+              <img
+                src={threeicon}
+                alt="Icon Three"
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+              />
+            </Flip>
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
             <img
@@ -131,11 +138,14 @@ const MobileProcess = () => {
           {/* Deployment App Div */}
 
           <div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
-            <img
-              src={fouricon}
-              alt="Icon Four"
-              className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-            />
+            <Flip duration={3000}>
+              {" "}
+              <img
+                src={fouricon}
+                alt="Icon Four"
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+              />
+            </Flip>
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <div className="mx-auto flex flex-col text-justify">

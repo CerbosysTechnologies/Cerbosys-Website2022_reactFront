@@ -9,6 +9,9 @@ import place from "../../../../assets/Careerpage/ic_place_24px.svg";
 import description from "../../../../assets/Careerpage/ic_description_24px.svg";
 import { AiOutlineClose } from "react-icons/ai";
 import vacancy from "../../../../assets/Careerpage/job800500.svg";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 const CurrentOpeningBody = () => {
   const ModalPotion = () => {
     document.getElementById("ModalPotion").style.display = "block";
@@ -48,7 +51,6 @@ const CurrentOpeningBody = () => {
   const [errorscontact, setErrorsContact] = useState("");
   const [serviceId, setServiceId] = useState("");
 
-
   const IMG = "https://cerbosys.in:3700/job_post/";
   const [Job, setJob] = useState([]);
 
@@ -70,38 +72,6 @@ const CurrentOpeningBody = () => {
     getData();
   }, []);
 
-  // post api
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    var formdata = new FormData();
-    formdata.append("positionapplied", position);
-    formdata.append("fullname", username);
-    formdata.append("email", email);
-    formdata.append("mobilenumber", contactNumber);
-    formdata.append("resume", jobicons);
-    formdata.append("coverletter", CoverLeter);
-    formdata.append("resume_description", desc);
-    console.log(formdata);
-    fetch(SERVER + "//insertCareer", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      mode: "no-cors",
-
-      body: formdata,
-    })
-      .then((res) =>
-        res.json().then((formdata) => {
-          console.log("Response", formdata);
-          alert("job Succefully Add");
-          console.log(formdata);
-        })
-      )
-      .catch((err) => {
-        console.log("not post");
-      });
-  };
   // Job post section for tak value and  and set value in state  with validation
   const onchangeFullName = (e) => {
     const username = e.target.value.replace(/[^a-z]/gi, " ");
@@ -121,7 +91,6 @@ const CurrentOpeningBody = () => {
     const contactNumber = e.target.value.replace(/([^0-9])+/i, "");
     setContactNumber(contactNumber);
     console.log(contactNumber);
-
     // (contact.length < 10 || contact.length > 10)
     if (contactNumber.length < 10) {
       setErrorsContact("Enter valid Contact");
@@ -143,11 +112,11 @@ const CurrentOpeningBody = () => {
     }
   };
   const onchangeResume = (e) => {
-    const icons = e.target.files[0];
-    console.log("jobIcon", icons);
-    setJobIcon(icons);
-    if (icons) {
-      setErroricon("provide job icon");
+    const jobicons = e.target.files[0];
+    console.log("jobIcon", jobicons);
+    setJobIcon(jobicons);
+    if (jobicons) {
+      setErroricon("provide job Resume");
       setErroricons(true);
     } else {
       setErroricon(false);
@@ -155,10 +124,10 @@ const CurrentOpeningBody = () => {
   };
   const onchangeCoverLeter = (e) => {
     const CoverLeter = e.target.files[0];
-    console.log("jobIcon", CoverLeter);
+    console.log("CoverLeter", CoverLeter);
     setCoverLeter(CoverLeter);
     if (CoverLeter) {
-      setErroricon("provide job icon");
+      setErroricon("provide job CoverLeter");
       setErroricons(true);
     } else {
       setErroricon(false);
@@ -167,12 +136,49 @@ const CurrentOpeningBody = () => {
   const onchangeDesc = (e) => {
     const desc = e.target.value;
     setDesc(desc);
+    console.log(desc);
+
     if (desc.length < 10) {
       setErrorsdesc("Enter minimum 10 word in Description");
       setErrorsdes(true);
     } else {
       setErrorsdes(false);
     }
+  };
+  // post api
+
+  const handleSubmit = (e) => {
+    console.log(formdata);
+    e.preventDefault();
+    var formdata = new FormData();
+    formdata.append("positionapplied", position);
+    formdata.append("fullname", username);
+    formdata.append("email", email);
+    formdata.append("mobilenumber", contactNumber);
+    formdata.append("resume", jobicons);
+    formdata.append("coverletter", CoverLeter);
+    formdata.append("resume_description", desc);
+    console.log("befor ", formdata);
+    fetch(SERVER + "/insertCareer", {
+      method: "post",
+      body: formdata,
+    })
+      .then((res) =>
+        res.json().then((formdata) => {
+          console.log("Response", formdata);
+          toast.success("Apply  Succefully ");
+          setTimeout(() => {
+            window.location.reload();
+          }, 1000);
+        })
+      )
+      .catch((err) => {
+        console.log("not post", err);
+        toast.error("something wrong");
+        setTimeout(() => {
+          window.location.reload();
+        }, 1000);
+      });
   };
 
   return (
@@ -188,7 +194,6 @@ const CurrentOpeningBody = () => {
           <div className="flex flex-wrap mt-10  justify-between">
             {Job ? (
               Job.map((item, index) => {
-           
                 return (
                   <div className="mx-2 mt-5">
                     <a
@@ -198,8 +203,8 @@ const CurrentOpeningBody = () => {
                       <h5
                         className="mb-2 text-2xl font-heading tracking-tight text-gray-500
               uppercase text-center"
-                      key={index}>
-                        
+                        key={index}
+                      >
                         {item.jobposition}
                       </h5>
                       <p className="font-content text-gray-700 text-justify mt-5 mb-10">
@@ -420,7 +425,7 @@ const CurrentOpeningBody = () => {
             aria-modal="true"
             aria-labelledby="modal-headline"
           >
-           <div className="grid md:grid-cols-2 md:mb-4 md:mt-5 mt-5 md:h-1/2 overflow-auto">
+            <div className="grid md:grid-cols-2 md:mb-4 md:mt-5 mt-5 md:h-1/2 overflow-auto">
               <div className="mx-10 hidden md:block">
                 <img src={vacancy} alt="" className="h-full w-screen" />
               </div>
@@ -488,7 +493,7 @@ const CurrentOpeningBody = () => {
                       // onChange={(e) => setContactNumber(e.target.value)}
                       value={contactNumber}
                       onChange={onchangeContact}
-                      // maxLength="10"
+                      maxLength="10"
                     />
                     {errorscon && (
                       <div className="text-left text-red-500">
@@ -578,6 +583,7 @@ const CurrentOpeningBody = () => {
                   >
                     Submit
                   </button>
+                  <ToastContainer />
                 </div>
               </div>
             </div>

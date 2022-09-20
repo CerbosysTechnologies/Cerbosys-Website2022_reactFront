@@ -18,7 +18,7 @@ const WebDevelopment = () => {
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
           
           <p className="text-white font-heading py-2 md:text-3xl text-xl mb-2">
-            Web Design and Development 
+            Web Design and Development
           </p>
 
           <p className="text-white font-heading py-2 md:text-xs text-xs mb-8 ">

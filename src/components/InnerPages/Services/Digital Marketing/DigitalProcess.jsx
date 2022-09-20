@@ -1,4 +1,5 @@
 import React from "react";
+import { Flip } from "react-reveal";
 import oneicon from "../../../../assets/innerpage/digitalmarketing/1.svg";
 import twoicon from "../../../../assets/innerpage/digitalmarketing/2.svg";
 import threeicon from "../../../../assets/innerpage/digitalmarketing/3.svg";
@@ -37,11 +38,13 @@ const MobileProcess = () => {
           {/* Research Div */}
 
           <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
-            <img
-              src={oneicon}
-              alt="Icon One"
-              className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-            />
+            <Flip duration={3000}>
+              <img
+                src={oneicon}
+                alt="Icon One"
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+              />
+            </Flip>
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
             <img
@@ -71,11 +74,14 @@ const MobileProcess = () => {
           {/* Create Div */}
 
           <div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
-            <img
-              src={twoicon}
-              alt="Icon Two"
-              className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-            />
+            <Flip duration={3000}>
+              {" "}
+              <img
+                src={twoicon}
+                alt="Icon Two"
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+              />
+            </Flip>
           </div>
 
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
@@ -105,11 +111,13 @@ const MobileProcess = () => {
           {/* Promote Div */}
 
           <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
-            <img
-              src={threeicon}
-              alt="Icon Three"
-              className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-            />
+            <Flip duration={3000}>
+              <img
+                src={threeicon}
+                alt="Icon Three"
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+              />
+            </Flip>
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
             <img
@@ -137,11 +145,14 @@ const MobileProcess = () => {
           {/* Analyze Div */}
 
           <div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
-            <img
-              src={fouricon}
-              alt="Icon Four"
-              className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-            />
+            <Flip duration={3000}>
+              {" "}
+              <img
+                src={fouricon}
+                alt="Icon Four"
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+              />
+            </Flip>
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <div className="mx-auto flex flex-col text-justify">
@@ -170,11 +181,14 @@ const MobileProcess = () => {
           {/* Optimize Div */}
 
           <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
-            <img
-              src={fiveicon}
-              alt="Icon Five"
-              className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-            />
+            <Flip duration={3000}>
+              {" "}
+              <img
+                src={fiveicon}
+                alt="Icon Five"
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+              />
+            </Flip>
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
             <img

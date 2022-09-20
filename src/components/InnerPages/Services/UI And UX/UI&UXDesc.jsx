@@ -1,13 +1,14 @@
 import React from "react";
 import uiuximageicon from "../../../../assets/innerpage/ui and ux/uiuximage.png";
 import uiandux_articon from "../../../../assets/innerpage/ui and ux/illustrator.svg";
-
+import {Bounce} from 'react-reveal'
 const UIAndUXDesc = () => {
   return (
     <div>
       <div className="bg-Service mx-auto w-full py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
           {/* First Section */}
+          <Bounce duration={3000}>
           <div className="grid md:grid-cols-2">
             {/* Content Section */}
             <div className="mx-auto flex flex-col md:px-24 px-14 text-justify">
@@ -32,11 +33,13 @@ const UIAndUXDesc = () => {
              w-[18rem] mt-8"
             />
             {/* Image Section Ends*/}
-          </div>
+          </div></Bounce>
           {/* Grid Div */}
           {/* First Section Ends */}
 
           {/* Second Section */}
+          <Bounce duration={3000}>
+
           <div className="grid md:grid-cols-2 bg-Primary mt-8 rounded-3xl gap-2">
             {/* Image Section */}
             <img
@@ -67,6 +70,7 @@ const UIAndUXDesc = () => {
             </div>
             {/* Content Section Ends*/}
           </div>
+</Bounce>
           {/* Grid Div */}
           {/* Second Section Ends */}
         </div>

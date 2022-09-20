@@ -9,7 +9,7 @@ import processicon2 from "../../../../assets/innerpage/ui and ux/define.png";
 import processicon3 from "../../../../assets/innerpage/ui and ux/ideate.png";
 import processicon4 from "../../../../assets/innerpage/ui and ux/prototype.png";
 import processicon5 from "../../../../assets/innerpage/ui and ux/test.png";
-
+import { Flip } from "react-reveal";
 const UIAndUXProcess = () => {
   return (
     <div>
@@ -34,11 +34,13 @@ const UIAndUXProcess = () => {
           {/* Empathize Div */}
 
           <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
-            <img
-              src={oneicon}
-              alt="Icon One"
-              className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-            />
+            <Flip duration={3000}>
+              <img
+                src={oneicon}
+                alt="Icon One"
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+              />
+            </Flip>
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
             <img
@@ -65,11 +67,13 @@ const UIAndUXProcess = () => {
           {/* Define  Div */}
 
           <div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
-            <img
-              src={twoicon}
-              alt="Icon Two"
-              className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-            />
+            <Flip duration={3000}>
+              <img
+                src={twoicon}
+                alt="Icon Two"
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+              />
+            </Flip>
           </div>
 
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
@@ -97,11 +101,13 @@ const UIAndUXProcess = () => {
           {/* Ideate Div */}
 
           <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
-            <img
-              src={threeicon}
-              alt="Icon Three"
-              className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-            />
+            <Flip duration={3000}>
+              <img
+                src={threeicon}
+                alt="Icon Three"
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+              />
+            </Flip>
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
             <img
@@ -128,11 +134,13 @@ const UIAndUXProcess = () => {
           {/* Prototype Div */}
 
           <div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
-            <img
-              src={fouricon}
-              alt="Icon Four"
-              className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-            />
+            <Flip duration={3000}>
+              <img
+                src={fouricon}
+                alt="Icon Four"
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+              />
+            </Flip>
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <div className="mx-auto flex flex-col text-justify">
@@ -159,11 +167,13 @@ const UIAndUXProcess = () => {
           {/* Test Div */}
 
           <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
-            <img
-              src={fiveicon}
-              alt="Icon Five"
-              className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-            />
+            <Flip duration={3000}>
+              <img
+                src={fiveicon}
+                alt="Icon Five"
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+              />
+            </Flip>
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
             <img
