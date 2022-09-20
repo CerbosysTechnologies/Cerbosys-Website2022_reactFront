@@ -9,7 +9,7 @@ const Net = () => {
     <div>
       <>
       <Navbar />
-        <div className="mx-auto w-full md:h-[60rem] h-96 py-12 px-4 bg-Netheader">
+        <div className="mx-auto w-full md:h-[60rem] h-96 py-12 px-4 bg-DotNetHeader bg-contain">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
             <p className="text-black font-heading py-2 md:text-3xl text-xl mb-2">

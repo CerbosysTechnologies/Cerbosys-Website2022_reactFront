@@ -46,7 +46,7 @@ module.exports = {
       RealEstateHeader:"url('assets/innerpage/realestate/realestateheader.svg')",
       EducationHeader:"url('assets/innerpage/education/educationheader.svg')",      
       ManufacturingHeader:"url('assets/innerpage/manufacturing/manufacturingheader.svg')",
-      Netheader:"url('assets/innerpage/net/node.jsheader.svg')"
+      DotNetHeader:"url('assets/innerpage/net/node.jsheader.png')"
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],
