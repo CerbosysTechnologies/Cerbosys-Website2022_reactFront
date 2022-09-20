@@ -1,8 +1,17 @@
 import React from 'react'
+import Navbar from '../../../../../Navbar/Navbar'
 
 const Android = () => {
   return (
-    <div>Android</div>
+    <div>
+      <>
+        <Navbar />
+        <div className="  w-full h-96   bg-DotNetHeader"  >     
+      
+      
+      DotNet</div>
+      </>
+    </div>
   )
 }
 

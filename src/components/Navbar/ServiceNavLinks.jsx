@@ -100,7 +100,7 @@ const NavLinks = () => {
                       <li><Link to="/Laravel">Hire Laravel Developer</Link></li>
                       <li><Link to="/CodeIgniter">Hire Code Igniter Developer</Link></li>
                       <li><Link to="/Angular">Hire Angular Developer</Link></li>
-                      <li><Link to="/Net">Hire .Net Developer</Link></li>
+                      <li><Link to="/DotNet">Hire .Net Developer</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -205,7 +205,7 @@ const NavLinks = () => {
                       <li><Link to="/Laravel">Hire Laravel Developer</Link></li>
                       <li><Link to="/CodeIgniter">Hire Code Igniter Developer</Link></li>
                       <li><Link to="/Angular">Hire Angular Developer</Link></li>
-                      <li><Link to="/Net">Hire .Net Developer</Link></li>
+                      <li><Link to="/DotNet">Hire .Net Developer</Link></li>
                     </ul>
                   </div>
                 </div>
