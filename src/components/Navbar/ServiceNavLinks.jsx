@@ -92,15 +92,15 @@ const NavLinks = () => {
                       <Link to="/StaffAugmentation">Staff Augmentation</Link>
                     </h1>
                     <ul className="text-sm font-subheading list-inside list-disc capitalize">
-                      <li>Hire Reacjs Developer</li>
-                      <li>Hire Node.js Developer</li>
-                      <li>Hire Android Developer</li>
-                      <li>Hire IOS Developer</li>
-                      <li>Hire Flutter Developer</li>
-                      <li>Hire Laravel Developer</li>
-                      <li>Hire Code Igniter Developer</li>
-                      <li>Hire Angular Developer</li>
-                      <li>Hire .Net Developer</li>
+                    <li><Link to="/Reactjs">Hire Reacjs Developer</Link></li>
+                      <li><Link to="/Nodejs">Hire Node.js Developer</Link></li>
+                      <li><Link to="/Android">Hire Android Developer</Link></li>
+                      <li><Link to="/IOS">Hire IOS Developer</Link></li>
+                      <li><Link to="/Flutter">Hire Flutter Developer</Link></li>
+                      <li><Link to="/Laravel">Hire Laravel Developer</Link></li>
+                      <li><Link to="/CodeIgniter">Hire Code Igniter Developer</Link></li>
+                      <li><Link to="/Angular">Hire Angular Developer</Link></li>
+                      <li><Link to="/Net">Hire .Net Developer</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -197,15 +197,15 @@ const NavLinks = () => {
                   <div className="mt-[5px]">
                     <h1 className="font-heading text-sm">Staff Augmentation</h1>
                     <ul className="text-sm font-subheading list-inside list-disc">
-                      <li>Hire Reacjs Developer</li>
-                      <li>Hire Node.js Developer</li>
-                      <li>Hire Android Developer</li>
-                      <li>Hire IOS Developer</li>
-                      <li>Hire Flutter Developer</li>
-                      <li>Hire Laravel Developer</li>
-                      <li>Hire Code Igniter Developer</li>
-                      <li>Hire Angular Developer</li>
-                      <li>Hire .Net Developer</li>
+                      <li><Link to="/Reactjs">Hire Reacjs Developer</Link></li>
+                      <li><Link to="/Nodejs">Hire Node.js Developer</Link></li>
+                      <li><Link to="/Android">Hire Android Developer</Link></li>
+                      <li><Link to="/IOS">Hire IOS Developer</Link></li>
+                      <li><Link to="/Flutter">Hire Flutter Developer</Link></li>
+                      <li><Link to="/Laravel">Hire Laravel Developer</Link></li>
+                      <li><Link to="/CodeIgniter">Hire Code Igniter Developer</Link></li>
+                      <li><Link to="/Angular">Hire Angular Developer</Link></li>
+                      <li><Link to="/Net">Hire .Net Developer</Link></li>
                     </ul>
                   </div>
                 </div>

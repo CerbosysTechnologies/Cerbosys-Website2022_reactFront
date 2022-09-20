@@ -27,6 +27,7 @@ import Transport from "./components/InnerPages/Industries/Transportation/Transpo
 import Education from "./components/InnerPages/Industries/Education/Education";
 import RealEstate from "./components/InnerPages/Industries/RealEstate/RealEstate";
 import Manufacturing from "./components/InnerPages/Industries/Manufacuring/Manufacturing";
+import Net from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/.Net/Net";
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
         <Route path="/Education" element={<Education />} />
         <Route path="/RealEstate" element={<RealEstate />} />
         <Route path="/Manufacturing" element={<Manufacturing />} />
+        <Route path="/Net" element={<Net />} />
       </Routes>
       <ScrollToTop />
     </>

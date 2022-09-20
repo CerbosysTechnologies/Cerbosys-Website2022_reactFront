@@ -44,8 +44,9 @@ module.exports = {
       MiningHeader:"url('assets/innerpage/mining/miningheader.svg')",
       TransportHeader:"url('assets/innerpage/transport/transportheader.svg')",
       RealEstateHeader:"url('assets/innerpage/realestate/realestateheader.svg')",
-      EducationHeader:"url('assets/innerpage/education/educationheader.svg')",
+      EducationHeader:"url('assets/innerpage/education/educationheader.svg')",      
       ManufacturingHeader:"url('assets/innerpage/manufacturing/manufacturingheader.svg')",
+      Netheader:"url('assets/innerpage/net/node.jsheader.svg')"
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],
