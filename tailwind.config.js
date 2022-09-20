@@ -44,8 +44,10 @@ module.exports = {
       MiningHeader:"url('assets/innerpage/mining/miningheader.svg')",
       TransportHeader:"url('assets/innerpage/transport/transportheader.svg')",
       RealEstateHeader:"url('assets/innerpage/realestate/realestateheader.svg')",
-      EducationHeader:"url('assets/innerpage/education/educationheader.svg')",
+      EducationHeader:"url('assets/innerpage/education/educationheader.svg')",      
       ManufacturingHeader:"url('assets/innerpage/manufacturing/manufacturingheader.svg')",
+      DotNetHeader:"url('assets/innerpage/dotnet/netheder.svg')",
+      heropattern: "url('assets/innerpage/dotnet/hire.jpg')",
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],
