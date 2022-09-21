@@ -11,8 +11,10 @@ import RubberBand from "react-reveal/RubberBand";
 import Slide from "react-reveal/Slide";
 import Bounce from "react-reveal/Bounce";
 import Flip from "react-reveal/Flip";
+import { handelRightClick } from "../../components/Common/utils/Desbalrightclick";
 
 const ServiceHomePage = () => {
+  // document.removeEventListener("contextmenu", handelRightClick);
   return (
     <div>
       {/* Header Part */}
@@ -190,7 +192,11 @@ const ServiceHomePage = () => {
             </Bounce>
 
             <div className="md:col-span-2 col-span-1">
-              <img src={quoteicon} className="md:mx-16 md:w-[40rem] md:h-96 mb-10 -mt-10" alt="Quote"></img>
+              <img
+                src={quoteicon}
+                className="md:mx-16 md:w-[40rem] md:h-96 mb-10 -mt-10"
+                alt="Quote"
+              ></img>
             </div>
           </div>
         </div>

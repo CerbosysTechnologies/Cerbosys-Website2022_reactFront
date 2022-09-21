@@ -1,3 +1,5 @@
 export const classNames = (...classes) => {
-    return classes.filter(Boolean).join(' ')
-  }
+  return classes.filter(Boolean).join(" ");
+};
+
+

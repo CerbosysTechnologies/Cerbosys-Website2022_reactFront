@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import imagepopup from "../../../assets/contactus/Getintuch.png";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Thankumodal from "./Thankumodal";
 const FreeQuote = () => {
   // const [serviceitems, setServiceItems] = React.useState([]);
   // const [serviceId, setServiceId] = useState("");
@@ -108,13 +109,10 @@ const FreeQuote = () => {
       .then((res) => {
         console.log("Insert Enquiry Res", res);
         console.log("after Quote api", res.data);
-        toast.success("Enquiry sent successfully ");
-        setTimeout(() => {
-          window.location.reload();
-        }, 2000);
+        document.getElementById("Thankyou").style.display = "block";
       })
       .catch((err) => {
-        console.log("not post", err); 
+        console.log("not post", err);
         toast.error("something wrong");
         setTimeout(() => {
           window.location.reload();
@@ -142,7 +140,7 @@ const FreeQuote = () => {
       </div>
 
       <div
-        class="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden"
+        className="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden"
         id="modal"
       >
         <div className="flex items-center justify-center max-height-100vh pt-4 px-4 pb-20 text-center sm:block sm:p-0">
@@ -298,6 +296,8 @@ const FreeQuote = () => {
             </div>
           </div>
         </div>
+        <Thankumodal />
+
         <ToastContainer />
       </div>
     </>

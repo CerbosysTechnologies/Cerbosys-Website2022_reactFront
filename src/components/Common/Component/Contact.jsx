@@ -3,6 +3,7 @@ import { SERVER } from "../../../ServerUrls";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Thankumodal from "./Thankumodal";
 const Contact = () => {
   //hooks
   const [username, setUsername] = useState("");
@@ -96,10 +97,12 @@ const Contact = () => {
       .then((res) => {
         console.log("Insert Enquiry Res", res);
         console.log("afterrun api", res.data);
-        toast.success("Request sent successfully ");
-        setTimeout(() => {
-          window.location.reload();
-        }, 2000);
+        document.getElementById("Thankyou").style.display = "block";
+
+        // toast.success("Request sent successfully ");
+        // setTimeout(() => {
+        //   window.location.reload();
+        // }, 2000);
       })
       .catch((err) => {
         console.log("not post", err);
@@ -109,6 +112,7 @@ const Contact = () => {
         }, 2000);
       });
   };
+
   return (
     <div>
       <div className="bg-white md:px-1 items-center justify-center text-center">
@@ -237,6 +241,7 @@ const Contact = () => {
           />
         </form>
       </div>
+      <Thankumodal />
       <ToastContainer />
     </div>
   );

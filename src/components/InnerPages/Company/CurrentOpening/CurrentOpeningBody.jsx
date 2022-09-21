@@ -11,6 +11,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import vacancy from "../../../../assets/Careerpage/job800500.svg";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Thankumodal from "../../../Common/Component/Thankumodal";
 
 const CurrentOpeningBody = () => {
   const ModalPotion = () => {
@@ -166,18 +167,11 @@ const CurrentOpeningBody = () => {
       .then((res) =>
         res.json().then((formdata) => {
           console.log("Response", formdata);
-          toast.success("Apply  Succefully ");
-          setTimeout(() => {
-            window.location.reload();
-          }, 1000);
+          document.getElementById("Thankyou").style.display = "block";
         })
       )
       .catch((err) => {
         console.log("not post", err);
-        toast.error("something wrong");
-        setTimeout(() => {
-          window.location.reload();
-        }, 1000);
       });
   };
 
@@ -590,6 +584,7 @@ const CurrentOpeningBody = () => {
           </div>
         </div>
       </div>
+      <Thankumodal />
     </div>
   );
 };

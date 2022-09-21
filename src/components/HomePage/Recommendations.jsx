@@ -11,7 +11,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 
-const featuredicons = [topfirmicon, goodfirmicon, clutchicon, appfuturaicon];
+// const featuredicons = [topfirmicon, goodfirmicon, clutchicon, appfuturaicon];
 
 const Recommendations = () => {
   SwiperCore.use([Autoplay]);
@@ -42,15 +42,48 @@ const Recommendations = () => {
                 disableOnInteraction: false,
               }}
             >
-              {featuredicons.map((slideContent, index) => (
-                <SwiperSlide key={slideContent} virtualIndex={index}>
+              {/* {featuredicons.map((slideContent, index) => ( */}
+              <SwiperSlide>
+                <img
+                  src={topfirmicon}
+                  alt=""
+                  className="md:w-72 md:h-72 mt-10 md:mx-4 px-2 w-80 h-80 md:mt-0 scale-100 hover:scale-125 ease-out duration-500"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <a href="https://www.goodfirms.co/company/cerbosys-technologies-inc">
                   <img
-                    src={slideContent}
+                    src={goodfirmicon}
                     alt=""
-                    className="md:w-72 md:h-72 mt-10 md:mx-4 px-2 w-80 h-80 md:mt-0 -mt-10"
+                    className="md:w-72 md:h-72 mt-10 md:mx-4 px-2 w-80 h-80 md:mt-0 scale-100 hover:scale-125 ease-out duration-500"
                   />
-                </SwiperSlide>
-              ))}
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                <a
+                  href="https://clutch.co/profile/cerbosys-technologies#summary"
+                  target="_blank"
+                >
+                  <img
+                    src={clutchicon}
+                    alt=""
+                    className="md:w-72 md:h-72 mt-10 md:mx-4 px-2 w-80 h-80 md:mt-0 scale-100 hover:scale-125 ease-out duration-500"
+                  />{" "}
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                <a
+                  href="https://www.appfutura.com/companies/cerbosys-technologies"
+                  target="_blank"
+                >
+                  <img
+                    src={appfuturaicon}
+                    alt=""
+                    className="md:w-72 md:h-72 mt-10 md:mx-4 px-2 w-80 h-80 md:mt-0 scale-100 hover:scale-125 ease-out duration-500"
+                  />
+                </a>
+              </SwiperSlide>
+              {/* ))} */}
             </Swiper>
           </div>
           {/* Slider Div Ends*/}
