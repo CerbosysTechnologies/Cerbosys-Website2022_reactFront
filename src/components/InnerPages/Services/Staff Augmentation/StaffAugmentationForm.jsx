@@ -40,7 +40,7 @@ const StaffAugmentationForm = ({onChangeSelected}) => {
               {/* Image Section Ends*/}
 
               {/* Form Section */}
-              <div className="bg-white md:px-14 px-10 items-center justify-center text-center ">
+              <div className="bg-white md:px-10 px-8 items-center justify-center text-center ">
               <ServicesForm onChangeSelected={onChangeSelection}/>
                 </div>
               {/* Form Section Ends*/}

@@ -3,6 +3,10 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}"
   ],
+  
+  corePlugins: {
+     userSelect: false,
+  },
   theme: {
     extend: {
       colors: {
@@ -47,7 +51,8 @@ module.exports = {
       EducationHeader:"url('assets/innerpage/education/educationheader.svg')",      
       ManufacturingHeader:"url('assets/innerpage/manufacturing/manufacturingheader.svg')",
       DotNetHeader:"url('assets/innerpage/dotnet/netheder.svg')",
-      heropattern: "url('assets/innerpage/dotnet/hire.jpg')",
+      AndroidHeader:"url('assets/innerpage/android/androidheader.svg')"
+      
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],
