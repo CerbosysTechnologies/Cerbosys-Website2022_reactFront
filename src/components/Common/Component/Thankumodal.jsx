@@ -1,11 +1,11 @@
-import React from 'react'
-import tickicon from '../../../assets/tick.svg'
+import React from "react";
+import tickicon from "../../../assets/tick.svg";
+import Thankyou from "../../../assets/contactus/Thank you page.png";
 
 const Thankumodal = () => {
   return (
     <div>
-
-{/* <div id="popup-modal" tabindex="-1" class="overflow-y-auto overflow-x-hidden 
+      {/* <div id="popup-modal" tabindex="-1" class="overflow-y-auto overflow-x-hidden 
 fixed top-0 right-0 left-0 z-50 md:inset-0 h-modal md:h-full justify-center items-center flex" 
 aria-modal="true" role="dialog">
     <div class="relative p-4 w-full max-w-md h-full md:h-auto">
@@ -26,9 +26,7 @@ aria-modal="true" role="dialog">
     </div>
 </div> */}
 
-
-
-<div className="modal px-10 py-10 fade fixed top-0 left-0 w-full h-full outline-none overflow-x-hidden overflow-y-auto backdrop-blur-sm bg-black/60 backdrop-brightness-125 backdrop-contrast-50" 
+      {/* <div className="modal px-10 py-10 fade fixed top-0 left-0 w-full h-full outline-none overflow-x-hidden overflow-y-auto backdrop-blur-sm bg-black/60 backdrop-brightness-125 backdrop-contrast-50" 
 id="exampleModalLg" tabindex="-1" aria-labelledby="exampleModalLgLabel" aria-modal="true" role="dialog">
   
   <div className="modal-dialog modal-lg relative w-auto pointer-events-none">
@@ -48,14 +46,43 @@ id="exampleModalLg" tabindex="-1" aria-labelledby="exampleModalLgLabel" aria-mod
       </div>
     </div>
   </div>
-</div>
+</div> */}
 
+      <div
+        className="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden"
+        id="Thankyou"
+      >
+        <div className="flex items-center justify-center max-height-100vh pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+          <div className="fixed inset-0 transition-opacity">
+            <div className="absolute inset-0 bg-gray-900 opacity-75" />
+          </div>
+          <span className="hidden sm:inline-block sm:align-middle sm:h-screen">
+            &#8203;
+          </span>
 
-
-
-
+          {/* To open contact form */}
+          <div
+            className="inline-block 
+             justify-center
+             justify-items-center
+        
+      
+            rounded-lg text-left shadow-xl transform transition-all  "
+          >
+            <div className=" md:mt-40 mt-40 md:p-0 pr-10     ">
+              <a href="/">
+                <img
+                  src={Thankyou}
+                  alt=""
+                  className="object-fill  md:h-[400px] md:w-[600px] rounded-lg"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Thankumodal
+export default Thankumodal;

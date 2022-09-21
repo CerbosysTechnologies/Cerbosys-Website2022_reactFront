@@ -29,8 +29,11 @@ import RealEstate from "./components/InnerPages/Industries/RealEstate/RealEstate
 import Manufacturing from "./components/InnerPages/Industries/Manufacuring/Manufacturing";
 import DotNet from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/.Net/DotNet";
 import Android from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Android/Android";
+import { handelRightClick } from "../src/components/Common/utils/Desbalrightclick";
+import CaseStudy from "./components/Common/Component/CaseStudy";
 
 function App() {
+  document.addEventListener("contextmenu", handelRightClick);
   return (
     <>
       <FreeQuote />
@@ -51,7 +54,10 @@ function App() {
         <Route path="/CurrentOpening" element={<CurrentOpening />} />
         <Route path="/Diversity" element={<Diversity />} />
         <Route path="/ContactUs" element={<ContactUs />} />
-        <Route path="/TrainingAndDevelopment" element={<TrainingAndDevelopment />} />
+        <Route
+          path="/TrainingAndDevelopment"
+          element={<TrainingAndDevelopment />}
+        />
         <Route path="/LifeCerbosys" element={<LifeCerbosys />} />
         <Route path="/Testimonial" element={<Testimonial />} />
         <Route path="/Agriculture" element={<Agriculture />} />
@@ -65,6 +71,7 @@ function App() {
         <Route path="/Manufacturing" element={<Manufacturing />} />
         <Route path="/DotNet" element={<DotNet />} />
         <Route path="/Android" element={<Android />} />
+        <Route path="/CaseStudy" element={<CaseStudy />} />
       </Routes>
       <ScrollToTop />
     </>

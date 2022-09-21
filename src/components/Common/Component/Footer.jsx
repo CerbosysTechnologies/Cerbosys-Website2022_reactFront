@@ -117,18 +117,61 @@ const Footer = () => {
                 </h1>
 
                 <ul className="text-white font-subheading text-xs">
-                  <li className=""><Link to="/Agriculture">Agriculture</Link></li>
-                  <li className=""><Link to="/Ecommerce">Ecommerce And Retail</Link></li>
-                  <li className=""><Link to="/HealthCare">Healthcare And Life Science</Link></li>
-                  <li className=""><Link to="/Banking">Banking And Finance</Link></li>
-                  <li className=""><Link to="/Mining">Mining</Link></li>
-                  <li className=""><Link to="/Transport">Transport And Logistics</Link></li>
-                  <li className=""><Link to="">Education</Link></li>
-                  <li className=""><Link to="">Real Estate And Construction</Link></li>
-                  <li className=""><Link to="">Manufacturing</Link></li>
+                  <li className="">
+                    <Link to="/Agriculture">Agriculture</Link>
+                  </li>
+                  <li className="">
+                    <Link to="/Ecommerce">Ecommerce And Retail</Link>
+                  </li>
+                  <li className="">
+                    <Link to="/HealthCare">Healthcare And Life Science</Link>
+                  </li>
+                  <li className="">
+                    <Link to="/Banking">Banking And Finance</Link>
+                  </li>
+                  <li className="">
+                    <Link to="/Mining">Mining</Link>
+                  </li>
+                  <li className="">
+                    <Link to="/Transport">Transport And Logistics</Link>
+                  </li>
+                  <li className="">
+                    <Link to="">Education</Link>
+                  </li>
+                  <li className="">
+                    <Link to="">Real Estate And Construction</Link>
+                  </li>
+                  <li className="">
+                    <Link to="">Manufacturing</Link>
+                  </li>
                 </ul>
               </div>
               {/* Industry Div Ends*/}
+              {/* Quick Links  Div */}
+              <div className="">
+                <h6 className="font-heading text-sm md:text-lg text-white uppercase mb-3 md:px-0 ">
+                  Explore
+                </h6>
+                <ul className="text-white font-subheading text-xs ">
+                  <li className="">
+                    <Link to="/CaseStudy">Whitepapers</Link>
+                  </li>
+                  <li className="">
+                    <Link to="">Case Study</Link>
+                  </li>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br> <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                </ul>
+              </div>
+              {/* Quick Links Div Ends*/}
 
               {/* Fourth Column Ends */}
             </div>
@@ -137,7 +180,7 @@ const Footer = () => {
           {/* Grid Div Ends */}
 
           {/* Contact Us Div */}
-          <div className="mt-5">
+          <div className="mt-5 ">
             <h6 className="font-heading text-lg text-white uppercase grid grid-flow-row mb-3">
               Contact Us
             </h6>
@@ -167,7 +210,7 @@ const Footer = () => {
                 className="mr-3"
               ></img>
               <span className="font-subheading text-sm text-white">
-              999-999-2892, &nbsp;88-3969-7183 
+                999-999-2892, &nbsp;88-3969-7183
               </span>
             </div>
 
@@ -215,7 +258,7 @@ const Footer = () => {
         <div className="font-heading text-center text-white md:text-sm text-xs">
           &copy; Cerbosys Technologies Inc.
           <br></br> All rights reserved
-                  </div>
+        </div>
         {/* Max Width Div Ends */}
       </div>
     </div>
