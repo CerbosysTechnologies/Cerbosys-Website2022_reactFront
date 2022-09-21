@@ -29,8 +29,11 @@ import RealEstate from "./components/InnerPages/Industries/RealEstate/RealEstate
 import Manufacturing from "./components/InnerPages/Industries/Manufacuring/Manufacturing";
 import DotNet from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/.Net/DotNet";
 import Android from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Android/Android";
-import { handelRightClick } from "../src/components/Common/utils/Desbalrightclick";
-import CaseStudy from "./components/Common/Component/CaseStudy";
+import Angular from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Angular/Angular";
+import CodeIgniter from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/CodeIgniter/CodeIgniter";
+import Flutter from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Flutter/Flutter";
+import IOS from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/IOS/IOS";
+
 
 function App() {
   document.addEventListener("contextmenu", handelRightClick);
@@ -71,7 +74,10 @@ function App() {
         <Route path="/Manufacturing" element={<Manufacturing />} />
         <Route path="/DotNet" element={<DotNet />} />
         <Route path="/Android" element={<Android />} />
-        <Route path="/CaseStudy" element={<CaseStudy />} />
+        <Route path="/Angular" element={<Angular />} />
+        <Route path="/CodeIgniter" element={<CodeIgniter />} />
+        <Route path="/Flutter" element={<Flutter />} />
+        <Route path="/IOS" element={<IOS />} />
       </Routes>
       <ScrollToTop />
     </>
