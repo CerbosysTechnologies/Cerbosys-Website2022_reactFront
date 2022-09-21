@@ -51,7 +51,11 @@ module.exports = {
       EducationHeader:"url('assets/innerpage/education/educationheader.svg')",      
       ManufacturingHeader:"url('assets/innerpage/manufacturing/manufacturingheader.svg')",
       DotNetHeader:"url('assets/innerpage/dotnet/netheder.svg')",
-      AndroidHeader:"url('assets/innerpage/android/androidheader.svg')"
+      AndroidHeader:"url('assets/innerpage/android/androidheader.svg')",
+      AngularHeader:"url('assets/innerpage/angular/angularheader.svg')",
+      CodeIgniterHeader:"url('assets/innerpage/codeigniter/codeigniterheader.svg')",
+      FlutterHeader:"url('assets/innerpage/flutter/flutterheader.svg')",
+      IOSHeader:"url('assets/innerpage/ios/iosheader.svg')",
       
     },
     fontFamily: {
