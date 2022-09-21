@@ -56,6 +56,9 @@ module.exports = {
       CodeIgniterHeader:"url('assets/innerpage/codeigniter/codeigniterheader.svg')",
       FlutterHeader:"url('assets/innerpage/flutter/flutterheader.svg')",
       IOSHeader:"url('assets/innerpage/ios/iosheader.svg')",
+      LaravelHeader:"url('assets/innerpage/laravel/laravelheader.svg')",
+      NodejsHeader:"url('assets/innerpage/nodejs/node.jsheader.svg')",
+      ReactjsHeader:"url('assets/innerpage/reactjs/reactjsheader.svg')",
       
     },
     fontFamily: {

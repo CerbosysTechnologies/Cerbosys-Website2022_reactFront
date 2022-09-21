@@ -1,5 +1,8 @@
 import React from "react";
 
+import iosimage from "../../../../../../assets/innerpage/ios/iosimage.svg";
+import iosprocess from "../../../../../../assets/innerpage/ios/ioshire.svg";
+
 const IOSBody = () => {
   return (
     <div>
@@ -7,13 +10,20 @@ const IOSBody = () => {
         <div className="max-w-[1240px] mx-auto ">
           <div className="flex flex-wrap flex-col">
             <h1 className="font-heading md:text-6xl text-2xl text-center text-Primary">
-              Hire IOS Developer
+              About IOS
             </h1>
 
+            <p className="font-subheading md:text-2xl text-sm text-justify md:mt-10">
+              There are many different types of developers, and each one
+              specializes in a different area. IOS developers are no different.
+              IOS developers build applications for the iPhone and iPad. While
+              some developers may build applications for both platforms, others
+              may specialize in one or the other.
+            </p>
             <img
-              src={angularimage}
-              alt="Dot Net Image"
-              className="md:mt-16 mt-8"
+              src={iosimage}
+              alt="IOS Image"
+              className="md:mt-16 mt-8 h-[30rem]"
             />
 
             <p className="font-subheading md:text-2xl text-sm text-justify md:mt-10">
@@ -32,7 +42,7 @@ const IOSBody = () => {
             <h1 className="font-heading md:text-6xl text-2xl text-center text-Primary mt-10">
               Process to Hire IOS Developer
             </h1>
-            <img src={angularprocess} alt="Dot Net Process" className="mt-16" />
+            <img src={iosprocess} alt="IOS Process" className="mt-16" />
           </div>
         </div>
       </div>

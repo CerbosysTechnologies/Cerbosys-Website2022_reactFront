@@ -10,13 +10,19 @@ const CodeIgniterBody = () => {
         <div className="max-w-[1240px] mx-auto ">
           <div className="flex flex-wrap flex-col">
             <h1 className="font-heading md:text-6xl text-2xl text-center text-Primary">
-              Hire CodeIgniter Developer
+              About CodeIgniter
             </h1>
 
+            <p className="font-subheading md:text-2xl text-sm text-justify md:mt-10">
+              Codeigniter is a powerful PHP framework that enables developers to
+              create sophisticated web applications. It is an open-source
+              framework with a large community of developers who contribute to
+              its growth and development.
+            </p>
             <img
               src={codeigniterimage}
               alt="CI Image"
-              className="md:mt-16 mt-8"
+              className="md:mt-16 mt-8 h-[30rem]"
             />
 
             <p className="font-subheading md:text-2xl text-sm text-justify md:mt-10">
@@ -24,8 +30,8 @@ const CodeIgniterBody = () => {
               come to the right place.
               <br></br>
               <br></br>
-              We hire a team of experienced Codeigniter developers who
-              can get the job done quickly and efficiently.
+              We hire a team of experienced Codeigniter developers who can get
+              the job done quickly and efficiently.
             </p>
 
             <h1 className="font-heading md:text-6xl text-2xl text-center text-Primary mt-10">

@@ -33,6 +33,10 @@ import Angular from "./components/InnerPages/Services/Staff Augmentation/StaffAu
 import CodeIgniter from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/CodeIgniter/CodeIgniter";
 import Flutter from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Flutter/Flutter";
 import IOS from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/IOS/IOS";
+import Laravel from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Laravel/Laravel";
+import Nodejs from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Nodejs/Nodejs";
+import Reactjs from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Reactjs/Reactjs";
+
 
 
 function App() {
@@ -74,6 +78,9 @@ function App() {
         <Route path="/CodeIgniter" element={<CodeIgniter />} />
         <Route path="/Flutter" element={<Flutter />} />
         <Route path="/IOS" element={<IOS />} />
+        <Route path="/Laravel" element={<Laravel />} />
+        <Route path="/Nodejs" element={<Nodejs />} />
+        <Route path="/Reactjs" element={<Reactjs />} />
       </Routes>
       <ScrollToTop />
     </>

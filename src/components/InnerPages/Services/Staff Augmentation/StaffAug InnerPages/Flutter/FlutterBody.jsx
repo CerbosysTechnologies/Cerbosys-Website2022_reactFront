@@ -10,13 +10,19 @@ const FlutterBody = () => {
         <div className="max-w-[1240px] mx-auto ">
           <div className="flex flex-wrap flex-col">
             <h1 className="font-heading md:text-6xl text-2xl text-center text-Primary">
-              Hire Flutter Developer
+              About Flutter
             </h1>
 
+            <p className="font-subheading md:text-2xl text-sm text-justify md:mt-10">
+              Flutter is a cross-platform toolkit that allows you to create
+              native-looking apps for both iOS and Android. Flutter is an
+              excellent toolkit for creating beautiful, fast, and native-looking
+              apps.
+            </p>
             <img
               src={flutterimage}
               alt="Flutter Image"
-              className="md:mt-16 mt-8"
+              className="md:mt-16 mt-8 h-[30rem]"
             />
 
             <p className="font-subheading md:text-2xl text-sm text-justify md:mt-10">

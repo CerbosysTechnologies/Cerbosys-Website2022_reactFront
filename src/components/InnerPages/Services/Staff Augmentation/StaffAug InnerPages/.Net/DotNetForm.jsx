@@ -29,7 +29,7 @@ const NetForm = () => {
             </h2>
             {/* Heading Ends */}
              {/* Form Design */}
-             <div className="grid md:grid-cols-2  mb-4  mt-10 shadow-xl shadow-gray-600">
+             <div className="grid md:grid-cols-2  mb-4  mt-10 md:w-10/12 shadow-xl shadow-gray-600">
               {/* Image Section */}
               <div className="">
               {/* <img src={!imgName ? uiandux_formicon : imgName} alt="" className="h-full"></img> */}
