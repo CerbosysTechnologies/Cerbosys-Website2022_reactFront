@@ -64,7 +64,9 @@ const Footer = () => {
                   <li className="">
                     <Link to="/ContactUs">Contact Us</Link>
                   </li>
-                  <br></br>
+                  <li className="">
+                    <Link to="/CaseStudy">Case Study</Link>
+                  </li>
                   <br></br>
                   <br></br>
                   <br></br>
@@ -147,31 +149,7 @@ const Footer = () => {
                 </ul>
               </div>
               {/* Industry Div Ends*/}
-              {/* Quick Links  Div */}
-              <div className="">
-                <h6 className="font-heading text-sm md:text-lg text-white uppercase mb-3 md:px-0 ">
-                  Explore
-                </h6>
-                <ul className="text-white font-subheading text-xs ">
-                  <li className="">
-                    <Link to="/CaseStudy">Whitepapers</Link>
-                  </li>
-                  <li className="">
-                    <Link to="">Case Study</Link>
-                  </li>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br> <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                </ul>
-              </div>
-              {/* Quick Links Div Ends*/}
+           
 
               {/* Fourth Column Ends */}
             </div>

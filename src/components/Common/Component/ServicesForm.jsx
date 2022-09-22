@@ -225,22 +225,26 @@ const ServicesForm = (props) => {
                 // hadalChnageID();
               }}
             >
-              {serviceitems.map((item) => (
-                <option
-                  key={item.myservices_id}
-                  id={item.myservices_id}
-                  value={item.service_image}
-                  // onChange={(item) => {
-                  //   hadalChnageID(item);
-                  //   // setServiceId(item.target.myservices_id);
-                  //   console.log(item);
-                  // }}
-                >
-                  {/* {item.myservices_id} */}
+              {serviceitems ? (
+                serviceitems.map((item) => (
+                  <option
+                    key={item.myservices_id}
+                    id={item.myservices_id}
+                    value={item.service_image}
+                    // onChange={(item) => {
+                    //   hadalChnageID(item);
+                    //   // setServiceId(item.target.myservices_id);
+                    //   console.log(item);
+                    // }}
+                  >
+                    {/* {item.myservices_id} */}
 
-                  {item.service_name}
-                </option>
-              ))}
+                    {item.service_name}
+                  </option>
+                ))
+              ) : (
+                <p> No service </p>
+              )}
             </select>
           </div>
           {/* Selection Div Ends*/}
