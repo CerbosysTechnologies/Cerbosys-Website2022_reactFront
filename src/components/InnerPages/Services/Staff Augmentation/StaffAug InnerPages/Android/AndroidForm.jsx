@@ -2,6 +2,7 @@ import React from 'react'
 import ServicesForm from '../../../../../Common/Component/ServicesForm'
 import { useState } from 'react'
 import { IMAGE_SERVER } from "../../../../../../ServerUrls";
+import contact_image from '../../../../../../assets/innerpage/android/android_developer.png';
 
 const AndroidForm = () => {
 
@@ -32,8 +33,9 @@ const AndroidForm = () => {
              {/* Form Design */}
              <div className="grid md:grid-cols-2  mb-4  mt-10 md:w-10/12 shadow-xl shadow-gray-600">
               {/* Image Section */}
-              <div className="">
+              <div className="items-center justify-center align-baseline">
               {/* <img src={!imgName ? uiandux_formicon : imgName} alt="" className="h-full"></img> */}
+              <img src={contact_image} alt="" className="h-full"></img>
               </div>
               {/* Image Section Ends*/}
 

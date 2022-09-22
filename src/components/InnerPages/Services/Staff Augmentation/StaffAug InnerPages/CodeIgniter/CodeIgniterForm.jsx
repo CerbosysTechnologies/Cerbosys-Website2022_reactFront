@@ -2,7 +2,7 @@ import React from 'react'
 import ServicesForm from '../../../../../Common/Component/ServicesForm'
 import { useState } from 'react'
 import { IMAGE_SERVER } from "../../../../../../ServerUrls";
-import contact_image from '../../../../../../assets/innerpage/codeigniter/codeigniter_developer.png';
+import contact_image from '../../../../../../assets/innerpage/codeigniter/codeigniter_developer.jpg';
 
 
 const CodeIgniterForm = () => {

@@ -2,6 +2,7 @@ import React from 'react'
 import ServicesForm from '../../../../../Common/Component/ServicesForm'
 import { useState } from 'react'
 import { IMAGE_SERVER } from "../../../../../../ServerUrls";
+import contact_image from '../../../../../../assets/innerpage/dotnet/dotnet_developer.jpg';
 
 const NetForm = () => {
 
@@ -33,6 +34,7 @@ const NetForm = () => {
               {/* Image Section */}
               <div className="">
               {/* <img src={!imgName ? uiandux_formicon : imgName} alt="" className="h-full"></img> */}
+              <img src={contact_image} alt="" className="h-full"></img>
               </div>
               {/* Image Section Ends*/}
 
