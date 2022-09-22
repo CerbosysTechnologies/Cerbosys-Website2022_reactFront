@@ -59,6 +59,8 @@ module.exports = {
       LaravelHeader:"url('assets/innerpage/laravel/laravelheader.svg')",
       NodejsHeader:"url('assets/innerpage/nodejs/node.jsheader.svg')",
       ReactjsHeader:"url('assets/innerpage/reactjs/reactjsheader.svg')",
+      CaseStudyHeader:"url('assets/innerpage/casestudy/casestudy.svg')",
+
       
     },
     fontFamily: {
