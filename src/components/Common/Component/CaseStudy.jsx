@@ -30,6 +30,7 @@ function CaseStudy() {
       });
     });
   };
+
   // call suscreption api
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -114,6 +115,7 @@ function CaseStudy() {
               <div
                 className=" cursor-pointer bg-blue-500  tbg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg text-center w-fit md:mx-52"
                 onClick={() => download()}
+                id="d1"
               >
                 download
               </div>
@@ -132,6 +134,7 @@ function CaseStudy() {
               <div
                 className="cursor-pointer bg-blue-500  tbg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg text-center w-fit md:mx-52"
                 onClick={() => download()}
+                id="d2"
               >
                 download
               </div>
@@ -268,7 +271,7 @@ function CaseStudy() {
       </div>
       {/* Suscreption Popup End */}
       <Footer />
-      <ToastContainer />{" "}
+      <ToastContainer />
     </div>
   );
 }
