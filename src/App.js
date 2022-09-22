@@ -30,7 +30,7 @@ import Manufacturing from "./components/InnerPages/Industries/Manufacuring/Manuf
 import DotNet from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/.Net/DotNet";
 import Android from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Android/Android";
 import { handelRightClick } from "../src/components/Common/utils/Desbalrightclick";
-import CaseStudy from "./components/Common/Component/CaseStudy";
+import CaseStudy from "./components/CaseStudy/CaseStudy";
 import Angular from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Angular/Angular";
 import CodeIgniter from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/CodeIgniter/CodeIgniter";
 import Flutter from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Flutter/Flutter";
