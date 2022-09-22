@@ -293,7 +293,7 @@ const CurrentOpeningBody = () => {
                 );
               })
             ) : (
-              <h4>No Open Positions</h4>
+              <h1 className="font-heading md:text-2xl text-lg">No Open Positions</h1>
             )}
           </div>
           {/* Card Content Section Ends */}
@@ -301,7 +301,7 @@ const CurrentOpeningBody = () => {
           {/* Perks Section */}
           <div className="bg-PerksBackground mx-auto w-full py-16 px-2 object-contain bg-cover bg-center mt-10">
             <p className="font-heading text-3xl text-center underline underline-offset-[26px]">
-              Perks & Benefits
+              Perks and Benefits
             </p>
 
             <div
@@ -311,14 +311,14 @@ const CurrentOpeningBody = () => {
               <div>
                 <div className="flex flex-wrap">
                   <img src={tripicon} />
-                  <h1 className="font-heading text-2xl p-2">
+                  <h1 className="font-heading text-xl p-2">
                     Healthy Work Environment
                   </h1>
                 </div>
-                <p className="font-content text-sm ml-14">
+                <p className="font-content text-lg ml-14 text-justify">
                   Cerbosys constantly strives to provide the best possible
                   working environment for its employees. Since the work
-                  environment directly affects the mentality & performance of
+                  environment directly affects the mentality and performance of
                   the employee.
                 </p>
               </div>
@@ -326,25 +326,25 @@ const CurrentOpeningBody = () => {
               <div>
                 <div className="flex flex-wrap">
                   <img src={tripicon} />
-                  <h1 className="font-heading text-2xl p-2">
-                    Performance Linked Incentives & Reward Programs
+                  <h1 className="font-heading text-xl p-2 w-96">
+                    Performance Linked Incentives and Reward Programs
                   </h1>
                 </div>
-                <p className="font-content text-sm ml-14">
-                  Our PLI & rewards programs help to increase employee
-                  efficiency & performance. As employees give their best
-                  performance to get rewarded & receive the best pay increase.
+                <p className="font-content text-lg ml-14 text-justify">
+                  Our PLI and rewards programs help to increase employee
+                  efficiency and performance. As employees give their best
+                  performance to get rewarded and receive the best pay increase.
                 </p>
               </div>
 
               <div>
                 <div className="flex flex-wrap">
                   <img src={tripicon} />
-                  <h1 className="font-heading text-2xl p-2">
-                    Training & Development Sessions
+                  <h1 className="font-heading text-xl p-2 w-96">
+                    Training and Development Sessions
                   </h1>
                 </div>
-                <p className="font-content text-sm ml-14">
+                <p className="font-content text-lg ml-14 text-justify ">
                   Cerbosys conducts an extensive training and development
                   program to improve the overall performance and competitiveness
                   of our employees.
@@ -354,24 +354,24 @@ const CurrentOpeningBody = () => {
               <div>
                 <div className="flex flex-wrap">
                   <img src={tripicon} />
-                  <h1 className="font-heading text-2xl p-2">Team Activities</h1>
+                  <h1 className="font-heading text-xl  p-2">Team Activities</h1>
                 </div>
-                <p className="font-content text-sm ml-14">
+                <p className="font-content text-lg ml-14 text-justify">
                   Cerbosys organizes several team activities like conferencing,
                   games, trips, extempore, etc. which brings the team together,
-                  keeps the employees happy & increases employee retention.
+                  keeps the employees happy and increases employee retention.
                 </p>
               </div>
 
               <div>
                 <div className="flex flex-wrap">
                   <img src={tripicon} />
-                  <h1 className="font-heading text-2xl p-2">
-                    Maternity & Paternity Leaves
+                  <h1 className="font-heading text-xl p-2">
+                    Maternity and Paternity Leaves
                   </h1>
                 </div>
-                <p className="font-content text-sm ml-14">
-                  Our company provides maternity & paternity leaves for our
+                <p className="font-content text-lg ml-14 text-justify">
+                  Our company provides maternity and paternity leaves for our
                   employees when they can avail to take care of their newly born
                   child.
                 </p>
@@ -380,11 +380,11 @@ const CurrentOpeningBody = () => {
               <div>
                 <div className="flex flex-wrap">
                   <img src={tripicon} />
-                  <h1 className="font-heading text-2xl p-2">
+                  <h1 className="font-heading text-xl p-2">
                     Work/Life Balance
                   </h1>
                 </div>
-                <p className="font-content text-sm ml-14">
+                <p className="font-content text-lg ml-14 text-justify">
                   We manage to create a balance between work and life in the
                   best way for our employees so that coming to work each day is
                   refreshing for them.

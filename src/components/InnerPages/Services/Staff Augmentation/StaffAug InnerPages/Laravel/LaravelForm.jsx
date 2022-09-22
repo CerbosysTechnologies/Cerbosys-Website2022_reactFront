@@ -2,7 +2,7 @@ import React from 'react'
 import ServicesForm from '../../../../../Common/Component/ServicesForm'
 import { useState } from 'react'
 import { IMAGE_SERVER } from "../../../../../../ServerUrls";
-import contact_image from '../../../../../../assets/innerpage/laravel/laravel_developer.png';
+import contact_image from '../../../../../../assets/innerpage/laravel/laravel_developer.jpg';
 
 const LaravelForm = () => {
 

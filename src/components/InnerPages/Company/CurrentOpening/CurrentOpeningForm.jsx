@@ -1,5 +1,5 @@
 import React from 'react'
-import currentopeningicon from '../../../../assets/innerpage/currentopening/contact_image.svg'
+import currentopeningicon from '../../../../assets/innerpage/currentopening/contact_image.jpg'
 import ServicesForm from '../../../Common/Component/ServicesForm'
 
 const CurrentOpeningForm = () => {
@@ -29,7 +29,7 @@ const CurrentOpeningForm = () => {
 
               {/* Form Section */}
               <div className="bg-white md:px-14 px-10 items-center justify-center text-center ">
-               {/* <ServicesForm /> */}
+               <ServicesForm />
                 </div>
               {/* Form Section Ends*/}
 
