@@ -51,7 +51,10 @@ const Recommendations = () => {
                 />
               </SwiperSlide>
               <SwiperSlide>
-                <a href="https://www.goodfirms.co/company/cerbosys-technologies-inc">
+                <a
+                  href="https://www.goodfirms.co/company/cerbosys-technologies-inc"
+                  target="_blank"
+                >
                   <img
                     src={goodfirmicon}
                     alt=""
