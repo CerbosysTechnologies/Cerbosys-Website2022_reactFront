@@ -11,10 +11,17 @@ const ServicesForm = (props) => {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [contactNumber, setContactNumber] = useState("");
-  const [hearaboutus, setHearaboutus] = useState({
-    options: [],
-    response: [],
-  });
+
+  // const [hearaboutus, setHearaboutus] = useState({
+  //   options: [],
+  //   response: [],
+  // });
+
+  const [hearaboutus, setHearaboutus] = useState([]);
+
+
+  const [getHearaboutUs, setGetHearaboutus] = useState();
+
 
   const [errorscon, setErrorsCon] = useState(false);
   const [errorscontact, setErrorsContact] = useState("");  
@@ -34,6 +41,7 @@ const ServicesForm = (props) => {
 
   const [showImageSec, setShowImageSection] = useState(true);
 
+
   const insertEnquiry = () => {};
 
   const handlerChange = (event) => {
@@ -43,6 +51,7 @@ const ServicesForm = (props) => {
     const el = event.target.childNodes[index]
     const option =  el.getAttribute('id');  
 
+    setServiceId(option);
     console.log("Test Id:--", option);
     console.log("Value:--", event.target.value);
   };
@@ -72,7 +81,14 @@ const ServicesForm = (props) => {
 
   useEffect(() => {
     getAllServices();
-  }, []);
+    console.log('Use Effect Hear', hearaboutus);
+
+    var stringData = hearaboutus.toString()
+    
+    setGetHearaboutus(stringData);
+    console.log('SD',stringData)
+    
+  }, [hearaboutus]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -82,7 +98,7 @@ const ServicesForm = (props) => {
       subject: subject,
       contact_number: contactNumber,
       myservice_id: serviceId,
-      hearabout_us: hearaboutus,
+      hearabout_us: getHearaboutUs,
       message: message,
     };
     console.log("befor", insertData);
@@ -103,29 +119,49 @@ const ServicesForm = (props) => {
 
   const addHearAboutUs = (e) => {
 
+    console.log('Event', e.target);
     
-    const { value, checked } = e.target;
-    const { options } = hearaboutus;
+    // const { value, checked } = e.target;
+    // const { options } = hearaboutus;
 
-    console.log(`${value} is ${checked}`);
-     
-    // Case 1 : The user checks the box
-    if (checked) {
-      setHearaboutus({
-        options: [...options, value],
-        response: [...options, value],
-      });
-    }
+    // console.log(`${value} is ${checked}`);
+
+    // setHearaboutus({
+    //   options: [...options, value],
+    //   response: [...options, value],
+    // });
+
+    // // Case 1 : The user checks the box
+    // if (checked == true) {
+    //   setHearaboutus({
+    //     options: [...options, value],
+    //     response: [...options, value],
+    //   });
+    // }
   
-    // Case 2  : The user unchecks the box
-    else {
-      setHearaboutus({
-        options: options.filter((e) => e !== value),
-        response: options.filter((e) => e !== value),
-      });
+    // // Case 2  : The user unchecks the box
+    // else {
+    //   setHearaboutus({
+    //     options: options.filter((e) => e !== value),
+    //     response: options.filter((e) => e !== value),
+    //   });
+    // }
+
+
+    if(e.target.checked === true){
+      setHearaboutus([...hearaboutus, e.target.value]);
+    }
+    else if(e.target.checked === false){
+      let freshArray = hearaboutus.filter(val => val !== e.target.value);
+      setHearaboutus([...freshArray]);
     }
     
-    console.log("Hear", hearaboutus.response);
+    console.log("Hear", hearaboutus);
+    //console.log("Hear options", options);
+
+   
+
+
     
   };
 
@@ -244,6 +280,7 @@ const ServicesForm = (props) => {
                 // hadalChnageID();
               }}
             >
+              <option>Please Select</option>
               {serviceitems ? (
                 serviceitems.map((item) => (
                   <option
@@ -279,8 +316,8 @@ const ServicesForm = (props) => {
                 name="options"
                 type="checkbox"            
                 value="Google"
-                onChange={addHearAboutUs} 
                 className="w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
+                onChange={addHearAboutUs} 
               />
               <label
                 htmlFor="checkbox-Google"
@@ -295,8 +332,8 @@ const ServicesForm = (props) => {
                 name="options"
                 type="checkbox"                                           
                 value="LinkedIn"
-                onChange={addHearAboutUs} 
                 className="ml-4 w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
+                onChange={addHearAboutUs} 
               />
               <label
                 htmlFor="checkbox-LinkedIn"
@@ -311,8 +348,8 @@ const ServicesForm = (props) => {
                 name="options"
                 type="checkbox"                                       
                 value="Facebook"
-                onChange={addHearAboutUs} 
                 className="ml-5 w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
+                onChange={addHearAboutUs} 
               />
               <label
                 htmlFor="checkbox-Facebook"
@@ -331,8 +368,8 @@ const ServicesForm = (props) => {
                 name="options"
                 type="checkbox"
                 value="Instagram"
-                onChange={addHearAboutUs}       
                 className=" w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
+                onChange={addHearAboutUs}       
               />
               <label
                 htmlFor="checkbox-Instagram"
@@ -346,8 +383,8 @@ const ServicesForm = (props) => {
                 name="options"
                 type="checkbox"
                 value="Friend Suggested"
-                onChange={addHearAboutUs}
                 className="ml-2 w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
+                onChange={addHearAboutUs}
               />
               <label
                 htmlFor="checkbox-FriendSuggested"
@@ -362,8 +399,8 @@ const ServicesForm = (props) => {
                 name="options"
                 type="checkbox"
                 value="Others"
-                onChange={addHearAboutUs}       
                 className="ml-4  w-4 h-4 text-gray-400 bg-gray-100 rounded border-gray-300 "
+                onChange={addHearAboutUs}       
               />
               <label
                 htmlFor="checkbox-Others"
