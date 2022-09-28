@@ -5,49 +5,6 @@ import Thankyou from "../../../assets/contactus/Thank you page.png";
 const Thankumodal = () => {
   return (
     <div>
-      {/* <div id="popup-modal" tabindex="-1" class="overflow-y-auto overflow-x-hidden 
-fixed top-0 right-0 left-0 z-50 md:inset-0 h-modal md:h-full justify-center items-center flex" 
-aria-modal="true" role="dialog">
-    <div class="relative p-4 w-full max-w-md h-full md:h-auto">
-        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
-            <button type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white" data-modal-toggle="popup-modal">
-                <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                <span class="sr-only">Close modal</span>
-            </button>
-            <div class="p-6 text-center">
-                <svg aria-hidden="true" class="mx-auto mb-4 w-14 h-14 text-gray-400 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                <h3 class="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">Are you sure you want to delete this product?</h3>
-                <button data-modal-toggle="popup-modal" type="button" class="text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center mr-2">
-                    Yes, I'm sure
-                </button>
-                <button data-modal-toggle="popup-modal" type="button" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">No, cancel</button>
-            </div>
-        </div>
-    </div>
-</div> */}
-
-      {/* <div className="modal px-10 py-10 fade fixed top-0 left-0 w-full h-full outline-none overflow-x-hidden overflow-y-auto backdrop-blur-sm bg-black/60 backdrop-brightness-125 backdrop-contrast-50" 
-id="exampleModalLg" tabindex="-1" aria-labelledby="exampleModalLgLabel" aria-modal="true" role="dialog">
-  
-  <div className="modal-dialog modal-lg relative w-auto pointer-events-none">
-    <div className="modal-content border-none shadow-xl relative flex flex-col w-full h-1/2 pointer-events-auto 
-    bg-gradient
-    bg-clip-padding rounded-md outline-none text-current">
-
-
-      <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
-        
-        <button type="button"
-          className="btn-close box-content w-4 h-4 p-1 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
-          data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div className="modal-body relative p-4">
-        ...
-      </div>
-    </div>
-  </div>
-</div> */}
-
       <div
         className="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden"
         id="Thankyou"
@@ -69,14 +26,60 @@ id="exampleModalLg" tabindex="-1" aria-labelledby="exampleModalLgLabel" aria-mod
       
             rounded-lg text-left shadow-xl transform transition-all  "
           >
-            <div className=" md:mt-40 mt-40 md:p-0 pr-10     ">
-              <a href="/">
-                <img
-                  src={Thankyou}
-                  alt=""
-                  className="object-fill  md:h-[400px] md:w-[600px] rounded-lg"
-                />
-              </a>
+            <div className="flex items-center justify-center h-screen">
+              <div className="p-1 rounded shadow-lg bg-gradient-to-r from-purple-500 via-green-500 to-blue-500">
+                <div
+                  className="flex flex-col items-center p-4 space-y-2 bg-white rounded-lg  "
+                  style={{
+                    background:
+                      "linear-gradient(180deg, rgba(156,195,255,1) 30%, rgba(138,255,116,1) 100%)",
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="text-green-600 w-28 h-28"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <h1
+                    className="md:text-4xl  font-extrabold 
+                    text-green-600 font-heading text-xl"
+                  >
+                    Thank You !
+                  </h1>
+                  <p className="font-heading md:text-xl text-lg">
+                    Thank you for contacting us!<br></br> Our team of experts
+                    will get back to you shortly.
+                  </p>
+                  <a class="inline-flex items-center px-4 py-2 text-white bg-indigo-600 border border-indigo-600 rounded rounded-full hover:bg-indigo-700 focus:outline-none focus:ring">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-3 h-3 mr-2"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M7 16l-4-4m0 0l4-4m-4 4h18"
+                      />
+                    </svg>
+                    <span className="md:text-lg font-subheading text-sm">
+                      <a href="/">Home</a>
+                    </span>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

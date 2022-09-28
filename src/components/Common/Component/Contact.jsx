@@ -100,9 +100,9 @@ const Contact = () => {
         document.getElementById("Thankyou").style.display = "block";
 
         // toast.success("Request sent successfully ");
-        // setTimeout(() => {
-        //   window.location.reload();
-        // }, 2000);
+        setTimeout(() => {
+          window.location.reload();
+        }, 5000);
       })
       .catch((err) => {
         console.log("not post", err);
