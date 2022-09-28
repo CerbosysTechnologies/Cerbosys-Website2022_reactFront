@@ -2,6 +2,10 @@ import React, { useState, useEffect } from "react";
 import { SERVER } from "../../../ServerUrls";
 import axios from "axios";
 import MobileForm from "../../InnerPages/Services/Mobile/MobileForm";
+import Thankumodal from "./Thankumodal";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { propTypesMenuProps } from "@material-tailwind/react/types/components/select";
 
 const ServicesForm = (props) => {
   //hooks
@@ -23,9 +27,9 @@ const ServicesForm = (props) => {
   const [message, setMessage] = useState("");
   const [serviceitems, setServiceItems] = React.useState([]);
   const [myservicesid, setmyservicesid] = useState([]);
-  
+
   const a = myservicesid.map((val) => {
-    var b = val.myservices_id;  
+    var b = val.myservices_id;
   });
 
   //Image
@@ -36,7 +40,7 @@ const ServicesForm = (props) => {
   const insertEnquiry = () => {};
 
   const handlerChange = (event) => {
-    console.log('T&D', event);
+    console.log("T&D", event);
     props.onChangeSelected(event.target.value);
     //setServiceId(event.target.name);
     const index = event.target.selectedIndex;
@@ -101,6 +105,17 @@ const ServicesForm = (props) => {
       .then((res) => {
         console.log("Insert Enquiry Res", res);
         console.log("after", insertData);
+        document.getElementById("Thankyou").style.display = "block";
+        setTimeout(() => {
+          window.location.reload();
+        }, 5000);
+      })
+      .catch((err) => {
+        console.log("not post", err);
+        toast.error("something wrong");
+        setTimeout(() => {
+          window.location.reload();
+        }, 2000);
       });
   };
 
@@ -382,6 +397,9 @@ const ServicesForm = (props) => {
             disabled={username === "" || contactNumber === "" ? true : false}
           />
         </form>
+
+        <Thankumodal />
+        <ToastContainer />
       </div>
     </div>
   );

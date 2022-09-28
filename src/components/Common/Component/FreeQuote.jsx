@@ -110,6 +110,9 @@ const FreeQuote = () => {
         console.log("Insert Enquiry Res", res);
         console.log("after Quote api", res.data);
         document.getElementById("Thankyou").style.display = "block";
+        setTimeout(() => {
+          window.location.reload();
+        }, 5000);
       })
       .catch((err) => {
         console.log("not post", err);
