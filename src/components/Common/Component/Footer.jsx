@@ -14,9 +14,9 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div>
-      <div className="bg-FooterBackground w-full h-full mx-auto py-4 px-24">
+      <div className="bg-FooterBackground w-full h-full mx-auto py-4 px-20">
         <div className="max-w-[1240px] mx-auto">
-          <div className="grid md:grid-cols-4 gap-4">
+          <div className="grid md:grid-cols-5 gap-2">
             {/* First Col */}
             <div>
               <img
@@ -40,8 +40,9 @@ const Footer = () => {
               </p>
             </div>
             {/* First Col Ends */}
+
             {/* Main Div of all three columns */}
-            <div className="md:col-span-3 flex flex-wrap md:justify-center md:items-center md:m-3 md:mt-16 md:gap-24 gap-6">
+            <div className="md:col-span-4 flex flex-wrap md:justify-center md:items-center md:m-3 md:mt-36 md:gap-20 gap-6">
               {/* Second Column */}
               <div className="">
                 <h6 className="font-heading text-sm md:text-lg text-white uppercase mb-3 md:px-0 ">
@@ -114,7 +115,7 @@ const Footer = () => {
               {/* Fourth Column */}
               {/* Industry Div */}
               <div>
-                <h1 className="font-heading text-white text-sm md:text-lg mb-3 uppercase">
+                <h1 className="font-heading text-white text-sm md:text-lg mb-0 uppercase">
                   Industries
                 </h1>
 
@@ -152,14 +153,10 @@ const Footer = () => {
            
 
               {/* Fourth Column Ends */}
-            </div>
-            {/* Main div of inside */}
-          </div>
-          {/* Grid Div Ends */}
 
-          {/* Contact Us Div */}
-          <div className="mt-5 ">
-            <h6 className="font-heading text-lg text-white uppercase grid grid-flow-row mb-3">
+              {/* Fifth Column */}
+              <div className="mt-5 ">
+            <h6 className="font-heading text-lg text-white uppercase md:mb-8">
               Contact Us
             </h6>
 
@@ -199,6 +196,54 @@ const Footer = () => {
               </span>
             </div>
           </div>
+              {/* Fifth Column Ends*/}
+            </div>
+            {/* Main div of inside */}
+          </div>
+          {/* Grid Div Ends */}
+
+          {/* Contact Us Div */}
+          {/* <div className="mt-5 ">
+            <h6 className="font-heading text-lg text-white uppercase grid grid-flow-row mb-3">
+              Contact Us
+            </h6>
+
+            <div className="flex flex-row mb-5 md:w-64 w-64">
+              <img
+                src={locationicon}
+                alt="Location Icon"
+                className="mr-3"
+              ></img>
+              <span className="font-subheading text-sm text-white">
+                15-16, Lakshya Vihar,kanadia Road, Indore, M.P.-452016
+              </span>
+            </div>
+
+            <div className="flex flex-row mb-5">
+              <img src={callicon} alt="Call Icon" className="mr-3"></img>
+              <span className="font-subheading text-sm text-white">
+                0731-499-3-444
+              </span>
+            </div>
+
+            <div className="flex flex-row mb-5 w-72">
+              <img
+                src={whatsappicon}
+                alt="What'sApp Icon"
+                className="mr-3"
+              ></img>
+              <span className="font-subheading text-sm text-white">
+                999-999-2892, &nbsp;88-3969-7183
+              </span>
+            </div>
+
+            <div className="flex flex-row mb-5">
+              <img src={emailicon} alt="Email Icon" className="mr-3"></img>
+              <span className="font-subheading text-sm text-white">
+                info@cerbosys.com
+              </span>
+            </div>
+          </div> */}
           {/* Contact Us Div Ends*/}
 
           {/* Social Icons Div */}
