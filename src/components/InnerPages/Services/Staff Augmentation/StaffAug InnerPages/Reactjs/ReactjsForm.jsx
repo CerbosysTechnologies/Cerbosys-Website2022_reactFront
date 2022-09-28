@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { IMAGE_SERVER } from "../../../../../../ServerUrls";
 import contact_image from '../../../../../../assets/innerpage/reactjs/reactjs_developer.png';
 
-const ReactjsForm = () => {
+const ReactjsForm = ({ onChangeSelected }) => {
 
   const [imgName, setImgName] = useState();
 
@@ -35,7 +35,7 @@ const ReactjsForm = () => {
               {/* Image Section */}
               <div className="">
               {/* <img src={!imgName ? uiandux_formicon : imgName} alt="" className="h-full"></img> */}
-              <img src={contact_image} alt="" className="h-full"></img>
+              <img src={!imgName ? contact_image : imgName} alt="" className="h-full"></img>
               </div>
               {/* Image Section Ends*/}
 

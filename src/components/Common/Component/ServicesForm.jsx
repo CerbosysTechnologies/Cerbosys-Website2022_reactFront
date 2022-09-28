@@ -25,7 +25,7 @@ const ServicesForm = (props) => {
   const [myservicesid, setmyservicesid] = useState([]);
   
   const a = myservicesid.map((val) => {
-    var b = val.myservices_id;
+    var b = val.myservices_id;  
   });
 
   //Image
@@ -36,7 +36,8 @@ const ServicesForm = (props) => {
   const insertEnquiry = () => {};
 
   const handlerChange = (event) => {
-    //props.onChangeSelected(event.target.value);
+    console.log('T&D', event);
+    props.onChangeSelected(event.target.value);
     //setServiceId(event.target.name);
     const index = event.target.selectedIndex;
     const el = event.target.childNodes[index];
@@ -224,10 +225,7 @@ const ServicesForm = (props) => {
             <select
               className="dropdown text-gray-400 font-heading  text-sm flex flex-wrap
                     border-2 rounded-lg px-2 py-2 border-gray-400"
-              onChange={(e) => {
-                handlerChange(e);
-                // hadalChnageID();
-              }}
+              onChange={handlerChange}
             >
               <option>Please Select</option>
               {serviceitems ? (
