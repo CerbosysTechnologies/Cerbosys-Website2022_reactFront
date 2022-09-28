@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 
 import { AiOutlineClose } from "react-icons/ai";
 import { SERVER } from "../../ServerUrls";
+import { IMAGE_SERVER } from "../../ServerUrls";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -10,9 +11,10 @@ import images from "../../assets/innerpage/healthcare/healthheader.svg";
 
 import { saveAs } from "file-saver";
 
-// import SuscreptionPopup from "./SuscreptionPopup";
+
+
 const CaseStudyBody = () => {
-  const IMG = "https://cerbosys.in:3700/casestudyimage/";
+  const IMG =  IMAGE_SERVER + "/casestudyimage/";
   const [AllServices, setAllServices] = useState("");
   const [pdf, setpdf] = useState({
     a: [].casestudy_pdf,
