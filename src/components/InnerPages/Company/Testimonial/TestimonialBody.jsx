@@ -3,6 +3,15 @@ import testivideo from "../../../../assets/innerpage/testimonial/employee_testim
 import clienticon from "../../../../assets/innerpage/testimonial/client.png";
 import colonicon from "../../../../assets/innerpage/testimonial/colon.svg";
 
+import {
+  CarouselProvider,
+  Slider,
+  Slide,
+  ButtonBack,
+  ButtonNext,
+} from "pure-react-carousel";
+import "pure-react-carousel/dist/react-carousel.es.css";
+
 const TestimonialBody = () => {
   return (
     <div>
@@ -10,13 +19,18 @@ const TestimonialBody = () => {
         <div className="max-w-[1240px] mx-auto">
           <div className="grid md:grid-cols-2 gap-4 md:mt-10">
             {/* Video Div */}
-            <video width="700" height="500" controls className="md:w-[50rem] md:h-[25rem]">
+            <video
+              width="700"
+              height="500"
+              controls
+              className="md:w-[50rem] md:h-[25rem]"
+            >
               <source src={testivideo} type="video/mp4" />
             </video>
             {/* Video Div Ends*/}
 
             {/* Client Testimonial */}
-            <div className="flex flex-col flex-wrap items-center justify-center">
+            {/* <div className="flex flex-col flex-wrap items-center justify-center">
                 <div className="flex flex-row  items-start md:w-full  ">
                  <div className="md:w-full mb-10">
                  <img src={colonicon} alt="colon" className="w-10"/>    
@@ -43,8 +57,8 @@ const TestimonialBody = () => {
               <p className="font-heading md:text-xl text-sm mx-10 text-end items-end">
                 Jhon Doe
               </p>
-            </div>
-            {/* Client Testimonial Ends*/}
+            </div> */}
+
           </div>
         </div>
       </div>

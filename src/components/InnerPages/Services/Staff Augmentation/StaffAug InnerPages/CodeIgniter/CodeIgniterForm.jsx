@@ -5,7 +5,7 @@ import { IMAGE_SERVER } from "../../../../../../ServerUrls";
 import contact_image from '../../../../../../assets/innerpage/codeigniter/codeigniter_developer.jpg';
 
 
-const CodeIgniterForm = () => {
+const CodeIgniterForm = ({ onChangeSelected }) => {
   
   const [imgName, setImgName] = useState();
 
@@ -36,7 +36,7 @@ const CodeIgniterForm = () => {
               {/* Image Section */}
               <div className="">
               {/* <img src={!imgName ? uiandux_formicon : imgName} alt="" className="h-full"></img> */}
-              <img src={contact_image} alt="" className="h-full"></img>
+              <img src={!imgName ? contact_image : imgName} alt="" className="h-full"></img>
               </div>
               {/* Image Section Ends*/}
 

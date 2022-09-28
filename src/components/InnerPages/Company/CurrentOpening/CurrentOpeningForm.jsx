@@ -1,8 +1,21 @@
 import React from 'react'
 import currentopeningicon from '../../../../assets/innerpage/currentopening/contact_image.jpg'
 import ServicesForm from '../../../Common/Component/ServicesForm'
+import { IMAGE_SERVER } from "../../../../ServerUrls";
+import { useState } from "react";
 
-const CurrentOpeningForm = () => {
+const CurrentOpeningForm = ({ onChangeSelected }) => {
+
+  const [imgName, setImgName] = useState();
+
+  const onChangeSelection = (newName) => {
+    console.log("newValue", newName);
+    let new_name = newName.substring(8);
+    setImgName(IMAGE_SERVER + new_name);
+    console.log("ImgName", imgName);
+  };
+
+
   return (
  
         
@@ -23,13 +36,13 @@ const CurrentOpeningForm = () => {
              <div className="grid md:grid-cols-2 mb-4 mt-10 md:w-10/12 shadow-xl shadow-gray-600">
               {/* Image Section */}
               <div className="mx-auto items-center justify-center " >
-              <img src={currentopeningicon} alt="" className="h-full"></img>
+              <img src={!imgName ? currentopeningicon : imgName} alt="" className="h-full"></img>
               </div>
               {/* Image Section Ends*/}
 
               {/* Form Section */}
               <div className="bg-white md:px-14 px-10 items-center justify-center text-center ">
-               <ServicesForm />
+              <ServicesForm onChangeSelected={onChangeSelection} />
                 </div>
               {/* Form Section Ends*/}
 

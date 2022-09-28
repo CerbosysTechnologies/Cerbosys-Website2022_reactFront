@@ -1,8 +1,20 @@
 import React from 'react'
 import ServicesForm from '../../../Common/Component/ServicesForm';
 import contact_icon from '../../../../assets/innerpage/manufacturing/contact_image.png'
+import { IMAGE_SERVER } from "../../../../ServerUrls";
+import { useState } from "react";
 
-const ManufacturingForm = () => {
+const ManufacturingForm = ({ onChangeSelected }) => {
+
+  const [imgName, setImgName] = useState();
+
+  const onChangeSelection = (newName) => {
+    console.log("newValue", newName);
+    let new_name = newName.substring(8);
+    setImgName(IMAGE_SERVER + new_name);
+    console.log("ImgName", imgName);
+  };
+
   return (
     <div>
     <div className="bg-FormBackground mx-auto w-full py-16 px-2 object-contain bg-cover bg-center">
@@ -21,13 +33,13 @@ const ManufacturingForm = () => {
          <div className="grid md:grid-cols-2 mb-4 mt-10 md:w-10/12 shadow-xl shadow-gray-600">
           {/* Image Section */}
           <div className="mx-auto items-center justify-center " >
-          <img src={contact_icon} alt="" className="h-full"></img>
+          <img src={!imgName ? contact_icon : imgName} alt="" className="h-full"></img>
           </div>
           {/* Image Section Ends*/}
 
           {/* Form Section */}
           <div className="bg-white md:px-14 px-10 items-center justify-center text-center ">
-           <ServicesForm />
+           <ServicesForm onChangeSelected={onChangeSelection} />
             </div>
           {/* Form Section Ends*/}
 
