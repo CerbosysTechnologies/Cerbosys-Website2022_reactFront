@@ -11,7 +11,7 @@ import Team from "./components/InnerPages/Company/Team/Team";
 import Overview from "./components/InnerPages/Company/Overview/Overview";
 import CurrentOpening from "./components/InnerPages/Company/CurrentOpening/CurrentOpening";
 import Diversity from "./components/InnerPages/Company/DiversityCerbosys/Diversity";
-import Thanku from "./components/Common/Component/Thankumodal";
+// import Thanku from "./components/Common/Component/Thankumodal";
 import ContactUs from "./components/InnerPages/OtherPages/ContactUs/ContactUs";
 import TrainingAndDevelopment from "./components/InnerPages/Company/TrainingAndDevelopment/TrainingAndDevelopment";
 import LifeCerbosys from "./components/InnerPages/Company/LifeCerbosys/LifeCerbosys";
@@ -38,7 +38,6 @@ import IOS from "./components/InnerPages/Services/Staff Augmentation/StaffAug In
 import Laravel from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Laravel/Laravel";
 import Nodejs from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Nodejs/Nodejs";
 import Reactjs from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Reactjs/Reactjs";
-
 
 function App() {
   document.addEventListener("contextmenu", handelRightClick);

@@ -6,7 +6,7 @@ import Contact from "./Contact";
 import imagepopup from "../../../assets/contactus/Getintuch.png";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Thankumodal from "./Thankumodal";
+import Thankumodal from "./Thankyou/Thankumodal";
 const FreeQuote = () => {
   // const [serviceitems, setServiceItems] = React.useState([]);
   // const [serviceId, setServiceId] = useState("");

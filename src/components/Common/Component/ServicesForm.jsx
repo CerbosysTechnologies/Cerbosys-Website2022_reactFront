@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import { SERVER } from "../../../ServerUrls";
 import axios from "axios";
 import MobileForm from "../../InnerPages/Services/Mobile/MobileForm";
-import Thankumodal from "./Thankumodal";
+
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { propTypesMenuProps } from "@material-tailwind/react/types/components/select";
-
+import Servicethankyou from "./Thankyou/Servicethankyou";
 const ServicesForm = (props) => {
   //hooks
   const [username, setUsername] = useState("");
@@ -105,7 +105,8 @@ const ServicesForm = (props) => {
       .then((res) => {
         console.log("Insert Enquiry Res", res);
         console.log("after", insertData);
-        document.getElementById("Thankyou").style.display = "block";
+       document.getElementById("ServiceThankyou").style.display = "block";
+     
         setTimeout(() => {
           window.location.reload();
         }, 5000);
@@ -157,6 +158,8 @@ const ServicesForm = (props) => {
   return (
     <div>
       <div className="bg-white md:px-1 items-center justify-center text-center">
+          <Servicethankyou />
+        <ToastContainer />
         <form onSubmit={(e) => handleSubmit(e)}>
           {/* Name Div */}
           <div className="mb-6 md:w-full group">
@@ -396,10 +399,9 @@ const ServicesForm = (props) => {
             value="Submit"
             disabled={username === "" || contactNumber === "" ? true : false}
           />
+        
         </form>
-
-        <Thankumodal />
-        <ToastContainer />
+        
       </div>
     </div>
   );

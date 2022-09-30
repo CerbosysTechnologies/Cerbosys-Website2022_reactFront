@@ -3,7 +3,7 @@ import { SERVER } from "../../../ServerUrls";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Thankumodal from "./Thankumodal";
+import ContectThankyou from "./Thankyou/ContectThankyou";
 const Contact = () => {
   //hooks
   const [username, setUsername] = useState("");
@@ -97,7 +97,7 @@ const Contact = () => {
       .then((res) => {
         console.log("Insert Enquiry Res", res);
         console.log("afterrun api", res.data);
-        document.getElementById("Thankyou").style.display = "block";
+        document.getElementById("ServiceThankyou").style.display = "block";
 
         // toast.success("Request sent successfully ");
         setTimeout(() => {
@@ -241,7 +241,7 @@ const Contact = () => {
           />
         </form>
       </div>
-      <Thankumodal />
+      <ContectThankyou />
       <ToastContainer />
     </div>
   );
