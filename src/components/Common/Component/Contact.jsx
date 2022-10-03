@@ -86,7 +86,6 @@ const Contact = () => {
       myservice_id: serviceId,
       message: message,
       obtained_from: "contact",
-     
     };
     console.log("befor", insertData);
     axios
@@ -99,9 +98,9 @@ const Contact = () => {
         console.log("Insert Enquiry Res", res);
         console.log("afterrun api", res.data);
         document.getElementById("ContectThankyou").style.display = "block";
-        // setTimeout(() => {
-        //   window.location.reload();
-        // }, 5000);
+        setTimeout(() => {
+          window.location.reload();
+        }, 5000);
       })
       .catch((err) => {
         console.log("not post", err);
@@ -206,6 +205,8 @@ const Contact = () => {
                 // hadalChnageID();
               }}
             >
+              <option>Please Select</option>
+
               {serviceitems.map((item) => (
                 <option key={item.service_name} value={item.myservices_id}>
                   {item.service_name}

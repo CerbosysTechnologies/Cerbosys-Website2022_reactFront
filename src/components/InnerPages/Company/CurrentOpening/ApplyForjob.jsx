@@ -9,7 +9,7 @@ function ApplyForjob() {
   const modalclose = () => {
     document.getElementById("ModalPotion").style.display = "none";
   };
-      //hooks
+  //hooks
 
   const [position, setPosition] = React.useState("");
   const [application, setApplication] = React.useState("");
@@ -41,7 +41,7 @@ function ApplyForjob() {
   const [errorscontact, setErrorsContact] = useState("");
   const [serviceId, setServiceId] = useState("");
 
-    // Job post section for tak value and  and set value in state  with validation
+  // Job post section for tak value and  and set value in state  with validation
   const onchangeFullName = (e) => {
     const username = e.target.value.replace(/[^a-z]/gi, " ");
     setUsername(username);
@@ -136,19 +136,19 @@ function ApplyForjob() {
         res.json().then((formdata) => {
           console.log("Response", formdata);
           document.getElementById("ContectThankyou").style.display = "block";
-        setTimeout(() => {
-          window.location.reload();
-        }, 5000);
+          setTimeout(() => {
+            window.location.reload();
+          }, 5000);
         })
       )
       .catch((err) => {
         console.log("not post", err);
-         toast.error("something wrong");
+        toast.error("something wrong");
       });
   };
   return (
-<>
-     <div
+    <>
+      <div
         class="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden"
         id="ModalPotion"
         // style={{ display: "none" }}
@@ -165,13 +165,15 @@ function ApplyForjob() {
           <div
             className="inline-block bg-white 
             2xl:mt-40
-           
+            h-[500px]
+            md:h-[550px] overflow-auto
+            2xl:h-[600px]
             rounded-lg text-left shadow-xl transform transition-all md:w-10/12 md:mt-40 mt-28"
             role="dialog"
             aria-modal="true"
             aria-labelledby="modal-headline"
           >
-            <div className="grid md:grid-cols-2 md:mb-4 md:mt-5 mt-5 md:h-1/2 overflow-auto">
+            <div className="grid md:grid-cols-2 md:mb-4 md:mt-5 mt-5">
               <div className="mx-10 hidden md:block">
                 <img src={vacancy} alt="" className="h-full w-screen" />
               </div>
@@ -283,6 +285,7 @@ function ApplyForjob() {
                         name="resume"
                         placeholder="Resume"
                         onChange={onchangeResume}
+                        required
                       />
                     </div>
                   </div>
@@ -326,21 +329,25 @@ function ApplyForjob() {
                     type="submit"
                     // value="Submit"
                     onClick={handleSubmit}
+                    disabled={
+                      username === "" || contactNumber === "" || position
+                        ? true
+                        : false
+                    }
                   >
                     Submit
                   </button>
-                  
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      
-      <ContectThankyou/>
-      <ToastContainer/>
-      </>
-  )
+
+      <ContectThankyou />
+      <ToastContainer />
+    </>
+  );
 }
 
-export default ApplyForjob
+export default ApplyForjob;
