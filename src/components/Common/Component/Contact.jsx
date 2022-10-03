@@ -86,6 +86,7 @@ const Contact = () => {
       myservice_id: serviceId,
       message: message,
       obtained_from: "contact",
+     
     };
     console.log("befor", insertData);
     axios
@@ -97,12 +98,10 @@ const Contact = () => {
       .then((res) => {
         console.log("Insert Enquiry Res", res);
         console.log("afterrun api", res.data);
-        document.getElementById("ServiceThankyou").style.display = "block";
-
-        // toast.success("Request sent successfully ");
-        setTimeout(() => {
-          window.location.reload();
-        }, 5000);
+        document.getElementById("ContectThankyou").style.display = "block";
+        // setTimeout(() => {
+        //   window.location.reload();
+        // }, 5000);
       })
       .catch((err) => {
         console.log("not post", err);
