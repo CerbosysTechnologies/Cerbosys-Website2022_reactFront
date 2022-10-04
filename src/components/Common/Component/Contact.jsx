@@ -85,7 +85,7 @@ const Contact = () => {
       contact_number: contactNumber,
       myservice_id: serviceId,
       message: message,
-      obtained_from: "contact",
+      obtained_from: "Contact",
     };
     console.log("befor", insertData);
     axios
