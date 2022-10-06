@@ -11,10 +11,8 @@ import images from "../../assets/innerpage/healthcare/healthheader.svg";
 
 import { saveAs } from "file-saver";
 
-
-
 const CaseStudyBody = () => {
-  const IMG =  IMAGE_SERVER + "/casestudyimage/";
+  const IMG = IMAGE_SERVER + "/casestudyimage/";
   const [AllServices, setAllServices] = useState("");
   const [pdf, setpdf] = useState({
     a: [].casestudy_pdf,
@@ -58,6 +56,7 @@ const CaseStudyBody = () => {
   };
   // call suscreption api
   const handleSubmit = (e) => {
+    console.log(e.casestudy_pdf);
     e.preventDefault();
 
     const insertData = {
@@ -135,7 +134,7 @@ const CaseStudyBody = () => {
               text-center text-Primary rounded-3xl border border-Primary "
                         onClick={(e) => download()}
                       >
-                        <div id={item.casestudy_id} value={item.casestudy_pdf}>
+                        <div id={item.casestudy_id} value={item.casestudy_id}>
                           {/* Download{" "} */}
                           {item.casestudy_pdf.substr(22)}
                         </div>
