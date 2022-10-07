@@ -38,54 +38,73 @@ import IOS from "./components/InnerPages/Services/Staff Augmentation/StaffAug In
 import Laravel from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Laravel/Laravel";
 import Nodejs from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Nodejs/Nodejs";
 import Reactjs from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Reactjs/Reactjs";
-
+import { Helmet } from "react-helmet";
 function App() {
   document.addEventListener("contextmenu", handelRightClick);
   return (
     <>
+      <Helmet>
+        <title>
+          Website Design & Mobile App Development Company | Cerbosys
+        </title>
+        <meta
+          name="description"
+          content="Cerbosys Technologies Inc. is one of the leading Website Design and  Mobile App Development company who provides services across the world. Contact us now for growth."
+        />
+      </Helmet>
       <FreeQuote />
       <Routes>
         <Route exact path="/" element={<Hero />} />
-        <Route path="/WebDevelopment" element={<WebDevelopment />} />
-        <Route path="/MobileDevelopment" element={<MobileDevelopment />} />
-        <Route path="/DigitalMarketing" element={<DigitalMarketing />} />
-        <Route path="/LeadGeneration" element={<LeadGeneration />} />
+        {/* Company Navbar start */}
+        <Route path="/overview" element={<Overview />} />
         <Route
-          path="/BrandingAndPackaging"
-          element={<BrandingAndPackaging />}
-        />
-        <Route path="/UIAndUX" element={<UIAndUX />} />
-        <Route path="/StaffAugmentation" element={<StaffAugmentation />} />
-        <Route path="/Team" element={<Team />} />
-        <Route path="/Overview" element={<Overview />} />
-        <Route path="/CurrentOpening" element={<CurrentOpening />} />
-        <Route path="/Diversity" element={<Diversity />} />
-        <Route path="/ContactUs" element={<ContactUs />} />
-        <Route
-          path="/TrainingAndDevelopment"
+          path="/training-and-development"
           element={<TrainingAndDevelopment />}
         />
-        <Route path="/LifeCerbosys" element={<LifeCerbosys />} />
-        <Route path="/Testimonial" element={<Testimonial />} />
-        <Route path="/Agriculture" element={<Agriculture />} />
-        <Route path="/Banking" element={<Banking />} />
-        <Route path="/Ecommerce" element={<Ecommerce />} />
-        <Route path="/HealthCare" element={<HealthCare />} />
-        <Route path="/Mining" element={<Mining />} />
-        <Route path="/Transport" element={<Transport />} />
-        <Route path="/Education" element={<Education />} />
-        <Route path="/RealEstate" element={<RealEstate />} />
-        <Route path="/Manufacturing" element={<Manufacturing />} />
-        <Route path="/DotNet" element={<DotNet />} />
-        <Route path="/Android" element={<Android />} />
-        <Route path="/CaseStudy" element={<CaseStudy />} />
-        <Route path="/Angular" element={<Angular />} />
-        <Route path="/CodeIgniter" element={<CodeIgniter />} />
-        <Route path="/Flutter" element={<Flutter />} />
-        <Route path="/IOS" element={<IOS />} />
-        <Route path="/Laravel" element={<Laravel />} />
-        <Route path="/Nodejs" element={<Nodejs />} />
-        <Route path="/Reactjs" element={<Reactjs />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/life-at-cerbosys" element={<LifeCerbosys />} />
+        <Route path="/diversity-at-cerbosys" element={<Diversity />} />
+        <Route path="/testimonial" element={<Testimonial />} />
+        {/* Company Navbar End */}
+        {/* Service Navbar Start */}
+        <Route path="/web-development" element={<WebDevelopment />} />
+        <Route path="/digital-marketing" element={<DigitalMarketing />} />
+        <Route path="/lead-generation" element={<LeadGeneration />} />
+        <Route
+          path="/branding-and-packaging"
+          element={<BrandingAndPackaging />}
+        />
+        <Route path="/mobile-app-development" element={<MobileDevelopment />} />
+        <Route path="/uiux-development" element={<UIAndUX />} />
+        {/* Service Navbar End */}
+        {/* StaffAugmentation start */}
+        <Route path="/staff-augmentation" element={<StaffAugmentation />} />
+        <Route path="/hire-react-js-developer" element={<Reactjs />} />{" "}
+        <Route path="/hire-node-js-developer" element={<Nodejs />} />
+        <Route path="/hire-android-developer" element={<Android />} />
+        <Route path="/hire-ios-developer" element={<IOS />} />
+        <Route path="/hire-flutter-developer" element={<Flutter />} />
+        <Route path="/hire-laravel-developer" element={<Laravel />} />
+        <Route path="/hire-codeIgniter-developer" element={<CodeIgniter />} />
+        <Route path="/hire-angular-developer" element={<Angular />} />
+        <Route path="/hire-dotnet-developer" element={<DotNet />} />
+        {/* StaffAugmentation END */}
+        {/* contact-us start */}
+        <Route path="/contact-us" element={<ContactUs />} />
+        {/* contact-us End */}
+        <Route path="/current-opening" element={<CurrentOpening />} />
+        {/* Indstri Start */}
+        <Route path="/agriculture" element={<Agriculture />} />
+        <Route path="/ecommerce" element={<Ecommerce />} />
+        <Route path="/health-care" element={<HealthCare />} />
+        <Route path="/banking" element={<Banking />} />
+        <Route path="/mining" element={<Mining />} />
+        <Route path="/transport" element={<Transport />} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/real-estate" element={<RealEstate />} />
+        <Route path="/manufacturing" element={<Manufacturing />} />
+        {/* Indstri End */}
+        <Route path="/case-study" element={<CaseStudy />} />
       </Routes>
       <ScrollToTop />
     </>

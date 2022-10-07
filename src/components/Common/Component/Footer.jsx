@@ -53,20 +53,20 @@ const Footer = () => {
                     <Link to="/">Home</Link>
                   </li>
                   <li className="">
-                    <Link to="/Overview">Company</Link>
+                    <Link to="/overview">Company</Link>
                   </li>
                   {/* <li className="">Services</li>
                   <li className="">Industries</li>
                   <li className="">Case Study</li>
                   <li className="">Blog</li> */}
                   <li className="">
-                    <Link to="/Team">Team</Link>
+                    <Link to="/team">Team</Link>
                   </li>
                   <li className="">
-                    <Link to="/ContactUs">Contact Us</Link>
+                    <Link to="/contact-us">Contact Us</Link>
                   </li>
                   <li className="">
-                    <Link to="/CaseStudy">Case Study</Link>
+                    <Link to="/case-study">Case Study</Link>
                   </li>
                   <br></br>
                   <br></br>
@@ -86,25 +86,27 @@ const Footer = () => {
                 </h6>
                 <ul className="text-white font-subheading text-xs">
                   <li className="">
-                    <Link to="/WebDevelopment">Web Development</Link>
+                    <Link to="/web-development">Web Development</Link>
                   </li>
                   <li className="">
                     <Link to="/StaffAugmentation">Staff Augmentation</Link>
                   </li>
                   <li className="">
-                    <Link to="/MobileDevelopment">Mobile Development</Link>
+                    <Link to="/mobile-app-development">Mobile Development</Link>
                   </li>
                   <li className="">
-                    <Link to="/UIAndUX">UI/UX Development</Link>
+                    <Link to="/uiux-development">UI/UX Development</Link>
                   </li>
                   <li className="">
-                    <Link to="/DigitalMarketing">Digital Marketing</Link>
+                    <Link to="/digital-marketing">Digital Marketing</Link>
                   </li>
                   <li className="">
-                    <Link to="/BrandingAndPackaging">Brand And Packaging</Link>
+                    <Link to="/branding-and-packaging">
+                      Brand And Packaging
+                    </Link>
                   </li>
                   <li className="">
-                    <Link to="/LeadGeneration">Lead Generation</Link>
+                    <Link to="/lead-generation">Lead Generation</Link>
                   </li>
                   <br></br>
                   <br></br>
@@ -121,81 +123,80 @@ const Footer = () => {
 
                 <ul className="text-white font-subheading text-xs">
                   <li className="">
-                    <Link to="/Agriculture">Agriculture</Link>
+                    <Link to="/agriculture">Agriculture</Link>
                   </li>
                   <li className="">
-                    <Link to="/Ecommerce">Ecommerce And Retail</Link>
+                    <Link to="/ecommerce">Ecommerce And Retail</Link>
                   </li>
                   <li className="">
-                    <Link to="/HealthCare">Healthcare And Life Science</Link>
+                    <Link to="/health-care">Healthcare And Life Science</Link>
                   </li>
                   <li className="">
-                    <Link to="/Banking">Banking And Finance</Link>
+                    <Link to="/banking">Banking And Finance</Link>
                   </li>
                   <li className="">
-                    <Link to="/Mining">Mining</Link>
+                    <Link to="/mining">Mining</Link>
                   </li>
                   <li className="">
-                    <Link to="/Transport">Transport And Logistics</Link>
+                    <Link to="/transport">Transport And Logistics</Link>
                   </li>
                   <li className="">
-                    <Link to="">Education</Link>
+                    <Link to="/education">Education</Link>
                   </li>
                   <li className="">
-                    <Link to="">Real Estate And Construction</Link>
+                    <Link to="/real-estate">Real Estate And Construction</Link>
                   </li>
                   <li className="">
-                    <Link to="">Manufacturing</Link>
+                    <Link to="/manufacturing">Manufacturing</Link>
                   </li>
                 </ul>
               </div>
               {/* Industry Div Ends*/}
-           
 
               {/* Fourth Column Ends */}
 
               {/* Fifth Column */}
               <div className="mt-5 ">
-            <h6 className="font-heading text-lg text-white uppercase md:mb-8">
-              Contact Us
-            </h6>
+                <h6 className="font-heading text-lg text-white uppercase md:mb-8">
+                  Contact Us
+                </h6>
 
-            <div className="flex flex-row mb-5 md:w-64 w-64">
-              <img
-                src={locationicon}
-                alt="Location Icon"
-                className="mr-3"
-              ></img>
-              <span className="font-subheading text-sm text-white">
-                15-16, Lakshya Vihar,kanadia Road, Indore, M.P.-452016
-              </span>
-            </div>
+                <div className="flex flex-row mb-5 md:w-64 w-64">
+                  <img
+                    src={locationicon}
+                    alt="Location Icon"
+                    className="mr-3"
+                  ></img>
+                  <span className="font-subheading text-sm text-white">
+                    15-16, Lakshya Vihar,kanadia Road, Indore, M.P.-452016
+                  </span>
+                </div>
 
-            <div className="flex flex-row mb-5">
-              <img src={callicon} alt="Call Icon" className="mr-3"></img>
-              <span className="font-subheading text-sm text-white">
-                0731-499-3-444
-              </span>
-            </div>
+                <div className="flex flex-row mb-5">
+                  <img src={callicon} alt="Call Icon" className="mr-3"></img>
+                  <span className="font-subheading text-sm text-white">
+                    0731-499-3-444
+                  </span>
+                </div>
 
-            <div className="flex flex-row mb-5 w-72">
-              <img
-                src={whatsappicon}
-                alt="What'sApp Icon"
-                className="mr-3"
-              ></img>
-              <span className="font-subheading text-sm text-white">
-                999-999-2892, &nbsp;88-3969-7183
-              </span>
-            </div>
+                <div className="flex flex-row mb-5 w-72">
+                  <img
+                    src={whatsappicon}
+                    alt="What'sApp Icon"
+                    className="mr-3"
+                  ></img>
+                  <span className="font-subheading text-sm text-white">
+                    999-999-2892, &nbsp;88-3969-7183
+                  </span>
+                </div>
 
-            <div className="flex flex-row mb-5">
-              <img src={emailicon} alt="Email Icon" className="mr-3"></img>
-              <span className="font-subheading text-sm text-white">
-                info@cerbosys.com
-              </span>
-            </div>
-          </div>
+                <div className="flex flex-row mb-5">
+                  <img src={emailicon} alt="Email Icon" className="mr-3"></img>
+                  <span className="font-subheading text-sm text-white">
+                    info@cerbosys.com
+                  </span>
+                </div>
+              </div>
               {/* Fifth Column Ends*/}
             </div>
             {/* Main div of inside */}
@@ -248,26 +249,37 @@ const Footer = () => {
 
           {/* Social Icons Div */}
           <div className="flex flex-row items-center justify-center mt-20 gap-2 mb-4">
-            <img
-              src={fbcon}
-              alt="Facebook Icon"
-              className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
-            />
+            <a
+              href="https://www.facebook.com/cerbosystech"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              
+              <img
+                src={fbcon}
+                alt="Facebook Icon"
+                className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
+              />
+            </a>
+            <a href="https://www.instagram.com/cerbosys" target="_blank" rel="noopener noreferrer">
             <img
               src={instagramicon}
               alt="Facebook Icon"
               className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
-            />
+            /></a>
+            <a href="https://twitter.com/CerbosysTech" target="_blank" rel="noopener noreferrer">
             <img
               src={twittericon}
               alt="Facebook Icon"
               className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
-            />
+            /></a>
+            <a href="https://www.linkedin.com/company/cerbosys" target="_blank" rel="noopener noreferrer">
             <img
               src={linkedinicon}
               alt="Facebook Icon"
               className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
             />
+            </a>
             <img
               src={youtubeicon}
               alt="Facebook Icon"

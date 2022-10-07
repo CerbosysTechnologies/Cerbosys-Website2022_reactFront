@@ -48,24 +48,24 @@ const NavLinks = () => {
                 <div className="flex flex-wrap flex-col  border-r-2  py-4 px-10 ">
                   <div className="mt-4">
                     <h1 className="font-subheading md:text-sm text-xs">
-                      <Link to="/WebDevelopment">Web Development</Link>
+                      <Link to="/web-development">Web Development</Link>
                     </h1>
                   </div>
 
                   <div className="mt-5">
                     <h1 className="font-subheading md:text-sm text-xs">
-                      <Link to="/DigitalMarketing">Digital Marketing</Link>
+                      <Link to="/digital-marketing">Digital Marketing</Link>
                     </h1>
                   </div>
 
                   <div className="mt-5">
                     <h1 className="font-subheading md:text-sm text-xs">
-                      <Link to="/LeadGeneration">Lead Generation</Link>
+                      <Link to="/lead-generation">Lead Generation</Link>
                     </h1>
                   </div>
                   <div className="mt-5">
                     <h1 className="font-subheading md:text-sm text-xs">
-                      <Link to="/BrandingAndPackaging">
+                      <Link to="/branding-and-packaging">
                         Branding And Packaging
                       </Link>
                     </h1>
@@ -73,13 +73,15 @@ const NavLinks = () => {
 
                   <div className="mt-5">
                     <h1 className="font-subheading md:text-sm text-xs">
-                      <Link to="/MobileDevelopment">Mobile Development</Link>
+                      <Link to="/mobile-app-development">
+                        Mobile App Development
+                      </Link>
                     </h1>
                   </div>
 
                   <div className="mt-5">
                     <h1 className="font-subheading md:text-sm text-xs">
-                      <Link to="/UIAndUX">UI/UX Development</Link>
+                      <Link to="/uiux-development">UI/UX Development</Link>
                     </h1>
                   </div>
                 </div>
@@ -89,18 +91,52 @@ const NavLinks = () => {
                 <div className="flex flex-wrap flex-col m-2 border-r-2 py-4">
                   <div className="mx-4">
                     <h1 className="font-subheading md:text-sm text-xs">
-                      <Link to="/StaffAugmentation">Staff Augmentation</Link>
+                      <Link to="/staff-augmentation">Staff Augmentation</Link>
                     </h1>
                     <ul className="text-sm font-subheading list-inside list-disc capitalize">
-                    <li><Link to="/Reactjs">Hire Reacjs Developer</Link></li>
-                      <li><Link to="/Nodejs">Hire Node.js Developer</Link></li>
-                      <li><Link to="/Android">Hire Android Developer</Link></li>
-                      <li><Link to="/IOS">Hire IOS Developer</Link></li>
-                      <li><Link to="/Flutter">Hire Flutter Developer</Link></li>
-                      <li><Link to="/Laravel">Hire Laravel Developer</Link></li>
-                      <li><Link to="/CodeIgniter">Hire Code Igniter Developer</Link></li>
-                      <li><Link to="/Angular">Hire Angular Developer</Link></li>
-                      <li><Link to="/DotNet">Hire .Net Developer</Link></li>
+                      <li>
+                        <Link to="/hire-react-js-developer">
+                          Hire Reacjs Developer
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/hire-node-js-developer">
+                          Hire Node.js Developer
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/hire-android-developer">
+                          Hire Android Developer
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/hire-ios-developer">Hire IOS Developer</Link>
+                      </li>
+                      <li>
+                        <Link to="/hire-flutter-developer">
+                          Hire Flutter Developer
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/hire-laravel-developer">
+                          Hire Laravel Developer
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/hire-codeIgniter-developer">
+                          Hire CodeIgniter Developer
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/hire-angular-developer">
+                          Hire Angular Developer
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/hire-dotnet-developer">
+                          Hire .Net Developer
+                        </Link>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -127,12 +163,12 @@ const NavLinks = () => {
                 {/* Fourth Row */}
                 <div>
                   <Link to="/ContactUs">
-                  <button
-                    className="bg-Green rounded-full 
+                    <button
+                      className="bg-Green rounded-full 
             font-heading px-6 py-3 text-white uppercase "
-                  >
-                    Get Free Estimation
-                  </button>
+                    >
+                      Get Free Estimation
+                    </button>
                   </Link>
                 </div>
                 {/* Fourth Row Ends*/}
@@ -170,42 +206,89 @@ const NavLinks = () => {
                 <div className="flex flex-wrap flex-col m-2">
                   <div className="mt-[5px] ">
                     <h1 className="font-heading text-sm">
-                      <Link to="/WebDevelopment">Web Development</Link>
+                      <Link to="/web-development">Web Development</Link>
+                    </h1>
+                  </div>
+                  <div className="mt-[5px] ">
+                    <h1 className="font-heading text-sm">
+                      <Link to="/digital-marketing">Digital Marketing</Link>
                     </h1>
                   </div>
 
                   <div className="mt-[8px]">
                     <h1 className="font-heading text-sm">
-                      <Link to="/MobileDevelopment">Mobile Development</Link>
+                      <Link to="/mobile-app-development">
+                        Mobile Development
+                      </Link>
                     </h1>
                   </div>
                   <div className="mt-[8px]">
                     <h1 className="font-heading  text-sm ">
-                      UI/UX Development
+                      <Link to="/uiux-development"> UI/UX Development</Link>
                     </h1>
                   </div>
                   <div className="mt-[8px]">
                     <h1 className="font-heading text-sm">
-                      <Link to="/LeadGeneration">Lead Generation</Link>
+                      <Link to="/lead-generation">Lead Generation</Link>
                     </h1>
                     <h1 className="mt-[8px] font-heading text-sm">
-                      <Link to="/BrandingAndPackaging">
+                      <Link to="/branding-and-packaging">
                         Branding And Packaging
                       </Link>
                     </h1>
                   </div>
+
                   <div className="mt-[5px]">
-                    <h1 className="font-heading text-sm">Staff Augmentation</h1>
+                    <Link to="/staff-augmentation">
+                      {" "}
+                      <h1 className="font-heading text-sm">
+                        Staff Augmentation
+                      </h1>
+                    </Link>
                     <ul className="text-sm font-subheading list-inside list-disc">
-                      <li><Link to="/Reactjs">Hire Reacjs Developer</Link></li>
-                      <li><Link to="/Nodejs">Hire Node.js Developer</Link></li>
-                      <li><Link to="/Android">Hire Android Developer</Link></li>
-                      <li><Link to="/IOS">Hire IOS Developer</Link></li>
-                      <li><Link to="/Flutter">Hire Flutter Developer</Link></li>
-                      <li><Link to="/Laravel">Hire Laravel Developer</Link></li>
-                      <li><Link to="/CodeIgniter">Hire Code Igniter Developer</Link></li>
-                      <li><Link to="/Angular">Hire Angular Developer</Link></li>
-                      <li><Link to="/DotNet">Hire .Net Developer</Link></li>
+                      <li>
+                        <Link to="/hire-react-js-developer">
+                          Hire Reacjs Developer
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/hire-node-js-developer">
+                          Hire Node.js Developer
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/hire-android-developer">
+                          Hire Android Developer
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/hire-ios-developer">Hire IOS Developer</Link>
+                      </li>
+                      <li>
+                        <Link to="/hire-flutter-developer">
+                          Hire Flutter Developer
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/hire-laravel-developer">
+                          Hire Laravel Developer
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/hire-codeIgniter-developer">
+                          Hire CodeIgniter Developer
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/hire-angular-developer">
+                          Hire Angular Developer
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/hire-dotnet-developer">
+                          Hire .Net Developer
+                        </Link>
+                      </li>
                     </ul>
                   </div>
                 </div>

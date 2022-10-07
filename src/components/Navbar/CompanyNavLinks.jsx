@@ -25,29 +25,31 @@ const CompanyNavLinks = () => {
                 <ul className="text-sm font-subheading list-inside list-disc px-5">
                   <li>
                     {" "}
-                    <Link to="/Overview">Overview</Link>
+                    <Link to="/overview">Overview</Link>
                   </li>
                   <li>
                     {" "}
-                    <Link to="/TrainingAndDevelopment">
+                    <Link to="/training-and-development">
                       Training and Development
                     </Link>
                   </li>
                   <li>
                     {" "}
-                    <Link to="/Team">Team</Link>
+                    <Link to="/team">Team</Link>
                   </li>
                   <li>
                     {" "}
-                    <Link to="/LifeCerbosys">Life @ Cerbosys</Link>
+                    <Link to="/life-at-cerbosys">Life @ Cerbosys</Link>
                   </li>
                   <li>
                     {" "}
-                    <Link to="/Diversity">Diversity @ Cerbosys</Link>
+                    <Link to="/diversity-at-cerbosys">
+                      Diversity @ Cerbosys
+                    </Link>
                   </li>
                   <li>
                     {" "}
-                    <Link to="/Testimonial">Testimonial</Link>
+                    <Link to="/testimonial">Testimonial</Link>
                   </li>
                 </ul>
               </div>
@@ -107,29 +109,29 @@ const CompanyNavLinks = () => {
             <ul className="text-sm font-subheading list-inside list-disc">
               <li>
                 {" "}
-                <Link to="/Overview">Overview</Link>
+                <Link to="/overview">Overview</Link>
               </li>
               <li>
                 {" "}
-                <Link to="/TrainingAndDevelopment">
+                <Link to="/training-and-development">
                   Training and Development{" "}
                 </Link>
               </li>
               <li>
                 {" "}
-                <Link to="/Team">Team</Link>
+                <Link to="/team">Team</Link>
               </li>
               <li>
                 {" "}
-                <Link to="/LifeCerbosys">Life @ Cerbosys</Link>
+                <Link to="/life-at-cerbosys">Life @ Cerbosys</Link>
               </li>
               <li>
                 {" "}
-                <Link to="/Diversity">Diversity @ Cerbosys</Link>
+                <Link to="/diversity-at-cerbosys">Diversity @ Cerbosys</Link>
               </li>
               <li>
                 {" "}
-                <Link to="/Testimonial">Testimonial</Link>
+                <Link to="/testimonial">Testimonial</Link>
               </li>
             </ul>
           </div>
