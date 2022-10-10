@@ -59,8 +59,8 @@ module.exports = {
       EducationHeader: "url('assets/innerpage/education/educationheader.svg')",
       ManufacturingHeader:
         "url('assets/innerpage/manufacturing/manufacturingheader.svg')",
-       DotNetHeader:"url('assets/innerpage/dotnet/netheder.svg')",
-      
+      DotNetHeader: "url('assets/innerpage/dotnet/netheder.svg')",
+
       AndroidHeader: "url('assets/innerpage/android/androidheader.svg')",
       AngularHeader: "url('assets/innerpage/angular/angularheader.svg')",
       CodeIgniterHeader:
@@ -97,5 +97,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/aspect-ratio")],
 };
