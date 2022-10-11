@@ -30,7 +30,7 @@ const MobileDevelopment = () => {
           Our app development platform builds mobile applications that easily solve problems and deliver a fast value to your users and is capable of effortlessly increasing the number of users.
           </p>
 
-          <Link to="/ContactUs"><button
+          <Link to="/contact-us"><button
               className="bg-Primary rounded-full font-heading md:px-5 md:py-2 md:text-lg
               text-white uppercase px-3 py-1.5 text-xs mb-6"
             >

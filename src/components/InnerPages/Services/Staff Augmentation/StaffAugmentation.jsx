@@ -26,7 +26,7 @@ const StaffAugmentation = () => {
               so it's important to choose the option that best fits your needs.
             </p>
 
-            <Link to="/ContactUs">
+            <Link to="/contact-us">
               <button
                 className="bg-Primary rounded-full font-heading md:px-5 md:py-2 md:text-lg
               text-white uppercase px-3 py-1.5 text-xs mb-6">

@@ -22,7 +22,7 @@ const CodeIgniter = () => {
               hire an experienced Codeigniter developer from Us.
             </p>
 
-            <Link to="/ContactUs">
+            <Link to="/contact-us">
               <button
                 className="bg-Primary rounded-full font-heading md:px-5 md:py-2 md:text-lg
             text-white uppercase px-3 py-1.5 text-xs mb-2"

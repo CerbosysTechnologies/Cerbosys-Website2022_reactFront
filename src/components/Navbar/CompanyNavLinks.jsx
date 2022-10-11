@@ -75,7 +75,7 @@ const CompanyNavLinks = () => {
 
             {/* Button Row */}
             <div>
-              <Link to="/ContactUs">
+              <Link to="/contact-us">
                 <button
                   className="bg-Green rounded-full 
             font-heading px-6 py-3 text-white uppercase "
