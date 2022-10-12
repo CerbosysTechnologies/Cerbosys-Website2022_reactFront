@@ -126,19 +126,19 @@ const Footer = () => {
                     <Link to="/agriculture">Agriculture</Link>
                   </li>
                   <li className="">
-                    <Link to="/ecommerce">Ecommerce And Retail</Link>
+                    <Link to="/ecommerce-development-services">Ecommerce And Retail</Link>
                   </li>
                   <li className="">
                     <Link to="/health-care">Healthcare And Life Science</Link>
                   </li>
                   <li className="">
-                    <Link to="/banking">Banking And Finance</Link>
+                    <Link to="/banking-and-finance">Banking And Finance</Link>
                   </li>
                   <li className="">
                     <Link to="/mining">Mining</Link>
                   </li>
                   <li className="">
-                    <Link to="/transport">Transport And Logistics</Link>
+                    <Link to="/transport-and-logistics">Transport And Logistics</Link>
                   </li>
                   <li className="">
                     <Link to="/education">Education</Link>

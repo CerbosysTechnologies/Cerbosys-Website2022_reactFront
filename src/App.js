@@ -95,11 +95,11 @@ function App() {
         <Route path="/current-opening" element={<CurrentOpening />} />
         {/* Indstri Start */}
         <Route path="/agriculture" element={<Agriculture />} />
-        <Route path="/ecommerce" element={<Ecommerce />} />
+        <Route path="/ecommerce-development-services" element={<Ecommerce />} />
         <Route path="/health-care" element={<HealthCare />} />
-        <Route path="/banking" element={<Banking />} />
+        <Route path="/banking-and-finance" element={<Banking />} />
         <Route path="/mining" element={<Mining />} />
-        <Route path="/transport" element={<Transport />} />
+        <Route path="/transport-and-logistics" element={<Transport />} />
         <Route path="/education" element={<Education />} />
         <Route path="/real-estate" element={<RealEstate />} />
         <Route path="/manufacturing" element={<Manufacturing />} />
