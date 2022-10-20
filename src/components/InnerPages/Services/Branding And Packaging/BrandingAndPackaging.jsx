@@ -10,7 +10,7 @@ const BrandingAndPackaging = () => {
   return (
     <div>
          <>
-        <Navbar />
+        {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">
 
  
@@ -41,7 +41,7 @@ const BrandingAndPackaging = () => {
         <BrandingAndPackagingDesc />
         <BrandAndPackagingProcess />
         <BrandingAndPackagingForm />
-        <Footer />
+        {/* <Footer /> */}
         
 
         </>

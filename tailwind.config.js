@@ -71,6 +71,7 @@ module.exports = {
       NodejsHeader: "url('assets/innerpage/nodejs/node.jsheader.svg')",
       ReactjsHeader: "url('assets/innerpage/reactjs/reactjsheader.svg')",
       CaseStudyHeader: "url('assets/innerpage/casestudy/casestudy.svg')",
+      PrivacyPolicy: "url('assets/Privecy/privecy.svg')",
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],

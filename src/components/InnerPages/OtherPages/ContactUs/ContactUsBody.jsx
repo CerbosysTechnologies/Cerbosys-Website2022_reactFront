@@ -1,7 +1,7 @@
 import React from "react";
 import Contact from "../../../Common/Component/Contact";
 import contacticon from "../../../../assets/contactus/icon_contact.svg";
-
+import logo from '../../../../assets/footer/Logo_in_footer.svg'
 import callicon from "../../../../assets/footer/call_icon.svg";
 import emailicon from "../../../../assets/footer/email_icon.svg";
 

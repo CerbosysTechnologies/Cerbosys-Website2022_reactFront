@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from "../../../Common/Component/Footer";
+// import Footer from "../../../Common/Component/Footer";
 import Navbar from "../../../Navbar/Navbar";
 import ContactUsBody from './ContactUsBody';
 
@@ -7,7 +7,7 @@ const ContactUs = () => {
   return (
     <div>
           <>
-        <Navbar />
+        {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-ContactUsBackgroud bg-cover md:bg-top bg-center">
 
 
@@ -27,7 +27,7 @@ const ContactUs = () => {
         </div>
       </>
     <ContactUsBody />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

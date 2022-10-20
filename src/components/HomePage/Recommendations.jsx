@@ -3,6 +3,7 @@ import topfirmicon from "../../assets/recommend/topdeveloper.svg";
 import goodfirmicon from "../../assets/recommend/goodfirm.svg";
 import clutchicon from "../../assets/recommend/clutch.svg";
 import appfuturaicon from "../../assets/recommend/aapfutura.svg";
+import Entrepreneur from "../../assets/recommend/Entrepreneur India.svg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
@@ -46,6 +47,13 @@ const Recommendations = () => {
               <SwiperSlide>
                 <img
                   src={topfirmicon}
+                  alt=""
+                  className="md:w-72 md:h-72 mt-10 md:mx-4 px-2 w-80 h-80 md:mt-0 scale-100 hover:scale-125 ease-out duration-500"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src={Entrepreneur}
                   alt=""
                   className="md:w-72 md:h-72 mt-10 md:mx-4 px-2 w-80 h-80 md:mt-0 scale-100 hover:scale-125 ease-out duration-500"
                 />

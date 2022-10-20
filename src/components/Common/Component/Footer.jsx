@@ -1,14 +1,14 @@
 import React from "react";
-import callicon from "../../../assets/footer/call_icon.svg";
-import emailicon from "../../../assets/footer/email_icon.svg";
+import callicon from "../../../assets/footer/FooterWhatsp.svg";
+import emailicon from "../../../assets/footer//FooterEmail.svg";
 import fbcon from "../../../assets/footer/facebook.svg";
 import instagramicon from "../../../assets/footer/Instagram.svg";
-import linkedinicon from "../../../assets/footer/Linkedin.svg";
-import locationicon from "../../../assets/footer/Location_icon.svg";
+import linkedinicon from "../../../assets/footer/Linkdin_footer.svg";
+import locationicon from "../../../assets/footer/FooterLoction.svg";
 import twittericon from "../../../assets/footer/Twittter.svg";
-import whatsappicon from "../../../assets/footer/Whatsapp_icon.svg";
+import whatsappicon from "../../../assets/footer/FoterColl.svg";
 import youtubeicon from "../../../assets/footer/youtube.svg";
-import footerlogo from "../../../assets/footer/Logo_in_footer.svg";
+import footerlogo from "../../../assets/footer/FooterLogosCer.svg";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -16,9 +16,10 @@ const Footer = () => {
     <div>
       <div className="bg-FooterBackground w-full h-full mx-auto py-4 px-20">
         <div className="max-w-[1240px] mx-auto">
-          <div className="grid md:grid-cols-5 gap-2">
+          <div className="">
+            {/* <div className="grid md:grid-cols-5 gap-2"> */}
             {/* First Col */}
-            <div>
+            {/* <div>
               <img
                 src={footerlogo}
                 alt="Logo Footer"
@@ -38,11 +39,22 @@ const Footer = () => {
                 services sector. Our mission is to ensure consistent growth in
                 the performance of our clients.
               </p>
-            </div>
+            </div> */}
             {/* First Col Ends */}
-
+            <div className="md:col-span-2 col-span-1 flex-col-reverse  flex  md:flex-row  md:justify-around md:items-center items-center md:m-2 md:mt-5 md:gap-20 mt-3 gap-10  ">
+              <div className="text-white flex font-heading italic sm:mb-3 mb-0 sm:text-2xl md:text-3xl">
+                Enabling Business Make Business
+              </div>{" "}
+              <div className="flex">
+                <img
+                  src={footerlogo}
+                  alt="Logo Footer"
+                  className="w-[350px] h-[200px]"
+                />
+              </div>
+            </div>
             {/* Main Div of all three columns */}
-            <div className="md:col-span-4 flex flex-wrap md:justify-center md:items-center md:m-3 md:mt-36 md:gap-20 gap-6">
+            <div className="md:col-span-4 flex flex-wrap md:justify-between justify-center md:items-center items-center md:m-3 md:mt-5 md:gap-20 mt-3 gap-10">
               {/* Second Column */}
               <div className="">
                 <h6 className="font-heading text-sm md:text-lg text-white uppercase mb-3 md:px-0 ">
@@ -68,11 +80,16 @@ const Footer = () => {
                   <li className="">
                     <Link to="/case-study">Case Study</Link>
                   </li>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
+                  <li className="">
+                    <Link to="/about-us">About US</Link>
+                  </li>
+                  <li className="">
+                    <Link to="/terms-conditions">Terms & Conditions</Link>
+                  </li>
+                  <li className="">
+                    <Link to="/privacy-policy">Privacy Policy</Link>
+                  </li>
+                  {/* <br></br> <br></br> */}
                 </ul>
               </div>
 
@@ -117,7 +134,7 @@ const Footer = () => {
               {/* Fourth Column */}
               {/* Industry Div */}
               <div>
-                <h1 className="font-heading text-white text-sm md:text-lg mb-0 uppercase">
+                <h1 className="font-heading text-white text-sm md:text-lg  mb-3 uppercase">
                   Industries
                 </h1>
 
@@ -126,7 +143,9 @@ const Footer = () => {
                     <Link to="/agriculture">Agriculture</Link>
                   </li>
                   <li className="">
-                    <Link to="/ecommerce-development-services">Ecommerce And Retail</Link>
+                    <Link to="/ecommerce-development-services">
+                      Ecommerce And Retail
+                    </Link>
                   </li>
                   <li className="">
                     <Link to="/health-care">Healthcare And Life Science</Link>
@@ -138,7 +157,9 @@ const Footer = () => {
                     <Link to="/mining">Mining</Link>
                   </li>
                   <li className="">
-                    <Link to="/transport-and-logistics">Transport And Logistics</Link>
+                    <Link to="/transport-and-logistics">
+                      Transport And Logistics
+                    </Link>
                   </li>
                   <li className="">
                     <Link to="/education">Education</Link>
@@ -157,7 +178,7 @@ const Footer = () => {
 
               {/* Fifth Column */}
               <div className="mt-5 ">
-                <h6 className="font-heading text-lg text-white uppercase md:mb-8">
+                <h6 className="font-heading text-lg text-white uppercase  mb-3">
                   Contact Us
                 </h6>
 
@@ -196,6 +217,8 @@ const Footer = () => {
                     info@cerbosys.com
                   </span>
                 </div>
+                <br />
+                <br />
               </div>
               {/* Fifth Column Ends*/}
             </div>
@@ -254,31 +277,44 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              
               <img
                 src={fbcon}
                 alt="Facebook Icon"
                 className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
               />
             </a>
-            <a href="https://www.instagram.com/cerbosys" target="_blank" rel="noopener noreferrer">
-            <img
-              src={instagramicon}
-              alt="Facebook Icon"
-              className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
-            /></a>
-            <a href="https://twitter.com/CerbosysTech" target="_blank" rel="noopener noreferrer">
-            <img
-              src={twittericon}
-              alt="Facebook Icon"
-              className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
-            /></a>
-            <a href="https://www.linkedin.com/company/cerbosys" target="_blank" rel="noopener noreferrer">
-            <img
-              src={linkedinicon}
-              alt="Facebook Icon"
-              className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
-            />
+            <a
+              href="https://www.instagram.com/cerbosys"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={instagramicon}
+                alt="Facebook Icon"
+                className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
+              />
+            </a>
+            <a
+              href="https://twitter.com/CerbosysTech"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={twittericon}
+                alt="Facebook Icon"
+                className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/cerbosys"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={linkedinicon}
+                alt="Facebook Icon"
+                className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
+              />
             </a>
             <img
               src={youtubeicon}

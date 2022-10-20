@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import cerbosyswhite from "../../assets/cerbosyswhite.svg";
-import cerbosysblack from "../../assets/cerbosysblack.svg";
+import cerbosyswhite from "../../assets/cerbosysNewSvgWhite.svg";
+import cerbosysblack from "../../assets/cerbosysNewSvg.svg";
 import callicon from "../../assets/call_icon.svg";
 import NavLinks from "./ServiceNavLinks";
 import IndustryNavLinks from "./IndustryNavLinks";
@@ -35,7 +35,7 @@ const Navbar = () => {
             <img
               src={!headerVisible ? cerbosyswhite : cerbosysblack}
               alt="logo"
-              className="md:cursor-pointer md:w-[300px] md:h-28 md:mt-0 mt-5 w-[200px] h-[65px]"
+              className="md:cursor-pointer md:w-[260px] md:h-20 md:mt-0 mt-5 w-[160px] h-[75px]"
             />
           </Link>
           {/* Test Code */}

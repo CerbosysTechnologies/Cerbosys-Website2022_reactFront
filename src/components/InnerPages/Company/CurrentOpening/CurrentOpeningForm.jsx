@@ -1,11 +1,10 @@
-import React from 'react'
-import currentopeningicon from '../../../../assets/innerpage/currentopening/contact_image.jpg'
-import ServicesForm from '../../../Common/Component/ServicesForm'
+import React from "react";
+import currentopeningicon from "../../../../assets/innerpage/currentopening/contact_image.jpg";
+import ServicesForm from "../../../Common/Component/ServicesForm";
 import { IMAGE_SERVER } from "../../../../ServerUrls";
 import { useState } from "react";
 
 const CurrentOpeningForm = ({ onChangeSelected }) => {
-
   const [imgName, setImgName] = useState();
 
   const onChangeSelection = (newName) => {
@@ -15,12 +14,9 @@ const CurrentOpeningForm = ({ onChangeSelected }) => {
     console.log("ImgName", imgName);
   };
 
-
   return (
- 
-        
-        <div>
-        <div className="bg-FormBackground mx-auto w-full py-16 px-2 object-contain bg-cover bg-center">
+    <div>
+      <div className="bg-FormBackground mx-auto w-full py-16 px-2 object-contain bg-cover bg-center">
         <div className="max-w-[1240px] mx-auto ">
           <div className="flex flex-col flex-wrap items-center">
             {/* Heading */}
@@ -32,31 +28,29 @@ const CurrentOpeningForm = ({ onChangeSelected }) => {
               associating with us.
             </h2>
             {/* Heading Ends */}
-             {/* Form Design */}
-             <div className="grid md:grid-cols-2 mb-4 mt-10 md:w-10/12 shadow-xl shadow-gray-600">
+            {/* Form Design */}
+            <div className="grid md:grid-cols-2 mb-4 mt-10 md:w-10/12 shadow-xl shadow-gray-600">
               {/* Image Section */}
-              <div className="mx-auto items-center justify-center " >
-              <img src={!imgName ? currentopeningicon : imgName} alt="" className="h-full"></img>
+              <div className="mx-auto items-center justify-center ">
+                <img
+                  src={!imgName ? currentopeningicon : imgName}
+                  alt=""
+                  className="h-full"
+                ></img>
               </div>
               {/* Image Section Ends*/}
 
               {/* Form Section */}
               <div className="bg-white md:px-14 px-10 items-center justify-center text-center ">
-              <ServicesForm onChangeSelected={onChangeSelection} />
-                </div>
-              {/* Form Section Ends*/}
-
-
-
+                <ServicesForm onChangeSelected={onChangeSelection} />
               </div>
+              {/* Form Section Ends*/}
+            </div>
+          </div>
+        </div>
       </div>
-      </div>
-      </div>
+    </div>
+  );
+};
 
-</div>
-
- 
-  )
-}
-
-export default CurrentOpeningForm
+export default CurrentOpeningForm;

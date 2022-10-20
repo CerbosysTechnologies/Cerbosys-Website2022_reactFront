@@ -275,7 +275,7 @@ const Teambody = () => {
 
               <p className="font-heading md:text-lg text-sm text-center md:mt-4">
                 Hi, I am Rishabh Shrivastava
-                <br></br>Graphic Designer
+                <br></br>UI/UX and Graphic Designer
                 <br></br>
                 <i className="text-Green">
                   “You believe we design, to make your business shine”

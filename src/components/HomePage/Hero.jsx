@@ -27,7 +27,7 @@ const Hero = () => {
   }
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="mx-auto w-full md:h-screen h-full py-16 px-4 bg-Hero bg-cover md:bg-top bg-center">
         {/* Content Section */}
         <div className="flex flex-col justify-center text-center items-center h-3/4 mx-auto">
@@ -121,7 +121,7 @@ const Hero = () => {
       <ClientLogoPage />
       <TechnologyHomePage />
       <Recommendations />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

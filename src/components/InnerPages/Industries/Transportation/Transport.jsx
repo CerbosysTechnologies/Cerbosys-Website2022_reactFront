@@ -8,7 +8,7 @@ const Transport = () => {
   return (
     <div>
       <>
-        <Navbar />
+        {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[36rem] bg-TransportHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
@@ -28,7 +28,7 @@ const Transport = () => {
       </>
       <TransportBody />
       <TransportForm />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

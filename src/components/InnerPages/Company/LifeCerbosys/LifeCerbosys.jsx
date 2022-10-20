@@ -8,7 +8,7 @@ const LifeCerbosys = () => {
   return (
     <div>
         <>
-        <Navbar />
+        {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[40rem]  h-96 py-12 px-4 bg-LifeCerbosys  bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
@@ -21,7 +21,7 @@ const LifeCerbosys = () => {
         </>
         <LifeCerbosysBody />
         <LifeCerbosysForm />
-        <Footer />
+        {/* <Footer /> */}
     </div>
   )
 }

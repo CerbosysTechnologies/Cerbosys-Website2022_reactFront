@@ -9,7 +9,7 @@ const Angular = () => {
   return (
     <div>
       <>
-        <Navbar />
+        {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-AngularHeader bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[35rem] h-96 mx-auto">
@@ -37,7 +37,7 @@ const Angular = () => {
       </>
       <AngularBody />
       <AngularForm />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

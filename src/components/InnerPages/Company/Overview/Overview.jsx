@@ -7,7 +7,7 @@ const Overview = () => {
   return (
     <div>
         <>
-        <Navbar />
+        {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[50rem]  h-96 py-12 px-4 bg-OverviewBackground bg-cover md:bg-top bg-center">
 
 
@@ -33,7 +33,7 @@ const Overview = () => {
         </div>
         </>
         <OverviewBody />
-        <Footer />
+        {/* <Footer /> */}
     </div>
   )
 }

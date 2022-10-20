@@ -39,10 +39,17 @@ import Laravel from "./components/InnerPages/Services/Staff Augmentation/StaffAu
 import Nodejs from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Nodejs/Nodejs";
 import Reactjs from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Reactjs/Reactjs";
 import { Helmet } from "react-helmet";
+import Termconditions from "./components/term&conditions/Termandconditions.jsx";
+import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Common/Component/Footer";
+import AboutUS from "./components/AboutUs/AboutUS";
+
 function App() {
   document.addEventListener("contextmenu", handelRightClick);
   return (
     <>
+      <Navbar />
       <Helmet>
         <title>
           Website Design & Mobile App Development Company | Cerbosys
@@ -105,7 +112,11 @@ function App() {
         <Route path="/manufacturing" element={<Manufacturing />} />
         {/* Indstri End */}
         <Route path="/case-study" element={<CaseStudy />} />
+        <Route path="/terms-Conditions" element={<Termconditions />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/about-us" element={<AboutUS />} />
       </Routes>
+      <Footer />
       <ScrollToTop />
     </>
   );

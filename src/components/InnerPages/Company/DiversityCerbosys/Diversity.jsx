@@ -8,7 +8,7 @@ const Diversity = () => {
   return (
     <div>
       <>
-        <Navbar />
+        {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[43rem]  h-96 py-12 px-4 bg-DiversityBackground bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-[30rem] mx-auto">
@@ -27,7 +27,7 @@ const Diversity = () => {
 
         <DiversityBody />
         <DiversityForm />
-        <Footer />
+        {/* <Footer /> */}
       </>
     </div>
   );
