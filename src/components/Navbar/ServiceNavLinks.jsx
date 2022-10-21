@@ -146,14 +146,14 @@ const NavLinks = () => {
                 {/* Third Row */}
                 <div className="flex flex-wrap flex-col justify-evenly py-8">
                   <div className="mx-3">
-                    <div className="font-subheading text-lg mt-8">
-                      call us at
+                    <div className="font-subheading text-lg mt-8  normal-case hover:uppercase">
+                      Call us at
                       <p>0731-4993-444</p>
                       <p>+91 88-3969-7183</p>
                     </div>
 
-                    <div className="font-subheading text-lg mt-8">
-                      email us at
+                    <div className="font-subheading text-lg mt-8 normal-case ">
+                      Email us at
                       <p>info@cerbosys.com</p>
                     </div>
                   </div>

@@ -35,7 +35,7 @@ const CompanyNavLinks = () => {
                   </li>
                   <li>
                     {" "}
-                    <Link to="/team">Team</Link>
+                    <Link to="/team"> Team</Link>
                   </li>
                   <li>
                     {" "}
@@ -59,14 +59,14 @@ const CompanyNavLinks = () => {
             {/* Fourth Row */}
             <div className="flex flex-wrap flex-col justify-evenly">
               <div className="">
-                <div className="font-subheading text-lg m-4">
-                  call us at
+                <div className="font-subheading text-lg m-4 normal-case hover:uppercase">
+                  Call us at
                   <p>0731-499-3-444</p>
                   <p>+91 88-3969-7183</p>
                 </div>
 
-                <div className="font-subheading text-lg m-6">
-                  email us at
+                <div className="font-subheading text-lg m-6 normal-case">
+                  Email us at
                   <p>info@cerbosys.com</p>
                 </div>
               </div>

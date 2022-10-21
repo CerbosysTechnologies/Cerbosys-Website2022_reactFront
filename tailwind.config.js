@@ -23,7 +23,8 @@ module.exports = {
       Service: "url('assets/services/service_ page_background.png')",
       WebDevelopment:
         "url('assets/innerpage/webdevelopment/web_developmentpage_background.jpg')",
-      FooterBackground: "url('assets/footer/footer.svg')",
+      // FooterBackground: "url('assets/footer/footer.svg')",
+      FooterBackground: "url('assets/footer/Newmapinfooter.svg')",
       FormBackground: "url('assets/innerpage/letstalk.png')",
       TeamBackground: "url('assets/innerpage/team/team_image_background.png')",
       OverviewBackground: "url('assets/innerpage/overview/overview_image.svg')",
@@ -59,19 +60,21 @@ module.exports = {
       EducationHeader: "url('assets/innerpage/education/educationheader.svg')",
       ManufacturingHeader:
         "url('assets/innerpage/manufacturing/manufacturingheader.svg')",
-      DotNetHeader: "url('assets/innerpage/dotnet/netheder.svg')",
+      DotNetHeader: "url('assets/innerpage/dotnet/dotnetheader.svg')",
 
       AndroidHeader: "url('assets/innerpage/android/androidheader.svg')",
       AngularHeader: "url('assets/innerpage/angular/angularheader.svg')",
       CodeIgniterHeader:
         "url('assets/innerpage/codeigniter/codeigniterheader.svg')",
       FlutterHeader: "url('assets/innerpage/flutter/flutterheader.svg')",
-      IOSHeader: "url('assets/innerpage/ios/iosheader.svg')",
+      IOSHeader: "url('assets/innerpage/ios/iosheader1.svg')",
       LaravelHeader: "url('assets/innerpage/laravel/laravelheader.svg')",
       NodejsHeader: "url('assets/innerpage/nodejs/node.jsheader.svg')",
-      ReactjsHeader: "url('assets/innerpage/reactjs/reactjsheader.svg')",
+      ReactjsHeader: "url('assets/innerpage/reactjs/reactjsheader1.svg')",
       CaseStudyHeader: "url('assets/innerpage/casestudy/casestudy.svg')",
       PrivacyPolicy: "url('assets/Privecy/privecy.svg')",
+      Termandcondition: "url('assets/Privecy/Termandcondition.svg')",
+     
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],

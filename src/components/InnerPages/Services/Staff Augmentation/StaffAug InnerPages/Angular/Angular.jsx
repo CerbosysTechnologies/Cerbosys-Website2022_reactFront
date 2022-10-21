@@ -3,7 +3,7 @@ import Navbar from "../../../../../Navbar/Navbar";
 import Footer from "../../../../../Common/Component/Footer";
 import { Link } from "react-router-dom";
 import AngularBody from "./AngularBody";
-import AngularForm from './AngularForm';
+import AngularForm from "./AngularForm";
 
 const Angular = () => {
   return (
@@ -18,9 +18,9 @@ const Angular = () => {
             </p>
 
             <p className="text-white font-heading py-2 md:text-xl text-xs md:mb-28 mb-24 md:w-[480px] text-justify">
-              Get a dedicated Angular Developer from Us for your business
-              to run smoothly online, by developing a user-friendly interface
-              for your web applications.
+              Get a dedicated Angular Developer from Us for your business to run
+              smoothly online, by developing a user-friendly interface for your
+              web applications.
             </p>
 
             <Link to="/contact-us">

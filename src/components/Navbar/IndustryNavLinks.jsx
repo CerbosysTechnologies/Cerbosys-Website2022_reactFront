@@ -29,15 +29,46 @@ const IndustryNavLinks = () => {
             <div className="flex flex-wrap flex-col m-2 border-r-2 py-7">
               <div className="mt-[5px]">
                 <ul className="text-sm font-subheading list-inside list-disc px-5">
-                  <li> <Link to="/agriculture">Agriculture</Link></li>
-                  <li> <Link to="/ecommerce-development-services">Ecommerce and Retail</Link></li>
-                  <li> <Link to="/health-care">Healthcare and Life Science</Link></li>
-                  <li> <Link to="/banking-and-finance">Banking and Finance</Link></li>
-                  <li> <Link to="/mining">Mining</Link></li>
-                  <li> <Link to="/transport-and-logistics">Transport and Logistics</Link></li>
-                  <li> <Link to="/education">Education</Link></li>
-                  <li> <Link to="/real-estate">Real Estate and Construction</Link></li>
-                  <li> <Link to="/manufacturing">Manufacturing</Link></li>
+                  <li>
+                    {" "}
+                    <Link to="/agriculture">Agriculture</Link>
+                  </li>
+                  <li>
+                    {" "}
+                    <Link to="/ecommerce-development-services">
+                      Ecommerce and Retail
+                    </Link>
+                  </li>
+                  <li>
+                    {" "}
+                    <Link to="/health-care">Healthcare and Life Science</Link>
+                  </li>
+                  <li>
+                    {" "}
+                    <Link to="/banking-and-finance">Banking and Finance</Link>
+                  </li>
+                  <li>
+                    {" "}
+                    <Link to="/mining">Mining</Link>
+                  </li>
+                  <li>
+                    {" "}
+                    <Link to="/transport-and-logistics">
+                      Transport and Logistics
+                    </Link>
+                  </li>
+                  <li>
+                    {" "}
+                    <Link to="/education">Education</Link>
+                  </li>
+                  <li>
+                    {" "}
+                    <Link to="/real-estate">Real Estate and Construction</Link>
+                  </li>
+                  <li>
+                    {" "}
+                    <Link to="/manufacturing">Manufacturing</Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -46,14 +77,14 @@ const IndustryNavLinks = () => {
             {/* Second Row */}
             <div className="flex flex-wrap flex-col justify-evenly">
               <div className="">
-                <div className="font-subheading text-lg m-6">
-                  call us at
+                <div className="font-subheading text-lg m-6 normal-case hover:uppercase">
+                  Call us at
                   <p>0731-499-3-444</p>
                   <p>+91 88-3969-7183</p>
                 </div>
 
-                <div className="font-subheading text-lg m-6">
-                  email us at
+                <div className="font-subheading text-lg m-6  normal-case">
+                  Email us at
                   <p>info@cerbosys.com</p>
                 </div>
               </div>
@@ -62,13 +93,13 @@ const IndustryNavLinks = () => {
 
             {/* Third Row */}
             <div>
-            <Link to="/contact-us">
-              <button
-                className="bg-Green rounded-full 
+              <Link to="/contact-us">
+                <button
+                  className="bg-Green rounded-full 
             font-heading px-6 py-3 text-white uppercase "
-              >
-                Get A Free Estimate
-              </button>
+                >
+                  Get A Free Estimate
+                </button>
               </Link>
             </div>
             {/* Third Row Ends*/}
@@ -90,15 +121,46 @@ const IndustryNavLinks = () => {
         <div className="flex flex-wrap flex-col m-2">
           <div className="mt-[-10px] ">
             <ul className="text-sm font-subheading list-inside list-disc">
-            <li> <Link to="/agriculture">Agriculture</Link></li>
-                  <li> <Link to="/ecommerce-development-services">Ecommerce and Retail</Link></li>
-                  <li> <Link to="/health-care">Healthcare and Life Science</Link></li>
-                  <li> <Link to="/banking-and-finance">Banking and Finance</Link></li>
-                  <li> <Link to="/mining">Mining</Link></li>
-                  <li> <Link to="/transport-and-logistics">Transport and Logistics</Link></li>
-                  <li> <Link to="/education">Education</Link></li>
-                  <li> <Link to="/real-estate">Real Estate and Construction</Link></li>
-                  <li> <Link to="/manufacturing">Manufacturing</Link></li>
+              <li>
+                {" "}
+                <Link to="/agriculture">Agriculture</Link>
+              </li>
+              <li>
+                {" "}
+                <Link to="/ecommerce-development-services">
+                  Ecommerce and Retail
+                </Link>
+              </li>
+              <li>
+                {" "}
+                <Link to="/health-care">Healthcare and Life Science</Link>
+              </li>
+              <li>
+                {" "}
+                <Link to="/banking-and-finance">Banking and Finance</Link>
+              </li>
+              <li>
+                {" "}
+                <Link to="/mining">Mining</Link>
+              </li>
+              <li>
+                {" "}
+                <Link to="/transport-and-logistics">
+                  Transport and Logistics
+                </Link>
+              </li>
+              <li>
+                {" "}
+                <Link to="/education">Education</Link>
+              </li>
+              <li>
+                {" "}
+                <Link to="/real-estate">Real Estate and Construction</Link>
+              </li>
+              <li>
+                {" "}
+                <Link to="/manufacturing">Manufacturing</Link>
+              </li>
             </ul>
           </div>
         </div>
