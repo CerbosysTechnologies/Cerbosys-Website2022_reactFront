@@ -12,7 +12,10 @@ function Termconditions() {
           <p className="text-white font-heading py-2 md:text-3xl text-xl mb-10 ">
             Terms and conditions
           </p>
-          <p className="text-white font-heading py-2 md:text-xl text-xs md:mb-28 mb-24 md:w-[480px] text-justify"></p>
+          <p className="text-white font-heading py-2 md:text-xl text-xs md:mb-28 mb-24 md:w-[480px] text-justify">
+            Cerbosys reserves the right to change the Terms and Conditions at
+            any time, for any reason.
+          </p>
         </div>
         {/* Content Section Ends*/}
       </div>

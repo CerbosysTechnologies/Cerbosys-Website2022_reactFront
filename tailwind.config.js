@@ -72,9 +72,9 @@ module.exports = {
       NodejsHeader: "url('assets/innerpage/nodejs/node.jsheader.svg')",
       ReactjsHeader: "url('assets/innerpage/reactjs/reactjsheader1.svg')",
       CaseStudyHeader: "url('assets/innerpage/casestudy/casestudy.svg')",
-      PrivacyPolicy: "url('assets/Privecy/privecy.svg')",
-      Termandcondition: "url('assets/Privecy/Termandcondition.svg')",
-     
+      PrivacyPolicy: "url('assets/Privecy/Privacy.svg')",
+      Termandcondition: "url('assets/Privecy/term.svg')",
+      Aboutus: "url('assets/Aboutus/About4.svg')",
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],
