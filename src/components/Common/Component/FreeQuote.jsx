@@ -258,14 +258,22 @@ const FreeQuote = () => {
                       >
                         <option>Please Select</option>
 
-                        {serviceitems.map((item) => (
+                          {serviceitems ? (
+                        
+                        serviceitems.map((item) => (
                           <option
                             key={item.service_name}
                             value={item.myservices_id}
                           >
                             {item.service_name}
                           </option>
-                        ))}
+                        ))) : (
+                    <>
+                
+                 <option value="">No Service</option>
+                    <p>no service</p>
+                </>
+                  )}
                       </select>
                     </div>
                     {/* Selection Div Ends*/}

@@ -32,55 +32,42 @@ const TestimonialBody = () => {
       <div className="mx-auto w-full py-16 px-4">
         <div className="max-w-[1240px] mx-auto">
           <div className="grid md:grid-cols-2 gap-4 md:mt-10 sm:g">
-            {/* Video Div */}
-            {/* <video
-              width="700"
-              height="500"
-              controls
-              className="md:w-[50rem] md:h-[25rem]"
+            <Swiper
+              className="md:h-96 h-80 md:w-[36rem] sm:w-[100px]"
+              modules={[Autoplay, Pagination]}
+              pagination={{
+                clickable: true,
+              }}
+              loop={true}
+              slidesPerView={1}
+              // autoplay={{
+              //   delay: 5000,
+              //   disableOnInteraction: false,
+              // }}
             >
-              <source src={testivideo} type="video/mp4" />
-            </video> */}
-              <Swiper
-                className="md:h-96 h-80 md:w-[36rem] sm:w-[100px]"
-                modules={[Autoplay, Pagination]}
-                pagination={{
-                  clickable: true,
-                }}
-                loop={true}
-                slidesPerView={1}
-                // autoplay={{
-                //   delay: 5000,
-                //   disableOnInteraction: false,
-                // }}
-              >
-                {/* Anita */}
-                <SwiperSlide>
-                  <video
-              width="700"
-              height="500"
-              controls
-              className="md:w-[50rem] md:h-[25rem]  "
-            >
-              <source src={testivideo} type="video/mp4" />
-            </video>
-           
-                </SwiperSlide>
-                {/* Anup_Vanawat */}
-                <SwiperSlide>
-                  <video
-              width="700"
-              height="500"
-              controls
-              className="md:w-[50rem] md:h-[25rem]"
-            >
-              <source src={Anup_Vanawat} type="video/mp4" />
-            </video>
-                  
-                </SwiperSlide>
-
-               
-              </Swiper>
+              {/* Anita */}
+              <SwiperSlide>
+                <video
+                  width="700"
+                  height="500"
+                  controls
+                  className="md:w-[50rem] md:h-[25rem]  "
+                >
+                  <source src={testivideo} type="video/mp4" />
+                </video>
+              </SwiperSlide>
+              {/* Anup_Vanawat */}
+              <SwiperSlide>
+                <video
+                  width="700"
+                  height="500"
+                  controls
+                  className="md:w-[50rem] md:h-[25rem]"
+                >
+                  <source src={Anup_Vanawat} type="video/mp4" />
+                </video>
+              </SwiperSlide>
+            </Swiper>
             {/* Video Div Ends*/}
 
             {/* Client Testimonial */}

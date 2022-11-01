@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import callicon from "../../../assets/footer/FooterWhatsp.svg";
 import emailicon from "../../../assets/footer//FooterEmail.svg";
 import fbcon from "../../../assets/footer/facebook.svg";
@@ -9,9 +9,21 @@ import twittericon from "../../../assets/footer/Twittter.svg";
 import whatsappicon from "../../../assets/footer/FoterColl.svg";
 import youtubeicon from "../../../assets/footer/youtube.svg";
 import footerlogo from "../../../assets/footer/FooterLogosCer.svg";
+import right from "../../../assets/footer/right.svg";
+import left from "../../../assets/footer/left.svg";
 import { Link } from "react-router-dom";
-
+import MovingComponent from "react-moving-text";
 const Footer = () => {
+  // animation start
+  const AnimationsForChaining = ["unfold"];
+  const [animationIndex, setAnimationIndex] = useState(0);
+  const [animationType, setAnimationType] = useState(AnimationsForChaining[0]);
+
+  const handleChainAnimation = () => {
+    setAnimationIndex(animationIndex + 1);
+    setAnimationType([animationIndex + 1]);
+  };
+  // animation end
   return (
     <div>
       <div className="bg-FooterBackground w-full h-full mx-auto py-4 px-20">
@@ -42,8 +54,21 @@ const Footer = () => {
             </div> */}
             {/* First Col Ends */}
             <div className="md:col-span-2 col-span-1 flex-col-reverse  flex  md:flex-row  md:justify-around md:items-center items-center md:m-2 md:mt-5 md:gap-20 mt-3 gap-10  ">
-              <div className="text-white flex font-heading italic sm:mb-3 mb-0 sm:text-2xl md:text-3xl">
-                Enabling Business Make Business
+              <div className="text-white flex font-heading  sm:mb-3 mb-0 sm:text-2xl md:text-3xl">
+                <MovingComponent
+                  onAnimationEnd={handleChainAnimation}
+                  type={animationType}
+                  duration="1000ms"
+                  timing="linear"
+                  fillMode="forwards"
+                  iteration={1}
+                >
+                  {/* <span className="whitespace-nowrap flex ">
+        <img src={left} alt="" className="w-10 h-10 mr-3" /> Enabling Business Make Business <img src={right} alt="" className="w-10 h-10 ml-3" />  
+        </span> */}
+                  "Enabling Business Make Business"
+                </MovingComponent>
+                {/* " Enabling Business Make Business " */}
               </div>{" "}
               <div className="flex">
                 <img
@@ -81,6 +106,9 @@ const Footer = () => {
                     <Link to="/case-study">Case Study</Link>
                   </li>
                   <li className="">
+                    <Link to="/blog">Blogs</Link>
+                  </li>
+                  <li className="">
                     <Link to="/about-us">About US</Link>
                   </li>
                   <li className="">
@@ -89,7 +117,6 @@ const Footer = () => {
                   <li className="">
                     <Link to="/privacy-policy">Privacy Policy</Link>
                   </li>
-                  {/* <br></br> <br></br> */}
                 </ul>
               </div>
 
@@ -125,6 +152,7 @@ const Footer = () => {
                   <li className="">
                     <Link to="/lead-generation">Lead Generation</Link>
                   </li>
+                  <br></br>
                   <br></br>
                   <br></br>
                 </ul>
@@ -170,6 +198,7 @@ const Footer = () => {
                   <li className="">
                     <Link to="/manufacturing">Manufacturing</Link>
                   </li>
+                  <br></br>
                 </ul>
               </div>
               {/* Industry Div Ends*/}
@@ -219,6 +248,7 @@ const Footer = () => {
                 </div>
                 <br />
                 <br />
+                <br></br>
               </div>
               {/* Fifth Column Ends*/}
             </div>

@@ -75,6 +75,7 @@ module.exports = {
       PrivacyPolicy: "url('assets/Privecy/Privacy.svg')",
       Termandcondition: "url('assets/Privecy/term.svg')",
       Aboutus: "url('assets/Aboutus/About4.svg')",
+      Blogbg: "url('assets/Blogs/blogbg.svg')",
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],

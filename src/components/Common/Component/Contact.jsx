@@ -205,11 +205,23 @@ const Contact = () => {
                 // hadalChnageID();
               }}
             >
-              {serviceitems.map((item) => (
+                        <option>Please Select</option>
+
+               {serviceitems ? (
+              
+              serviceitems.map((item) => (
                 <option key={item.service_name} value={item.myservices_id}>
                   {item.service_name}
                 </option>
-              ))}
+              ))) : (
+                <>
+                
+                 <option value="">No Service</option>
+                    <p>no service</p>
+                </>
+                   
+                    
+                  )}
             </select>
           </div>
           {/* Selection Div Ends*/}

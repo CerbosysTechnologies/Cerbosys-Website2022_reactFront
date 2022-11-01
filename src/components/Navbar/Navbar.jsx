@@ -7,7 +7,19 @@ import NavLinks from "./ServiceNavLinks";
 import IndustryNavLinks from "./IndustryNavLinks";
 import CompanyNavLinks from "./CompanyNavLinks";
 
+import MovingComponent from "react-moving-text";
+
 const Navbar = () => {
+  // -------start ----
+  // const AnimationsForChaining = ["fold"];
+  // const [animationIndex, setAnimationIndex] = useState(0);
+  // const [animationType, setAnimationType] = useState(AnimationsForChaining[0]);
+
+  // const handleChainAnimation = () => {
+  //   setAnimationIndex(animationIndex + 1);
+  //   setAnimationType([animationIndex + 1]);
+  // };
+  // --------end------------
   const [open, setOpen] = useState(false);
   //Nevbar scrolling effect
   const [headerVisible, setheaderVisible] = useState(false);
@@ -34,6 +46,7 @@ const Navbar = () => {
           <Link to="/">
             <img
               src={!headerVisible ? cerbosyswhite : cerbosysblack}
+              // src={!headerVisible ? cerbosyswhite : cerbosysblack}
               alt="logo"
               className="md:cursor-pointer md:w-[260px] md:h-20 md:mt-0 mt-5 w-[160px] h-[75px]"
             />
@@ -83,6 +96,9 @@ const Navbar = () => {
 
           <li>
             <Link to="/current-opening">Career</Link>
+          </li>
+          <li>
+            <Link to="/blog">Blog</Link>
           </li>
 
           <li>
@@ -139,6 +155,11 @@ const Navbar = () => {
           <li>
             <Link to="/current-opening" className="py-1 px-3 inline-block">
               Career
+            </Link>
+          </li>
+          <li>
+            <Link to="/blog" className="py-1 px-3 inline-block">
+              Blog
             </Link>
           </li>
           <li>

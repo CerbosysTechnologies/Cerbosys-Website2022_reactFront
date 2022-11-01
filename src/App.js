@@ -44,6 +44,8 @@ import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Common/Component/Footer";
 import AboutUS from "./components/AboutUs/AboutUS";
+import Blog from "./components/Blogs/Blog";
+import BlogGetoneBlog from "./components/Blogs/BlogGetoneBlog";
 
 function App() {
   document.addEventListener("contextmenu", handelRightClick);
@@ -100,6 +102,8 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         {/* contact-us End */}
         <Route path="/current-opening" element={<CurrentOpening />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/one-blog" element={<BlogGetoneBlog />} />
         {/* Indstri Start */}
         <Route path="/agriculture" element={<Agriculture />} />
         <Route path="/ecommerce-development-services" element={<Ecommerce />} />
