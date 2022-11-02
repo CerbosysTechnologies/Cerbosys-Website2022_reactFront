@@ -46,6 +46,7 @@ import Footer from "./components/Common/Component/Footer";
 import AboutUS from "./components/AboutUs/AboutUS";
 import Blog from "./components/Blogs/Blog";
 import BlogGetoneBlog from "./components/Blogs/BlogGetoneBlog";
+import Solution from "./components/Solution/Solution";
 
 function App() {
   document.addEventListener("contextmenu", handelRightClick);
@@ -119,6 +120,7 @@ function App() {
         <Route path="/terms-Conditions" element={<Termconditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/about-us" element={<AboutUS />} />
+        <Route path="/solution" element={<Solution />} />
       </Routes>
       <Footer />
       <ScrollToTop />

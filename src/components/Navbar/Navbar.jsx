@@ -65,7 +65,7 @@ const Navbar = () => {
         {/* Menu */}
 
         <ul
-          className={`md:flex hidden uppercase items-center gap-1 font-heading  text-sm
+          className={`md:flex hidden uppercase items-center gap-1 font-heading  md:text-[11px] xl:text-sm lg:text-text-[11px]
        md:text-white  ${!headerVisible ? "" : "md:text-black"}
         `}
         >
@@ -81,7 +81,9 @@ const Navbar = () => {
             </Link>
           </li> */}
           <NavLinks></NavLinks>
-
+          <li>
+            <Link to="/solution ">Solution </Link>
+          </li>
           <IndustryNavLinks></IndustryNavLinks>
           {/* <li>
             <Link to="/" className="py-5 px-1 inline-block">
@@ -97,6 +99,7 @@ const Navbar = () => {
           <li>
             <Link to="/current-opening">Career</Link>
           </li>
+
           <li>
             <Link to="/blog">Blog</Link>
           </li>

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { TbPlayerTrackNext } from "react-icons/tb";
+import {  AiFillCaretRight } from "react-icons/ai";
 
 const NavLinks = () => {
   const [heading, setHeading] = useState("Services");
@@ -48,25 +50,45 @@ const NavLinks = () => {
                 <div className="flex flex-wrap flex-col  border-r-2  py-4 px-10 ">
                   <div className="mt-4">
                     <h1 className="font-subheading md:text-sm text-xs">
-                      <Link to="/web-development">Web Development</Link>
+                      <Link to="/web-development">
+                        {" "}
+                        <span className="flex items-center gap-2 ">
+                          <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                          Web Development{" "}
+                        </span>
+                      </Link>
                     </h1>
                   </div>
 
                   <div className="mt-5">
                     <h1 className="font-subheading md:text-sm text-xs">
-                      <Link to="/digital-marketing">Digital Marketing</Link>
+                      <Link to="/digital-marketing">
+                        {" "}
+                        <span className="flex items-center gap-2 ">
+                          <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                          Digital Marketing{" "}
+                        </span>
+                      </Link>
                     </h1>
                   </div>
 
                   <div className="mt-5">
                     <h1 className="font-subheading md:text-sm text-xs">
-                      <Link to="/lead-generation">Lead Generation</Link>
+                      <Link to="/lead-generation">
+                        <span className="flex items-center gap-2 ">
+                          <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                          Lead Generation
+                        </span>
+                      </Link>
                     </h1>
                   </div>
                   <div className="mt-5">
                     <h1 className="font-subheading md:text-sm text-xs">
                       <Link to="/branding-and-packaging">
-                        Branding And Packaging
+                        <span className="flex items-center gap-2 ">
+                          <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />{" "}
+                          Branding And Packaging
+                        </span>{" "}
                       </Link>
                     </h1>
                   </div>
@@ -74,14 +96,22 @@ const NavLinks = () => {
                   <div className="mt-5">
                     <h1 className="font-subheading md:text-sm text-xs">
                       <Link to="/mobile-app-development">
-                        Mobile App Development
+                        <span className="flex items-center gap-2 ">
+                          <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                          Mobile App Development{" "}
+                        </span>
                       </Link>
                     </h1>
                   </div>
 
                   <div className="mt-5">
                     <h1 className="font-subheading md:text-sm text-xs">
-                      <Link to="/uiux-development">UI/UX Development</Link>
+                      <Link to="/uiux-development">
+                        <span className="flex items-center gap-2 ">
+                          <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                          UI/UX Development{" "}
+                        </span>
+                      </Link>
                     </h1>
                   </div>
                 </div>
@@ -93,48 +123,77 @@ const NavLinks = () => {
                     <h1 className="font-subheading md:text-sm text-xs">
                       <Link to="/staff-augmentation">Staff Augmentation</Link>
                     </h1>
-                    <ul className="text-sm font-subheading list-inside list-disc capitalize">
+                    <ul className="text-sm font-subheading list-inside list-none capitalize">
                       <li>
                         <Link to="/hire-react-js-developer">
-                          Hire Reacjs Developer
+                          <span className="flex items-center gap-2  text-white fill-white">
+                            <AiFillCaretRight className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                            Hire Reacjs Developer
+                          </span>
                         </Link>
                       </li>
                       <li>
                         <Link to="/hire-node-js-developer">
-                          Hire Node.js Developer
+                          <span className="flex items-center gap-2  text-white fill-white">
+                            <AiFillCaretRight className="    fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                            Hire Node.js Developer{" "}
+                          </span>
                         </Link>
                       </li>
                       <li>
                         <Link to="/hire-android-developer">
-                          Hire Android Developer
+                          <span className="flex items-center gap-2  text-white fill-white">
+                            <AiFillCaretRight className="    fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                            Hire Android Developer{" "}
+                          </span>
                         </Link>
                       </li>
                       <li>
-                        <Link to="/hire-ios-developer">Hire IOS Developer</Link>
+                        <Link to="/hire-ios-developer">
+                          <span className="flex items-center gap-2  text-white fill-white">
+                            <AiFillCaretRight className="    fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                            Hire IOS Developer{" "}
+                          </span>
+                        </Link>
                       </li>
                       <li>
                         <Link to="/hire-flutter-developer">
-                          Hire Flutter Developer
+                          <span className="flex items-center gap-2  text-white fill-white">
+                            <AiFillCaretRight className="    fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                            Hire Flutter Developer{" "}
+                          </span>
                         </Link>
                       </li>
                       <li>
                         <Link to="/hire-laravel-developer">
-                          Hire Laravel Developer
+                          <span className="flex items-center gap-2  text-white fill-white">
+                            <AiFillCaretRight className="    fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                            Hire Laravel Developer{" "}
+                          </span>
                         </Link>
                       </li>
                       <li>
                         <Link to="/hire-codeIgniter-developer">
-                          Hire CodeIgniter Developer
+                          <span className="flex items-center gap-2  text-white fill-white">
+                            <AiFillCaretRight className="    fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                            Hire CodeIgniter Developer{" "}
+                          </span>
                         </Link>
                       </li>
                       <li>
                         <Link to="/hire-angular-developer">
-                          Hire Angular Developer
+                          <span className="flex items-center gap-2  text-white fill-white">
+                            <AiFillCaretRight className="    fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                            Hire Angular Developer{" "}
+                          </span>
                         </Link>
                       </li>
                       <li>
                         <Link to="/hire-dotnet-developer">
-                          Hire .Net Developer
+                          <span className="flex items-center gap-2  text-white fill-white">
+                            <AiFillCaretRight className="    fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                            Hire .Net Developer{" "}
+                          </span>
                         </Link>
                       </li>
                     </ul>

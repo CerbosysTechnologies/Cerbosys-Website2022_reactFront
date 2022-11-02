@@ -54,7 +54,7 @@ const Footer = () => {
             </div> */}
             {/* First Col Ends */}
             <div className="md:col-span-2 col-span-1 flex-col-reverse  flex  md:flex-row  md:justify-around md:items-center items-center md:m-2 md:mt-5 md:gap-20 mt-3 gap-10  ">
-              <div className="text-white flex font-heading  sm:mb-3 mb-0 sm:text-2xl md:text-3xl">
+              <div className="text-white flex font-heading  sm:mb-3 mb-0 sm:text-2xl lg:text-2xl xl:text-3xl  w-full ">
                 <MovingComponent
                   onAnimationEnd={handleChainAnimation}
                   type={animationType}

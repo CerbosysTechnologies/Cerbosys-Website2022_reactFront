@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
+import { TbPlayerTrackNext } from "react-icons/tb";
+
 const CompanyNavLinks = () => {
   const [heading, setHeading] = useState("Company");
   const [subHeading, setSubHeading] = useState("");
@@ -22,34 +24,66 @@ const CompanyNavLinks = () => {
             {/* First Row */}
             <div className="flex flex-wrap flex-col m-0 border-r-2 py-10">
               <div className="mt-[4px] ">
-                <ul className="text-sm font-subheading list-inside list-disc px-5">
+                <ul className="text-sm font-subheading list-inside list-none px-5">
                   <li>
                     {" "}
-                    <Link to="/overview">Overview</Link>
+                    {/* <span className=" whitespace-wrap"> */}
+                    <Link to="/overview" className="">
+                      <span className="flex items-center gap-2 ">
+                        <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                        Overview
+                      </span>
+                    </Link>
+                    {/* </span> */}
                   </li>
                   <li>
                     {" "}
                     <Link to="/training-and-development">
-                      Training and Development
+                      <span className="flex items-center gap-2 ">
+                        <TbPlayerTrackNext className="fill-white text-white  hover:text-green-500 hover:fill-green-500" />{" "}
+                        Training and Development
+                      </span>{" "}
                     </Link>
                   </li>
                   <li>
                     {" "}
-                    <Link to="/team"> Team</Link>
+                    <Link to="/team">
+                      {" "}
+                      <span className="flex items-center gap-2 ">
+                        <TbPlayerTrackNext className="fill-white text-white  hover:text-green-500 hover:fill-green-500" />{" "}
+                        Team{" "}
+                      </span>
+                    </Link>
                   </li>
                   <li>
                     {" "}
-                    <Link to="/life-at-cerbosys">Life @ Cerbosys</Link>
+                    <Link to="/life-at-cerbosys">
+                      {" "}
+                      <span className="flex items-center gap-2 ">
+                        <TbPlayerTrackNext className="fill-white text-white  hover:text-green-500 hover:fill-green-500" />
+                        Life @ Cerbosys{" "}
+                      </span>
+                    </Link>
                   </li>
                   <li>
                     {" "}
                     <Link to="/diversity-at-cerbosys">
-                      Diversity @ Cerbosys
+                      {" "}
+                      <span className="flex items-center gap-2 ">
+                        <TbPlayerTrackNext className="fill-white text-white  hover:text-green-500 hover:fill-green-500" />
+                        Diversity @ Cerbosys{" "}
+                      </span>
                     </Link>
                   </li>
                   <li>
                     {" "}
-                    <Link to="/testimonial">Testimonial</Link>
+                    <Link to="/testimonial">
+                      {" "}
+                      <span className="flex items-center gap-2 ">
+                        <TbPlayerTrackNext className="fill-white text-white  hover:text-green-500 hover:fill-green-500" />
+                        Testimonial{" "}
+                      </span>
+                    </Link>
                   </li>
                 </ul>
               </div>

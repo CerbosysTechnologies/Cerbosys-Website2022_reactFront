@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { TbPlayerTrackNext } from "react-icons/tb";
 
 const IndustryNavLinks = () => {
   const [heading, setHeading] = useState("Industries");
@@ -28,46 +29,91 @@ const IndustryNavLinks = () => {
             {/* First Row */}
             <div className="flex flex-wrap flex-col m-2 border-r-2 py-7">
               <div className="mt-[5px]">
-                <ul className="text-sm font-subheading list-inside list-disc px-5">
+                <ul className="text-sm font-subheading list-inside list-none px-5">
                   <li>
                     {" "}
-                    <Link to="/agriculture">Agriculture</Link>
+                    <Link to="/agriculture">
+                      {" "}
+                      <span className="flex items-center gap-2 ">
+                        <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                        Agriculture{" "}
+                      </span>
+                    </Link>
                   </li>
                   <li>
                     {" "}
                     <Link to="/ecommerce-development-services">
-                      Ecommerce and Retail
+                      <span className="flex items-center gap-2 ">
+                        <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                        Ecommerce and Retail{" "}
+                      </span>
                     </Link>
                   </li>
                   <li>
                     {" "}
-                    <Link to="/health-care">Healthcare and Life Science</Link>
+                    <Link to="/health-care">
+                      {" "}
+                      <span className="flex items-center gap-2 ">
+                        <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                        Healthcare and Life Science{" "}
+                      </span>
+                    </Link>
                   </li>
                   <li>
                     {" "}
-                    <Link to="/banking-and-finance">Banking and Finance</Link>
+                    <Link to="/banking-and-finance">
+                      {" "}
+                      <span className="flex items-center gap-2 ">
+                        <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                        Banking and Finance{" "}
+                      </span>
+                    </Link>
                   </li>
                   <li>
                     {" "}
-                    <Link to="/mining">Mining</Link>
+                    <Link to="/mining">
+                      <span className="flex items-center gap-2 ">
+                        <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                        Mining{" "}
+                      </span>
+                    </Link>
                   </li>
                   <li>
                     {" "}
                     <Link to="/transport-and-logistics">
-                      Transport and Logistics
+                      <span className="flex items-center gap-2 ">
+                        <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                        Transport and Logistics{" "}
+                      </span>
                     </Link>
                   </li>
                   <li>
                     {" "}
-                    <Link to="/education">Education</Link>
+                    <Link to="/education">
+                      <span className="flex items-center gap-2 ">
+                        <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                        Education{" "}
+                      </span>
+                    </Link>
                   </li>
                   <li>
                     {" "}
-                    <Link to="/real-estate">Real Estate and Construction</Link>
+                    <Link to="/real-estate">
+                      <span className="flex items-center gap-2 ">
+                        <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                        Real Estate and Construction{" "}
+                      </span>
+                    </Link>
                   </li>
                   <li>
                     {" "}
-                    <Link to="/manufacturing">Manufacturing</Link>
+                    <Link to="/manufacturing">
+                      {" "}
+                      <span className="flex items-center gap-2 ">
+                        <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                        Manufacturing{" "}
+                      </span>
+                    </Link>
                   </li>
                 </ul>
               </div>

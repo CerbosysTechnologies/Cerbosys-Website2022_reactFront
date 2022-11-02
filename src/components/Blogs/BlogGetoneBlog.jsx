@@ -1,7 +1,9 @@
 import React from "react";
 import Websait from "../../assets/Blogs/Websait.jpg";
 import { useNavigate } from "react-router-dom";
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper";
+import SwiperCore, { Autoplay } from "swiper";
 function BlogGetoneBlog() {
   let navigate = useNavigate();
   const getblogbyid = () => {
@@ -64,36 +66,55 @@ function BlogGetoneBlog() {
           server-side website programming.
         </div>
       </div>
-
-      <div className="bg-slate-100">
+      {/* Silder start  */}
+      <div className="">
         <div className="md:pt-5 pt-5">
           <h1 className="font-heading text-green-600 md:text-4xl text-xl justify-center flex  ">
             Recent Post
           </h1>
         </div>
-        <div className=" mx-auto">
-          <div className=" flex flex-wrap ">
-            <div
-              class="p-10  scale-90 hover:scale-100 ease-in duration-500"
-              onClick={getblogbyid}
-            >
-              {/* <!--Card 1--> */}
-              <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl">
-                <div className="flex justify-center">
-                  <img
-                    class="md:h-[300px] md:w-[300px] scale-90  rounded-lg hover:scale-100 ease-in duration-1000"
-                    src={Websait}
-                    alt="Mountain"
-                  />
-                </div>
+        <div className="md:[1280px]  mx-auto justify-center flex">
+          <Swiper
+            // breakpoints={{
+            //   576: {
+            //     width: 576,
+            //     slidesPerView: 1,
+            //   },
+            //   768: {
+            //     width: 768,
+            //     slidesPerView: 1,
+            //   },
+            // }}
+            modules={[Pagination, Autoplay]}
+            className="  md:w-[1280px] sm:w-[100px] "
+            pagination={{
+              clickable: true,
+            }}
+            loop={true}
+            slidesPerView={2}
+          >
+            <SwiperSlide className=" flex justify-center">
+              <div class="p-10  " onClick={getblogbyid}>
+                {/* <!--Card 1--> */}
+                <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl">
+                  <div className="flex justify-center">
+                    <img
+                      class="md:h-[300px] md:w-[300px] scale-90  rounded-lg hover:scale-100 ease-in duration-1000"
+                      src={Websait}
+                      alt="Mountain"
+                    />
+                  </div>
 
-                <div class="px-6 py-4">
-                  <span class="font-subheading text-sm mb-2">
-                    Date - 2022- 10-11
-                  </span>
+                  <div class="px-6 py-4">
+                    <span class="font-subheading text-sm mb-2">
+                      Date - 2022- 10-11
+                    </span>
 
-                  <div class="font-heading text-xl mb-2"> web development</div>
-                  {/* <p class="text-gray-700 text-base  font-content text-justify ">
+                    <div class="font-heading text-xl mb-2">
+                      {" "}
+                      web development
+                    </div>
+                    {/* <p class="text-gray-700 text-base  font-content text-justify ">
                   Websaits can have many positive effects on the lives of their
                   owners. They influence social, emotional, and cognitive
                   development in children, promote an active lifestyle, provide
@@ -102,30 +123,32 @@ function BlogGetoneBlog() {
                   can also help to relieve stress and anxiety in people. Around
                   38% of US households are estimated to have one or more Websaits.
                 </p> */}
+                  </div>
                 </div>
               </div>
-            </div>
-            <div
-              class="p-10 scale-90 hover:scale-100 ease-in duration-500 "
-              onClick={getblogbyid}
-            >
-              {/* <!--Card 1--> */}
-              <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl">
-                <div className="flex justify-center">
-                  <img
-                    class="md:h-[300px] md:w-[300px] scale-90  rounded-lg hover:scale-100 ease-in duration-1000"
-                    src={Websait}
-                    alt="Mountain"
-                  />
-                </div>
+            </SwiperSlide>
+            <SwiperSlide className=" flex justify-center">
+              <div class="p-10  " onClick={getblogbyid}>
+                {/* <!--Card 1--> */}
+                <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl">
+                  <div className="flex justify-center">
+                    <img
+                      class="md:h-[300px] md:w-[300px] scale-90  rounded-lg hover:scale-100 ease-in duration-1000"
+                      src={Websait}
+                      alt="Mountain"
+                    />
+                  </div>
 
-                <div class="px-6 py-4">
-                  <span class="font-subheading text-sm mb-2">
-                    Date - 2022- 10-11
-                  </span>
+                  <div class="px-6 py-4">
+                    <span class="font-subheading text-sm mb-2">
+                      Date - 2022- 10-11
+                    </span>
 
-                  <div class="font-heading text-xl mb-2"> web development</div>
-                  {/* <p class="text-gray-700 text-base  font-content text-justify ">
+                    <div class="font-heading text-xl mb-2">
+                      {" "}
+                      web development
+                    </div>
+                    {/* <p class="text-gray-700 text-base  font-content text-justify ">
                   Websaits can have many positive effects on the lives of their
                   owners. They influence social, emotional, and cognitive
                   development in children, promote an active lifestyle, provide
@@ -134,106 +157,11 @@ function BlogGetoneBlog() {
                   can also help to relieve stress and anxiety in people. Around
                   38% of US households are estimated to have one or more Websaits.
                 </p> */}
+                  </div>
                 </div>
               </div>
-            </div>
-            <div
-              class="p-10 scale-90 hover:scale-100 ease-in duration-500"
-              onClick={getblogbyid}
-            >
-              {/* <!--Card 1--> */}
-              <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl">
-                <div className="flex justify-center">
-                  <img
-                    class="md:h-[300px] md:w-[300px] scale-90  rounded-lg hover:scale-100 ease-in duration-1000"
-                    src={Websait}
-                    alt="Mountain"
-                  />
-                </div>
-
-                <div class="px-6 py-4">
-                  <span class="font-subheading text-sm mb-2">
-                    Date - 2022- 10-11
-                  </span>
-
-                  <div class="font-heading text-xl mb-2"> web development</div>
-                  {/* <p class="text-gray-700 text-base  font-content text-justify ">
-                  Websaits can have many positive effects on the lives of their
-                  owners. They influence social, emotional, and cognitive
-                  development in children, promote an active lifestyle, provide
-                  companionship, and have even been able to detect oncoming
-                  epileptic seizures or the presence of certain cancers. Websaits
-                  can also help to relieve stress and anxiety in people. Around
-                  38% of US households are estimated to have one or more Websaits.
-                </p> */}
-                </div>
-              </div>
-            </div>
-            <div
-              class="p-10 scale-90 hover:scale-100 ease-in duration-500"
-              onClick={getblogbyid}
-            >
-              {/* <!--Card 1--> */}
-              <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl">
-                <div className="flex justify-center">
-                  <img
-                    class="md:h-[300px] md:w-[300px] scale-90  rounded-lg hover:scale-100 ease-in duration-1000"
-                    src={Websait}
-                    alt="Mountain"
-                  />
-                </div>
-
-                <div class="px-6 py-4">
-                  <span class="font-subheading text-sm mb-2">
-                    Date - 2022- 10-11
-                  </span>
-
-                  <div class="font-heading text-xl mb-2"> web development</div>
-                  {/* <p class="text-gray-700 text-base  font-content text-justify ">
-                  Websaits can have many positive effects on the lives of their
-                  owners. They influence social, emotional, and cognitive
-                  development in children, promote an active lifestyle, provide
-                  companionship, and have even been able to detect oncoming
-                  epileptic seizures or the presence of certain cancers. Websaits
-                  can also help to relieve stress and anxiety in people. Around
-                  38% of US households are estimated to have one or more Websaits.
-                </p> */}
-                </div>
-              </div>
-            </div>
-            <div
-              class="p-10 scale-90 hover:scale-100 ease-in duration-500"
-              onClick={getblogbyid}
-            >
-              {/* <!--Card 1--> */}
-              <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl">
-                <div className="flex justify-center">
-                  <img
-                    class="md:h-[300px] md:w-[300px] scale-90  rounded-lg hover:scale-100 ease-in duration-1000"
-                    src={Websait}
-                    alt="Mountain"
-                  />
-                </div>
-
-                <div class="px-6 py-4">
-                  <span class="font-subheading text-sm mb-2">
-                    Date - 2022- 10-11
-                  </span>
-
-                  <div class="font-heading text-xl mb-2"> web development</div>
-                  {/* <p class="text-gray-700 text-base  font-content text-justify ">
-                  Websaits can have many positive effects on the lives of their
-                  owners. They influence social, emotional, and cognitive
-                  development in children, promote an active lifestyle, provide
-                  companionship, and have even been able to detect oncoming
-                  epileptic seizures or the presence of certain cancers. Websaits
-                  can also help to relieve stress and anxiety in people. Around
-                  38% of US households are estimated to have one or more Websaits.
-                </p> */}
-                </div>
-              </div>
-            </div>
-          </div>
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
 
