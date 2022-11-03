@@ -47,6 +47,8 @@ import AboutUS from "./components/AboutUs/AboutUS";
 import Blog from "./components/Blogs/Blog";
 import BlogGetoneBlog from "./components/Blogs/BlogGetoneBlog";
 import Solution from "./components/Solution/Solution";
+import SchoolERP from "./components/Solution/School/SchoolERP";
+import ECommerse from "./components/Solution/E-Commerse/E-Commerse";
 
 function App() {
   document.addEventListener("contextmenu", handelRightClick);
@@ -121,6 +123,8 @@ function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/about-us" element={<AboutUS />} />
         <Route path="/solution" element={<Solution />} />
+        <Route path="/solution/schoolerp" element={<SchoolERP />} />
+        <Route path="/solution/E-Commerse" element={<ECommerse />} />
       </Routes>
       <Footer />
       <ScrollToTop />

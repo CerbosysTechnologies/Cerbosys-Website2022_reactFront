@@ -82,7 +82,7 @@ const Navbar = () => {
           </li> */}
           <NavLinks></NavLinks>
           <li>
-            <Link to="/solution ">Solution </Link>
+            <Link to="/solution">Solution </Link>
           </li>
           <IndustryNavLinks></IndustryNavLinks>
           {/* <li>

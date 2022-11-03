@@ -31,7 +31,7 @@ const Footer = () => {
           <div className="">
             {/* <div className="grid md:grid-cols-5 gap-2"> */}
             {/* First Col */}
-            {/* <div>
+            {/* <div>   
               <img
                 src={footerlogo}
                 alt="Logo Footer"

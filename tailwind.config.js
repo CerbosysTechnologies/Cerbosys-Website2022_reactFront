@@ -77,6 +77,9 @@ module.exports = {
       Aboutus: "url('assets/Aboutus/About4.svg')",
       Blogbg: "url('assets/Blogs/blogbg.svg')",
       Solution: "url('assets/Solution/solution.svg')",
+      SchholBg: "url('assets/Solution/schoolBg.svg')",
+      SchholBgone: "url('assets/Solution/SchoolOne.svg')",
+      Ecomers: "url('assets/Solution/Ecomers.svg')",
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],

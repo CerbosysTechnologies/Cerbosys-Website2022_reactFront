@@ -73,7 +73,7 @@ const Hero = () => {
             tech-wizards.
           </p> */}
           {/* animation for buthhon start */}
-          <Link to="/ContactUs">
+          <Link to="/Contact-us">
             <button
               className="bg-Green rounded-full font-heading md:px-5 md:py-2 md:text-lg
               text-white uppercase px-3 py-1.5 text-xs mb-6 md:mt-10"

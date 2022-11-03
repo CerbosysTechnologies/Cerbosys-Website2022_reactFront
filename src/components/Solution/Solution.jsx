@@ -2,9 +2,6 @@ import React from "react";
 import SolutionBody from "./SolutionBody";
 
 function Solution() {
-  // window.onload = function () {
-  //   window.location.reload();
-  // };
   return (
     <>
       <div className="mx-auto w-full md:h-[38rem]  h-96 py-12 px-4 bg-Solution bg-cover md:bg-top bg-center">
