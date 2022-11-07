@@ -106,7 +106,7 @@ function App() {
         {/* contact-us End */}
         <Route path="/current-opening" element={<CurrentOpening />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/blog/one-blog" element={<BlogGetoneBlog />} />
+        <Route path="/singleBlogshow/:id" element={<BlogGetoneBlog />} />
         {/* Indstri Start */}
         <Route path="/agriculture" element={<Agriculture />} />
         <Route path="/ecommerce-development-services" element={<Ecommerce />} />
