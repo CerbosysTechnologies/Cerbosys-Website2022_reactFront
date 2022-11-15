@@ -141,6 +141,9 @@ const Navbar = () => {
           <li className="py-2 px-2 ">
             <NavLinks />
           </li>
+           <li className="py-1 px-4 inline-block">
+            <Link to="/solution">Solution </Link>
+          </li><br />
           <li className="py-2 px-2 inline-block">
             <IndustryNavLinks />
           </li>

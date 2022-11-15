@@ -1,3 +1,3 @@
 export function handelRightClick(event) {
-    return event.preventDefault();
-  }
+  return event.preventDefault();
+}

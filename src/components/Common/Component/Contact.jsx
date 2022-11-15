@@ -23,7 +23,7 @@ const Contact = () => {
 
   const [hearaboutus, setHearaboutus] = useState("");
   const [message, setMessage] = useState("");
-  const [serviceitems, setServiceItems] = React.useState([]);
+  const [serviceitems, setServiceItems] = useState([]);
   //Image
   const [techimg, setTechImg] = useState("");
   const [showImageSec, setShowImageSection] = useState(true);
@@ -205,23 +205,20 @@ const Contact = () => {
                 // hadalChnageID();
               }}
             >
-                        <option>Please Select</option>
+              <option>Please Select</option>
 
-               {serviceitems ? (
-              
-              serviceitems.map((item) => (
-                <option key={item.service_name} value={item.myservices_id}>
-                  {item.service_name}
-                </option>
-              ))) : (
+              {serviceitems ? (
+                serviceitems.map((item) => (
+                  <option key={item.service_name} value={item.myservices_id}>
+                    {item.service_name}
+                  </option>
+                ))
+              ) : (
                 <>
-                
-                 <option value="">No Service</option>
-                    <p>no service</p>
+                  <option value="">No Service</option>
+                  <p>no service</p>
                 </>
-                   
-                    
-                  )}
+              )}
             </select>
           </div>
           {/* Selection Div Ends*/}
