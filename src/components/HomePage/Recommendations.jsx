@@ -39,8 +39,9 @@ const Recommendations = () => {
               loop={true}
               slidesPerView={3}
               autoplay={{
-                delay: 700,
+                delay: 1500,
                 disableOnInteraction: false,
+                
               }}
             >
               {/* {featuredicons.map((slideContent, index) => ( */}

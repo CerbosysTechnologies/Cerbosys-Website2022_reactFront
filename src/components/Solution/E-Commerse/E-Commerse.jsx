@@ -9,7 +9,7 @@ function ECommerse() {
         {/* Content Section */}
         <div className="flex flex-col justify-center text-center items-center md:h-[35rem] h-96 mx-auto">
           <p className="text-white font-heading py-2 md:text-3xl text-xl mb-10 ">
-            ECommerse
+            E-Commerse
           </p>
           <p className="text-white font-heading py-2 md:text-xl text-xs md:mb-2 mb-2 md:w-[480px] text-justify">
             Ecommerce, also known as electronic commerce or internet commerce
