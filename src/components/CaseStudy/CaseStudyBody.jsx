@@ -14,12 +14,9 @@ import { saveAs } from "file-saver";
 const CaseStudyBody = () => {
   const IMG = IMAGE_SERVER + "/casestudyimage/";
   const [AllServices, setAllServices] = useState("");
-  const [pdf, setpdf] = useState({
-    a: [].casestudy_pdf,
-  });
+  const [pdf, setpdf] = useState();
   console.log(pdf);
-
-  var i = AllServices[1];
+  var i = AllServices.length-1;
   // let [...pdf] = i.casestudy_pdf;
   const [email, setEmail] = useState("");
 
@@ -27,20 +24,19 @@ const CaseStudyBody = () => {
     document.getElementById("Suscreption").style.display = "none";
   };
 
-  const saveFile = () => {
+  const saveFile = (casestudy_id,casestudy_pdf) => {
+    console.log(casestudy_id,casestudy_pdf);
     saveAs(
       `https://cerbosys.in:3700/casestudypdf/${i.casestudy_pdf.substring(22)}`,
-      `${"Dawnlode"}.pdf`
+      `${i.casestudy_pdf.substring(22)}`
     );
   };
 
-  const download = () => {
+  const download = (casestudy_id,casestudy_pdf) => {
     document.getElementById("Suscreption").style.display = "Block";
   };
 
-  useEffect(() => {
-    getallcaseStudy();
-  }, []);
+
   const getallcaseStudy = async () => {
     axios
       .get(SERVER + "/getAllCaseStudy", {
@@ -50,15 +46,18 @@ const CaseStudyBody = () => {
       })
       .then((res) => {
         console.log("Get All case study->", res.data.data);
-        setpdf(res.data.data);
         setAllServices(res.data.data);
+       const i = res?.data?.data?.length - 1;
+         setpdf(res?.data?.data[i].casestudy_pdf);
       });
   };
+    useEffect(() => {
+    getallcaseStudy();
+  }, []);
   // call suscreption api
-  const handleSubmit = (e) => {
-    console.log(e.casestudy_pdf);
+  const handleSubmit = (e,casestudy_id,casestudy_pdf) => {
+    console.log(casestudy_id);
     e.preventDefault();
-
     const insertData = {
       subscription_email: email,
     };
@@ -71,15 +70,15 @@ const CaseStudyBody = () => {
       })
       .then((res) => {
         console.log("Insert insertSubscription Res", res);
-        saveFile();
+        saveFile(casestudy_id,casestudy_pdf);
         document.getElementById("Suscreption").style.display = "none";
       })
       .catch((err) => {
         console.log("not post", err);
         toast.error("something wrong");
-        setTimeout(() => {
-          window.location.reload();
-        }, 2000);
+        // setTimeout(() => {
+        //   window.location.reload();
+        // }, 2000);
       });
   };
 
