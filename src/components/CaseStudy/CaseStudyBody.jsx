@@ -10,32 +10,49 @@ import "react-toastify/dist/ReactToastify.css";
 import images from "../../assets/innerpage/healthcare/healthheader.svg";
 
 import { saveAs } from "file-saver";
+import { useNavigate } from "react-router-dom";
 
 const CaseStudyBody = () => {
   const IMG = IMAGE_SERVER + "/casestudyimage/";
   const [AllServices, setAllServices] = useState("");
   const [pdf, setpdf] = useState();
   console.log(pdf);
-  var i = AllServices.length-1;
+  var i = pdf;
   // let [...pdf] = i.casestudy_pdf;
   const [email, setEmail] = useState("");
-
+  let navigate = useNavigate();
   const modalclose = () => {
     document.getElementById("Suscreption").style.display = "none";
   };
 
-  const saveFile = (casestudy_id,casestudy_pdf) => {
-    console.log(casestudy_id,casestudy_pdf);
+  const saveFile = (casestudy_id, casestudy_pdf) => {
+    console.log(casestudy_id, casestudy_pdf);
     saveAs(
-      `https://cerbosys.in:3700/casestudypdf/${i.casestudy_pdf.substring(22)}`,
-      `${i.casestudy_pdf.substring(22)}`
+      `https://cerbosys.in:3700/casestudypdf/${casestudy_id.casestudy_pdf.substr(
+        22
+      )}`,
+      // `${casestudy_id.casestudy_pdf}`
+      `dawnlode.pdf`
     );
   };
 
-  const download = (casestudy_id,casestudy_pdf) => {
+  const download = (casestudy_id, casestudy_pdf) => {
+    axios
+      .get(
+        `https://cerbosys.in:3700/cerbosys/getAllCaseStudyById?casestudy_id=${casestudy_id}`,
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      )
+      .then((res) => {
+        const i = res?.data?.data.length - 1;
+        setpdf(res?.data?.data[i].casestudy_pdf.substr(22));
+        saveFile(casestudy_id, casestudy_pdf);
+      });
     document.getElementById("Suscreption").style.display = "Block";
   };
-
 
   const getallcaseStudy = async () => {
     axios
@@ -47,16 +64,15 @@ const CaseStudyBody = () => {
       .then((res) => {
         console.log("Get All case study->", res.data.data);
         setAllServices(res.data.data);
-       const i = res?.data?.data?.length - 1;
-         setpdf(res?.data?.data[i].casestudy_pdf);
       });
   };
-    useEffect(() => {
+  useEffect(() => {
     getallcaseStudy();
   }, []);
   // call suscreption api
-  const handleSubmit = (e,casestudy_id,casestudy_pdf) => {
-    console.log(casestudy_id);
+  const handleSubmit = (e, id) => {
+    document.getElementById("Suscreption").style.display = "Block";
+    console.log(id);
     e.preventDefault();
     const insertData = {
       subscription_email: email,
@@ -70,7 +86,7 @@ const CaseStudyBody = () => {
       })
       .then((res) => {
         console.log("Insert insertSubscription Res", res);
-        saveFile(casestudy_id,casestudy_pdf);
+        // saveFile();
         document.getElementById("Suscreption").style.display = "none";
       })
       .catch((err) => {
@@ -82,6 +98,11 @@ const CaseStudyBody = () => {
       });
   };
 
+  const CaseStudyByOne = (id) => {
+    let path = `/casedtudybyone/${id}`;
+    navigate(path);
+  };
+
   return (
     <div>
       <div className="max-w-[1240px] mx-auto">
@@ -89,7 +110,7 @@ const CaseStudyBody = () => {
         {/* Left said coll start */}
 
         <div class="max-w-[1240px] mx-auto">
-          <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6">
+          {/* <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6">
             <div className="flex">
               <div className=" bg-Primary md:w-[600px] w-[600px] square mt-5 md:p-10  text-justify   md:px-10 px-5 md:mx-10 mx-10 py-5 md:col-6 rounded-lg  shadow-2xl mb-52">
                 <div className=" font-heading  md:text-2xl md:font-bold text-xl">
@@ -107,35 +128,35 @@ const CaseStudyBody = () => {
               </div>
               <div className="md:h-40 h-0"></div>
             </div>
-
+          </div> */}
+          <div className="flex flex-wrap justify-around gap-28 py-5">
+            {" "}
             {AllServices ? (
               AllServices.map((item) => (
-                <div class="flex justify-center  rounded-xl p-6 ">
-                  <div className="md:w-[600px] w-[600px] md:px-10 px-5 py-5 md:col-6 rounded-lg bg-white mt-10 shadow-2xl  ">
-                    <img
-                      src={IMG + `${item.casestudy_image.substr(24)}`}
-                      alt="image"
-                      className=""
-                    />
-                    <div className="font-heading  md:text-2xl md:font-bold text-xl ">
+                <div
+                  class="max-w-sm  overflow-hidden shadow-lg rounded-2xl "
+                  onClick={() => CaseStudyByOne(item.casestudy_id)}
+                >
+                  <img
+                    src={IMG + `${item.casestudy_image.substr(24)}`}
+                    alt="image"
+                    className="md:w-[400px] md:h-[400px]"
+                  />
+                  <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">
+                      {" "}
                       {item.casestudy_title}
                     </div>
-
-                    <p className="font-content  text-justify text-sm  md:mt-3 mt-10 md:mb-5 mb-4 ">
-                      {item.casestudy_description}
-                    </p>
-
                     <div className="flex items-center justify-center">
                       <button
                         className="py-2 px-4 text-sm font-heading 
                         hover:text-white
                         hover:bg-blue-700
               text-center text-Primary rounded-3xl border border-Primary "
-                        onClick={(e) => download()}
                       >
-                        <div id={item.casestudy_id} value={item.casestudy_id}>
-                          {/* Download{" "} */}
-                          {item.casestudy_pdf.substr(22)}
+                        <div>
+                          Click Here Read More
+                          {/* {item.casestudy_pdf.substring(22)} */}
                         </div>
                       </button>
                     </div>
@@ -144,7 +165,7 @@ const CaseStudyBody = () => {
               ))
             ) : (
               <p> No service </p>
-            )}
+            )}{" "}
           </div>
         </div>
       </div>
@@ -213,6 +234,7 @@ const CaseStudyBody = () => {
         </div>
       </div>
       {/* Suscreption Popup End */}
+
       <ToastContainer />
     </div>
   );

@@ -49,6 +49,7 @@ import BlogGetoneBlog from "./components/Blogs/BlogGetoneBlog";
 import Solution from "./components/Solution/Solution";
 import SchoolERP from "./components/Solution/School/SchoolERP";
 import ECommerse from "./components/Solution/E-Commerse/E-Commerse";
+import CaseStudyByOne from "./components/CaseStudy/CaseStudyByOne";
 
 function App() {
   document.addEventListener("contextmenu", handelRightClick);
@@ -119,6 +120,7 @@ function App() {
         <Route path="/manufacturing" element={<Manufacturing />} />
         {/* Indstri End */}
         <Route path="/case-study" element={<CaseStudy />} />
+        <Route path="/casedtudybyone/:id" element={<CaseStudyByOne />} />
         <Route path="/terms-Conditions" element={<Termconditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/about-us" element={<AboutUS />} />

@@ -6,24 +6,23 @@ import Websait from "../../assets/Blogs/Websait.jpg";
 
 import { SERVER } from "../../ServerUrls";
 import { useNavigate } from "react-router-dom";
-  
 
 function Blogsbody() {
   const IMAGE_URL = `https://cerbosys.in:3700/blog/`;
   const [allBlogas, setAllBlogas] = useState("");
-   const [blogdata, setBlogData] = useState([]);
+  const [blogdata, setBlogData] = useState([]);
   // const [blogdata, setBlogData] = useState([]);
   // const [blogImg, setBlogImg] = useState([]);
   // const [preview, setPreview] = useState("");
   // const [allBlogas, setAllBlogas] = useState("");
 
-
- const fetchData = async () => {
+  const fetchData = async () => {
     await axios
       .get("https://cerbosys.in:3700/cerbosys/getAllBlogs", {
         headers: {
           "Content-Type": "application/json",
-        }})
+        },
+      })
       .then((res) => {
         console.log(res);
         const response = res.data.data;
@@ -67,11 +66,10 @@ function Blogsbody() {
   }, []);
 
   const SingleBlog = (id) => {
-     let path = `/singleBlogshow/${id}`;
-         navigate(path);
-    
+    let path = `/singleBlogshow/${id}`;
+    navigate(path);
   };
-  
+
   // navigate
   let navigate = useNavigate();
   const getblogbyid = () => {
@@ -84,21 +82,21 @@ function Blogsbody() {
     <>
       <div className=" mx-auto">
         <div className=" flex flex-wrap justify-center ">
-            {blogdata ? (
+          {blogdata ? (
             blogdata.map((item, index) => (
- <div
-            class="p-10  scale-90 hover:scale-100 ease-in duration-500"
-          onClick={() => SingleBlog(item.blog_id)}
-          >
-            {/* <!--Card 1--> */}
-            <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl">
-              <div className="flex justify-center">
-                {/* <img
+              <div
+                class="p-10  scale-90 hover:scale-100 ease-in duration-500"
+                onClick={() => SingleBlog(item.blog_id)}
+              >
+                {/* <!--Card 1--> */}
+                <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl">
+                  <div className="flex justify-center">
+                    {/* <img
                   class="md:h-[300px] md:w-[300px] scale-90  rounded-lg hover:scale-100 ease-in duration-1000"
                   src={Websait}
                   alt="Mountain"
                 /> */}
-                  {item.blogImg.map((element) => {
+                    {item.blogImg.map((element) => {
                       // console.log("element", element);
                       let testimg = [];
                       let arr = element.blog_images;
@@ -122,25 +120,25 @@ function Blogsbody() {
                       }
                       //console.log('element arr', testimg[2]),
                     })}
-              </div>
+                  </div>
 
-              <div class="px-6 py-4">
-                <span class="font-subheading text-sm mb-2">
-                  Publish Date - {item.creationDate.substr(0,10)}
-                </span>
+                  <div class="px-6 py-4">
+                    <span class="font-subheading text-sm mb-2">
+                      Publish Date - {item.creationDate.substr(0, 10)}
+                    </span>
 
-                <div class="font-heading text-xl mb-2"> {item.blog_title}</div>
-                {/* <div class="font-heading text-xl mb-2"> {item.blog_message}</div> */}
+                    <div class="font-heading text-xl mb-2">
+                      {" "}
+                      {item.blog_title}
+                    </div>
+                    {/* <div class="font-heading text-xl mb-2"> {item.blog_message}</div> */}
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-               ))
+            ))
           ) : (
             <p>no data</p>
-          )} 
-         
-
-          
+          )}
         </div>
       </div>
     </>
