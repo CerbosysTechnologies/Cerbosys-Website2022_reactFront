@@ -1,6 +1,6 @@
 import React from "react";
-import ecommercemobicon from "../../../../assets/innerpage/ecommerce/ecommercemob.svg";
-import ecommercebusinessicon from "../../../../assets/innerpage/ecommerce/ecommerceimage.svg";
+import ecommercemobicon from "../../../../assets/innerpage/ecommerce/ecommercemob.png";
+import ecommercebusinessicon from "../../../../assets/innerpage/ecommerce/ecommerceimage.png";
 
 export const EcommerceBody = () => {
   return (

@@ -18,7 +18,7 @@ const ServiceHomePage = () => {
   return (
     <div>
       {/* Header Part */}
-      <div className="bg-Service mx-auto w-full flex flex-col flex-wrap text-center">
+      <div className=" mx-auto w-full flex flex-col flex-wrap text-center">
         {/* heading */}
         <div className=" justify-center items-center text-center">
           <h1 className="font-heading text-lg md:text-3xl mt-4">

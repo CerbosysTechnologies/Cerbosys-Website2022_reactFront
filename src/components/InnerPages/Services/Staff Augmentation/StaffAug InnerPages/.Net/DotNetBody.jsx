@@ -6,19 +6,17 @@ import dotnetprocess from "../../../../../../assets/innerpage/dotnet/nethire.svg
 const NetBody = () => {
   return (
     <div>
-      <div className="bg-Service mx-auto w-full py-16 px-4 ">
+      <div className=" mx-auto w-full py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
           <div className="flex flex-wrap flex-col">
             <h1 className="font-heading md:text-6xl text-2xl text-center text-Primary">
               About .Net
             </h1>
-
             <p className="font-subheading md:text-2xl text-sm text-justify">
               .NET is a free, cross-platform, open source developer platform for
-              building many different types of applications. 
-              <br></br>With .NET, you can
-              use multiple languages, editors, and libraries to build for web,
-              mobile, desktop, games, IoT, and more.
+              building many different types of applications.
+              <br></br>With .NET, you can use multiple languages, editors, and
+              libraries to build for web, mobile, desktop, games, IoT, and more.
             </p>
             <img src={dotnetimage} alt="Dot Net Image" className="h-[30rem]" />
 

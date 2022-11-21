@@ -6,7 +6,7 @@ import Bounce from "react-reveal/Bounce";
 const MobileDesc = () => {
   return (
     <div>
-      <div className="bg-Service mx-auto w-full py-16 px-4 ">
+      <div className=" mx-auto w-full py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
           {/* First Section */}
           <Bounce duration={3000}>
@@ -47,37 +47,38 @@ const MobileDesc = () => {
 
           {/* Second Section */}
           <Bounce duration={3000}>
-          <div className="grid md:grid-cols-2 bg-Primary mt-8 rounded-3xl gap-2">
-            {/* Image Section */}
-            <img
-              src={digitalmarketing_articon}
-              alt="Digital Marketing Icon"
-              className="md:w-[44rem] md:h-[22rem] mx-auto my-8
+            <div className="grid md:grid-cols-2 bg-Primary mt-8 rounded-3xl gap-2">
+              {/* Image Section */}
+              <img
+                src={digitalmarketing_articon}
+                alt="Digital Marketing Icon"
+                className="md:w-[44rem] md:h-[22rem] mx-auto my-8
              w-[18rem] mt-16"
-            />
-            {/* Image Section Ends*/}
+              />
+              {/* Image Section Ends*/}
 
-            {/* Content Section */}
-            <div className="flex flex-col md:px-24 px-14 mx-auto text-justify mt-8">
-              <h1 className="font-heading md:text-2xl text-lg text-white">
-                We are aware of the Technology Pulse that Leads to Better
-                Performance
-              </h1>
-              <p className="font-content md:text-lg text-sm mb-8 text-white">
-                Our digital marketing program helps businesses to create
-                engaging content for their customers. We are experts in
-                generating SEO content that eventually manages to produce
-                traffic on the website.
-                <br></br>
-                <br></br>
-                Our main focus is to promote the brand by using effective
-                digital marketing tactics that deliver real value to our
-                clients. We understand the needs of businesses and take them
-                into consideration while promoting the brand online.
-              </p>
+              {/* Content Section */}
+              <div className="flex flex-col md:px-24 px-14 mx-auto text-justify mt-8">
+                <h1 className="font-heading md:text-2xl text-lg text-white">
+                  We are aware of the Technology Pulse that Leads to Better
+                  Performance
+                </h1>
+                <p className="font-content md:text-lg text-sm mb-8 text-white">
+                  Our digital marketing program helps businesses to create
+                  engaging content for their customers. We are experts in
+                  generating SEO content that eventually manages to produce
+                  traffic on the website.
+                  <br></br>
+                  <br></br>
+                  Our main focus is to promote the brand by using effective
+                  digital marketing tactics that deliver real value to our
+                  clients. We understand the needs of businesses and take them
+                  into consideration while promoting the brand online.
+                </p>
+              </div>
+              {/* Content Section Ends*/}
             </div>
-            {/* Content Section Ends*/}
-          </div></Bounce>
+          </Bounce>
           {/* Grid Div */}
           {/* Second Section Ends */}
         </div>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Websait from "../../assets/Blogs/Websait.jpg";
+
 import { useNavigate, useParams } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";

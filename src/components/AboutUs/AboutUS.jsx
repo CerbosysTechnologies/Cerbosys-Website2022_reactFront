@@ -10,7 +10,7 @@ function AboutUS() {
             AboutUS
           </p>
           <p className="text-white font-heading py-2 md:text-xl text-xs md:mb-28 mb-24 md:w-[480px] text-justify">
-            <p className="font-content text-gray-400 md:text-sm text-xs font-extrabold  ">
+            <p className="font-content  md:text-sm text-xs font-extrabold  ">
               Cerbosys is an experienced professional services provider company
               with a proven track record of excellence which fosters long-term
               relationships with our clients.

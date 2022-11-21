@@ -7,7 +7,7 @@ import Bounce from "react-reveal/Bounce";
 const ServiceDesc = () => {
   return (
     <div>
-      <div className="bg-Service mx-auto w-full py-16 px-4 ">
+      <div className=" mx-auto w-full py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
           {/* First Section */}
           <Bounce duration={3000}>

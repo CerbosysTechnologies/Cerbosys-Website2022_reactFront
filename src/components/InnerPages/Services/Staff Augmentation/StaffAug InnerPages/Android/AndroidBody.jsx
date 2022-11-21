@@ -6,7 +6,7 @@ import androidprocess from "../../../../../../assets/innerpage/android/androidhi
 const AndroidBody = () => {
   return (
     <div>
-      <div className="bg-Service mx-auto w-full py-16 px-4 ">
+      <div className=" mx-auto w-full py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
           <div className="flex flex-wrap flex-col">
             <h1 className="font-heading md:text-6xl text-2xl text-center text-Primary">
@@ -23,14 +23,13 @@ const AndroidBody = () => {
               even though other languages can be used.
               <br></br>
               <br></br>
-               The goal of the android
-              project is to create a successful real-world product that improves
-              the mobile experience for end users.
+              The goal of the android project is to create a successful
+              real-world product that improves the mobile experience for end
+              users.
               <br></br>
               <br></br>
-               There are many code names of
-              android such as Lollipop, Kitkat, Jelly Bean, Ice cream Sandwich,
-              Froyo, Ecliar, Donut etc.
+              There are many code names of android such as Lollipop, Kitkat,
+              Jelly Bean, Ice cream Sandwich, Froyo, Ecliar, Donut etc.
             </p>
             <img
               src={androidimage}

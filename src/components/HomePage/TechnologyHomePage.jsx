@@ -18,7 +18,7 @@ import Bounce from "react-reveal/Bounce";
 const TechnologyHomePage = () => {
   return (
     <div>
-      <div className="bg-Service w-full h-full py-16 px-4">
+      <div className=" w-full h-full py-16 px-4">
         <div className="max-w-[1240px] mx-auto ">
           {/* Heading */}
 

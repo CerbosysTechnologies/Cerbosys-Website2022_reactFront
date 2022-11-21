@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-import blogpost from "../../assets/Blogs/blogpost.png";
-import Websait from "../../assets/Blogs/Websait.jpg";
+
 
 import { SERVER } from "../../ServerUrls";
 import { useNavigate } from "react-router-dom";

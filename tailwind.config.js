@@ -20,16 +20,16 @@ module.exports = {
 
     backgroundImage: {
       Hero: "url('assets/header.png')",
-      Service: "url('assets/services/service_ page_background.png')",
+      // Service: "url('assets/services/service_ page_background.png')",
       WebDevelopment:
-        "url('assets/innerpage/webdevelopment/web_developmentpage_background.jpg')",
+        "url('assets/innerpage/webdevelopment/web_developmentpage_background.png')",
       // FooterBackground: "url('assets/footer/footer.svg')",
       FooterBackground: "url('assets/footer/Newmapinfooter.svg')",
       FormBackground: "url('assets/innerpage/letstalk.png')",
       TeamBackground: "url('assets/innerpage/team/team_image_background.png')",
       OverviewBackground: "url('assets/innerpage/overview/overview_image.svg')",
-      OverviewBackgroundBody:
-        "url('assets/innerpage/overview/overviewbackground.svg')",
+      // OverviewBackgroundBody:
+      //   "url('assets/innerpage/overview/overviewbackground.svg')",
       CurrentOpeningBackground:
         "url('assets/innerpage/currentopening/banner_image.png')",
       PerksBackground:
@@ -52,7 +52,7 @@ module.exports = {
         "url('assets/innerpage/agriculture/agricultureheader.svg')",
       BankingHeader: "url('assets/innerpage/banking/bankingheader.svg')",
       EcommerceHeader: "url('assets/innerpage/ecommerce/ecommerceheader.svg')",
-      HealthCareHeader: "url('assets/innerpage/healthcare/healthheader.svg')",
+      HealthCareHeader: "url('assets/innerpage/healthcare/healthheader.png')",
       MiningHeader: "url('assets/innerpage/mining/miningheader.svg')",
       TransportHeader: "url('assets/innerpage/transport/transportheader.svg')",
       RealEstateHeader:
@@ -60,26 +60,26 @@ module.exports = {
       EducationHeader: "url('assets/innerpage/education/educationheader.svg')",
       ManufacturingHeader:
         "url('assets/innerpage/manufacturing/manufacturingheader.svg')",
-      DotNetHeader: "url('assets/innerpage/dotnet/dotnetheader.svg')",
+      DotNetHeader: "url('assets/innerpage/dotnet/dotnetheader.png')",
 
-      AndroidHeader: "url('assets/innerpage/android/androidheader.svg')",
-      AngularHeader: "url('assets/innerpage/angular/angularheader.svg')",
+      AndroidHeader: "url('assets/innerpage/android/androidheader.png')",
+      AngularHeader: "url('assets/innerpage/angular/angularheader.png')",
       CodeIgniterHeader:
         "url('assets/innerpage/codeigniter/codeigniterheader.svg')",
-      FlutterHeader: "url('assets/innerpage/flutter/flutterheader.svg')",
-      IOSHeader: "url('assets/innerpage/ios/iosheader1.svg')",
-      LaravelHeader: "url('assets/innerpage/laravel/laravelheader.svg')",
+      FlutterHeader: "url('assets/innerpage/flutter/flutterheader.png')",
+      IOSHeader: "url('assets/innerpage/ios/iosheader1.png')",
+      LaravelHeader: "url('assets/innerpage/laravel/laravelheader.png')",
       NodejsHeader: "url('assets/innerpage/nodejs/node.jsheader.svg')",
-      ReactjsHeader: "url('assets/innerpage/reactjs/reactjsheader1.svg')",
+      ReactjsHeader: "url('assets/innerpage/reactjs/reactjsheader1.png')",
       CaseStudyHeader: "url('assets/innerpage/casestudy/casestudy.svg')",
-      PrivacyPolicy: "url('assets/Privecy/Privacy.svg')",
-      Termandcondition: "url('assets/Privecy/term.svg')",
-      Aboutus: "url('assets/Aboutus/About4.svg')",
-      Blogbg: "url('assets/Blogs/blogbg.svg')",
-      Solution: "url('assets/Solution/solution.svg')",
+      PrivacyPolicy: "url('assets/Privecy/Privacy.png')",
+      Termandcondition: "url('assets/Privecy/term.png')",
+      Aboutus: "url('assets/Aboutus/About4.png')",
+      Blogbg: "url('assets/Blogs/blogbg.png')",
+      Solution: "url('assets/Solution/solution.png')",
       SchholBg: "url('assets/Solution/schoolBg.svg')",
-      SchholBgone: "url('assets/Solution/SchoolOne.svg')",
-      Ecomers: "url('assets/Solution/Ecomers.svg')",
+      SchholBgone: "url('assets/Solution/SchoolOne.png')",
+      Ecomers: "url('assets/Solution/Ecomers.png')",
     },
     fontFamily: {
       heading: ['"Heading"', "Montserrat-Bold"],

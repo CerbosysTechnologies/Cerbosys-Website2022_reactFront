@@ -5,7 +5,7 @@ import staffaugmentation_articon from "../../../../assets/innerpage/staffaugment
 const StaffAugmentationDesc = () => {
   return (
     <div>
-      <div className="bg-Service mx-auto w-full py-16 px-4 ">
+      <div className=" mx-auto w-full py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
           {/* First Section */}
           <div className="grid md:grid-cols-2">

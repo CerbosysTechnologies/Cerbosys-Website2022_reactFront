@@ -6,7 +6,7 @@ import { Bounce } from "react-reveal";
 const LeadGenerationDesc = () => {
   return (
     <div>
-      <div className="bg-Service mx-auto w-full py-16 px-4 ">
+      <div className=" mx-auto w-full py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
           {/* First Section */}
 

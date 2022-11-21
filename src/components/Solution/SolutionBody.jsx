@@ -1,6 +1,6 @@
 import React from "react";
 import ecom from "../../assets/Solution/ecom.jpg";
-import School from "../../assets/Solution/School.svg";
+import School from "../../assets/Solution/School.png";
 import { GrLinkNext } from "react-icons/gr";
 import { Link, useNavigate } from "react-router-dom";
 

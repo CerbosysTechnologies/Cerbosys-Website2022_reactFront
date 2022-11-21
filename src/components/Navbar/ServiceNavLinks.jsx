@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { TbPlayerTrackNext } from "react-icons/tb";
-import {  AiFillCaretRight } from "react-icons/ai";
+import { AiFillCaretRight } from "react-icons/ai";
 
 const NavLinks = () => {
   const [heading, setHeading] = useState("Services");

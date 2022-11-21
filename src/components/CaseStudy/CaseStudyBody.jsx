@@ -7,7 +7,7 @@ import { IMAGE_SERVER } from "../../ServerUrls";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-import images from "../../assets/innerpage/healthcare/healthheader.svg";
+
 
 import { saveAs } from "file-saver";
 import { useNavigate } from "react-router-dom";

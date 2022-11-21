@@ -1,5 +1,5 @@
 import React from "react";
-import healthcaremobileicon from "../../../../assets/innerpage/healthcare/healthmob.svg";
+import healthcaremobileicon from "../../../../assets/innerpage/healthcare/healthmob.png";
 import healthcarebusinesssicon from "../../../../assets/innerpage/healthcare/healthimage.svg";
 
 const HealthCareBody = () => {
