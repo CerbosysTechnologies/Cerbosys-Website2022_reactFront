@@ -9,14 +9,14 @@ import {
   BrowserRouter,
 } from "react-router-dom";
 import PageScrollToTop from "./components/Common/Component/PageScrollToTop";
-
+import swDev from "./swDev";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    <PageScrollToTop />
+      <PageScrollToTop />
       <App />
-     
     </BrowserRouter>
   </React.StrictMode>
 );
+swDev();
