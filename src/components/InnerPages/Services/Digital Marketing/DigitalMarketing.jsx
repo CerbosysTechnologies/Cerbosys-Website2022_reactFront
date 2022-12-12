@@ -1,12 +1,13 @@
-import React from "react";
-import Navbar from "../../../Navbar/Navbar";
-import DigitalDesc from "../Digital Marketing/DigitalDesc";
-import DigitalDiagram from "../Digital Marketing/DigitalDiagram";
-import DigitalProcess from "../Digital Marketing/DigitalProcess";
-import Footer from "../../../Common/Component/Footer";
-import AllServiceForm from "../../../Common/Component/AllServicesForm";
-import DigitalForm from "./DigitalForm";
-import { Link } from "react-router-dom";
+import React from 'react';
+import Navbar from '../../../Navbar/Navbar';
+import DigitalDesc from '../Digital Marketing/DigitalDesc';
+import DigitalDiagram from '../Digital Marketing/DigitalDiagram';
+import DigitalProcess from '../Digital Marketing/DigitalProcess';
+import Footer from '../../../Common/Component/Footer';
+import AllServiceForm from '../../../Common/Component/AllServicesForm';
+import DigitalForm from './DigitalForm';
+import { Link } from 'react-router-dom';
+import Investment from '../UserInvestment/Investment';
 
 const DigitalMarketing = () => {
   return (
@@ -37,6 +38,7 @@ const DigitalMarketing = () => {
           </div>
           {/* Content Section Ends*/}
         </div>
+        <Investment />
         <DigitalDesc />
         <DigitalDiagram />
         <DigitalProcess />

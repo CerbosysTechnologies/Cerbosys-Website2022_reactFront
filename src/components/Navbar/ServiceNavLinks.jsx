@@ -128,7 +128,7 @@ const NavLinks = () => {
                         <Link to="/hire-react-js-developer">
                           <span className="flex items-center gap-2  text-white fill-white">
                             <AiFillCaretRight className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
-                            Hire Reacjs Developer
+                            Hire Reactjs Developer
                           </span>
                         </Link>
                       </li>
