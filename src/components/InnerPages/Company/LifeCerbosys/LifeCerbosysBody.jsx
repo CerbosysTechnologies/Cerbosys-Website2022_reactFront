@@ -26,7 +26,7 @@ const LifeCerbosysBody = () => {
               />
 
               <p className="font-content md:text-sm md:w-80 w-64 text-xs md:-mt-64 -mt-32">
-                <h1 className="font-heading text-center">Company Event</h1>
+                <h2 className="font-heading text-center">Company Event</h2>
                 <br></br>
                 The company event this year was intended for the employees and
                 clients to discuss some strategies and have fun of course.
@@ -52,7 +52,7 @@ const LifeCerbosysBody = () => {
               />
 
               <p className="font-content md:text-sm md:w-80 w-64 text-xs -mt-40">
-                <h1 className="font-heading text-center">Employee Farewell</h1>
+                <h2 className="font-heading text-center">Employee Farewell</h2>
                 <br></br>
                 As we say goodbye to our valued employees, the team always
                 celebrates this opportunity to thank them for their dedication
@@ -79,7 +79,7 @@ const LifeCerbosysBody = () => {
               />
 
               <p className="font-content md:text-sm md:w-80 w-64 text-xs md:-mt-60 -mt-28">
-                <h1 className="font-heading text-center">Diwali Celebration</h1>
+                <h2 className="font-heading text-center">Diwali Celebration</h2>
                 <br></br>
                 The company event this year was intended for the employees and
                 clients to discuss some strategies and have fun of course.
@@ -105,9 +105,9 @@ const LifeCerbosysBody = () => {
               />
 
               <p className="font-content md:text-sm md:w-80 w-64 text-xs -mt-48">
-                <h1 className="font-heading text-center">
+                <h2 className="font-heading text-center">
                   Independence Day Celebration
-                </h1>
+                </h2>
                 <br></br>
                 Independence day 2022 was special as it was about the theme “Har
                 Ghar Tiranga”. It is always a pleasant experience to celebrate
@@ -131,7 +131,7 @@ const LifeCerbosysBody = () => {
               />
 
               <p className="font-content md:text-sm md:w-80 w-64 text-xs md:-mt-48 -mt-28">
-                <h1 className="font-heading text-center">Holi Celebration</h1>
+                <h2 className="font-heading text-center">Holi Celebration</h2>
                 <br></br>
                 Holi this year was a delightful experience with workmates. Being
                 one of the most bright, colorful, and vibrant festivals, Holi as
@@ -153,9 +153,9 @@ const LifeCerbosysBody = () => {
               />
 
               <p className="font-content md:text-sm md:w-80 w-64 text-xs -mt-44">
-                <h1 className="font-heading text-center">
+                <h2 className="font-heading text-center">
                   New Year Celebration
-                </h1>
+                </h2>
                 <br></br>
                 New year is all about new life, new resolutions, and a fresh
                 start. Our resolution and aspiration this year was to work more

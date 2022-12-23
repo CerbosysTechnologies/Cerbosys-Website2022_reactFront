@@ -6,6 +6,7 @@ import ServiceForm from "./ServiceForm";
 import ServiceProcess from "./ServiceProcess";
 import Footer from "../../../Common/Component/Footer";
 import { Link } from "react-router-dom";
+import Investment from '../UserInvestment/Investment';
 
 const WebDevelopment = () => {
   return (
@@ -35,6 +36,7 @@ const WebDevelopment = () => {
           {/* Content Section Ends*/}
         </div>
 
+        <Investment />
         <ServiceDesc />
         <ServiceDiagram />
         <ServiceProcess />

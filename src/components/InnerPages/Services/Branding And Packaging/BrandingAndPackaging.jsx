@@ -5,7 +5,7 @@ import BrandingAndPackagingDesc from './BrandingAndPackagingDesc';
 import BrandAndPackagingProcess from './BrandingAndPackagingProcess';
 import BrandingAndPackagingForm from './BrandingAndPackagingForm';
 import { Link } from "react-router-dom";
-
+import Investment from '../UserInvestment/Investment';
 const BrandingAndPackaging = () => {
   return (
     <div>
@@ -38,6 +38,7 @@ const BrandingAndPackaging = () => {
           </div>
           {/* Content Section Ends*/}
         </div>
+        <Investment />
         <BrandingAndPackagingDesc />
         <BrandAndPackagingProcess />
         <BrandingAndPackagingForm />

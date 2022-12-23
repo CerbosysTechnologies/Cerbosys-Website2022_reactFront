@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Footer from "../../../Common/Component/Footer";
 import Navbar from "../../../Navbar/Navbar";
 import DiversityBody from "./DiversityBody";
@@ -8,6 +9,15 @@ const Diversity = () => {
   return (
     <div>
       <>
+      <Helmet>
+          <title>
+           Cerbosys values diversity and inclusion
+          </title>
+          <meta
+            name="description"
+            content="Cerbosys is committed to diversity and inclusion. Everyone is encouraged to bring their whole self to work, and we build a culture of diversity and creativity."
+          />
+        </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[43rem]  h-96 py-12 px-4 bg-DiversityBackground bg-cover md:bg-top bg-center">
           {/* Content Section */}
@@ -16,7 +26,7 @@ const Diversity = () => {
               Diversity
             </h1>
 
-            <p className="text-white font-heading py-2 md:text-2xl text-sm md:w-[80rem] text-justify md:mt-56 mt-20 md:mb-0 mb-14">
+            <p className="text-white font-subheading py-2  md:w-[50rem] text-justify md:mt-56 mt-20 md:mb-0 mb-14">
               Cerbosys values diversity and inclusion. We encourage all members
               of the team to be themselves, bring their whole selves to work,
               and shape a creative and inclusive culture.

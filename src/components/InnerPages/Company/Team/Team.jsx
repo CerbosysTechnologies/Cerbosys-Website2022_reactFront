@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Footer from "../../../Common/Component/Footer";
 import Navbar from "../../../Navbar/Navbar";
 import Teambody from "./Teambody";
@@ -8,6 +9,17 @@ const Team = () => {
   return (
     <div>
       <>
+
+
+      <Helmet>
+          <title>
+           Meet Our Team |Cerbosys
+          </title>
+          <meta
+            name="description"
+            content="Cerbosys’s progressive growth is defined by a zealous and committed leadership team of intellectual leaders. Explore their experience, expertise, and responsibilities. "
+          />
+        </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[48rem] bg-TeamCerbosys h-96 py-12 px-4 bg-cover md:bg-top bg-center">
           {/* Content Section */}

@@ -6,7 +6,7 @@ import MobileDiagram from "./MobileDiagram";
 import MobileProcess from "./MobileProcess";
 import MobileForm from "./MobileForm";
 import Footer from "../../../Common/Component/Footer";
-
+import Investment from '../UserInvestment/Investment';
 const MobileDevelopment = () => {
   return (
     <div>
@@ -36,6 +36,7 @@ const MobileDevelopment = () => {
           </div>
           {/* Content Section Ends*/}
         </div>
+        <Investment />
         <MobileDesc />
         <MobileDiagram />
         <MobileProcess />

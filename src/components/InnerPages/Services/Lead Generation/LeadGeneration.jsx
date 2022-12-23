@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import LeadGenerationDesc from "./LeadGenerationDesc";
 import LeadGenerationProcess from "./LeadGenerationProcess";
 import LeadGenerationForm from "./LeadGenerationForm";
-
+import Investment from '../UserInvestment/Investment';
 const LeadGeneration = () => {
   return (
     <div>
@@ -36,6 +36,7 @@ const LeadGeneration = () => {
           </div>
           {/* Content Section Ends*/}
         </div>
+        <Investment />
         <LeadGenerationDesc />
         <LeadGenerationProcess />
         <LeadGenerationForm />

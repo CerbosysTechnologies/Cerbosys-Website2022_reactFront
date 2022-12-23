@@ -6,6 +6,7 @@ import UIAndUXDesc from "./UI&UXDesc";
 import UIAndUXDiagram from "./UI&UXDiagram";
 import UIAndUXProcess from "./UI&UXProcess";
 import UIAndUXForm from "./UI&UXForm";
+import Investment from '../UserInvestment/Investment';
 
 const UIAndUXDevelopment = () => {
   return (
@@ -35,6 +36,7 @@ const UIAndUXDevelopment = () => {
           </div>
           {/* Content Section Ends*/}
         </div>
+        <Investment />
         <UIAndUXDesc />
         <UIAndUXDiagram />
         <UIAndUXProcess />

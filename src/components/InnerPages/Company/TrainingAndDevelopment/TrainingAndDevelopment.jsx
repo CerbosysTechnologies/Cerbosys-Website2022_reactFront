@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Footer from "../../../Common/Component/Footer";
 import Navbar from "../../../Navbar/Navbar";
 import TrainingAndDevelopmentBody from "./TrainingAndDevelopmentBody";
@@ -8,6 +9,18 @@ const TrainingAndDevelopment = () => {
   return (
     <div>
       <>
+        <Helmet>
+          <title>
+            {" "}
+            All About Training and Development (Learning and Development) |
+            Cerbosys{" "}
+          </title>
+          <meta
+            name="description"
+            content="Cerbosys conducts extensive training and development for employees program for our new recruits. A workplace training program allows our employees to strengthen the skills that each employee needs to improve. "
+          />
+        </Helmet>
+
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[40rem]  h-96 py-12 px-4 bg-TrainingAndDevelopment bg-cover md:bg-top bg-center">
           {/* Content Section */}

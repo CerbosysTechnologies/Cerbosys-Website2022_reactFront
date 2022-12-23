@@ -11,6 +11,7 @@ import TypeWriter from "react-typewriter-effect";
 import MovingComponent from "react-moving-text";
 import Recommendations from "./Recommendations";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 const Hero = () => {
   {
     /* animation for buthhon logic start */
@@ -27,6 +28,20 @@ const Hero = () => {
   }
   return (
     <>
+      <Helmet>
+        <title>
+          Web Design & Mobile App Development Company Indore, UK| Cerbosys
+        </title>
+        <meta
+          name="keywords"
+          content="mobile app development, mobile app development services, website designing company in india, web development services, best app development company in uk, web app development company in uk, ecommerce website development, best digital marketing services company in india, digital marketing services for startups, b2b lead generation and appointment setting services, android mobile ui ux development company, staff augmentation"
+        />
+        <meta
+          name="description"
+          content="Looking for Best IT solutions Company? We offer a wide range of services, including Ecommerce  development, Web &Mobile App Development, Digital Marketing etc."
+        />
+      </Helmet>
+
       {/* <Navbar /> */}
       <div className="mx-auto w-full md:h-screen h-full py-16 px-4 bg-Hero bg-cover md:bg-top bg-center">
         {/* Content Section */}

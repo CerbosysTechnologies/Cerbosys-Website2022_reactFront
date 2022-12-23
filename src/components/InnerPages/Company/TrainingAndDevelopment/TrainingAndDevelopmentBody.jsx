@@ -53,9 +53,9 @@ const TrainingAndDevelopmentBody = () => {
               {/* </Lottie> */}
 
               <p className="font-content md:text-sm md:w-96 mt-10 w-64 text-xs">
-                <h1 className="font-heading text-center">
+                <h2 className="font-heading text-center">
                   Ideas And Creativity
-                </h1>
+                </h2>
                 <br></br>
                 Ideas are one of the most powerful tools that you can use to
                 motivate and educate your team. This is true whether you are
@@ -80,9 +80,9 @@ const TrainingAndDevelopmentBody = () => {
                 className="md:w-80 md:h-80 w-52 h-52"
               />
               <p className="font-content md:text-sm md:w-96 mt-10 w-64 text-xs">
-                <h1 className="text-center font-heading">
+                <h2 className="text-center font-heading">
                   Tools And Implementation
-                </h1>
+                </h2>
                 <br></br>
                 This training and development program addresses three different
                 levels of how you can approach the various tools and
@@ -108,9 +108,9 @@ const TrainingAndDevelopmentBody = () => {
                 className="md:w-80 md:h-80 w-52 h-52"
               />
               <p className="font-content md:text-sm md:w-96 mt-10 w-64 text-xs">
-                <h1 className="text-center font-heading">
+                <h2 className="text-center font-heading">
                   Interaction And Discussion
-                </h1>
+                </h2>
                 <br></br>
                 Interaction and Discussion in Training and Development session
                 is a presentation that encourages and promotes discussion among
@@ -137,9 +137,9 @@ const TrainingAndDevelopmentBody = () => {
                 className="md:w-80 md:h-80 w-52 h-52"
               />
               <p className="font-content md:text-sm md:w-96 mt-10 w-64 text-xs">
-                <h1 className="text-center font-heading">
+                <h2 className="text-center font-heading">
                   Possibilities of Growth
-                </h1>
+                </h2>
                 <br></br>
                 The final crux of this training and development session is the
                 possibility of growth in the future.
