@@ -14,7 +14,7 @@ const ManufacturingBody = () => {
               <img
                 src={manufacturingmobicon}
                 alt="Manufacture Mobile"
-                className="md:h-[40rem]"
+                className="md:h-[30rem]"
               />
             </div>
             {/* Mobile Image */}
@@ -23,15 +23,15 @@ const ManufacturingBody = () => {
 
             {/* Side */}
             <div className="flex flex-wrap flex-col ">
-              <h1 className="text-Green md:text-4xl text-center mb-6 text-xl mt-4 font-heading">
+              <h2 className="text-Green md:text-3xl text-center mb-6 text-xl mt-4 font-heading">
                 About Manufacturing Industry
-              </h1>
+              </h2>
               <img
                 src={manufacturingbusinessicon}
                 alt="Manufacture Business"
                 className="md:h-[20rem]"
               />
-              <p className="font-subheading md:text-xl text-lg md:w-[35rem] mt-6 text-justify">
+              <p className="font-content  md:w-[35rem] mt-6 text-justify">
                 The manufacturing industry is one of the largest industries
                 today. This is due to the level of productivity that these
                 manufacturing firms have reached and their ability to produce
@@ -45,11 +45,11 @@ const ManufacturingBody = () => {
 
           {/* Bullet Section */}
           <div className="flex flex-wrap flex-col mx-auto">
-            <div className="font-heading md:text-4xl text-xl mt-10 text-center">
+            <div className="font-heading md:text-3xl text-xl mt-10 text-center">
               Our Services for the Real Estate and Construction Industry
             </div>
 
-            <ul className="text-justify font-content md:text-xl text-sm mt-10 list-disc">
+            <ul className="text-justify font-content  mt-10 list-disc">
               <li>
                 <strong>Manufacturing Sales Enablement :-</strong> Cerbosys
                 offers innovative sales enablement solutions that empower your

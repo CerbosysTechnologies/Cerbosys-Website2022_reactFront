@@ -9,11 +9,11 @@ const CodeIgniterBody = () => {
       <div className=" mx-auto w-full py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
           <div className="flex flex-wrap flex-col">
-            <h1 className="font-heading md:text-6xl text-2xl text-center text-Primary">
+            <h2 className="font-heading md:text-3xl text-2xl text-center text-Primary">
               About CodeIgniter
-            </h1>
+            </h2>
 
-            <p className="font-subheading md:text-2xl text-sm text-justify md:mt-10">
+            <p className="font-content  text-justify md:mt-10">
               Codeigniter is a powerful PHP framework that enables developers to
               create sophisticated web applications. It is an open-source
               framework with a large community of developers who contribute to
@@ -22,10 +22,10 @@ const CodeIgniterBody = () => {
             <img
               src={codeigniterimage}
               alt="CI Image"
-              className="md:mt-16 mt-8 h-[30rem]"
+              className="md:mt-16 mt-8 h-[20rem]"
             />
 
-            <p className="font-subheading md:text-2xl text-sm text-justify md:mt-10">
+            <p className="font-content  text-justify md:mt-10">
               If you're looking for a top-notch Codeigniter developer, you've
               come to the right place.
               <br></br>
@@ -34,13 +34,13 @@ const CodeIgniterBody = () => {
               the job done quickly and efficiently.
             </p>
 
-            <h1 className="font-heading md:text-6xl text-2xl text-center text-Primary mt-10">
+            <h2 className="font-heading md:text-3xl text-2xl text-center text-Primary mt-10">
               Process to Hire CodeIgniter Developer
-            </h1>
+            </h2>
             <img
               src={codeigniterprocess}
               alt="Dot Net Process"
-              className="mt-16"
+              className="mt-16 h-[20rem]"
             />
           </div>
         </div>

@@ -13,9 +13,9 @@ const Overview = () => {
 
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
-            <p className="text-white font-heading py-2 md:text-5xl text-2xl ">
+            <h1 className="text-white font-heading py-2 md:text-5xl text-2xl ">
               Overview
-            </p>
+            </h1>
 
             <p className='text-white font-heading py-2 md:text-5xl text-2xl md:-mb-64 md:mt-96 mt-24'>
             “Walk with us towards a beautiful destination…”

@@ -12,12 +12,12 @@ const CustomerRelationHomePage = () => {
       <div className="bg-[#1B1B1B] mx-auto w-full h-full py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
           {/* Heading */}
-          <h1
+          <h2
             className="font-heading text-sm md:text-2xl text-white uppercase text-left md:indent-24
           indent-10"
           >
             Build Customer Relationship
-          </h1>
+          </h2>
           {/* Heading Ends */}
 
           {/* Main Container For Image and Content */}
@@ -29,7 +29,7 @@ const CustomerRelationHomePage = () => {
                   src={clientinteractionicon}
                   alt="Client Interaction Icon"
                   className="md:w-[320px] md:h-[320px] 
-                w-[160px] h-[620px] scale-100 hover:scale-125 ease-in duration-500 "
+                w-[160px] h-[620px] scale-75 hover:scale-100 ease-in duration-500 "
                 ></img>
                 {/* <p className="text-black font-heading md:text-[10px] absolute md:top-32 md:mt-2 md:left-12 md:w-48 md:h-16 text-center
                   top-[18rem] w-36 mt-2 text-[7px] left-[1.8rem] ">
@@ -42,7 +42,7 @@ const CustomerRelationHomePage = () => {
                   src={consolidationicon}
                   alt="Consolidation Icon"
                   className="md:w-[320px] md:h-[320px] 
-                w-[160px] h-[620px] scale-100 hover:scale-125 ease-in duration-500"
+                w-[160px] h-[620px] scale-75 hover:scale-100 ease-in duration-500"
                 ></img>
               </div>
 
@@ -51,7 +51,7 @@ const CustomerRelationHomePage = () => {
                   src={developmenticon}
                   alt="Development Icon"
                   className="md:w-[320px] md:h-[320px] 
-                w-[160px] h-[620px] scale-100 hover:scale-125 ease-in duration-500"
+                w-[160px] h-[620px] scale-75 hover:scale-100 ease-in duration-500"
                 ></img>
                 {/* <p className="text-black font-heading md:text-[10px] absolute md:top-[29rem] md:mt-2 md:left-12 md:w-48 md:h-16 text-center
                   top-[35rem] w-28 mt-2 text-[8px] left-[2.5rem]">
@@ -64,7 +64,7 @@ const CustomerRelationHomePage = () => {
                   src={deliverablesicon}
                   alt="Deliverables Icon"
                   className="md:w-[320px] md:h-[320px] 
-                w-[160px] h-[620px] scale-100 hover:scale-125 ease-in duration-500"
+                w-[160px] h-[620px] scale-75 hover:scale-100 ease-in duration-500"
                 ></img>
                 {/* <p className="text-black font-heading md:text-[10px] absolute md:top-[29rem] md:mt-2 md:left-96 md:w-48 md:h-16 text-center
                   top-[35rem] w-32 mt-2 text-[8px] left-[14rem]">
@@ -76,10 +76,10 @@ const CustomerRelationHomePage = () => {
 
             {/* Content Section */}
             <div className="mx-auto flex flex-col justify-center  ">
-              <h1 className="text-white font-heading md:text-2xl text-lg align-top mb-8 md:-mt-[5rem] -mt-[10rem]">
+              <h2 className="text-white font-heading md:text-2xl text-lg align-top mb-8 md:-mt-[5rem] -mt-[10rem]">
                 Our Customer On-Boarding Process
-              </h1>
-              <p className="text-white font-content md:text-lg  text-xl mb-10 text-justify md:px-0 px-4">
+              </h2>
+              <p className="text-white font-content  mb-10 text-justify md:px-0 px-4">
                 The customer onboarding process is undoubtedly the most crucial
                 stage of the customer lifecycle, and since the products from
                 Cerbosys are designed with simplicity and ease of use in mind.
@@ -87,7 +87,7 @@ const CustomerRelationHomePage = () => {
                 what industry you're in.
               </p>
 
-              <p className="text-white bold italic font-heading md:text-xl text-lg text-justify md:mb-28 mb-10 px-4">
+              <p className="text-white bold italic font-subheading  text-justify md:mb-28 mb-10 px-4">
                 As innovative and creative digital creators, we have broken down
                 this typical process into four major steps that involve:
               </p>

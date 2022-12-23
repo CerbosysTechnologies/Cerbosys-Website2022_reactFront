@@ -13,11 +13,11 @@ const Nodejs = () => {
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-NodejsHeader bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[35rem] h-96 mx-auto">
-            <p className="text-white font-heading py-2 md:text-3xl text-xl mb-10 ">
+            <h1 className="text-white font-heading py-2 md:text-3xl text-xl mb-10 ">
               Hire Node.JS Developer
-            </p>
+            </h1>
 
-            <p className="text-white font-heading py-2 md:text-xl text-xs md:mb-28 mb-24 md:w-[480px] text-justify">
+            <p className="text-white font-subheading py-2 md:text-xl text-xs md:mb-28 mb-24 md:w-[480px] text-justify">
               Build robust quality web applications to handle large amounts of
               data for your business enterprise. Hire a Node.JS developer from
               Cerbosys.

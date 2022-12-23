@@ -17,9 +17,9 @@ const UIAndUXProcess = () => {
         <div className="max-w-[1240px] mx-auto ">
           {/* Heading */}
           <div className="flex flex-col flex-wrap items-center">
-            <h1 className="font-heading md:text-3xl uppercase text-Primary text-xl">
+            <h2 className="font-heading md:text-3xl uppercase text-Primary text-xl">
               Process
-            </h1>
+            </h2>
             <h2 className="font-subheading md:text-xl text-black text-sm">
               Our UI/UX Development Process
             </h2>
@@ -49,9 +49,9 @@ const UIAndUXProcess = () => {
               className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem]"
             />
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Empathize
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 This process involves in depth research and analysis to
                 understand people, their experiences and their needs regarding
@@ -78,9 +78,9 @@ const UIAndUXProcess = () => {
 
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Define
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 After the Empathize stage, it's time to gather all the
                 information collected and then it is analyzed. This helps our
@@ -116,9 +116,9 @@ const UIAndUXProcess = () => {
               className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem]"
             />
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Ideate
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 Now that all the necessary information is gathered, we start
                 generating ideas. With a strong foundation of knowledge from the
@@ -144,9 +144,9 @@ const UIAndUXProcess = () => {
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Prototype
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 This is an exploratory phase. The focus is to find the most
                 optimal solution for each issue discovered. Our group creates
@@ -182,9 +182,9 @@ const UIAndUXProcess = () => {
               className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem]"
             />
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Brand Launch
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 Brand launching is a big undertaking, but it can be an
                 incredibly rewarding experience. Since this is the final phase

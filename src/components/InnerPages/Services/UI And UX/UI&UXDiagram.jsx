@@ -9,7 +9,7 @@ const UIAndUXDiagram = () => {
         <div className="max-w-[1240px] mx-auto ">
             <div className="flex flex-col flex-wrap items-center">
             {/* Heading */}
-            <h1 className="font-heading md:text-3xl uppercase text-Primary text-xl">Service</h1>
+            <h2 className="font-heading md:text-3xl uppercase text-Primary text-xl">Service</h2>
             <h2 className="font-subheading md:text-xl text-black text-sm">
                 Our Team Utilizes all Technology Platforms to provide you a wide range of services.
             </h2>

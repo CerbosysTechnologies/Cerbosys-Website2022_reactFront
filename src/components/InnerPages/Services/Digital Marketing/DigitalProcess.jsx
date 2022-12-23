@@ -18,9 +18,9 @@ const MobileProcess = () => {
         <div className="max-w-[1240px] mx-auto ">
           {/* Heading */}
           <div className="flex flex-col flex-wrap items-center">
-            <h1 className="font-heading md:text-3xl uppercase text-Primary text-xl">
+            <h2 className="font-heading md:text-3xl uppercase text-Primary text-xl">
               Process
-            </h1>
+            </h2>
             <h2 className="font-subheading md:text-xl text-black text-sm mb-4">
               Our Digital Marketing Service Process
             </h2>
@@ -53,10 +53,10 @@ const MobileProcess = () => {
               className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem]"
             />
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 {" "}
                 Research
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 As a digital marketing team, it's important to understand the
                 target audience and their journey. Research is a powerful tool
@@ -86,9 +86,9 @@ const MobileProcess = () => {
 
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Create
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 Creating content is a major part of digital marketing and for
                 that we make sure that the content is SEO optimized, user
@@ -126,9 +126,9 @@ const MobileProcess = () => {
               className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem]"
             />
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Promote
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 Digital promotion is the marketing technique of using digital
                 media to promote a product or an organization as a way of
@@ -156,9 +156,9 @@ const MobileProcess = () => {
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Analyze
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 Social media marketing is one of the most important and commonly
                 used tools for business strategies. It has the power to boost
@@ -197,9 +197,9 @@ const MobileProcess = () => {
               className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem]"
             />
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Optimize
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 Digital marketing optimization is the process of adjusting the
                 marketing campaign to improve conversions and ROI. This can be

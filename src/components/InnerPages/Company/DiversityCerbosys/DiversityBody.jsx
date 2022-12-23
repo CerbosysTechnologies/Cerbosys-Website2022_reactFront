@@ -60,10 +60,10 @@ const DiversityBody = () => {
           <div className="grid md:grid-cols-2">
             {/* Content Section */}
             <div className="mx-auto flex flex-col md:px-24 px-14 text-justify">
-              <h1 className="font-heading md:text-2xl text-lg mb-2">
+              <h2 className="font-heading md:text-2xl text-lg mb-2">
                 {" "}
                 Our Diversity{" "}
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm">
                 Cerbosys is an exciting place to work because we always look
                 forward to working with people who bring different perspectives

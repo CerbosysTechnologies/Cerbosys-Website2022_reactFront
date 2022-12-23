@@ -14,7 +14,7 @@ const EducationBody = () => {
               <img
                 src={educationmobicon}
                 alt="Education Mobile"
-                className="md:h-[40rem]"
+                className="md:h-[30rem]"
               />
             </div>
             {/* Mobile Image */}
@@ -23,15 +23,15 @@ const EducationBody = () => {
 
             {/* Side */}
             <div className="flex flex-wrap flex-col ">
-              <h1 className="text-Green md:text-4xl text-center mb-6 text-xl mt-4 font-heading">
+              <h2 className="text-Green md:text-3xl text-center mb-6 text-xl mt-4 font-heading">
                 Education In Business
-              </h1>
+              </h2>
               <img
                 src={educationbusinessicon}
                 alt="Education Business"
                 className="md:h-[20rem]"
               />
-              <p className="font-subheading md:text-xl text-lg md:w-[33rem] mt-6 text-justify">
+              <p className="font-content  md:w-[33rem] mt-6 text-justify">
                 Education is one of the most important spheres of investment and
                 development. Education has become a big business in the past
                 decade or so, and it’s only going to get bigger from here on
@@ -44,11 +44,11 @@ const EducationBody = () => {
 
           {/* Bullet Section */}
           <div className="flex flex-wrap flex-col mx-auto">
-            <div className="font-heading md:text-4xl text-xl mt-10 text-center">
+            <div className="font-heading md:text-3xl text-xl mt-10 text-center">
               Our Services for the Educational Industry
             </div>
 
-            <ul className="text-justify font-content md:text-xl text-sm mt-10 list-disc">
+            <ul className="text-justify font-content  mt-10 list-disc">
               <li>
                 <strong>E-Learning Module Creation :-</strong> Since Learning is
                 improving at an exponential rate, we offer the best e-learning

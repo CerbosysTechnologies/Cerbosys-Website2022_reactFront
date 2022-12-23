@@ -14,7 +14,7 @@ const AgricultureBody = () => {
               <img
                 src={agriculturemobicon}
                 alt="Agriculture Mobile"
-                className="md:h-[40rem]"
+                className="md:h-[30rem]"
               />
             </div>
             {/* Mobile Image */}
@@ -23,15 +23,15 @@ const AgricultureBody = () => {
 
             {/* Side */}
             <div className="flex flex-wrap flex-col ">
-              <h1 className="text-Green md:text-4xl text-center mb-6 text-xl mt-4 font-heading">
+              <h2 className="text-Green md:text-3xl text-center mb-6 text-xl mt-4 font-heading">
                 Agriculture In Business
-              </h1>
+              </h2>
               <img
                 src={agriculturebusinessicon}
                 alt=""
                 className="md:h-[20rem]"
               />
-              <p className="font-subheading md:text-xl text-lg md:w-[33rem] mt-6 text-justify">
+              <p className="font-content  md:w-[33rem] mt-6 text-justify">
                 At Agricultural in Business, we provide tips and advice for
                 entrepreneurs who are willing to grow in this field. Whether
                 you're looking for information on specific crops or tips on how
@@ -44,11 +44,11 @@ const AgricultureBody = () => {
 
           {/* Bullet Section */}
           <div className="flex flex-wrap flex-col mx-auto">
-            <div className="font-heading md:text-4xl text-xl mt-10 text-center">
+            <div className="font-heading md:text-3xl text-xl mt-10 text-center">
               Our Services for the Agriculture Industry
             </div>
 
-            <ul className="text-justify font-content md:text-xl text-sm mt-10 list-disc">
+            <ul className="text-justify font-content  mt-10 list-disc">
               <li>
                 <strong>Agro App and Website development :-</strong> As a
                 farmer, you can now develop your very own agro app and website

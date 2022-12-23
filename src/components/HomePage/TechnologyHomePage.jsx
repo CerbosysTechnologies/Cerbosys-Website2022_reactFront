@@ -22,13 +22,13 @@ const TechnologyHomePage = () => {
         <div className="max-w-[1240px] mx-auto ">
           {/* Heading */}
 
-          <h1 className="font-heading text-xl md:text-3xl text-black md:indent-24">
+          <h2 className="font-heading text-xl md:text-3xl text-black md:indent-24">
             Technologies
-          </h1>
+          </h2>
           {/* Heading Ends */}
 
           {/* Content */}
-          <p className="font-content text-lg md:text-xl md:text-center md:items-center md:indent-24  md:w-[620px] whitespace-pre-wrap">
+          <p className="font-content mt-3 md:text-center md:items-center md:indent-24  md:w-[620px] whitespace-pre-wrap">
             We work with different technologies, including few of the lastest
             and most talked about stacks.
           </p>
@@ -68,7 +68,7 @@ const TechnologyHomePage = () => {
               <div>
                 <img
                   src={nodejsicon}
-                  alt="Android Icon"
+                  alt="nodejs Icon"
                   className="w-[90px] h-[90px] mb-2 scale-100 hover:scale-125 ease-out duration-500"
                 ></img>
               </div>
@@ -77,7 +77,7 @@ const TechnologyHomePage = () => {
               <div>
                 <img
                   src={mongodbicon}
-                  alt="Android Icon"
+                  alt="mongodb Icon"
                   className="w-[90px] h-[90px] mb-2 scale-100 hover:scale-125 ease-out duration-500"
                 ></img>
               </div>

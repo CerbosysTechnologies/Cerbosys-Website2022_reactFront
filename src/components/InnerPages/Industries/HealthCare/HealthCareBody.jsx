@@ -14,7 +14,7 @@ const HealthCareBody = () => {
               <img
                 src={healthcaremobileicon}
                 alt="HealthCare Mobile"
-                className="md:h-[40rem]"
+                className="md:h-[30rem]"
               />
             </div>
             {/* Mobile Image */}
@@ -23,15 +23,15 @@ const HealthCareBody = () => {
 
             {/* Side */}
             <div className="flex flex-wrap flex-col ">
-              <h1 className="text-Green md:text-4xl text-center items-center mb-6 text-xl mt-4 font-heading md:w-96 justify-center mx-10">
+              <h2 className="text-Green md:text-3xl text-center items-center mb-6  mt-4 font-heading md:w-96 justify-center mx-10">
                 HealthCare And Life Science In Business
-              </h1>
+              </h2>
               <img
                 src={healthcarebusinesssicon}
                 alt="HealthCare Business"
                 className="md:h-[20rem]"
               />
-              <p className="font-subheading md:text-xl text-lg md:w-[33rem] mt-6 text-justify items-center">
+              <p className="font-content  md:w-[33rem] mt-6 text-justify items-center">
                 Healthcare and Life Science offers a comprehensive range of
                 products and services which includes a wide range of healthcare
                 equipment, pharmaceuticals, vascular solutions, medical
@@ -44,11 +44,11 @@ const HealthCareBody = () => {
 
           {/* Bullet Section */}
           <div className="flex flex-wrap flex-col mx-auto">
-            <div className="font-heading md:text-4xl text-xl mt-10 text-center">
+            <div className="font-heading md:text-3xl text-xl mt-10 text-center">
               Our Services for the Healthcare and Life Science Industry
             </div>
 
-            <ul className="text-justify font-content md:text-xl text-sm mt-10 list-disc">
+            <ul className="text-justify font-content  mt-10 list-disc md:px-0 px-5">
               <li>
                 <strong>Advisory Services :-</strong>
                 We provide an online platform that will be engaged in providing

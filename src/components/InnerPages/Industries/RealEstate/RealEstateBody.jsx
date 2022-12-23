@@ -14,7 +14,7 @@ const RealEstateBody = () => {
               <img
                 src={realestatemobicon}
                 alt="RealEstate Mobile"
-                className="md:h-[40rem]"
+                className="md:h-[30rem]"
               />
             </div>
             {/* Mobile Image */}
@@ -23,15 +23,15 @@ const RealEstateBody = () => {
 
             {/* Side */}
             <div className="flex flex-wrap flex-col ">
-              <h1 className="text-Green md:text-4xl text-center items-center mb-6 text-xl mt-4 font-heading md:w-96 justify-center mx-10">
+              <h2 className="text-Green md:text-3xl text-center items-center mb-6 text-xl mt-4 font-heading md:w-96 justify-center mx-10">
                 About Real Estate and Construction
-              </h1>
+              </h2>
               <img
                 src={realestatebusinessicon}
                 alt="RealEstate Business"
                 className="md:h-[20rem]"
               />
-              <p className="font-subheading md:text-xl text-lg md:w-[33rem] mt-6 text-justify">
+              <p className="font-content  md:w-[33rem] mt-6 text-justify">
                 The Real Estate and Construction sector is a major contributor
                 to the country's GDP, This sector provides employment
                 opportunities to millions of youth and also contributes
@@ -44,11 +44,11 @@ const RealEstateBody = () => {
 
           {/* Bullet Section */}
           <div className="flex flex-wrap flex-col mx-auto">
-            <div className="font-heading md:text-4xl text-xl mt-10 text-center">
+            <div className="font-heading md:text-3xl text-xl mt-10 text-center">
               Our Services for the Real Estate and Construction Industry
             </div>
 
-            <ul className="text-justify font-content md:text-xl text-sm mt-10 list-disc">
+            <ul className="text-justify font-content  mt-10 list-disc md:px-0 px-5">
               <li>
                 <strong>Enterprise Mobility Solutions :-</strong> Enterprise
                 mobility solutions are essential to any company that is

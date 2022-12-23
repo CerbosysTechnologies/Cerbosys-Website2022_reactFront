@@ -22,9 +22,9 @@ const LaravelForm = ({ onChangeSelected }) => {
         <div className="max-w-[1240px] mx-auto ">
           <div className="flex flex-col flex-wrap items-center">
             {/* Heading */}
-            <h1 className="font-heading md:text-3xl uppercase text-white text-xl">
+            <h2 className="font-heading md:text-3xl uppercase text-white text-xl">
               Let's Talk About Your Idea
-            </h1>
+            </h2>
             <h2 className="font-subheading md:text-xl text-white text-sm text-center">
               Share your business idea and we ensure you would embrace
               associating with us.

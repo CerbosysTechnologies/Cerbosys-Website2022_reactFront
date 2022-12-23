@@ -20,9 +20,9 @@ const BrandAndPackagingProcess = () => {
         <div className="max-w-[1240px] mx-auto ">
           {/* Heading */}
           <div className="flex flex-col flex-wrap items-center">
-            <h1 className="font-heading md:text-3xl uppercase text-Primary text-xl">
+            <h2 className="font-heading md:text-3xl uppercase text-Primary text-xl">
               Process
-            </h1>
+            </h2>
             <h2 className="font-subheading md:text-xl text-black text-sm">
               Our Brand And Packaging Process
             </h2>
@@ -52,10 +52,10 @@ const BrandAndPackagingProcess = () => {
               className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem]"
             />
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 {" "}
                 Brand Research
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 A brand research is a process of investigating the relationship
                 between a brand and its customers. It is used to understand how
@@ -83,9 +83,9 @@ const BrandAndPackagingProcess = () => {
 
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Brand Strategy
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 To achieve a series of long-term goals, we implement a long-term
                 plan which involves our brand strategy. Our brand strategy is
@@ -121,9 +121,9 @@ const BrandAndPackagingProcess = () => {
               className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem]"
             />
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Brand Identity
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 Brand identity is how your customers and prospects perceive your
                 company. It's the overall look and feel of your business, and it
@@ -150,9 +150,9 @@ const BrandAndPackagingProcess = () => {
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Brand Tools
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 There are many different branding tools available to businesses
                 these days. But one of the most important branding tools is your
@@ -190,9 +190,9 @@ const BrandAndPackagingProcess = () => {
               className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem]"
             />
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Brand Launch
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 Brand launching is a big undertaking, but it can be an
                 incredibly rewarding experience. Here are a few things we follow
@@ -218,9 +218,9 @@ const BrandAndPackagingProcess = () => {
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Brand Building
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 Branding is the process of creating a unique identity for a
                 company or product. A strong brand can differentiate a company

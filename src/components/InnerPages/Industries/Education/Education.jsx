@@ -12,9 +12,9 @@ const Education = () => {
         <div className="mx-auto w-full md:h-[36rem] bg-EducationHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
-            <p className="text-white font-heading py-2 md:text-5xl text-2xl md:mb-48 mb-28">
+            <h1 className="text-white font-heading py-2 md:text-5xl text-2xl md:mb-48 mb-28">
               Education
-            </p>
+            </h1>
 
             <p className="text-white font-heading py-2 md:text-lg text-xs md:w-[980px] text-justify">
               As an IT-based company, we have lots of experience in providing

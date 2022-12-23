@@ -9,11 +9,11 @@ const IOSBody = () => {
       <div className=" mx-auto w-full py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
           <div className="flex flex-wrap flex-col">
-            <h1 className="font-heading md:text-6xl text-2xl text-center text-Primary">
+            <h2 className="font-heading md:text-3xl text-2xl text-center text-Primary">
               About IOS
-            </h1>
+            </h2>
 
-            <p className="font-subheading md:text-2xl text-sm text-justify md:mt-10">
+            <p className="font-content  text-justify md:mt-10">
               There are many different types of developers, and each one
               specializes in a different area. IOS developers are no different.
               IOS developers build applications for the iPhone and iPad. While
@@ -23,10 +23,10 @@ const IOSBody = () => {
             <img
               src={iosimage}
               alt="IOS Image"
-              className="md:mt-16 mt-8 h-[30rem]"
+              className="md:mt-16 mt-8 h-[20rem]"
             />
 
-            <p className="font-subheading md:text-2xl text-sm text-justify md:mt-10">
+            <p className="font-content  text-justify md:mt-10">
               There are many different types of developers, but one of the most
               in-demand developers these days is an iOS developer.
               <br></br>
@@ -39,10 +39,10 @@ const IOSBody = () => {
               better option for you than Cerbosys.
             </p>
 
-            <h1 className="font-heading md:text-6xl text-2xl text-center text-Primary mt-10">
+            <h2 className="font-heading md:text-3xl text-2xl text-center text-Primary mt-10">
               Process to Hire IOS Developer
-            </h1>
-            <img src={iosprocess} alt="IOS Process" className="mt-16" />
+            </h2>
+            <img src={iosprocess} alt="IOS Process" className="mt-16 h-[20rem] " />
           </div>
         </div>
       </div>

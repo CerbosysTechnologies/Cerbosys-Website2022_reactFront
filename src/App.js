@@ -50,13 +50,14 @@ import Solution from "./components/Solution/Solution";
 import SchoolERP from "./components/Solution/School/SchoolERP";
 import ECommerse from "./components/Solution/E-Commerse/E-Commerse";
 import CaseStudyByOne from "./components/CaseStudy/CaseStudyByOne";
+import Search from "./search";
 
 function App() {
   document.addEventListener("contextmenu", handelRightClick);
   return (
     <>
-      <Navbar />
-      <Helmet>
+      <Navbar></Navbar>
+      {/* <Helmet>
         <title>
           Website Design & Mobile App Development Company | Cerbosys
         </title>
@@ -64,8 +65,9 @@ function App() {
           name="description"
           content="Cerbosys Technologies Inc. is one of the leading Website Design and  Mobile App Development company who provides services across the world. Contact us now for growth."
         />
-      </Helmet>
+      </Helmet> */}
       <FreeQuote />
+      <Search />
       <Routes>
         <Route exact path="/" element={<Hero />} />
         {/* Company Navbar start */}
@@ -88,7 +90,7 @@ function App() {
           element={<BrandingAndPackaging />}
         />
         <Route path="/mobile-app-development" element={<MobileDevelopment />} />
-        <Route path="/uiux-development" element={<UIAndUX />} />
+        <Route path="/ui-ux-designing" element={<UIAndUX />} />
         {/* Service Navbar End */}
         {/* StaffAugmentation start */}
         <Route path="/staff-augmentation" element={<StaffAugmentation />} />

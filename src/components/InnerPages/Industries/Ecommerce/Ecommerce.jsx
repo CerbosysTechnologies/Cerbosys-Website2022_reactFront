@@ -12,11 +12,11 @@ const Ecommerce = () => {
         <div className="mx-auto w-full md:h-[36rem] bg-EcommerceHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
-            <p className="text-white font-heading py-2 md:text-5xl text-2xl md:mb-48 mb-28">
+            <h1 className="text-white font-heading py-2 md:text-5xl text-2xl md:mb-48 mb-28">
               Ecommerce And Retail
-            </p>
+            </h1>
 
-            <p className="text-white font-heading py-2 md:text-lg text-xs md:w-[980px] text-justify">
+            <p className="text-white font-subheading  py-2 md:text-lg text-xs md:w-[980px] text-justify">
               Our e-commerce offerings can help you determine the best online
               marketplace to sell your products and reach more customers. Our
               result-oriented approach will help you achieve your business

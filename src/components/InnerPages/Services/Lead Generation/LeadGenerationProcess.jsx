@@ -19,9 +19,9 @@ const LeadGenerationProcess = () => {
         <div className="max-w-[1240px] mx-auto ">
           {/* Heading */}
           <div className="flex flex-col flex-wrap items-center">
-            <h1 className="font-heading md:text-3xl uppercase text-Primary text-xl">
+            <h2 className="font-heading md:text-3xl uppercase text-Primary text-xl">
               Process
-            </h1>
+            </h2>
             <h2 className="font-subheading md:text-xl text-black text-sm">
               Our Lead Generation Process
             </h2>
@@ -52,10 +52,10 @@ const LeadGenerationProcess = () => {
               className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem]"
             />
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 {" "}
                 LEAD ACQUISITION
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 Lead acquisition can be a challenge, but it's important to
                 remember that every lead is an opportunity. By using the right
@@ -88,9 +88,9 @@ const LeadGenerationProcess = () => {
 
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Marketing and Sales Lead Qualification
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 Lead qualification is the process of determining whether a lead
                 is ready to be sold to. This involves assessing factors like
@@ -131,9 +131,9 @@ const LeadGenerationProcess = () => {
               className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem]"
             />
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Customer Retention
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 Customer retention is a process in which we keep our customers
                 interested and engaged over time. In the lead generation
@@ -161,9 +161,9 @@ const LeadGenerationProcess = () => {
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Lead Nurturing
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 In the lead nurturing process we develop relationships with
                 potential customers by providing valuable information and
@@ -203,9 +203,9 @@ const LeadGenerationProcess = () => {
               className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem]"
             />
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 SALES TRANSFER
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 Through the sales transfer process we transfer ownership of a
                 product or service from one party to another. This is done to
@@ -236,9 +236,9 @@ const LeadGenerationProcess = () => {
           </div>
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <div className="mx-auto flex flex-col text-justify">
-              <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+              <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Conversion
-              </h1>
+              </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
                 Conversion is the final process of lead generation which means
                 turning a lead into a customer. This can be done through a

@@ -31,7 +31,6 @@ const InnerNavbar = () => {
         {/* Menu */}
 
         <ul className={`md:flex hidden uppercase items-center gap-1 font-heading text-black text-sm`}>         
-
           <CompanyNavLinks></CompanyNavLinks>
           <NavLinks></NavLinks>
           <IndustryNavLinks></IndustryNavLinks>

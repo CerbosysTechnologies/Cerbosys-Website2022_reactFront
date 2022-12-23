@@ -14,7 +14,7 @@ export const TransportBody = () => {
               <img
                 src={transportmobicon}
                 alt="Transport Mobile"
-                className="md:h-[40rem]"
+                className="md:h-[30rem]"
               />
             </div>
             {/* Mobile Image */}
@@ -23,15 +23,15 @@ export const TransportBody = () => {
 
             {/* Side */}
             <div className="flex flex-wrap flex-col ">
-              <h1 className="text-Green md:text-4xl text-center items-center mb-6 text-xl mt-4 font-heading md:w-96 justify-center mx-10">
+              <h2 className="text-Green md:text-3xl text-center items-center mb-6 text-xl mt-4 font-heading md:w-96 justify-center mx-10">
                 About Transport and Logistics
-              </h1>
+              </h2>
               <img
                 src={transportbusinessicon}
                 alt="Transport Business"
                 className="md:h-[20rem]"
               />
-              <p className="font-subheading md:text-xl text-lg md:w-[33rem] mt-6 text-justify">
+              <p className="font-content  md:w-[33rem] mt-6 text-justify">
                 Transport and logistics is the process of delivering goods from
                 one point to another. Some words used in the industry are
                 shipping, transporting, hustling, transportation, freight and
@@ -44,11 +44,11 @@ export const TransportBody = () => {
 
           {/* Bullet Section */}
           <div className="flex flex-wrap flex-col mx-auto">
-            <div className="font-heading md:text-4xl text-xl mt-10 text-center">
+            <div className="font-heading md:text-3xl text-xl mt-10 text-center">
               Our Services for the Transport and Logistics Industry
             </div>
 
-            <ul className="text-justify font-content md:text-xl text-sm mt-10 list-disc">
+            <ul className="text-justify font-content  mt-10 list-disc md:px-0 px-5">
               <li>
                 <strong>Transport Management Solution :-</strong>
                 Whether moving your products between production, distribution,

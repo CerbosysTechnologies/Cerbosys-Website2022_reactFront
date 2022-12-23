@@ -9,11 +9,11 @@ const LaravelBody = () => {
       <div className=" mx-auto w-full py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
           <div className="flex flex-wrap flex-col">
-            <h1 className="font-heading md:text-6xl text-2xl text-center text-Primary">
+            <h2 className="font-heading md:text-3xl text-2xl text-center text-Primary">
               About Laravel
-            </h1>
+            </h2>
 
-            <p className="font-subheading md:text-2xl text-sm text-justify md:mt-10">
+            <p className="font-content  text-justify md:mt-10">
               A PHP web application framework with elegant and expressive syntax
               is known as Laravel. It is designed for web artisans who want to
               create user-friendly web applications with minimum hassle.
@@ -21,10 +21,10 @@ const LaravelBody = () => {
             <img
               src={laravelimage}
               alt="Laravel Image"
-              className="md:mt-16 mt-8 h-[40rem]"
+              className="md:mt-16 mt-8 h-[20rem]"
             />
 
-            <p className="font-subheading md:text-2xl text-sm text-justify md:mt-10">
+            <p className="font-content  text-justify md:mt-10">
               There are different types of developers that specialize in
               different technologies, but Laravel Developer stands apart from
               these because of their special ability to work on the Laravel
@@ -37,10 +37,10 @@ const LaravelBody = () => {
               application is up to date and bug-free.
             </p>
 
-            <h1 className="font-heading md:text-6xl text-2xl text-center text-Primary mt-10">
+            <h2 className="font-heading md:text-3xl text-2xl text-center text-Primary mt-10">
               Process to Hire Angular Developer
-            </h1>
-            <img src={laravelprocess} alt="Laravel Process" className="mt-16" />
+            </h2>
+            <img src={laravelprocess} alt="Laravel Process" className="mt-16 h-[20rem]" />
           </div>
         </div>
       </div>

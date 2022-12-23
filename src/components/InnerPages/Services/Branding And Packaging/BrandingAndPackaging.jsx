@@ -17,9 +17,9 @@ const BrandingAndPackaging = () => {
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
 
-          <p className="text-white font-heading py-2 md:text-3xl text-xl mb-2">
+          <h1 className="text-white font-heading py-2 md:text-3xl text-xl mb-2">
           Branding & Packaging
-          </p>
+          </h1>
 
           <p className="text-white font-heading py-2 md:text-xs text-xs mb-8 md:w-[480px] text-justify">
           Branding is all about creating a unique identity for your product to make your product stand out from other products. Packaging is about how you present your product to the world. 

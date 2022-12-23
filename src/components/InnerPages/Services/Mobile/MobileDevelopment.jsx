@@ -15,9 +15,9 @@ const MobileDevelopment = () => {
         <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
-            <p className="text-white font-heading py-2 md:text-3xl text-xl mb-2">
+            <h1 className="text-white font-heading py-2 md:text-3xl text-xl mb-2">
               Mobile App Development
-            </p>
+            </h1>
 
             <p className="text-white font-heading py-2 md:text-xs text-xs mb-8 md:w-[480px]">
               Our app development platform builds mobile applications that

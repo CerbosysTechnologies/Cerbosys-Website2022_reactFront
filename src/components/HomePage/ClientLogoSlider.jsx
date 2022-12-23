@@ -35,12 +35,12 @@ const ClientLogoSlider = () => {
 
   return (
     <div className="flex flex-wrap items-center z-[-15]">
-      <Swiper className="md:h-64 h-72"
+      <Swiper className="md:h-64 h-72    md:w-96 xl:w-full "
        modules={[Autoplay, Pagination]}
        pagination={{
         clickable: true}}
         loop={true}
-        slidesPerView={3}       
+        slidesPerView={2}       
         autoplay={{
           delay: 700,
           disableOnInteraction: false,

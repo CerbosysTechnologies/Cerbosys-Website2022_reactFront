@@ -21,9 +21,9 @@ const ServiceHomePage = () => {
       <div className=" mx-auto w-full flex flex-col flex-wrap text-center">
         {/* heading */}
         <div className=" justify-center items-center text-center">
-          <h1 className="font-heading text-lg md:text-3xl mt-4">
+          <h2 className="font-heading text-lg md:text-3xl mt-4">
             <RubberBand duration={3000}>Our Best Services</RubberBand>
-          </h1>
+          </h2>
           <h2 className="font-content text-gray-600 text-xs md:text-sm mb-3">
             <Slide bottom duration={3000}>
               Services offered by us to grow your business
@@ -56,9 +56,9 @@ const ServiceHomePage = () => {
                 />
               </Bounce>
 
-              <h1 className="font-subheading text-left text-xl w-1/2">
+              <h2 className="font-subheading text-left text-xl w-1/2">
                 Mobile App Developements
-              </h1>
+              </h2>
               <p className="font-content text-justify text-sm md:mb-0 mb-2">
                 Smartphones are a crucial part of our lives, so it's important
                 to have an app that'll make your life easier. If you need help
@@ -79,9 +79,9 @@ const ServiceHomePage = () => {
                   className="w-[70px] h-[70px] mb-2 scale-100 hover:scale-75 ease-out duration-500"
                 />
               </Bounce>
-              <h1 className="font-subheading text-left text-xl w-1/2">
+              <h2 className="font-subheading text-left text-xl w-1/2">
                 Web Developement
-              </h1>
+              </h2>
               <p className="font-content text-justify text-sm">
                 Website development is the process of creating a new website or
                 updating it to a newer version. Whether you're looking for a new
@@ -100,9 +100,9 @@ const ServiceHomePage = () => {
                   className="w-[70px] h-[70px] mb-2 scale-100 hover:scale-75 ease-out duration-500"
                 />
               </Bounce>
-              <h1 className="font-subheading text-left text-xl w-1/3">
+              <h2 className="font-subheading text-left text-xl w-1/3">
                 Digital Marketing
-              </h1>
+              </h2>
               <p className="font-content text-justify text-sm">
                 As a software development and marketing agency, we know what it
                 takes to get real results online. These include building an
@@ -121,9 +121,9 @@ const ServiceHomePage = () => {
                   className="w-[70px] h-[70px] mb-2 scale-100 hover:scale-75 ease-out duration-500"
                 />
               </Bounce>
-              <h1 className="font-subheading text-left text-xl w-1/2">
+              <h2 className="font-subheading text-left text-xl w-1/2">
                 Staff Augmentation
-              </h1>
+              </h2>
               <p className="font-content text-justify text-sm md:mb-0 mb-16">
                 Since one of the primary elements of staff augmentation is
                 talent, Cerbosys acts as a link to augment the capacity of your
@@ -142,9 +142,9 @@ const ServiceHomePage = () => {
                   className="w-[70px] h-[70px] mb-2 scale-100 hover:scale-75 ease-out duration-500"
                 />
               </Bounce>
-              <h1 className="font-subheading text-left text-xl w-1/2">
+              <h2 className="font-subheading text-left text-xl w-1/2">
                 UI/UX Development
-              </h1>
+              </h2>
               <p className="font-content text-justify text-sm md:mb-0 mb-12">
                 We have a team that is especially concerned about the entire
                 process of product design. Apart from designing and useability,
@@ -163,9 +163,9 @@ const ServiceHomePage = () => {
                   className="w-[70px] h-[70px] mb-2 scale-100 hover:scale-75 ease-out duration-500"
                 />
               </Bounce>
-              <h1 className="font-subheading text-left text-xl w-1/2">
+              <h2 className="font-subheading text-left text-xl w-1/2">
                 Branding And Packaging
-              </h1>
+              </h2>
               <p className="font-content text-justify text-sm">
                 We serve your product from branding to packaging, that is,
                 creating a unique identity of your product by designing the
@@ -184,9 +184,9 @@ const ServiceHomePage = () => {
                   className="w-[70px] h-[70px] mb-2 scale-100 hover:scale-75 ease-out duration-500"
                 />
               </Bounce>
-              <h1 className="font-subheading text-left text-xl w-1/2">
+              <h2 className="font-subheading text-left text-xl w-1/2">
                 Lead Generation
-              </h1>
+              </h2>
               <p className="font-content text-justify text-sm mb-16">
                 Getting high-quality leads and clients through Search Engine
                 Optimization (SEO) and Social Media Marketing (SMM) - Drive

@@ -8,7 +8,7 @@ const ServiceDiagram = () => {
         <div className="max-w-[1240px] mx-auto ">
             <div className="flex flex-col flex-wrap items-center">
             {/* Heading */}
-            <h1 className="font-heading md:text-3xl uppercase text-Primary text-xl">Service</h1>
+            <h2 className="font-heading md:text-3xl uppercase text-Primary text-xl">Service</h2>
             <h2 className="font-subheading md:text-xl text-black text-sm">
                 Using Our Expert Web Development Service
             </h2>

@@ -9,11 +9,11 @@ const AndroidBody = () => {
       <div className=" mx-auto w-full py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
           <div className="flex flex-wrap flex-col">
-            <h1 className="font-heading md:text-6xl text-2xl text-center text-Primary">
+            <h2 className="font-heading md:text-3xl text-2xl text-center text-Primary">
               About Android
-            </h1>
+            </h2>
 
-            <p className="font-subheading md:text-2xl text-sm text-justify md:mt-10">
+            <p className="font-content text-justify md:mt-10">
               Android is a software package and linux based operating system for
               mobile devices such as tablet computers and smartphones.
               <br></br>
@@ -34,10 +34,10 @@ const AndroidBody = () => {
             <img
               src={androidimage}
               alt="Android Image"
-              className="md:mt-16 mt-8 h-[30rem]"
+              className="md:mt-16 mt-8 h-[20rem]"
             />
 
-            <p className="font-subheading md:text-2xl text-sm text-justify md:mt-10">
+            <p className="font-content text-justify md:mt-10">
               If your business project needs a well-skilled android developer
               then, Cerbosys for sure can help you with that. <br></br>There is
               no doubt that Android is one of the most popular mobile operating
@@ -46,10 +46,10 @@ const AndroidBody = () => {
               their Android apps.
             </p>
 
-            <h1 className="font-heading md:text-6xl text-2xl text-center text-Primary mt-10">
+            <h2 className="font-heading md:text-3xl text-2xl text-center text-Primary mt-10">
               Process to Hire Android Developer
-            </h1>
-            <img src={androidprocess} alt="Android Process" className="mt-16" />
+            </h2>
+            <img src={androidprocess} alt="Android Process" className="mt-16 h-[20rem]" />
           </div>
         </div>
       </div>

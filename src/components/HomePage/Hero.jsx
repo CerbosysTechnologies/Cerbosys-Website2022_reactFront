@@ -39,6 +39,7 @@ const Hero = () => {
               <TypeWriter
                 textStyle={{
                   color: "#0F52BA",
+                  // fontSize: "heading",
                   fontSize: "1.5em",
                   textAlign: "center",
                 }}

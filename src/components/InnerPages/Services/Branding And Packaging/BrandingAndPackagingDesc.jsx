@@ -12,10 +12,10 @@ const BrandingAndPackagingDesc = () => {
             <div className="grid md:grid-cols-2">
               {/* Content Section */}
               <div className="mx-auto flex flex-col md:px-24 px-14 text-justify">
-                <h1 className="font-heading md:text-2xl text-lg mb-4">
+                <h2 className="font-heading md:text-2xl text-lg mb-4">
                   {" "}
                   Branding And Packaging{" "}
-                </h1>
+                </h2>
                 <p className="font-content md:text-lg text-sm">
                   Both branding and packaging are important for getting your
                   product noticed and ensuring that it makes a lasting
@@ -59,10 +59,10 @@ const BrandingAndPackagingDesc = () => {
 
               {/* Content Section */}
               <div className="flex flex-col md:px-24 px-14 mx-auto text-justify mt-8">
-                <h1 className="font-heading md:text-2xl text-lg text-white mb-4">
+                <h2 className="font-heading md:text-2xl text-lg text-white mb-4">
                   We are aware of the Technology Pulse that Leads to Better
                   Performance
-                </h1>
+                </h2>
                 <p className="font-content md:text-lg text-sm mb-8 text-white">
                   Our brand and packaging team helps businesses, especially
                   small size businesses to make it stand out from the

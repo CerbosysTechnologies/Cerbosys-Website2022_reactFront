@@ -14,7 +14,7 @@ export const EcommerceBody = () => {
               <img
                 src={ecommercemobicon}
                 alt="Ecommerce Mobile"
-                className="md:h-[40rem]"
+                className="md:h-[30rem]"
               />
             </div>
             {/* Mobile Image */}
@@ -23,15 +23,15 @@ export const EcommerceBody = () => {
 
             {/* Side */}
             <div className="flex flex-wrap flex-col ">
-              <h1 className="text-Green md:text-4xl text-xl mt-4 font-heading text-center mb-6">
+              <h2 className="text-Green md:text-3xl text-xl mt-4 font-heading text-center mb-6">
                 Ecommerce In Business
-              </h1>
+              </h2>
               <img
                 src={ecommercebusinessicon}
                 alt="Ecommerce Business"
                 className="md:h-[20rem]"
               />
-              <p className="font-subheading md:text-xl text-lg md:w-[33rem] mt-6 text-justify">
+              <p className="font-content  md:w-[33rem] mt-6 text-justify">
                 E-commerce is a powerful force in today's economy. It allows
                 buyers to purchase items from the comfort of their own homes,
                 and it allows sellers to reach a global audience. Whether you're
@@ -44,11 +44,11 @@ export const EcommerceBody = () => {
 
           {/* Bullet Section */}
           <div className="flex flex-wrap flex-col mx-auto">
-            <div className="font-heading md:text-4xl text-xl mt-10 text-center">
+            <div className="font-heading md:text-3xl text-xl mt-10 text-center">
               Our Services for the E-commerce Industry
             </div>
 
-            <ul className="text-justify font-content md:text-xl text-sm mt-10 list-disc">
+            <ul className="text-justify font-content  mt-10 list-disc">
               <li>
                 <strong>E-commerce merchandising :-</strong> We offer e-commerce
                 merchandising services through the process of optimizing your

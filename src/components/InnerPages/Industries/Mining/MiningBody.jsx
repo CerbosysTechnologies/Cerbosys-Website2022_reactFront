@@ -15,7 +15,7 @@ const MiningBody = () => {
                 <img
                   src={miningmobicon}
                   alt="Mining Mobile"
-                  className="md:h-[40rem]"
+                  className="md:h-[30rem]"
                 />
               </div>
               {/* Mobile Image */}
@@ -24,15 +24,15 @@ const MiningBody = () => {
 
               {/* Side */}
               <div className="flex flex-wrap flex-col ">
-                <h1 className="text-Green md:text-4xl text-center mb-6 text-xl mt-4 font-heading">
+                <h2 className="text-Green md:text-3xl text-center mb-6 text-xl mt-4 font-heading">
                   About Mining
-                </h1>
+                </h2>
                 <img
                   src={miningbusinessicon}
                   alt="Mining Business"
                   className="md:h-[20rem]"
                 />
-                <p className="font-subheading md:text-xl text-lg md:w-[33rem] mt-6 text-justify">
+                <p className="font-content md:w-[33rem] mt-6 text-justify">
                   Mining is the process of extracting useful minerals and metals
                   from the earth. There are a lot of minerals available in
                   nature, but most of them are not accessible to humans because
@@ -46,11 +46,11 @@ const MiningBody = () => {
 
             {/* Bullet Section */}
             <div className="flex flex-wrap flex-col mx-auto">
-              <div className="font-heading md:text-4xl text-xl mt-10 text-center">
+              <div className="font-heading md:text-3xl text-xl mt-10 text-center">
                 Our Services for the Mining Industry
               </div>
 
-              <ul className="text-justify font-content md:text-xl text-sm mt-10 list-disc">
+              <ul className="text-justify font-content  mt-10 list-disc md:px-0 px-5">
                 <li>
                   <strong>Synchronized Digital Mining Solution :-</strong>
                   The synchronized digital mining solution built by our company

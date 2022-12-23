@@ -44,9 +44,9 @@ const ContactUsBody = () => {
                 <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white md:w-80 w-72 mt-10 md:mx-20 mx-5 h-64">
                   <div className="px-8 py-8 flex flex-wrap">
                     {/* <img src={contacticon} alt="" className="px-5" /> */}
-                    <h1 className="font-heading md:text-xl text-lg mt-1">
+                    <h2 className="font-heading md:text-xl text-lg mt-1">
                       For Business Enquiries
-                    </h1>
+                    </h2>
                     <div className="flex flex-row">
                       <img
                         src={callicon}
@@ -76,9 +76,9 @@ const ContactUsBody = () => {
                 <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white w-80 mt-10 md:mx-20 mx-10 h-48">
                   <div className="px-8 py-8 flex flex-wrap">
                     {/* <img src={contacticon} alt="" className="px-5" /> */}
-                    <h1 className="font-heading md:text-xl text-lg mt-1">
+                    <h2 className="font-heading md:text-xl text-lg mt-1">
                       To Join Our Team
-                    </h1>
+                    </h2>
 
                     <div className="flex flex-row">
                       <img

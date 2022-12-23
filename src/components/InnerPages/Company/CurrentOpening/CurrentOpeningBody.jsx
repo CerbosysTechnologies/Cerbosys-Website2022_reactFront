@@ -159,7 +159,7 @@ const CurrentOpeningBody = () => {
                 );
               })
             ) : (
-              <h1 className="font-heading md:text-2xl text-lg">No Open Positions</h1>
+              <h2 className="font-heading md:text-2xl text-lg">No Open Positions</h2>
             )}
           </div>
           {/* Card Content Section Ends */}
@@ -177,9 +177,9 @@ const CurrentOpeningBody = () => {
               <div>
                 <div className="flex flex-wrap">
                   <img src={tripicon} />
-                  <h1 className="font-heading text-xl p-2">
+                  <h2 className="font-heading text-xl p-2">
                     Healthy Work Environment
-                  </h1>
+                  </h2>
                 </div>
                 <p className="font-content text-lg ml-14 text-justify">
                   Cerbosys constantly strives to provide the best possible
@@ -192,9 +192,9 @@ const CurrentOpeningBody = () => {
               <div>
                 <div className="flex flex-wrap">
                   <img src={tripicon} />
-                  <h1 className="font-heading text-xl p-2 w-96">
+                  <h2 className="font-heading text-xl p-2 w-96">
                     Performance Linked Incentives and Reward Programs
-                  </h1>
+                  </h2>
                 </div>
                 <p className="font-content text-lg ml-14 text-justify">
                   Our PLI and rewards programs help to increase employee
@@ -206,9 +206,9 @@ const CurrentOpeningBody = () => {
               <div>
                 <div className="flex flex-wrap">
                   <img src={tripicon} />
-                  <h1 className="font-heading text-xl p-2 w-96">
+                  <h2 className="font-heading text-xl p-2 w-96">
                     Training and Development Sessions
-                  </h1>
+                  </h2>
                 </div>
                 <p className="font-content text-lg ml-14 text-justify ">
                   Cerbosys conducts an extensive training and development
@@ -220,7 +220,7 @@ const CurrentOpeningBody = () => {
               <div>
                 <div className="flex flex-wrap">
                   <img src={tripicon} />
-                  <h1 className="font-heading text-xl  p-2">Team Activities</h1>
+                  <h2 className="font-heading text-xl  p-2">Team Activities</h2>
                 </div>
                 <p className="font-content text-lg ml-14 text-justify">
                   Cerbosys organizes several team activities like conferencing,
@@ -232,9 +232,9 @@ const CurrentOpeningBody = () => {
               <div>
                 <div className="flex flex-wrap">
                   <img src={tripicon} />
-                  <h1 className="font-heading text-xl p-2">
+                  <h2 className="font-heading text-xl p-2">
                     Maternity and Paternity Leaves
-                  </h1>
+                  </h2>
                 </div>
                 <p className="font-content text-lg ml-14 text-justify">
                   Our company provides maternity and paternity leaves for our
@@ -246,9 +246,9 @@ const CurrentOpeningBody = () => {
               <div>
                 <div className="flex flex-wrap">
                   <img src={tripicon} />
-                  <h1 className="font-heading text-xl p-2">
+                  <h2 className="font-heading text-xl p-2">
                     Work/Life Balance
-                  </h1>
+                  </h2>
                 </div>
                 <p className="font-content text-lg ml-14 text-justify">
                   We manage to create a balance between work and life in the

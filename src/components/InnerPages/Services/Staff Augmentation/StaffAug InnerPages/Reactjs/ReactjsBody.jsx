@@ -9,11 +9,11 @@ const ReactjsBody = () => {
       <div className=" mx-auto w-full py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
           <div className="flex flex-wrap flex-col">
-            <h1 className="font-heading md:text-6xl text-2xl text-center text-Primary">
+            <h2 className="font-heading md:text-3xl text-2xl text-center text-Primary">
               About React.js
-            </h1>
+            </h2>
 
-            <p className="font-subheading md:text-2xl text-sm text-justify md:mt-10">
+            <p className="font-subheading   text-justify md:mt-10">
               React Js is a JavaScript library for building user interfaces. It
               is used for building user interfaces since it is an efficient, and
               flexible JavaScript library. React Js helps you to compose
@@ -23,10 +23,10 @@ const ReactjsBody = () => {
             <img
               src={reactjsimage}
               alt="Reactjs Image"
-              className="md:mt-16 mt-8 h-[30rem]"
+              className="md:mt-16 mt-8 h-[20rem]"
             />
 
-            <p className="font-subheading md:text-2xl text-sm text-justify md:mt-10">
+            <p className="font-subheading  text-justify md:mt-10">
               If you're looking for Angular Developer Services in India, you've
               come to the right place. We're experts in hiring quality Angular
               developers, and we're here to help you with your project.
@@ -38,10 +38,10 @@ const ReactjsBody = () => {
               to find the right person for the job.
             </p>
 
-            <h1 className="font-heading md:text-6xl text-2xl text-center text-Primary mt-10">
+            <h2 className="font-heading md:text-3xl text-2xl text-center text-Primary mt-10">
               Process to Hire React.js Developer
-            </h1>
-            <img src={reactjsprocess} alt="Reactjs Process" className="mt-16" />
+            </h2>
+            <img src={reactjsprocess} alt="Reactjs Process" className="mt-16 h-[20rem] object-fill" />
           </div>
         </div>
       </div>

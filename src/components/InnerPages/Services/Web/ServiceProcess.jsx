@@ -17,9 +17,9 @@ const ServiceProcess = () => {
         <div className="max-w-[1240px] mx-auto ">
           {/* Heading */}
           <div className="flex flex-col flex-wrap items-center">
-            <h1 className="font-heading md:text-3xl uppercase text-Primary text-xl">
+            <h2 className="font-heading md:text-3xl uppercase text-Primary text-xl">
               Process
-            </h1>
+            </h2>
             <h2 className="font-subheading md:text-xl text-black text-sm mb-5">
               Our Web Development Process
             </h2>
@@ -52,9 +52,9 @@ const ServiceProcess = () => {
             </Bounce>
             <Bounce right duration={3000}>
               <div className="mx-auto flex flex-col text-justify">
-                <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+                <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                   Requirement Analysis
-                </h1>
+                </h2>
                 <p className="font-content md:text-lg text-sm col-span-2">
                   In order to create a website that perfectly suits your needs,
                   we first need to understand what those needs are. That's where
@@ -88,9 +88,9 @@ const ServiceProcess = () => {
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <Bounce left duration={3000}>
               <div className="mx-auto flex flex-col text-justify">
-                <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+                <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                   Creating Blueprint
-                </h1>
+                </h2>
                 <p className="font-content md:text-lg text-sm col-span-2">
                   One of the most important steps to do in order to create a
                   successful website is to create a website blueprint. A website
@@ -134,9 +134,9 @@ const ServiceProcess = () => {
             </Bounce>
             <Bounce right duration={3000}>
               <div className="mx-auto flex flex-col text-justify">
-                <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+                <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                   Development
-                </h1>
+                </h2>
                 <p className="font-content md:text-lg text-sm col-span-2">
                   The website development is performed in two steps that are,
                   Front-end development and Back-end development. It is a
@@ -168,9 +168,9 @@ const ServiceProcess = () => {
           <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
             <Bounce left duration={3000}>
               <div className="mx-auto flex flex-col text-justify">
-                <h1 className="font-heading md:text-xl text-sm uppercase mb-4">
+                <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                   TESTING AND LAUNCHING
-                </h1>
+                </h2>
                 <p className="font-content md:text-lg text-sm col-span-2">
                   The final step involved in website development is testing &
                   launching. The web application testing process ensures the

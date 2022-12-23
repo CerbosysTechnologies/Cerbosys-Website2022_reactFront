@@ -12,9 +12,9 @@ const Team = () => {
         <div className="mx-auto w-full md:h-[48rem] bg-TeamCerbosys h-96 py-12 px-4 bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
-            <p className="text-white font-heading py-2 md:text-7xl text-2xl md:mb-48 mb-28">
+            <h1 className="text-white font-heading py-2 md:text-7xl text-2xl md:mb-48 mb-28">
               Meet Our Team
-            </p>
+            </h1>
 
             {/* <p className="text-Primary font-heading py-2 md:text-lg text-xs md:w-[480px] text-justify mt-36">
               We have a team of young, dynamic, well versed and talented

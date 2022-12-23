@@ -14,7 +14,7 @@ const BankingBody = () => {
               <img
                 src={bankingmobicon}
                 alt="Banking Mobile"
-                className="md:h-[40rem]"
+                className="md:h-[30rem]"
               />
             </div>
             {/* Mobile Image */}
@@ -23,15 +23,15 @@ const BankingBody = () => {
 
             {/* Side */}
             <div className="flex flex-wrap flex-col ">
-              <h1 className="text-Green md:text-4xl text-center mb-6 text-xl mt-4 font-heading md:w-96 items-center justify-center mx-10">
+              <h2 className="text-Green md:text-3xl text-center mb-6 text-xl mt-4 font-heading md:w-96 items-center justify-center mx-10">
                 Banking And Finance In Business
-              </h1>
+              </h2>
               <img
                 src={bankingbusinessicon}
                 alt="Banking Business"
                 className="md:h-[20rem]"
               />
-              <p className="font-subheading md:text-xl text-lg md:w-[33rem] mt-6 text-justify">
+              <p className="font-content  md:w-[33rem] mt-6 text-justify">
                 Banking and Finance is the industry that finds people with the
                 skills to create, advance, or manage financial services. It is a
                 very large industry, which includes banks, credit institutions,
@@ -49,7 +49,7 @@ const BankingBody = () => {
               Our Services for the Banking and Finance Industry
             </div>
 
-            <ul className="text-justify font-content md:text-xl text-sm mt-10 list-disc">
+            <ul className="text-justify font-content  mt-10 list-disc md:px-0 px-5">
               <li>
                 <strong>Digital Transformation :-</strong>
                 Our technical services provide improved customer satisfaction,

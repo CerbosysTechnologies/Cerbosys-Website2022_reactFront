@@ -162,9 +162,9 @@ const Footer = () => {
               {/* Fourth Column */}
               {/* Industry Div */}
               <div>
-                <h1 className="font-heading text-white text-sm md:text-lg  mb-3 uppercase">
+                <h6 className="font-heading text-white text-sm md:text-lg  mb-3 uppercase">
                   Industries
-                </h1>
+                </h6>
 
                 <ul className="text-white font-subheading text-xs">
                   <li className="">
@@ -218,7 +218,7 @@ const Footer = () => {
                     className="mr-3"
                   ></img>
                   <span className="font-subheading text-sm text-white">
-                    15-16, Lakshya Vihar,kanadia Road, Indore, M.P.-452016
+                    15, Lakshya Vihar,kanadia Road, Indore, M.P.-452016
                   </span>
                 </div>
 

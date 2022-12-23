@@ -22,9 +22,9 @@ const Recommendations = () => {
         <div className="max-w-[1240px] mx-auto">
           {/* Heading */}
           <div className="justify-center items-center text-center">
-            <h1 className="font-heading text-center md:text-3xl text-lg">
+            <h2 className="font-heading text-center md:text-3xl text-lg">
               Recommendations
-            </h1>
+            </h2>
           </div>
           {/* Heading Ends */}
 
