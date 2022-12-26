@@ -1,59 +1,63 @@
-import { Routes, Switch, Route } from "react-router-dom";
-import Hero from "./components/HomePage/Hero";
-import WebDevelopment from "./components/InnerPages/Services/Web/WebDevelopment";
-import MobileDevelopment from "./components/InnerPages/Services/Mobile/MobileDevelopment";
-import DigitalMarketing from "./components/InnerPages/Services/Digital Marketing/DigitalMarketing";
-import LeadGeneration from "./components/InnerPages/Services/Lead Generation/LeadGeneration";
-import BrandingAndPackaging from "./components/InnerPages/Services/Branding And Packaging/BrandingAndPackaging.jsx";
-import UIAndUX from "./components/InnerPages/Services/UI And UX/UI&UX.jsx";
-import StaffAugmentation from "./components/InnerPages/Services/Staff Augmentation/StaffAugmentation";
-import Team from "./components/InnerPages/Company/Team/Team";
-import Overview from "./components/InnerPages/Company/Overview/Overview";
-import CurrentOpening from "./components/InnerPages/Company/CurrentOpening/CurrentOpening";
-import Diversity from "./components/InnerPages/Company/DiversityCerbosys/Diversity";
+import { Routes, Switch, Route } from 'react-router-dom';
+import Hero from './components/HomePage/Hero';
+import WebDevelopment from './components/InnerPages/Services/Web/WebDevelopment';
+import MobileDevelopment from './components/InnerPages/Services/Mobile/MobileDevelopment';
+import DigitalMarketing from './components/InnerPages/Services/Digital Marketing/DigitalMarketing';
+import LeadGeneration from './components/InnerPages/Services/Lead Generation/LeadGeneration';
+import BrandingAndPackaging from './components/InnerPages/Services/Branding And Packaging/BrandingAndPackaging.jsx';
+import UIAndUX from './components/InnerPages/Services/UI And UX/UI&UX.jsx';
+import StaffAugmentation from './components/InnerPages/Services/Staff Augmentation/StaffAugmentation';
+import Team from './components/InnerPages/Company/Team/Team';
+import Overview from './components/InnerPages/Company/Overview/Overview';
+import CurrentOpening from './components/InnerPages/Company/CurrentOpening/CurrentOpening';
+import Diversity from './components/InnerPages/Company/DiversityCerbosys/Diversity';
 // import Thanku from "./components/Common/Component/Thankumodal";
-import ContactUs from "./components/InnerPages/OtherPages/ContactUs/ContactUs";
-import TrainingAndDevelopment from "./components/InnerPages/Company/TrainingAndDevelopment/TrainingAndDevelopment";
-import LifeCerbosys from "./components/InnerPages/Company/LifeCerbosys/LifeCerbosys";
-import FreeQuote from "./components/Common/Component/FreeQuote";
-import Testimonial from "./components/InnerPages/Company/Testimonial/Testimonial";
-import { ScrollToTop } from "../src/components/Common/Component/ScrollToTop";
-import Agriculture from "./components/InnerPages/Industries/Agriculture/Agriculture";
-import Banking from "./components/InnerPages/Industries/Banking/Banking";
-import Ecommerce from "./components/InnerPages/Industries/Ecommerce/Ecommerce";
-import HealthCare from "./components/InnerPages/Industries/HealthCare/HealthCare";
-import Mining from "./components/InnerPages/Industries/Mining/Mining";
-import Transport from "./components/InnerPages/Industries/Transportation/Transport";
-import Education from "./components/InnerPages/Industries/Education/Education";
-import RealEstate from "./components/InnerPages/Industries/RealEstate/RealEstate";
-import Manufacturing from "./components/InnerPages/Industries/Manufacuring/Manufacturing";
-import DotNet from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/.Net/DotNet";
-import Android from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Android/Android";
-import { handelRightClick } from "../src/components/Common/utils/Desbalrightclick";
-import CaseStudy from "./components/CaseStudy/CaseStudy";
-import Angular from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Angular/Angular";
-import CodeIgniter from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/CodeIgniter/CodeIgniter";
-import Flutter from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Flutter/Flutter";
-import IOS from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/IOS/IOS";
-import Laravel from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Laravel/Laravel";
-import Nodejs from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Nodejs/Nodejs";
-import Reactjs from "./components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Reactjs/Reactjs";
-import { Helmet } from "react-helmet";
-import Termconditions from "./components/term&conditions/Termandconditions.jsx";
-import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy";
-import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Common/Component/Footer";
-import AboutUS from "./components/AboutUs/AboutUS";
-import Blog from "./components/Blogs/Blog";
-import BlogGetoneBlog from "./components/Blogs/BlogGetoneBlog";
-import Solution from "./components/Solution/Solution";
-import SchoolERP from "./components/Solution/School/SchoolERP";
-import ECommerse from "./components/Solution/E-Commerse/E-Commerse";
-import CaseStudyByOne from "./components/CaseStudy/CaseStudyByOne";
-import Search from "./search";
+import ContactUs from './components/InnerPages/OtherPages/ContactUs/ContactUs';
+import TrainingAndDevelopment from './components/InnerPages/Company/TrainingAndDevelopment/TrainingAndDevelopment';
+import LifeCerbosys from './components/InnerPages/Company/LifeCerbosys/LifeCerbosys';
+import FreeQuote from './components/Common/Component/FreeQuote';
+import Testimonial from './components/InnerPages/Company/Testimonial/Testimonial';
+import { ScrollToTop } from '../src/components/Common/Component/ScrollToTop';
+import Agriculture from './components/InnerPages/Industries/Agriculture/Agriculture';
+import Banking from './components/InnerPages/Industries/Banking/Banking';
+import Ecommerce from './components/InnerPages/Industries/Ecommerce/Ecommerce';
+import HealthCare from './components/InnerPages/Industries/HealthCare/HealthCare';
+import Mining from './components/InnerPages/Industries/Mining/Mining';
+import Transport from './components/InnerPages/Industries/Transportation/Transport';
+import Education from './components/InnerPages/Industries/Education/Education';
+import RealEstate from './components/InnerPages/Industries/RealEstate/RealEstate';
+import Manufacturing from './components/InnerPages/Industries/Manufacuring/Manufacturing';
+import DotNet from './components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/.Net/DotNet';
+import Android from './components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Android/Android';
+import { handelRightClick } from '../src/components/Common/utils/Desbalrightclick';
+import CaseStudy from './components/CaseStudy/CaseStudy';
+import Angular from './components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Angular/Angular';
+import CodeIgniter from './components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/CodeIgniter/CodeIgniter';
+import Flutter from './components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Flutter/Flutter';
+import IOS from './components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/IOS/IOS';
+import Laravel from './components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Laravel/Laravel';
+import Nodejs from './components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Nodejs/Nodejs';
+import Reactjs from './components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Reactjs/Reactjs';
+import { Helmet } from 'react-helmet';
+import Termconditions from './components/term&conditions/Termandconditions.jsx';
+import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Common/Component/Footer';
+import AboutUS from './components/AboutUs/AboutUS';
+import Blog from './components/Blogs/Blog';
+import BlogGetoneBlog from './components/Blogs/BlogGetoneBlog';
+import Solution from './components/Solution/Solution';
+import SchoolERP from './components/Solution/School/SchoolERP';
+import ECommerse from './components/Solution/E-Commerse/E-Commerse';
+import CaseStudyByOne from './components/CaseStudy/CaseStudyByOne';
+import Search from './search';
+import { Fragment } from 'react';
+import { useState } from 'react';
 
 function App() {
-  document.addEventListener("contextmenu", handelRightClick);
+ 
+
+  document.addEventListener('contextmenu', handelRightClick);
   return (
     <>
       <Navbar></Navbar>
@@ -94,7 +98,7 @@ function App() {
         {/* Service Navbar End */}
         {/* StaffAugmentation start */}
         <Route path="/staff-augmentation" element={<StaffAugmentation />} />
-        <Route path="/hire-react-js-developer" element={<Reactjs />} />{" "}
+        <Route path="/hire-react-js-developer" element={<Reactjs />} />{' '}
         <Route path="/hire-node-js-developer" element={<Nodejs />} />
         <Route path="/hire-android-developer" element={<Android />} />
         <Route path="/hire-ios-developer" element={<IOS />} />

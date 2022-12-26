@@ -1,25 +1,25 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
 
-import { AiOutlineClose } from "react-icons/ai";
-import { useParams } from "react-router-dom";
-import { saveAs } from "file-saver";
-import { SERVER } from "../../ServerUrls";
-import { IMAGE_SERVER } from "../../ServerUrls";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import { AiOutlineClose } from 'react-icons/ai';
+import { useParams } from 'react-router-dom';
+import { saveAs } from 'file-saver';
+import { SERVER } from '../../ServerUrls';
+import { IMAGE_SERVER } from '../../ServerUrls';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function CaseStudyByOne() {
-  const IMG = IMAGE_SERVER + "/casestudyimage/";
+  const IMG = IMAGE_SERVER + '/casestudyimage/';
   const { id } = useParams();
   console.log(id);
-  const [pdf, setpdf] = useState("");
-  const [CaseStudytitle, setCaseStudytitle] = useState("");
-  const [casestudyDes, setcasestudyDes] = useState("");
-  const [casestudyimage, setcasestudyimage] = useState("");
-  const [email, setEmail] = useState("");
+  const [pdf, setpdf] = useState('');
+  const [CaseStudytitle, setCaseStudytitle] = useState('');
+  const [casestudyDes, setcasestudyDes] = useState('');
+  const [casestudyimage, setcasestudyimage] = useState('');
+  const [email, setEmail] = useState('');
   const modalclose = () => {
-    document.getElementById("Suscreption").style.display = "none";
+    document.getElementById('Suscreption').style.display = 'none';
   };
 
   axios
@@ -27,7 +27,7 @@ function CaseStudyByOne() {
       `https://cerbosys.in:3700/cerbosys/getAllCaseStudyById?casestudy_id=${id}`,
       {
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
       }
     )
@@ -41,28 +41,28 @@ function CaseStudyByOne() {
       setpdf(res?.data?.data[i].casestudy_pdf.substr(22));
     });
   const handleSubmit = (e, id) => {
-    document.getElementById("Suscreption").style.display = "Block";
+    document.getElementById('Suscreption').style.display = 'Block';
     console.log(id);
     e.preventDefault();
     const insertData = {
       subscription_email: email,
     };
-    console.log("befor insertSubscription", insertData);
+    console.log('befor insertSubscription', insertData);
     axios
-      .post(SERVER + "/insertSubscription", insertData, {
+      .post(SERVER + '/insertSubscription', insertData, {
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
       })
       .then((res) => {
-        console.log("Insert insertSubscription Res", res);
+        console.log('Insert insertSubscription Res', res);
         saveFile();
-        document.getElementById("Suscreption").style.display = "none";
-        document.getElementById("ContectThankyou").style.display = "block";
+        document.getElementById('Suscreption').style.display = 'none';
+        document.getElementById('ContectThankyou').style.display = 'block';
       })
       .catch((err) => {
-        console.log("not post", err);
-        toast.error("something wrong");
+        console.log('not post', err);
+        toast.error('something wrong');
         // setTimeout(() => {
         //   window.location.reload();
         // }, 2000);
@@ -86,7 +86,7 @@ function CaseStudyByOne() {
     <div>
       <div className="mx-auto w-full md:h-[38rem]  h-96 py-12 px-4 bg-CaseStudyHeader bg-cover md:bg-top bg-center">
         {/* Content Section */}
-        {casestudyimage}
+
         <div className="flex flex-col justify-center text-center items-center md:h-[35rem] h-96 mx-auto">
           <p className="text-white font-heading py-2 md:text-3xl text-xl mb-10 ">
             {CaseStudytitle}
@@ -154,7 +154,7 @@ function CaseStudyByOne() {
                   className="text-3xl"
                   onClick={() => modalclose()}
                 />
-              </div>{" "}
+              </div>{' '}
             </div>
             <div className="     p-5 md:p5    ">
               <div className="font-heading  md:text-2xl md:font-bold text-xl">
@@ -216,7 +216,7 @@ function CaseStudyByOne() {
                   className="flex flex-col items-center p-4 space-y-2 bg-white rounded-lg  "
                   style={{
                     background:
-                      "linear-gradient(180deg, rgba(156,195,255,1) 30%, rgba(138,255,116,1) 100%)",
+                      'linear-gradient(180deg, rgba(156,195,255,1) 30%, rgba(138,255,116,1) 100%)',
                   }}
                 >
                   <svg
