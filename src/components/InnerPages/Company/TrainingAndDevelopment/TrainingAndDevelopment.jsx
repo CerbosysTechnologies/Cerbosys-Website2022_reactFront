@@ -1,9 +1,9 @@
-import React from "react";
-import { Helmet } from "react-helmet";
-import Footer from "../../../Common/Component/Footer";
-import Navbar from "../../../Navbar/Navbar";
-import TrainingAndDevelopmentBody from "./TrainingAndDevelopmentBody";
-import TrainingAndDevelopmentForm from "./TrainingAndDevelopmentForm";
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import Footer from '../../../Common/Component/Footer';
+import Navbar from '../../../Navbar/Navbar';
+import TrainingAndDevelopmentBody from './TrainingAndDevelopmentBody';
+import TrainingAndDevelopmentForm from './TrainingAndDevelopmentForm';
 
 const TrainingAndDevelopment = () => {
   return (
@@ -11,9 +11,9 @@ const TrainingAndDevelopment = () => {
       <>
         <Helmet>
           <title>
-            {" "}
+            {' '}
             All About Training and Development (Learning and Development) |
-            Cerbosys{" "}
+            Cerbosys{' '}
           </title>
           <meta
             name="description"
@@ -31,7 +31,7 @@ const TrainingAndDevelopment = () => {
 
             <p className="text-white font-heading py-2 md:text-lg text-xs mb-8 md:w-[980px] text-justify md:mt-32 mt-20">
               Cerbosys conducts an extensive training and development program
-              for our new recruits. Under the guidance of experienced employees,
+              for our new recruits.Under the guidance of experienced employees,
               subject matter experts and personality development mentors, we
               improve the employee’s performance.
             </p>

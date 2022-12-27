@@ -1,17 +1,17 @@
-import React from "react";
-import mobileicon from "../../assets/services/mobile_app_development.svg";
-import webdevelopmenticon from "../../assets/services/web_development.svg";
-import staffaugmentationicon from "../../assets/services/staff_augmentation.svg";
-import brandpackingicon from "../../assets/services/branding_packaging.svg";
-import digitalmarketingicon from "../../assets/services/digital_marketing.svg";
-import leadrgenerationicon from "../../assets/services/lead_generation.svg";
-import uxdevelopmenticon from "../../assets/services/ux_development.svg";
-import quoteicon from "../../assets/services/quote.svg";
-import RubberBand from "react-reveal/RubberBand";
-import Slide from "react-reveal/Slide";
-import Bounce from "react-reveal/Bounce";
-import Flip from "react-reveal/Flip";
-import { handelRightClick } from "../../components/Common/utils/Desbalrightclick";
+import React from 'react';
+import mobileicon from '../../assets/services/mobile_app_development.svg';
+import webdevelopmenticon from '../../assets/services/web_development.svg';
+import staffaugmentationicon from '../../assets/services/staff_augmentation.svg';
+import brandpackingicon from '../../assets/services/branding_packaging.svg';
+import digitalmarketingicon from '../../assets/services/digital_marketing.svg';
+import leadrgenerationicon from '../../assets/services/lead_generation.svg';
+import uxdevelopmenticon from '../../assets/services/ux_development.svg';
+import quoteicon from '../../assets/services/quote.svg';
+import RubberBand from 'react-reveal/RubberBand';
+import Slide from 'react-reveal/Slide';
+import Bounce from 'react-reveal/Bounce';
+import Flip from 'react-reveal/Flip';
+import { handelRightClick } from '../../components/Common/utils/Desbalrightclick';
 
 const ServiceHomePage = () => {
   // document.removeEventListener("contextmenu", handelRightClick);
@@ -24,7 +24,7 @@ const ServiceHomePage = () => {
           <h2 className="font-heading text-lg md:text-3xl mt-4">
             <RubberBand duration={3000}>Our Best Services</RubberBand>
           </h2>
-          <h2 className="font-content text-gray-600 text-xs md:text-sm mb-3">
+          <h2 className="font-content text-black font-bold text-xs md:text-sm mb-3">
             <Slide bottom duration={3000}>
               Services offered by us to grow your business
             </Slide>
@@ -46,7 +46,7 @@ const ServiceHomePage = () => {
 
             <div>
               <Bounce left duration={3000}>
-                {" "}
+                {' '}
                 <img
                   alt="Mobile Icon"
                   src={mobileicon}
@@ -72,7 +72,7 @@ const ServiceHomePage = () => {
 
             <div>
               <Bounce top duration={3000}>
-                {" "}
+                {' '}
                 <img
                   alt="Web Icon"
                   src={webdevelopmenticon}
@@ -93,7 +93,7 @@ const ServiceHomePage = () => {
 
             <div>
               <Bounce right duration={3000}>
-                {" "}
+                {' '}
                 <img
                   alt="Digital Marketing Icon"
                   src={digitalmarketingicon}
@@ -114,7 +114,7 @@ const ServiceHomePage = () => {
 
             <div>
               <Bounce left duration={3000}>
-                {" "}
+                {' '}
                 <img
                   alt="Staff Augmentation Icon"
                   src={staffaugmentationicon}
@@ -135,7 +135,7 @@ const ServiceHomePage = () => {
 
             <div>
               <Bounce bottom duration={3000}>
-                {" "}
+                {' '}
                 <img
                   alt="UI/UX Icon"
                   src={uxdevelopmenticon}
@@ -156,7 +156,7 @@ const ServiceHomePage = () => {
 
             <div>
               <Bounce right duration={3000}>
-                {" "}
+                {' '}
                 <img
                   alt="Branding And Packaging Icon"
                   src={brandpackingicon}
@@ -177,7 +177,7 @@ const ServiceHomePage = () => {
 
             <div>
               <Bounce left duration={3000}>
-                {" "}
+                {' '}
                 <img
                   alt="Lead Generation Icon"
                   src={leadrgenerationicon}

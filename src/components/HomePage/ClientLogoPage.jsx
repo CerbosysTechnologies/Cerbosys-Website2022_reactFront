@@ -1,5 +1,5 @@
-import React from "react";
-import ClientLogoSlider from "./ClientLogoSlider";
+import React from 'react';
+import ClientLogoSlider from './ClientLogoSlider';
 
 const ClientLogoPage = () => {
   return (
@@ -10,8 +10,8 @@ const ClientLogoPage = () => {
           <div className="flex flex-col text-justify justify-center md:px-16 px-4">
             <h2 className="text-gray-500 font-heading md:text-xl text-lg uppercase mb-5">
               Our Clients
-            </h2>-
-            <h2 className="font-heading md:text-2xl text-lg text-gray-800 mb-5 w-64">
+            </h2>
+            <h2 className="font-heading md:text-2xl text-lg text-gray-800 mb-5  text-justify">
               Trusted by 150+ clients
             </h2>
             <div className="text-black font-content  md:text-left md:items-center md:w-[500px] md:whitespace-pre-wrap ">
@@ -20,15 +20,15 @@ const ClientLogoPage = () => {
               360 degrees in IT and business service solutions.
               <br></br>
               <br></br>
-              Our team of multi-disciplinary designers and developers is ready to
-              make your vision a reality -- <strong>and we are trusted by over 150
-              clients.</strong>
+              Our team of multi-disciplinary designers and developers is ready
+              to make your vision a reality --{' '}
+              <strong>and we are trusted by over 150 clients.</strong>
               <br></br>
               <br></br>
-              We take pride in our work and we love to show you why we are the{" "}
+              We take pride in our work and we love to show you why we are the{' '}
               <b>
                 <i>#the most trusted choice</i>
-              </b>{" "}
+              </b>
               for small businesses and startups.
             </div>
           </div>

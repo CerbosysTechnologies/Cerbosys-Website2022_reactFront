@@ -1,25 +1,25 @@
-import React from "react";
-import ankiticon from "../../../../assets/innerpage/team/ankitsir.png";
-import vineeticon from "../../../../assets/innerpage/team/vineetsir.png";
-import nidhiicon from "../../../../assets/innerpage/team/nidhimam.png";
-import jyotiicon from "../../../../assets/innerpage/team/jyotimam.png";
-import sadaficon from "../../../../assets/innerpage/team/sadafmam.png";
-import aarificon from "../../../../assets/innerpage/team/arifsir.png";
-import kanchanicon from "../../../../assets/innerpage/team/kanchanmam.png";
-import omicon from "../../../../assets/innerpage/team/omprakashsir.png";
-import laliticon from "../../../../assets/innerpage/team/lalitsir.png";
-import rishabhicon from "../../../../assets/innerpage/team/rishabsir.png";
-import shewtaicon from "../../../../assets/innerpage/team/swetamam.png";
-import shubhamicon from "../../../../assets/innerpage/team/shubhamsir.png";
-import akashicon from "../../../../assets/innerpage/team/aakashsir.png";
-import prasangicon from "../../../../assets/innerpage/team/prasangsir.png";
-import manwomanicon from "../../../../assets/innerpage/team/man_woman.png";
-import rajniicon from "../../../../assets/innerpage/team/rajnimam.png";
-import prashanticon from "../../../../assets/innerpage/team/prasant.png";
-import avtarmanblueicon from "../../../../assets/innerpage/team/avtarmanblue.png";
-import avtarmangreenicon from "../../../../assets/innerpage/team/avtarmangreen.png";
-import avtarwomenblueicon from "../../../../assets/innerpage/team/avtarwomenblue.png";
-import avtarwomengreenicon from "../../../../assets/innerpage/team/avtarwomengreen.png";
+import React from 'react';
+import ankiticon from '../../../../assets/innerpage/team/ankitsir.png';
+import vineeticon from '../../../../assets/innerpage/team/vineetsir.png';
+import nidhiicon from '../../../../assets/innerpage/team/nidhimam.png';
+import jyotiicon from '../../../../assets/innerpage/team/jyotimam.png';
+import sadaficon from '../../../../assets/innerpage/team/sadafmam.png';
+import aarificon from '../../../../assets/innerpage/team/arifsir.png';
+import kanchanicon from '../../../../assets/innerpage/team/kanchanmam.png';
+import omicon from '../../../../assets/innerpage/team/omprakashsir.png';
+import laliticon from '../../../../assets/innerpage/team/lalitsir.png';
+import rishabhicon from '../../../../assets/innerpage/team/rishabsir.png';
+import shewtaicon from '../../../../assets/innerpage/team/swetamam.png';
+import shubhamicon from '../../../../assets/innerpage/team/shubhamsir.png';
+import akashicon from '../../../../assets/innerpage/team/aakashsir.png';
+import prasangicon from '../../../../assets/innerpage/team/prasangsir.png';
+import manwomanicon from '../../../../assets/innerpage/team/man_woman.png';
+import rajniicon from '../../../../assets/innerpage/team/rajnimam.png';
+import prashanticon from '../../../../assets/innerpage/team/prasant.png';
+import avtarmanblueicon from '../../../../assets/innerpage/team/avtarmanblue.png';
+import avtarmangreenicon from '../../../../assets/innerpage/team/avtarmangreen.png';
+import avtarwomenblueicon from '../../../../assets/innerpage/team/avtarwomenblue.png';
+import avtarwomengreenicon from '../../../../assets/innerpage/team/avtarwomengreen.png';
 
 const Teambody = () => {
   return (
@@ -87,7 +87,7 @@ const Teambody = () => {
                 <br></br>Director of Technology
                 <br></br>
                 <i className="text-Primary">
-                  “Let’s innovate, connect and inspire”{" "}
+                  “Let’s innovate, connect and inspire”{' '}
                 </i>
               </p>
             </div>
@@ -144,7 +144,7 @@ const Teambody = () => {
                 <br></br>
                 <i className="text-Primary">
                   “The only natural resource that matters is - the human
-                  resource”{" "}
+                  resource”{' '}
                 </i>
               </p>
             </div>

@@ -1,24 +1,25 @@
-import React from "react";
-import badal from "../../../../assets/innerpage/overview/badal.svg";
-import overviewtrack from "../../../../assets/innerpage/overview/overviewroad.svg";
+import React from 'react';
+import badal from '../../../../assets/innerpage/overview/badal.svg';
+import overviewtrack from '../../../../assets/innerpage/overview/overviewroad.svg';
 
 const OverviewBody = () => {
   return (
     <div>
       <div className="mx-auto w-full py-16 px-2 bg-OverviewBackgroundBody bg-no-repeat bg-center bg-cover">
         <div className="max-w-[1240px] mx-auto ">
-          <p className="font-heading md:text-4xl text-xl text-center mb-20">
+          <p className="font-heading md:text-3xl text-xl text-center mb-20">
             Big Journeys Begin with Small Steps
           </p>
-
-
-         
         </div>
 
         {/* Track */}
-          <div className="">
-            <img src={overviewtrack} alt="Overview Track" className="md:w-10/12 w-11/12" />
-          </div>
+        <div className="">
+          <img
+            src={overviewtrack}
+            alt="Overview Track"
+            className="md:w-10/12 w-11/12"
+          />
+        </div>  
         {/* Track Ends */}
       </div>
     </div>

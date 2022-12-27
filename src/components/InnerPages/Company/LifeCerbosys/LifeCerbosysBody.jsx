@@ -188,7 +188,7 @@ const LifeCerbosysBody = () => {
               employees. They are the heart and soul of our company, and we are
               constantly striving to provide them with the best possible working
               environment.
-            </p>
+            </p>          
           </div>
 
           {/* Image Thought Section */}

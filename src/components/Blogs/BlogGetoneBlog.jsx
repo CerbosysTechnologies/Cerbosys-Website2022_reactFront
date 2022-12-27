@@ -1,24 +1,24 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react';
 
-import { useNavigate, useParams } from "react-router-dom";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
-import SwiperCore, { Autoplay } from "swiper";
-import axios from "axios";
-import parser from "html-react-parser";
+import { useNavigate, useParams } from 'react-router-dom';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper';
+import SwiperCore, { Autoplay } from 'swiper';
+import axios from 'axios';
+import parser from 'html-react-parser';
 function BlogGetoneBlog() {
   //  const history = useHistory();
   const { id } = useParams();
   console.log(id);
-  const [blogid, setBlogid] = useState("");
+  const [blogid, setBlogid] = useState('');
 
-  const [blogtitle, setBlogtitle] = useState("");
-  const [blogmessage, setBlogmessage] = useState("");
-  const [image, setImage] = useState("");
-  const [blogimagesid, setBlogimagesid] = useState("");
+  const [blogtitle, setBlogtitle] = useState('');
+  const [blogmessage, setBlogmessage] = useState('');
+  const [image, setImage] = useState('');
+  const [blogimagesid, setBlogimagesid] = useState('');
   console.log(blogimagesid);
 
-  const [imageshow, setImageshow] = useState("");
+  const [imageshow, setImageshow] = useState('');
   console.log(imageshow);
   const [blogdata, setBlogData] = useState([]);
 
@@ -27,9 +27,9 @@ function BlogGetoneBlog() {
   // get all blog start
   const fetchData = async () => {
     await axios
-      .get("https://cerbosys.in:3700/cerbosys/getAllBlogs", {
+      .get('https://cerbosys.in:3700/cerbosys/getAllBlogs', {
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
       })
       .then((res) => {
@@ -54,7 +54,7 @@ function BlogGetoneBlog() {
     axios
       .get(`https://cerbosys.in:3700/cerbosys/getBlogById?blog_id=${id}`, {
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
       })
       .then((res) => {
@@ -88,7 +88,7 @@ function BlogGetoneBlog() {
       <div className="mx-auto w-full md:h-[38rem]  h-96 py-12 px-4 bg-Blogbg bg-cover md:bg-top bg-center">
         {/* heder Section */}
         <div className="flex flex-col justify-center text-center items-center md:h-[35rem] h-96 mx-auto">
-          <p className="text-white font-heading pl-10 pr-10 md:text-5xl text-xl mb-10 ">
+          <p className="text-white font-heading pl-10 pr-10 md:text-3xl text-xl mb-10 ">
             {blogtitle}
           </p>
         </div>
@@ -102,7 +102,7 @@ function BlogGetoneBlog() {
         <div className="px-5 flex justify-center md:w-[500px ] md:h-[500px]">
           <img src={IMAGE_URL + image} alt="" className="object-contain" />
         </div>
-        <div className="font-content  text-xl text-justify md:py-10 py-5 px-5">
+        <div className="font-content text-black  text-sm text-justify md:py-10 py-5 px-10 leading-5">
           {/* {blogmessage} */}
           {parser(blogmessage)}
         </div>
@@ -177,7 +177,7 @@ function BlogGetoneBlog() {
                               />
                             );
                           } else {
-                            testimg = element.blog_images.split("/");
+                            testimg = element.blog_images.split('/');
                             return (
                               <img
                                 alt=""
