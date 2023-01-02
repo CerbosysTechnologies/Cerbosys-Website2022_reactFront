@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { TbPlayerTrackNext } from "react-icons/tb";
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { TbPlayerTrackNext } from 'react-icons/tb';
 
 const IndustryNavLinks = () => {
-  const [heading, setHeading] = useState("Industries");
-  const [subHeading, setSubHeading] = useState("");
+  const [heading, setHeading] = useState('Industries');
+  const [subHeading, setSubHeading] = useState('');
 
   return (
     <div>
@@ -12,13 +12,13 @@ const IndustryNavLinks = () => {
         <h2
           className="md:py-4 sm:py-3 flex justify-between items-center md:pr-0 pr-5 group md:h-32"
           onClick={() => {
-            heading !== "Industries"
-              ? setHeading("Industries")
-              : setHeading("");
-            setSubHeading("");
+            heading !== 'Industries'
+              ? setHeading('Industries')
+              : setHeading('');
+            setSubHeading('');
           }}
         >
-          {"Industries"}
+          {'Industries'}
         </h2>
 
         <div className="absolute top-32 left-0 right-0 hidden group-hover:md:block hover:md:block ">
@@ -38,7 +38,7 @@ const IndustryNavLinks = () => {
                       </span>
                     </Link>
                   </li>
-                  <li> 
+                  <li>
                     <Link to="/ecommerce-development-services">
                       <span className="flex items-center gap-2 ">
                         <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
@@ -55,9 +55,7 @@ const IndustryNavLinks = () => {
                     </Link>
                   </li>
                   <li>
-                    
                     <Link to="/banking-and-finance">
-                      
                       <span className="flex items-center gap-2 ">
                         <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
                         Banking and Finance
@@ -65,7 +63,6 @@ const IndustryNavLinks = () => {
                     </Link>
                   </li>
                   <li>
-                    
                     <Link to="/mining">
                       <span className="flex items-center gap-2 ">
                         <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
@@ -74,7 +71,6 @@ const IndustryNavLinks = () => {
                     </Link>
                   </li>
                   <li>
-                    
                     <Link to="/transport-and-logistics">
                       <span className="flex items-center gap-2 ">
                         <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
@@ -83,7 +79,6 @@ const IndustryNavLinks = () => {
                     </Link>
                   </li>
                   <li>
-                    
                     <Link to="/education">
                       <span className="flex items-center gap-2 ">
                         <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
@@ -92,7 +87,6 @@ const IndustryNavLinks = () => {
                     </Link>
                   </li>
                   <li>
-                    
                     <Link to="/real-estate">
                       <span className="flex items-center gap-2 ">
                         <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
@@ -101,9 +95,7 @@ const IndustryNavLinks = () => {
                     </Link>
                   </li>
                   <li>
-                    
                     <Link to="/manufacturing">
-                      
                       <span className="flex items-center gap-2 ">
                         <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
                         Manufacturing
@@ -120,8 +112,8 @@ const IndustryNavLinks = () => {
               <div className="">
                 <div className="font-subheading text-lg m-6 normal-case hover:uppercase">
                   Call us at
-                  <p>0731-499-3-444</p>
-                  <p>+91 88-3969-7183</p>
+                  <p>+91 9826906988</p>
+                      <p>+91 8839697183</p>
                 </div>
 
                 <div className="font-subheading text-lg m-6  normal-case">
@@ -155,48 +147,39 @@ const IndustryNavLinks = () => {
       {/* Web Menu Ends */}
 
       {/* Mobile Menu Starts */}
-      <div className={` ${heading === "Industries" ? "hidden" : "md:hidden"}`}>
+      <div className={` ${heading === 'Industries' ? 'hidden' : 'md:hidden'}`}>
         <div className="flex flex-wrap flex-col m-2">
           <div className="mt-[-10px] ">
             <ul className="text-sm font-subheading list-inside list-disc">
               <li>
-                
                 <Link to="/agriculture">Agriculture</Link>
               </li>
               <li>
-                
                 <Link to="/ecommerce-development-services">
                   Ecommerce and Retail
                 </Link>
               </li>
               <li>
-                
                 <Link to="/health-care">Healthcare and Life Science</Link>
               </li>
               <li>
-                
                 <Link to="/banking-and-finance">Banking and Finance</Link>
               </li>
               <li>
-                
                 <Link to="/mining">Mining</Link>
               </li>
               <li>
-                
                 <Link to="/transport-and-logistics">
                   Transport and Logistics
                 </Link>
               </li>
               <li>
-                
                 <Link to="/education">Education</Link>
               </li>
               <li>
-                
                 <Link to="/real-estate">Real Estate and Construction</Link>
               </li>
               <li>
-                
                 <Link to="/manufacturing">Manufacturing</Link>
               </li>
             </ul>

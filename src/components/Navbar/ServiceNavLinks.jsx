@@ -215,8 +215,9 @@ const NavLinks = () => {
                   <div className="mx-3">
                     <div className="font-subheading text-lg mt-8  normal-case hover:uppercase">
                       Call us at
-                      <p>0731-4993-444</p>
-                      <p>+91 88-3969-7183</p>
+                      <p>+91 9826906988</p>
+                      <p>+91 8839697183</p>
+                     
                     </div>
 
                     <div className="font-subheading text-lg mt-8 normal-case ">

@@ -1,9 +1,9 @@
-import React from "react";
-import Contact from "../../../Common/Component/Contact";
-import contacticon from "../../../../assets/contactus/icon_contact.svg";
-import logo from '../../../../assets/footer/Logo_in_footer.svg'
-import callicon from "../../../../assets/footer/call_icon.svg";
-import emailicon from "../../../../assets/footer/email_icon.svg";
+import React from 'react';
+import Contact from '../../../Common/Component/Contact';
+import contacticon from '../../../../assets/contactus/icon_contact.svg';
+import logo from '../../../../assets/footer/Logo_in_footer.svg';
+import callicon from '../../../../assets/footer/call_icon.svg';
+import emailicon from '../../../../assets/footer/email_icon.svg';
 
 const ContactUsBody = () => {
   return (
@@ -54,12 +54,12 @@ const ContactUsBody = () => {
                         className="mr-3 md:w-10 md:h-10 mt-4"
                       ></img>
                       <span className="font-subheading md:text-lg text-sm text-black mt-5">
-                        0731-499-34-44<br></br>
-                        999-999-2892<br></br> 883-969-7183
+                        +91 9826906988<br></br>
+                        +91 8839697183
                       </span>
-                      </div>
+                    </div>
 
-                      <div className="flex flex-row mb-4">
+                    <div className="flex flex-row mb-4">
                       <img
                         src={emailicon}
                         alt="Email Icon"
@@ -67,13 +67,12 @@ const ContactUsBody = () => {
                       ></img>
                       <span className="font-subheading md:text-lg text-sm text-black mt-5">
                         info@cerbosys.com
-                      </span>           
+                      </span>
                     </div>
-
                   </div>
                 </div>
 
-                <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white w-80 mt-10 md:mx-20 mx-10 h-48">
+                <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white w-80 mt-10 md:mx-20 mx-10 h-52">
                   <div className="px-8 py-8 flex flex-wrap">
                     {/* <img src={contacticon} alt="" className="px-5" /> */}
                     <h2 className="font-heading md:text-xl text-lg mt-1">
@@ -87,9 +86,9 @@ const ContactUsBody = () => {
                         className="mr-3 md:w-10 md:h-10 mt-4"
                       ></img>
                       <span className="font-subheading md:text-lg text-sm text-black mt-5">
-                        0731-499-34-44                        
+                        +91 8817922577 <br /> 0731-499-34-44
                       </span>
-                      </div>
+                    </div>
                     <div className="flex flex-row">
                       <img
                         src={emailicon}
@@ -98,7 +97,7 @@ const ContactUsBody = () => {
                       ></img>
                       <span className="font-subheading md:text-lg text-sm text-black mt-5">
                         career@cerbosys.com
-                      </span>           
+                      </span>
                     </div>
                   </div>
                 </div>

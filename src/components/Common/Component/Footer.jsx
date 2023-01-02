@@ -84,7 +84,6 @@ const Footer = () => {
               <div className="">
                 <h6 className="font-heading text-sm md:text-lg text-white uppercase mb-3 md:px-0 ">
                   Explore
-                
                 </h6>
                 <ul className="text-white font-subheading text-xs ">
                   <li className="">
@@ -231,7 +230,7 @@ const Footer = () => {
                 <div className="flex flex-row mb-5">
                   <img src={callicon} alt="Call Icon" className="mr-3"></img>
                   <span className="font-subheading text-sm text-white">
-                    0731-499-3-444
+                    +91 9826906988
                   </span>
                 </div>
 
@@ -242,7 +241,7 @@ const Footer = () => {
                     className="mr-3"
                   ></img>
                   <span className="font-subheading text-sm text-white">
-                    999-999-2892, &nbsp;88-3969-7183
+                    +91 9826906988, &nbsp;88-3969-7183
                   </span>
                 </div>
 

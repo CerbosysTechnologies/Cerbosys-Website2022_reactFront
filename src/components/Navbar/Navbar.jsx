@@ -1,19 +1,16 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import cerbosyswhite from "../../assets/cerbosysNewSvgWhite.svg";
-import cerbosysblack from "../../assets/cerbosysNewSvg.svg";
-import callicon from "../../assets/call_icon.svg";
-import NavLinks from "./ServiceNavLinks";
-import IndustryNavLinks from "./IndustryNavLinks";
-import CompanyNavLinks from "./CompanyNavLinks";
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import cerbosyswhite from '../../assets/cerbosysNewSvgWhite.svg';
+import cerbosysblack from '../../assets/cerbosysNewSvg.svg';
+import callicon from '../../assets/call_icon.svg';
+import NavLinks from './ServiceNavLinks';
+import IndustryNavLinks from './IndustryNavLinks';
+import CompanyNavLinks from './CompanyNavLinks';
 
-import MovingComponent from "react-moving-text";
+import MovingComponent from 'react-moving-text';
 
 const Navbar = () => {
-
-
-
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState('');
   console.log(search);
   // -------start ----
   // const AnimationsForChaining = ["fold"];
@@ -30,8 +27,8 @@ const Navbar = () => {
   const [headerVisible, setheaderVisible] = useState(false);
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      window.addEventListener("scroll", () =>
+    if (typeof window !== 'undefined') {
+      window.addEventListener('scroll', () =>
         setheaderVisible(window.pageYOffset > 100)
       );
     }
@@ -42,8 +39,8 @@ const Navbar = () => {
       <nav
         className={
           !headerVisible
-            ? "z-[999] bg-transparent fixed m-auto w-full"
-            : "z-[999] bg-white fixed m-auto w-full"
+            ? 'z-[999] bg-transparent fixed m-auto w-full'
+            : 'z-[999] bg-white fixed m-auto w-full'
         }
       >
         <div className="flex items-center font-heading justify-around">
@@ -60,11 +57,11 @@ const Navbar = () => {
             {/* Test Code */}
             <div
               className={`text-5xl md:hidden m-5 ${
-                !headerVisible ? "text-white" : "text-black"
+                !headerVisible ? 'text-white' : 'text-black'
               }`}
               onClick={() => setOpen(!open)}
             >
-              <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
+              <ion-icon name={`${open ? 'close' : 'menu'}`}></ion-icon>
             </div>
           </div>
 
@@ -72,7 +69,7 @@ const Navbar = () => {
 
           <ul
             className={`md:flex hidden uppercase items-center gap-1 font-heading  md:text-[11px] xl:text-sm lg:text-text-[11px]
-       md:text-white  ${!headerVisible ? "" : "md:text-black"}
+       md:text-white  ${!headerVisible ? '' : 'md:text-black'}
         `}
           >
             {/* <li>
@@ -115,7 +112,7 @@ const Navbar = () => {
                 Contact Us
               </Link>
             </li>
-            
+
             {/* <li>
            <input
         type="text"
@@ -136,9 +133,9 @@ const Navbar = () => {
             />
             <span
               className={`text-sm font-heading mt-1 
-          ${!headerVisible ? "text-white" : "text-black"}`}
+          ${!headerVisible ? 'text-white' : 'text-black'}`}
             >
-              0731-499-3-444
+              +91 9826906988
             </span>
           </div>
 
@@ -148,7 +145,7 @@ const Navbar = () => {
           <ul
             className={`bg-Primary
         md:hidden fixed w-full top-[95px] overflow-y-auto bottom-0 py-1 pl-4 text-white font-heading
-        duration-500 ${open ? "left-0" : "left-[-100%]"}
+        duration-500 ${open ? 'left-0' : 'left-[-100%]'}
         `}
           >
             <li className="py-2 px-2 inline-block">
@@ -193,8 +190,6 @@ const Navbar = () => {
           </ul>
         </div>
       </nav>
-    
-    
     </>
   );
 };

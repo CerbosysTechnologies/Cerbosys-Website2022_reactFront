@@ -1,14 +1,12 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 
-
-
-import { SERVER } from "../../ServerUrls";
-import { useNavigate } from "react-router-dom";
+import { SERVER } from '../../ServerUrls';
+import { useNavigate } from 'react-router-dom';
 
 function Blogsbody() {
   const IMAGE_URL = `https://cerbosys.in:3700/blog/`;
-  const [allBlogas, setAllBlogas] = useState("");
+  const [allBlogas, setAllBlogas] = useState('');
   const [blogdata, setBlogData] = useState([]);
   // const [blogdata, setBlogData] = useState([]);
   // const [blogImg, setBlogImg] = useState([]);
@@ -17,9 +15,9 @@ function Blogsbody() {
 
   const fetchData = async () => {
     await axios
-      .get("https://cerbosys.in:3700/cerbosys/getAllBlogs", {
+      .get('https://cerbosys.in:3700/cerbosys/getAllBlogs', {
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
       })
       .then((res) => {
@@ -108,7 +106,7 @@ function Blogsbody() {
                           />
                         );
                       } else {
-                        testimg = element.blog_images.split("/");
+                        testimg = element.blog_images.split('/');
                         return (
                           <img
                             alt=""
@@ -127,7 +125,6 @@ function Blogsbody() {
                     </span>
 
                     <div class="font-heading text-xl mb-2">
-                      {" "}
                       {item.blog_title}
                     </div>
                     {/* <div class="font-heading text-xl mb-2"> {item.blog_message}</div> */}
@@ -136,7 +133,7 @@ function Blogsbody() {
               </div>
             ))
           ) : (
-            <p>no data</p>
+            <h2 className="font-heading md:text-2xl text-lg">No Blogs</h2>
           )}
         </div>
       </div>

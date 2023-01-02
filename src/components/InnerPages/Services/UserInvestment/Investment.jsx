@@ -49,6 +49,7 @@ function Investment() {
       investment_amount: Amount,
       contact_number: contactNumber,
       email: email,
+      investment_status: 'Open',
     };
     console.log(insertData);
     axios
