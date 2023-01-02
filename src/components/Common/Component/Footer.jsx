@@ -1,21 +1,21 @@
-import React, { useState } from "react";
-import callicon from "../../../assets/footer/FooterWhatsp.svg";
-import emailicon from "../../../assets/footer//FooterEmail.svg";
-import fbcon from "../../../assets/footer/facebook.svg";
-import instagramicon from "../../../assets/footer/Instagram.svg";
-import linkedinicon from "../../../assets/footer/Linkdin_footer.svg";
-import locationicon from "../../../assets/footer/FooterLoction.svg";
-import twittericon from "../../../assets/footer/Twittter.svg";
-import whatsappicon from "../../../assets/footer/FoterColl.svg";
-import youtubeicon from "../../../assets/footer/youtube.svg";
-import footerlogo from "../../../assets/footer/FooterLogosCer.svg";
-import right from "../../../assets/footer/right.svg";
-import left from "../../../assets/footer/left.svg";
-import { Link } from "react-router-dom";
-import MovingComponent from "react-moving-text";
+import React, { useState } from 'react';
+import callicon from '../../../assets/footer/FooterWhatsp.svg';
+import emailicon from '../../../assets/footer//FooterEmail.svg';
+import fbcon from '../../../assets/footer/facebook.svg';
+import instagramicon from '../../../assets/footer/Instagram.svg';
+import linkedinicon from '../../../assets/footer/Linkdin_footer.svg';
+import locationicon from '../../../assets/footer/FooterLoction.svg';
+import twittericon from '../../../assets/footer/Twittter.svg';
+import whatsappicon from '../../../assets/footer/FoterColl.svg';
+import youtubeicon from '../../../assets/footer/youtube.svg';
+import footerlogo from '../../../assets/footer/FooterLogosCer.svg';
+import right from '../../../assets/footer/right.svg';
+import left from '../../../assets/footer/left.svg';
+import { Link } from 'react-router-dom';
+import MovingComponent from 'react-moving-text';
 const Footer = () => {
   // animation start
-  const AnimationsForChaining = ["unfold"];
+  const AnimationsForChaining = ['unfold'];
   const [animationIndex, setAnimationIndex] = useState(0);
   const [animationType, setAnimationType] = useState(AnimationsForChaining[0]);
 
@@ -69,7 +69,7 @@ const Footer = () => {
                   "Enabling Business Make Business"
                 </MovingComponent>
                 {/* " Enabling Business Make Business " */}
-              </div>{" "}
+              </div>{' '}
               <div className="flex">
                 <img
                   src={footerlogo}
@@ -84,6 +84,7 @@ const Footer = () => {
               <div className="">
                 <h6 className="font-heading text-sm md:text-lg text-white uppercase mb-3 md:px-0 ">
                   Explore
+                
                 </h6>
                 <ul className="text-white font-subheading text-xs ">
                   <li className="">
@@ -103,7 +104,7 @@ const Footer = () => {
                     <Link to="/contact-us">Contact Us</Link>
                   </li>
                   <li className="">
-                    <Link to="/case-study">Case Study</Link>
+                    <Link to="/whitepapers">whitepapers</Link>
                   </li>
                   <li className="">
                     <Link to="/blog">Blogs</Link>
@@ -133,6 +134,12 @@ const Footer = () => {
                     <Link to="/web-development">Web Development</Link>
                   </li>
                   <li className="">
+                    <Link to="/software-development">
+                      {' '}
+                      Software Development
+                    </Link>
+                  </li>
+                  <li className="">
                     <Link to="/StaffAugmentation">Staff Augmentation</Link>
                   </li>
                   <li className="">
@@ -152,7 +159,6 @@ const Footer = () => {
                   <li className="">
                     <Link to="/lead-generation">Lead Generation</Link>
                   </li>
-                  <br></br>
                   <br></br>
                   <br></br>
                 </ul>

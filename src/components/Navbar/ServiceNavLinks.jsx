@@ -1,24 +1,24 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { TbPlayerTrackNext } from "react-icons/tb";
-import { AiFillCaretRight } from "react-icons/ai";
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { TbPlayerTrackNext } from 'react-icons/tb';
+import { AiFillCaretRight } from 'react-icons/ai';
 
 const NavLinks = () => {
-  const [heading, setHeading] = useState("Services");
-  const [subHeading, setSubHeading] = useState("");
+  const [heading, setHeading] = useState('Services');
+  const [subHeading, setSubHeading] = useState('');
 
   const slinks = [
     {
-      Head: "Web Developemnt",
+      Head: 'Web Developemnt',
     },
     {
-      Head: "Mobile Development",
+      Head: 'Mobile Development',
     },
     {
-      Head: "UI/UX Development",
+      Head: 'UI/UX Development',
     },
     {
-      Head: "Digital Marketing",
+      Head: 'Digital Marketing',
     },
   ];
 
@@ -29,11 +29,11 @@ const NavLinks = () => {
           <h2
             className="md:py-4 sm:py-3 flex justify-between items-center md:pr-0 pr-5 group md:h-32"
             onClick={() => {
-              heading !== "Services" ? setHeading("Services") : setHeading("");
-              setSubHeading("");
+              heading !== 'Services' ? setHeading('Services') : setHeading('');
+              setSubHeading('');
             }}
           >
-            {"Services"}
+            {'Services'}
             {/* <span className="text-xl md:hidden inline">
               <ion-icon
                 name={`${heading === "Services" ? "toggle-up" : "toggle-down"}`}
@@ -51,10 +51,19 @@ const NavLinks = () => {
                   <div className="mt-4">
                     <h2 className="font-subheading md:text-sm text-xs">
                       <Link to="/web-development">
-                        
                         <span className="flex items-center gap-2 ">
                           <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
                           Web Development
+                        </span>
+                      </Link>
+                    </h2>
+                  </div>
+                  <div className="mt-4">
+                    <h2 className="font-subheading md:text-sm text-xs">
+                      <Link to="/software-development">
+                        <span className="flex items-center gap-2 ">
+                          <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
+                          Software Development
                         </span>
                       </Link>
                     </h2>
@@ -63,7 +72,6 @@ const NavLinks = () => {
                   <div className="mt-5">
                     <h2 className="font-subheading md:text-sm text-xs">
                       <Link to="/digital-marketing">
-                        
                         <span className="flex items-center gap-2 ">
                           <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
                           Digital Marketing
@@ -247,7 +255,7 @@ const NavLinks = () => {
         {/* Mobile menus */}
         <div
           className={`
-              ${heading === "Services" ? "hidden" : "md:hidden"}
+              ${heading === 'Services' ? 'hidden' : 'md:hidden'}
             `}
         >
           {/* sublinks */}
@@ -258,7 +266,7 @@ const NavLinks = () => {
                 onClick={() =>
                   subHeading !== slinks.Head
                     ? setSubHeading(slinks.Head)
-                    : setSubHeading("")
+                    : setSubHeading('')
                 }
                 className="py-2 pl-2 font-heading md:pr-0 pr-5 flex justify-between items-center text-white "
               >
@@ -266,6 +274,13 @@ const NavLinks = () => {
                   <div className="mt-[5px] ">
                     <h2 className="font-heading text-sm">
                       <Link to="/web-development">Web Development</Link>
+                    </h2>
+                  </div>
+                  <div className="mt-[5px] ">
+                    <h2 className="font-heading text-sm">
+                      <Link to="/software-development">
+                        Software Development
+                      </Link>
                     </h2>
                   </div>
                   <div className="mt-[5px] ">
@@ -299,7 +314,6 @@ const NavLinks = () => {
 
                   <div className="mt-[5px]">
                     <Link to="/staff-augmentation">
-                      
                       <h2 className="font-heading text-sm">
                         Staff Augmentation
                       </h2>
@@ -356,7 +370,7 @@ const NavLinks = () => {
               </h2>
               <div
                 className={`${
-                  subHeading === slinks.Head ? "md:hidden" : "hidden"
+                  subHeading === slinks.Head ? 'md:hidden' : 'hidden'
                 }`}
               ></div>
             </div>

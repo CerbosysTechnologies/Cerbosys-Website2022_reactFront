@@ -62,7 +62,6 @@ const Contact = () => {
       setErrorsName(false);
     }
   };
-
   const onchangeContact = (e) => {
     // console.log("onchangeContact");
     const contactNumber = e.target.value.replace(/([^0-9])+/i, "");

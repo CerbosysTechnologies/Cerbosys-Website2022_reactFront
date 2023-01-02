@@ -1,8 +1,8 @@
-import React from "react";
-import webserviceicon from "../../../../assets/innerpage/webdevelopment/web_development_services_image.png";
-import webserviceclip_articon from "../../../../assets/innerpage/webdevelopment/illustrator.svg";
-import technologyicon from "../../../../assets/innerpage/webdevelopment/technologies_icons.svg";
-import Bounce from "react-reveal/Bounce";
+import React from 'react';
+import webserviceicon from '../../../../assets/innerpage/webdevelopment/web_development_services_image.png';
+import webserviceclip_articon from '../../../../assets/innerpage/webdevelopment/illustrator.svg';
+import technologyicon from '../../../../assets/innerpage/webdevelopment/technologies_icons.svg';
+import Bounce from 'react-reveal/Bounce';
 
 const ServiceDesc = () => {
   return (
@@ -22,10 +22,11 @@ const ServiceDesc = () => {
                 <p className="font-content md:text-lg text-sm">
                   Web development is the process of designing and coding a
                   website, web applications, or other computer programs that are
-                  accessible on the internet. Web development is a very specific
-                  set of skills that includes creating the front-end build,
-                  website architecture, and functionality within HTML, CSS,
-                  JavaScript, and various other bits of code.
+                  accessible on the internet. Website design & development
+                  services are a very specific set of skills that includes
+                  creating the front-end build, website architecture, and
+                  functionality within HTML, CSS, JavaScript, and various other
+                  bits of code.
                 </p>
               </div>
 
@@ -41,7 +42,7 @@ const ServiceDesc = () => {
               />
 
               {/* Image Section Ends*/}
-            </div>{" "}
+            </div>{' '}
           </Bounce>
           {/* Grid Div */}
           {/* First Section Ends */}
@@ -64,16 +65,17 @@ const ServiceDesc = () => {
               {/* <Bounce right duration={3000}> */}
               <div className="flex flex-col md:px-24 px-14 mx-auto text-justify mt-8">
                 <h2 className="font-heading md:text-2xl text-lg text-white mb-5">
-                  {" "}
-                  Web Development Services{" "}
+                  Web Development Services
                 </h2>
                 <p className="font-content md:text-lg text-sm mb-8 text-white">
                   The core function of a website development service is to help
                   a business to excel in its online presence. As a professional
-                  web development company, we develop a website keeping in mind
-                  that it creates a great web user experience. The three major
-                  web services involve Front-end web development, Back-end web
-                  development & Full-stack web development.
+                  web development company in India, we develop a website keeping
+                  in mind that it creates a great web user experience. The three
+                  major web services involve Front-end web development, Back-end
+                  web development & Full-stack web development. Our major
+                  services include ecommerce website development, cms website
+                  development services in Indore & many more.
                 </p>
               </div>
               {/* </Bounce> */}

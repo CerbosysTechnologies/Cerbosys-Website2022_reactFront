@@ -1,37 +1,36 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
-import tripicon from "../../../../assets/innerpage/currentopening/trip.svg";
-import { SERVER } from "../../../../ServerUrls";
-import exp from "../../../../assets/Careerpage/ic_work_24px.svg";
-import Rupees from "../../../../assets/Careerpage/Rupees.svg";
-import hands from "../../../../assets/Careerpage/hands.svg";
-import place from "../../../../assets/Careerpage/ic_place_24px.svg";
-import description from "../../../../assets/Careerpage/ic_description_24px.svg";
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
+import tripicon from '../../../../assets/innerpage/currentopening/trip.svg';
+import { SERVER } from '../../../../ServerUrls';
+import exp from '../../../../assets/Careerpage/ic_work_24px.svg';
+import Rupees from '../../../../assets/Careerpage/Rupees.svg';
+import hands from '../../../../assets/Careerpage/hands.svg';
+import place from '../../../../assets/Careerpage/ic_place_24px.svg';
+import description from '../../../../assets/Careerpage/ic_description_24px.svg';
 
-
-
-import ApplyForjob from "./ApplyForjob";
+import ApplyForjob from './ApplyForjob';
+import { Navigate, useNavigate } from 'react-router-dom';
 
 const CurrentOpeningBody = () => {
-  const ModalPotion = () => {
-    document.getElementById("ModalPotion").style.display = "block";
-  };
+  let navigate = useNavigate();
+  // const ModalPotion = () => {
+  //   document.getElementById('ModalPotion').style.display = 'block';
+  // };
 
-
-  const IMG = "https://cerbosys.in:3700/job_post/";
+  const IMG = 'https://cerbosys.in:3700/job_post/';
   const [Job, setJob] = useState([]);
 
   const getData = () => {
     // this is for getAllJobPost for career page
 
     axios
-      .get(SERVER + "/getAllJobPost", {
+      .get(SERVER + '/getAllJobPost', {
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
       })
       .then((res, i) => {
-        console.log("getAllJobPost", res.data.data);
+        console.log('getAllJobPost', res.data.data);
         setJob(res.data.data);
       });
   };
@@ -39,8 +38,11 @@ const CurrentOpeningBody = () => {
     getData();
   }, []);
 
-  
-
+  const CurrentOpningGetbyOne = (id) => {
+    let path = `/current-opening/${id}`;
+    // let path = `/${casestudy_title}/${id}`;
+    navigate(path);
+  };
   return (
     <div>
       <div className="mx-auto w-full py-16 px-2">
@@ -55,19 +57,19 @@ const CurrentOpeningBody = () => {
             {Job ? (
               Job.map((item, index) => {
                 return (
-                  <div className="mx-2 mt-5">
-                    <a
-                      className="block p-6 max-w-sm  bg-white border border-gray-200 shadow-md
-               "
-                    >
+                  <div
+                    className="mx-2 mt-5"
+                    onClick={() => CurrentOpningGetbyOne(item.jobpost_id)}
+                  >
+                    <a className="block p-6 max-w-sm  bg-white border border-gray-200 shadow-md">
                       <h5
-                        className="mb-2 text-2xl font-heading tracking-tight text-gray-500
+                        className="mb-2 text-2xl font-heading tracking-tight text-black
               uppercase text-center"
                         key={index}
                       >
                         {item.jobposition}
                       </h5>
-                      <p className="font-content text-gray-700 text-justify mt-5 mb-10">
+                      <p className="font-content text-black text-justify mt-5 mb-10">
                         {/* images */}
                         <div>
                           <img
@@ -78,7 +80,7 @@ const CurrentOpeningBody = () => {
                         </div>
 
                         {/* Content */}
-                        <div className="  ">
+                        <div className=" my-5 justify-center items-center ">
                           <div className="flex gap-3.5">
                             <div className=" md:mt-1">
                               <img
@@ -101,7 +103,7 @@ const CurrentOpeningBody = () => {
                               />
                             </div>
                             <div className=" uppercase font-bold ">
-                              Salary {item.salaryscale} /Year
+                              Salary {item.salaryscale} /Month
                             </div>
                           </div>
                           <div className="flex gap-2.5">
@@ -128,7 +130,7 @@ const CurrentOpeningBody = () => {
                               {item.joblocation}
                             </div>
                           </div>
-                          <div className="flex gap-3.5">
+                          {/* <div className="flex gap-3.5">
                             <div className="md:mt-1 ">
                               <img
                                 className="card-icon h-5 w-5"
@@ -139,7 +141,7 @@ const CurrentOpeningBody = () => {
                             <div className=" uppercase font-bold">
                               {item.jobdescription}
                             </div>
-                          </div>
+                          </div> */}
                         </div>
                       </p>
 
@@ -147,11 +149,11 @@ const CurrentOpeningBody = () => {
                         <button
                           className="py-2 px-4 text-sm font-heading 
               text-center text-Primary rounded-3xl border border-Primary "
-                          onClick={() => {
-                            ModalPotion();
-                          }}
+                          // onClick={() => {
+                          //   ModalPotion();
+                          // }}
                         >
-                          APPLY NOW
+                          More
                         </button>
                       </div>
                     </a>
@@ -159,7 +161,9 @@ const CurrentOpeningBody = () => {
                 );
               })
             ) : (
-              <h2 className="font-heading md:text-2xl text-lg">No Open Positions</h2>
+              <h2 className="font-heading md:text-2xl text-lg">
+                No Open Positions
+              </h2>
             )}
           </div>
           {/* Card Content Section Ends */}
@@ -261,8 +265,7 @@ const CurrentOpeningBody = () => {
           {/* Perks Section Ends*/}
         </div>
       </div>
-      <ApplyForjob/> 
-      
+      <ApplyForjob />
     </div>
   );
 };

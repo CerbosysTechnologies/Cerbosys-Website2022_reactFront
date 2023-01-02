@@ -53,10 +53,10 @@ import CaseStudyByOne from './components/CaseStudy/CaseStudyByOne';
 import Search from './search';
 import { Fragment } from 'react';
 import { useState } from 'react';
+import Softwaredevelopment from './components/InnerPages/Services/SoftwareDevelopment/Softwaredevelopment';
+import CurrentOpningGetbyOne from './components/InnerPages/Company/CurrentOpening/CurrentOpningGetbyOne';
 
 function App() {
- 
-
   document.addEventListener('contextmenu', handelRightClick);
   return (
     <>
@@ -87,6 +87,7 @@ function App() {
         {/* Company Navbar End */}
         {/* Service Navbar Start */}
         <Route path="/web-development" element={<WebDevelopment />} />
+        <Route path="/software-development" element={<Softwaredevelopment />} />
         <Route path="/digital-marketing" element={<DigitalMarketing />} />
         <Route path="/lead-generation" element={<LeadGeneration />} />
         <Route
@@ -112,6 +113,10 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         {/* contact-us End */}
         <Route path="/current-opening" element={<CurrentOpening />} />
+        <Route
+          path="/current-opening/:id"
+          element={<CurrentOpningGetbyOne />}
+        />
         <Route path="/blog" element={<Blog />} />
         <Route path="/singleBlogshow/:id" element={<BlogGetoneBlog />} />
         {/* Indstri Start */}
@@ -125,8 +130,8 @@ function App() {
         <Route path="/real-estate" element={<RealEstate />} />
         <Route path="/manufacturing" element={<Manufacturing />} />
         {/* Indstri End */}
-        <Route path="/case-study" element={<CaseStudy />} />
-        <Route path="/casedtudybyone/:id" element={<CaseStudyByOne />} />
+        <Route path="/whitepapers" element={<CaseStudy />} />
+        <Route path="/whitepapers/:id" element={<CaseStudyByOne />} />
         <Route path="/terms-Conditions" element={<Termconditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/about-us" element={<AboutUS />} />

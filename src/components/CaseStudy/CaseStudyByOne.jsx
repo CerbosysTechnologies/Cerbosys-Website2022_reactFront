@@ -10,6 +10,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function CaseStudyByOne() {
+  
   const IMG = IMAGE_SERVER + '/casestudyimage/';
   const { id } = useParams();
   console.log(id);
@@ -259,7 +260,7 @@ function CaseStudyByOne() {
                       />
                     </svg>
                     <span className="md:text-lg font-subheading text-sm">
-                      <a href="/case-study">Back</a>
+                      <a href="/whitepapers">Back</a>
                     </span>
                   </a>
                 </div>

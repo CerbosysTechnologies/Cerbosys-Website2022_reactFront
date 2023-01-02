@@ -5,12 +5,13 @@ import oneicon from '../../../../assets/innerpage/webdevelopment/1.svg';
 import twoicon from '../../../../assets/innerpage/webdevelopment/2.svg';
 import threeicon from '../../../../assets/innerpage/webdevelopment/3.svg';
 import fouricon from '../../../../assets/innerpage/webdevelopment/4.svg';
-import processicon1 from '../../../../assets/innerpage/webdevelopment/processimage1.png';
-import processicon2 from '../../../../assets/innerpage/webdevelopment/processimage2.png';
-import processicon3 from '../../../../assets/innerpage/webdevelopment/processimage3.png';
-import processicon4 from '../../../../assets/innerpage/webdevelopment/processimage4.png';
-
-const ServiceProcess = () => {
+import fiveicon from '../../../../assets/innerpage/Softwaredevelopment/five.png';
+import Analysis from '../../../../assets/innerpage/Softwaredevelopment/ANALYSIS.png';
+import DESIGN from '../../../../assets/innerpage/Softwaredevelopment/DESIGN.png';
+import DEVELOPMENT from '../../../../assets/innerpage/Softwaredevelopment/DEVELOPMENT.png';
+import TESTING from '../../../../assets/innerpage/Softwaredevelopment/TESTING.png';
+import MAINTENANCE from '../../../../assets/innerpage/Softwaredevelopment/MAINTENANCE.svg';
+function ServiceProSD() {
   return (
     <div>
       <div className="bg-white mx-auto w-full py-5 px-16 ">
@@ -21,12 +22,12 @@ const ServiceProcess = () => {
               Process
             </h2>
             <h2 className="font-subheading md:text-xl text-black text-sm mb-5">
-              Our Web Development Process
+              Our software developer process
             </h2>
             <p className="font-content md:text-lg text-black text-sm text-justify align-baseline md:px-28 px-10">
-              Our web development process involves information gathering,
-              planning, designing, creating content and assembling it, coding
-              and testing, reviewing, and in the end its maintenance.
+              The software development lifecycle (SDLC) is a series of stages
+              that companies must go through to create the most optimal software
+              for their needs
             </p>
           </div>
           {/* Heading Ends */}
@@ -45,7 +46,7 @@ const ServiceProcess = () => {
           <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
             <Bounce left duration={3000}>
               <img
-                src={processicon1}
+                src={Analysis}
                 alt="Process Icon 1"
                 className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem]"
               />
@@ -53,18 +54,15 @@ const ServiceProcess = () => {
             <Bounce right duration={3000}>
               <div className="mx-auto flex flex-col text-justify">
                 <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
-                  Requirement Analysis
+                  Analysis
                 </h2>
                 <p className="font-content md:text-lg text-sm col-span-2">
-                  In order to create a website that perfectly suits your needs,
-                  we first need to understand what those needs are. That's where
-                  requirement analysis comes in.
+                  The first stage of the SDLC is analysis, which involves
+                  identifying the problem you're trying to solve and determining
+                  what your end goal is. This is also known as "Business
+                  Analysis."
                   <br></br>
                   <br></br>
-                  Through conversation and discussion with the client we will
-                  identify every aspect of the desired website design &
-                  development services. This includes everything from its
-                  outward appearance to the specific functionality it must have.
                 </p>
               </div>
             </Bounce>
@@ -89,22 +87,20 @@ const ServiceProcess = () => {
             <Bounce left duration={3000}>
               <div className="mx-auto flex flex-col text-justify">
                 <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
-                  Creating Blueprint
+                  DESIGN
                 </h2>
                 <p className="font-content md:text-lg text-sm col-span-2">
-                  One of the most important steps to do in order to create a
-                  successful website is to create a website blueprint. A website
-                  blueprint is an easy and effective way to plan and organize
-                  the website. It's a visual guide that helps us to clarify the
-                  goals of the website required by the client. A blueprint also
-                  helps us to establish the purpose of the site, and prioritize
-                  content and features.
+                  Once you have your problem, you can move on to design. This
+                  stage involves brainstorming ideas with other people or using
+                  tools like paper sketches or whiteboards to generate a lot of
+                  different solutions at once. You might also use storyboards if
+                  you're planning a video game or another interactive experience
                 </p>
               </div>
             </Bounce>
             <Bounce right duration={3000}>
               <img
-                src={processicon2}
+                src={DESIGN}
                 alt="Process Icon 2"
                 className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem]"
               />
@@ -127,7 +123,7 @@ const ServiceProcess = () => {
           <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
             <Bounce left duration={3000}>
               <img
-                src={processicon3}
+                src={DEVELOPMENT}
                 alt="Process Icon 3"
                 className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem]"
               />
@@ -138,13 +134,11 @@ const ServiceProcess = () => {
                   Development
                 </h2>
                 <p className="font-content md:text-lg text-sm col-span-2">
-                  The website development is performed in two steps that are,
-                  Front-end development and Back-end development. It is a
-                  comprehensive process that includes everything from
-                  information gathering and planning to coding and testing to
-                  review and maintenance. The server side of the website is
-                  termed the backend and the frontend is that part of the
-                  website where the user interacts directly.
+                  Development is where you actually start coding. During this
+                  stage, you'll refine your ideas and make sure they work
+                  properly before moving on to testing them out in a test
+                  environment—or beta testing them if that's how your company
+                  does things
                 </p>
               </div>
             </Bounce>
@@ -169,24 +163,21 @@ const ServiceProcess = () => {
             <Bounce left duration={3000}>
               <div className="mx-auto flex flex-col text-justify">
                 <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
-                  TESTING AND LAUNCHING
+                  TESTING
                 </h2>
                 <p className="font-content md:text-lg text-sm col-span-2">
-                  The final step involved in website development is testing &
-                  launching. The web application testing process ensures the
-                  quality of a web app by testing its functionality. This allows
-                  you to find and fix bugs before release.
+                  Testing is where it gets fun. After all the hard work from
+                  previous stages has been done, it's time for some serious
+                  playtesting with real users so that everything works like it
+                  should when released into production
                   <br></br>
                   <br></br>
-                  Then comes the launching of the website, which means that,
-                  after your website goes live, people from all over the world
-                  will be able to view it.
                 </p>
               </div>
             </Bounce>
             <Bounce right duration={3000}>
               <img
-                src={processicon4}
+                src={TESTING}
                 alt="Process Icon 2"
                 className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem]"
               />
@@ -194,10 +185,48 @@ const ServiceProcess = () => {
           </div>
 
           {/* Testing And Launching Div Ends*/}
+
+          {/* Development Div */}
+
+          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
+            <Flip duration={3000}>
+              <img
+                src={fiveicon}
+                alt="Icon Three"
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+              />
+            </Flip>
+          </div>
+          <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
+            <Bounce left duration={3000}>
+              <img
+                src={MAINTENANCE}
+                alt="Process Icon 3"
+                className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem]"
+              />
+            </Bounce>
+            <Bounce right duration={3000}>
+              <div className="mx-auto flex flex-col text-justify">
+                <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
+                  MAINTENANCE
+                </h2>
+                <p className="font-content md:text-lg text-sm col-span-2">
+                  Website Maintenance is the task of keeping your website up and
+                  running. It can be something as simple as checking for errors
+                  in the code and fixing them, or it can involve complex
+                  problems that require a professional to diagnose and fix. The
+                  goal of website maintenance is to make sure that your website
+                  works well for you, so that you can use it without any issues
+                </p>
+              </div>
+            </Bounce>
+          </div>
+
+          {/* Development Div Ends*/}
         </div>
       </div>
     </div>
   );
-};
+}
 
-export default ServiceProcess;
+export default ServiceProSD;

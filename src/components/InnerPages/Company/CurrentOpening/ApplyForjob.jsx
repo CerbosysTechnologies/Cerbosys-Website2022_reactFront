@@ -1,53 +1,53 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
-import { SERVER } from "../../../../ServerUrls";
-import { AiOutlineClose } from "react-icons/ai";
-import vacancy from "../../../../assets/Careerpage/job800500.svg";
-import { ToastContainer, toast } from "react-toastify";
-import ContectThankyou from "../../../Common/Component/Thankyou/ContectThankyou";
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
+import { SERVER } from '../../../../ServerUrls';
+import { AiOutlineClose } from 'react-icons/ai';
+import vacancy from '../../../../assets/Careerpage/job800500.svg';
+import { ToastContainer, toast } from 'react-toastify';
+import ContectThankyou from '../../../Common/Component/Thankyou/ContectThankyou';
 function ApplyForjob() {
   const modalclose = () => {
-    document.getElementById("ModalPotion").style.display = "none";
+    document.getElementById('ModalPotion').style.display = 'none';
   };
   //hooks
 
-  const [position, setPosition] = React.useState("");
-  const [application, setApplication] = React.useState("");
+  const [position, setPosition] = React.useState('');
+  const [application, setApplication] = React.useState('');
 
-  const [desc, setDesc] = React.useState("");
-  const [jobicons, setJobIcon] = React.useState("");
-  const [CoverLeter, setCoverLeter] = React.useState("");
+  const [desc, setDesc] = React.useState('');
+  const [jobicons, setJobIcon] = React.useState('');
+  const [CoverLeter, setCoverLeter] = React.useState('');
 
   const [errorspos, setErrorspos] = React.useState(false);
 
   const [errorsdes, setErrorsdes] = React.useState(false);
   const [errorsicon, setErroricon] = React.useState(false);
 
-  const [errorsposition, setErrorsposition] = React.useState("");
+  const [errorsposition, setErrorsposition] = React.useState('');
 
-  const [errorsdesc, setErrorsdesc] = React.useState("");
-  const [errorsexp, setErrorsexp] = React.useState("");
-  const [errorstype, setErrorstype] = React.useState("");
-  const [errorsicons, setErroricons] = React.useState("");
+  const [errorsdesc, setErrorsdesc] = React.useState('');
+  const [errorsexp, setErrorsexp] = React.useState('');
+  const [errorstype, setErrorstype] = React.useState('');
+  const [errorsicons, setErroricons] = React.useState('');
 
   // -------------
-  const [username, setUsername] = useState("");
-  const [errorsname, setErrorsName] = useState("");
-  const [errorsNa, setErrorsNa] = useState("");
-  const [email, setEmail] = useState("");
+  const [username, setUsername] = useState('');
+  const [errorsname, setErrorsName] = useState('');
+  const [errorsNa, setErrorsNa] = useState('');
+  const [email, setEmail] = useState('');
 
-  const [contactNumber, setContactNumber] = useState("");
+  const [contactNumber, setContactNumber] = useState('');
   const [errorscon, setErrorsCon] = useState(false);
-  const [errorscontact, setErrorsContact] = useState("");
-  const [serviceId, setServiceId] = useState("");
+  const [errorscontact, setErrorsContact] = useState('');
+  const [serviceId, setServiceId] = useState('');
 
   // Job post section for tak value and  and set value in state  with validation
   const onchangeFullName = (e) => {
-    const username = e.target.value.replace(/[^a-z]/gi, " ");
+    const username = e.target.value.replace(/[^a-z]/gi, ' ');
     setUsername(username);
     console.log(username);
     if (username.length <= 5) {
-      setErrorsName("Enter Name");
+      setErrorsName('Enter Name');
       setErrorsNa(true);
       return username;
     } else {
@@ -57,12 +57,12 @@ function ApplyForjob() {
 
   const onchangeContact = (e) => {
     // console.log("onchangeContact");
-    const contactNumber = e.target.value.replace(/([^0-9])+/i, "");
+    const contactNumber = e.target.value.replace(/([^0-9])+/i, '');
     setContactNumber(contactNumber);
     console.log(contactNumber);
     // (contact.length < 10 || contact.length > 10)
     if (contactNumber.length < 10) {
-      setErrorsContact("Enter valid Contact");
+      setErrorsContact('Enter valid Contact');
       setErrorsCon(true);
     } else {
       setErrorsCon(false);
@@ -70,11 +70,11 @@ function ApplyForjob() {
   };
 
   const onchangePosition = (e) => {
-    const position = e.target.value.replace(/[^a-z]/gi, " ");
+    const position = e.target.value.replace(/[^a-z]/gi, ' ');
     setPosition(position);
     console.log(position);
     if (position.length <= 3) {
-      setErrorsposition("Enter Position");
+      setErrorsposition('Enter Position');
       setErrorspos(true);
     } else {
       setErrorspos(false);
@@ -82,10 +82,10 @@ function ApplyForjob() {
   };
   const onchangeResume = (e) => {
     const jobicons = e.target.files[0];
-    console.log("jobIcon", jobicons);
+    console.log('jobIcon', jobicons);
     setJobIcon(jobicons);
     if (jobicons) {
-      setErroricon("provide job Resume");
+      setErroricon('provide job Resume');
       setErroricons(true);
     } else {
       setErroricon(false);
@@ -93,10 +93,10 @@ function ApplyForjob() {
   };
   const onchangeCoverLeter = (e) => {
     const CoverLeter = e.target.files[0];
-    console.log("CoverLeter", CoverLeter);
+    console.log('CoverLeter', CoverLeter);
     setCoverLeter(CoverLeter);
     if (CoverLeter) {
-      setErroricon("provide job CoverLeter");
+      setErroricon('provide job CoverLeter');
       setErroricons(true);
     } else {
       setErroricon(false);
@@ -108,7 +108,7 @@ function ApplyForjob() {
     console.log(desc);
 
     if (desc.length < 10) {
-      setErrorsdesc("Enter minimum 10 word in Description");
+      setErrorsdesc('Enter minimum 10 word in Description');
       setErrorsdes(true);
     } else {
       setErrorsdes(false);
@@ -120,30 +120,30 @@ function ApplyForjob() {
     console.log(formdata);
     e.preventDefault();
     var formdata = new FormData();
-    formdata.append("positionapplied", position);
-    formdata.append("fullname", username);
-    formdata.append("email", email);
-    formdata.append("mobilenumber", contactNumber);
-    formdata.append("resume", jobicons);
-    formdata.append("coverletter", CoverLeter);
-    formdata.append("resume_description", desc);
-    console.log("befor ", formdata);
-    fetch(SERVER + "/insertCareer", {
-      method: "post",
+    formdata.append('positionapplied', position);
+    formdata.append('fullname', username);
+    formdata.append('email', email);
+    formdata.append('mobilenumber', contactNumber);
+    formdata.append('resume', jobicons);
+    formdata.append('coverletter', CoverLeter);
+    formdata.append('resume_description', desc);
+    console.log('befor ', formdata);
+    fetch(SERVER + '/insertCareer', {
+      method: 'post',
       body: formdata,
     })
       .then((res) =>
         res.json().then((formdata) => {
-          console.log("Response", formdata);
-          document.getElementById("ContectThankyou").style.display = "block";
+          console.log('Response', formdata);
+          document.getElementById('ContectThankyou').style.display = 'block';
           setTimeout(() => {
             window.location.reload();
           }, 5000);
         })
       )
       .catch((err) => {
-        console.log("not post", err);
-        toast.error("something wrong");
+        console.log('not post', err);
+        toast.error('something wrong');
       });
   };
   return (
@@ -151,7 +151,7 @@ function ApplyForjob() {
       <div
         class="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden"
         id="ModalPotion"
-        // style={{ display: "none" }}
+        // style={{ display: 'none' }}
       >
         <div className="flex items-center justify-center max-height-100vh pt-4 px-4 pb-20 text-center sm:block sm:p-0">
           <div className="fixed inset-0 transition-opacity">
@@ -160,7 +160,6 @@ function ApplyForjob() {
           <span className="hidden sm:inline-block sm:align-middle sm:h-screen">
             &#8203;
           </span>
-
           {/* To open contact form */}
           <div
             className="inline-block bg-white 
@@ -330,7 +329,7 @@ function ApplyForjob() {
                     // value="Submit"
                     onClick={handleSubmit}
                     disabled={
-                      username === "" || contactNumber === "" || position
+                      username === '' || contactNumber === '' || position
                         ? true
                         : false
                     }

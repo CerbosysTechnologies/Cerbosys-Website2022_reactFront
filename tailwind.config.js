@@ -72,6 +72,7 @@ module.exports = {
       NodejsHeader: "url('assets/innerpage/nodejs/node.jsheader.svg')",
       ReactjsHeader: "url('assets/innerpage/reactjs/reactjsheader1.png')",
       CaseStudyHeader: "url('assets/innerpage/casestudy/casestudy.svg')",
+      CaseStudyHeader2: "url('assets/innerpage/casestudy/Slice.svg')",
       PrivacyPolicy: "url('assets/Privecy/Privacy.png')",
       Termandcondition: "url('assets/Privecy/term.png')",
       Aboutus: "url('assets/Aboutus/About4.png')",
