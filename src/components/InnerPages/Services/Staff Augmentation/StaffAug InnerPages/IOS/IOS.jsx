@@ -1,14 +1,23 @@
-import React from "react";
-import Navbar from "../../../../../Navbar/Navbar";
-import Footer from "../../../../../Common/Component/Footer";
-import { Link } from "react-router-dom";
-import IOSBody from "./IOSBody";
-import IOSForm from "./IOSForm";
+import React from 'react';
+import Navbar from '../../../../../Navbar/Navbar';
+import Footer from '../../../../../Common/Component/Footer';
+import { Link } from 'react-router-dom';
+import IOSBody from './IOSBody';
+import IOSForm from './IOSForm';
+import { Helmet } from 'react-helmet';
 
 const IOS = () => {
   return (
     <div>
       <>
+        <Helmet>
+          <title>IOS | Cerbosys Technologies</title>
+          <meta
+            name="keywords"
+            content="hire iPhone app developers, hire iOS app developers, hire ios developer, iphone iOS developers India, ios development services, top ios development services in India, dedicated ios developers"
+          />
+          <meta name="description" content="" />
+        </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-IOSHeader bg-cover md:bg-top bg-center">
           {/* Content Section */}

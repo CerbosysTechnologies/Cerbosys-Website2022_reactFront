@@ -1,14 +1,23 @@
-import React from "react";
-import Navbar from "../../../../../Navbar/Navbar";
-import Footer from "../../../../../Common/Component/Footer";
-import { Link } from "react-router-dom";
-import NodejsBody from "./NodejsBody";
-import NodejsForm from "./NodejsForm";
+import React from 'react';
+import Navbar from '../../../../../Navbar/Navbar';
+import Footer from '../../../../../Common/Component/Footer';
+import { Link } from 'react-router-dom';
+import NodejsBody from './NodejsBody';
+import NodejsForm from './NodejsForm';
+import { Helmet } from 'react-helmet';
 
 const Nodejs = () => {
   return (
     <div>
       <>
+        <Helmet>
+          <title>Node js | Cerbosys Technologies</title>
+          <meta
+            name="keywords"
+            content="hire nodejs dveloper, hire remote nodejs developers, hire dedicated Node.js developers in india"
+          />
+          <meta name="description" content="" />
+        </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-NodejsHeader bg-cover md:bg-top bg-center">
           {/* Content Section */}

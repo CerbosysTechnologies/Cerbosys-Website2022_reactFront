@@ -1,14 +1,23 @@
-import React from "react";
-import Navbar from "../../../../../Navbar/Navbar";
-import Footer from "../../../../../Common/Component/Footer";
-import { Link } from "react-router-dom";
-import LaravelBody from "./LaravelBody";
-import LaravelForm from "./LaravelForm";
+import React from 'react';
+import Navbar from '../../../../../Navbar/Navbar';
+import Footer from '../../../../../Common/Component/Footer';
+import { Link } from 'react-router-dom';
+import LaravelBody from './LaravelBody';
+import LaravelForm from './LaravelForm';
+import { Helmet } from 'react-helmet';
 
 const Laravel = () => {
   return (
     <div>
       <>
+        <Helmet>
+          <title>Laravel | Cerbosys Technologies</title>
+          <meta
+            name="keywords"
+            content="Hire Laravel Developers, Hire Remote Laravel Developers, Hire Top Laravel Engineers, Hire Laravel Coders, Hire Laravel Expert, Dedicated Laravel Web Framework Developer, hire dedicated laravel developer"
+          />
+          <meta name="description" content="" />
+        </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-LaravelHeader bg-cover md:bg-top bg-center">
           {/* Content Section */}

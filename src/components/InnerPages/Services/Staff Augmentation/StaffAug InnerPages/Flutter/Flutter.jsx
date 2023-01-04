@@ -1,14 +1,23 @@
-import React from "react";
-import Navbar from "../../../../../Navbar/Navbar";
-import Footer from "../../../../../Common/Component/Footer";
-import { Link } from "react-router-dom";
+import React from 'react';
+import Navbar from '../../../../../Navbar/Navbar';
+import Footer from '../../../../../Common/Component/Footer';
+import { Link } from 'react-router-dom';
 import FlutterBody from './FlutterBody';
 import FlutterForm from './FlutterForm';
+import { Helmet } from 'react-helmet';
 
 const Flutter = () => {
   return (
     <div>
       <>
+        <Helmet>
+          <title>Flutter | Cerbosys Technologies</title>
+          <meta
+            name="keywords"
+            content="hire flutter app developers, flutter development company, hire dedicated flutter developer, flutter developer, flutter developer in india"
+          />
+          <meta name="description" content="" />
+        </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-FlutterHeader bg-cover md:bg-top bg-center">
           {/* Content Section */}

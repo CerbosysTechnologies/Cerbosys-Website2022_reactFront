@@ -66,7 +66,7 @@ function Investment() {
         setTimeout(() => {
           toast.success('Thank You !!');
           window.location.reload();
-        }, 5000);
+        }, 1000);
       })
       .catch((err) => {
         console.log('not post', err);

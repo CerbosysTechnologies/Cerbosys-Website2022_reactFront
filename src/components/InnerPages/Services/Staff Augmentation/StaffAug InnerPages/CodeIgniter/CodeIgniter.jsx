@@ -1,14 +1,23 @@
-import React from "react";
-import Navbar from "../../../../../Navbar/Navbar";
-import Footer from "../../../../../Common/Component/Footer";
-import { Link } from "react-router-dom";
-import CodeIgniterBody from "./CodeIgniterBody";
-import CodeIgniterForm from "./CodeIgniterForm";
+import React from 'react';
+import Navbar from '../../../../../Navbar/Navbar';
+import Footer from '../../../../../Common/Component/Footer';
+import { Link } from 'react-router-dom';
+import CodeIgniterBody from './CodeIgniterBody';
+import CodeIgniterForm from './CodeIgniterForm';
+import { Helmet } from 'react-helmet';
 
 const CodeIgniter = () => {
   return (
     <div>
       <>
+        <Helmet>
+          <title>CodeIgniter | Cerbosys Technologies</title>
+          <meta
+            name="keywords"
+            content="hire codeigniter developers, hire remote codeIgniter developers,  hire codeigniter expert, codeigniter programmers in india, codeigniter framework development, codeigniter developers, hire codeigniter developers in india, codeigniter expert"
+          />
+          <meta name="description" content="" />
+        </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-CodeIgniterHeader bg-cover md:bg-top bg-center">
           {/* Content Section */}

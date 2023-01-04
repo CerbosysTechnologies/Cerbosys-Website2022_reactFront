@@ -4,11 +4,18 @@ import Footer from "../../../../../Common/Component/Footer";
 import { Link } from "react-router-dom";
 import AngularBody from "./AngularBody";
 import AngularForm from "./AngularForm";
+import { Helmet } from "react-helmet";
 
 const Angular = () => {
   return (
     <div>
       <>
+
+      <Helmet>
+          <title>Angular | Cerbosys Technologies</title>
+          <meta name="keywords" content="Hire Angular Developers, Hire Remote Angular Developers, AngularJS development company, hire AngularJS developers in India, AngularJS mobile and web apps development company" />
+          <meta name="description" content="" />
+        </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-AngularHeader bg-cover md:bg-top bg-center">
           {/* Content Section */}
