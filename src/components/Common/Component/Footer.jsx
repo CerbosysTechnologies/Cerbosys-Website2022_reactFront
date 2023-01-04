@@ -139,13 +139,13 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li className="">
-                    <Link to="/StaffAugmentation">Staff Augmentation</Link>
+                    <Link to="/staff-augmentation">Staff Augmentation</Link>
                   </li>
                   <li className="">
                     <Link to="/mobile-app-development">Mobile Development</Link>
                   </li>
                   <li className="">
-                    <Link to="/uiux-development">UI/UX Development</Link>
+                    <Link to="/ui-ux-designing">UI/UX Development</Link>
                   </li>
                   <li className="">
                     <Link to="/digital-marketing">Digital Marketing</Link>
@@ -256,6 +256,7 @@ const Footer = () => {
                 <br></br>
               </div>
               {/* Fifth Column Ends*/}
+               
             </div>
             {/* Main div of inside */}
           </div>

@@ -1,13 +1,21 @@
-import React from "react";
-import Navbar from "../../../Navbar/Navbar";
-import Footer from "../../../Common/Component/Footer";
-import { TransportBody } from "./TransportBody";
-import TransportForm from "./TransportForm";
+import React from 'react';
+import Navbar from '../../../Navbar/Navbar';
+import Footer from '../../../Common/Component/Footer';
+import { TransportBody } from './TransportBody';
+import TransportForm from './TransportForm';
+import { Helmet } from 'react-helmet';
 
 const Transport = () => {
   return (
     <div>
       <>
+        <Helmet>
+          <title>Transport | Cerbosys</title>
+          <meta
+            name="keywords"
+            content="web application for shipping and logistics, logistics digital marketing, logistics transportation services, logistics and transportation software development, logistics and transportation software development company"
+          />
+        </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[36rem] bg-TransportHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
           {/* Content Section */}

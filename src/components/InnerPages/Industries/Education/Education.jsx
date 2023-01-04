@@ -1,13 +1,21 @@
-import React from "react";
-import Navbar from "../../../Navbar/Navbar";
-import Footer from "../../../Common/Component/Footer";
-import EducationBody from "./EducationBody";
-import EducationForm from "./EducationForm";
+import React from 'react';
+import Navbar from '../../../Navbar/Navbar';
+import Footer from '../../../Common/Component/Footer';
+import EducationBody from './EducationBody';
+import EducationForm from './EducationForm';
+import { Helmet } from 'react-helmet';
 
 const Education = () => {
   return (
     <div>
       <>
+        <Helmet>
+          <title>Transport | Cerbosys</title>
+          <meta
+            name="keywords"
+            content="school & college educational erp, e-learning mobile app development, e learning mobile app design, education app developers india, online learning web app development, online learning web app development, learning games development, educational app development india"
+          />
+        </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[36rem] bg-EducationHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
           {/* Content Section */}

@@ -1,23 +1,26 @@
-import React from "react";
-import { Helmet } from "react-helmet";
-import Footer from "../../../Common/Component/Footer";
-import Navbar from "../../../Navbar/Navbar";
-import DiversityBody from "./DiversityBody";
-import DiversityForm from "./DiversityForm";
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import Footer from '../../../Common/Component/Footer';
+import Navbar from '../../../Navbar/Navbar';
+import DiversityBody from './DiversityBody';
+import DiversityForm from './DiversityForm';
 
 const Diversity = () => {
   return (
     <div>
       <>
-      <Helmet>
-          <title>
-           Cerbosys values diversity and inclusion
-          </title>
+        <Helmet>
+          <title>Cerbosys values diversity and inclusion</title>
+          <meta
+            name="keywords"
+            content="exciting place to work, our diversity, our vision, recruiting and retaining, value and ethics"
+          />
           <meta
             name="description"
             content="Cerbosys is committed to diversity and inclusion. Everyone is encouraged to bring their whole self to work, and we build a culture of diversity and creativity."
           />
         </Helmet>
+        
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[43rem]  h-96 py-12 px-4 bg-DiversityBackground bg-cover md:bg-top bg-center">
           {/* Content Section */}

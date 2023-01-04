@@ -1,13 +1,22 @@
-import React from "react";
-import Navbar from "../../../Navbar/Navbar";
-import AgricultureBody from "./AgricultureBody";
-import AgricultureForm from "./AgricultureForm";
+import React from 'react';
+import Navbar from '../../../Navbar/Navbar';
+import AgricultureBody from './AgricultureBody';
+import AgricultureForm from './AgricultureForm';
 import Footer from '../../../Common/Component/Footer';
+import { Helmet } from 'react-helmet';
 
 const Agriculture = () => {
   return (
     <div>
       <>
+        <Helmet>
+          <title>Agriculture | Cerbosys</title>
+          <meta
+            name="keywords"
+            content="agriculture website design company,farming web designer,agriculture web developer, agriculture software and app development services, agri mobile apps"
+          />
+        </Helmet>
+
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[36rem] bg-AgricultureHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
           {/* Content Section */}

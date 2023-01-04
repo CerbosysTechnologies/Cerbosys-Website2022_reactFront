@@ -10,6 +10,11 @@ const ContactUs = () => {
       <>
         <Helmet>
           <title>Contact us - Cerbosys Technologies</title>
+
+          <meta
+            name="keywords"
+            content="contact us, contact us cerbosys, business enquiries, join our team, join cerbosys"
+          />
           <meta
             name="description"
             content="Contact us for any query related to Mobile App & Web Development, Digital Marketing, etc. We provide a solid customer support service"

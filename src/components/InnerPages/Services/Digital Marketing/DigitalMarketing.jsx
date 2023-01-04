@@ -8,11 +8,23 @@ import AllServiceForm from '../../../Common/Component/AllServicesForm';
 import DigitalForm from './DigitalForm';
 import { Link } from 'react-router-dom';
 import Investment from '../UserInvestment/Investment';
+import { Helmet } from 'react-helmet';
 
 const DigitalMarketing = () => {
   return (
     <div>
       <>
+        <Helmet>
+          <title>digital marketing - Cerbosys Technologies</title>
+          <meta
+            name="keywords"
+            content="best digital marketing services company in india, complete digital marketing services, digital marketing audit service, digital marketing automation services, digital marketing services for startups"
+          />
+          <meta
+            name="description"
+            content="Looking for making a strong online presence? Our digital marketing consultants will help to grow SMM, SEO, paid advertisment, content marketing, email marketing & whatsapp automation for business"
+          />
+        </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">
           {/* Content Section */}

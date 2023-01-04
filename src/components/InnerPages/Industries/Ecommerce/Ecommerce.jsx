@@ -1,13 +1,21 @@
-import React from "react";
-import Footer from "../../../Common/Component/Footer";
-import Navbar from "../../../Navbar/Navbar";
-import { EcommerceBody } from "./EcommerceBody";
-import EcommerceForm from "./EcommerceForm";
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import Footer from '../../../Common/Component/Footer';
+import Navbar from '../../../Navbar/Navbar';
+import { EcommerceBody } from './EcommerceBody';
+import EcommerceForm from './EcommerceForm';
 
 const Ecommerce = () => {
   return (
     <div>
       <>
+        <Helmet>
+          <title>Ecommerce | Cerbosys</title>
+          <meta
+            name="keywords"
+            content="cost to create an ecommerce website, cost to develop an e commerce website, e commerce web development company, ecommerce development services, ecommerce website design and development, best ecommerce platform, e commerce website design, wordpress ecommerce, magento ecommerce, wix ecommerce, b2b ecommerce, ecommerece solutions, magento, shopify, opencart, drupal, joomla, prestashop, woocommerce"
+          />
+        </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[36rem] bg-EcommerceHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
           {/* Content Section */}

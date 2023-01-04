@@ -1,9 +1,9 @@
-import React from "react";
-import Navbar from "../../../Navbar/Navbar";
-import Footer from "../../../Common/Component/Footer";
-import CurrentOpeningBody from "./CurrentOpeningBody";
-import CurrentOpeningForm from "./CurrentOpeningForm";
-import { Helmet } from "react-helmet";
+import React from 'react';
+import Navbar from '../../../Navbar/Navbar';
+import Footer from '../../../Common/Component/Footer';
+import CurrentOpeningBody from './CurrentOpeningBody';
+import CurrentOpeningForm from './CurrentOpeningForm';
+import { Helmet } from 'react-helmet';
 
 const CurrentOpening = () => {
   return (
@@ -11,6 +11,10 @@ const CurrentOpening = () => {
       <>
         <Helmet>
           <title>Current-Opening | Cerbosys</title>
+          <meta
+            name="keywords"
+            content="healthy work environment, innovative business solution provider, training & development sessions, performance linked incentives, reward programs, open positions, career"
+          />
           <meta
             name="description"
             content="Cerbosys Technologies Inc. is one of the leading Website Design and  Mobile App Development company who provides services across the world. Contact us now for growth."

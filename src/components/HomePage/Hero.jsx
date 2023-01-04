@@ -1,22 +1,22 @@
-import React, { useState } from "react";
-import Navbar from "../Navbar/Navbar";
-import ServiceHomePage from "../../components/HomePage/ServiceHomePage";
-import TechnologyHomePage from "../../components/HomePage/TechnologyHomePage";
-import IndustriesHomePage from "../../components/HomePage/IndustriesHomePage";
-import CustomerRelationHomePage from "../../components/HomePage/CustomerRelationHomePage";
-import Footer from "../../components/Common/Component/Footer";
-import ClientLogoPage from "./ClientLogoPage";
-import { Random } from "react-animated-text";
-import TypeWriter from "react-typewriter-effect";
-import MovingComponent from "react-moving-text";
-import Recommendations from "./Recommendations";
-import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import React, { useState } from 'react';
+import Navbar from '../Navbar/Navbar';
+import ServiceHomePage from '../../components/HomePage/ServiceHomePage';
+import TechnologyHomePage from '../../components/HomePage/TechnologyHomePage';
+import IndustriesHomePage from '../../components/HomePage/IndustriesHomePage';
+import CustomerRelationHomePage from '../../components/HomePage/CustomerRelationHomePage';
+import Footer from '../../components/Common/Component/Footer';
+import ClientLogoPage from './ClientLogoPage';
+import { Random } from 'react-animated-text';
+import TypeWriter from 'react-typewriter-effect';
+import MovingComponent from 'react-moving-text';
+import Recommendations from './Recommendations';
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 const Hero = () => {
   {
     /* animation for buthhon logic start */
   }
-  const AnimationsForChaining = ["bounce"];
+  const AnimationsForChaining = ['bounce'];
   const [animationIndex, setAnimationIndex] = useState(0);
   const [animationType, setAnimationType] = useState(AnimationsForChaining[0]);
   const handleChainAnimation = () => {
@@ -53,29 +53,29 @@ const Hero = () => {
               WE WORK FOR
               <TypeWriter
                 textStyle={{
-                  color: "#0F52BA",
+                  color: '#0F52BA',
                   // fontSize: "heading",
-                  fontSize: "1.5em",
-                  textAlign: "center",
+                  fontSize: '1.5em',
+                  textAlign: 'center',
                 }}
                 startDelay={2000}
                 cursorColor="#0F52BA"
                 multiText={[
-                  "INNOVATION ",
-                  "PASSION ",
-                  "SATISFACTION",
-                  "INNOVATION ",
-                  "PASSION ",
-                  "SATISFACTION",
-                  "INNOVATION ",
-                  "PASSION ",
-                  "SATISFACTION",
-                  "INNOVATION ",
-                  "PASSION ",
-                  "SATISFACTION",
-                  "INNOVATION ",
-                  "PASSION ",
-                  "SATISFACTION",
+                  'INNOVATION ',
+                  'PASSION ',
+                  'SATISFACTION',
+                  'INNOVATION ',
+                  'PASSION ',
+                  'SATISFACTION',
+                  'INNOVATION ',
+                  'PASSION ',
+                  'SATISFACTION',
+                  'INNOVATION ',
+                  'PASSION ',
+                  'SATISFACTION',
+                  'INNOVATION ',
+                  'PASSION ',
+                  'SATISFACTION',
                 ]}
                 multiTextDelay={5000}
                 typeSpeed={80}

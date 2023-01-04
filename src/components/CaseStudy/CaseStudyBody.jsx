@@ -107,7 +107,6 @@ const CaseStudyBody = () => {
     // let path = `/${casestudy_title}/${id}`;
     navigate(path);
   };
-
   return (
     <div>
       <div className="mx-auto w-full md:h-[50rem]  h-96 py-12 px-4 bg-CaseStudyHeader2 bg-cover md:bg-top bg-center">
@@ -157,7 +156,7 @@ const CaseStudyBody = () => {
                         {item.casestudy_title}
                       </h2>
                       <p className="font-content md:text-lg text-sm col-span-2">
-                        {item.casestudy_description}
+                        {item.casestudy_description.slice(0, 100)}
                         <br></br>
                       </p>
                       <br />

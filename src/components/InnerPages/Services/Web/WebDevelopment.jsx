@@ -1,17 +1,30 @@
-import React from "react";
-import Navbar from "../../../Navbar/Navbar";
-import ServiceDesc from "./ServiceDesc";
-import ServiceDiagram from "./ServiceDiagram";
-import ServiceForm from "./ServiceForm";
-import ServiceProcess from "./ServiceProcess";
-import Footer from "../../../Common/Component/Footer";
-import { Link } from "react-router-dom";
+import React from 'react';
+import Navbar from '../../../Navbar/Navbar';
+import ServiceDesc from './ServiceDesc';
+import ServiceDiagram from './ServiceDiagram';
+import ServiceForm from './ServiceForm';
+import ServiceProcess from './ServiceProcess';
+import Footer from '../../../Common/Component/Footer';
+import { Link } from 'react-router-dom';
 import Investment from '../UserInvestment/Investment';
+import { Helmet } from 'react-helmet';
 
 const WebDevelopment = () => {
   return (
     <div>
       <>
+        <Helmet>
+          <title>Web Development - Cerbosys Technologies</title>
+          <meta
+            name="keywords"
+            content="web development company in indore, ecommerce website development, website development company in india, website design & development services, cms website development services, php websites development services indore"
+          />
+          <meta
+            name="description"
+            content="Cerbosys Technologies is a prominent web development company in Indore, offering enterprise-grade services all over the world. The three major web services involve Front-end web development, Back-end web development & Full-stack development"
+          />
+        </Helmet>
+
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">
           {/* Content Section */}

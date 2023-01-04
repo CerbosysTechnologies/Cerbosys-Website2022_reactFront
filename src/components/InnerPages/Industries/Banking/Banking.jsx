@@ -1,12 +1,20 @@
-import React from "react";
-import Navbar from "../../../Navbar/Navbar";
-import BankingBody from "./BankingBody";
-import BankingForm from "./BankingForm";
-import Footer from "../../../Common/Component/Footer";
+import React from 'react';
+import Navbar from '../../../Navbar/Navbar';
+import BankingBody from './BankingBody';
+import BankingForm from './BankingForm';
+import Footer from '../../../Common/Component/Footer';
+import { Helmet } from 'react-helmet';
 
 const Banking = () => {
   return (
     <>
+      <Helmet>
+        <title>Banking | Cerbosys</title>
+        <meta
+          name="keywords"
+          content="Web Apps for Internet Banking, Finance solutions, banking solutions, banking and finance solutions, banking app solutions, latest technology trends "
+        />
+      </Helmet>
       {/* <Navbar /> */}
       <div className="mx-auto w-full md:h-[36rem] bg-BankingHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
         {/* Content Section */}

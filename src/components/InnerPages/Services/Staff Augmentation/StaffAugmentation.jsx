@@ -1,16 +1,25 @@
-import React from "react";
-import Navbar from "../../../Navbar/Navbar";
-import Footer from "../../../Common/Component/Footer";
-import { Link } from "react-router-dom";
-import StaffAugmentationDesc from "./StaffAugmentationDesc";
-import StaffAugmentationDiagram from "./StaffAugmentationDiagram";
-import StaffAugmentationProcess from "./StaffAugmentationProcess";
-import StaffAugmentationForm from "./StaffAugmentationForm";
+import React from 'react';
+import Navbar from '../../../Navbar/Navbar';
+import Footer from '../../../Common/Component/Footer';
+import { Link } from 'react-router-dom';
+import StaffAugmentationDesc from './StaffAugmentationDesc';
+import StaffAugmentationDiagram from './StaffAugmentationDiagram';
+import StaffAugmentationProcess from './StaffAugmentationProcess';
+import StaffAugmentationForm from './StaffAugmentationForm';
+import { Helmet } from 'react-helmet';
 
 const StaffAugmentation = () => {
   return (
     <div>
       <>
+        <Helmet>
+          <title>Staff Augmentation | Cerbosys Technologies</title>
+          <meta
+            name="keywords"
+            content="staff augmentation services, staff augmentation, it staff augmentation, it staff augmentation services, it staff augmentation solutions, onboard new team members"
+          />
+          <meta name="description" content="" />
+        </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">
           {/* Content Section */}
@@ -29,11 +38,11 @@ const StaffAugmentation = () => {
             <Link to="/contact-us">
               <button
                 className="bg-Primary rounded-full font-heading md:px-5 md:py-2 md:text-lg
-              text-white uppercase px-3 py-1.5 text-xs mb-6">
+              text-white uppercase px-3 py-1.5 text-xs mb-6"
+              >
                 Contact Us
               </button>
             </Link>
-            
           </div>
           {/* Content Section Ends*/}
         </div>

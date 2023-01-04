@@ -11,10 +11,13 @@ const TrainingAndDevelopment = () => {
       <>
         <Helmet>
           <title>
-            {' '}
             All About Training and Development (Learning and Development) |
-            Cerbosys{' '}
+            Cerbosys
           </title>
+          <meta
+            name="keywords"
+            content="training and development program, creative ideas, ideas and creativity, develop new skills,  new technological inventions"
+          />
           <meta
             name="description"
             content="Cerbosys conducts extensive training and development for employees program for our new recruits. A workplace training program allows our employees to strengthen the skills that each employee needs to improve. "

@@ -1,20 +1,20 @@
-import React from "react";
-import { Helmet } from "react-helmet";
-import Footer from "../../../Common/Component/Footer";
-import Navbar from "../../../Navbar/Navbar";
-import Teambody from "./Teambody";
-import TeamForm from "./TeamForm";
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import Footer from '../../../Common/Component/Footer';
+import Navbar from '../../../Navbar/Navbar';
+import Teambody from './Teambody';
+import TeamForm from './TeamForm';
 
 const Team = () => {
   return (
     <div>
       <>
-
-
-      <Helmet>
-          <title>
-           Meet Our Team |Cerbosys
-          </title>
+        <Helmet>
+          <title>Meet Our Team |Cerbosys</title>
+          <meta
+            name="keywords"
+            content="Founder and Managing Director, our team, young, dynamic, talented individuals, UI/UX and Graphic Designer, Front end Developer, Marketing Executive, Digital Marketer"
+          />
           <meta
             name="description"
             content="Cerbosys’s progressive growth is defined by a zealous and committed leadership team of intellectual leaders. Explore their experience, expertise, and responsibilities. "

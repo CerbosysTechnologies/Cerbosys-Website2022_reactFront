@@ -1,9 +1,18 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Blogsbody from './Blogsbody';
 
 function Blog() {
   return (
     <>
+      <Helmet>
+        <title>Blog | Cerbosys</title>
+        <meta
+          name="keywords"
+          content="blog, cerbosys, development experience, customer engagement blogs, web development technologies, web development trends"
+        />
+        <meta name="description" content="" />
+      </Helmet>
       <div className="mx-auto w-full md:h-[38rem]  h-96 py-12 px-4 bg-Blogbg bg-cover md:bg-top bg-center">
         {/* Content Section */}
         <div className="flex flex-col justify-center text-center items-center md:h-[35rem] h-96 mx-auto">

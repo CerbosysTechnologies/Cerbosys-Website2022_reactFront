@@ -19,8 +19,16 @@ const OverviewBody = () => {
             alt="Overview Track"
             className="md:w-10/12 w-11/12"
           />
-        </div>  
+        </div>
         {/* Track Ends */}
+      </div>
+      <div className="mx-auto md:w-[1240px] w-96 font-content  my-5 text-justify text-xl md:px-0 px-4">
+        With excitement, energy & a healthy workspace, we began this business.
+        Our accomplishments have been a combined exertion of our digital
+        marketing team with the software & web development team, lead generation
+        team, and designing team. After innovatively working for 5 years, we
+        managed to build up our new headquarters in the UK; moreover, "School &
+        College ERP" is now an effectively established venture
       </div>
     </div>
   );

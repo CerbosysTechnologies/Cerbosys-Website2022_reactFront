@@ -1,10 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import clientinteractionicon from "../../assets/customer/client_interaction.svg";
-import consolidationicon from "../../assets/customer/consolidation.svg";
-import deliverablesicon from "../../assets/customer/deliverables.svg";
-import developmenticon from "../../assets/customer/development.svg";
+import clientinteractionicon from '../../assets/customer/client_interaction.svg';
+import consolidationicon from '../../assets/customer/consolidation.svg';
+import deliverablesicon from '../../assets/customer/deliverables.svg';
+import developmenticon from '../../assets/customer/development.svg';
 
 const CustomerRelationHomePage = () => {
   return (
@@ -93,13 +93,13 @@ const CustomerRelationHomePage = () => {
               </p>
 
               <div>
-                <Link to="/ContactUs">
-                <span
-                  className="bg-Primary rounded-full font-heading md:py-3 md:px-3 md:text-lg
+                <Link to="/contact-us">
+                  <span
+                    className="bg-Primary rounded-full font-heading md:py-3 md:px-3 md:text-lg
                   text-[12px] px-2 py-2 text-white "
-                >
-                  Let's Work Together
-                </span>
+                  >
+                    Let's Work Together
+                  </span>
                 </Link>
               </div>
             </div>
