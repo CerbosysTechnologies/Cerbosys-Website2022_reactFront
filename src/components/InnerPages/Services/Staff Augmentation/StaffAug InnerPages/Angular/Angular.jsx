@@ -12,7 +12,7 @@ const Angular = () => {
       <>
 
       <Helmet>
-          <title>Angular | Cerbosys Technologies</title>
+          <title>Hire Dedicated Angular Developer in Indore | Cerbosys</title>
           <meta name="keywords" content="Hire Angular Developers, Hire Remote Angular Developers, AngularJS development company, hire AngularJS developers in India, AngularJS mobile and web apps development company" />
           <meta name="description" content="" />
         </Helmet>

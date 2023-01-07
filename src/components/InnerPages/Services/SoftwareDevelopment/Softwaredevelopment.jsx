@@ -11,10 +11,8 @@ function Softwaredevelopment() {
     <div>
       <Helmet>
         <title>Software development - Cerbosys Technologies</title>
-        <meta
-          name="keywords"
-          content="ui ux design & development services, ui ux development company in india, best ux development company, ui ux development services in indore, android mobile ui ux development company"
-        />
+       <meta name="keywords" content="software development services in indore, custom software and application development services, custom software development services india, business software development services, small business software development services
+" />
         <meta
           name="description"
           content="We are an excellent UX/UI development company catering to our client's needs. Our team is comprised of UX/UI pros with in-depth knowledge of web and mobile development"

@@ -13,10 +13,7 @@ const BrandingAndPackaging = () => {
       <>
         <Helmet>
           <title>Branding Packaging - Cerbosys Technologies</title>
-          <meta
-            name="keywords"
-            content="mobile app development, mobile app development services, website designing company in india, web development services, best app development company in uk, web app development company in uk, ecommerce website development, best digital marketing services company in india, digital marketing services for startups, b2b lead generation and appointment setting services, android mobile ui ux development company, staff augmentation"
-          />
+       <meta name="keywords" content="product packaging design maker, best product packaging company, best branding services, branding logo design services, brand designing services in india" />
           <meta
             name="description"
             content="We provide brand packaging solutions with important services from brand packaging, logo designing, and brand designing"

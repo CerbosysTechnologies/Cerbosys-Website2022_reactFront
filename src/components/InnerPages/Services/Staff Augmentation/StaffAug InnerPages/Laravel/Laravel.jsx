@@ -11,7 +11,7 @@ const Laravel = () => {
     <div>
       <>
         <Helmet>
-          <title>Laravel | Cerbosys Technologies</title>
+          <title>Hire Dedicated Laravel Developer in Indore | Cerbosys</title>
           <meta
             name="keywords"
             content="Hire Laravel Developers, Hire Remote Laravel Developers, Hire Top Laravel Engineers, Hire Laravel Coders, Hire Laravel Expert, Dedicated Laravel Web Framework Developer, hire dedicated laravel developer"

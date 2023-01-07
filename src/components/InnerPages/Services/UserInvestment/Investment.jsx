@@ -92,7 +92,7 @@ function Investment() {
           </div>
 
           <div className="text-center mt-10">
-            <div className="justify-center">
+            <div className="justify-center md:px-0 px-5">
               <form onSubmit={(e) => handleSubmit(e)}>
                 <div className=" text-center text-xl px-10  ">
                   My name is
@@ -143,7 +143,7 @@ function Investment() {
                   <input
                     onChange={(e) => setEmail(e.target.value)}
                     value={email}
-                    type="email "
+                    type="email"
                     placeholder="Email"
                     className=" text-blue-500 font-bold border-b-2 border-black text-center border-0 focus:outline-none focus:ring-0"
                   />
