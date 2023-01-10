@@ -10,7 +10,9 @@ const Manufacturing = () => {
     <div>
       <>
         <Helmet>
-          <title>Manufacturing | Cerbosys</title>
+          <title>
+            Digital marketing services for manufacturing industry - cerbosys{' '}
+          </title>
           <meta
             name="keywords"
             content="manufacturing, manufacturing industry, IT Solutions for manufacturing industry, manufacturing industry IT solutions, manufacturing engineering, manufacturing industries"

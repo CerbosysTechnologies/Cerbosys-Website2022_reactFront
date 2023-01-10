@@ -10,11 +10,11 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function CaseStudyByOne() {
-  
   const IMG = IMAGE_SERVER + '/casestudyimage/';
   const { id } = useParams();
   console.log(id);
   const [pdf, setpdf] = useState('');
+  console.log(pdf);
   const [CaseStudytitle, setCaseStudytitle] = useState('');
   const [casestudyDes, setcasestudyDes] = useState('');
   const [casestudyimage, setcasestudyimage] = useState('');
@@ -70,6 +70,7 @@ function CaseStudyByOne() {
       });
   };
   const saveFile = () => {
+    console.log('dawnlod');
     saveAs(
       `https://cerbosys.in:3700/casestudypdf/${pdf}`,
 

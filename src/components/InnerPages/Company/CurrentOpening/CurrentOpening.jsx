@@ -10,14 +10,19 @@ const CurrentOpening = () => {
     <div>
       <>
         <Helmet>
-          <title>Current-Opening | Cerbosys</title>
+          <title>
+            Careers- web development & digital marketing jobs in Indore |
+            cerbosys
+          </title>
           <meta
             name="keywords"
             content="healthy work environment, innovative business solution provider, training & development sessions, performance linked incentives, reward programs, open positions, career"
           />
           <meta
             name="description"
-            content="Cerbosys Technologies Inc. is one of the leading Website Design and  Mobile App Development company who provides services across the world. Contact us now for growth."
+            content="Join cerbosys & lead innovations in digital marketing, ecommerce development. Make the choice that will build your future.
+            Meet future coworkers who inspire you..
+            "
           />
         </Helmet>
 

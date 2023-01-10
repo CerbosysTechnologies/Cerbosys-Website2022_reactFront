@@ -1,20 +1,25 @@
-import React from "react";
-import Navbar from "../../../../../Navbar/Navbar";
-import Footer from "../../../../../Common/Component/Footer";
-import { Link } from "react-router-dom";
-import AngularBody from "./AngularBody";
-import AngularForm from "./AngularForm";
-import { Helmet } from "react-helmet";
+import React from 'react';
+import Navbar from '../../../../../Navbar/Navbar';
+import Footer from '../../../../../Common/Component/Footer';
+import { Link } from 'react-router-dom';
+import AngularBody from './AngularBody';
+import AngularForm from './AngularForm';
+import { Helmet } from 'react-helmet';
 
 const Angular = () => {
   return (
     <div>
       <>
-
-      <Helmet>
+        <Helmet>
           <title>Hire Dedicated Angular Developer in Indore | Cerbosys</title>
-          <meta name="keywords" content="Hire Angular Developers, Hire Remote Angular Developers, AngularJS development company, hire AngularJS developers in India, AngularJS mobile and web apps development company" />
-          <meta name="description" content="" />
+          <meta
+            name="keywords"
+            content="Hire Angular Developers, Hire Remote Angular Developers, AngularJS development company, hire AngularJS developers in India, AngularJS mobile and web apps development company"
+          />
+          <meta
+            name="description"
+            content="Hire angular developers on flexible hiring models. Our highly-skilled angular Developers have the ability to build your business."
+          />
         </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-AngularHeader bg-cover md:bg-top bg-center">

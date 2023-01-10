@@ -10,10 +10,18 @@ const Agriculture = () => {
     <div>
       <>
         <Helmet>
-          <title>Top Agriculture Software and App Development Company in Indore</title>
+          <title>
+            Top Agriculture Software and App Development Company in Indore
+          </title>
           <meta
             name="keywords"
             content="agriculture website design company,farming web designer,agriculture web developer, agriculture software and app development services, agri mobile apps"
+          />
+
+          <meta
+            name="description"
+            content="Cerbosys provides agriculture software and app development services for start-ups to large business companies. Our domain specific services are customized and fine tuned according to the farmer’s perception.
+"
           />
         </Helmet>
 

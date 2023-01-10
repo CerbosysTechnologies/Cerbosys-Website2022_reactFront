@@ -10,7 +10,7 @@ const HealthCare = () => {
     <div>
       <>
         <Helmet>
-          <title>HealthCare | Cerbosys</title>
+          <title>Healthcare & life science customised solutions | Cerbosys</title>
           <meta
             name="keywords"
             content="healthcare and life sciences industry, healthcare and life sciences consulting,  changes in healthcare industry, technology trends in healthcare industry, healthcare information services industry

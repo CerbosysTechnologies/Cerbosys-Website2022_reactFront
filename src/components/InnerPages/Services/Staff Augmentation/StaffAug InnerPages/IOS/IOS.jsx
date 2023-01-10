@@ -16,7 +16,10 @@ const IOS = () => {
             name="keywords"
             content="hire iPhone app developers, hire iOS app developers, hire ios developer, iphone iOS developers India, ios development services, top ios development services in India, dedicated ios developers"
           />
-          <meta name="description" content="" />
+          <meta
+            name="description"
+            content="Hire ios developers on flexible hiring models. Our highly-skilled ios Developers have the ability to build your business."
+          />
         </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-IOSHeader bg-cover md:bg-top bg-center">

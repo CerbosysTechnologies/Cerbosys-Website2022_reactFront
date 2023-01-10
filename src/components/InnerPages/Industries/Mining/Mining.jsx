@@ -10,7 +10,9 @@ const Mining = () => {
     <div>
       <>
         <Helmet>
-          <title>Mining | Cerbosys</title>
+          <title>
+            Custom Software Development Company for Mining | Cerbosys{' '}
+          </title>
           <meta
             name="keywords"
             content="mining web development,app development for mining industry, mining application development, "

@@ -16,7 +16,10 @@ const Reactjs = () => {
             name="keywords"
             content="hire best reactjs programmers, hire react coders, hire react.js developers, hire remote react.js developers, hire top react.js engineers"
           />
-          <meta name="description" content="" />
+          <meta
+            name="description"
+            content="Hire ReactJS developers on flexible hiring models. Our highly-skilled ReactJS Developers have the ability to build your business."
+          />
         </Helmet>
 
         {/* <Navbar /> */}

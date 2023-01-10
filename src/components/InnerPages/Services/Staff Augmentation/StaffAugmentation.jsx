@@ -13,12 +13,17 @@ const StaffAugmentation = () => {
     <div>
       <>
         <Helmet>
-          <title>Staff Augmentation | Cerbosys Technologies</title>
+          <title>
+            Staff augmentation services & staffing solutions- cerbosys
+          </title>
           <meta
             name="keywords"
             content="staff augmentation services, staff augmentation, it staff augmentation, it staff augmentation services, it staff augmentation solutions, onboard new team members"
           />
-          <meta name="description" content="" />
+          <meta
+            name="description"
+            content="Looking for Hire Remote Developers? Hire a dedicated web developer on a contract basis, or work with my dedicated team at GraffersID to build your software."
+          />
         </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">

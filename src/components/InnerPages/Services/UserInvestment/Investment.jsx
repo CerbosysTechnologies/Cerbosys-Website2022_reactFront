@@ -101,7 +101,7 @@ function Investment() {
                     onChange={onchangeFullName}
                     type="text"
                     placeholder="Name"
-                    className=" text-blue-500 font-bold border-b-2 border-black text-center border-0 focus:outline-none focus:ring-0"
+                    className=" text-blue-500 font-bold border-b-2 flex-wrap border-black text-center border-0 focus:outline-none focus:ring-0"
                   />
                   {/* {errorsNa && (
                   <div className="text-left text-red-500">{errorsname}</div>

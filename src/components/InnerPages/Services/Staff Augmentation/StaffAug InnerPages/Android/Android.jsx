@@ -17,7 +17,10 @@ const Android = () => {
             name="keywords"
             content="Hire android developer, hire dedicated android developer, hire android programmer, hire developers, hire dedicated developers in india"
           />
-          <meta name="description" content="" />
+          <meta
+            name="description"
+            content="Hire android developers on flexible hiring models. Our highly-skilled android Developers have the ability to build your business."
+          />
         </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-AndroidHeader bg-cover md:bg-top bg-center">

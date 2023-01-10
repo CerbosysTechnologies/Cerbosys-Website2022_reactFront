@@ -16,7 +16,10 @@ const Laravel = () => {
             name="keywords"
             content="Hire Laravel Developers, Hire Remote Laravel Developers, Hire Top Laravel Engineers, Hire Laravel Coders, Hire Laravel Expert, Dedicated Laravel Web Framework Developer, hire dedicated laravel developer"
           />
-          <meta name="description" content="" />
+          <meta
+            name="description"
+            content="Hire laravel developers on flexible hiring models. Our highly-skilled laravel Developers have the ability to build your business."
+          />
         </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-LaravelHeader bg-cover md:bg-top bg-center">

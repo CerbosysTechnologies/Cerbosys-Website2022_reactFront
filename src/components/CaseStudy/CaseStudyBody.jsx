@@ -109,20 +109,38 @@ const CaseStudyBody = () => {
   };
   return (
     <div>
-      <div className="mx-auto w-full md:h-[50rem]  h-96 py-12 px-4 bg-CaseStudyHeader2 bg-cover md:bg-top bg-center">
+      <div className="mx-auto w-full md:h-[50rem]  h-[30rem]   py-12 px-4 bg-CaseStudyHeader2 bg-cover md:bg-top bg-center">
         {/* Content Section */}
-        <div className="flex flex-col justify-center text-left items-left md:h-[35rem] h-96 mx-auto  ">
+        <div className="flex flex-col justify-center text-left items-left md:h-[35rem] h-96 mx-auto   ">
           <h1 className="text-white font-heading py-2 md:text-3xl text-xl mb-10 mx-20 ">
-            Case Study
+            whitepapers
           </h1>
-
-          <p className="text-white font-content mx-20 py-2 md:text-lg text-xs md:mb-28 mb-24 md:w-[480px] text-left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, eum
-            maiores corrupti mollitia consequuntur doloremque voluptatum facilis
-            nihil quidem laborum consectetur consequatur repudiandae numquam
-            vero quibusdam est aliquam ullam vitae? Maxime assumenda facilis
-            magnam magni provident, corporis iusto eligendi quasi reprehenderit,
-            dolores esse excepturi nisi quas reiciendis debitis nam?
+          <p className="text-white font-content mx-10 py-2 md:text-sm text-xs   md:w-[480px] w-[250px]  text-left">
+            <p className="font-heading flex flex-wrap">
+              Our working model is based on the following principles:
+            </p>
+            <ul>
+              <li className="list-disc">
+                We believe in working with people, not just products. We strive
+                to create a collaborative and supportive culture that allows
+                everyone to be their best selves
+              </li>
+              <li className="list-disc">
+                We believe in being honest and open with our clients and
+                ourselves. This means we don't hold back anything that might
+                help us improve our services or the way we do business.
+              </li>
+              <li className="list-disc">
+                We are constantly evolving our services to meet new challenges
+                and opportunities that come up in the market.
+              </li>
+            </ul>
+            As a startup, you're probably feeling pretty overwhelmed by the
+            amount of work ahead of you.
+            <p>
+              Our process is simple: we listen to what you have to say, then we
+              design & code from scratch based on your requirements
+            </p>
           </p>
         </div>
         {/* Content Section Ends*/}
@@ -220,7 +238,7 @@ const CaseStudyBody = () => {
                   />
                   <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">
-                      {' '}
+                      
                       {item.casestudy_title}
                     </div>
                     <div className="flex items-center justify-center">
@@ -241,7 +259,7 @@ const CaseStudyBody = () => {
               ))
             ) : (
               <p> No service </p>
-            )}{' '} */}
+            )} */}
           </div>
         </div>
       </div>
@@ -276,7 +294,7 @@ const CaseStudyBody = () => {
                   className="text-3xl"
                   onClick={() => modalclose()}
                 />
-              </div>{' '}
+              </div>
             </div>
             <div className="     p-5 md:p5    ">
               <div className="font-heading  md:text-2xl md:font-bold text-xl">

@@ -16,7 +16,10 @@ const Flutter = () => {
             name="keywords"
             content="hire flutter app developers, flutter development company, hire dedicated flutter developer, flutter developer, flutter developer in india"
           />
-          <meta name="description" content="" />
+          <meta
+            name="description"
+            content="Hire flutter developers on flexible hiring models. Our highly-skilled flutter Developers have the ability to build your business."
+          />
         </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-FlutterHeader bg-cover md:bg-top bg-center">

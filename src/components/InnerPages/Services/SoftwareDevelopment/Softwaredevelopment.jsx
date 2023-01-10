@@ -10,12 +10,12 @@ function Softwaredevelopment() {
   return (
     <div>
       <Helmet>
-        <title>Software development - Cerbosys Technologies</title>
-       <meta name="keywords" content="software development services in indore, custom software and application development services, custom software development services india, business software development services, small business software development services
+        <title>Top custom software development services in India</title>
+        <meta name="keywords" content="software development services in indore, custom software and application development services, custom software development services india, business software development services, small business software development services
 " />
         <meta
           name="description"
-          content="We are an excellent UX/UI development company catering to our client's needs. Our team is comprised of UX/UI pros with in-depth knowledge of web and mobile development"
+          content="Cerbosys provides high-quality custom software development services in indore for Enterprise requirements"
         />
       </Helmet>
       <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">

@@ -10,17 +10,14 @@ const CaseStudy = () => {
       <>
         {/* <Navbar /> */}
         <Helmet>
-          <title>
-            Whitepapers- ecommerce & retail, mobile app, digital marketing, ERP
-            | Cerbosys Technologies
-          </title>
+          <title>Case Studies That Brought Amazing Results in 2023</title>
           <meta
             name="keywords"
             content="cerbosys, cerbosys whitepaper, whitepapers, digital marketing whitepaper, ecommerce whitepaper, retail whitepaper, ERP whitepaper, mobile app development whitepaper, whitepaper pdf"
           />
           <meta
             name="description"
-            content="Download the whitepapers covering all the on-demand services including ecommerce & retail, mobile app development, digital marketing, ERP."
+            content="Download Cerbosys whitepapers - covering ecommerce develpment, digital marketing, ERP, mobile app"
           />
         </Helmet>
         <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-CaseStudyHeader bg-cover md:bg-top bg-center">
@@ -30,7 +27,12 @@ const CaseStudy = () => {
               Whitepapers
             </h1>
 
-            <p className="text-white font-heading py-2 md:text-xl text-xs md:mb-28 mb-24 md:w-[480px] text-justify"></p>
+            <p className="text-white font-heading py-2 md:text-xl text-xs md:mb-28 mb-24 md:w-[480px] text-justify">
+              In this section, you'll get an overview of our working model along
+              with ERP whitepaper, ecommerce whitepaper, digital marketing
+              whitepaper, mobile app development whitepaper & whitepaper pdf as
+              per your niche.
+            </p>
           </div>
           {/* Content Section Ends*/}
         </div>

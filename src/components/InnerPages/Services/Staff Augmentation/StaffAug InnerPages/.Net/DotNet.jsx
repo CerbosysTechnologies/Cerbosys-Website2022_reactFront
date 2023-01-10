@@ -16,7 +16,10 @@ const DotNet = () => {
             name="keywords"
             content="hire .net developers,  hire asp .net developer, hire dot net programmers, dot net development company, .net development company, dot net development, .net application development, .net application development company, hire .net development team, .net Development team, .net Programmers, .net Programming Team, .net Team, hire .net developers"
           />
-          <meta name="description" content="" />
+          <meta
+            name="description"
+            content="Hire dotnet developers on flexible hiring models. Our highly-skilled dotnet Developers have the ability to build your business."
+          />
         </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-AngularHeader bg-cover md:bg-top bg-center">

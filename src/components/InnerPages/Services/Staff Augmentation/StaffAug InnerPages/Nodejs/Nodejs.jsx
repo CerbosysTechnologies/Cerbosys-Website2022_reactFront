@@ -16,7 +16,10 @@ const Nodejs = () => {
             name="keywords"
             content="hire nodejs dveloper, hire remote nodejs developers, hire dedicated Node.js developers in india"
           />
-          <meta name="description" content="" />
+          <meta
+            name="description"
+            content="Hire NodeJS developers on flexible hiring models. Our highly-skilled NodeJS Developers have the ability to build your business."
+          />
         </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-NodejsHeader bg-cover md:bg-top bg-center">

@@ -11,12 +11,17 @@ const CodeIgniter = () => {
     <div>
       <>
         <Helmet>
-          <title>Hire Dedicated CodeIgniter Developer in Indore | Cerbosys</title>
+          <title>
+            Hire Dedicated CodeIgniter Developer in Indore | Cerbosys
+          </title>
           <meta
             name="keywords"
             content="hire codeigniter developers, hire remote codeIgniter developers,  hire codeigniter expert, codeigniter programmers in india, codeigniter framework development, codeigniter developers, hire codeigniter developers in india, codeigniter expert"
           />
-          <meta name="description" content="" />
+          <meta
+            name="description"
+            content="Hire codeigniter developers on flexible hiring models. Our highly-skilled codeigniter Developers have the ability to build your business."
+          />
         </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-CodeIgniterHeader bg-cover md:bg-top bg-center">
