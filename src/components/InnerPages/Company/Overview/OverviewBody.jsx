@@ -22,7 +22,7 @@ const OverviewBody = () => {
         </div>
         {/* Track Ends */}
       </div>
-      <div className="mx-auto md:w-[1240px] w-96 font-content  my-5 text-justify text-xl md:px-0 px-4">
+      <div className="mx-auto md:w-[1240px]  w-80 font-content  my-5 text-justify text-xl md:px-0 px-4">
         With excitement, energy & a healthy workspace, we began this business.
         Our accomplishments have been a combined exertion of our digital
         marketing team with the software & web development team, lead generation

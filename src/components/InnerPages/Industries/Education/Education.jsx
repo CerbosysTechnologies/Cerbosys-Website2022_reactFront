@@ -10,10 +10,17 @@ const Education = () => {
     <div>
       <>
         <Helmet>
-          <title>Digital marketing for educational institutions Indore, India</title>
+          <title>
+            Digital marketing for educational institutions Indore, India
+          </title>
           <meta
             name="keywords"
             content="school & college educational erp, e-learning mobile app development, e learning mobile app design, education app developers india, online learning web app development, online learning web app development, learning games development, educational app development india"
+          />
+
+          <meta
+            name="description"
+            content="We provide professional Education Apps Services to small-leading educational organizations on iOS & Android platforms. Engaging digital marketing for- schools, colleges, universities & the education industry"
           />
         </Helmet>
         {/* <Navbar /> */}

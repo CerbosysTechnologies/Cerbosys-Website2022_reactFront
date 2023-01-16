@@ -1,9 +1,9 @@
-import React from "react";
-import traineeicon from "../../../../assets/innerpage/traininganddevelopment/traineeicon.svg";
-import boxone_icon from "../../../../assets/innerpage/traininganddevelopment/1box.svg";
-import boxtwo_icon from "../../../../assets/innerpage/traininganddevelopment/2box.svg";
-import boxthree_icon from "../../../../assets/innerpage/traininganddevelopment/3box.svg";
-import boxfour_icon from "../../../../assets/innerpage/traininganddevelopment/4box.svg";
+import React from 'react';
+import traineeicon from '../../../../assets/innerpage/traininganddevelopment/traineeicon.svg';
+import boxone_icon from '../../../../assets/innerpage/traininganddevelopment/1box.svg';
+import boxtwo_icon from '../../../../assets/innerpage/traininganddevelopment/2box.svg';
+import boxthree_icon from '../../../../assets/innerpage/traininganddevelopment/3box.svg';
+import boxfour_icon from '../../../../assets/innerpage/traininganddevelopment/4box.svg';
 // import Lottie from "react-lottie-player";
 // import lottieJson from "../../../../assets/JSN/circle-fade-loader.json";
 const TrainingAndDevelopmentBody = () => {
@@ -12,7 +12,7 @@ const TrainingAndDevelopmentBody = () => {
       <div className="mx-auto w-full py-16 px-4 bg-TrainingAndDevelopmentBody bg-no-repeat object-fill bg-center bg-contain">
         <div className="max-w-[1240px] mx-auto ">
           {/* Heading Section */}
-          <div className="flex flex-wrap items-center justify-center">
+          <div className="flex flex-wrap items-center justify-center break-all">
             <p className="font-heading text-2xl text-center">
               Training And Development
             </p>

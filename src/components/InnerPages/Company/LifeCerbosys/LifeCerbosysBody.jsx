@@ -1,11 +1,11 @@
-import React from "react";
-import cloudicon from "../../../../assets/innerpage/lifecerbosys/cloud.png";
-import gifticon from "../../../../assets/innerpage/lifecerbosys/gift.png";
-import diwaliicon from "../../../../assets/innerpage/lifecerbosys/diwali.png";
-import flagicon from "../../../../assets/innerpage/lifecerbosys/flag.png";
-import holiicon from "../../../../assets/innerpage/lifecerbosys/holi.png";
-import newyearicon from "../../../../assets/innerpage/lifecerbosys/newyear.svg";
-import bossthoughticon from "../../../../assets/innerpage/lifecerbosys/bossthought.svg";
+import React from 'react';
+import cloudicon from '../../../../assets/innerpage/lifecerbosys/cloud.png';
+import gifticon from '../../../../assets/innerpage/lifecerbosys/gift.png';
+import diwaliicon from '../../../../assets/innerpage/lifecerbosys/diwali.png';
+import flagicon from '../../../../assets/innerpage/lifecerbosys/flag.png';
+import holiicon from '../../../../assets/innerpage/lifecerbosys/holi.png';
+import newyearicon from '../../../../assets/innerpage/lifecerbosys/newyear.svg';
+import bossthoughticon from '../../../../assets/innerpage/lifecerbosys/bossthought.svg';
 
 const LifeCerbosysBody = () => {
   return (
@@ -16,7 +16,7 @@ const LifeCerbosysBody = () => {
           <div className="grid md:grid-cols-2 mt-32">
             {/* First Grid */}
             <div
-              className="relative mx-auto flex flex-col md:px-10 px-6 py-10 
+              className="relative mx-auto flex flex-col md:px-10 px-6 py-10 break-word
                 text-justify border-4 border-Primary rounded-xl items-center"
             >
               <img
@@ -42,7 +42,7 @@ const LifeCerbosysBody = () => {
 
             {/* Second Grid */}
             <div
-              className="relative mx-auto flex flex-col md:px-10 px-6 py-10 
+              className="relative mx-auto flex flex-col md:px-10 px-6 py-10 break-word
                 text-justify border-4 border-Primary rounded-xl items-center md:mt-0 mt-40"
             >
               <img
@@ -60,7 +60,7 @@ const LifeCerbosysBody = () => {
                 <br></br>
                 <br></br>
                 Rather than a formal goodbye, we always try to make it a more
-                memorable last-day work experience for the employee. 
+                memorable last-day work experience for the employee.
                 <strong>#employee farewell</strong>
               </p>
             </div>
@@ -69,7 +69,7 @@ const LifeCerbosysBody = () => {
 
             {/* Third Grid */}
             <div
-              className="relative mx-auto flex flex-col md:px-10 px-6 py-10 
+              className="relative mx-auto flex flex-col md:px-10 px-6 py-10 break-word
                 text-justify border-4 border-Primary rounded-xl items-center mt-36"
             >
               <img
@@ -95,7 +95,7 @@ const LifeCerbosysBody = () => {
 
             {/* Fourth Grid */}
             <div
-              className="relative mx-auto flex flex-col md:px-10 px-6 py-10 
+              className="relative mx-auto flex flex-col md:px-10 px-6 py-10 break-word
                 text-justify border-4 border-Primary rounded-xl items-center mt-48"
             >
               <img
@@ -112,7 +112,7 @@ const LifeCerbosysBody = () => {
                 Independence day 2022 was special as it was about the theme “Har
                 Ghar Tiranga”. It is always a pleasant experience to celebrate
                 national festivals with the Cerbosys family since your workplace
-                is nothing less than your second home.{" "}
+                is nothing less than your second home.{' '}
                 <strong>#salute to tiranga</strong>
               </p>
             </div>
@@ -121,7 +121,7 @@ const LifeCerbosysBody = () => {
 
             {/* Fifth Grid */}
             <div
-              className="relative mx-auto flex flex-col md:px-10 px-6 py-10 
+              className="relative mx-auto flex flex-col md:px-10 px-6 py-10 break-word
                 text-justify border-4 border-Primary rounded-xl items-center md:mt-52 mt-32"
             >
               <img
@@ -143,8 +143,8 @@ const LifeCerbosysBody = () => {
 
             {/* Sixth Grid */}
             <div
-              className="relative mx-auto flex flex-col md:px-10 px-6 py-10 
-                text-justify border-4 border-Primary rounded-xl items-center mt-52"
+              className="relative mx-auto flex flex-col md:px-10 px-6 py-10  break-word
+                text-justify border-4 border-Primary rounded-xl items-center mt-52 break-words"
             >
               <img
                 src={newyearicon}
@@ -162,7 +162,7 @@ const LifeCerbosysBody = () => {
                 efficiently and joyfully.
                 <br></br>
                 We switched from - working hard to working joyfully, as we
-                believe that if you love what you do then miracles happen.{" "}
+                believe that if you love what you do then miracles happen.{' '}
                 <strong>#new year celebration</strong>
               </p>
             </div>
@@ -172,12 +172,12 @@ const LifeCerbosysBody = () => {
           {/* Body Section Ends */}
 
           {/* Heading Section */}
-          <div className="flex flex-wrap items-center justify-center mt-10">
+          <div className="flex flex-wrap items-center justify-center mt-10 break-word">
             <p className="font-heading text-2xl text-center">
               What Our Employees Say About Us:
             </p>
 
-            <p className="mx-10 w-[900px] font-content md:text-lg text-sm text-justify mt-5">
+            <p className="mx-10 w-[900px] font-content md:text-lg text-sm text-justify mt-5 ">
               Cerbosys is a great place to work. Working with team Cerbosys is
               fun and challenging, and we love seeing new ideas and developments
               coming out of the office every day. We've been extremely proud of
@@ -188,12 +188,16 @@ const LifeCerbosysBody = () => {
               employees. They are the heart and soul of our company, and we are
               constantly striving to provide them with the best possible working
               environment.
-            </p>          
+            </p>
           </div>
 
           {/* Image Thought Section */}
           <div className="items-center justify-center md:px-28 md:py-5 mt-10 md:-mb-96 -mb-56">
-            <img src={bossthoughticon} alt="Boss Thought" className="md:w-[60rem] md:h-[70rem]"/>
+            <img
+              src={bossthoughticon}
+              alt="Boss Thought"
+              className="md:w-[60rem] md:h-[70rem]"
+            />
           </div>
           {/* Image Thought Section Ends*/}
 

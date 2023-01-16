@@ -16,6 +16,10 @@ const HealthCare = () => {
             content="healthcare and life sciences industry, healthcare and life sciences consulting,  changes in healthcare industry, technology trends in healthcare industry, healthcare information services industry
 "
           />
+          <meta
+            name="description"
+            content="We offer end-to-end wide spectrum of healthcare solutions including telemedicine applications, highly optimized & targeted marketing campaign."
+          />
         </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[36rem] bg-HealthCareHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">

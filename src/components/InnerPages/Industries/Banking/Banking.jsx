@@ -14,6 +14,11 @@ const Banking = () => {
           name="keywords"
           content="Web Apps for Internet Banking, Finance solutions, banking solutions, banking and finance solutions, banking app solutions, latest technology trends "
         />
+
+        <meta
+          name="description"
+          content="We work tirelessly to help you meet both banking compliance requirements and business goals. Leverage the power of PPC, SEO, Social, content & more."
+        />
       </Helmet>
       {/* <Navbar /> */}
       <div className="mx-auto w-full md:h-[36rem] bg-BankingHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
