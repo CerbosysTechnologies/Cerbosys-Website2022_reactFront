@@ -20,7 +20,7 @@ const Diversity = () => {
             content="Cerbosys is committed to diversity and inclusion. Everyone is encouraged to bring their whole self to work, and we build a culture of diversity and creativity."
           />
         </Helmet>
-        
+
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[43rem]  h-96 py-12 px-4 bg-DiversityBackground bg-cover md:bg-top bg-center">
           {/* Content Section */}
@@ -29,7 +29,7 @@ const Diversity = () => {
               Diversity
             </h1>
 
-            <p className="text-white font-subheading py-2  md:w-[50rem] text-justify md:mt-56 mt-20 md:mb-0 mb-14">
+            <p className="text-white font-subheading py-2  md:w-[50rem] text-justify md:my-20 md:mb-10 mb-28 ">
               Cerbosys values diversity and inclusion. We encourage all members
               of the team to be themselves, bring their whole selves to work,
               and shape a creative and inclusive culture.

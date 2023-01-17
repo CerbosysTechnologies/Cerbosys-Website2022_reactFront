@@ -17,6 +17,10 @@ const Mining = () => {
             name="keywords"
             content="mining web development,app development for mining industry, mining application development, "
           />
+          <meta
+            name="description"
+            content="Cerbosys tech provides an integrated & comprehensive suite of solutions for mining operations management has successfully to reconcile all key functions."
+          />
         </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[36rem] bg-MiningHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">

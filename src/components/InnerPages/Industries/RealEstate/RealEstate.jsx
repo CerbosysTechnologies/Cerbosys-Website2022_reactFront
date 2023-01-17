@@ -15,6 +15,10 @@ const RealEstate = () => {
             name="keywords"
             content="real estate app development, real estate web app development company, real estate web solutions, real estate website development, real estate website development company, real estate web design company,real estate website solutions, real estate web development services"
           />
+          <meta
+            name="description"
+            content="Cerbosys technologies creates growth-oriented digital experiences for your real estate brand. Partner with the top-rated real estate digital marketing company today!"      />
+        
         </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[36rem] bg-RealEstateHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">

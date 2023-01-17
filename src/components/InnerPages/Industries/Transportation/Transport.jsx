@@ -17,6 +17,10 @@ const Transport = () => {
             name="keywords"
             content="web application for shipping and logistics, logistics digital marketing, logistics transportation services, logistics and transportation software development, logistics and transportation software development company"
           />
+          <meta
+            name="description"
+            content="We provide logistics software and app development services  will help you optimize operating costs, cut fuel consumption,  improve asset tracking & solve vehicle routing issues"
+          />
         </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[36rem] bg-TransportHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">

@@ -17,6 +17,10 @@ const Manufacturing = () => {
             name="keywords"
             content="manufacturing, manufacturing industry, IT Solutions for manufacturing industry, manufacturing industry IT solutions, manufacturing engineering, manufacturing industries"
           />
+          <meta
+            name="description"
+            content="Manufacturing industry IT solutions ready with our process & discrete manufacturing software services. Manufacturers can develop their social media profiles and deliver the latest company news or new product information to their clients"
+          />
         </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[36rem] bg-ManufacturingHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
