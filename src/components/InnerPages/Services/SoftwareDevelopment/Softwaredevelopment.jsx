@@ -8,11 +8,14 @@ import SoftwareDForm from './SoftwareDForm';
 
 function Softwaredevelopment() {
   return (
-    <div>
+    <div className="overflow-y-scroll text-start break-words">
       <Helmet>
         <title>Top custom software development services in India</title>
-        <meta name="keywords" content="software development services in indore, custom software and application development services, custom software development services india, business software development services, small business software development services
-" />
+        <meta
+          name="keywords"
+          content="software development services in indore, custom software and application development services, custom software development services india, business software development services, small business software development services
+"
+        />
         <meta
           name="description"
           content="Cerbosys provides high-quality custom software development services in indore for Enterprise requirements"
@@ -24,7 +27,7 @@ function Softwaredevelopment() {
           <h1 className="text-white font-heading py-2 md:text-3xl text-xl mb-2">
             Software Development
           </h1>
-          <p className="text-white font-content py-2 md:text-xl text-xs mb-8 md:w-[700px] w-96">
+          <p className="text-white font-content py-2 md:text-xl text-xs mb-8 md:w-[700px] w-80">
             Software development is the process of creating computer software.
             It involves writing code, testing it, and making sure it meets the
             requirements of the client

@@ -8,17 +8,16 @@ function ServiceDescSD() {
     <div>
       <div>
         <div className=" mx-auto w-full py-16 px-4 ">
-          <div className="max-w-[1240px] mx-auto ">
+          <div className="max-w-[1240px] mx-auto text-justify break-words ">
             {/* First Section */}
             <Bounce duration={3000}>
               <div className="grid md:grid-cols-2">
                 {/* Content Section */}
 
-                <div className="mx-auto flex flex-col md:px-24 px-14 text-justify">
+                <div className="mx-auto flex flex-col md:px-24 px-10  ">
                   <h2 className="font-heading md:text-2xl text-xl mb-5">
                     Software Development
                   </h2>
-
                   <p className="font-content md:text-lg text-sm">
                     Software development is a complex and ever-evolving field
                     that requires specialized skills, experience, and
@@ -44,7 +43,7 @@ function ServiceDescSD() {
                 />
 
                 {/* Image Section Ends*/}
-              </div>{' '}
+              </div>
             </Bounce>
             {/* Grid Div */}
             {/* First Section Ends */}
@@ -65,8 +64,8 @@ function ServiceDescSD() {
 
                 {/* Content Section */}
                 {/* <Bounce right duration={3000}> */}
-                <div className="flex flex-col md:px-24 px-14 mx-auto text-justify mt-8">
-                  <h2 className="font-heading md:text-2xl text-lg text-white mb-5">
+                <div className="flex flex-col md:px-24 px-10 mx-auto text-justify break-word mt-8">
+                  <h2 className="font-heading md:text-2xl text-lg text-white mb-5 ">
                     We are aware of the Software Development Technology Pulse
                     that Leads to Better Performance
                   </h2>

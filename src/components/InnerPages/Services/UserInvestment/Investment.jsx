@@ -84,14 +84,13 @@ function Investment() {
     <div>
       <div className=" mx-auto w-full py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
-          <div className="font-heading text-center text-2xl px-10 my-5">
+          <div className="font-heading text-justify break-all text-2xl px-10 my-5">
             Make today's investment count for tomorrow's success.
           </div>
-          <div className="font-subheading text-center text-xl px-10 my-5">
+          <div className="font-subheading text-justify text-xl px-10 my-5 break-words ">
             Let's get together and start growing your business.
           </div>
-
-          <div className="text-center mt-10">
+          <div className="text-justify mt-10">
             <div className="justify-center md:px-0 px-5">
               <form onSubmit={(e) => handleSubmit(e)}>
                 <div className=" text-center text-xl px-10  ">
@@ -149,7 +148,7 @@ function Investment() {
                   />
                   .
                 </div>
-                <div className="py-10">
+                <div className="py-10 justify-center text-center">
                   <input
                     className="mt-6 mb-6 bg-Primary text-white font-heading py-2 px-4 rounded "
                     type="submit"
