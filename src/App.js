@@ -55,7 +55,8 @@ import { Fragment } from 'react';
 import { useState } from 'react';
 import Softwaredevelopment from './components/InnerPages/Services/SoftwareDevelopment/Softwaredevelopment';
 import CurrentOpningGetbyOne from './components/InnerPages/Company/CurrentOpening/CurrentOpningGetbyOne';
-
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 function App() {
   document.addEventListener('contextmenu', handelRightClick);
   return (
