@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
 
   corePlugins: {
     userSelect: false,
@@ -9,12 +9,17 @@ module.exports = {
     extend: {
       colors: {
         //'Primary':'#151F53',
-        Primary: "#0F52BA", // Sapphire Blue
+        Primary: '#0F52BA', // Sapphire Blue
         //'Primary':'#003399', // Rotary Blue
         //'Primary':'#4169E1', // King Blue
         //'Primary':'#0050B5', // Cobolt Blue
-        Secondary: "#404CDC",
-        Green: "#3C9612",
+        Secondary: '#404CDC',
+        Green: '#3C9612',
+        Skyblue: '#00D8FF',
+        Lightpink: '#FFD0D2',
+        Lightgreen: '#31E2B2',
+        Lightgrey: '#7A7A7A',
+        Lightblue:"#6BE6EB",
       },
     },
 
@@ -51,7 +56,9 @@ module.exports = {
       AgricultureHeader:
         "url('assets/innerpage/agriculture/agricultureheader.svg')",
       BankingHeader: "url('assets/innerpage/banking/bankingheader.svg')",
-      EcommerceHeader: "url('assets/innerpage/ecommerce/ecommerceheader.svg')",
+      EcommerceHeader: "url('assets/innerpage/ecommerce/ecommersbg.png')",
+      EcommersBodybg:
+        "url('assets/innerpage/ecommerce/ecommersbggreenblue.png')",
       HealthCareHeader: "url('assets/innerpage/healthcare/healthheader.png')",
       MiningHeader: "url('assets/innerpage/mining/miningheader.svg')",
       TransportHeader: "url('assets/innerpage/transport/transportheader.svg')",
@@ -83,29 +90,29 @@ module.exports = {
       Ecomers: "url('assets/Solution/Ecomers.png')",
     },
     fontFamily: {
-      heading: ['"Heading"', "Montserrat-Bold"],
-      subheading: ['"Subheading"', "Montserrat-Medium"],
-      content: ['"Content"', "Montserrat-Regular"],
+      heading: ['"Heading"', 'Montserrat-Bold'],
+      subheading: ['"Subheading"', 'Montserrat-Medium'],
+      content: ['"Content"', 'Montserrat-Regular'],
     },
 
     theme: {
       screens: {
-        sm: "640px",
+        sm: '640px',
         // => @media (min-width: 640px) { ... }
 
-        md: "768px",
+        md: '768px',
         // => @media (min-width: 768px) { ... }
 
-        lg: "1024px",
+        lg: '1024px',
         // => @media (min-width: 1024px) { ... }
 
-        xl: "1280px",
+        xl: '1280px',
         // => @media (min-width: 1280px) { ... }
 
-        "2xl": "1536px",
+        '2xl': '1536px',
         // => @media (min-width: 1536px) { ... }
       },
     },
   },
-  plugins: [require("@tailwindcss/aspect-ratio")],
+  plugins: [require('@tailwindcss/aspect-ratio')],
 };

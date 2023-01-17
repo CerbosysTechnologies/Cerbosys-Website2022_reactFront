@@ -1,90 +1,271 @@
-import React from "react";
-import ecommercemobicon from "../../../../assets/innerpage/ecommerce/ecommercemob.png";
-import ecommercebusinessicon from "../../../../assets/innerpage/ecommerce/ecommerceimage.png";
-
+import React from 'react';
+import ecommercemobicon from '../../../../assets/innerpage/ecommerce/ecommercemob.png';
+import ecommersarrival from '../../../../assets/innerpage/ecommerce/ecommersarrival.png';
+import ecommercebusinessicon from '../../../../assets/innerpage/ecommerce/ecommerceimage.png';
+import fourthmob from '../../../../assets/innerpage/ecommerce/fourthmob.png';
+import thirdmob from '../../../../assets/innerpage/ecommerce/thirdmob.png';
+import secondmob from '../../../../assets/innerpage/ecommerce/seconmob.png';
+import ecommermob from '../../../../assets/innerpage/ecommerce/ecommermob.png';
+import Slider from 'react-slick';
 export const EcommerceBody = () => {
+  var settings = {
+    dots: false,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
   return (
     <div>
-      <div className="mx-auto w-full py-10 px-4 ">
-        <div className="max-w-[1240px] mx-auto">
+      <div className="w-full py-10 px-4 ">
+        <div className="">
           {/* Image Section */}
-          <div className="flex flex-wrap mx-auto items-center justify-center space-x-10">
-            {/* Mobile Image */}
-            <div className="">
-              <img
-                src={ecommercemobicon}
-                alt="Ecommerce Mobile"
-                className="md:h-[30rem]"
-              />
+          <div className="flex flex-wrap justify-center items-center   px-8 ">
+            <div className="flex flex-wrap justify-center items-center   px-8 gap-6 ">
+              {/* Mobile Image */}
+              <div className="flex flex-col ">
+                <div className="">
+                  <img
+                    src={ecommermob}
+                    alt="Ecommerce Mobile"
+                    className="w-full py-2"
+                  />
+                </div>
+                <div className="">
+                  <img
+                    src={ecommermob}
+                    alt="Ecommerce Mobile"
+                    className="w-full py-2"
+                  />
+                </div>
+              </div>
+              <div className="">
+                <img
+                  src={ecommercemobicon}
+                  alt="Ecommerce Mobile"
+                  // className="md:h-[30rem]"
+                />
+              </div>
+              <div className="flex flex-col ">
+                <div className="">
+                  <img
+                    src={ecommermob}
+                    alt="Ecommerce Mobile"
+                    className="w-full py-2"
+                  />
+                </div>
+                <div className="">
+                  <img
+                    src={ecommermob}
+                    alt="Ecommerce Mobile"
+                    className="w-full py-2"
+                  />
+                </div>
+              </div>
             </div>
+
             {/* Mobile Image */}
 
             {/* Image Section Ends*/}
 
             {/* Side */}
             <div className="flex flex-wrap flex-col ">
-              <h2 className="text-Green md:text-3xl text-xl mt-4 font-heading text-center mb-6">
-                Ecommerce In Business
+              <h2 className="text-Secondary md:text-3xl text-xl mt-4 font-heading text-center mb-6">
+                E-COMMERCE<span className="text-Green"> &</span> RETAIL
               </h2>
-              <img
+              {/* <img
                 src={ecommercebusinessicon}
                 alt="Ecommerce Business"
                 className="md:h-[20rem]"
-              />
+              /> */}
               <p className="font-content  md:w-[33rem] mt-6 text-justify">
-                E-commerce is a powerful force in today's economy. It allows
-                buyers to purchase items from the comfort of their own homes,
-                and it allows sellers to reach a global audience. Whether you're
-                a buyer looking for the best deals, or a seller looking to
-                expand your business, e-commerce is a great way to do it.
+                The ecommerce and retail sector is one of the most competitive
+                markets in the world. This means that it's not just about
+                finding the right product or service to offer, but also about
+                finding a way to stand out from all the other websites that are
+                out there.
+              </p>
+              <p className="font-content  md:w-[33rem] mt-6 text-justify">
+                There's no doubt that your website has to be easy to navigate,
+                but it also needs to be appealing and show off your brand
+                identity in a way that will make visitors want to return again
+                and again.
+              </p>
+              <p className="font-content md:w-[33rem] mt-6 text-justify">
+                You can indeed get away with using simple graphics and text on
+                your website if you're only selling one product or service, but
+                as soon as you begin to sell more items or services, it becomes
+                necessary for you to invest more time and money into making sure
+                everything is done correctly.
               </p>
             </div>
             {/* Side Image*/}
           </div>
 
-          {/* Bullet Section */}
-          <div className="flex flex-wrap flex-col mx-auto">
-            <div className="font-heading md:text-3xl text-xl mt-10 text-center">
-              Our Services for the E-commerce Industry
+          {/* slider Section */}
+          <div className="w-full md:h-[36rem] bg-EcommersBodybg h-96  md:bg-top mt-16 py-8">
+            <div className="px-8 md:px-12">
+              <div>
+                {/* "font-heading md:text-3xl text-xl mt-10 text-center text-Primary" */}
+                <p className="text-white md:text-3xl text-xl mt-4 font-heading text-center mb-6">
+                  Our Portfolio
+                </p>
+              </div>
+              <div>
+                <Slider {...settings}>
+                  <div className="h-52 md:h-90 px-8">
+                    <div className="relative bg-Lightpink h-[140px] md:h-[200px] rounded-t-lg">
+                      <div className="absolute inset-x-0 bottom-0 left-6 right-6 top-6 h-[160px]">
+                        <img
+                          src={ecommersarrival}
+                          alt="img"
+                          className="w-full h-[118px] md:h-[178px]"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="bg-white text-center rounded-br-lg">
+                      <div className="py-3">
+                        <p className=" font-subheading">
+                          Fashion E-commerce<br></br> Store
+                        </p>
+                      </div>
+                      <div className="">
+                        <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
+                          Know More
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="h-52 md:h-90 px-8">
+                    <div className="relative bg-Lightgreen h-[140px] md:h-[200px] rounded-t-lg">
+                      <div className="absolute inset-x-0 bottom-0 left-6 right-6 top-6">
+                        <img
+                          src={ecommersarrival}
+                          alt="img"
+                          className="w-full h-[118px] md:h-[178px]"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="bg-white text-center  rounded-br-lg">
+                      <div className="py-3">
+                        <p className=" font-subheading">
+                          Fashion E-commerce<br></br> Store
+                        </p>
+                      </div>
+                      <div className="">
+                        <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
+                          Know More
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="h-52 md:h-90 px-8">
+                    <div className="relative bg-Lightblue h-[140px] md:h-[200px] rounded-t-lg">
+                      <div className="absolute inset-x-0 bottom-0 left-6 right-6 top-6 h-[160px]">
+                        <img
+                          src={ecommersarrival}
+                          alt="img"
+                          className="w-full h-[118px] md:h-[178px]"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="bg-white  text-center  rounded-br-lg">
+                      <div className="py-3">
+                        <p className=" font-subheading">
+                          Fashion E-commerce<br></br> Store
+                        </p>
+                      </div>
+                      <div className="">
+                        <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
+                          Know More
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="h-52 md:h-90 px-8">
+                    <div className="relative bg-sky-500/100 h-[140px] md:h-[200px] rounded-t-lg">
+                      <div className="absolute inset-x-0 bottom-0 left-6 right-6 top-6 h-[160px]">
+                        <img
+                          src={ecommersarrival}
+                          alt="img"
+                          className="w-full h-[118px] md:h-[178px]"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="bg-white  text-center  rounded-br-lg">
+                      <div className="py-3">
+                        <p className=" font-subheading">
+                          Fashion E-commerce<br></br> Store
+                        </p>
+                      </div>
+                      <div className="">
+                        <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
+                          Know More
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="h-52 md:h-90 px-8">
+                    <div className="relative bg-sky-500/100 h-[140px] md:h-[200px] rounded-t-lg">
+                      <div className="absolute inset-x-0 bottom-0 left-6 right-6 top-6 h-[160px]">
+                        <img
+                          src={ecommersarrival}
+                          alt="img"
+                          className="w-full h-[118px] md:h-[178px]"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="  rounded-br-lg bg-white  text-center ">
+                      <div className="py-3">
+                        <p className=" font-subheading">
+                          Fashion E-commerce<br></br> Store
+                        </p>
+                      </div>
+                      <div className="pb-3">
+                        <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
+                          Know More
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </Slider>
+              </div>
             </div>
-
-            <ul className="text-justify font-content  mt-10 list-disc">
-              <li>
-                <strong>E-commerce merchandising :-</strong> We offer e-commerce
-                merchandising services through the process of optimizing your
-                product listings to get the most traffic leading to sales. By
-                using the right techniques, we make sure your products get seen
-                by the right people and generate revenue online.
-              </li>
-
-              <li>
-                <strong>Digital Marketing :-</strong>We provide digital
-                marketing optimization and innovative marketing campaigns to
-                improve conversions and ROI. This can be done through a variety
-                of means, including services like social media promotion, paid
-                ad campaigns, etc.
-              </li>
-
-              <li>
-                <strong>Advanced Customer Analytics :-</strong> With our
-                cutting-edge solutions, you'll be able to get a deeper
-                understanding of your customers and their needs that will take
-                your customer analytics to the next level. By understanding what
-                makes your customers unique, you can create a more targeted
-                marketing strategy that resonates with them and drives sales.
-              </li>
-
-              <li>
-                <strong>Maintenance and Support :-</strong> Maintenance and
-                Support is the newest way to improve your website's usability,
-                increase user engagement and improve conversion on your website.
-                By creating a maintenance or support plan for your e-commerce or
-                retail software, we help in generating leads and increase user
-                engagement.
-              </li>
-            </ul>
           </div>
-          {/* Bullet Section Ends*/}
+          {/* slider Section Ends*/}
         </div>
       </div>
     </div>
