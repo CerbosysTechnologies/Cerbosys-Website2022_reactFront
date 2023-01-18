@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import clientinteractionicon from '../../assets/customer/Client_interaction.svg';
-import consolidationicon from '../../assets/customer/Consolidation.svg';
-import deliverablesicon from '../../assets/customer/Deliverables.svg';
-import developmenticon from '../../assets/customer/Development.svg';
+import clientinteractionicon from '../../assets/customer/client_interaction.svg';
+import consolidationicon from '../../assets/customer/consolidation.svg';
+import deliverablesicon from '../../assets/customer/deliverables.svg';
+import developmenticon from '../../assets/customer/development.svg';
 
 const CustomerRelationHomePage = () => {
   return (

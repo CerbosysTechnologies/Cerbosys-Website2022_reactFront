@@ -5,7 +5,7 @@ import staffaugmentationicon from '../../assets/services/staff_augmentation.svg'
 import brandpackingicon from '../../assets/services/branding_packaging.svg';
 import digitalmarketingicon from '../../assets/services/digital_marketing.svg';
 import leadrgenerationicon from '../../assets/services/lead_generation.svg';
-import uxdevelopmenticon from '../../assets/services/ux_Development.svg';
+import uxdevelopmenticon from '../../assets/services/ux_development.svg';
 import quoteicon from '../../assets/services/quote.svg';
 import RubberBand from 'react-reveal/RubberBand';
 import Slide from 'react-reveal/Slide';
