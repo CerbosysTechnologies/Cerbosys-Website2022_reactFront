@@ -19,7 +19,10 @@ module.exports = {
         Lightpink: '#FFD0D2',
         Lightgreen: '#31E2B2',
         Lightgrey: '#7A7A7A',
-        Lightblue:"#6BE6EB",
+        Lightblue: '#6BE6EB',
+        Darkblue: '#6c0ba9',
+        Textblue: '#4d516d',
+        Orange: '#fe6e00',
       },
     },
 
@@ -59,7 +62,8 @@ module.exports = {
       EcommerceHeader: "url('assets/innerpage/ecommerce/ecommersbg.png')",
       EcommersBodybg:
         "url('assets/innerpage/ecommerce/ecommersbggreenblue.png')",
-      HealthCareHeader: "url('assets/innerpage/healthcare/healthheader.png')",
+      HealthCareHeader: "url('assets/innerpage/healthcare/bghealth.png')",
+      HealthCarebody: "url('assets/innerpage/healthcare/healthbgbody.png')",
       MiningHeader: "url('assets/innerpage/mining/miningheader.svg')",
       TransportHeader: "url('assets/innerpage/transport/transportheader.svg')",
       RealEstateHeader:

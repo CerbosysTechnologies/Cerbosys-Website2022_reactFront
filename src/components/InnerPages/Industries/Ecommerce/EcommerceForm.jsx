@@ -29,13 +29,14 @@ const EcommerceForm = ({ onChangeSelected }) => {
             </h2>
             {/* Heading Ends */}
             {/* Form Design */}
-            <div className="grid md:grid-cols-2 mb-4 mt-10 md:w-10/12 shadow-xl shadow-gray-600">
+            {/* md:w-10/12 md:grid-cols-2*/}
+            <div className="grid md:grid-cols-2  mb-4 mt-10 shadow-xl shadow-gray-600">
               {/* Image Section */}
               <div className="mx-auto items-center justify-center ">
                 <img
                   src={!imgName ? contact_icon : imgName}
                   alt=""
-                  className="h-full"
+                  className="h-full w-full"
                 ></img>
               </div>
               {/* Image Section Ends*/}

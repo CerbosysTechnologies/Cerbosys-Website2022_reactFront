@@ -36,9 +36,9 @@ const TrainingAndDevelopmentBody = () => {
 
           {/* Body Section */}
 
-          <div className="grid md:grid-cols-2 mt-8">
+          <div className="grid md:grid-cols-2 mt-8 w-full ">
             {/* First Grid */}
-            <div className="mx-auto flex flex-col md:px-14 md:py-14 px-6 py-6 text-justify border-4 border-gray-700 rounded-xl items-center">
+            <div className="mx-auto flex flex-col md:px-14 md:py-14 px-3 py-6 text-justify border-4 border-gray-700 rounded-xl items-center w-full">
               {/* <Lottie
                 loop
                 animationData={lottieJson}
@@ -73,7 +73,7 @@ const TrainingAndDevelopmentBody = () => {
 
             {/* Second Grid  */}
 
-            <div className="md:mt-0 mt-20 mx-auto flex flex-col md:px-14 py-6 px-6 text-justify border-4 border-gray-700 rounded-xl items-center">
+            <div className="md:mt-0 mt-20 mx-auto flex flex-col md:px-14 py-6 px-3  text-justify border-4 border-gray-700 rounded-xl items-center w-full">
               <img
                 src={boxtwo_icon}
                 alt="Second Icon"
@@ -101,7 +101,7 @@ const TrainingAndDevelopmentBody = () => {
 
             {/* Third Grid  */}
 
-            <div className=" mt-20 mx-auto flex flex-col md:px-14 py-6 px-6 text-justify border-4 border-gray-700 rounded-xl items-center">
+            <div className=" mt-20 mx-auto flex flex-col md:px-14 py-6 px-3  text-justify border-4 border-gray-700 rounded-xl items-center w-full">
               <img
                 src={boxthree_icon}
                 alt="Third Icon"
@@ -130,7 +130,7 @@ const TrainingAndDevelopmentBody = () => {
 
             {/* Fourth Grid  */}
 
-            <div className=" mt-20 mx-auto flex flex-col md:px-14 py-6 px-6 text-justify border-4 border-gray-700 rounded-xl items-center">
+            <div className=" mt-20 mx-auto flex flex-col md:px-14 py-6 px-3  text-justify border-4 border-gray-700 rounded-xl items-center w-full">
               <img
                 src={boxfour_icon}
                 alt="Fourth Icon"

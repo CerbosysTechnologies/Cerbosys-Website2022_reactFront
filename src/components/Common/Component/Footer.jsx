@@ -26,7 +26,8 @@ const Footer = () => {
   // animation end
   return (
     <div>
-      <div className="bg-FooterBackground w-full h-full mx-auto py-4 px-20">
+      {/* py-4 px-20 */}
+      <div className="bg-FooterBackground w-full h-full mx-auto px-5 py-2  md:px-20 md:py-4">
         <div className="max-w-[1240px] mx-auto">
           <div className="">
             {/* <div className="grid md:grid-cols-5 gap-2"> */}
@@ -78,8 +79,15 @@ const Footer = () => {
                 />
               </div>
             </div>
+            {/* md:gap-20 md:gap-20*/}
             {/* Main Div of all three columns */}
-            <div className="md:col-span-4 flex flex-wrap md:justify-between justify-center md:items-center items-center md:m-3 md:mt-5 md:gap-20 mt-3 gap-10">
+            <div
+              className="md:col-span-4 flex flex-wrap
+              md:justify-between 
+            md:m-3 md:mt-5  mt-3 "
+            >
+              {/* md:justify-between justify-center 
+              md:items-center items-center  */}
               {/* Second Column */}
               <div className="">
                 <h6 className="font-heading text-sm md:text-lg text-white uppercase mb-3 md:px-0 ">
@@ -116,6 +124,37 @@ const Footer = () => {
                   </li>
                   <li className="">
                     <Link to="/privacy-policy">Privacy Policy</Link>
+                  </li>
+                </ul>
+              </div>
+              <div className="">
+                <h6 className="font-heading text-sm md:text-lg text-white uppercase mb-3 md:px-0 ">
+                  Company
+                </h6>
+                <ul className="text-white font-subheading text-xs ">
+                  <li className="">
+                    <Link to="/Overview">Overview</Link>
+                  </li>
+                  <li className="">
+                    <Link to="/TrainingAndDevelopment">
+                      Traing and development
+                    </Link>
+                  </li>
+                  {/* <li className="">Services</li>
+                  <li className="">Industries</li>
+                  <li className="">Case Study</li>
+                  <li className="">Blog</li> */}
+                  <li className="">
+                    <Link to="/team">Team</Link>
+                  </li>
+                  <li className="">
+                    <Link to="/LifeCerbosys">Life and Cerbosys</Link>
+                  </li>
+                  <li className="">
+                    <Link to="/Diversity">Deversity Cerbosys</Link>
+                  </li>
+                  <li className="">
+                    <Link to="/Testimonial">Testimonial</Link>
                   </li>
                 </ul>
               </div>
@@ -211,7 +250,7 @@ const Footer = () => {
               {/* Fourth Column Ends */}
 
               {/* Fifth Column */}
-              <div className="mt-5 ">
+              <div className=" ">
                 <h6 className="font-heading text-lg text-white uppercase  mb-3">
                   Contact Us
                 </h6>
@@ -255,6 +294,7 @@ const Footer = () => {
                 <br />
                 <br></br>
               </div>
+
               {/* Fifth Column Ends*/}
             </div>
             {/* Main div of inside */}
@@ -361,9 +401,8 @@ const Footer = () => {
           {/* Social Icons Div Ends*/}
         </div>
         <hr></hr>
-        <div className="font-heading text-center text-white md:text-sm text-xs">
-          &copy; Cerbosys Technologies Inc.
-          <br></br> All rights reserved
+        <div className="font-heading text-center text-white md:text-sm text-xs mt-2">
+          &copy; Cerbosys Technologies Inc. All rights reserved
         </div>
         {/* Max Width Div Ends */}
       </div>

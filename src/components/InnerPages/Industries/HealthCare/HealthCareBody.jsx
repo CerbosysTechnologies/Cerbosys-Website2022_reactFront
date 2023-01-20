@@ -1,49 +1,62 @@
-import React from "react";
-import healthcaremobileicon from "../../../../assets/innerpage/healthcare/healthmob.png";
-import healthcarebusinesssicon from "../../../../assets/innerpage/healthcare/healthimage.svg";
+import React from 'react';
+import healthphone1 from '../../../../assets/innerpage/healthcare/healthphone1.png';
+import healthphone2 from '../../../../assets/innerpage/healthcare/healthphone2.png';
+import healthcarebusinesssicon from '../../../../assets/innerpage/healthcare/healthimage.svg';
+import Healthsilder from './Healthsilder';
+import Managmentsys from './Managmentsys';
 
 const HealthCareBody = () => {
   return (
     <div>
-      <div className="mx-auto w-full py-10 px-4 ">
-        <div className="max-w-[1240px] mx-auto">
-          {/* Image Section */}
-          <div className="flex flex-wrap mx-auto items-center justify-center space-x-10">
-            {/* Mobile Image */}
-            <div className="">
-              <img
-                src={healthcaremobileicon}
-                alt="HealthCare Mobile"
-                className="md:h-[30rem]"
-              />
-            </div>
-            {/* Mobile Image */}
+      <div className="w-full py-10 px-4 h-[600px] max-h-fit min-h-fit ">
+        <div className="relative h-[600px] max-h-fit w-full">
+          <div className="absolute left-[-90px] md:top-16  bottom-0 w-full">
+            {/* Image Section */}
+            <div className="flex flex-wrap w-full ">
+              {/* Mobile Image */}
+              {/* <div className="relative">
+                <div className="">
+                  <div className="relative">
+                    <img
+                      src={healthphone2}
+                      alt="HealthCare Mobile"
+                      className="w-full object-fill"
+                    />
 
-            {/* Image Section Ends*/}
+                    <div className="absolute bottom-0 top-0 right-[-243px]">
+                      <img
+                        src={healthphone1}
+                        alt="HealthCare Mobile"
+                        className="w-80  h-96 object-fill"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div> */}
+              {/* Mobile Image */}
 
-            {/* Side */}
-            <div className="flex flex-wrap flex-col ">
-              <h2 className="text-Green md:text-3xl text-center items-center mb-6  mt-4 font-heading md:w-96 justify-center mx-10">
-                HealthCare And Life Science In Business
-              </h2>
-              <img
-                src={healthcarebusinesssicon}
-                alt="HealthCare Business"
-                className="md:h-[20rem]"
-              />
-              <p className="font-content  md:w-[33rem] mt-6 text-justify items-center">
-                Healthcare and Life Science offers a comprehensive range of
-                products and services which includes a wide range of healthcare
-                equipment, pharmaceuticals, vascular solutions, medical
-                supplies, and more. There are many ways by which digitalization
-                can help improve your company's operations.
-              </p>
+              {/* Image Section Ends*/}
+
+              {/* Side */}
+              {/* <div className="px-5 ">
+                <h2 className="text-Secondary md:text-3xl text-xl mt-4 font-heading text-center mb-6">
+                  E-COMMERCE<span className="text-Green"> &</span> RETAIL
+                </h2>
+
+                <p className="font-content  md:w-[33rem] mt-6 text-justify items-center">
+                  Healthcare and Life Science offers a comprehensive range of
+                  products and services which includes a wide range of
+                  healthcare equipment, pharmaceuticals, vascular solutions,
+                  medical supplies, and more. There are many ways by which
+                  digitalization can help improve your company's operations.
+                </p>
+              </div> */}
             </div>
             {/* Side Image*/}
           </div>
 
           {/* Bullet Section */}
-          <div className="flex flex-wrap flex-col mx-auto">
+          {/* <div className="flex flex-wrap flex-col mx-auto">
             <div className="font-heading md:text-3xl text-xl mt-10 text-center">
               Our Services for the Healthcare and Life Science Industry
             </div>
@@ -83,10 +96,16 @@ const HealthCareBody = () => {
                 entire data protected by our company.
               </li>
             </ul>
-          </div>
+          </div> */}
           {/* Bullet Section Ends*/}
         </div>
       </div>
+      {/* healthsilder */}
+      <Healthsilder />
+      {/*  */}
+      <div className="bg-HealthCarebody mx-auto w-full md:h-[36rem] h-96 py-12 px-4 bg-cover md:bg-top bg-center"></div>
+
+      <Managmentsys type="usew" />
     </div>
   );
 };

@@ -36,12 +36,12 @@ const ContactUsBody = () => {
               {/* Form Section Ends*/}
 
               {/* Contact Details Section */}
-              <div className="bg-Primary rounded-tr-xl rounded-br-xl pb-10 flex flex-wrap items-center">
+              <div className="bg-Primary justify-center rounded-tr-xl rounded-br-xl pb-10 flex flex-wrap items-center">
                 {/* <h1 className="font-heading text-sm md:text-xl md:mx-20 mx-10 md:w-12 mt-10 text-white">
                   Contact Information
                 </h1> */}
-                {/* First Card */}
-                <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white md:w-80 w-72 mt-10 md:mx-20 mx-5 h-64">
+                {/* First Card  md:mx-20 mx-5*/}
+                <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white w-80   mt-10 h-64">
                   <div className="px-8 py-8 flex flex-wrap">
                     {/* <img src={contacticon} alt="" className="px-5" /> */}
                     <h2 className="font-heading md:text-xl text-lg mt-1">
@@ -72,13 +72,13 @@ const ContactUsBody = () => {
                   </div>
                 </div>
 
-                <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white w-80 mt-10 md:mx-20 mx-10 h-52">
+                <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white w-80  mt-10  h-52">
                   <div className="px-8 py-8 flex flex-wrap">
-                    {/* <img src={contacticon} alt="" className="px-5" /> */}
+                    {/* <img src={contacticon} alt="" className="px-5" />
+                    md:mx-20 * md:mx-20 mx-10/} */}
                     <h2 className="font-heading md:text-xl text-lg mt-1">
                       To Join Our Team
                     </h2>
-
                     <div className="flex flex-row">
                       <img
                         src={callicon}
@@ -99,19 +99,19 @@ const ContactUsBody = () => {
                         career@cerbosys.com
                       </span>
                     </div>
-                  </div>
-                </div>
-
-                {/* <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white w-80 mt-10 md:mx-20 mx-10 h-32">
+                    {/* <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white w-80 mt-10 md:mx-20 mx-10 h-32">
                   <div className="px-8 py-8 flex flex-wrap">
                     <img src={contacticon} alt="" className="px-5" />
                     <h1 className="font-heading md:text-xl text-lg mt-4">
                       Contact Details
                     </h1>
                   </div>
-                </div> */}
+               </div> 
               </div>
               {/* Contact Details Section Ends*/}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

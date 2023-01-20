@@ -1,31 +1,31 @@
-import React, { useState, useEffect } from "react";
-import { SERVER } from "../../../ServerUrls";
-import axios from "axios";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import ContectThankyou from "./Thankyou/ContectThankyou";
+import React, { useState, useEffect } from 'react';
+import { SERVER } from '../../../ServerUrls';
+import axios from 'axios';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import ContectThankyou from './Thankyou/ContectThankyou';
 const Contact = () => {
   //hooks
-  const [username, setUsername] = useState("");
-  const [errorsname, setErrorsName] = useState("");
-  const [errorsNa, setErrorsNa] = useState("");
-  const [email, setEmail] = useState("");
+  const [username, setUsername] = useState('');
+  const [errorsname, setErrorsName] = useState('');
+  const [errorsNa, setErrorsNa] = useState('');
+  const [email, setEmail] = useState('');
 
-  const [subject, setSubject] = useState("");
-  const [errorsEmail_s, setErrorsEmail_s] = useState("");
+  const [subject, setSubject] = useState('');
+  const [errorsEmail_s, setErrorsEmail_s] = useState('');
   const [errorsEml, setErrorsEml] = useState(false);
 
-  const [contactNumber, setContactNumber] = useState("");
+  const [contactNumber, setContactNumber] = useState('');
   const [errorscon, setErrorsCon] = useState(false);
-  const [errorscontact, setErrorsContact] = useState("");
-  const [serviceId, setServiceId] = useState("");
+  const [errorscontact, setErrorsContact] = useState('');
+  const [serviceId, setServiceId] = useState('');
   console.log(serviceId);
 
-  const [hearaboutus, setHearaboutus] = useState("");
-  const [message, setMessage] = useState("");
+  const [hearaboutus, setHearaboutus] = useState('');
+  const [message, setMessage] = useState('');
   const [serviceitems, setServiceItems] = useState([]);
   //Image
-  const [techimg, setTechImg] = useState("");
+  const [techimg, setTechImg] = useState('');
   const [showImageSec, setShowImageSection] = useState(true);
 
   const handlerChange = (event) => {
@@ -36,13 +36,13 @@ const Contact = () => {
 
   const getAllServices = () => {
     axios
-      .get(SERVER + "/getAllServices", {
+      .get(SERVER + '/getAllServices', {
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
       })
       .then((res) => {
-        console.log("Get All Services->", res.data.data);
+        console.log('Get All Services->', res.data.data);
         setServiceItems(res.data.data);
       });
   };
@@ -52,10 +52,10 @@ const Contact = () => {
   }, []);
   // Form Validation
   const onchangeFullName = (e) => {
-    const username = e.target.value.replace(/[^a-z]/gi, " ");
+    const username = e.target.value.replace(/[^a-z]/gi, ' ');
     setUsername(username);
     if (username.length <= 5) {
-      setErrorsName("Enter Name");
+      setErrorsName('Enter Name');
       setErrorsNa(true);
       return username;
     } else {
@@ -64,11 +64,11 @@ const Contact = () => {
   };
   const onchangeContact = (e) => {
     // console.log("onchangeContact");
-    const contactNumber = e.target.value.replace(/([^0-9])+/i, "");
+    const contactNumber = e.target.value.replace(/([^0-9])+/i, '');
     setContactNumber(contactNumber);
     // (contact.length < 10 || contact.length > 10)
     if (contactNumber.length < 10) {
-      setErrorsContact("Enter valid Contact");
+      setErrorsContact('Enter valid Contact');
       setErrorsCon(true);
     } else {
       setErrorsCon(false);
@@ -84,26 +84,26 @@ const Contact = () => {
       contact_number: contactNumber,
       myservice_id: serviceId,
       message: message,
-      obtained_from: "Contact",
+      obtained_from: 'Contact',
     };
-    console.log("befor", insertData);
+    console.log('befor', insertData);
     axios
-      .post(SERVER + "/insertQuoteEnquiry", insertData, {
+      .post(SERVER + '/insertQuoteEnquiry', insertData, {
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
       })
       .then((res) => {
-        console.log("Insert Enquiry Res", res);
-        console.log("afterrun api", res.data);
-        document.getElementById("ContectThankyou").style.display = "block";
+        console.log('Insert Enquiry Res', res);
+        console.log('afterrun api', res.data);
+        document.getElementById('ContectThankyou').style.display = 'block';
         // setTimeout(() => {
         //   window.location.reload();
         // }, 5000);
       })
       .catch((err) => {
-        console.log("not post", err);
-        toast.error("something wrong");
+        console.log('not post', err);
+        toast.error('something wrong');
         setTimeout(() => {
           window.location.reload();
         }, 2000);
@@ -195,10 +195,10 @@ const Contact = () => {
           {/* Contact Number Div Ends*/}
 
           {/* Selection Div */}
-          <div className=" mb-3 w-full group">
+          <div className=" mb-3 w-full group mt-2">
             <select
               className="dropdown text-gray-400 font-heading  text-sm flex flex-wrap
-                    border-2 rounded-lg px-2 py-2 border-gray-400"
+                    border-2 rounded-lg px-2 py-2 border-gray-400 w-full"
               onChange={(e) => {
                 handlerChange(e);
                 // hadalChnageID();
@@ -240,10 +240,10 @@ const Contact = () => {
           {/* Message Div Ends */}
 
           <input
-            className="mt-6 mb-6 bg-Primary text-white font-heading py-2 px-4 rounded "
+            className="mt-6 mb-6 bg-Primary text-white font-heading py-2 px-4 rounded w-full"
             type="submit"
             value="Submit"
-            disabled={username === "" || contactNumber === "" ? true : false}
+            disabled={username === '' || contactNumber === '' ? true : false}
           />
         </form>
       </div>

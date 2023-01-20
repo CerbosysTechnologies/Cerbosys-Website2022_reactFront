@@ -1,30 +1,30 @@
-import React, { useState, useEffect } from "react";
-import { SERVER } from "../../../ServerUrls";
-import axios from "axios";
-import MobileForm from "../../InnerPages/Services/Mobile/MobileForm";
+import React, { useState, useEffect } from 'react';
+import { SERVER } from '../../../ServerUrls';
+import axios from 'axios';
+import MobileForm from '../../InnerPages/Services/Mobile/MobileForm';
 
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import { propTypesMenuProps } from "@material-tailwind/react/types/components/select";
-import Servicethankyou from "./Thankyou/Servicethankyou";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { propTypesMenuProps } from '@material-tailwind/react/types/components/select';
+import Servicethankyou from './Thankyou/Servicethankyou';
 const ServicesForm = (props) => {
   //hooks
-  const [username, setUsername] = useState("");
-  const [errorsname, setErrorsName] = useState("");
-  const [errorsNa, setErrorsNa] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [contactNumber, setContactNumber] = useState("");
+  const [username, setUsername] = useState('');
+  const [errorsname, setErrorsName] = useState('');
+  const [errorsNa, setErrorsNa] = useState('');
+  const [email, setEmail] = useState('');
+  const [subject, setSubject] = useState('');
+  const [contactNumber, setContactNumber] = useState('');
 
   const [hearaboutus, setHearaboutus] = useState([]);
 
   const [getHearaboutUs, setGetHearaboutus] = useState();
 
   const [errorscon, setErrorsCon] = useState(false);
-  const [errorscontact, setErrorsContact] = useState("");
-  const [serviceId, setServiceId] = useState("");
+  const [errorscontact, setErrorsContact] = useState('');
+  const [serviceId, setServiceId] = useState('');
 
-  const [message, setMessage] = useState("");
+  const [message, setMessage] = useState('');
   const [serviceitems, setServiceItems] = React.useState([]);
   const [myservicesid, setmyservicesid] = useState([]);
 
@@ -33,34 +33,34 @@ const ServicesForm = (props) => {
   });
 
   //Image
-  const [techimg, setTechImg] = useState("");
+  const [techimg, setTechImg] = useState('');
 
   const [showImageSec, setShowImageSection] = useState(true);
 
   const insertEnquiry = () => {};
 
   const handlerChange = (event) => {
-    console.log("T&D", event);
+    console.log('T&D', event);
     props.onChangeSelected(event.target.value);
     //setServiceId(event.target.name);
     const index = event.target.selectedIndex;
     const el = event.target.childNodes[index];
-    const option = el.getAttribute("id");
+    const option = el.getAttribute('id');
 
     setServiceId(option);
-    console.log("Test Id:--", option);
-    console.log("Value:--", event.target.value);
+    console.log('Test Id:--', option);
+    console.log('Value:--', event.target.value);
   };
 
   const getAllServices = () => {
     axios
-      .get(SERVER + "/getAllServices", {
+      .get(SERVER + '/getAllServices', {
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
       })
       .then((res) => {
-        console.log("Get All Services->", res.data.data);
+        console.log('Get All Services->', res.data.data);
         // const i = res.data.data.length - 1;
         setServiceItems(res.data.data);
         setmyservicesid(res.data.data);
@@ -76,12 +76,12 @@ const ServicesForm = (props) => {
 
   useEffect(() => {
     getAllServices();
-    console.log("Use Effect Hear", hearaboutus);
+    console.log('Use Effect Hear', hearaboutus);
 
     var stringData = hearaboutus.toString();
 
     setGetHearaboutus(stringData);
-    console.log("SD", stringData);
+    console.log('SD', stringData);
   }, [hearaboutus]);
 
   const handleSubmit = (e) => {
@@ -95,25 +95,25 @@ const ServicesForm = (props) => {
       hearabout_us: getHearaboutUs,
       message: message,
     };
-    console.log("befor", insertData);
+    console.log('befor', insertData);
     axios
-      .post(SERVER + "/insertEnquiry", insertData, {
+      .post(SERVER + '/insertEnquiry', insertData, {
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
       })
       .then((res) => {
-        console.log("Insert Enquiry Res", res);
-        console.log("after", insertData);
-       document.getElementById("ServiceThankyou").style.display = "block";
-     
+        console.log('Insert Enquiry Res', res);
+        console.log('after', insertData);
+        document.getElementById('ServiceThankyou').style.display = 'block';
+
         setTimeout(() => {
           window.location.reload();
         }, 5000);
       })
       .catch((err) => {
-        console.log("not post", err);
-        toast.error("something wrong");
+        console.log('not post', err);
+        toast.error('something wrong');
         setTimeout(() => {
           window.location.reload();
         }, 2000);
@@ -128,14 +128,14 @@ const ServicesForm = (props) => {
       setHearaboutus([...freshArray]);
     }
 
-    console.log("Hear", hearaboutus);
+    console.log('Hear', hearaboutus);
   };
 
   const onchangeFullName = (e) => {
-    const username = e.target.value.replace(/[^a-z]/gi, " ");
+    const username = e.target.value.replace(/[^a-z]/gi, ' ');
     setUsername(username);
     if (username.length <= 5) {
-      setErrorsName("Enter Name");
+      setErrorsName('Enter Name');
       setErrorsNa(true);
       return username;
     } else {
@@ -144,11 +144,11 @@ const ServicesForm = (props) => {
   };
 
   const onchangeContact = (e) => {
-    const contactNumber = e.target.value.replace(/([^0-9])+/i, "");
+    const contactNumber = e.target.value.replace(/([^0-9])+/i, '');
     setContactNumber(contactNumber);
     // (contact.length < 10 || contact.length > 10)
     if (contactNumber.length < 10) {
-      setErrorsContact("Enter valid Contact");
+      setErrorsContact('Enter valid Contact');
       setErrorsCon(true);
     } else {
       setErrorsCon(false);
@@ -158,7 +158,7 @@ const ServicesForm = (props) => {
   return (
     <div>
       <div className="bg-white md:px-1 items-center justify-center text-center">
-          <Servicethankyou />
+        <Servicethankyou />
         <ToastContainer />
         <form onSubmit={(e) => handleSubmit(e)}>
           {/* Name Div */}
@@ -231,7 +231,7 @@ const ServicesForm = (props) => {
               onChange={onchangeContact}
               value={contactNumber}
               maxLength="10"
-            />{" "}
+            />{' '}
             {errorscon && (
               <div className="text-left text-red-500">{errorscontact}</div>
             )}
@@ -241,7 +241,7 @@ const ServicesForm = (props) => {
           {/* Selection Div */}
           <div className=" mb-3 w-full group">
             <select
-              className="dropdown text-gray-400 font-heading  text-sm flex flex-wrap
+              className="dropdown text-gray-400 font-heading  text-sm flex flex-wrap w-full
                     border-2 rounded-lg px-2 py-2 border-gray-400"
               onChange={handlerChange}
             >
@@ -325,7 +325,7 @@ const ServicesForm = (props) => {
               </label>
             </div>
 
-            <div className="flex mb-4">
+            <div className="flex flex-wrap mb-4">
               <input
                 id="checkbox-Instagram"
                 name="options"
@@ -397,11 +397,9 @@ const ServicesForm = (props) => {
             className="mt-6 mb-6 bg-Primary text-white font-heading py-2 px-4 rounded"
             type="submit"
             value="Submit"
-            disabled={username === "" || contactNumber === "" ? true : false}
+            disabled={username === '' || contactNumber === '' ? true : false}
           />
-        
         </form>
-        
       </div>
     </div>
   );
