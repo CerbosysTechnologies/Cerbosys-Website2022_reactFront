@@ -113,7 +113,7 @@ const IndustryNavLinks = () => {
                 <div className="font-subheading text-lg m-6 normal-case hover:uppercase">
                   Call us at
                   <p>+91 9826906988</p>
-                      <p>+91 8839697183</p>
+                  <p>+91 8839697183</p>
                 </div>
 
                 <div className="font-subheading text-lg m-6  normal-case">

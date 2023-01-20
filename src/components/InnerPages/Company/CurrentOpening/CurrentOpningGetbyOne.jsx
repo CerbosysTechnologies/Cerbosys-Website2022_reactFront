@@ -2,12 +2,14 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { IMAGE_SERVER } from '../../../../ServerUrls';
-import exp from '../../../../assets/Careerpage/ic_work_24px.svg';
-import Rupees from '../../../../assets/Careerpage/Rupees.svg';
-import hands from '../../../../assets/Careerpage/hands.svg';
-import place from '../../../../assets/Careerpage/ic_place_24px.svg';
+import experience from '../../../../assets/Careerpage/experience.png';
+import location from '../../../../assets/Careerpage/location.png';
+import rupes from '../../../../assets/Careerpage/rupes.png';
+import fulltime from '../../../../assets/Careerpage/fulltime.png';
 import description from '../../../../assets/Careerpage/ic_description_24px.svg';
 import ApplyForjob from './ApplyForjob';
+import parser from 'html-react-parser';
+
 function CurrentOpningGetbyOne() {
   const ModalPotion = () => {
     document.getElementById('ModalPotion').style.display = 'block';
@@ -58,78 +60,72 @@ function CurrentOpningGetbyOne() {
         {/* Content Section Ends */}
       </div>
 
-      <div className="flex flex-wrap   justify-evenly md:px-0 px-5">
-        <div className="md:w-[600px] justify-center flex">
-          <img
-            src={IMG + job_icon}
-            alt=""
-            className="md:h-[400px] md:w-[400px]  object-cover "
-          />
-        </div>
+      <div className="flex flex-wrap   justify-center md:px-0 px-5">
         <div className="md:w-[600px]">
           <ul>
             <li className="text-center font-heading md:my-5 my-2 md:text-3xl text-xl">
               {jobPost}
             </li>
             <li>
-              <div className="flex gap-3.5">
+              <div className="flex items-center gap-3.5">
                 <div className="md:mt-1">
                   <img
-                    className="card-icon h-5 w-5"
-                    src={place}
+                    className="card-icon h-7 w-7"
+                    src={location}
                     alt="Placeholder"
                   />
                 </div>
-                <div className="uppercase font-bold">{Location}</div>
+                <div className="text-xl font-bold">{Location}</div>
               </div>
             </li>
             <li>
-              <div className="flex gap-3.5">
+              <div className="flex items-center gap-3.5">
                 <div className=" md:mt-1">
                   <img
-                    className="card-icon h-5 w-5"
-                    src={exp}
+                    className="card-icon h-7 w-7"
+                    src={experience}
                     alt="Placeholder"
                   />
                 </div>
-                <div className="uppercase font-bold">
+                <div className="text-xl font-bold">
                   Exp. min {Exprence} years
                 </div>
               </div>
             </li>
             <li>
-              <div className="flex gap-2.5">
+              <div className="flex items-center gap-2.5">
                 <div className="md:mt-1">
                   <img
-                    className="card-icon h-5 w-5"
-                    src={hands}
+                    className="card-icon h-7 w-7"
+                    src={fulltime}
                     alt="Placeholder"
                   />
                 </div>
-                <div className="uppercase font-bold">{Type}</div>
+                <div className="text-xl font-bold">{Type}</div>
               </div>
             </li>
             <li>
-              <div className="flex gap-3.5">
+              <div className="flex items-center gap-3.5">
                 <div className="md:mt-1">
                   <img
-                    className="card-icon h-5 w-5"
-                    src={Rupees}
+                    className="card-icon h-7 w-7"
+                    src={rupes}
                     alt="Placeholder"
                   />
                 </div>
-                <div className=" uppercase font-bold ">
-                  Salary {Salry} /Month
-                </div>
+                <div className="text-xl  font-bold ">Salary {Salry} /Month</div>
               </div>
             </li>
             <br />
-            <li className="text-justify ">{JobDesc}</li>
+            {/* <li className="text-justify ">{parser(JobDesc)}</li> */}
             <li>
-              <div className="flex items-center justify-center md:my-10 my-5">
+              <div
+                className="flex "
+                // md:my-10 my-5
+              >
                 <button
-                  className="py-2 px-4 text-sm font-heading 
-              text-center text-Primary rounded-3xl border border-Primary "
+                  className="py-2 px-8 text-sm font-heading hover:bg-Darkblue hover:text-white
+              text-center text-Darkblue rounded-xl border-Darkblue border-2"
                   onClick={() => {
                     ModalPotion();
                   }}
@@ -139,6 +135,13 @@ function CurrentOpningGetbyOne() {
               </div>
             </li>
           </ul>
+        </div>
+        <div className="md:w-[600px] justify-center flex">
+          <img
+            src={IMG + job_icon}
+            alt=""
+            className="md:h-[400px] md:w-[400px]  object-cover "
+          />
         </div>
       </div>
       <ApplyForjob />

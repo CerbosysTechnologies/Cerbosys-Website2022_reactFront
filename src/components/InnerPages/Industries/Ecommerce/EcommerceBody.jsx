@@ -48,8 +48,8 @@ export const EcommerceBody = () => {
       <div className="w-full py-10 px-4 ">
         <div className="">
           {/* Image Section */}
-          <div className="flex flex-wrap justify-center items-center   px-8 ">
-            <div className="flex flex-wrap justify-center items-center   px-8 gap-6 ">
+          <div className="flex flex-wrap justify-center items-center px-8 ">
+            <div className="flex flex-wrap justify-center items-center px-8 gap-6 mt-3">
               {/* Mobile Image */}
               <div className="flex flex-col ">
                 <div className="">
@@ -61,7 +61,7 @@ export const EcommerceBody = () => {
                 </div>
                 <div className="">
                   <img
-                    src={ecommermob}
+                    src={secondmob}
                     alt="Ecommerce Mobile"
                     className="w-full py-2"
                   />
@@ -74,17 +74,17 @@ export const EcommerceBody = () => {
                   // className="md:h-[30rem]"
                 />
               </div>
-              <div className="flex flex-col ">
+              <div className="flex flex-col">
                 <div className="">
                   <img
-                    src={ecommermob}
+                    src={thirdmob}
                     alt="Ecommerce Mobile"
                     className="w-full py-2"
                   />
                 </div>
                 <div className="">
                   <img
-                    src={ecommermob}
+                    src={fourthmob}
                     alt="Ecommerce Mobile"
                     className="w-full py-2"
                   />
@@ -97,7 +97,7 @@ export const EcommerceBody = () => {
             {/* Image Section Ends*/}
 
             {/* Side */}
-            <div className="flex flex-wrap flex-col ">
+            <div className="flex flex-wrap flex-col mt-3">
               <h2 className="text-Secondary md:text-3xl text-xl mt-4 font-heading text-center mb-6">
                 E-COMMERCE<span className="text-Green"> &</span> RETAIL
               </h2>
@@ -131,7 +131,7 @@ export const EcommerceBody = () => {
           </div>
 
           {/* slider Section */}
-          <div className="w-full md:h-[36rem] bg-EcommersBodybg h-96  md:bg-top mt-16 py-8">
+          <div className="w-full md:h-[36rem] bg-EcommersBodybg h-96   mt-16 py-8">
             <div className="px-8 md:px-12">
               <div>
                 {/* "font-heading md:text-3xl text-xl mt-10 text-center text-Primary" */}
@@ -152,7 +152,7 @@ export const EcommerceBody = () => {
                       </div>
                     </div>
 
-                    <div className="bg-white text-center rounded-br-lg">
+                    <div className="bg-white text-center rounded-br-3xl">
                       <div className="py-3">
                         <p className=" font-subheading">
                           Fashion E-commerce<br></br> Store
@@ -176,7 +176,7 @@ export const EcommerceBody = () => {
                       </div>
                     </div>
 
-                    <div className="bg-white text-center  rounded-br-lg">
+                    <div className="bg-white text-center  rounded-br-3xl">
                       <div className="py-3">
                         <p className=" font-subheading">
                           Fashion E-commerce<br></br> Store
@@ -200,7 +200,7 @@ export const EcommerceBody = () => {
                       </div>
                     </div>
 
-                    <div className="bg-white  text-center  rounded-br-lg">
+                    <div className="bg-white  text-center  rounded-br-3xl">
                       <div className="py-3">
                         <p className=" font-subheading">
                           Fashion E-commerce<br></br> Store
@@ -224,7 +224,7 @@ export const EcommerceBody = () => {
                       </div>
                     </div>
 
-                    <div className="bg-white  text-center  rounded-br-lg">
+                    <div className="bg-white  text-center  rounded-br-3xl">
                       <div className="py-3">
                         <p className=" font-subheading">
                           Fashion E-commerce<br></br> Store
@@ -248,13 +248,13 @@ export const EcommerceBody = () => {
                       </div>
                     </div>
 
-                    <div className="  rounded-br-lg bg-white  text-center ">
+                    <div className="bg-white  text-center  rounded-br-3xl ">
                       <div className="py-3">
                         <p className=" font-subheading">
                           Fashion E-commerce<br></br> Store
                         </p>
                       </div>
-                      <div className="pb-3">
+                      <div className="">
                         <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
                           Know More
                         </button>

@@ -47,9 +47,10 @@ const Hero = () => {
         {/* Content Section */}
         <div className="flex flex-col justify-center text-center items-center h-3/4 mx-auto">
           {/* Home Contet Animation start */}
-          <p className="text-white text-center font-heading py-3 md:text-6xl text-xl md:w-[1000px] w-[400px] mb-8 md:mt-2 mt-24">
+          {/* md:w-[1000px] */}
+          <p className="text-white text-center font-heading py-3 md:text-6xl text-xl  mb-8 md:mt-2 mt-24 min-w-fit">
             {/* The Ideal Web and Mobile Solutions for your emerging business- You’re just one click away!! */}
-            <span className="whitespace-nowrap text-white text-center font-heading py-3 md:text-5xl text-xl md:w-[1000px] w-[400px] mb-8 md:mt-2 mt-24">
+            <span className="whitespace-nowrap text-white text-center font-heading py-3 md:text-5xl text-xl   mb-8 md:mt-2 mt-24">
               WE WORK FOR
               <TypeWriter
                 textStyle={{

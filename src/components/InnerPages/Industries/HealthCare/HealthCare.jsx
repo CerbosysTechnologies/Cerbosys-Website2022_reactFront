@@ -10,7 +10,9 @@ const HealthCare = () => {
     <div>
       <>
         <Helmet>
-          <title>Healthcare & life science customised solutions | Cerbosys</title>
+          <title>
+            Healthcare & life science customised solutions | Cerbosys
+          </title>
           <meta
             name="keywords"
             content="healthcare and life sciences industry, healthcare and life sciences consulting,  changes in healthcare industry, technology trends in healthcare industry, healthcare information services industry
@@ -25,21 +27,25 @@ const HealthCare = () => {
         <div className="mx-auto w-full md:h-[36rem] bg-HealthCareHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
-            <h1 className="text-white font-heading py-2 md:text-5xl text-2xl md:mb-48 mb-28">
+            <h1 className="text-white font-heading pt-2 md:text-5xl text-2xl md:mb-10 min-w-fit">
               HealthCare And Life Science
             </h1>
 
-            <p className="text-white font-heading py-2 md:text-lg text-xs md:w-[980px] text-justify">
-              Healthcare and life science services provided by your company can
-              transform your business. From tracking digital patient records and
-              security management to patient portals, data analysis, etc.
+            <p className="text-center text-Skyblue font-subheading   md:text-lg text-xs md:w-[980px] min-w-fit">
+              Our company develops unique mobile applications as per the
+              <br></br> trends & changes in the healthcare industry for clinics
+              that<br></br> allow doctors to book appointments online.
             </p>
           </div>
           {/* Content Section Ends */}
         </div>
       </>
-      <HealthCareBody />
-      <HealthCareForm />
+      <div>
+        <HealthCareBody />
+      </div>
+      <div>
+        <HealthCareForm />
+      </div>
       {/* <Footer /> */}
     </div>
   );

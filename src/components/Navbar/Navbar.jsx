@@ -77,7 +77,7 @@ const Navbar = () => {
               Company
             </Link>
           </li> */}
-            <CompanyNavLinks></CompanyNavLinks>
+            {/* <CompanyNavLinks></CompanyNavLinks> */}
             {/* <li >
             <Link to="/" className="py-7 px-1 inline-block">
               Services

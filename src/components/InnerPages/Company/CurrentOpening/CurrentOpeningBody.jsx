@@ -2,10 +2,13 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import tripicon from '../../../../assets/innerpage/currentopening/trip.svg';
 import { SERVER } from '../../../../ServerUrls';
-import exp from '../../../../assets/Careerpage/ic_work_24px.svg';
-import Rupees from '../../../../assets/Careerpage/Rupees.svg';
-import hands from '../../../../assets/Careerpage/hands.svg';
-import place from '../../../../assets/Careerpage/ic_place_24px.svg';
+import experience from '../../../../assets/Careerpage/experience.png';
+import location from '../../../../assets/Careerpage/location.png';
+import rupes from '../../../../assets/Careerpage/rupes.png';
+import fulltime from '../../../../assets/Careerpage/fulltime.png';
+// import Rupees from '../../../../assets/Careerpage/Rupees.svg';
+// import hands from '../../../../assets/Careerpage/hands.svg';
+// import place from '../../../../assets/Careerpage/ic_place_24px.svg';
 import description from '../../../../assets/Careerpage/ic_description_24px.svg';
 
 import ApplyForjob from './ApplyForjob';
@@ -53,81 +56,92 @@ const CurrentOpeningBody = () => {
 
           {/* Card Content Section */}
 
-          <div className="flex flex-wrap mt-10  justify-between">
+          <div className="flex flex-wrap mt-10  justify-center">
             {Job ? (
               Job.map((item, index) => {
                 return (
                   <div
-                    className="mx-2 mt-5"
+                    key={index}
+                    className="mx-2 "
                     onClick={() => CurrentOpningGetbyOne(item.jobpost_id)}
                   >
-                    <a className="block p-6 max-w-sm  bg-white border border-gray-200 shadow-md">
+                    <a
+                      className=" rounded-md block py-4 px-6 max-w-sm  bg-white
+                     
+                     shadow-xl cursor-pointer"
+                    >
                       <h5
-                        className="mb-2 text-2xl font-heading tracking-tight text-black
+                        className="mb-2 text-2xl font-heading tracking-tight text-Orange
               uppercase text-center"
-                        key={index}
+                        // key={index}
                       >
                         {item.jobposition}
                       </h5>
-                      <p className="font-content text-black text-justify mt-5 mb-10">
+                      <hr></hr>
+                      <p className="font-content text-Textblue text-justify mt-5 mb-4">
                         {/* images */}
-                        <div>
+                        <div className="h-30 w-70">
+                          {/* \object-scale-down */}
                           <img
-                            className="object-scale-down h-48 w-80"
+                            className="w-full object-scale-down"
                             src={IMG + `${item.job_icon.substr(18)}`}
                             alt="img"
                           />
                         </div>
 
                         {/* Content */}
-                        <div className=" my-5 justify-center items-center ">
-                          <div className="flex gap-3.5">
+                        <div className=" my-2 justify-center items-center ">
+                          <div className="flex items-center gap-3.5">
                             <div className=" md:mt-1">
                               <img
-                                className="card-icon h-5 w-5"
-                                src={exp}
+                                className="card-icon h-7 w-7"
+                                src={location}
                                 alt="Placeholder"
                               />
                             </div>
-                            <div className="uppercase font-bold">
-                              Exp. min {item.jobexperience} years
+                            <div className="text-sm font-bold">
+                              indore
+                              {/* {item.jobexperience}  */}
                             </div>
                           </div>
 
-                          <div className="flex gap-3.5">
+                          <div className="flex items-center gap-3.5">
                             <div className="md:mt-1">
                               <img
-                                className="card-icon h-5 w-5"
-                                src={Rupees}
+                                className="card-icon h-7 w-7"
+                                src={experience}
                                 alt="Placeholder"
                               />
                             </div>
-                            <div className=" uppercase font-bold ">
-                              Salary {item.salaryscale} /year
+                            <div className="text-sm  font-bold ">
+                              Experience {item.jobexperience} years
+                              {/* Salary {item.salaryscale} /year */}
                             </div>
                           </div>
-                          <div className="flex gap-2.5">
+                          <div className="flex items-center gap-2.5">
                             <div className="md:mt-1">
                               <img
-                                className="card-icon h-5 w-5"
-                                src={hands}
+                                className="card-icon h-7 w-7"
+                                src={fulltime}
                                 alt="Placeholder"
                               />
                             </div>
-                            <div className="uppercase font-bold">
+                            <div className="font-bold text-sm">
+                              {/* Salary {item.salaryscale} /year */}
                               {item.jobemploymenttype}
                             </div>
                           </div>
-                          <div className="flex gap-3.5">
+                          <div className="flex items-center gap-3.5">
                             <div className="md:mt-1">
                               <img
-                                className="card-icon h-5 w-5"
-                                src={place}
+                                className="card-icon h-7 w-7"
+                                src={rupes}
                                 alt="Placeholder"
                               />
                             </div>
-                            <div className="uppercase font-bold">
-                              {item.joblocation}
+                            <div className=" font-bold text-sm">
+                              {/* {item.joblocation} */}
+                              Salary {item.salaryscale} /year
                             </div>
                           </div>
                           {/* <div className="flex gap-3.5">
@@ -145,10 +159,13 @@ const CurrentOpeningBody = () => {
                         </div>
                       </p>
 
-                      <div className="flex items-center justify-center">
+                      <div className="flex ">
                         <button
-                          className="py-2 px-4 text-sm font-heading 
-              text-center text-Primary rounded-3xl border border-Primary "
+                          className="py-2 px-8 text-sm font-heading 
+                          hover:bg-Darkblue hover:text-white
+                          text-Darkblue rounded-xl border-Darkblue border-2
+              text-center
+              //  text-Primary rounded-xl border border-Primary "
                           // onClick={() => {
                           //   ModalPotion();
                           // }}

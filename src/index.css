@@ -25,10 +25,11 @@
 
 *::-webkit-scrollbar {
   display: none;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 * {
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
-  /* overflow-y-scroll */
+  /* overflow-y-scroll ; */
+  /* overflow-y: scroll; */
 }

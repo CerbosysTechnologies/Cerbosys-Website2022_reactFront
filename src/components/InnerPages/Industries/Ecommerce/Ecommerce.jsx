@@ -23,14 +23,14 @@ const Ecommerce = () => {
         <div className="mx-auto w-full md:h-[36rem] bg-EcommerceHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-70 mx-auto">
-            <h1 className="text-white font-heading py-2 md:text-5xl text-2xl md:mb-10 ">
+            <h1 className="text-white font-heading pt-2  md:text-5xl text-2xl md:mb-10 min-w-fit">
               Ecommerce And Retail
             </h1>
-            <p className=" text-center text-Skyblue font-subheading  py-2 md:text-lg text-xs md:w-[980px] ">
+            <p className=" text-center text-Skyblue font-subheading   md:text-lg text-xs md:w-[980px] min-w-fit">
               Your needs are our priority when it comes to developing<br></br>{' '}
               ecommerce websites.
             </p>
-            <p className=" text-Skyblue font-subheading  py-2 md:text-lg text-xs md:w-[980px]">
+            <p className=" text-Skyblue font-subheading  py-2 md:text-lg text-xs md:w-[980px] min-w-fit">
               We create custom e-commerce solutions that truly fit your<br></br>{' '}
               brand identity, making it a beautiful and irresistible storefront
               to shop.
