@@ -125,7 +125,7 @@ function CurrentOpningGetbyOne() {
                 </div>
               </li>
               <br />
-              {/* <li className="text-justify ">{parser(JobDesc)}</li> */}
+              {/* <li className="text-justify "></li> */}
               <li>
                 <div
                   className="flex "
@@ -150,6 +150,11 @@ function CurrentOpningGetbyOne() {
               alt="img"
               className="w-80 object-cover "
             />
+          </div>
+        </div>
+        <div className=" flex justify-center items-center">
+          <div className="md:mx-10 mx-5 md:my-4 my-4 font-content text-2xl text-justify ">
+            {parser(JobDesc)}
           </div>
         </div>
       </div>

@@ -53,8 +53,8 @@ export const EcommerceBody = () => {
           <div className="flex flex-wrap justify-center items-center px-8 ">
             <div className="flex flex-wrap justify-center items-center px-8 gap-6 mt-3">
               {/* Mobile Image */}
-              <div className="flex flex-col ">
-                <div className="">
+              <div className="flex flex-col hidden md:block  ">
+                <div className=" ">
                   <img
                     src={ecommermob}
                     alt="Ecommerce Mobile"
@@ -77,7 +77,7 @@ export const EcommerceBody = () => {
                   className="md:h-[30rem]"
                 />
               </div>
-              <div className="flex flex-col">
+              <div className="flex flex-col hidden md:block ">
                 <div className="">
                   <img
                     src={thirdmob}
