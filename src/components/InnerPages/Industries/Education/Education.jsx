@@ -27,15 +27,19 @@ const Education = () => {
         <div className="mx-auto w-full md:h-[36rem] bg-EducationHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
-            <h1 className="text-white font-heading py-2 md:text-5xl text-2xl md:mb-48 mb-28">
-              Education
+            <h1 className="text-white font-heading pt-2 md:text-5xl text-2xl md:mb-10 mb-5 min-w-fit">
+              EDUCATION
             </h1>
 
-            <p className="text-white font-heading py-2 md:text-lg text-xs md:w-[980px] text-justify">
-              As an IT-based company, we have lots of experience in providing
-              excellent educational solutions to students and teachers. We
-              understand the way students and teachers can use technology for
-              their learning process.
+            <p className="text-center text-Skyblue font-subheading  md:text-lg text-xs md:w-[980px] max-w-fit">
+              We provide an all-around IT Solution for All Educational
+              Institutes.
+            </p>
+            <p className="mt-4 text-center text-Skyblue font-subheading  md:text-lg text-xs md:w-[980px] max-w-fit">
+              We help you find the IT solutions you need to make your
+              institution run smoothly and<br></br> efficiently, so you can
+              focus on what matters most: educating students and helping them
+              succeed.
             </p>
           </div>
           {/* Content Section Ends */}

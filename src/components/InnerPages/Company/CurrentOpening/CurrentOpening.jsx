@@ -34,7 +34,7 @@ const CurrentOpening = () => {
               Current Openings
             </h1>
 
-            <p className="text-Primary font-subheading py-2 md:text-lg text-xs mb-8 md:w-[480px] text-center">
+            <p className="text-white font-subheading py-2 md:text-lg text-xs mb-8 md:w-[480px] text-center">
               Join us: We are one of the most well-versed & innovative business
               solution provider companies in India.
             </p>

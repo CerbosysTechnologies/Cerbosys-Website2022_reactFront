@@ -1,7 +1,9 @@
 import React from 'react';
 import ecommercemobicon from '../../../../assets/innerpage/ecommerce/ecommercemob.png';
 import ecommersarrival from '../../../../assets/innerpage/ecommerce/ecommersarrival.png';
-import ecommercebusinessicon from '../../../../assets/innerpage/ecommerce/ecommerceimage.png';
+import newphone from '../../../../assets/innerpage/ecommerce/newphone.png';
+import ecommerfashi from '../../../../assets/innerpage/ecommerce/ecommerfashi.png';
+import ecommersboutic from '../../../../assets/innerpage/ecommerce/ecommersboutic.png';
 import fourthmob from '../../../../assets/innerpage/ecommerce/fourthmob.png';
 import thirdmob from '../../../../assets/innerpage/ecommerce/thirdmob.png';
 import secondmob from '../../../../assets/innerpage/ecommerce/seconmob.png';
@@ -12,7 +14,7 @@ export const EcommerceBody = () => {
     dots: false,
     infinite: false,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
@@ -69,9 +71,10 @@ export const EcommerceBody = () => {
               </div>
               <div className="">
                 <img
-                  src={ecommercemobicon}
+                  src={newphone}
                   alt="Ecommerce Mobile"
-                  // className="md:h-[30rem]"
+                  // className="w-full"
+                  className="md:h-[30rem]"
                 />
               </div>
               <div className="flex flex-col">
@@ -131,29 +134,30 @@ export const EcommerceBody = () => {
           </div>
 
           {/* slider Section */}
-          <div className="w-full md:h-[36rem] bg-EcommersBodybg h-96   mt-16 py-8">
+          <div className="w-full md:h-[36rem] bg-EcommersBodybg  mt-16 py-8">
             <div className="px-8 md:px-12">
               <div>
                 {/* "font-heading md:text-3xl text-xl mt-10 text-center text-Primary" */}
-                <p className="text-white md:text-3xl text-xl mt-4 font-heading text-center mb-6">
-                  Our Portfolio
+                <p className="text-white md:text-3xl text-xl mt-4 font-heading mb-6">
+                  Why Choose Cerbosys as Your Tech Partner
                 </p>
               </div>
-              <div>
+              <div className="mt-3">
+                {/* h-52 md:h-90 */}
                 <Slider {...settings}>
-                  <div className="h-52 md:h-90 px-8">
+                  <div className="h-96 md:h-90 px-8 ">
                     <div className="relative bg-Lightpink h-[140px] md:h-[200px] rounded-t-lg">
-                      <div className="absolute inset-x-0 bottom-0 left-6 right-6 top-6 h-[160px]">
+                      <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6 h-[160px]">
                         <img
                           src={ecommersarrival}
                           alt="img"
-                          className="w-full h-[118px] md:h-[178px]"
+                          className="w-48 mx-auto  h-[118px] md:h-[178px]"
                         />
                       </div>
                     </div>
 
-                    <div className="bg-white text-center rounded-br-3xl">
-                      <div className="py-3">
+                    <div className="bg-white text-center rounded-br-[50px] h-32">
+                      <div className="pt-5">
                         <p className=" font-subheading">
                           Fashion E-commerce<br></br> Store
                         </p>
@@ -167,17 +171,17 @@ export const EcommerceBody = () => {
                   </div>
                   <div className="h-52 md:h-90 px-8">
                     <div className="relative bg-Lightgreen h-[140px] md:h-[200px] rounded-t-lg">
-                      <div className="absolute inset-x-0 bottom-0 left-6 right-6 top-6">
+                      <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6">
                         <img
-                          src={ecommersarrival}
+                          src={ecommerfashi}
                           alt="img"
-                          className="w-full h-[118px] md:h-[178px]"
+                          className="w-48 mx-auto  h-[118px] md:h-[178px]"
                         />
                       </div>
                     </div>
 
-                    <div className="bg-white text-center  rounded-br-3xl">
-                      <div className="py-3">
+                    <div className="bg-white text-center  rounded-br-[50px] h-32">
+                      <div className="pt-5">
                         <p className=" font-subheading">
                           Fashion E-commerce<br></br> Store
                         </p>
@@ -191,17 +195,17 @@ export const EcommerceBody = () => {
                   </div>
                   <div className="h-52 md:h-90 px-8">
                     <div className="relative bg-Lightblue h-[140px] md:h-[200px] rounded-t-lg">
-                      <div className="absolute inset-x-0 bottom-0 left-6 right-6 top-6 h-[160px]">
+                      <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6 h-[160px]">
                         <img
-                          src={ecommersarrival}
+                          src={ecommersboutic}
                           alt="img"
-                          className="w-full h-[118px] md:h-[178px]"
+                          className="w-48 mx-auto  h-[118px] md:h-[178px]"
                         />
                       </div>
                     </div>
 
-                    <div className="bg-white  text-center  rounded-br-3xl">
-                      <div className="py-3">
+                    <div className="bg-white  text-center  rounded-br-[50px] h-32">
+                      <div className="pt-5">
                         <p className=" font-subheading">
                           Fashion E-commerce<br></br> Store
                         </p>
@@ -214,18 +218,18 @@ export const EcommerceBody = () => {
                     </div>
                   </div>
                   <div className="h-52 md:h-90 px-8">
-                    <div className="relative bg-sky-500/100 h-[140px] md:h-[200px] rounded-t-lg">
-                      <div className="absolute inset-x-0 bottom-0 left-6 right-6 top-6 h-[160px]">
+                    <div className="relative bg-Lightgreen  h-[140px] md:h-[200px] rounded-t-lg">
+                      <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6 h-[160px]">
                         <img
-                          src={ecommersarrival}
+                          src={ecommerfashi}
                           alt="img"
-                          className="w-full h-[118px] md:h-[178px]"
+                          className="w-48 mx-auto  h-[118px] md:h-[178px]"
                         />
                       </div>
                     </div>
 
-                    <div className="bg-white  text-center  rounded-br-3xl">
-                      <div className="py-3">
+                    <div className="bg-white  text-center  rounded-br-[50px] h-32">
+                      <div className="pt-5">
                         <p className=" font-subheading">
                           Fashion E-commerce<br></br> Store
                         </p>
@@ -238,24 +242,48 @@ export const EcommerceBody = () => {
                     </div>
                   </div>
                   <div className="h-52 md:h-90 px-8">
-                    <div className="relative bg-sky-500/100 h-[140px] md:h-[200px] rounded-t-lg">
-                      <div className="absolute inset-x-0 bottom-0 left-6 right-6 top-6 h-[160px]">
+                    <div className="relative bg-Lightpink h-[140px] md:h-[200px] rounded-t-lg">
+                      <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6 h-[160px]">
                         <img
                           src={ecommersarrival}
                           alt="img"
-                          className="w-full h-[118px] md:h-[178px]"
+                          className="w-48 mx-auto  h-[118px] md:h-[178px]"
                         />
                       </div>
                     </div>
 
-                    <div className="bg-white  text-center  rounded-br-3xl ">
-                      <div className="py-3">
+                    <div className="bg-white  text-center  rounded-br-[50px] h-32">
+                      <div className="pt-5">
+                        <p className=" font-subheading">
+                          Fashion E-commerce<br></br> Store
+                        </p>
+                      </div>
+                      <div className="pt-4">
+                        <button className="bg-Primary rounded-md text-white px-2 mt-2  ">
+                          Know More
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="h-52 md:h-90 px-8">
+                    <div className="relative bg-Lightgreen h-[140px] md:h-[200px] rounded-t-lg">
+                      <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6">
+                        <img
+                          src={ecommerfashi}
+                          alt="img"
+                          className="w-48 mx-auto h-[118px] md:h-[178px]"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="bg-white text-center  h-32   rounded-br-[50px]">
+                      <div className="pt-5">
                         <p className=" font-subheading">
                           Fashion E-commerce<br></br> Store
                         </p>
                       </div>
                       <div className="">
-                        <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
+                        <button className="bg-Primary rounded-md text-white px-2">
                           Know More
                         </button>
                       </div>

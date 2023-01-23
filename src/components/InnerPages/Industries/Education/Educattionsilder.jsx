@@ -1,9 +1,10 @@
 import React from 'react';
+import slider1 from '../../../../assets/innerpage/education/slider1.png';
+import second from '../../../../assets/innerpage/education/second.png';
+import third from '../../../../assets/innerpage/education/third.png';
+
 import Slider from 'react-slick';
-import silder1img from '../../../../assets/innerpage/healthcare/silder1img.png';
-import silder2img from '../../../../assets/innerpage/healthcare/silder2img.png';
-// import silder3img from '../../../../assets/innerpage/healthcare/silder3img.png';
-const Healthsilder = () => {
+const Educattionsilder = () => {
   var settings = {
     dots: false,
     infinite: false,
@@ -38,8 +39,10 @@ const Healthsilder = () => {
       },
     ],
   };
+
   return (
-    <>
+    <div>
+      {' '}
       <div className="">
         <div className="w-full md:h-[36rem] bg-EcommersBodybg h-96   mt-16 py-8">
           <div className="px-8 md:px-12">
@@ -55,7 +58,7 @@ const Healthsilder = () => {
                   <div className="relative bg-Lightpink h-[140px] md:h-[200px] rounded-t-lg">
                     <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6 h-[160px]">
                       <img
-                        src={silder1img}
+                        src={slider1}
                         alt="img"
                         className="w-48 mx-auto  h-[118px] md:h-[178px]"
                       />
@@ -65,6 +68,7 @@ const Healthsilder = () => {
                   <div className="bg-white text-center rounded-br-[50px] h-32">
                     <div className="pt-5">
                       <p className=" font-subheading">
+                        {' '}
                         Fashion E-commerce<br></br> Store
                       </p>
                     </div>
@@ -75,11 +79,12 @@ const Healthsilder = () => {
                     </div>
                   </div>
                 </div>
+
                 <div className="h-52 md:h-90 px-8">
                   <div className="relative bg-Lightgreen h-[140px] md:h-[200px] rounded-t-lg">
                     <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6">
                       <img
-                        src={silder2img}
+                        src={second}
                         alt="img"
                         className="w-48 mx-auto  h-[118px] md:h-[178px]"
                       />
@@ -103,7 +108,7 @@ const Healthsilder = () => {
                   <div className="relative bg-Lightblue h-[140px] md:h-[200px] rounded-t-lg">
                     <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6 h-[160px]">
                       <img
-                        src={silder1img}
+                        src={third}
                         alt="img"
                         className="w-48 mx-auto  h-[118px] md:h-[178px]"
                       />
@@ -127,7 +132,7 @@ const Healthsilder = () => {
                   <div className="relative bg-Lightgreen  h-[140px] md:h-[200px] rounded-t-lg">
                     <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6 h-[160px]">
                       <img
-                        src={silder2img}
+                        src={slider1}
                         alt="img"
                         className="w-48 mx-auto  h-[118px] md:h-[178px]"
                       />
@@ -151,7 +156,7 @@ const Healthsilder = () => {
                   <div className="relative bg-Lightpink h-[140px] md:h-[200px] rounded-t-lg">
                     <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6 h-[160px]">
                       <img
-                        src={silder1img}
+                        src={second}
                         alt="img"
                         className="w-48 mx-auto  h-[118px] md:h-[178px]"
                       />
@@ -175,7 +180,7 @@ const Healthsilder = () => {
                   <div className="relative bg-Lightgreen h-[140px] md:h-[200px] rounded-t-lg">
                     <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6">
                       <img
-                        src={silder1img}
+                        src={third}
                         alt="img"
                         className="w-48 mx-auto h-[118px] md:h-[178px]"
                       />
@@ -200,8 +205,8 @@ const Healthsilder = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
-export default Healthsilder;
+export default Educattionsilder;
