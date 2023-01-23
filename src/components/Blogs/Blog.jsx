@@ -19,7 +19,7 @@ function Blog() {
           <h1 className="text-white font-heading py-2 md:text-3xl text-xl mb-10 ">
             Blogs
           </h1>
-          <p className="text-white font-content py-2 md:text-xl text-xs md:mb-28 mb-24 md:w-[480px] text-justify">
+          <p className="text-white font-content  md:text-xl text-xs md:mb-28 mb-24 md:w-[480px] text-justify">
             Explore our development experiences and customer engagement blogs
             for IT companies. That focuses on Web Development Technologies &
             Trends.

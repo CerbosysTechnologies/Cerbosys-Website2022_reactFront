@@ -88,6 +88,9 @@ const Navbar = () => {
               <Link to="/solution">Solution </Link>
             </li>
             <IndustryNavLinks></IndustryNavLinks>
+            <li>
+              <Link to="">Portfolio</Link>
+            </li>
             {/* <li>
             <Link to="/" className="py-5 px-1 inline-block">
               Case Study

@@ -12,7 +12,7 @@ import fulltime from '../../../../assets/Careerpage/fulltime.png';
 import description from '../../../../assets/Careerpage/ic_description_24px.svg';
 
 import ApplyForjob from './ApplyForjob';
-import { Navigate, useNavigate } from 'react-router-dom';
+import { createMemoryRouter, Navigate, useNavigate } from 'react-router-dom';
 
 const CurrentOpeningBody = () => {
   let navigate = useNavigate();
@@ -33,7 +33,7 @@ const CurrentOpeningBody = () => {
         },
       })
       .then((res, i) => {
-        console.log('getAllJobPost', res.data.data);
+        console.log('getAllJobPost', res.data);
         setJob(res.data.data);
       });
   };
@@ -50,101 +50,99 @@ const CurrentOpeningBody = () => {
     <div>
       <div className="mx-auto w-full py-16 px-2">
         <div className="max-w-[1240px] mx-auto">
-          <p className="font-heading text-3xl text-center underline underline-offset-[26px]">
-            Open Positions
-          </p>
-
+          <p className="font-heading text-3xl text-center ">Open Positions</p>
+          <div className="block w-40 h-1 bg-black justify-center m-auto mt-3">
+            <div className="block w-20 h-1 bg-Orange justify-center m-auto mt-3"></div>
+          </div>
           {/* Card Content Section */}
-
-          <div className="flex flex-wrap mt-10  justify-center">
-            {Job ? (
-              Job.map((item, index) => {
-                return (
-                  <div
-                    key={index}
-                    className="mx-2 "
-                    onClick={() => CurrentOpningGetbyOne(item.jobpost_id)}
-                  >
-                    <a
-                      className=" rounded-md block py-4 px-6 max-w-sm  bg-white
-                     
-                     shadow-xl cursor-pointer"
+          <div className="flex justify-center">
+            <div className="flex flex-wrap md:flex-nowrap mt-10   gap-10">
+              {Job ? (
+                Job.map((item, index) => {
+                  return (
+                    <div
+                      key={index}
+                      className="mx-2 w-[100%]"
+                      onClick={() => CurrentOpningGetbyOne(item.jobpost_id)}
                     >
-                      <h5
-                        className="mb-2 text-2xl font-heading tracking-tight text-Orange
-              uppercase text-center"
-                        // key={index}
+                      <a
+                        className=" rounded-md block py-4 px-6 max-w-sm  bg-white
+                     
+                     shadow-xl cursor-pointer h-full mt-5"
                       >
-                        {item.jobposition}
-                      </h5>
-                      <hr></hr>
-                      <p className="font-content text-Textblue text-justify mt-5 mb-4">
-                        {/* images */}
-                        <div className="h-30 w-70">
-                          {/* \object-scale-down */}
-                          <img
-                            className="w-full object-scale-down"
-                            src={IMG + `${item.job_icon.substr(18)}`}
-                            alt="img"
-                          />
-                        </div>
-
-                        {/* Content */}
-                        <div className=" my-2 justify-center items-center ">
-                          <div className="flex items-center gap-3.5">
-                            <div className=" md:mt-1">
-                              <img
-                                className="card-icon h-7 w-7"
-                                src={location}
-                                alt="Placeholder"
-                              />
-                            </div>
-                            <div className="text-sm font-bold">
-                              indore
-                              {/* {item.jobexperience}  */}
-                            </div>
+                        <h5
+                          className="mb-2 text-xl font-heading tracking-tight text-Orange
+              uppercase text-center"
+                          // key={index}
+                        >
+                          {item.jobposition}
+                        </h5>
+                        <hr></hr>
+                        <p className="font-content text-Textblue text-justify mt-5 mb-4">
+                          {/* images */}
+                          <div className="h-30 w-70">
+                            {/* \object-scale-down */}
+                            <img
+                              className="h-28 w-full "
+                              src={IMG + `${item.job_icon.substr(18)}`}
+                              alt="img"
+                            />
                           </div>
 
-                          <div className="flex items-center gap-3.5">
-                            <div className="md:mt-1">
-                              <img
-                                className="card-icon h-7 w-7"
-                                src={experience}
-                                alt="Placeholder"
-                              />
+                          {/* Content */}
+                          <div className=" my-2 justify-center items-center ">
+                            <div className="flex items-center gap-3.5">
+                              <div className=" md:mt-1">
+                                <img
+                                  className="card-icon h-7 w-7"
+                                  src={location}
+                                  alt="Placeholder"
+                                />
+                              </div>
+                              <div className="text-sm font-bold">
+                                {item.joblocation}
+                                {/* indore */}
+                                {/* {item.jobexperience}  */}
+                              </div>
                             </div>
-                            <div className="text-sm  font-bold ">
-                              Experience {item.jobexperience} years
-                              {/* Salary {item.salaryscale} /year */}
+
+                            <div className="flex items-center gap-3.5">
+                              <div className="md:mt-1">
+                                <img
+                                  className="card-icon h-7 w-7"
+                                  src={experience}
+                                  alt="Placeholder"
+                                />
+                              </div>
+                              <div className="text-sm  font-bold ">
+                                Experience {item.jobexperience} years
+                              </div>
                             </div>
-                          </div>
-                          <div className="flex items-center gap-2.5">
-                            <div className="md:mt-1">
-                              <img
-                                className="card-icon h-7 w-7"
-                                src={fulltime}
-                                alt="Placeholder"
-                              />
+                            <div className="flex items-center gap-2.5">
+                              <div className="md:mt-1">
+                                <img
+                                  className="card-icon h-7 w-7"
+                                  src={fulltime}
+                                  alt="Placeholder"
+                                />
+                              </div>
+                              <div className="font-bold text-sm">
+                                {item.jobemploymenttype}
+                              </div>
                             </div>
-                            <div className="font-bold text-sm">
-                              {/* Salary {item.salaryscale} /year */}
-                              {item.jobemploymenttype}
+                            <div className="flex items-center gap-3.5">
+                              <div className="md:mt-1">
+                                <img
+                                  className="card-icon h-7 w-7"
+                                  src={rupes}
+                                  alt="Placeholder"
+                                />
+                              </div>
+                              <div className=" font-bold text-sm">
+                                Salary {item.salaryscale} /year
+                              </div>
                             </div>
-                          </div>
-                          <div className="flex items-center gap-3.5">
-                            <div className="md:mt-1">
-                              <img
-                                className="card-icon h-7 w-7"
-                                src={rupes}
-                                alt="Placeholder"
-                              />
-                            </div>
-                            <div className=" font-bold text-sm">
-                              {/* {item.joblocation} */}
-                              Salary {item.salaryscale} /year
-                            </div>
-                          </div>
-                          {/* <div className="flex gap-3.5">
+                            {/* <div className="flex gap-3.5">
                             <div className="md:mt-1 ">
                               <img
                                 className="card-icon h-5 w-5"
@@ -156,35 +154,35 @@ const CurrentOpeningBody = () => {
                               {item.jobdescription}
                             </div>
                           </div> */}
-                        </div>
-                      </p>
+                          </div>
+                        </p>
 
-                      <div className="flex ">
-                        <button
-                          className="py-2 px-8 text-sm font-heading 
+                        <div className="flex  ">
+                          <button
+                            className="py-2 px-6 text-sm font-heading 
                           hover:bg-Darkblue hover:text-white
                           text-Darkblue rounded-xl border-Darkblue border-2
               text-center
               //  text-Primary rounded-xl border border-Primary "
-                          // onClick={() => {
-                          //   ModalPotion();
-                          // }}
-                        >
-                          More
-                        </button>
-                      </div>
-                    </a>
-                  </div>
-                );
-              })
-            ) : (
-              <h2 className="font-heading md:text-2xl text-lg">
-                No Open Positions
-              </h2>
-            )}
+                            // onClick={() => {
+                            //   ModalPotion();
+                            // }}
+                          >
+                            More
+                          </button>
+                        </div>
+                      </a>
+                    </div>
+                  );
+                })
+              ) : (
+                <h2 className="font-heading md:text-2xl text-lg">
+                  No Open Positions
+                </h2>
+              )}
+            </div>
           </div>
           {/* Card Content Section Ends */}
-
           {/* Perks Section */}
           <div className="bg-PerksBackground mx-auto w-full py-16 px-2 object-contain bg-cover bg-center mt-10">
             <p className="font-heading text-3xl text-center underline underline-offset-[26px]">

@@ -31,7 +31,7 @@ const HealthCare = () => {
               HealthCare And Life Science
             </h1>
 
-            <p className="text-center text-Skyblue font-subheading   md:text-lg text-xs md:w-[980px] min-w-fit">
+            <p className="text-center text-Skyblue font-subheading  md:text-lg text-xs md:w-[980px] max-w-fit">
               Our company develops unique mobile applications as per the
               <br></br> trends & changes in the healthcare industry for clinics
               that<br></br> allow doctors to book appointments online.

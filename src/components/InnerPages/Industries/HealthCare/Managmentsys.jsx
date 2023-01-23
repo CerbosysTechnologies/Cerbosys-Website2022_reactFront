@@ -58,7 +58,7 @@ const Managmentsys = () => {
               <span className="text-Primary">Benefits</span> of our Healthcare
               Management System
             </h1>
-            <div className="flex  flex-wrap  justify-between pt-4">
+            <div className="flex  flex-wrap  justify-between pt-4 p-5">
               <div className="bg-Primary rounded-md p-4 justify-center text-center w-[100%]  lg:w-[25%]">
                 <div className="">
                   <div className="mx-auto text-center">
@@ -193,9 +193,9 @@ const Managmentsys = () => {
         {/*start Technology in Healthcare & Life Science industry  */}
         <div className=" bg-slate-200 ">
           <div className="w-full py-10 px-8">
-            <h1 className="font-heading pt-2 md:text-5xl text-2xl md:mb-10 min-w-fit">
+            <h1 className=" text-Primary font-heading pt-2 md:text-5xl text-2xl md:mb-10 min-w-fit">
               Importance of Technology in{' '}
-              <span className="text-Primary">
+              <span className="text-Green">
                 Healthcare & Life Science industry
               </span>
             </h1>
@@ -215,7 +215,7 @@ const Managmentsys = () => {
                                 className="w-16 md:w-18  object-contain"
                               />
                             </div>
-                            <div className="self-center justify-self-start    w-[80%]">
+                            <div className="self-center justify-self-start w-[80%]">
                               <p>{curent.para}</p>
                             </div>
                           </div>

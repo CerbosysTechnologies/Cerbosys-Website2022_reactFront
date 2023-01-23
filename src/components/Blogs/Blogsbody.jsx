@@ -86,7 +86,7 @@ function Blogsbody() {
                 onClick={() => SingleBlog(item.blog_id)}
               >
                 {/* <!--Card 1--> */}
-                <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl">
+                <div class="max-w-sm h-[100%] rounded-2xl overflow-hidden shadow-2xl cursor-pointer">
                   <div className="flex justify-center">
                     {/* <img
                   class="md:h-[300px] md:w-[300px] scale-90  rounded-lg hover:scale-100 ease-in duration-1000"
