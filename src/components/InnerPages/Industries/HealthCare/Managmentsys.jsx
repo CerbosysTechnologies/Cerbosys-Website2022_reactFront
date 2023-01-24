@@ -1,6 +1,6 @@
 import React from 'react';
 import icon1img from '../../../../assets/innerpage/healthcare/icon1img.png';
-import icon2img from '../../../../assets/innerpage/healthcare/icon2img.png';
+import icon2img from '../../../../assets/innerpage/healthcare/leptop.png';
 import icon3img from '../../../../assets/innerpage/healthcare/icon3img.png';
 import icon4img from '../../../../assets/innerpage/healthcare/icon4img.png';
 import healthdrimg from '../../../../assets/innerpage/healthcare/healthdrimg.png';
@@ -59,37 +59,44 @@ const Managmentsys = () => {
               Management System
             </h1>
             <div className="flex  flex-wrap  justify-between pt-4 p-5">
-              <div className="bg-Primary rounded-md p-4 justify-center text-center w-[100%]  lg:w-[25%]">
+              <div className="  rounded-md p-4 justify-center text-center w-[100%]  lg:w-[25%]">
                 <div className="">
-                  <div className="mx-auto text-center">
-                    <img src={icon2img} alt="img" className="w-32 mx-auto " />
+                  <div className="mx-auto text-center   ">
+                    <img
+                      src={icon2img}
+                      alt="img"
+                      className="w-32 mx-auto   hover:scale-125 duration-300 delay-200"
+                    />
                   </div>
-                  <div className="w-full">
-                    <p className=" mt-3 text-lg font-heading text-white">
-                      Easy to use
-                    </p>
 
-                    <p className="mt-3 text-white ">
-                      A quicker access to the integrated high end<br></br>{' '}
-                      hospital solution by making it user-friendly. <br></br>{' '}
-                      Ensuring top notch patient care with just asingle click
-                      and <br></br>is manageable across all platforms.
+                  <div className="w-full">
+                    <p className=" mt-3 text-lg font-heading ">Easy to use</p>
+
+                    <p className="mt-3 text-justify leading-9 md:mx-4 mx-5  ">
+                      A quicker access to the integrated high end hospital
+                      solution by making it user-friendly. Ensuring top notch
+                      patient care with just a single click and is manageable
+                      across all platforms.
                     </p>
                   </div>
                 </div>
               </div>
               <div className="p-4 w-[100%]  lg:w-[25%]">
                 {' '}
-                <div className="text-center">
-                  <div className="mx-auto text-center">
-                    <img src={icon1img} alt="img" className="w-24 mx-auto " />
+                <div className="text-center ">
+                  <div className="mx-auto text-center ">
+                    <img
+                      src={icon1img}
+                      alt="img"
+                      className="w-24 mx-auto  hover:scale-125 duration-300 delay-200"
+                    />
                   </div>
                   <p className="mt-3 text-lg font-heading ">Customizable</p>
-                  <p className=" mt-3">
-                    A quicker access to the integrated high end<br></br>{' '}
-                    hospital solution by making it user-friendly. <br></br>{' '}
-                    Ensuring top notch patient care with just asingle click and{' '}
-                    <br></br>is manageable across all platforms.
+                  <p className=" mt-3 text-justify leading-9 md:mx-4 mx-5">
+                    Evolved from the cornerstone of technology, make the most
+                    out of our highly flexible solution. Experience the
+                    customized usage of our product that makes you deal with the
+                    primary issues.
                   </p>
                 </div>
               </div>
@@ -97,14 +104,18 @@ const Managmentsys = () => {
                 {' '}
                 <div className="text-center">
                   <div className="mx-auto text-center">
-                    <img src={icon4img} alt="img" className="w-24 mx-auto " />
+                    <img
+                      src={icon4img}
+                      alt="img"
+                      className="w-24 mx-auto hover:scale-125 duration-300 delay-200 "
+                    />
                   </div>
                   <p className=" mt-3 text-lg font-heading">Responsive</p>
-                  <p className="mt-3 ">
-                    A quicker access to the integrated high end<br></br>{' '}
-                    hospital solution by making it user-friendly. <br></br>{' '}
-                    Ensuring top notch patient care with just asingle click and{' '}
-                    <br></br>is manageable across all platforms.
+                  <p className=" mt-3 text-justify leading-9 md:mx-4 mx-5 ">
+                    Flying up to the expectations of each client and improves
+                    the user experience with a responsive layout. Giving you the
+                    best view on all devices with no worries of speed and
+                    efficiency.
                   </p>
                 </div>
               </div>
@@ -112,14 +123,17 @@ const Managmentsys = () => {
                 {' '}
                 <div className="text-center">
                   <div className="mx-auto text-center">
-                    <img src={icon3img} alt="img" className="w-16 mx-auto " />
+                    <img
+                      src={icon3img}
+                      alt="img"
+                      className="w-16 mx-auto  hover:scale-125 duration-300 delay-200"
+                    />
                   </div>
                   <p className="mt-3 text-lg font-heading">Premium</p>
-                  <p className="mt-3 justify-content ">
-                    A quicker access to the integrated high end<br></br>{' '}
-                    hospital solution by making it user-friendly. <br></br>{' '}
-                    Ensuring top notch patient care with just asingle click and{' '}
-                    <br></br>is manageable across all platforms.
+                  <p className=" mt-3 text-justify leading-9 md:mx-4 mx-5 ">
+                    Try out our tried and tested product with more added
+                    features in the premium version. Get the upgraded version
+                    today itself and join the automated healthier community.
                   </p>
                 </div>{' '}
               </div>
@@ -136,7 +150,7 @@ const Managmentsys = () => {
             we offer
           </h1>
           <div className="flex  flex-wrap  justify-between pt-4">
-            <div className="p-4 w-[100%]  lg:w-[25%] relative">
+            <div className="p-4 w-[100%]  lg:w-[25%] relative hover:bg-Primary hover:text-white">
               <p className="mt-3 text-lg font-heading">
                 Mobile App Development
               </p>
@@ -151,7 +165,7 @@ const Managmentsys = () => {
                 management.
               </p>
             </div>
-            <div className="p-4 w-[100%]  lg:w-[25%] relative">
+            <div className="p-4 w-[100%]  lg:w-[25%] relative hover:bg-Primary hover:text-white">
               <p className="mt-3 text-lg font-heading">Website Development</p>
               <div className="absolute bottom-0 top-20 right-3 hidden md:block  bg-Primary w-1 h-28">
                 {' '}
@@ -164,7 +178,7 @@ const Managmentsys = () => {
                 SEO-friendly.
               </p>
             </div>
-            <div className="p-4 w-[100%]  lg:w-[25%] relative">
+            <div className="p-4 w-[100%]  lg:w-[25%] relative hover:bg-Primary hover:text-white">
               <p className="mt-3 text-lg font-heading">UI/UX App Development</p>
               <div className="absolute bottom-0 top-20 right-3 hidden md:block  bg-Primary w-1 h-28">
                 {' '}
@@ -176,7 +190,7 @@ const Managmentsys = () => {
                 experience and design.
               </p>
             </div>
-            <div className="p-4 w-[100%]  lg:w-[25%]">
+            <div className="p-4 w-[100%]  lg:w-[25%] hover:bg-Primary hover:text-white">
               <p className="mt-3 text-lg font-heading">CRM Software</p>
 
               <p className="mt-3 pr-3 ">

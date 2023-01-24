@@ -136,7 +136,7 @@ const Footer = () => {
                     <Link to="/Overview">Overview</Link>
                   </li>
                   <li className="">
-                    <Link to="/TrainingAndDevelopment">
+                    <Link to="/training-and-development">
                       Traing and development
                     </Link>
                   </li>
@@ -148,10 +148,10 @@ const Footer = () => {
                     <Link to="/team">Team</Link>
                   </li>
                   <li className="">
-                    <Link to="/LifeCerbosys">Life and Cerbosys</Link>
+                    <Link to="/life-at-cerbosys">Life and Cerbosys</Link>
                   </li>
                   <li className="">
-                    <Link to="/Diversity">Deversity Cerbosys</Link>
+                    <Link to="/diversity-at-cerbosys">Deversity Cerbosys</Link>
                   </li>
                   <li className="">
                     <Link to="/Testimonial">Testimonial</Link>

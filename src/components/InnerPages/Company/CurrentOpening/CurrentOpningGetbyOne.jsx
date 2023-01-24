@@ -148,7 +148,7 @@ function CurrentOpningGetbyOne() {
             <img
               src={IMG + job_icon}
               alt="img"
-              className="w-80 object-cover "
+              className="w-96 md:w-[500px] object-fill"
             />
           </div>
         </div>
