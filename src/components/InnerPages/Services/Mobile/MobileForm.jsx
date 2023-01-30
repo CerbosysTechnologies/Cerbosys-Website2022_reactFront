@@ -1,18 +1,18 @@
-import React from "react";
-import { useState } from "react";
-import mobileservice_technologyicon from "../../../../assets/innerpage/mobiledevelopment/formimage.png";
-import ServicesForm from "../../../Common/Component/ServicesForm";
-import { IMAGE_SERVER } from "../../../../ServerUrls";
-import { useParams } from "react-router-dom";
+import React from 'react';
+import { useState } from 'react';
+import mobileservice_technologyicon from '../../../../assets/innerpage/mobiledevelopment/formimage.png';
+import ServicesForm from '../../../Common/Component/ServicesForm';
+import { IMAGE_SERVER } from '../../../../ServerUrls';
+import { useParams } from 'react-router-dom';
 
 const MobileForm = ({ onChangeSelected }) => {
   const [imgName, setImgName] = useState();
 
   const onChangeSelection = (newName) => {
-    console.log("newValue", newName);
+    console.log('newValue', newName);
     let new_name = newName.substring(8);
     setImgName(IMAGE_SERVER + new_name);
-    console.log("ImgName", imgName);
+    console.log('ImgName', imgName);
   };
 
   return (

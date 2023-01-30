@@ -11,6 +11,8 @@ import multymob from '../../../../assets/innerpage/education/multymob.png';
 
 import Educattionsilder from './Educattionsilder';
 
+import Tabscon from './educationtabs/Tabscon';
+
 const EducationBody = () => {
   const data = [
     {
@@ -117,7 +119,7 @@ const EducationBody = () => {
       <Educattionsilder />
       {/* end slider section */}
       {/*start tabs */}
-
+      <Tabscon />
       {/*end tabs */}
       {/*start Learn and have some fun */}
       <div className="bg-Primary">

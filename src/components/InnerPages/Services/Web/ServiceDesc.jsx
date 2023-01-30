@@ -19,7 +19,7 @@ const ServiceDesc = () => {
                   Web Development Services
                 </h2>
 
-                <p className="font-content md:text-lg text-sm">
+                <p className="font-content md:text-lg text-sm ">
                   Web development is the process of designing and coding a
                   website, web applications, or other computer programs that are
                   accessible on the internet. Website design & development

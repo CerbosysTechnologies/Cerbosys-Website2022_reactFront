@@ -1,21 +1,18 @@
-import React from "react";
-import webdevelopmenticon from "../../../../assets/innerpage/webdevelopment/web_development_contact_us.png";
-import ServicesForm from '../../../Common/Component/ServicesForm'
-import { IMAGE_SERVER } from "../../../../ServerUrls";
-import { useState } from "react";
-
+import React from 'react';
+import webdevelopmenticon from '../../../../assets/innerpage/webdevelopment/web_development_contact_us.png';
+import ServicesForm from '../../../Common/Component/ServicesForm';
+import { IMAGE_SERVER } from '../../../../ServerUrls';
+import { useState } from 'react';
 
 const ServiceForm = ({ onChangeSelected }) => {
-
   const [imgName, setImgName] = useState();
 
   const onChangeSelection = (newValue) => {
-    console.log("newValue", newValue);
+    console.log('newValue', newValue);
     let new_name = newValue.substring(8);
     setImgName(IMAGE_SERVER + new_name);
-    console.log("ImgName", imgName);
+    console.log('ImgName', imgName);
   };
-
 
   return (
     <div className="">
@@ -34,21 +31,24 @@ const ServiceForm = ({ onChangeSelected }) => {
 
             {/* Form Design */}
             <div className="grid md:grid-cols-2 mb-4 mt-10 shadow-xl shadow-gray-600">
-               {/* Image Section */}
-               <div className="mx-auto items-center justify-center ">
-              <img src={!imgName ? webdevelopmenticon : imgName} alt="" className="h-full"></img>
+              {/* Image Section */}
+              <div className="mx-auto items-center justify-center ">
+                <img
+                  src={!imgName ? webdevelopmenticon : imgName}
+                  alt=""
+                  className="h-full"
+                ></img>
               </div>
               {/* Image Section Ends*/}
 
               {/* Form Section */}
               <div className="bg-white md:px-14 px-10 items-center justify-center text-center ">
-              <ServicesForm onChangeSelected={onChangeSelection} />
-                </div>
-              {/* Form Section Ends*/}
-
+                <ServicesForm onChangeSelected={onChangeSelection} />
               </div>
-      </div>
-      </div>
+              {/* Form Section Ends*/}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

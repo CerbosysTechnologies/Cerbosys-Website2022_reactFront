@@ -1,12 +1,12 @@
-import React from "react";
-import mobileserviceicon from "../../../../assets/innerpage/mobiledevelopment/mobile_app_services_image.png";
-import mobileservice_articon from "../../../../assets/innerpage/mobiledevelopment/illustrator.svg";
-import mobiletechnologyicon from "../../../../assets/innerpage/mobiledevelopment/tectnologies_mobile_app.svg";
-import { Bounce } from "react-reveal";
+import React from 'react';
+import mobileserviceicon from '../../../../assets/innerpage/mobiledevelopment/mobile_app_services_image.png';
+import mobileservice_articon from '../../../../assets/innerpage/mobiledevelopment/illustrator.svg';
+import mobiletechnologyicon from '../../../../assets/innerpage/mobiledevelopment/tectnologies_mobile_app.svg';
+import { Bounce } from 'react-reveal';
 const MobileDesc = () => {
   return (
     <div>
-      <div className=" mx-auto w-full py-16 px-4 ">
+      <div className=" mx-auto w-full py-2 md:py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
           {/* First Section */}
           <Bounce duration={3000}>
@@ -14,8 +14,8 @@ const MobileDesc = () => {
               {/* Content Section */}
               <div className="mx-auto flex flex-col md:px-24 px-14 text-justify">
                 <h2 className="font-heading md:text-2xl text-lg mb-10">
-                  {" "}
-                  Mobile App Development{" "}
+                  {' '}
+                  Mobile App Development{' '}
                 </h2>
                 <p className="font-content md:text-lg text-sm">
                   Simplifying app development by enhancing and rebuilding mobile
@@ -53,7 +53,7 @@ const MobileDesc = () => {
               {/* Image Section Ends*/}
 
               {/* Content Section */}
-              <div className="flex flex-col md:px-24 px-14 mx-auto text-justify mt-8">
+              <div className="flex flex-col md:px-10 lg:px-20 px-6 mx-auto text-justify mt-8">
                 <h2 className="font-heading md:text-2xl text-lg text-white">
                   We are aware of the Technology Pulse that Leads to Better
                   Performance
@@ -77,7 +77,7 @@ const MobileDesc = () => {
           {/* Second Section Ends */}
 
           {/* Third Section */}
-          <div className="flex flex-row flex-wrap items-center gap-8 mt-36 mx-auto">
+          <div className="flex flex-row flex-wrap items-center gap-8 mt-16 md:mt-36 mx-auto">
             <img
               src={mobiletechnologyicon}
               alt="Technology Icon"

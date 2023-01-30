@@ -32,7 +32,7 @@ const MobileDevelopment = () => {
               Mobile App Development
             </h1>
 
-            <p className="text-white font-heading py-2 md:text-xs text-xs mb-8 md:w-[480px]">
+            <p className="md:w-[480px] text-justify text-white  py-2 mb-8 font-content md:text-lg text-sm">
               Our app development platform builds mobile applications that
               easily solve problems and deliver a fast value to your users and
               is capable of effortlessly increasing the number of users.

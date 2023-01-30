@@ -30,7 +30,7 @@ const LeadGeneration = () => {
               Lead Generation
             </h1>
 
-            <p className="text-white font-heading py-2 md:text-xs text-xs mb-8 md:w-[480px] text-justify">
+            <p className="md:w-[480px] text-justify text-white  py-2 mb-8 font-content md:text-lg text-sm">
               Lead generation is the process of creating and nurturing leads for
               your business. It involves creating interest in your product or
               service, and then converting that interest into a sales
