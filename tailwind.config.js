@@ -23,6 +23,7 @@ module.exports = {
         Darkblue: '#6c0ba9',
         Textblue: '#4d516d',
         Orange: '#fe6e00',
+        Grey: '#9F9F9F',
       },
     },
 
@@ -58,10 +59,10 @@ module.exports = {
         "url('assets/innerpage/testimonial/testimoniyalheader.svg')",
       AgricultureHeader:
         "url('assets/innerpage/agriculture/agricultureheader.svg')",
+      Agriculturebg: "url('assets/innerpage/agriculture/bgimgagriculture.png')",
       BankingHeader: "url('assets/innerpage/banking/bankingheader.svg')",
       EcommerceHeader: "url('assets/innerpage/ecommerce/ecommersbg.png')",
-      EcommersBodybg:
-        "url('assets/innerpage/ecommerce/ecommersbggreenblue.png')",
+      EcommersBodybg: "url('assets/innerpage/ecommerce/ecommesgreenbg.png')",
       HealthCareHeader: "url('assets/innerpage/healthcare/bghealth.png')",
       HealthCarebody: "url('assets/innerpage/healthcare/healthbgbody.png')",
       MiningHeader: "url('assets/innerpage/mining/miningheader.svg')",
@@ -69,6 +70,7 @@ module.exports = {
       RealEstateHeader:
         "url('assets/innerpage/realestate/realestateheader.svg')",
       EducationHeader: "url('assets/innerpage/education/educationbg.png')",
+      EducationTabsbg: "url('assets/innerpage/education/tabbg.png')",
       ManufacturingHeader:
         "url('assets/innerpage/manufacturing/manufacturingheader.svg')",
       DotNetHeader: "url('assets/innerpage/dotnet/dotnetheader.png')",

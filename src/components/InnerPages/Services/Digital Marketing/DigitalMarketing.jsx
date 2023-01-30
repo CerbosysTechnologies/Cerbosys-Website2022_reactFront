@@ -33,7 +33,7 @@ const DigitalMarketing = () => {
               Digital Marketing
             </h1>
 
-            <p className="text-white font-heading py-2 md:text-xs text-xs mb-8 md:w-[480px] text-justify">
+            <p className="md:w-[480px] text-justify text-white  py-2 mb-8 font-content md:text-lg text-sm">
               Connecting with potential customers online comes under the digital
               marketing process. This can be done through a variety of means,
               such as email, social media, and web-based advertising.

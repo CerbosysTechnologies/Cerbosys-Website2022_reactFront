@@ -247,9 +247,10 @@ const ServicesForm = (props) => {
             >
               <option>Please Select</option>
               {serviceitems ? (
-                serviceitems.map((item) => (
+                serviceitems.map((item, ind) => (
                   <option
                     // key={item.myservices_id}
+                    key={ind}
                     id={item.myservices_id}
                     value={item.service_image}
                     // onChange={(item) => {
@@ -394,7 +395,7 @@ const ServicesForm = (props) => {
           {/* Message Div Ends */}
 
           <input
-            className="mt-6 mb-6 bg-Primary text-white font-heading py-2 px-4 rounded"
+            className="mt-6 mb-6 bg-Primary text-white font-heading py-2 px-4 rounded w-full cursor-pointer"
             type="submit"
             value="Submit"
             disabled={username === '' || contactNumber === '' ? true : false}

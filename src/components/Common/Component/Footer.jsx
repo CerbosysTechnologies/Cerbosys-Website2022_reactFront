@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import callicon from '../../../assets/footer/FooterWhatsp.svg';
 import emailicon from '../../../assets/footer//FooterEmail.svg';
-import fbcon from '../../../assets/footer/facebook.svg';
+import fbcon from '../../../assets/footer/Facebook.svg';
 import instagramicon from '../../../assets/footer/Instagram.svg';
 import linkedinicon from '../../../assets/footer/Linkdin_footer.svg';
 import locationicon from '../../../assets/footer/FooterLoction.svg';
 import twittericon from '../../../assets/footer/Twittter.svg';
 import whatsappicon from '../../../assets/footer/FoterColl.svg';
-import youtubeicon from '../../../assets/footer/youtube.svg';
+import youtubeicon from '../../../assets/footer/Youtube.svg';
 import footerlogo from '../../../assets/footer/FooterLogosCer.svg';
 import right from '../../../assets/footer/right.svg';
 import left from '../../../assets/footer/left.svg';

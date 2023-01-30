@@ -1,7 +1,7 @@
-import React from "react";
-import digitalmarketingicon from "../../../../assets/innerpage/digitalmarketing/digital_marketing_image.png";
-import digitalmarketing_articon from "../../../../assets/innerpage/digitalmarketing/illustrator.png";
-import Bounce from "react-reveal/Bounce";
+import React from 'react';
+import digitalmarketingicon from '../../../../assets/innerpage/digitalmarketing/digital_marketing_image.png';
+import digitalmarketing_articon from '../../../../assets/innerpage/digitalmarketing/illustrator.png';
+import Bounce from 'react-reveal/Bounce';
 
 const MobileDesc = () => {
   return (
@@ -13,10 +13,10 @@ const MobileDesc = () => {
             <div className="grid md:grid-cols-2">
               {/* Content Section */}
               <div className="mx-auto flex flex-col md:px-24 px-14 text-justify">
-                <h2 className="font-heading md:text-2xl text-lg mb-5">
+                <h2 className="font-heading md:text-2xl text-lg mb-5 ">
                   Digital Marketing
                 </h2>
-                <p className="font-content md:text-lg text-sm">
+                <p className="font-content  text-white md:text-lg text-sm   text-center">
                   Digital marketing is an umbrella term encompassing several
                   disciplines, including web design and development, social
                   media, search engine optimization (SEO), email marketing,

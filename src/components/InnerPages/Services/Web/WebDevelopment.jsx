@@ -31,7 +31,7 @@ const WebDevelopment = () => {
             <h1 className="text-white font-heading py-2 md:text-3xl text-xl mb-2">
               Web Design and Development
             </h1>
-            <p className="text-white font-heading py-2 md:text-xl text-xs mb-8 ">
+            <p className="text-white  py-2 mb-8 font-content md:text-lg text-sm">
               Delivering designs that inspires next generation
             </p>
             <Link to="/contact-us">
