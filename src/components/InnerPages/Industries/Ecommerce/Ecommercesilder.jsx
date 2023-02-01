@@ -43,7 +43,7 @@ const Ecommercesilder = () => {
     <div className="mt-3">
       {/* h-52 md:h-90 */}
       <Slider {...settings}>
-        <div className="h-96 md:h-90 px-8 ">
+        <div className="h-96 md:h-90 px-8">
           <div className="relative bg-Lightpink h-[140px] md:h-[200px] rounded-t-lg">
             <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6 h-[160px]">
               <img

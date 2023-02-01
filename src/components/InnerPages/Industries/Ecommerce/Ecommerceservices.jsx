@@ -49,7 +49,7 @@ const Ecommerceservices = () => {
       <div>
         {/*start Our Solutions & Services for E-commerce & Retail Industry */}
         <div className="max-w-[1240px] mx-auto ">
-          <h2 className="text-Secondary md:text-3xl text-xl mt-4 font-heading text-center mb-6">
+          <h2 className="text-Secondary uppercase md:text-3xl text-xl mt-4 font-heading text-center mb-6">
             Our Solutions & Services
             <span className="text-black">
               {' '}
@@ -95,7 +95,7 @@ const Ecommerceservices = () => {
               <img src={ecommersmulty} alt="img" />
             </div>
             <div className="text-white">
-              <p className="md:text-3xl text-xl mt-4 font-heading text-center mb-6">
+              <p className=" md:text-3xl text-xl mt-4 font-heading text-center mb-6">
                 Why Choose Cerbosys as Your Tech Partner
               </p>
               <p>

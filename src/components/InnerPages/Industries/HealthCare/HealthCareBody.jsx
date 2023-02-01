@@ -12,14 +12,14 @@ const HealthCareBody = () => {
       {/*start healthcare life  science section*/}
       <div className="w-full mt-4">
         <div className="flex flex-wrap md:flex-nowrap justify-between items-center md:gap-10 p-6">
-          <div className=" p-6">
-            <img src={multymob} alt="img" className="w-full" />
+          <div className="md:w-[50%] w-[100%]">
+            <img src={multymob} alt="img" className="md:h-[24rem] w-full" />
           </div>
-          <div className="p-7">
-            <h1 className="text-Secondary font-heading pt-2 md:text-5xl text-2xl md:mb-10 min-w-fit">
+          <div className="md:w-[50%] w-[100%]">
+            <h1 className="text-Secondary font-heading pt-2 md:text-3xl text-xl md:mb-10 min-w-fit">
               HEALTHCARE
-              <span className="text-Green">&</span>
-              LIFE SCIENCE
+              <span className="text-Green">&nbsp;&</span>
+              &nbsp;LIFE SCIENCE
             </h1>
             <p className="mt-3 min-w-fit">
               Healthcare and life science industries are the two broad fields of

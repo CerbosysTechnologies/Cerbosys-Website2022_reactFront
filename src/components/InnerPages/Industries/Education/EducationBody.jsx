@@ -83,15 +83,15 @@ const EducationBody = () => {
           </p>
 
           {/* Bullet Section */}
-          <div className="mt-8">
+          <div className="mt-12">
             {' '}
-            <h2 className="text-Primary md:text-3xl text-center  mb-6 text-xl  font-heading">
+            <h2 className="text-Primary md:text-3xl text-center uppercase  mb-6 text-xl  font-heading">
               Services
               <span className="text-black md:text-3xl  mb-6 text-xl  font-heading">
-                we can offer
+                &nbsp;we can offer
               </span>
             </h2>{' '}
-            <div className="grid grid-flow-row grid-rows-2 md:grid-flow-col gap-y-20  gap-x-72 mt-8">
+            <div className="grid grid-flow-row grid-rows-2 md:grid-flow-col gap-y-20  gap-x-72 mt-12">
               {data &&
                 data.map((curent, ind) => {
                   return (

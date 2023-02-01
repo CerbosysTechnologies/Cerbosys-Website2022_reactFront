@@ -45,7 +45,7 @@ const Healthsilder = () => {
           <div className="px-8 md:px-12">
             <div>
               {/* "font-heading md:text-3xl text-xl mt-10 text-center text-Primary" */}
-              <p className="text-white md:text-3xl text-xl mt-4 font-heading text-center mb-6">
+              <p className="text-white uppercase md:text-3xl text-xl mt-4 font-heading text-center mb-6">
                 Our Portfolio
               </p>
             </div>

@@ -54,7 +54,7 @@ const Managmentsys = () => {
         <div className=" bg-slate-200 ">
           {/* benefit section start */}
           <div className="w-full py-10 px-8">
-            <h1 className="font-heading pt-2 md:text-5xl text-2xl md:mb-10 min-w-fit text-center">
+            <h1 className="font-heading uppercase pt-2 md:text-3xl text-xl md:mb-10 min-w-fit text-center">
               <span className="text-Primary">Benefits</span> of our Healthcare
               Management System
             </h1>
@@ -131,9 +131,9 @@ const Managmentsys = () => {
 
         {/* product serviers section */}
         <div className=" w-full py-6 px-4 mt-4">
-          <h1 className="font-heading pt-2 md:text-5xl text-2xl md:mb-10 min-w-fit ">
+          <h1 className="font-heading uppercase pt-2 md:text-3xl text-xl md:mb-10 min-w-fit ">
             <span className="text-Primary"> Products & Services </span>
-            we offer
+            &nbsp;we offer
           </h1>
           <div className="flex  flex-wrap  justify-between pt-4">
             <div className="p-4 w-[100%]  lg:w-[25%] relative">
@@ -193,13 +193,13 @@ const Managmentsys = () => {
         {/*start Technology in Healthcare & Life Science industry  */}
         <div className=" bg-slate-200 ">
           <div className="w-full py-10 px-8">
-            <h1 className=" text-Primary font-heading pt-2 md:text-5xl text-2xl md:mb-10 min-w-fit">
+            <h1 className=" text-Primary uppercase font-heading pt-2 md:text-3xl text-xl md:mb-10 min-w-fit">
               Importance of Technology in{' '}
               <span className="text-Green">
                 Healthcare & Life Science industry
               </span>
             </h1>
-            <div className="flex flex-wrap md:flex-nowrap justify-between content-center  gap-10 px-5">
+            <div className="flex flex-wrap md:flex-nowrap justify-between content-center  gap-10 px-0 md:px-5">
               {/* w-[100%] md:w-[50%] flex flex-col */}
               <div className="">
                 {items &&
