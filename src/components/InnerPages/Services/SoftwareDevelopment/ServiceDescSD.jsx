@@ -18,7 +18,7 @@ function ServiceDescSD() {
                   <h2 className="font-heading md:text-2xl text-xl mb-5">
                     Software Development
                   </h2>
-                  <p className="text-white  py-2 mb-8 font-content md:text-lg text-sm">
+                  <p className="text-black  py-2 mb-8 font-content md:text-lg text-sm">
                     Software development is a complex and ever-evolving field
                     that requires specialized skills, experience, and
                     dedication. If you need a software developer for your

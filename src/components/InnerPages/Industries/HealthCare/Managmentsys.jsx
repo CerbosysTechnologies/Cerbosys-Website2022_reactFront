@@ -1,6 +1,6 @@
 import React from 'react';
 import icon1img from '../../../../assets/innerpage/healthcare/icon1img.png';
-import icon2img from '../../../../assets/innerpage/healthcare/leptop.png';
+import icon2img from '../../../../assets/innerpage/healthcare/icon2img.png';
 import icon3img from '../../../../assets/innerpage/healthcare/icon3img.png';
 import icon4img from '../../../../assets/innerpage/healthcare/icon4img.png';
 import healthdrimg from '../../../../assets/innerpage/healthcare/healthdrimg.png';
