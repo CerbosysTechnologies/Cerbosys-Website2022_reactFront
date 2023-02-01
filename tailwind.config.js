@@ -24,6 +24,7 @@ module.exports = {
         Textblue: '#4d516d',
         Orange: '#fe6e00',
         Grey: '#9F9F9F',
+       Lightsky: '#C9DEFF',
       },
     },
 

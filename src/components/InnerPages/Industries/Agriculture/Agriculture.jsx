@@ -28,7 +28,7 @@ const Agriculture = () => {
         <div className="mx-auto w-full md:h-[36rem] bg-AgricultureHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
-            <h1 className="text-white font-heading pt-2 md:text-5xl text-2xl md:mb-10 mb-5 min-w-fit">
+            <h1 className="text-white uppercase font-heading pt-2 md:text-5xl text-2xl md:mb-10 mb-5 min-w-fit">
               Agriculture
             </h1>
 

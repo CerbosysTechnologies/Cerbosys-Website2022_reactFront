@@ -45,7 +45,7 @@ const AgricultureBody = () => {
 
             {/* Side */}
             <div className=" md:w-[60%] w-[100%]">
-              <h2 className="text-Primary md:text-3xl mb-6 text-xl  font-heading max-w-fit">
+              <h2 className="text-Primary uppercase md:text-3xl mb-6 text-xl  font-heading max-w-fit">
                 Agriculture
               </h2>
 
@@ -78,10 +78,8 @@ const AgricultureBody = () => {
                 </span>
               </h2>
               <h2 className="  mb-6 text-lg  font-subheading max-w-fit">
-                {' '}
                 -Integration:
                 <span className="font-content  md:w-[33rem] mt-6 text-justify">
-                  {' '}
                   Use of software applications to integrate different systems
                   into a single system by sharing data between them
                 </span>
@@ -93,9 +91,12 @@ const AgricultureBody = () => {
           {/* start Agriculture in the 21st Century: Technological Trends Section */}
           <div className=" mx-auto">
             <div className="font-heading md:text-3xl text-xl mt-10 ">
-              <h2 className=" md:text-3xl mb-6 text-xl  font-heading   text-center">
-                Agriculture in the 21st Century:{' '}
-                <span className="text-Primary">Technological Trends</span>
+              <h2 className="uppercase md:text-3xl mb-6 text-xl  font-heading   text-center">
+                Agriculture in the 21st Century:
+                <span className="text-Primary">
+                  {' '}
+                  &nbsp;Technological Trends
+                </span>
               </h2>
             </div>
             <div className="flex flex-wrap md:flex-nowrap mx-auto gap-14  justify-between py-5">
@@ -141,7 +142,7 @@ const AgricultureBody = () => {
         <div className="px-8 md:px-12">
           <div>
             {/* "font-heading md:text-3xl text-xl mt-10 text-center text-Primary" */}
-            <p className="text-white md:text-3xl text-xl mt-4 font-heading mb-6 text-center">
+            <p className="text-white md:text-3xl text-xl mt-4 font-heading mb-6  uppercase text-center">
               Our Portfolio
             </p>
           </div>
@@ -156,7 +157,7 @@ const AgricultureBody = () => {
         <p className="text-Primary md:text-3xl text-xl  font-heading mb-6 p-5">
           SMART FARMING
           <span className="text-black md:text-3xl text-xl font-heading mb-6">
-            SOLUTIONS WE PROVIDE
+            &nbsp;SOLUTIONS WE PROVIDE
           </span>
         </p>
 

@@ -23,18 +23,18 @@ const Transport = () => {
           />
         </Helmet>
         {/* <Navbar /> */}
-        <div className="mx-auto w-full md:h-[36rem] bg-TransportHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
+        <div className="mx-auto w-full md:h-[36rem] bg-HealthCareHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
-            <h1 className="text-white font-heading py-2 md:text-5xl text-2xl md:mb-48 mb-28">
-              Transport and Logistics
+            <h1 className="text-white uppercase font-heading pt-2 md:text-5xl text-2xl md:mb-10 min-w-fit">
+              TRANSPORT & LOGISTICS
             </h1>
 
-            <p className="text-white font-heading py-2 md:text-lg text-xs md:w-[980px] text-justify">
-              Transport and logistics management is one of the fastest growing
-              business fields in today's world. Our company helps you improve
-              sales, reduce costs and raise the efficiency of your transport
-              management system.
+            <p className="text-center text-Skyblue font-subheading  md:text-lg text-xs md:w-[980px] max-w-fit">
+              We specialize in providing IT services to the Transportation and
+              <br></br> Logistics sector that address consultation,
+              implementation, and <br></br>support as well as ongoing innovation
+              in T&L solutions. 
             </p>
           </div>
           {/* Content Section Ends */}
