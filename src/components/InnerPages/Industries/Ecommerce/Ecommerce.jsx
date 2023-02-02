@@ -23,7 +23,7 @@ const Ecommerce = () => {
         <div className="mx-auto w-full md:h-[36rem] bg-EcommerceHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-70 mx-auto">
-            <h1 className="text-white uppercase font-heading pt-2  md:text-5xl text-2xl md:mb-10 min-w-fit">
+            <h1 className="text-white uppercase font-heading pt-2  md:text-5xl text-2xl md:mb-4 min-w-fit">
               Ecommerce And Retail
             </h1>
             <p className=" text-center text-Skyblue font-subheading   md:text-lg text-xs md:w-[980px] max-w-fit">

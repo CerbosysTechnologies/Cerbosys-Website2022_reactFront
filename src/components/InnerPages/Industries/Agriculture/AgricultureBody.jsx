@@ -139,14 +139,16 @@ const AgricultureBody = () => {
       </div>
       {/*start slider section */}
       <div className="w-full md:h-[36rem] bg-EcommersBodybg  mt-16 py-8">
-        <div className="px-8 md:px-12">
-          <div>
-            {/* "font-heading md:text-3xl text-xl mt-10 text-center text-Primary" */}
-            <p className="text-white md:text-3xl text-xl mt-4 font-heading mb-6  uppercase text-center">
-              Our Portfolio
-            </p>
+        <div className="max-w-[1240px] mx-auto">
+          <div className="px-8 md:px-12">
+            <div>
+              {/* "font-heading md:text-3xl text-xl mt-10 text-center text-Primary" */}
+              <p className="text-white md:text-3xl text-xl mt-4 font-heading mb-6  uppercase text-center">
+                Our Portfolio
+              </p>
+            </div>
+            <Ecommercesilder />
           </div>
-          <Ecommercesilder />
         </div>
       </div>
       {/*end slider section */}

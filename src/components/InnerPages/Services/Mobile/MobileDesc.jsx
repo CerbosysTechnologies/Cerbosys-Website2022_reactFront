@@ -47,8 +47,9 @@ const MobileDesc = () => {
               <img
                 src={mobileservice_articon}
                 alt="Mobile Service Icon"
+                // className="md:w-[24rem] w-full"
                 className="md:w-[24rem] mx-auto my-8
-             w-[18rem] mt-8"
+                 w-[18rem] mt-8"
               />
               {/* Image Section Ends*/}
 

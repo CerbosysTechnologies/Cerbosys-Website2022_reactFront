@@ -24,7 +24,7 @@ module.exports = {
         Textblue: '#4d516d',
         Orange: '#fe6e00',
         Grey: '#9F9F9F',
-       Lightsky: '#C9DEFF',
+        Lightsky: '#C9DEFF',
       },
     },
 
@@ -67,7 +67,9 @@ module.exports = {
       HealthCareHeader: "url('assets/innerpage/healthcare/bghealth.png')",
       HealthCarebody: "url('assets/innerpage/healthcare/healthbgbody.png')",
       MiningHeader: "url('assets/innerpage/mining/miningheader.svg')",
+      Miningbg: "url('assets/innerpage/mining/miningbg.png')",
       TransportHeader: "url('assets/innerpage/transport/transportheader.svg')",
+      Transportbg: "url('assets/innerpage/transport/transportbg.png')",
       RealEstateHeader:
         "url('assets/innerpage/realestate/realestateheader.svg')",
       EducationHeader: "url('assets/innerpage/education/educationbg.png')",

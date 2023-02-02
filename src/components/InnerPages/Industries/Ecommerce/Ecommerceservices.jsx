@@ -90,71 +90,74 @@ const Ecommerceservices = () => {
         {/* end Our Solutions & Services for E-commerce & Retail Industry */}
         {/* start Choose Cerbosys as Your Tech Partner */}
         <div className="bg-Primary p-4 mt-5">
-          <div className="flex flex-wrap">
-            <div>
-              <img src={ecommersmulty} alt="img" />
-            </div>
-            <div className="text-white">
-              <p className=" md:text-3xl text-xl mt-4 font-heading text-center mb-6">
-                Why Choose Cerbosys as Your Tech Partner
-              </p>
-              <p>
-                When you work with us, we'll listen to your needs, then build a
-                <br></br>
-                custom solution that's exactly right for you.
-              </p>
-              <p className="mt-3">
-                We'll take the time to understand what makes your business stand
-                <br></br>
-                out, then develop a website that reflects those strengths and
-                helps<br></br> you grow.
-              </p>
-              <div class="flex flex-wrap justify-between mt-3">
-                <div className="">
-                  <div className="flex mt-2  pt-3">
-                    <div>
-                      <img src={sicon1} alt="img" className="w-14 md:w-20" />
+          <div className="max-w-[1240px] mx-auto ">
+            <div className="flex flex-wrap gap-8">
+              <div>
+                <img src={ecommersmulty} alt="img" />
+              </div>
+              <div className="text-white">
+                <p className=" md:text-3xl text-xl mt-4 font-heading text-center mb-6">
+                  Why Choose Cerbosys as Your Tech Partner
+                </p>
+                <p>
+                  When you work with us, we'll listen to your needs, then build
+                  a<br></br>
+                  custom solution that's exactly right for you.
+                </p>
+                <p className="mt-3">
+                  We'll take the time to understand what makes your business
+                  stand
+                  <br></br>
+                  out, then develop a website that reflects those strengths and
+                  helps<br></br> you grow.
+                </p>
+                <div class="flex flex-wrap justify-between mt-3">
+                  <div className="">
+                    <div className="flex mt-2  pt-3">
+                      <div>
+                        <img src={sicon1} alt="img" className="w-14 md:w-20" />
+                      </div>
+                      <div className="self-center ml-2">
+                        {' '}
+                        <p className="text-lg font-heading">
+                          Trustworthy Services
+                        </p>
+                      </div>
                     </div>
-                    <div className="self-center ml-2">
-                      {' '}
-                      <p className="text-lg font-heading">
-                        Trustworthy Services
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex mt-2  pt-3">
-                    <div>
-                      <img src={sicon3} alt="img" className="w-14 md:w-20" />
-                    </div>
-                    <div className="self-center ml-2">
-                      {' '}
-                      <p className="text-lg  font-heading">
-                        Increase Your Business’s<br></br> Performance
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="">
-                  <div className="flex mt-2  pt-3">
-                    <div>
-                      <img src={sicon4} alt="img" className="w-14 md:w-20" />
-                    </div>
-                    <div className="self-center ml-2">
-                      {' '}
-                      <p className="md:text-lg   font-heading">
-                        Expand Your <br></br>Technology Expertise
-                      </p>
+                    <div className="flex mt-2  pt-3">
+                      <div>
+                        <img src={sicon3} alt="img" className="w-14 md:w-20" />
+                      </div>
+                      <div className="self-center ml-2">
+                        {' '}
+                        <p className="text-lg  font-heading">
+                          Increase Your Business’s<br></br> Performance
+                        </p>
+                      </div>
                     </div>
                   </div>
-                  <div className="flex mt-2 pt-3">
-                    <div>
-                      <img src={sicon2} alt="img" className="w-14 md:w-20" />
+                  <div className="">
+                    <div className="flex mt-2  pt-3">
+                      <div>
+                        <img src={sicon4} alt="img" className="w-14 md:w-20" />
+                      </div>
+                      <div className="self-center ml-2">
+                        {' '}
+                        <p className="md:text-lg   font-heading">
+                          Expand Your <br></br>Technology Expertise
+                        </p>
+                      </div>
                     </div>
-                    <div className="self-start ml-2 md:self-center">
-                      {' '}
-                      <p className="text-lg  font-heading">
-                        Time and Cost<br></br> Optimization
-                      </p>
+                    <div className="flex mt-2 pt-3">
+                      <div>
+                        <img src={sicon2} alt="img" className="w-14 md:w-20" />
+                      </div>
+                      <div className="self-start ml-2 md:self-center">
+                        {' '}
+                        <p className="text-lg  font-heading">
+                          Time and Cost<br></br> Optimization
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>

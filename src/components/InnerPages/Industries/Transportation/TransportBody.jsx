@@ -87,7 +87,7 @@ export const TransportBody = () => {
               </h2>
             </div>
 
-            <ul className="text-justify font-content  mt-4 list-disc md:px-0 px-5">
+            <ul className="text-justify font-content  mt-4 list-disc md:px-10 px-5">
               <li>
                 Monitoring and tracking of goods from point of origin to
                 destination.
@@ -109,80 +109,87 @@ export const TransportBody = () => {
       </div>
       {/* start Our Products and Services*/}
       <div className="bg-Primary h-fit-content md:h-[500px] py-8">
-        <h2 className="text-white uppercase text-center md:text-3xl text-xl mt-5 font-heading mb-4">
-          Our Products and Services
-        </h2>
-        <p className="text-white text-center font-content  mt-6 ">
-          {' '}
-          As part of our service portfolio, we provide an end-to-end software
-          development lifecycle and meet a range of business needs.
-        </p>
-        <div className="flex text-white flex-wrap text-center  md:flex-nowrap  justify-between gap-5 mt-6 px-8">
-          {data &&
-            data.map((curent, ind) => {
-              return (
-                <>
-                  <div className="w-full mx-auto" key={ind}>
-                    <div className="mx-auto">
-                      <img
-                        src={curent.img}
-                        alt="img"
-                        className="md:h-[12rem] mx-auto"
-                      />
+        <div className="max-w-[1240px] mx-auto ">
+          <h2 className="text-white uppercase text-center md:text-3xl text-xl mt-5 font-heading mb-4">
+            Our Products and Services
+          </h2>
+          <p className="text-white text-center font-content  mt-6 ">
+            {' '}
+            As part of our service portfolio, we provide an end-to-end software
+            development lifecycle and meet a range of business needs.
+          </p>
+          <div className="flex text-white flex-wrap text-center  md:flex-nowrap  justify-between gap-5 mt-6 px-8">
+            {data &&
+              data.map((curent, ind) => {
+                return (
+                  <>
+                    <div className="w-full mx-auto" key={ind}>
+                      <div className="mx-auto">
+                        <img
+                          src={curent.img}
+                          alt="img"
+                          className="md:h-[12rem] mx-auto"
+                        />
+                      </div>
+                      <p className="text-white text-center font-subheading  mt-6">
+                        {curent.title}
+                      </p>
                     </div>
-                    <p className="text-white text-center font-subheading  mt-6">
-                      {curent.title}
-                    </p>
-                  </div>
-                </>
-              );
-            })}
+                  </>
+                );
+              })}
+          </div>
         </div>
       </div>
       {/* end Our Products and Services*/}
       {/* start Importance of Technology */}
-      <div className="py-8 px-6 md:px-10 ">
-        <h2 className=" uppercase text-center md:text-3xl text-xl mt-5 font-heading mb-4">
-          <span className="text-Primary">Importance</span> of Technology in the
-          Transport & Logistics industry
-        </h2>
-        <div className="flex text-white flex-wrap text-center  md:flex-nowrap  justify-between gap-3 mt-6 px-0 md:px-8 py-12">
-          {items &&
-            items.map((curent, ind) => {
-              return (
-                <>
-                  <div
-                    className="mx-auto  relative border-2 border-Primary rounded md:w-[300px] h-42 py-8 px-6 mt-12"
-                    key={ind}
-                  >
-                    <p className="text-black text-center font-subheading  mt-6">
-                      {curent.para}
-                    </p>
+      <div className="max-w-[1240px] mx-auto ">
+        <div className="py-8 px-6 md:px-10 ">
+          <h2 className=" uppercase text-center md:text-3xl text-xl mt-5 font-heading mb-4">
+            <span className="text-Primary">Importance</span> of Technology in
+            the Transport & Logistics industry
+          </h2>
+          <div className="flex text-white flex-wrap text-center  md:flex-nowrap  justify-between gap-3 mt-6 px-0 md:px-8 py-12">
+            {items &&
+              items.map((curent, ind) => {
+                return (
+                  <>
                     <div
-                      className="bg-white
-                    flex justify-center items-center z-10  border-2 border-Primary rounded-full  w-16 h-16 absolute top-[-30px] left-0 right-0 mx-auto"
+                      className="mx-auto  relative border-2 border-Primary rounded md:w-[300px] h-42 py-8 px-6 mt-12"
+                      key={ind}
                     >
-                      <h4 className="text-Primary  font-heading text-3xl">
-                        {curent.title}
-                      </h4>
+                      <p className="text-black text-center font-subheading  mt-6">
+                        {curent.para}
+                      </p>
+                      <div
+                        className="bg-white
+                    flex justify-center items-center z-10  border-2 border-Primary rounded-full  w-16 h-16 absolute top-[-30px] left-0 right-0 mx-auto"
+                      >
+                        <h4 className="text-Primary  font-heading text-3xl">
+                          {curent.title}
+                        </h4>
+                      </div>
                     </div>
-                  </div>
-                </>
-              );
-            })}
+                  </>
+                );
+              })}
+          </div>
         </div>
       </div>
       {/* end Importance of Technology */}
       {/*  start slider sections */}
       <div className="mx-auto  w-full h-fit-content md:h-[36rem] bg-EcommersBodybg  py-12  bg-cover md:bg-top bg-center">
-        <div className="px-8 md:px-12">
-          <div>
-            {/* "font-heading md:text-3xl text-xl mt-10 text-center text-Primary" */}
-            <p className="text-white text-center uppercase md:text-3xl text-xl mt-4 font-heading mb-6">
-              Our Portfolio
-            </p>
+        <div className="max-w-[1240px] mx-auto ">
+          {' '}
+          <div className="px-8 md:px-12">
+            <div>
+              {/* "font-heading md:text-3xl text-xl mt-10 text-center text-Primary" */}
+              <p className="text-white text-center uppercase md:text-3xl text-xl mt-4 font-heading mb-6">
+                Our Portfolio
+              </p>
+            </div>
+            <Ecommercesilder />
           </div>
-          <Ecommercesilder />
         </div>
       </div>
       {/*end slider sections */}

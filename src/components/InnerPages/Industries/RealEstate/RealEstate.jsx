@@ -25,7 +25,7 @@ const RealEstate = () => {
           {/* Content Section */}
           {/* flex flex-col justify-center text-center items-center md:h-[30rem] h-70 mx-auto */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-70 mx-auto">
-            <h1 className="text-white uppercase font-heading pt-2  md:text-5xl text-2xl md:mb-10 min-w-fit8">
+            <h1 className="text-white uppercase font-heading pt-2  md:text-5xl text-2xl md:mb-4 min-w-fit8">
               REAL ESTATE & CONSTRUCTION
             </h1>
             {/* md:w-[980px] */}

@@ -99,16 +99,18 @@ export const EcommerceBody = () => {
         </div>
       </div>
       {/* slider Section */}
-      
+
       <div className="mx-auto w-full h-fit-content md:h-[36rem] bg-EcommersBodybg  py-12  bg-cover md:bg-top bg-center">
-        <div className="px-8 md:px-12">
-          <div>
-            {/* "font-heading md:text-3xl text-xl mt-10 text-center text-Primary" */}
-            <p className="text-white uppercase md:text-3xl text-xl mt-4 font-heading mb-6">
-              Why Choose Cerbosys as Your Tech Partner
-            </p>
+        <div className="max-w-[1240px] mx-auto ">
+          <div className="px-8 md:px-12">
+            <div>
+              {/* "font-heading md:text-3xl text-xl mt-10 text-center text-Primary" */}
+              <p className="text-white uppercase md:text-3xl text-xl mt-4 font-heading mb-6">
+                Why Choose Cerbosys as Your Tech Partner
+              </p>
+            </div>
+            <Ecommercesilder />
           </div>
-          <Ecommercesilder />
         </div>
       </div>
       {/* slider Section Ends*/}

@@ -123,38 +123,40 @@ const EducationBody = () => {
       {/*end tabs */}
       {/*start Learn and have some fun */}
       <div className="bg-Primary">
-        <div className="flex flex-wrap md:flex-nowrap justify-between   gap-10 p-6">
-          {/* Mobile Image */}
-          <div className="p-3 md:w-[50%] w-[100%]">
-            <img
-              src={multymob}
-              alt="Education Mobile"
-              // className="md:h-[30rem]"
-              className="w-full md:p-3"
-            />
+        <div className="max-w-[1240px] mx-auto ">
+          <div className="flex flex-wrap md:flex-nowrap justify-between   gap-10 p-3">
+            {/* Mobile Image */}
+            <div className="p-3 md:w-[50%] w-[100%]">
+              <img
+                src={multymob}
+                alt="Education Mobile"
+                // className="md:h-[30rem]"
+                className="w-full md:p-3"
+              />
+            </div>
+            {/* Mobile Image */}
+
+            {/* Image Section Ends*/}
+
+            {/* Side */}
+            <div className=" md:w-[50%] w-[100%] py-7">
+              <h2 className="text-white md:text-3xl  mb-6 text-xl  font-heading">
+                Learn and have some fun
+              </h2>
+
+              <ul className="text-white list-disc px-5">
+                <li className="mt-5"> Online learning platforms</li>
+                <li className="mt-5">AI & virtual tutors</li>
+                <li className="mt-5">Cloud-based assessments</li>
+                <li className="mt-5"> Immersive & interactive technologies</li>
+                <li className="mt-5">Data-driven approaches</li>
+                <li className="mt-5">
+                  Online portfolios and collaboration tools
+                </li>
+              </ul>
+            </div>
+            {/* Side Image*/}
           </div>
-          {/* Mobile Image */}
-
-          {/* Image Section Ends*/}
-
-          {/* Side */}
-          <div className=" md:w-[50%] w-[100%] py-7">
-            <h2 className="text-white md:text-3xl  mb-6 text-xl  font-heading">
-              Learn and have some fun
-            </h2>
-
-            <ul className="text-white list-disc px-5">
-              <li className="mt-5"> Online learning platforms</li>
-              <li className="mt-5">AI & virtual tutors</li>
-              <li className="mt-5">Cloud-based assessments</li>
-              <li className="mt-5"> Immersive & interactive technologies</li>
-              <li className="mt-5">Data-driven approaches</li>
-              <li className="mt-5">
-                Online portfolios and collaboration tools
-              </li>
-            </ul>
-          </div>
-          {/* Side Image*/}
         </div>
       </div>
       {/*end Learn and have some fun */}
