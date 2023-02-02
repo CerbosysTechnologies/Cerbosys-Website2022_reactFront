@@ -18,6 +18,11 @@ const Ecommerce = () => {
             name="keywords"
             content="cost to create an ecommerce website, cost to develop an e commerce website, e commerce web development company, ecommerce development services, ecommerce website design and development, best ecommerce platform, e commerce website design, wordpress ecommerce, magento ecommerce, wix ecommerce, b2b ecommerce, ecommerece solutions, magento, shopify, opencart, drupal, joomla, prestashop, woocommerce"
           />
+          <meta
+            name="description"
+            content="Custom eCommerce website development services to increase conversion rates and online visibility. We help to build robust digital commerce strategies & implementation plans for clients. 
+            "
+          />
         </Helmet>
         {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[36rem] bg-EcommerceHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">

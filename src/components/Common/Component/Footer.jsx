@@ -133,7 +133,7 @@ const Footer = () => {
                 </h6>
                 <ul className="text-white font-subheading text-xs ">
                   <li className="">
-                    <Link to="/Overview">Overview</Link>
+                    <Link to="/overview">Overview</Link>
                   </li>
                   <li className="">
                     <Link to="/training-and-development">

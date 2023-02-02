@@ -9,14 +9,14 @@ const Overview = () => {
     <div>
       <>
         <Helmet>
-          <title>Overview - Cerbosys Technologies</title>
+          <title>Company overview page - Cerbosys Technologies</title>
           <meta
             name="keywords"
             content="digital marketing team, web development, software development, your startup conclave, new headquarter, healthy workspace, staff augmentation"
           />
           <meta
             name="description"
-            content="Looking for the Best IT Solutions Company? We offer a wide range of services, including Ecommerce development, Web &Mobile App Development, Digital Marketing, etc"
+            content="Looking for the Best IT Solutions Company? We offer a wide range of services, including Ecommerce development, Web &Mobile App Development, Digital Marketing, etc."
           />
         </Helmet>
         {/* <Navbar /> */}
