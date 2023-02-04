@@ -74,8 +74,10 @@ module.exports = {
         "url('assets/innerpage/realestate/realestateheader.svg')",
       EducationHeader: "url('assets/innerpage/education/educationbg.png')",
       EducationTabsbg: "url('assets/innerpage/education/tabbg.png')",
+      Manufacturingcenter:
+        "url('assets/innerpage/manufacturing/manufactur2bg.png')",
       ManufacturingHeader:
-        "url('assets/innerpage/manufacturing/manufacturingheader.svg')",
+        "url('assets/innerpage/manufacturing/manufacturbg.png')",
       DotNetHeader: "url('assets/innerpage/dotnet/dotnetheader.png')",
 
       AndroidHeader: "url('assets/innerpage/android/androidheader.png')",

@@ -155,44 +155,54 @@ const AgricultureBody = () => {
 
       {/*start smart solution we provide */}
       {/* w-full md:h-[62rem] h-[62rem] bg-Agriculturebg relative bg-no-repeat */}
-      <div className="mx-auto w-full relative  bg-Agriculturebg lg:h-[62rem] md:h-[62rem] h-[62rem] py-12 px-4 bg-cover md:bg-top bg-center">
+      <div className="mx-auto w-full relative bg-Agriculturebg lg:h-[62rem] md:h-[62rem] h-[62rem] py-12 px-4 bg-cover md:bg-top bg-center">
         <p className="text-Primary md:text-3xl text-xl  font-heading mb-6 p-5">
           SMART FARMING
           <span className="text-black md:text-3xl text-xl font-heading mb-6">
             &nbsp;SOLUTIONS WE PROVIDE
           </span>
         </p>
-
-        <div className=" absolute  right-0 left-0 bottom-[28rem] md:left-[62rem] md:bottom-64">
+        {/* //lg:left-[34rem] lg:bottom-[12rem] */}
+        <div
+          className="lg:visible  invisible absolute
+        
+         right-0 left-0 bottom-[28rem] md:left-[62rem] md:bottom-64"
+        >
           <img
-            src={bgimg1}
+            src={bgimg3}
             alt="img"
-            className="mx-auto w-[150px]  md:w-[18rem]"
+            className="mx-auto w-[150px]  lg:w-[18rem]"
           />
         </div>
-
+        {/* //lg:left-[16rem]
+        //bottom-[18rem] */}
         <div
           className="absolute 
           right-0 left-0
-         bottom-[18rem] md:left-[30rem]
+        
+          md:left-[30rem]
         md:bottom-[6rem] "
         >
           {/* lg:w-[18rem] */}
           <img
             src={bgimg2}
             alt="img"
-            className="mx-auto w-[150px]  md:w-[18rem]"
+            className="mx-auto w-[150px]  lg:w-[18rem]"
+            // className="mx-auto w-[150px]  lg:w-[18rem]"
           />
         </div>
 
         <div
-          className="absolute  right-0 left-0 bottom-32 md:left-[-6rem] md:bottom-4  
+          className="absolute  
+         
+            right-0 left-0 bottom-32 md:left-[-6rem] md:bottom-4  
         "
         >
           <img
-            src={bgimg3}
+            src={bgimg1}
             alt="img"
-            className="mx-auto w-[150px]  md:w-[18rem]"
+            className="mx-auto w-[150px]  lg:w-[18rem]"
+            // className="mx-auto w-[150px]  md:w-[18rem]"
           />
         </div>
       </div>

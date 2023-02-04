@@ -14,28 +14,6 @@ import Educattionsilder from './Educattionsilder';
 import Tabscon from './educationtabs/Tabscon';
 
 const EducationBody = () => {
-  const data = [
-    {
-      img: educationfirst,
-      title: 'Website Development',
-      para: 'We provide solutions that will help you build a strong online presence for your institute, which will help attract more students and enhance your brand recognition among them as well',
-    },
-    {
-      img: educationthird,
-      title: 'ERP & LMS Software Development',
-      para: 'Our ERP & LMS Software Development services will help you streamline your operations and improve efficiency across all departments, from admissions to record management.',
-    },
-    {
-      img: educationsecond,
-      title: 'Mobile App Development',
-      para: 'We help you create mobile apps that can enhance the education system across the country, from assessment purposes to sharing lesson plans with other teachers across different districts or countries as part of virtual collaboration.',
-    },
-    {
-      img: educationfouth,
-      title: 'Educational Digital Marketing Solutions',
-      para: "We provide Digital Marketing Solutions that will help your school reach more students, increase enrollment rates, and improve retention rates by making sure you're reaching out to the right people at the right time.",
-    },
-  ];
   return (
     <div>
       <div className="mx-auto w-full py-10 px-4 ">
@@ -91,25 +69,65 @@ const EducationBody = () => {
                 &nbsp;we can offer
               </span>
             </h2>{' '}
-            <div className="grid grid-flow-row grid-rows-2 md:grid-flow-col gap-y-20  gap-x-72 mt-12">
-              {data &&
-                data.map((curent, ind) => {
-                  return (
-                    <>
-                      <div key={ind} className="">
-                        <img src={curent.img} alt="iomg" />
-                        <div className="mt-8">
-                          <p className="text-grey   font-heading">
-                            {curent.title}
-                          </p>
-                          <p className="font-content  mt-4  text-justify">
-                            {curent.para}
-                          </p>
-                        </div>
-                      </div>
-                    </>
-                  );
-                })}
+            <div className="flex md:flex-nowrap flex-wrap gap-y-20  gap-x-72 mt-12">
+              <div className="">
+                <img src={educationfirst} alt="iomg" />
+                <div className="mt-8">
+                  <p className="text-grey   font-heading">
+                    Website Development
+                  </p>
+                  <p className="font-content  mt-4  text-justify">
+                    We provide solutions that will help you build a strong
+                    online presence for your institute, which will help attract
+                    more students and enhance your brand recognition among them
+                    as well.
+                  </p>
+                </div>
+              </div>
+              <div className="">
+                <img src={educationsecond} alt="iomg" />
+                <div className="mt-8">
+                  <p className="text-grey   font-heading">
+                    Mobile App Development
+                  </p>
+                  <p className="font-content  mt-4  text-justify">
+                    We help you create mobile apps that can enhance the
+                    education system across the country, from assessment
+                    purposes to sharing lesson plans with other teachers across
+                    different districts or countries as part of virtual
+                    collaboration.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="flex md:flex-nowrap flex-wrap gap-y-20  gap-x-72 mt-12">
+              <div className="">
+                <img src={educationthird} alt="iomg" />
+                <div className="mt-8">
+                  <p className="text-grey   font-heading">
+                    ERP & LMS Software Development
+                  </p>
+                  <p className="font-content  mt-4  text-justify">
+                    Our ERP & LMS Software Development services will help you
+                    streamline your operations and improve efficiency across all
+                    departments, from admissions to record management.
+                  </p>
+                </div>
+              </div>
+              <div className="">
+                <img src={educationfouth} alt="iomg" />
+                <div className="mt-8">
+                  <p className="text-grey   font-heading">
+                    Educational Digital Marketing Solutions
+                  </p>
+                  <p className="font-content  mt-4  text-justify">
+                    We provide Digital Marketing Solutions that will help your
+                    school reach more students, increase enrollment rates, and
+                    improve retention rates by making sure you're reaching out
+                    to the right people at the right time.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

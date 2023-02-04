@@ -26,15 +26,21 @@ const Manufacturing = () => {
         <div className="mx-auto w-full md:h-[36rem] bg-ManufacturingHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
-            <h1 className="text-white font-heading py-2 md:text-5xl text-2xl md:mb-20 mb-28 my-5 md:mt-5 mt-5">
-              Manufacturing
+            <h1 className="text-white font-heading pt-2 md:text-5xl text-2xl md:mb-5  min-w-fit">
+              MANUFACTURING
             </h1>
-            <p className="text-white font-heading py-2 md:text-lg text-xs md:w-[980px] text-justify">
-              Whether you're a small business or a mid-sized enterprise, we have
-              the best software solutions for your company. We create web-based
-              applications to solve problems and help you improve your company's
-              bottom line.
+
+            <p className="text-center text-Skyblue font-subheading  md:text-lg text-xs md:w-[980px] max-w-fit">
+              Our Digital Accelerators allow Companies to gain the capabilities
+              they need to face the future with confidence, particularly within
+              Process and Discrete Manufacturing.
             </p>
+            {/* <p className="mt-4 text-center text-Skyblue font-subheading  md:text-lg text-xs md:w-[980px] max-w-fit">
+              We help you find the IT solutions you need to make your
+              institution run smoothly and<br></br> efficiently, so you can
+              focus on what matters most: educating students and helping them
+              succeed.
+            </p> */}
           </div>
           {/* Content Section Ends */}
         </div>

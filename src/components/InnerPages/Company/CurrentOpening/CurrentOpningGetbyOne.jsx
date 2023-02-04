@@ -61,100 +61,122 @@ function CurrentOpningGetbyOne() {
         {/* Content Section Ends */}
       </div>
       {/* md:w-[600px]  md:h-[400px] md:w-[400px] */}
-      <div className="mt-4">
+      <div className="mt-10 px-8">
         <p className="font-heading text-3xl text-center "> {jobPost}</p>
         <div className="block w-40 h-1 bg-black justify-center m-auto mt-3">
           <div className="block w-20 h-1 bg-Orange justify-center m-auto mt-3"></div>
         </div>
-        <div className="flex flex-wrap md:flex-nowrap mt-4 lg:flex-nowrap justify-center gap-12  mx-auto w-full px-[30px]">
-          <div className="self-center py-4">
-            <ul>
-              {/* <li className="text-center font-heading md:my-5 my-2 md:text-3xl text-xl">
+        <div className="max-w-[1240px] mx-auto ">
+          <div className="flex flex-wrap md:flex-nowrap  ">
+            <div className="w-[100%] md:w-[50%] mt-10 pt-4">
+              <ul>
+                {/* // self-center py-4 */}
+                {/* <li className="text-center font-heading md:my-5 my-2 md:text-3xl text-xl">
               {jobPost}
             </li> */}
-              <li>
-                <div className="flex items-center gap-3.5">
-                  <div className="md:mt-1">
-                    <img
-                      className="card-icon h-7 w-7"
-                      src={location}
-                      alt="Placeholder"
-                    />
-                  </div>
-                  <div className="text-xl font-bold">{Location}</div>
+                <div className="bg-slate-100">
+                  <li>
+                    <div className="flex items-center gap-3.5">
+                      <div className="md:mt-1">
+                        <img
+                          className="card-icon h-7 w-7"
+                          src={location}
+                          alt="Placeholder"
+                        />
+                      </div>
+                      <div className="text-xl font-bold ml-3">{Location}</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="flex items-center gap-3.5">
+                      <div className=" md:mt-1">
+                        <img
+                          className="card-icon h-7 w-7"
+                          src={experience}
+                          alt="Placeholder"
+                        />
+                      </div>
+                      <div className="text-xl font-bold ml-3">
+                        Exp. min {Exprence} years
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="flex items-center gap-2.5">
+                      <div className="md:mt-1">
+                        <img
+                          className="card-icon h-7 w-7"
+                          src={fulltime}
+                          alt="Placeholder"
+                        />
+                      </div>
+                      <div className="text-xl font-bold ml-3">{Type}</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="flex items-center gap-3.5">
+                      <div className="md:mt-1">
+                        <img
+                          className="card-icon h-7 w-7"
+                          src={rupes}
+                          alt="Placeholder"
+                        />
+                      </div>
+                      <div className="text-xl  font-bold ml-3">
+                        Salary {Salry} /Month
+                      </div>
+                    </div>
+                  </li>
+                  <br />
                 </div>
-              </li>
-              <li>
-                <div className="flex items-center gap-3.5">
-                  <div className=" md:mt-1">
-                    <img
-                      className="card-icon h-7 w-7"
-                      src={experience}
-                      alt="Placeholder"
-                    />
-                  </div>
-                  <div className="text-xl font-bold">
-                    Exp. min {Exprence} years
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="flex items-center gap-2.5">
-                  <div className="md:mt-1">
-                    <img
-                      className="card-icon h-7 w-7"
-                      src={fulltime}
-                      alt="Placeholder"
-                    />
-                  </div>
-                  <div className="text-xl font-bold">{Type}</div>
-                </div>
-              </li>
-              <li>
-                <div className="flex items-center gap-3.5">
-                  <div className="md:mt-1">
-                    <img
-                      className="card-icon h-7 w-7"
-                      src={rupes}
-                      alt="Placeholder"
-                    />
-                  </div>
-                  <div className="text-xl  font-bold ">
-                    Salary {Salry} /Month
-                  </div>
-                </div>
-              </li>
-              <br />
-              {/* <li className="text-justify "></li> */}
-              <li>
-                <div
-                  className="flex "
-                  // md:my-10 my-5
-                >
-                  <button
-                    className="py-2 px-6 text-sm font-heading hover:bg-Darkblue hover:text-white
-              text-center text-Darkblue rounded-xl border-Darkblue border-2"
-                    onClick={() => {
-                      ModalPotion();
-                    }}
+                {/* <li className="text-justify "></li> */}
+                <li>
+                  {/* <div
+                    className="flex "
+                    // md:my-10 my-5
                   >
-                    Apply Now
-                  </button>
-                </div>
-              </li>
-            </ul>
+                    <button
+                      className="py-2 px-6 text-sm font-heading hover:bg-Darkblue hover:text-white
+              text-center text-Darkblue rounded-xl border-Darkblue border-2"
+                      onClick={() => {
+                        ModalPotion();
+                      }}
+                    >
+                      Apply Now
+                    </button>
+                  </div> */}
+                </li>
+              </ul>
+              <div
+                className="flex "
+                // md:my-10 my-5
+              >
+                <button
+                  className="py-2 px-6 text-sm font-heading hover:bg-Darkblue hover:text-white
+              text-center text-Darkblue rounded-xl border-Darkblue border-2"
+                  onClick={() => {
+                    ModalPotion();
+                  }}
+                >
+                  Apply Now
+                </button>
+              </div>
+            </div>
+            {/* "justify-center flex md:p-5 p-0 py-6" */}
+            <div className="w-[100%] md:w-[50%] mt-5 pt-4">
+              <img
+                src={IMG + job_icon}
+                alt="img"
+                className="object-fill w-[300px] md:w-[1200px]"
+                // className="w-96 md:w-[500px] object-fill"
+              />
+            </div>
           </div>
-          <div className="justify-center flex md:p-5 p-0 py-6">
-            <img
-              src={IMG + job_icon}
-              alt="img"
-              className="w-96 md:w-[500px] object-fill"
-            />
-          </div>
-        </div>
-        <div className=" flex justify-center items-center">
-          <div className="md:mx-10 mx-5 md:my-4 my-4 font-content text-2xl text-justify ">
-            {parser(JobDesc)}
+          {/* md:mx-10 mx-5 md:my-4 my-4 */}
+          <div className=" flex  items-center mt-14">
+            <div className=" font-content text-2xl text-justify ">
+              {parser(JobDesc)}
+            </div>
           </div>
         </div>
       </div>

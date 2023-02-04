@@ -40,7 +40,7 @@ const Healthsilder = () => {
   };
   return (
     <>
-      <div className=" mx-auto w-full md:h-[36rem] bg-EcommersBodybg h-96 py-12 px-4 bg-cover md:bg-top bg-center">
+      <div className=" mx-auto w-full md:h-[36rem] bg-EcommersBodybg  py-12 px-4 bg-cover md:bg-top bg-center">
         <div className="max-w-[1240px] mx-auto ">
           <div className="px-8 md:px-12">
             <div>
