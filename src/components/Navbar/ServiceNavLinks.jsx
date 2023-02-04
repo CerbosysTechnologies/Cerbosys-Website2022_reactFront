@@ -15,7 +15,7 @@ const NavLinks = () => {
       Head: 'Mobile Development',
     },
     {
-      Head: 'UI/UX Development',
+      Head: 'UI/UX Designing',
     },
     {
       Head: 'Digital Marketing',
@@ -117,7 +117,7 @@ const NavLinks = () => {
                       <Link to="/ui-ux-designing">
                         <span className="flex items-center gap-2 ">
                           <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
-                          UI/UX Development
+                          UI/UX Designing
                         </span>
                       </Link>
                     </h2>
@@ -217,7 +217,6 @@ const NavLinks = () => {
                       Call us at
                       <p>+91 9826906988</p>
                       <p>+91 8839697183</p>
-                     
                     </div>
 
                     <div className="font-subheading text-lg mt-8 normal-case ">
@@ -299,7 +298,7 @@ const NavLinks = () => {
                   </div>
                   <div className="mt-[8px]">
                     <h2 className="font-heading  text-sm ">
-                      <Link to="/uiux-development"> UI/UX Development</Link>
+                      <Link to="/ui-ux-designing"> UI/UX Designing</Link>
                     </h2>
                   </div>
                   <div className="mt-[8px]">

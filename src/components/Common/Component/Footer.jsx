@@ -184,7 +184,7 @@ const Footer = () => {
                     <Link to="/mobile-app-development">Mobile Development</Link>
                   </li>
                   <li className="">
-                    <Link to="/ui-ux-designing">UI/UX Development</Link>
+                    <Link to="/ui-ux-designing">UI/UX Designing</Link>
                   </li>
                   <li className="">
                     <Link to="/digital-marketing">Digital Marketing</Link>

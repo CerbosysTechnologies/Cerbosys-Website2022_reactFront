@@ -151,9 +151,9 @@ const Navbar = () => {
         duration-500 ${open ? 'left-0' : 'left-[-100%]'}
         `}
           >
-            <li className="py-2 px-2 inline-block">
+            {/* <li className="py-2 px-2 inline-block">
               <CompanyNavLinks></CompanyNavLinks>
-            </li>
+            </li> */}
             <li className="py-2 px-2 ">
               <NavLinks />
             </li>
