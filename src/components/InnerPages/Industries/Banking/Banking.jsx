@@ -21,17 +21,17 @@ const Banking = () => {
         />
       </Helmet>
       {/* <Navbar /> */}
-      <div className="mx-auto w-full md:h-[36rem] bg-BankingHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
+      <div className="mx-auto w-full md:h-[36rem] bg-Bankingbg h-96 py-12 px-4 bg-cover md:bg-top bg-center">
         {/* Content Section */}
-        <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
-          <h1 className="text-white font-heading py-2 md:text-5xl text-2xl md:mb-48 mb-28">
-            Banking And Finance
+        <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-70 mx-auto">
+          <h1 className="text-white uppercase font-heading pt-2  md:text-5xl text-2xl md:mb-4 min-w-fit">
+            BANKING & FINANCE
           </h1>
-          <p className="text-white font-heading py-2 md:text-lg text-xs md:w-[980px] text-justify">
-            We believe in building long-term relationships with our clients, who
-            count on us for high-quality banking and financial services. We
-            thrive on providing a wide array of banking and finance services to
-            grow our customers' businesses faster.
+          <p className=" text-center text-Skyblue font-subheading   md:text-lg text-xs md:w-[980px] max-w-fit">
+            By leveraging our banking, finance, and insurance services,
+            organizations can expect to experience increased efficiency, fresh
+            innovations, and reduced costs. Enhance your credibility with
+            cutting-edge web design for banking.
           </p>
         </div>
         {/* Content Section Ends */}

@@ -61,7 +61,8 @@ module.exports = {
       AgricultureHeader:
         "url('assets/innerpage/agriculture/agricultureheader.svg')",
       Agriculturebg: "url('assets/innerpage/agriculture/bgimgagriculture.png')",
-      BankingHeader: "url('assets/innerpage/banking/bankingheader.svg')",
+      Bankingbgcenter: "url('assets/innerpage/banking/bankingbgcenter.png')",
+      Bankingbg: "url('assets/innerpage/banking/bankingbg.png')",
       EcommerceHeader: "url('assets/innerpage/ecommerce/ecommersbg.png')",
       EcommersBodybg: "url('assets/innerpage/ecommerce/ecommesgreenbg.png')",
       HealthCareHeader: "url('assets/innerpage/healthcare/bghealth.png')",

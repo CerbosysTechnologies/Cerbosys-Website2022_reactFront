@@ -118,7 +118,7 @@ export const TransportBody = () => {
             As part of our service portfolio, we provide an end-to-end software
             development lifecycle and meet a range of business needs.
           </p>
-          <div className="flex text-white flex-wrap text-center  md:flex-nowrap  justify-between gap-5 mt-6 px-8">
+          <div className="flex text-white flex-wrap text-center  md:flex-nowrap  justify-between gap-5 mt-8 px-8">
             {data &&
               data.map((curent, ind) => {
                 return (
