@@ -24,10 +24,10 @@ function Softwaredevelopment() {
       <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">
         {/* Content Section */}
         <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
-          <h1 className="text-white font-heading py-2 md:text-3xl text-xl mb-2">
+          <h1 className="text-white uppercase font-heading pt-2 md:text-5xl text-2xl md:mb-4 min-w-fit">
             Software Development
           </h1>
-          <p className="text-white font-content py-2 md:text-xl text-xs mb-8 md:w-[700px] w-80">
+          <p className="text-center text-white font-subheading  md:text-lg text-xs md:w-[980px] max-w-fit">
             Software development is the process of creating computer software.
             It involves writing code, testing it, and making sure it meets the
             requirements of the client
@@ -35,8 +35,8 @@ function Softwaredevelopment() {
 
           <Link to="/contact-us">
             <button
-              className="bg-Primary rounded-full font-heading md:px-5 md:py-2 md:text-lg
-              text-white uppercase px-3 py-1.5 text-xs mb-6"
+              className="bg-Primary mt-4 rounded-full font-heading md:px-5 md:py-2 md:text-lg
+              text-white uppercase px-3 py-1.5 text-xs mb-2"
             >
               Contact Us
             </button>

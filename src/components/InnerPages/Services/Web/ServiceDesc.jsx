@@ -15,11 +15,11 @@ const ServiceDesc = () => {
               {/* Content Section */}
 
               <div className="mx-auto flex flex-col md:px-24 px-14 text-justify">
-                <h2 className="font-heading md:text-2xl text-xl mb-5">
+                <h2 className="text-white uppercase font-heading pt-2 md:text-5xl text-2xl md:mb-4 min-w-fit">
                   Web Development Services
                 </h2>
 
-                <p className="font-content md:text-lg text-sm ">
+                <p className="text-center text-Skyblue font-subheading  md:text-lg text-xs md:w-[980px] max-w-fit ">
                   Web development is the process of designing and coding a
                   website, web applications, or other computer programs that are
                   accessible on the internet. Website design & development

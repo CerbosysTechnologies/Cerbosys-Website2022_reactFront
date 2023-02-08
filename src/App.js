@@ -57,6 +57,7 @@ import Softwaredevelopment from './components/InnerPages/Services/SoftwareDevelo
 import CurrentOpningGetbyOne from './components/InnerPages/Company/CurrentOpening/CurrentOpningGetbyOne';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Portfolio from './components/protfolio/Portfolio';
 function App() {
   document.addEventListener('contextmenu', handelRightClick);
   return (
@@ -137,6 +138,7 @@ function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/about-us" element={<AboutUS />} />
         <Route path="/solution" element={<Solution />} />
+        <Route path="/Portfolio" element={<Portfolio />} />
         <Route path="/solution/schoolerp" element={<SchoolERP />} />
         <Route path="/solution/E-Commerse" element={<ECommerse />} />
       </Routes>

@@ -1,7 +1,7 @@
-import React from "react";
-import leadgenerationicon from "../../../../assets/innerpage/leadgeneration/lead_generation.svg";
-import leadgeneration_articon from "../../../../assets/innerpage/leadgeneration/illustrator.svg";
-import { Bounce } from "react-reveal";
+import React from 'react';
+import leadgenerationicon from '../../../../assets/innerpage/leadgeneration/lead_generation.svg';
+import leadgeneration_articon from '../../../../assets/innerpage/leadgeneration/illustrator.svg';
+import { Bounce } from 'react-reveal';
 
 const LeadGenerationDesc = () => {
   return (
@@ -14,11 +14,11 @@ const LeadGenerationDesc = () => {
             <div className="grid md:grid-cols-2">
               {/* Content Section */}
               <div className="mx-auto flex flex-col md:px-24 px-14 text-justify">
-                <h2 className="font-heading md:text-2xl text-lg mb-5">
-                  {" "}
-                  Lead Generation{" "}
+                <h2 className="text-white uppercase font-heading pt-2 md:text-5xl text-2xl md:mb-4 min-w-fit">
+                  {' '}
+                  Lead Generation{' '}
                 </h2>
-                <p className="font-content md:text-lg text-sm">
+                <p className="text-center text-white font-subheading  md:text-lg text-xs md:w-[980px] max-w-fit">
                   Lead generation can happen in a number of ways, but most often
                   it involves either online or offline marketing activities. Our
                   online activities include things like creating a website or

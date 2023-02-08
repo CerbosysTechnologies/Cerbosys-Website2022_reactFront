@@ -13,7 +13,7 @@ const MobileDesc = () => {
             <div className="grid md:grid-cols-2">
               {/* Content Section */}
               <div className="mx-auto flex flex-col md:px-24 px-14 text-justify">
-                <h2 className="font-heading md:text-2xl text-lg mb-10">
+                <h2 className=" font-heading md:text-2xl text-lg mb-10">
                   {' '}
                   Mobile App Development{' '}
                 </h2>

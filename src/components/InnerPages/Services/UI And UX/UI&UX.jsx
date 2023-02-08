@@ -28,20 +28,20 @@ const UIAndUXDevelopment = () => {
         <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
-            <h1 className="font-heading md:text-2xl text-xl mb-5 text-white">
+            <h1 className="text-white uppercase font-heading pt-2 md:text-5xl text-2xl md:mb-4 min-w-fit">
               UI/UX Designing
             </h1>
 
-            <p className="md:w-[480px] text-justify text-white  py-2 mb-8 font-content md:text-lg text-sm ">
-              UI/UX Designing is all about creating beautiful and
-              user-friendly interfaces for websites and apps. A strong
-              understanding of both design and coding is needed for this.
+            <p className="text-center text-white font-subheading  md:text-lg text-xs md:w-[980px] max-w-fit">
+              UI/UX Designing is all about creating beautiful and user-friendly
+              interfaces for websites and apps. A strong understanding of both
+              design and coding is needed for this.
             </p>
 
             <Link to="/contact-us">
               <button
                 className="bg-Primary rounded-full font-heading md:px-5 md:py-2 md:text-lg
-              text-white uppercase px-3 py-1.5 text-xs mb-6 mt-3"
+              text-white uppercase px-3 py-1.5 text-xs mb-2 mt-3"
               >
                 Contact Us
               </button>

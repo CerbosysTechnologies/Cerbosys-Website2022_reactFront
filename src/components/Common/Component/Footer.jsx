@@ -9,6 +9,7 @@ import twittericon from '../../../assets/footer/Twittter.svg';
 import whatsappicon from '../../../assets/footer/FoterColl.svg';
 import youtubeicon from '../../../assets/footer/Youtube.svg';
 import footerlogo from '../../../assets/footer/FooterLogosCer.svg';
+import { HiOutlineArrowSmRight } from 'react-icons/hi';
 import right from '../../../assets/footer/right.svg';
 import left from '../../../assets/footer/left.svg';
 import { Link } from 'react-router-dom';
@@ -90,8 +91,11 @@ const Footer = () => {
               md:items-center items-center  */}
               {/* Second Column */}
               <div className="">
-                <h6 className="font-heading text-sm md:text-lg text-white uppercase mb-3 md:px-0 ">
+                <h6 className="font-heading text-sm md:text-lg text-white uppercase mb-3 md:px-0 max-w-fit">
                   Explore
+                  <div className="block rounded-md h-[8px] bg-white justify-center m-auto mt-3">
+                    <span className="animate-waving-hand block w-12 rounded-md h-[8px] bg-Green justify-center m-auto mt-3 "></span>
+                  </div>
                 </h6>
                 <ul className="text-white font-subheading text-xs ">
                   <li className="">
@@ -128,8 +132,11 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="">
-                <h6 className="font-heading text-sm md:text-lg text-white uppercase mb-3 md:px-0 ">
+                <h6 className="font-heading text-sm md:text-lg text-white uppercase mb-3 md:px-0 max-w-fit">
                   Company
+                  <div className="block rounded-md h-[8px] bg-white justify-center m-auto mt-3">
+                    <span className="animate-waving-hand block w-12 rounded-md h-[8px] bg-Green justify-center m-auto mt-3 "></span>
+                  </div>
                 </h6>
                 <ul className="text-white font-subheading text-xs ">
                   <li className="">
@@ -164,9 +171,13 @@ const Footer = () => {
               {/* Third Column */}
 
               <div>
-                <h6 className="font-heading text-sm md:text-lg text-white uppercase mb-3">
+                <h6 className="font-heading text-sm md:text-lg text-white uppercase mb-3  w-full max-w-fit">
                   Services
+                  <div className="block rounded-md h-[8px] bg-white justify-center m-auto mt-3">
+                    <span className="animate-waving-hand block w-12 rounded-md h-[8px] bg-Green justify-center m-auto mt-3 "></span>
+                  </div>
                 </h6>
+
                 <ul className="text-white font-subheading text-xs">
                   <li className="">
                     <Link to="/web-development">Web Development</Link>
@@ -206,8 +217,11 @@ const Footer = () => {
               {/* Fourth Column */}
               {/* Industry Div */}
               <div>
-                <h6 className="font-heading text-white text-sm md:text-lg  mb-3 uppercase">
+                <h6 className="font-heading text-white text-sm md:text-lg  mb-3 uppercase max-w-fit">
                   Industries
+                  <div className="block rounded-md h-[8px] bg-white justify-center m-auto mt-3">
+                    <span className="animate-waving-hand ease-in-out duration-300  block w-12 rounded-md h-[8px] bg-Green justify-center m-auto mt-3 "></span>
+                  </div>
                 </h6>
 
                 <ul className="text-white font-subheading text-xs">
@@ -233,8 +247,13 @@ const Footer = () => {
                       Transport And Logistics
                     </Link>
                   </li>
-                  <li className="">
-                    <Link to="/education">Education</Link>
+                  <li className="flex">
+                    <Link
+                      to="/education "
+                      // className="inline-flex  transition duration-150 all-in-out"
+                    >
+                      Education
+                    </Link>
                   </li>
                   <li className="">
                     <Link to="/real-estate">Real Estate And Construction</Link>
@@ -251,8 +270,11 @@ const Footer = () => {
 
               {/* Fifth Column */}
               <div className=" ">
-                <h6 className="font-heading text-lg text-white uppercase  mb-3">
+                <h6 className="font-heading text-lg text-white uppercase  mb-3 max-w-fit">
                   Contact Us
+                  <div className="block rounded-md h-[8px] bg-white justify-center m-auto mt-3">
+                    <span className="animate-waving-hand block w-12 rounded-md h-[8px] bg-Green justify-center m-auto mt-3 "></span>
+                  </div>
                 </h6>
 
                 <div className="flex flex-row mb-5 md:w-64 w-64">

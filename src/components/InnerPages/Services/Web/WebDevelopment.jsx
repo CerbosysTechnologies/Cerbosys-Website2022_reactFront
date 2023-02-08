@@ -28,15 +28,15 @@ const WebDevelopment = () => {
         <div className=" mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
-            <h1 className="text-white font-heading py-2 md:text-3xl text-xl mb-2">
-              Web Design and Development
+            <h1 className="text-white uppercase font-heading pt-2 md:text-3xl text-2xl md:mb-4 min-w-fit">
+              WEB DESIGN AND DEVELOPMENT
             </h1>
-            <p className="text-white  py-2 mb-8 font-content md:text-lg text-sm">
+            <p className="text-center text-white font-subheading  md:text-lg text-xs md:w-[980px] max-w-fit">
               Delivering designs that inspires next generation
             </p>
             <Link to="/contact-us">
               <button
-                className="bg-Primary rounded-full font-heading md:px-5 md:py-2 md:text-lg
+                className="bg-Primary mt-4 rounded-full font-heading md:px-5 md:py-2 md:text-lg
               text-white uppercase px-3 py-1.5 text-xs mb-6"
               >
                 Contact Us

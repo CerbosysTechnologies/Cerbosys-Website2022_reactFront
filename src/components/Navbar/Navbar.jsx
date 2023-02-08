@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import cerbosyswhite from '../../assets/cerbosysNewSvgWhite.svg';
 import cerbosysblack from '../../assets/cerbosysNewSvg.svg';
+import logoheader from '../../assets/logoheader.png';
+import logotext from '../../assets/logotext.png';
 import callicon from '../../assets/call_icon.svg';
 import NavLinks from './ServiceNavLinks';
 import IndustryNavLinks from './IndustryNavLinks';
@@ -10,6 +12,7 @@ import CompanyNavLinks from './CompanyNavLinks';
 import MovingComponent from 'react-moving-text';
 
 const Navbar = () => {
+  const [text, settext] = useState(false);
   const [search, setSearch] = useState('');
   console.log(search);
   // -------start ----
@@ -34,6 +37,16 @@ const Navbar = () => {
     }
   }, []);
 
+  const func1 = () => {
+    settext(!text);
+    setTimeout(() => {
+      console.log('Hello deepika!');
+    });
+    setTimeout(() => {
+      console.log('Hello World!');
+    }, 500);
+  };
+
   return (
     <>
       <nav
@@ -45,14 +58,32 @@ const Navbar = () => {
       >
         <div className="flex items-center font-heading justify-around">
           {/* Logo Div */}
-          <div className="z-10 p-2 md:w-auto w-full flex justify-between">
+          <div className="z-10 px-2 md:w-auto w-full flex justify-between">
             <Link to="/">
               <img
                 src={!headerVisible ? cerbosyswhite : cerbosysblack}
+                // src={
+                //   !headerVisible ? (
+                //     <span className="text-white">Cerbosys</span>
+                //   ) : (
+                //     <span className="text-black">Cerbosys</span>
+                //   )
+                // }
                 // src={!headerVisible ? cerbosyswhite : cerbosysblack}
                 alt="logo"
-                className="md:cursor-pointer md:w-[260px] md:h-20 md:mt-0 mt-5 w-[160px] h-[75px]"
+                // className="md:cursor-pointer md:w-[65px]  md:h-20 md:mt-0 mt-5 w-[55px] "
+                className={
+                  !headerVisible
+                    ? 'md:cursor-pointer md:w-[65px]  md:h-20 md:mt-0 mt-5 w-[55px] text-white'
+                    : 'text-black'
+                }
+                onMouseEnter={() => func1()}
               />
+              <div>
+                <p className="text-white font-bold font-heading text-4xl">
+                  {text ? <span className="text-white">Cerboys</span> : ''}
+                </p>
+              </div>
             </Link>
             {/* Test Code */}
             <div
@@ -89,7 +120,7 @@ const Navbar = () => {
             </li>
             <IndustryNavLinks></IndustryNavLinks>
             <li>
-              <Link to="">Portfolio</Link>
+              <Link to="/Portfolio">Portfolio</Link>
             </li>
             {/* <li>
             <Link to="/" className="py-5 px-1 inline-block">

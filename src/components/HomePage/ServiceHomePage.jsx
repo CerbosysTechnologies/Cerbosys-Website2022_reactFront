@@ -21,17 +21,17 @@ const ServiceHomePage = () => {
       <div className=" mx-auto w-full flex flex-col flex-wrap text-center">
         {/* heading */}
         <div className=" justify-center items-center text-center">
-          <h2 className="font-heading text-lg md:text-3xl mt-4">
+          <h2 className="font-heading text-lg md:text-3xl mt-10 uppercase">
             <RubberBand duration={3000}>Our Best Services</RubberBand>
           </h2>
-          <h2 className="font-content text-black font-bold text-xs md:text-sm mb-3">
+          <h2 className="font-subheading text-black font-bold text-2xl md:text-xl mb-3 mt-3">
             <Slide bottom duration={3000}>
               Services offered by us to grow your business
             </Slide>
           </h2>
 
           {/* Content */}
-          <p className="text-justify align-baseline font-content text-lg w-3/4 m-auto mb-10">
+          <p className="text-justify align-baseline font-content text-lg w-3/4 m-auto mb-10 mt-3">
             Our passion is helping companies of all sizes build their brand and
             business by making them attractive to the consumers by creating
             innovative solutions on a wide range of services, which help in

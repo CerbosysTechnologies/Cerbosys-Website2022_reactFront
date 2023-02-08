@@ -1,22 +1,22 @@
-import React from "react";
-import uiuximageicon from "../../../../assets/innerpage/ui and ux/uiuximage.png";
-import uiandux_articon from "../../../../assets/innerpage/ui and ux/illustrator.svg";
-import { Bounce } from "react-reveal";
+import React from 'react';
+import uiuximageicon from '../../../../assets/innerpage/ui and ux/uiuximage.png';
+import uiandux_articon from '../../../../assets/innerpage/ui and ux/illustrator.svg';
+import { Bounce } from 'react-reveal';
 const UIAndUXDesc = () => {
   return (
     <div>
-      <div className=" mx-auto w-full py-16 px-4 ">
+      <div className=" mx-auto w-full py-0 md:py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
           {/* First Section */}
           <Bounce duration={3000}>
             <div className="grid md:grid-cols-2">
               {/* Content Section */}
-              <div className="mx-auto flex flex-col md:px-24 px-14 text-justify">
-                <h2 className="font-heading md:text-2xl text-lg">
-                  {" "}
-                  UI/UX Development{" "}
+              <div className="mx-auto flex flex-col md:px-24 px-6 text-justify">
+                <h2 className="font-heading md:text-2xl text-lg uppercase">
+                  {' '}
+                  UI/UX Development{' '}
                 </h2>
-                <p className="font-content md:text-lg text-sm">
+                <p className="font-content md:text-lg text-sm mt-4">
                   Our UI/UX developers make sure that users have a positive
                   experience when using a product, and that they can easily find
                   the information they're looking for. They are able to create
@@ -45,14 +45,15 @@ const UIAndUXDesc = () => {
               <img
                 src={uiandux_articon}
                 alt="UI/UX Icon"
-                className="md:w-[24rem] mx-auto my-8
-             w-[28rem] h-[20rem] mt-8"
+                className="md:h-[24rem] w-full p-4 mx-auto my-auto"
+                //     className="md:w-[24rem] mx-auto my-8
+                //  w-[28rem] h-[20rem] mt-8"
               />
               {/* Image Section Ends*/}
 
               {/* Content Section */}
-              <div className="flex flex-col md:px-24 px-14 mx-auto text-justify mt-8">
-                <h2 className="font-heading md:text-2xl text-lg text-white">
+              <div className="flex flex-col md:px-24 px-6 mx-auto text-justify mt-8">
+                <h2 className="font-heading md:text-2xl text-lg text-white uppercase">
                   We are aware of the Technology Pulse that Leads to Better
                   Performance
                 </h2>

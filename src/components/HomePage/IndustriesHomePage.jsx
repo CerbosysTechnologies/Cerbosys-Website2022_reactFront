@@ -23,7 +23,7 @@ const IndustriesHomePage = () => {
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
           {/* Content Part */}
           <div className="flex flex-col md:px-16 px-2">
-            <h2 className="text-white font-heading md:text-3xl text-xl mb-3">
+            <h2 className="text-white uppercase font-heading md:text-3xl text-xl mb-3">
               Our Industries
             </h2>
             <div className="text-white font-content  text-justify">
