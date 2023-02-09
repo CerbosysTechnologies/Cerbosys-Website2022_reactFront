@@ -12,13 +12,13 @@ const LeadGenerationDesc = () => {
 
           <Bounce duration={3000}>
             <div className="grid md:grid-cols-2">
-              {/* Content Section */}
-              <div className="mx-auto flex flex-col md:px-24 px-14 text-justify">
-                <h2 className="text-white uppercase font-heading pt-2 md:text-5xl text-2xl md:mb-4 min-w-fit">
+              {/* Content Section md:px-24 px-14 */}
+              <div className="mx-auto flex flex-col px-5 text-justify">
+                <h2 className="text-black uppercase font-heading pt-2 md:text-3xl text-xl md:mb-4 min-w-fit">
                   {' '}
                   Lead Generation{' '}
                 </h2>
-                <p className="text-center text-white font-subheading  md:text-lg text-xs md:w-[980px] max-w-fit">
+                <p className=" text-black font-subheading  md:text-lg text-xs  max-w-fit">
                   Lead generation can happen in a number of ways, but most often
                   it involves either online or offline marketing activities. Our
                   online activities include things like creating a website or
@@ -55,8 +55,8 @@ const LeadGenerationDesc = () => {
               />
               {/* Image Section Ends*/}
 
-              {/* Content Section */}
-              <div className="flex flex-col md:px-24 px-14 mx-auto text-justify mt-8">
+              {/* Content Section md:px-24 px-14 */}
+              <div className="flex flex-col px-5 mx-auto text-justify mt-8">
                 <h2 className="font-heading md:text-2xl text-lg text-white mb-3">
                   We are aware of the Technology Pulse that Leads to Better
                   Performance

@@ -1,27 +1,27 @@
-import React from "react";
-import { Flip } from "react-reveal";
-import oneicon from "../../../../assets/innerpage/digitalmarketing/1.svg";
-import twoicon from "../../../../assets/innerpage/digitalmarketing/2.svg";
-import threeicon from "../../../../assets/innerpage/digitalmarketing/3.svg";
-import fouricon from "../../../../assets/innerpage/digitalmarketing/4.svg";
-import fiveicon from "../../../../assets/innerpage/digitalmarketing/5.svg";
-import processicon1 from "../../../../assets/innerpage/digitalmarketing/processimage1.png";
-import processicon2 from "../../../../assets/innerpage/digitalmarketing/processimage2.png";
-import processicon3 from "../../../../assets/innerpage/digitalmarketing/processimage3.png";
-import processicon4 from "../../../../assets/innerpage/digitalmarketing/processimage4.png";
-import processicon5 from "../../../../assets/innerpage/digitalmarketing/processimage5.png";
+import React from 'react';
+import { Flip } from 'react-reveal';
+import oneicon from '../../../../assets/innerpage/digitalmarketing/1.svg';
+import twoicon from '../../../../assets/innerpage/digitalmarketing/2.svg';
+import threeicon from '../../../../assets/innerpage/digitalmarketing/3.svg';
+import fouricon from '../../../../assets/innerpage/digitalmarketing/4.svg';
+import fiveicon from '../../../../assets/innerpage/digitalmarketing/5.svg';
+import processicon1 from '../../../../assets/innerpage/digitalmarketing/processimage1.png';
+import processicon2 from '../../../../assets/innerpage/digitalmarketing/processimage2.png';
+import processicon3 from '../../../../assets/innerpage/digitalmarketing/processimage3.png';
+import processicon4 from '../../../../assets/innerpage/digitalmarketing/processimage4.png';
+import processicon5 from '../../../../assets/innerpage/digitalmarketing/processimage5.png';
 
 const MobileProcess = () => {
   return (
     <div>
-      <div className="bg-white mx-auto w-full py-5 px-16 ">
+      <div className="bg-white mx-auto w-full py-5 px-5 md:px-16">
         <div className="max-w-[1240px] mx-auto ">
           {/* Heading */}
           <div className="flex flex-col flex-wrap items-center">
             <h2 className="font-heading md:text-3xl uppercase text-Primary text-xl">
               Process
             </h2>
-            <h2 className="font-subheading md:text-xl text-black text-sm mb-4">
+            <h2 className="font-subheading md:text-xl text-black mt-4 text-sm mb-4">
               Our Digital Marketing Service Process
             </h2>
             <p className="font-content md:text-lg text-black text-sm text-justify align-baseline md:px-28 px-10">
@@ -37,7 +37,7 @@ const MobileProcess = () => {
 
           {/* Research Div */}
 
-          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
+          <div className="mx-auto flex flex-col px-5 mt-10">
             <Flip duration={3000}>
               <img
                 src={oneicon}
@@ -46,7 +46,7 @@ const MobileProcess = () => {
               />
             </Flip>
           </div>
-          <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
+          <div className="grid md:grid-cols-2 mt-10 gap-1 px-5 justify-center">
             <img
               src={processicon1}
               alt="Process Icon 1"
@@ -54,7 +54,7 @@ const MobileProcess = () => {
             />
             <div className="mx-auto flex flex-col text-justify">
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
-                {" "}
+                {' '}
                 Research
               </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
@@ -73,9 +73,9 @@ const MobileProcess = () => {
 
           {/* Create Div */}
 
-          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
+          <div className="mx-auto flex flex-col px-5 mt-10 items-end">
             <Flip duration={3000}>
-              {" "}
+              {' '}
               <img
                 src={twoicon}
                 alt="Icon Two"
@@ -84,7 +84,7 @@ const MobileProcess = () => {
             </Flip>
           </div>
 
-          <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
+          <div className="grid md:grid-cols-2 mt-10 gap-24 px-5 justify-center">
             <div className="mx-auto flex flex-col text-justify">
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Create
@@ -110,7 +110,7 @@ const MobileProcess = () => {
 
           {/* Promote Div */}
 
-          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
+          <div className="mx-auto flex flex-col px-5 mt-10">
             <Flip duration={3000}>
               <img
                 src={threeicon}
@@ -119,7 +119,7 @@ const MobileProcess = () => {
               />
             </Flip>
           </div>
-          <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
+          <div className="grid md:grid-cols-2 mt-10 gap-1 px-5 justify-center">
             <img
               src={processicon3}
               alt="Process Icon 3"
@@ -144,9 +144,9 @@ const MobileProcess = () => {
 
           {/* Analyze Div */}
 
-          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
+          <div className="mx-auto flex flex-col px-5 mt-10 items-end">
             <Flip duration={3000}>
-              {" "}
+              {' '}
               <img
                 src={fouricon}
                 alt="Icon Four"
@@ -154,7 +154,7 @@ const MobileProcess = () => {
               />
             </Flip>
           </div>
-          <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
+          <div className="grid md:grid-cols-2 mt-10 gap-24 px-5 justify-center">
             <div className="mx-auto flex flex-col text-justify">
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Analyze
@@ -180,9 +180,9 @@ const MobileProcess = () => {
 
           {/* Optimize Div */}
 
-          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
+          <div className="mx-auto flex flex-col px-5 mt-10">
             <Flip duration={3000}>
-              {" "}
+              {' '}
               <img
                 src={fiveicon}
                 alt="Icon Five"
@@ -190,7 +190,7 @@ const MobileProcess = () => {
               />
             </Flip>
           </div>
-          <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
+          <div className="grid md:grid-cols-2 mt-10 gap-1 px-5 justify-center">
             <img
               src={processicon5}
               alt="Process Icon 5"

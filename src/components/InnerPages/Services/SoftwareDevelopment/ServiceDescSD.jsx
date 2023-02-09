@@ -50,14 +50,15 @@ function ServiceDescSD() {
 
             {/* Second Section */}
             <Bounce duration={3000}>
-              <div className="grid md:grid-cols-2 bg-Primary mt-8 rounded-3xl gap-2">
+              <div className="grid md:grid-cols-2 items-center bg-Primary mt-8 rounded-3xl gap-2">
                 {/* Image Section */}
                 {/* <Bounce left duration={3000}> */}
                 <img
                   src={Software1}
                   alt="Web Service Icon"
-                  className="md:w-[24rem] mx-auto my-8
-             w-[18rem] mt-8 md:mt-40"
+                  className="w-full"
+                  //       className="md:w-[24rem] mx-auto my-8
+                  //  w-[18rem] mt-8 md:mt-40"
                 />
                 {/* </Bounce> */}
                 {/* Image Section Ends*/}

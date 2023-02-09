@@ -13,7 +13,7 @@ const CustomerRelationHomePage = () => {
         <div className="max-w-[1240px] mx-auto ">
           {/* Heading */}
           <h2
-            className="font-heading text-sm md:text-2xl text-white uppercase text-left md:indent-24
+            className="font-heading text-sm md:text-2xl text-white uppercase text-center md:indent-24
           indent-10"
           >
             Build Customer Relationship
@@ -21,7 +21,7 @@ const CustomerRelationHomePage = () => {
           {/* Heading Ends */}
 
           {/* Main Container For Image and Content */}
-          <div className="grid md:grid-cols-2">
+          <div className="grid md:grid-cols-2 gap-8">
             {/* Image Section */}
             <div className="mx-auto md:my-6 grid md:grid-cols-2 md:gap-4 grid-cols-2 gap-6 relative mt-[-10rem]">
               <div>
@@ -76,7 +76,7 @@ const CustomerRelationHomePage = () => {
 
             {/* Content Section */}
             <div className="mx-auto flex flex-col justify-center  ">
-              <h2 className="text-white font-heading md:text-2xl text-lg align-top mb-8 md:-mt-[5rem] -mt-[10rem]">
+              <h2 className="text-white uppercase font-heading md:text-2xl text-lg align-top mb-8 md:-mt-[5rem] -mt-[10rem]">
                 Our Customer On-Boarding Process
               </h2>
               <p className="text-white font-content  mb-10 text-justify md:px-0 px-4">
@@ -87,7 +87,7 @@ const CustomerRelationHomePage = () => {
                 what industry you're in.
               </p>
 
-              <p className="text-white bold italic font-subheading  text-justify md:mb-28 mb-10 px-4">
+              <p className="text-white bold italic font-subheading  text-justify md:mb-16 mb-5 px-4">
                 As innovative and creative digital creators, we have broken down
                 this typical process into four major steps that involve:
               </p>

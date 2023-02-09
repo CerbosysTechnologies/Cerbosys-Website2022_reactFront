@@ -1,16 +1,16 @@
-import React from "react";
-import topfirmicon from "../../assets/recommend/topdeveloper.svg";
-import goodfirmicon from "../../assets/recommend/goodfirm.svg";
-import clutchicon from "../../assets/recommend/clutch.svg";
-import appfuturaicon from "../../assets/recommend/aapfutura.svg";
-import Entrepreneur from "../../assets/recommend/Entrepreneur India.svg";
+import React from 'react';
+import topfirmicon from '../../assets/recommend/topdeveloper.svg';
+import goodfirmicon from '../../assets/recommend/goodfirm.svg';
+import clutchicon from '../../assets/recommend/clutch.svg';
+import appfuturaicon from '../../assets/recommend/aapfutura.svg';
+import Entrepreneur from '../../assets/recommend/Entrepreneur India.svg';
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
-import SwiperCore, { Autoplay } from "swiper";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/autoplay";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper';
+import SwiperCore, { Autoplay } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 
 // const featuredicons = [topfirmicon, goodfirmicon, clutchicon, appfuturaicon];
 
@@ -22,7 +22,7 @@ const Recommendations = () => {
         <div className="max-w-[1240px] mx-auto">
           {/* Heading */}
           <div className="justify-center items-center text-center">
-            <h2 className="font-heading text-center md:text-3xl text-lg">
+            <h2 className="font-heading text-center md:text-3xl uppercase text-lg">
               Recommendations
             </h2>
           </div>
@@ -41,7 +41,6 @@ const Recommendations = () => {
               autoplay={{
                 delay: 1500,
                 disableOnInteraction: false,
-                
               }}
             >
               {/* {featuredicons.map((slideContent, index) => ( */}
@@ -80,7 +79,7 @@ const Recommendations = () => {
                     src={clutchicon}
                     alt=""
                     className="md:w-72 md:h-72 mt-10 md:mx-4 px-2 w-80 h-80 md:mt-0 scale-100 hover:scale-125 ease-out duration-500"
-                  />{" "}
+                  />{' '}
                 </a>
               </SwiperSlide>
               <SwiperSlide>

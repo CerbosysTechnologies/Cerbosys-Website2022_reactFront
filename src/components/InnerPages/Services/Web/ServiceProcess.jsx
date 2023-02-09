@@ -20,10 +20,10 @@ const ServiceProcess = () => {
             <h2 className="font-heading md:text-3xl uppercase text-Primary text-xl">
               Process
             </h2>
-            <h2 className="font-subheading md:text-xl text-black text-sm mb-5">
+            <h2 className="font-subheading md:text-xl text-black text-sm mb-5 mt-3">
               Our Web Development Process
             </h2>
-            <p className="font-content md:text-lg text-black text-sm text-justify align-baseline md:px-28 px-10">
+            <p className="font-content md:text-lg text-black text-sm text-justify align-baseline  md:px-10  px-3  mt-3">
               Our web development process involves information gathering,
               planning, designing, creating content and assembling it, coding
               and testing, reviewing, and in the end its maintenance.
@@ -33,7 +33,7 @@ const ServiceProcess = () => {
 
           {/* Requirement Analysis Div */}
 
-          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
+          <div className="mx-auto flex flex-col md:px-10  px-3  mt-10">
             <Flip duration={3000}>
               <img
                 src={oneicon}
@@ -42,7 +42,7 @@ const ServiceProcess = () => {
               />
             </Flip>
           </div>
-          <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
+          <div className="grid md:grid-cols-2 mt-10 gap-1  md:px-10  px-3 justify-center">
             <Bounce left duration={3000}>
               <img
                 src={processicon1}
@@ -74,7 +74,7 @@ const ServiceProcess = () => {
 
           {/* Creating Blueprint Div */}
 
-          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
+          <div className="mx-auto flex flex-col  md:px-10  px-3  mt-10 items-end">
             <Flip duration={3000}>
               {' '}
               <img
@@ -85,7 +85,7 @@ const ServiceProcess = () => {
             </Flip>
           </div>
 
-          <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
+          <div className="grid md:grid-cols-2 mt-10 gap-24  md:px-10  px-3  justify-center">
             <Bounce left duration={3000}>
               <div className="mx-auto flex flex-col text-justify">
                 <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
@@ -115,7 +115,7 @@ const ServiceProcess = () => {
 
           {/* Development Div */}
 
-          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
+          <div className="mx-auto flex flex-col md:px-10  px-3  mt-10">
             <Flip duration={3000}>
               <img
                 src={threeicon}
@@ -124,7 +124,7 @@ const ServiceProcess = () => {
               />
             </Flip>
           </div>
-          <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
+          <div className="grid md:grid-cols-2 mt-10 gap-1  md:px-10  px-3 justify-center">
             <Bounce left duration={3000}>
               <img
                 src={processicon3}
@@ -154,7 +154,7 @@ const ServiceProcess = () => {
 
           {/* Testing And Launching Div */}
 
-          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
+          <div className="mx-auto flex flex-col  md:px-10  px-3  mt-10 items-end">
             <Flip duration={3000}>
               {' '}
               <img
@@ -165,7 +165,7 @@ const ServiceProcess = () => {
             </Flip>
           </div>
 
-          <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
+          <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-10  px-3 justify-center">
             <Bounce left duration={3000}>
               <div className="mx-auto flex flex-col text-justify">
                 <h2 className="font-heading md:text-xl text-sm uppercase mb-4">

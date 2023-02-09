@@ -51,9 +51,12 @@ const CurrentOpeningBody = () => {
       <div className="mx-auto w-full py-16 px-2">
         <div className="max-w-[1240px] mx-auto">
           <p className="font-heading text-3xl text-center ">Open Positions</p>
-          <div className="block w-40 h-1 bg-black justify-center m-auto mt-3">
-            <div className="block w-20 h-1 bg-Orange justify-center m-auto mt-3"></div>
+          <div className="block w-40  rounded-md h-[8px] bg-black justify-center m-auto mt-3">
+            <span className="animate-waving-hand block w-12  rounded-md h-[8px] bg-Orange justify-center m-auto mt-3 "></span>{' '}
           </div>
+          {/* <div className="block w-40 h-1 bg-black justify-center m-auto mt-3">
+            <div className="block w-20 h-1 bg-Orange justify-center m-auto mt-3"></div>
+          </div> */}
           {/* Card Content Section */}
           <div className="flex justify-center">
             <div className="flex flex-wrap md:flex-nowrap mt-10   gap-10">

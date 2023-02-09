@@ -1,22 +1,22 @@
-import React from "react";
-import oneicon from "../../../../assets/innerpage/brandingandpackaging/1.svg";
-import twoicon from "../../../../assets/innerpage/brandingandpackaging/2.svg";
-import threeicon from "../../../../assets/innerpage/brandingandpackaging/3.svg";
-import fouricon from "../../../../assets/innerpage/brandingandpackaging/4.svg";
-import fiveicon from "../../../../assets/innerpage/brandingandpackaging/5.svg";
-import sixicon from "../../../../assets/innerpage/brandingandpackaging/6.svg";
-import processicon1 from "../../../../assets/innerpage/brandingandpackaging/brand_research.png";
-import processicon2 from "../../../../assets/innerpage/brandingandpackaging/brand_strategy.png";
-import processicon3 from "../../../../assets/innerpage/brandingandpackaging/brand_identity.png";
-import processicon4 from "../../../../assets/innerpage/brandingandpackaging/brand_tools.png";
-import processicon5 from "../../../../assets/innerpage/brandingandpackaging/brand_launch.png";
-import processicon6 from "../../../../assets/innerpage/brandingandpackaging/brand_building.png";
-import { Flip } from "react-reveal";
+import React from 'react';
+import oneicon from '../../../../assets/innerpage/brandingandpackaging/1.svg';
+import twoicon from '../../../../assets/innerpage/brandingandpackaging/2.svg';
+import threeicon from '../../../../assets/innerpage/brandingandpackaging/3.svg';
+import fouricon from '../../../../assets/innerpage/brandingandpackaging/4.svg';
+import fiveicon from '../../../../assets/innerpage/brandingandpackaging/5.svg';
+import sixicon from '../../../../assets/innerpage/brandingandpackaging/6.svg';
+import processicon1 from '../../../../assets/innerpage/brandingandpackaging/brand_research.png';
+import processicon2 from '../../../../assets/innerpage/brandingandpackaging/brand_strategy.png';
+import processicon3 from '../../../../assets/innerpage/brandingandpackaging/brand_identity.png';
+import processicon4 from '../../../../assets/innerpage/brandingandpackaging/brand_tools.png';
+import processicon5 from '../../../../assets/innerpage/brandingandpackaging/brand_launch.png';
+import processicon6 from '../../../../assets/innerpage/brandingandpackaging/brand_building.png';
+import { Flip } from 'react-reveal';
 
 const BrandAndPackagingProcess = () => {
   return (
     <div>
-      <div className="bg-white mx-auto w-full py-5 px-16 ">
+      <div className="bg-white mx-auto w-full py-5 px-5 ">
         <div className="max-w-[1240px] mx-auto ">
           {/* Heading */}
           <div className="flex flex-col flex-wrap items-center">
@@ -36,7 +36,7 @@ const BrandAndPackagingProcess = () => {
 
           {/* Brand Research Div */}
 
-          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
+          <div className="mx-auto flex flex-col  px-5 mt-10">
             <Flip duration={3000}>
               <img
                 src={oneicon}
@@ -45,7 +45,7 @@ const BrandAndPackagingProcess = () => {
               />
             </Flip>
           </div>
-          <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
+          <div className="grid md:grid-cols-2 mt-10 gap-1  px-5 justify-center">
             <img
               src={processicon1}
               alt="Process Icon 1"
@@ -53,7 +53,7 @@ const BrandAndPackagingProcess = () => {
             />
             <div className="mx-auto flex flex-col text-justify">
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
-                {" "}
+                {' '}
                 Brand Research
               </h2>
               <p className="font-content md:text-lg text-sm col-span-2">
@@ -71,7 +71,7 @@ const BrandAndPackagingProcess = () => {
 
           {/* Brand Strategy Div */}
 
-          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
+          <div className="mx-auto flex flex-col  px-5 mt-10 items-end">
             <Flip duration={3000}>
               <img
                 src={twoicon}
@@ -81,7 +81,7 @@ const BrandAndPackagingProcess = () => {
             </Flip>
           </div>
 
-          <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
+          <div className="grid md:grid-cols-2 mt-10 gap-24  px-5 justify-center">
             <div className="mx-auto flex flex-col text-justify">
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Brand Strategy
@@ -105,16 +105,16 @@ const BrandAndPackagingProcess = () => {
 
           {/* Brand Identity Div */}
 
-          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
+          <div className="mx-auto flex flex-col  px-5 mt-10">
             <Flip duration={3000}>
               <img
                 src={threeicon}
                 alt="Icon Three"
                 className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-              />{" "}
+              />{' '}
             </Flip>
           </div>
-          <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
+          <div className="grid md:grid-cols-2 mt-10 gap-1  px-5 justify-center">
             <img
               src={processicon3}
               alt="Process Icon 3"
@@ -139,16 +139,16 @@ const BrandAndPackagingProcess = () => {
 
           {/* Brand Tools Div */}
 
-          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
+          <div className="mx-auto flex flex-col  px-5 mt-10 items-end">
             <Flip duration={3000}>
               <img
                 src={fouricon}
                 alt="Icon Four"
                 className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-              />{" "}
+              />{' '}
             </Flip>
           </div>
-          <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
+          <div className="grid md:grid-cols-2 mt-10 gap-24  px-5 justify-center">
             <div className="mx-auto flex flex-col text-justify">
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Brand Tools
@@ -174,7 +174,7 @@ const BrandAndPackagingProcess = () => {
 
           {/* Brand Launch Div */}
 
-          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
+          <div className="mx-auto flex flex-col  px-5 mt-10">
             <Flip duration={3000}>
               <img
                 src={fiveicon}
@@ -183,7 +183,7 @@ const BrandAndPackagingProcess = () => {
               />
             </Flip>
           </div>
-          <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
+          <div className="grid md:grid-cols-2 mt-10 gap-1  px-5 justify-center">
             <img
               src={processicon5}
               alt="Process Icon 5"
@@ -207,7 +207,7 @@ const BrandAndPackagingProcess = () => {
 
           {/* Brand Building Div */}
 
-          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
+          <div className="mx-auto flex flex-col  px-5 mt-10 items-end">
             <Flip duration={3000}>
               <img
                 src={sixicon}
@@ -216,7 +216,7 @@ const BrandAndPackagingProcess = () => {
               />
             </Flip>
           </div>
-          <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
+          <div className="grid md:grid-cols-2 mt-10 gap-24  px-5 justify-center">
             <div className="mx-auto flex flex-col text-justify">
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Brand Building

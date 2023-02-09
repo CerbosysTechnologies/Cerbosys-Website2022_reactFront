@@ -1,19 +1,19 @@
-import React from "react";
+import React from 'react';
 
-import androidicon from "../../assets/technology/andriod.svg";
-import fluttericon from "../../assets/technology/flutter.svg";
-import iosicon from "../../assets/technology/iOS.svg";
-import mongodbicon from "../../assets/technology/mongodb.svg";
-import mysqlicon from "../../assets/technology/MySQL.svg";
-import neticon from "../../assets/technology/net.svg";
-import nodejsicon from "../../assets/technology/nodejs.svg";
-import reactjsicon from "../../assets/technology/reactjs.svg";
-import wordpressicon from "../../assets/technology/wordpress.svg";
-import angularicon from "../../assets/technology/angular.svg";
-import codeignitericon from "../../assets/technology/codeigniter.svg";
-import laravelicon from "../../assets/technology/laravel.svg";
-import phpicon from "../../assets/technology/php.svg";
-import Bounce from "react-reveal/Bounce";
+import androidicon from '../../assets/technology/andriod.svg';
+import fluttericon from '../../assets/technology/flutter.svg';
+import iosicon from '../../assets/technology/iOS.svg';
+import mongodbicon from '../../assets/technology/mongodb.svg';
+import mysqlicon from '../../assets/technology/MySQL.svg';
+import neticon from '../../assets/technology/net.svg';
+import nodejsicon from '../../assets/technology/nodejs.svg';
+import reactjsicon from '../../assets/technology/reactjs.svg';
+import wordpressicon from '../../assets/technology/wordpress.svg';
+import angularicon from '../../assets/technology/angular.svg';
+import codeignitericon from '../../assets/technology/codeigniter.svg';
+import laravelicon from '../../assets/technology/laravel.svg';
+import phpicon from '../../assets/technology/php.svg';
+import Bounce from 'react-reveal/Bounce';
 
 const TechnologyHomePage = () => {
   return (
@@ -22,21 +22,21 @@ const TechnologyHomePage = () => {
         <div className="max-w-[1240px] mx-auto ">
           {/* Heading */}
 
-          <h2 className="font-heading text-xl md:text-3xl text-black md:indent-24">
+          <h2 className="font-heading uppercase text-xl md:text-3xl text-black md:indent-24 text-center">
             Technologies
           </h2>
           {/* Heading Ends */}
 
           {/* Content */}
-          <p className="font-content mt-3 md:text-center md:items-center md:indent-24  md:w-[620px] whitespace-pre-wrap">
+          <p className="font-content mx-auto mt-3 md:text-center md:items-center md:indent-24  md:w-[620px] whitespace-pre-wrap">
             We work with different technologies, including few of the lastest
             and most talked about stacks.
           </p>
           {/* Content Ends */}
 
-          {/* Image Section */}
+          {/* Image Section md:ml-20*/}
 
-          <div className="flex flex-row flex-wrap items-center justify-center gap-8 mt-10 md:mt-28 md:ml-20">
+          <div className="flex flex-row flex-wrap items-center justify-center gap-8 mt-10  md:mt-16 ">
             <Bounce duration={4000}>
               <div>
                 <img

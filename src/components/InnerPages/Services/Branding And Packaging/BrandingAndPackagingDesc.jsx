@@ -11,7 +11,7 @@ const BrandingAndPackagingDesc = () => {
           <Bounce duration={3000}>
             <div className="grid md:grid-cols-2">
               {/* Content Section */}
-              <div className="mx-auto flex flex-col md:px-24 px-14 text-justify">
+              <div className="mx-auto flex flex-col  px-5 text-justify">
                 <h2 className="font-heading md:text-2xl text-lg mb-4">
                   {" "}
                   Branding And Packaging{" "}
@@ -58,7 +58,7 @@ const BrandingAndPackagingDesc = () => {
               {/* Image Section Ends*/}
 
               {/* Content Section */}
-              <div className="flex flex-col md:px-24 px-14 mx-auto text-justify mt-8">
+              <div className="flex flex-col  px-5 mx-auto text-justify mt-8">
                 <h2 className="font-heading md:text-2xl text-lg text-white mb-4">
                   We are aware of the Technology Pulse that Leads to Better
                   Performance

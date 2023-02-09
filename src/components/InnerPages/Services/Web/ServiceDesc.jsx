@@ -11,15 +11,15 @@ const ServiceDesc = () => {
         <div className="max-w-[1240px] mx-auto ">
           {/* First Section */}
           <Bounce duration={3000}>
-            <div className="grid md:grid-cols-2">
-              {/* Content Section */}
+            <div className="grid md:grid-cols-2 ">
+              {/* Content Section md:px-24 px-14*/}
 
-              <div className="mx-auto flex flex-col md:px-24 px-14 text-justify">
-                <h2 className="text-white uppercase font-heading pt-2 md:text-5xl text-2xl md:mb-4 min-w-fit">
+              <div className="mx-auto text-justify p-3">
+                <h2 className="text-black uppercase font-heading pt-2 md:text-3xl text-xl md:mb-4 ">
                   Web Development Services
                 </h2>
 
-                <p className="text-center text-Skyblue font-subheading  md:text-lg text-xs md:w-[980px] max-w-fit ">
+                <p className=" font-subheading  md:text-lg text-xs  mt-3">
                   Web development is the process of designing and coding a
                   website, web applications, or other computer programs that are
                   accessible on the internet. Website design & development
@@ -33,13 +33,15 @@ const ServiceDesc = () => {
               {/* Content Section Ends*/}
 
               {/* Image Section */}
-
-              <img
-                src={webserviceicon}
-                alt="Web Service Icon"
-                className="mx-auto md:w-[28rem]
-             w-[18rem] mt-8"
-              />
+              <div className="">
+                <img
+                  src={webserviceicon}
+                  alt="Web Service Icon"
+                  // className="w-full"
+                  className="mx-auto md:w-[28rem]
+                   w-[18rem] mt-8"
+                />
+              </div>
 
               {/* Image Section Ends*/}
             </div>{' '}
@@ -55,15 +57,16 @@ const ServiceDesc = () => {
               <img
                 src={webserviceclip_articon}
                 alt="Web Service Icon"
-                className="md:w-[24rem] mx-auto my-8
-             w-[18rem] mt-8"
+                className="w-full"
+                //     className="md:w-[24rem] mx-auto my-8
+                //  w-[18rem] mt-8"
               />
               {/* </Bounce> */}
               {/* Image Section Ends*/}
 
               {/* Content Section */}
-              {/* <Bounce right duration={3000}> */}
-              <div className="flex flex-col md:px-24 px-14 mx-auto text-justify mt-8">
+              {/* <Bounce right duration={3000}> md:px-24 px-14*/}
+              <div className="flex flex-col px-8 mx-auto text-justify mt-8">
                 <h2 className="font-heading md:text-2xl text-lg text-white mb-5">
                   Web Development Services
                 </h2>
@@ -90,7 +93,7 @@ const ServiceDesc = () => {
             <img
               src={technologyicon}
               alt="Technology Icon"
-              className="md:w-[1100px] w-96"
+              className="md:w-[1100px] w-96 mx-auto"
             />
           </div>
           {/* Third Section Ends*/}

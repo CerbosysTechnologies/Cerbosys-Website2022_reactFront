@@ -8,11 +8,17 @@ import callicon from '../../assets/call_icon.svg';
 import NavLinks from './ServiceNavLinks';
 import IndustryNavLinks from './IndustryNavLinks';
 import CompanyNavLinks from './CompanyNavLinks';
+import headerlogo from '../../assets/headerlogo.png';
+import whiteopeneyess from '../../assets/whiteopeneyess.png';
+
+import closeye from '../../assets/closeye.png';
 
 import MovingComponent from 'react-moving-text';
 
 const Navbar = () => {
   const [text, settext] = useState(false);
+  const [openeye, setOpeneye] = useState(false);
+  const [closeeye, setCloseeye] = useState(false);
   const [search, setSearch] = useState('');
   console.log(search);
   // -------start ----
@@ -38,12 +44,12 @@ const Navbar = () => {
   }, []);
 
   const func1 = () => {
-    settext(!text);
+    settext(true);
+    setCloseeye(true);
+
     setTimeout(() => {
-      console.log('Hello deepika!');
-    });
-    setTimeout(() => {
-      console.log('Hello World!');
+      // setOpeneye(<img src={whiteopeneyess} alt="img" />);
+      // alert('hello');
     }, 500);
   };
 
@@ -61,27 +67,36 @@ const Navbar = () => {
           <div className="z-10 px-2 md:w-auto w-full flex justify-between">
             <Link to="/">
               <img
-                src={!headerVisible ? cerbosyswhite : cerbosysblack}
-                // src={
-                //   !headerVisible ? (
-                //     <span className="text-white">Cerbosys</span>
-                //   ) : (
-                //     <span className="text-black">Cerbosys</span>
-                //   )
-                // }
+                src={headerlogo}
                 // src={!headerVisible ? cerbosyswhite : cerbosysblack}
                 alt="logo"
+                className="w-[50px]"
                 // className="md:cursor-pointer md:w-[65px]  md:h-20 md:mt-0 mt-5 w-[55px] "
-                className={
-                  !headerVisible
-                    ? 'md:cursor-pointer md:w-[65px]  md:h-20 md:mt-0 mt-5 w-[55px] text-white'
-                    : 'text-black'
-                }
+                // className={
+                //   !headerVisible
+                //     ? 'md:cursor-pointer md:w-[65px]  md:h-20 md:mt-0 mt-5 w-[55px] text-white'
+                //     : 'text-black'
+                // }
                 onMouseEnter={() => func1()}
               />
               <div>
                 <p className="text-white font-bold font-heading text-4xl">
-                  {text ? <span className="text-white">Cerboys</span> : ''}
+                  {text ? (
+                    !headerVisible ? (
+                      <img src={whiteopeneyess} alt="img" />
+                    ) : (
+                      <img src={closeye} alt="img" />
+                    )
+                  ) : (
+                    ''
+                  )}
+                  {/* {text
+                    ? !headerVisible ?
+                   ( <img src={blackopeneyess} alt="img" />
+                      // : closeeye
+                    :  <img src={whiteopeneyess} alt="img" />)
+                    :""
+                      } */}
                 </p>
               </div>
             </Link>

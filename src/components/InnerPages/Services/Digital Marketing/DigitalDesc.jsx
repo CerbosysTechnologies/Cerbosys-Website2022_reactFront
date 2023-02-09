@@ -16,12 +16,11 @@ const MobileDesc = () => {
                 <h2 className="font-heading md:text-2xl text-lg mb-5 ">
                   Digital Marketing
                 </h2>
-                <p className="font-content  text-white md:text-lg text-sm   text-center">
+                <p className="font-content  text-black md:text-lg text-sm   ">
                   Digital marketing is an umbrella term encompassing several
                   disciplines, including web design and development, social
                   media, search engine optimization (SEO), email marketing,
                   content marketing, and mobile marketing.
-                  <br></br>
                   <br></br>
                   As a business owner, the company’s marketing and digital
                   marketing strategies play a critical role in your company’s

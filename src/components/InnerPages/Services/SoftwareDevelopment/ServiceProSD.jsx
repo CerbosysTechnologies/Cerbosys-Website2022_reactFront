@@ -14,7 +14,7 @@ import MAINTENANCE from '../../../../assets/innerpage/Softwaredevelopment/MAINTE
 function ServiceProSD() {
   return (
     <div>
-      <div className="bg-white mx-auto w-full py-5 px-16 ">
+      <div className="bg-white mx-auto w-full py-5 px-5 md:px-16 ">
         <div className="max-w-[1240px] mx-auto ">
           {/* Heading */}
           <div className="flex flex-col flex-wrap items-center">
@@ -34,7 +34,7 @@ function ServiceProSD() {
 
           {/* Requirement Analysis Div */}
 
-          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
+          <div className="mx-auto flex flex-col px-5 mt-10">
             <Flip duration={3000}>
               <img
                 src={oneicon}
@@ -43,7 +43,7 @@ function ServiceProSD() {
               />
             </Flip>
           </div>
-          <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
+          <div className="grid md:grid-cols-2 mt-10 gap-1 px-5 justify-center">
             <Bounce left duration={3000}>
               <img
                 src={Analysis}
@@ -72,7 +72,7 @@ function ServiceProSD() {
 
           {/* Creating Blueprint Div */}
 
-          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
+          <div className="mx-auto flex flex-col px-5 mt-10 items-end">
             <Flip duration={3000}>
               {' '}
               <img
@@ -83,7 +83,7 @@ function ServiceProSD() {
             </Flip>
           </div>
 
-          <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
+          <div className="grid md:grid-cols-2 mt-10 gap-24 px-5 justify-center">
             <Bounce left duration={3000}>
               <div className="mx-auto flex flex-col text-justify">
                 <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
@@ -111,7 +111,7 @@ function ServiceProSD() {
 
           {/* Development Div */}
 
-          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
+          <div className="mx-auto flex flex-col px-5 mt-10">
             <Flip duration={3000}>
               <img
                 src={threeicon}
@@ -120,7 +120,7 @@ function ServiceProSD() {
               />
             </Flip>
           </div>
-          <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
+          <div className="grid md:grid-cols-2 mt-10 gap-1 px-5 justify-center">
             <Bounce left duration={3000}>
               <img
                 src={DEVELOPMENT}
@@ -148,7 +148,7 @@ function ServiceProSD() {
 
           {/* Testing And Launching Div */}
 
-          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10 items-end">
+          <div className="mx-auto flex flex-col px-5 mt-10 items-end">
             <Flip duration={3000}>
               {' '}
               <img
@@ -159,7 +159,7 @@ function ServiceProSD() {
             </Flip>
           </div>
 
-          <div className="grid md:grid-cols-2 mt-10 gap-24 md:px-28 px-10 justify-center">
+          <div className="grid md:grid-cols-2 mt-10 gap-24 px-5 justify-center">
             <Bounce left duration={3000}>
               <div className="mx-auto flex flex-col text-justify">
                 <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
@@ -188,7 +188,7 @@ function ServiceProSD() {
 
           {/* Development Div */}
 
-          <div className="mx-auto flex flex-col md:px-28 px-10 mt-10">
+          <div className="mx-auto flex flex-col px-5 mt-10">
             <Flip duration={3000}>
               <img
                 src={fiveicon}
@@ -197,7 +197,8 @@ function ServiceProSD() {
               />
             </Flip>
           </div>
-          <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-10 justify-center">
+          {/* md:px-28 px-10  */}
+          <div className="grid md:grid-cols-2 mt-10 gap-1 px-5 justify-center">
             <Bounce left duration={3000}>
               <img
                 src={MAINTENANCE}
