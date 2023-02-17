@@ -16,7 +16,7 @@ const MobileDesc = () => {
                 <h2 className="font-heading md:text-2xl text-lg mb-5 ">
                   Digital Marketing
                 </h2>
-                <p className="font-content  text-black md:text-lg text-sm   ">
+                <p className="text-sm  md:text-base text-justify  text-black    ">
                   Digital marketing is an umbrella term encompassing several
                   disciplines, including web design and development, social
                   media, search engine optimization (SEO), email marketing,
@@ -62,7 +62,7 @@ const MobileDesc = () => {
                   We are aware of the Technology Pulse that Leads to Better
                   Performance
                 </h2>
-                <p className="font-content md:text-lg text-sm mb-8 text-white">
+                <p className="text-sm  md:text-base text-justify  mb-8 text-white">
                   Our digital marketing program helps businesses to create
                   engaging content for their customers. We are experts in
                   generating SEO content that eventually manages to produce

@@ -24,7 +24,7 @@ function ServiceProSD() {
             <h2 className="font-subheading md:text-xl text-black text-sm mb-5">
               Our software developer process
             </h2>
-            <p className="font-content md:text-lg text-black text-sm text-justify align-baseline md:px-28 px-10">
+            <p className="text-sm  md:text-base text-justify    text-black align-baseline md:px-28 px-10">
               The software development lifecycle (SDLC) is a series of stages
               that companies must go through to create the most optimal software
               for their needs
@@ -56,7 +56,7 @@ function ServiceProSD() {
                 <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                   Analysis
                 </h2>
-                <p className="font-content md:text-lg text-sm col-span-2">
+                <p className="text-sm  md:text-base text-justify  col-span-2">
                   The first stage of the SDLC is analysis, which involves
                   identifying the problem you're trying to solve and determining
                   what your end goal is. This is also known as "Business
@@ -89,7 +89,7 @@ function ServiceProSD() {
                 <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                   DESIGN
                 </h2>
-                <p className="font-content md:text-lg text-sm col-span-2">
+                <p className="text-sm  md:text-base text-justify col-span-2">
                   Once you have your problem, you can move on to design. This
                   stage involves brainstorming ideas with other people or using
                   tools like paper sketches or whiteboards to generate a lot of
@@ -133,7 +133,7 @@ function ServiceProSD() {
                 <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                   Development
                 </h2>
-                <p className="font-content md:text-lg text-sm col-span-2">
+                <p className="text-sm  md:text-base text-justify  col-span-2">
                   Development is where you actually start coding. During this
                   stage, you'll refine your ideas and make sure they work
                   properly before moving on to testing them out in a test
@@ -165,7 +165,7 @@ function ServiceProSD() {
                 <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                   TESTING
                 </h2>
-                <p className="font-content md:text-lg text-sm col-span-2">
+                <p className="text-sm  md:text-base text-justify col-span-2">
                   Testing is where it gets fun. After all the hard work from
                   previous stages has been done, it's time for some serious
                   playtesting with real users so that everything works like it
@@ -211,7 +211,7 @@ function ServiceProSD() {
                 <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                   MAINTENANCE
                 </h2>
-                <p className="font-content md:text-lg text-sm col-span-2">
+                <p className="text-sm  md:text-base text-justify  col-span-2">
                   Website Maintenance is the task of keeping your website up and
                   running. It can be something as simple as checking for errors
                   in the code and fixing them, or it can involve complex

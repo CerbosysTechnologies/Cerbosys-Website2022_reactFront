@@ -5,6 +5,7 @@ import realestateimg from '../../../../assets/innerpage/realestate/realestateimg
 
 import Ecommercesilder from '../Ecommerce/Ecommercesilder';
 import Realsolution from './Realsolution';
+import { Link } from 'react-router-dom';
 
 const RealEstateBody = () => {
   const data = [
@@ -106,9 +107,11 @@ const RealEstateBody = () => {
                       <div className="p-4 md:p-3 lg:p-7">
                         <p className=" pt-4 pl-4 pr-4">{curent.para}</p>
                         <div className="text-center absolute bottom-5 left-0 right-0 ">
-                          <button className="p-3 bg-Primary text-white rounded">
-                            {curent.btn}
-                          </button>
+                          <Link to="/contact-us">
+                            <button className="p-3 bg-Primary text-white rounded">
+                              {curent.btn}
+                            </button>
+                          </Link>
                         </div>
                       </div>
                     </div>

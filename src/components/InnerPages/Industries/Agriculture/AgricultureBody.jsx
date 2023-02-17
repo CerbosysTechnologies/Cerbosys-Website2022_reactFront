@@ -49,41 +49,40 @@ const AgricultureBody = () => {
                 Agriculture
               </h2>
 
-              <p className="font-content  md:w-[33rem] mt-6 text-justify">
+              <p className="font-content  md:w-[33rem] mt-6 text-justify max-w-fit">
                 The agricultural sector has been facing many challenges in
                 recent years, including high costs and low productivity. These
                 are some of the reasons why they need IT solutions.
               </p>
-              <h2 className="  mb-6 text-lg  font-subheading">
+              <h2 className="  mb-6 text-lg  font-subheading max-w-fit">
                 {' '}
                 IT solutions can help them with:
               </h2>
-              <h2 className="  mb-6 text-lg  font-subheading max-w-fit">
-                {' '}
-                -Automation:{' '}
-                <span className="font-content  md:w-[33rem] mt-6 text-justify">
-                  {' '}
+              <ol className="list-disc max-w-fit px-2">
+                <li className="font-content  mt-6 text-justify">
+                  <strong className="  mb-6 text-lg  font-subheading max-w-fit">
+                    {' '}
+                    Automation:{' '}
+                  </strong>
                   The use of computers and technology to increase efficiency,
-                  reduce costs and increase productivity
-                </span>
-              </h2>
-              <h2 className="  mb-6 text-lg  font-subheading max-w-fit">
-                {' '}
-                -Information sharing:
-                <span className="font-content  md:w-[33rem] mt-6 text-justify">
-                  {' '}
+                  reduce costs and increase productivity.
+                </li>
+                <li className="font-content  mt-6 text-justify">
+                  <strong className="  mb-6 text-lg  font-subheading max-w-fit">
+                    Information sharing:
+                  </strong>
                   The use of electronic data interchange (EDI) to share
                   information among all parties involved in an agricultural
-                  transaction
-                </span>
-              </h2>
-              <h2 className="  mb-6 text-lg  font-subheading max-w-fit">
-                -Integration:
-                <span className="font-content  md:w-[33rem] mt-6 text-justify">
+                  transaction.
+                </li>
+                <li className="font-content   mt-6 text-justify">
+                  <strong className="  mb-6 text-lg  font-subheading max-w-fit">
+                    Integration:
+                  </strong>
                   Use of software applications to integrate different systems
-                  into a single system by sharing data between them
-                </span>
-              </h2>
+                  into a single system by sharing data between them.
+                </li>
+              </ol>
             </div>
             {/* Side Image*/}
           </div>

@@ -73,7 +73,7 @@ const Managmentsys = () => {
                     <div className="w-full">
                       <p className=" mt-3 text-lg font-heading ">Easy to use</p>
 
-                      <p className="mt-3 text-justify leading-9 md:mx-4 mx-5  ">
+                      <p className="mt-3 text-justify leading-7 md:mx-4 mx-5  ">
                         A quicker access to the integrated high end hospital
                         solution by making it user-friendly. Ensuring top notch
                         patient care with just a single click and is manageable
@@ -93,7 +93,7 @@ const Managmentsys = () => {
                       />
                     </div>
                     <p className="mt-3 text-lg font-heading ">Customizable</p>
-                    <p className=" mt-3 text-justify leading-9 md:mx-4 mx-5">
+                    <p className=" mt-3 text-justify leading-7 md:mx-4 mx-5">
                       Evolved from the cornerstone of technology, make the most
                       out of our highly flexible solution. Experience the
                       customized usage of our product that makes you deal with
@@ -112,7 +112,7 @@ const Managmentsys = () => {
                       />
                     </div>
                     <p className=" mt-3 text-lg font-heading">Responsive</p>
-                    <p className=" mt-3 text-justify leading-9 md:mx-4 mx-5 ">
+                    <p className=" mt-3 text-justify leading-7 md:mx-4 mx-5 ">
                       Flying up to the expectations of each client and improves
                       the user experience with a responsive layout. Giving you
                       the best view on all devices with no worries of speed and
@@ -131,7 +131,7 @@ const Managmentsys = () => {
                       />
                     </div>
                     <p className="mt-3 text-lg font-heading">Premium</p>
-                    <p className=" mt-3 text-justify leading-9 md:mx-4 mx-5 ">
+                    <p className=" mt-3 text-justify leading-7 md:mx-4 mx-5 ">
                       Try out our tried and tested product with more added
                       features in the premium version. Get the upgraded version
                       today itself and join the automated healthier community.

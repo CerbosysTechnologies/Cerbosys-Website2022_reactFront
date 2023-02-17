@@ -1,7 +1,7 @@
-import React from "react";
-import brandingandpackagingicon from "../../../../assets/innerpage/brandingandpackaging/image.jpg";
-import brandingandpackaging_articon from "../../../../assets/innerpage/brandingandpackaging/illustrator.svg";
-import { Bounce } from "react-reveal";
+import React from 'react';
+import brandingandpackagingicon from '../../../../assets/innerpage/brandingandpackaging/image.jpg';
+import brandingandpackaging_articon from '../../../../assets/innerpage/brandingandpackaging/illustrator.svg';
+import { Bounce } from 'react-reveal';
 const BrandingAndPackagingDesc = () => {
   return (
     <div>
@@ -13,10 +13,10 @@ const BrandingAndPackagingDesc = () => {
               {/* Content Section */}
               <div className="mx-auto flex flex-col  px-5 text-justify">
                 <h2 className="font-heading md:text-2xl text-lg mb-4">
-                  {" "}
-                  Branding And Packaging{" "}
+                  {' '}
+                  Branding And Packaging{' '}
                 </h2>
-                <p className="font-content md:text-lg text-sm">
+                <p className="text-sm  md:text-base text-start">
                   Both branding and packaging are important for getting your
                   product noticed and ensuring that it makes a lasting
                   impression. Used together, they can create a powerful
@@ -63,7 +63,8 @@ const BrandingAndPackagingDesc = () => {
                   We are aware of the Technology Pulse that Leads to Better
                   Performance
                 </h2>
-                <p className="font-content md:text-lg text-sm mb-8 text-white">
+                {/* text-sm  md:text-base text-start text-Lightgrey  */}
+                <p className="text-sm  md:text-base text-start    mb-8 text-white">
                   Our brand and packaging team helps businesses, especially
                   small size businesses to make it stand out from the
                   competition using creativity unique packaging models.

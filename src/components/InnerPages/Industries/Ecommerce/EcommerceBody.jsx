@@ -100,7 +100,7 @@ export const EcommerceBody = () => {
       </div>
       {/* slider Section */}
 
-      <div className="mx-auto w-full h-fit-content md:h-[36rem] bg-EcommersBodybg  py-12  bg-cover md:bg-top bg-center">
+      <div className="mx-auto w-full h-fit-content md:h-[36rem] bg-EcommersBodybg mt-8 py-12  bg-cover md:bg-top bg-center">
         <div className="max-w-[1240px] mx-auto ">
           <div className="px-8 md:px-12">
             <div>

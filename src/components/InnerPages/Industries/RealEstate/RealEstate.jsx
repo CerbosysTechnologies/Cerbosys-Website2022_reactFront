@@ -30,12 +30,12 @@ const RealEstate = () => {
             </h1>
             {/* md:w-[980px] */}
 
-            <p className="text-Skyblue font-heading py-2 md:text-lg text-xs  text-center">
+            <p className="text-Skyblue font-subheading  py-2 md:text-lg text-xs md:w-[980px] max-w-fit">
               Our IT services are the gateway to a new, tech-driven era of real
               estate. Our creative strategies will help realtors get the most
               out of the latest industry trends.
             </p>
-            <p className="text-Skyblue font-heading py-2 md:text-lg text-xs text-center">
+            <p className="text-Skyblue font-subheading  py-2 md:text-lg text-xs md:w-[980px] max-w-fit">
                 Unlock the possibilities of the future by exploring our
               offerings today!
             </p>

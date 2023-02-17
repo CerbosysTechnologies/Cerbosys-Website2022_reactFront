@@ -25,7 +25,7 @@ const LeadGenerationProcess = () => {
             <h2 className="font-subheading md:text-xl text-black text-sm mt-4">
               Our Lead Generation Process
             </h2>
-            <p className="mt-3 font-content md:text-lg text-black text-sm text-justify align-baseline  px-5">
+            <p className="mt-3 text-sm  md:text-base text-justify  text-black  align-baseline  px-5">
               Our lead generation process is segmented into six steps which
               includes: Lead acquisition, marketing & sales qualification,
               customer retention, lead nurturing, sales transfer & conversion.
@@ -56,7 +56,7 @@ const LeadGenerationProcess = () => {
                 {' '}
                 LEAD ACQUISITION
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-justify  col-span-2">
                 Lead acquisition can be a challenge, but it's important to
                 remember that every lead is an opportunity. By using the right
                 methods, we work to increase the chances of acquiring leads and
@@ -91,7 +91,7 @@ const LeadGenerationProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Marketing and Sales Lead Qualification
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-justify  col-span-2">
                 Lead qualification is the process of determining whether a lead
                 is ready to be sold to. This involves assessing factors like
                 budget, authority, need and timeline.
@@ -134,7 +134,7 @@ const LeadGenerationProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Customer Retention
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-justify col-span-2">
                 Customer retention is a process in which we keep our customers
                 interested and engaged over time. In the lead generation
                 process, customer retention is a key metric to track, as it can
@@ -164,7 +164,7 @@ const LeadGenerationProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Lead Nurturing
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-justify  col-span-2">
                 In the lead nurturing process we develop relationships with
                 potential customers by providing valuable information and
                 building a rapport with prospects, businesses can increase the
@@ -206,7 +206,7 @@ const LeadGenerationProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 SALES TRANSFER
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-justify  col-span-2">
                 Through the sales transfer process we transfer ownership of a
                 product or service from one party to another. This is done to
                 accommodate a customer's preference, or to simply make the sale
@@ -239,7 +239,7 @@ const LeadGenerationProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Conversion
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-justify  col-span-2">
                 Conversion is the final process of lead generation which means
                 turning a lead into a customer. This can be done through a
                 variety of means, such as online marketing, cold calling, or

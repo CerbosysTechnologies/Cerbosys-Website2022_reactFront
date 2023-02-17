@@ -61,7 +61,7 @@ const LeadGenerationDesc = () => {
                   We are aware of the Technology Pulse that Leads to Better
                   Performance
                 </h2>
-                <p className="font-content md:text-lg text-sm mb-8 text-white">
+                <p className="text-sm  md:text-base text-justify  mb-8 text-white">
                   Our lead generation team helps businesses, especially small
                   size businesses to convert interest into a sales opportunity.
                   Which eventually nurtures the performance of that business

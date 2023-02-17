@@ -60,7 +60,7 @@ const ManufacturingBody = () => {
                   <h2 className="md:text-3xl uppercase text-xl mt-4 font-heading mb-6">
                     Our Manufacturing Solutions
                   </h2>
-                  <p className="text-Orange font-subheading mt-3 text-justify">
+                  <p className="text-white font-heading mt-3 text-justify">
                     Customer Service Solution
                   </p>
                   <p className="font-content mt-2 text-justify">
@@ -70,7 +70,7 @@ const ManufacturingBody = () => {
                     companies in establishing durable connections with their
                     customers.
                   </p>
-                  <p className="text-Orange font-subheading mt-3 text-justify">
+                  <p className="text-white font-heading mt-4 text-justify">
                     Field Procurement Mobile App
                   </p>
                   <p className="font-content mt-2 text-justify">
@@ -79,7 +79,7 @@ const ManufacturingBody = () => {
                     efficiency of supply chain procedures and team
                     collaboration.
                   </p>
-                  <p className="text-Orange font-subheading mt-3 text-justify">
+                  <p className="text-white font-heading mt-3 text-justify">
                     Website Development
                   </p>
                   <p className="font-content mt-2 text-justify">
@@ -88,7 +88,7 @@ const ManufacturingBody = () => {
                     will develop a custom solution that will be perfect for your
                     business.
                   </p>
-                  <p className="text-Orange font-subheading mt-3 text-justify">
+                  <p className="text-white font-heading mt-3 text-justify">
                     Sales & Marketing
                   </p>
                   <p className="font-content mt-2 text-justify">

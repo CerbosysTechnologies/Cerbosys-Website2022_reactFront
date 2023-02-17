@@ -23,10 +23,10 @@ const BrandAndPackagingProcess = () => {
             <h2 className="font-heading md:text-3xl uppercase text-Primary text-xl">
               Process
             </h2>
-            <h2 className="font-subheading md:text-xl text-black text-sm">
+            <h2 className="font-subheading md:text-xl mt-3 text-black text-sm">
               Our Brand And Packaging Process
             </h2>
-            <p className="font-content md:text-lg text-black text-sm text-justify align-baseline md:px-28 px-10">
+            <p className="text-sm  md:text-base   text-black mt-3  text-justify align-baseline md:px-28 px-10">
               Our brand and packaging process is segmented into six steps which
               includes: Lead acquisition, marketing and sales qualification,
               customer retention, lead nurturing, sales transfer and conversion.
@@ -56,7 +56,7 @@ const BrandAndPackagingProcess = () => {
                 {' '}
                 Brand Research
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-start  col-span-2">
                 A brand research is a process of investigating the relationship
                 between a brand and its customers. It is used to understand how
                 the brand is perceived by its customers, what they think of the
@@ -86,7 +86,7 @@ const BrandAndPackagingProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Brand Strategy
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-start col-span-2">
                 To achieve a series of long-term goals, we implement a long-term
                 plan which involves our brand strategy. Our brand strategy is
                 not just about creating a logo or website. It's about defining
@@ -124,7 +124,7 @@ const BrandAndPackagingProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Brand Identity
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-start col-span-2">
                 Brand identity is how your customers and prospects perceive your
                 company. It's the overall look and feel of your business, and it
                 includes your logo, your color palette, your tagline, your
@@ -153,7 +153,7 @@ const BrandAndPackagingProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Brand Tools
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-start col-span-2">
                 There are many different branding tools available to businesses
                 these days. But one of the most important branding tools is your
                 website. Your website is often the first point of contact
@@ -193,7 +193,7 @@ const BrandAndPackagingProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Brand Launch
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-start  col-span-2">
                 Brand launching is a big undertaking, but it can be an
                 incredibly rewarding experience. Here are a few things we follow
                 to launch your brand: Brand definition, developing strong visual
@@ -221,7 +221,7 @@ const BrandAndPackagingProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Brand Building
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-start col-span-2">
                 Branding is the process of creating a unique identity for a
                 company or product. A strong brand can differentiate a company
                 from its competitors, and can help to build customer loyalty.

@@ -124,11 +124,11 @@ export const TransportBody = () => {
                 return (
                   <>
                     <div className="w-full mx-auto" key={ind}>
-                      <div className="mx-auto">
+                      <div className="mx-auto hover:animate-bouns-hand cursor-pointer">
                         <img
                           src={curent.img}
                           alt="img"
-                          className="md:h-[12rem] mx-auto"
+                          className="md:h-[12rem] mx-auto "
                         />
                       </div>
                       <p className="text-white text-center font-subheading  mt-6">
@@ -205,7 +205,25 @@ export const TransportBody = () => {
                 We are a team of highly skilled professionals with 5+ years of
                 experience in the field of IT.
               </p>
-              <p className="font-content md:w-[33rem]  mt-6 text-justify">
+              <ul className="list-disc">
+                <li className="font-content md:w-[33rem]  mt-6 text-justify">
+                  We have developed a number of software products for the
+                  transport and logistics industry. They are designed to solve
+                  problems that our clients face on a daily basis.
+                </li>
+                <li className="font-content md:w-[33rem]  mt-6 text-justify">
+                  Our products are not just tools for managing operations: they
+                  are also useful as communication channels between people,
+                  which can be especially important in today's business
+                  environment.
+                </li>
+                <li className="font-content md:w-[33rem]  mt-6 text-justify">
+                  Our systems are easy to use and reliable, allowing you to
+                  focus on your business instead of worrying about technical
+                  problems.
+                </li>
+              </ul>
+              {/* <p className="font-content md:w-[33rem]  mt-6 text-justify">
                 - We have developed a number of software products for the
                 transport and logistics industry. They are designed to solve
                 problems that our clients face on a daily basis.
@@ -219,7 +237,7 @@ export const TransportBody = () => {
                 - Our systems are easy to use and reliable, allowing you to
                 focus on your business instead of worrying about technical
                 problems.
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="">

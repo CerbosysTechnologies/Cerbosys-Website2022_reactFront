@@ -265,7 +265,7 @@ const Portfoliotabs = ({ color }) => {
                         <h1 className="text-Purpal border-b-2  border-b-Orange rounded-md mx-auto  p-3 max-w-fit  text-center font-heading  md:text-3xl text-xl md:mb-5 min-w-fit mt-5 md:mt-0">
                           Logo
                         </h1>
-                        <div className="flex justify-between flex-col md:flex-row content-center items-center gap-10 text-black">
+                        <div className="flex justify-between flex-col md:flex-row content-center items-center gap-y-20 text-black">
                           <div className="md:w-[50%] w-[100%]">
                             <img
                               src={tablogo1}
@@ -288,7 +288,7 @@ const Portfoliotabs = ({ color }) => {
                             />
                           </div>
                         </div>
-                        <div className="flex justify-between flex-col md:flex-row content-center items-center gap-10 text-black">
+                        <div className="flex justify-between flex-col md:flex-row content-center items-center gap-y-20 text-black">
                           <div className="md:w-[50%] w-[100%]">
                             <img
                               src={tablogo4}
@@ -311,7 +311,7 @@ const Portfoliotabs = ({ color }) => {
                             />
                           </div>
                         </div>
-                        <div className="flex justify-between flex-col md:flex-row content-center items-center gap-10 text-black">
+                        <div className="flex justify-between flex-col md:flex-row content-center items-center gap-y-20 text-black">
                           <div className="md:w-[50%] w-[100%]">
                             <img
                               src={tablogo7}

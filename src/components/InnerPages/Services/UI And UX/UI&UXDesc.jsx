@@ -11,12 +11,12 @@ const UIAndUXDesc = () => {
           <Bounce duration={3000}>
             <div className="grid md:grid-cols-2">
               {/* Content Section */}
-              <div className="mx-auto flex flex-col md:px-24 px-6 text-justify">
+              <div className="mx-auto flex flex-col md:px-24 px-6 text-justify mt-4 py-3">
                 <h2 className="font-heading md:text-2xl text-lg uppercase">
                   {' '}
                   UI/UX Development{' '}
                 </h2>
-                <p className="font-content md:text-lg text-sm mt-4">
+                <p className="text-sm  md:text-base text-justify  mt-4">
                   Our UI/UX developers make sure that users have a positive
                   experience when using a product, and that they can easily find
                   the information they're looking for. They are able to create
@@ -30,7 +30,7 @@ const UIAndUXDesc = () => {
                 src={uiuximageicon}
                 alt="UI And UX Icon"
                 className="mx-auto md:w-[28rem]
-             w-[18rem] mt-8"
+             w-[18rem] mt-4"
               />
               {/* Image Section Ends*/}
             </div>
@@ -57,7 +57,7 @@ const UIAndUXDesc = () => {
                   We are aware of the Technology Pulse that Leads to Better
                   Performance
                 </h2>
-                <p className="font-content md:text-lg text-sm mb-8 text-white mt-3 ">
+                <p className="text-sm  md:text-base text-justify  mb-8 text-white mt-3 ">
                   Our UI/UX development program helps businesses to create
                   user-friendly interfaces for websites and apps. We are experts
                   in creating interfaces that are easy to navigate and use.

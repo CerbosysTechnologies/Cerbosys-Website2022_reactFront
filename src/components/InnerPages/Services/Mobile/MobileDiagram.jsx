@@ -11,7 +11,7 @@ const MobileDiagram = () => {
             <h2 className="font-heading md:text-3xl uppercase text-Primary text-xl">
               Service
             </h2>
-            <h2 className="font-subheading md:text-xl text-black text-sm">
+            <h2 className="uppercase font-subheading md:text-xl mt-3 text-black text-sm">
               Our Team Utilizes all Technology Platforms to provide you a wide
               range of services.
             </h2>

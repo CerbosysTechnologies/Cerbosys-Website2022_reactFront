@@ -15,13 +15,13 @@ const MobileProcess = () => {
         <div className="max-w-[1240px] mx-auto ">
           {/* Heading */}
           <div className="flex flex-col flex-wrap items-center">
-            <h2 className="font-heading md:text-3xl uppercase text-Primary text-xl">
+            <h2 className="font-heading uppercase md:text-3xl text-Primary text-xl">
               Process
             </h2>
-            <h2 className="font-subheading md:text-xl text-black text-sm mb-5 mt-3">
+            <h2 className="font-subheading uppercase md:text-xl text-black text-sm mb-5 mt-3">
               Our Mobile App Development Process
             </h2>
-            <p className="font-content md:text-lg text-black text-sm text-justify align-baseline md:px-28 px-0">
+            <p className="text-sm  md:text-base text-justify  text-black  align-baseline md:px-28 px-0">
               Highly creative technology platforms are utilized by our team to
               provide you with the best of the best app services.
               <br></br>
@@ -52,7 +52,7 @@ const MobileProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 App Concept
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-justify  col-span-2">
                 The company has developed and deployed several apps for various
                 clients, including Business Tools, Fitness Apps, Educational
                 Apps, and more.
@@ -86,7 +86,7 @@ const MobileProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Understanding the Requirement
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-justify  col-span-2">
                 It’s always crucial to avoid ambiguity and understand the
                 requirements of your business and your users since it is a
                 stepping stone towards a well flourished online business.
@@ -123,7 +123,7 @@ const MobileProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4 mt-3">
                 Agile App Development
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-justify  col-span-2">
                 Using the agile app development program, we always make sure
                 that there is always room for flexibility in the app development
                 for future updates.
@@ -150,7 +150,7 @@ const MobileProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Deployment of Mobile App
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-justify  col-span-2">
                 Mobile app development is a very complex process, and it takes
                 time and effort to develop it. However, passing through all the
                 three stages of complex processes involved in app development,
