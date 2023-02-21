@@ -23,7 +23,7 @@ const LeadGeneration = () => {
           />
         </Helmet>
         {/* <Navbar /> */}
-        <div className="mx-auto w-full md:h-[30rem] h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">
+        <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[30rem] h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
             <h1 className="text-white uppercase font-heading pt-2 md:text-5xl text-2xl md:mb-4 min-w-fit">
@@ -48,10 +48,12 @@ const LeadGeneration = () => {
           </div>
           {/* Content Section Ends*/}
         </div>
-        <Investment />
-        <LeadGenerationDesc />
-        <LeadGenerationProcess />
-        <LeadGenerationForm />
+        <div className="selection:bg-Green selection:text-white">
+          <Investment />
+          <LeadGenerationDesc />
+          <LeadGenerationProcess />
+          <LeadGenerationForm />
+        </div>
         {/* <Footer /> */}
       </>
     </div>

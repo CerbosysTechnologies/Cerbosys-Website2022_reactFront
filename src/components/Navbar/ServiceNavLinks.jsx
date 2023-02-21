@@ -4,6 +4,7 @@ import { TbPlayerTrackNext } from 'react-icons/tb';
 import { AiFillCaretRight } from 'react-icons/ai';
 
 const NavLinks = () => {
+  // const [heading, setHeading] = useState('Services');
   const [heading, setHeading] = useState('Services');
   const [subHeading, setSubHeading] = useState('');
 
@@ -21,6 +22,14 @@ const NavLinks = () => {
       Head: 'Digital Marketing',
     },
   ];
+  // const demofuc = () => {
+  //   heading !== 'Services'
+  //     ? setTimeout(() => {
+  //         setHeading('Services');
+  //       }, 7000)
+  //     : setHeading('');
+  //   setSubHeading('');
+  // };
 
   return (
     <>
@@ -34,9 +43,19 @@ const NavLinks = () => {
             after:ease-in-out after:duration-300
             hover:after:w-[100%]
            "
+              //  (setTimeout(() => setShowModal(true), 1000))
+              // onClick={() => {
+              //   heading !== 'Services'
+              //     ? setHeading('Services')
+              //     : setHeading('');
+              //   setSubHeading('');
+              // }}
+              // onClick={() => demofuc()}
               onClick={() => {
                 heading !== 'Services'
-                  ? setHeading('Services')
+                  ? setTimeout(() => {
+                      setHeading('Services');
+                    }, 10000)
                   : setHeading('');
                 setSubHeading('');
               }}
@@ -260,12 +279,14 @@ const NavLinks = () => {
             </div>
           </div>
         </div>
-
         {/* Mobile menus */}
         <div
+          //   className={`
+          //   ${heading === 'Services' ? 'hidden' : 'md:hidden'}
+          // (setTimeout(() => setShowModal(true), 1000))`}
           className={`
-              ${heading === 'Services' ? 'hidden' : 'md:hidden'}
-            `}
+          ${heading === 'Services' ? 'hidden' : 'md:hidden'}
+        `}
         >
           {/* sublinks */}
 

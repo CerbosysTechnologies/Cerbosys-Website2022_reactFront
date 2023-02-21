@@ -319,7 +319,7 @@ const Teambody = () => {
 
               <p className="font-heading md:text-lg text-sm text-center mt-6">
                 Hello, I am Kanchan Gupta
-                <br></br> Marketing Executive
+                <br></br> Business Development Specialist
                 <br></br>
                 <i className="text-Green">
                   “Lead generation is the future of business generation”
@@ -741,7 +741,7 @@ const Teambody = () => {
               /> */}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
                 Hey, I am Divya Prabhakar
-                <br></br> BED
+                <br></br> Business Development Specialist
                 <br></br>
                 <i className="text-Green">“Press any KEY to continue…”</i>
               </p>

@@ -219,7 +219,7 @@ const BankingBody = () => {
                         <img
                           src={curent.img}
                           alt="img"
-                          className="md:h-[12rem] mx-auto"
+                          className="md:h-[12rem] mx-auto transition ease-in-out hover:-translate-y-5 hover:ease-in-out cursor-pointer"
                         />
                       </div>
                       <p className="text-white text-center font-subheading  mt-6">

@@ -4,7 +4,7 @@ import ClientLogoSlider from './ClientLogoSlider';
 const ClientLogoPage = () => {
   return (
     <div>
-      <div className="bg-[#FAF6F5] mx-auto w-full h-full py-16 px-4  ">
+      <div className="bg-[#FAF6F5] mx-auto w-full h-full py-16 px-4 selection:bg-Green selection:text-white ">
         <div className="max-w-[1240px] mx-auto md:grid md:grid-cols-2">
           {/* Content Part */}
           <div className="flex flex-col text-justify justify-center md:px-16 px-4">
@@ -35,7 +35,7 @@ const ClientLogoPage = () => {
           {/* Content Part */}
 
           {/* Icons Start */}
-          <div className="">
+          <div className="selection:bg-Green selection:text-white">
             <ClientLogoSlider />
           </div>
           {/* Icons Ends */}

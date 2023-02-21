@@ -1,9 +1,9 @@
-import React from "react";
-import mobileservice_technologyicon from "../../../assets/innerpage/mobiledevelopment/mobile_app_services_image.png";
+import React from 'react';
+import mobileservice_technologyicon from '../../../assets/innerpage/mobiledevelopment/mobile_app_services_image.png';
 
 const AllServiceForm = () => {
   return (
-    <div>
+    <div className="selection:bg-Green selection:text-white">
       <div className="bg-Primary mx-auto w-full py-16 px-4 ">
         <div className="max-w-[1240px] mx-auto ">
           <div className="flex flex-col flex-wrap items-center">
@@ -21,7 +21,11 @@ const AllServiceForm = () => {
             <div className="grid md:grid-cols-2  mb-4 md:px-36 py-5  mt-10">
               {/* Image Section */}
               <div className="">
-              <img src={mobileservice_technologyicon} alt="" className="h-full"></img>
+                <img
+                  src={mobileservice_technologyicon}
+                  alt=""
+                  className="h-full"
+                ></img>
               </div>
               {/* Image Section Ends*/}
 
@@ -123,56 +127,121 @@ const AllServiceForm = () => {
 
                   {/* Selection Div */}
                   <div className="relative z-0 mb-3 w-full group">
-                  <select
-                    className="dropdown text-gray-400 font-subheading md:text-lg text-sm flex
+                    <select
+                      className="dropdown text-gray-400 font-subheading md:text-lg text-sm flex
                     border-2 rounded-xl px-2 py-2 border-gray-400
                     
-                    ">
-                    <option value="">Select</option>
-                    <option value="">Web Development</option>
-                    <option value="">Digital Marketing</option>
-                    <option value="">Lead Generation</option>
-                    <option value="">Branding and Packaging</option>
-                    <option value="">Mobile Development</option>
-                    <option value="">UI/UX Development</option>
-                    <option value="">Staff Augmentation</option>                 
-                    
-                  </select>
+                    "
+                    >
+                      <option value="">Select</option>
+                      <option value="">Web Development</option>
+                      <option value="">Digital Marketing</option>
+                      <option value="">Lead Generation</option>
+                      <option value="">Branding and Packaging</option>
+                      <option value="">Mobile Development</option>
+                      <option value="">UI/UX Development</option>
+                      <option value="">Staff Augmentation</option>
+                    </select>
                   </div>
                   {/* Selection Div Ends*/}
 
                   {/*   Hear About Us */}
                   <div className="group">
-                    <label className="flex font-subheading md:text-lg text-md justify-start text-gray-400">How Did You Hear About Us?</label>
+                    <label className="flex font-subheading md:text-lg text-md justify-start text-gray-400">
+                      How Did You Hear About Us?
+                    </label>
                     <div className="flex items-center mb-4">
-                      <input checked id="checkbox-1" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                      <label for="checkbox-Google" className="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300">Google</label>
+                      <input
+                        checked
+                        id="checkbox-1"
+                        type="checkbox"
+                        value=""
+                        className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      />
+                      <label
+                        for="checkbox-Google"
+                        className="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300"
+                      >
+                        Google
+                      </label>
 
+                      <input
+                        checked
+                        id="checkbox-1"
+                        type="checkbox"
+                        value=""
+                        className="ml-4 w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      />
+                      <label
+                        for="checkbox-LinkdIn"
+                        className="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300"
+                      >
+                        LinkedIn
+                      </label>
 
-                      <input checked id="checkbox-1" type="checkbox" value="" className="ml-4 w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                      <label for="checkbox-LinkdIn" className="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300">LinkedIn</label>
-                    
+                      <input
+                        checked
+                        id="checkbox-1"
+                        type="checkbox"
+                        value=""
+                        className="ml-4 w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      />
+                      <label
+                        for="checkbox-Facebook"
+                        className="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300"
+                      >
+                        Facebook
+                      </label>
 
-                    <input checked id="checkbox-1" type="checkbox" value="" className="ml-4 w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                    <label for="checkbox-Facebook" className="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300">Facebook</label>
+                      <input
+                        checked
+                        id="checkbox-1"
+                        type="checkbox"
+                        value=""
+                        className="ml-4 w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      />
+                      <label
+                        for="checkbox-Instagram"
+                        className="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300"
+                      >
+                        Instagram
+                      </label>
+                    </div>
 
-                    <input checked id="checkbox-1" type="checkbox" value="" className="ml-4 w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                    <label for="checkbox-Instagram" className="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300">Instagram</label>
+                    <div className="flex items-center mb-4">
+                      <input
+                        checked
+                        id="checkbox-1"
+                        type="checkbox"
+                        value=""
+                        className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      />
+                      <label
+                        for="checkbox-FriendSuggested"
+                        className="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300"
+                      >
+                        Friend Suggested
+                      </label>
 
-                 </div>
-
-                 <div className="flex items-center mb-4">
-                 <input checked id="checkbox-1" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                    <label for="checkbox-FriendSuggested" className="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300">Friend Suggested</label>
-
-                    <input checked id="checkbox-1" type="checkbox" value="" className="ml-4 w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                    <label for="checkbox-Others" className="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300">Others</label>   
-                 </div>
+                      <input
+                        checked
+                        id="checkbox-1"
+                        type="checkbox"
+                        value=""
+                        className="ml-4 w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      />
+                      <label
+                        for="checkbox-Others"
+                        className="ml-2 text-sm font-subheading text-gray-400 dark:text-gray-300"
+                      >
+                        Others
+                      </label>
+                    </div>
                   </div>
                   {/*   Hear About Us Ends*/}
 
-                   {/* Message Div */}
-                   <div className="relative z-0 mb-6 w-full group">
+                  {/* Message Div */}
+                  <div className="relative z-0 mb-6 w-full group">
                     <input
                       type="tel"
                       name="floating_cn"

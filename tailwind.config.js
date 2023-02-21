@@ -44,9 +44,18 @@ module.exports = {
         //   '0%': { transform: 'rotateY(180deg)' },
         //   '100%': { transform: 'rotateY(360deg)' },
         // },
+
         btns: {
           from: { transform: 'rotate(0deg)' },
           to: { transform: 'rotate(360deg)' },
+        },
+        btnani: {
+          from: { transform: 'rotate(0deg)' },
+          to: { transform: 'rotate(360deg)' },
+        },
+        bttn: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
         },
       },
 
@@ -55,6 +64,8 @@ module.exports = {
         'cyclieing-hand': 'cyclie 1s linear infinite',
         'pulse-hand': 'pulse 3s linear infinite',
         'btns-hand': 'btns 3s linear infinite',
+        'btnani-hand': 'moveInBottom 5s ease-out',
+        'bttn-hand': 'bttn 3s linear infinite',
       },
     },
 

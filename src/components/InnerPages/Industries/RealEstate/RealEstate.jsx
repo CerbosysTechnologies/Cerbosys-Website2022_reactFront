@@ -21,7 +21,7 @@ const RealEstate = () => {
           />
         </Helmet>
         {/* <Navbar /> */}
-        <div className="mx-auto w-full md:h-[36rem] bg-RealEstateHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
+        <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[36rem] bg-RealEstateHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
           {/* Content Section */}
           {/* flex flex-col justify-center text-center items-center md:h-[30rem] h-70 mx-auto */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-70 mx-auto">
@@ -43,8 +43,10 @@ const RealEstate = () => {
           {/* Content Section Ends */}
         </div>
       </>
-      <RealEstateBody />
-      <RealEstateForm />
+      <div className="selection:bg-Green selection:text-white">
+        <RealEstateBody />
+        <RealEstateForm />
+      </div>
       {/* <Footer /> */}
     </div>
   );

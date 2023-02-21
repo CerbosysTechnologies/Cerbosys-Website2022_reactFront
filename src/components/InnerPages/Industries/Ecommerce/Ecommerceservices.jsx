@@ -69,7 +69,7 @@ const Ecommerceservices = () => {
                         <img
                           src={curent.img}
                           alt="img"
-                          className="inline w-32 hover:animate-bouns-hand cursor-pointer"
+                          className="inline w-32 transition ease-in-out hover:-translate-y-5 hover:ease-in-out cursor-pointer"
                         />
                         <p className="text-base   font-semibold mt-3">
                           {curent.title}
@@ -115,7 +115,7 @@ const Ecommerceservices = () => {
                   <div className="">
                     <div className="flex mt-2  pt-3">
                       <div className="hover:animate-bouns-hand cursor-pointer">
-                        <img src={sicon1} alt="img" className="w-14 md:w-20" />
+                        <img src={sicon1} alt="img" className="w-14 md:w-20 " />
                       </div>
                       <div className="self-center ml-2">
                         <p className="text-lg font-heading">
@@ -125,7 +125,11 @@ const Ecommerceservices = () => {
                     </div>
                     <div className="flex mt-2  pt-3">
                       <div className="hover:animate-bouns-hand cursor-pointer">
-                        <img src={sicon3} alt="img" className="w-14 md:w-20" />
+                        <img
+                          src={sicon3}
+                          alt="img"
+                          className="w-14 md:w-20  "
+                        />
                       </div>
                       <div className="self-center ml-2">
                         <p className="text-lg  font-heading">
@@ -137,7 +141,11 @@ const Ecommerceservices = () => {
                   <div className="">
                     <div className="flex mt-2  pt-3">
                       <div className="hover:animate-bouns-hand cursor-pointer">
-                        <img src={sicon4} alt="img" className="w-14 md:w-20" />
+                        <img
+                          src={sicon4}
+                          alt="img"
+                          className="w-14 md:w-20  "
+                        />
                       </div>
                       <div className="self-center ml-2">
                         <p className="md:text-lg   font-heading">
@@ -147,7 +155,11 @@ const Ecommerceservices = () => {
                     </div>
                     <div className="flex mt-2 pt-3">
                       <div className="hover:animate-bouns-hand cursor-pointer">
-                        <img src={sicon2} alt="img" className="w-14 md:w-20" />
+                        <img
+                          src={sicon2}
+                          alt="img"
+                          className="w-14 md:w-20  "
+                        />
                       </div>
                       <div className="self-start ml-2 md:self-center">
                         <p className="text-lg  font-heading">

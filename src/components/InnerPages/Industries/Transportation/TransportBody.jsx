@@ -124,7 +124,7 @@ export const TransportBody = () => {
                 return (
                   <>
                     <div className="w-full mx-auto" key={ind}>
-                      <div className="mx-auto hover:animate-bouns-hand cursor-pointer">
+                      <div className="mx-auto transition ease-in-out hover:-translate-y-5 hover:ease-in-out cursor-pointer">
                         <img
                           src={curent.img}
                           alt="img"
@@ -155,7 +155,7 @@ export const TransportBody = () => {
                 return (
                   <>
                     <div
-                      className="mx-auto  relative border-2 border-Primary rounded md:w-[300px] h-42 py-8 px-6 mt-12"
+                      className="mx-auto  relative border-2 border-Primary rounded md:w-[300px] h-42 py-8 px-6 mt-12 transition ease-in-out hover:-translate-y-5 hover:ease-in-out cursor-pointer"
                       key={ind}
                     >
                       <p className="text-black text-center font-subheading  mt-6">

@@ -82,7 +82,7 @@ function Investment() {
 
   return (
     <div>
-      <div className=" mx-auto w-full py-16 px-4 ">
+      <div className=" mx-auto w-full py-16 px-4 selection:bg-Green selection:text-white">
         <div className="max-w-[1240px] mx-auto ">
           <div className="font-heading text-justify break-all text-2xl px-10 my-5">
             Make today's investment count for tomorrow's success.

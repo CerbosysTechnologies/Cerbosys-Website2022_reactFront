@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
 function PrivacyBody() {
   return (
     <>
-      <div className="max-w-[1240px] mx-auto ">
+      <div className="selection:bg-Green selection:text-white max-w-[1240px] mx-auto selection:bg-Green selection:text-white">
         <div className="sm:m-10 m-10">
           <div className="font-heading md:text-3xl text-xl  mt-10 mb-5  ">
             Privacy Policy for Cerbosys
@@ -50,7 +50,7 @@ function PrivacyBody() {
           </div>
           <div className="font-subheading">
             We use the information we collect in various ways, including to:
-            <ul style={{ listStyle: "outside" }} className="font-subheading">
+            <ul style={{ listStyle: 'outside' }} className="font-subheading">
               <li>Provide, operate, and maintain our website</li>
               <li>Improve, personalize, and expand our website</li>
               <li>Understand and analyze how you use our website</li>
@@ -102,7 +102,7 @@ function PrivacyBody() {
             sent directly to users' browsers. They automatically receive your IP
             address when this occurs. These technologies are used to measure the
             effectiveness of their advertising campaigns and/or to personalize
-            the advertising content that you see on websites that you visit.{" "}
+            the advertising content that you see on websites that you visit.{' '}
             <br />
             Note that www.cerbosys.com has no access to or control over these
             cookies that are used by third-party advertisers.

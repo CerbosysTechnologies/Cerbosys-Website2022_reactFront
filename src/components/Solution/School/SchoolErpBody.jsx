@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
 function SchoolErpBody() {
   return (
     <>
-      <div className="md:w-[1220px] mx-auto">
+      <div className="selection:bg-Green selection:text-white md:w-[1220px] mx-auto">
         <div className="text-justify font-content">
           Vedanta ERP solution which is an education ERP software means that
           anyone who is having education business in india can buy this

@@ -1,11 +1,11 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import SchoolErpBody from "./SchoolErpBody";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import SchoolErpBody from './SchoolErpBody';
 
 function SchoolERP() {
   return (
     <>
-      <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-SchholBgone bg-cover md:bg-top bg-center">
+      <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-SchholBgone bg-cover md:bg-top bg-center">
         {/* Content Section */}
         <div className="flex flex-col justify-center text-center items-center md:h-[35rem] h-96 mx-auto">
           <p className="text-white font-heading py-2 md:text-3xl text-xl mb-10 ">

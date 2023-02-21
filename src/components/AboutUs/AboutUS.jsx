@@ -3,7 +3,7 @@ import AboutUSBody from './AboutUSBody';
 function AboutUS() {
   return (
     <>
-      <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-Aboutus bg-cover md:bg-top bg-center">
+      <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-Aboutus bg-cover md:bg-top bg-center">
         {/* Content Section */}
         <div className="flex flex-col justify-center text-center items-center md:h-[35rem] h-96 mx-auto">
           <h1 className="text-white font-heading py-2 md:text-3xl text-xl mb-10 ">
@@ -25,7 +25,9 @@ function AboutUS() {
         </div>
         {/* Content Section Ends*/}
       </div>
-      <AboutUSBody />
+      <div className="selection:bg-Green selection:text-white">
+        <AboutUSBody />
+      </div>
     </>
   );
 }

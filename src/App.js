@@ -62,8 +62,9 @@ function App() {
   document.addEventListener('contextmenu', handelRightClick);
   return (
     <>
-      <Navbar></Navbar>
-      {/* <Helmet>
+      <div className="selection:bg-Green selection:text-white">
+        <Navbar></Navbar>
+        {/* <Helmet>
         <title>
           Website Design & Mobile App Development Company | Cerbosys
         </title>
@@ -72,77 +73,87 @@ function App() {
           content="Cerbosys Technologies Inc. is one of the leading Website Design and  Mobile App Development company who provides services across the world. Contact us now for growth."
         />
       </Helmet> */}
-      <FreeQuote />
-      <Search />
-      <Routes>
-        <Route exact path="/" element={<Hero />} />
-        {/* Company Navbar start */}
-        <Route path="/overview" element={<Overview />} />
-        <Route
-          path="/training-and-development"
-          element={<TrainingAndDevelopment />}
-        />
-        <Route path="/team" element={<Team />} />
-        <Route path="/life-at-cerbosys" element={<LifeCerbosys />} />
-        <Route path="/diversity-at-cerbosys" element={<Diversity />} />
-        <Route path="/testimonial" element={<Testimonial />} />
-        {/* Company Navbar End */}
-        {/* Service Navbar Start */}
-        <Route path="/web-development" element={<WebDevelopment />} />
-        <Route path="/software-development" element={<Softwaredevelopment />} />
-        <Route path="/digital-marketing" element={<DigitalMarketing />} />
-        <Route path="/lead-generation" element={<LeadGeneration />} />
-        <Route
-          path="/branding-and-packaging"
-          element={<BrandingAndPackaging />}
-        />
-        <Route path="/mobile-app-development" element={<MobileDevelopment />} />
-        <Route path="/ui-ux-designing" element={<UIAndUX />} />
-        {/* Service Navbar End */}
-        {/* StaffAugmentation start */}
-        <Route path="/staff-augmentation" element={<StaffAugmentation />} />
-        <Route path="/hire-react-js-developer" element={<Reactjs />} />{' '}
-        <Route path="/hire-node-js-developer" element={<Nodejs />} />
-        <Route path="/hire-android-developer" element={<Android />} />
-        <Route path="/hire-ios-developer" element={<IOS />} />
-        <Route path="/hire-flutter-developer" element={<Flutter />} />
-        <Route path="/hire-laravel-developer" element={<Laravel />} />
-        <Route path="/hire-codeIgniter-developer" element={<CodeIgniter />} />
-        <Route path="/hire-angular-developer" element={<Angular />} />
-        <Route path="/hire-dotnet-developer" element={<DotNet />} />
-        {/* StaffAugmentation END */}
-        {/* contact-us start */}
-        <Route path="/contact-us" element={<ContactUs />} />
-        {/* contact-us End */}
-        <Route path="/current-opening" element={<CurrentOpening />} />
-        <Route
-          path="/current-opening/:id"
-          element={<CurrentOpningGetbyOne />}
-        />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/singleBlogshow/:id" element={<BlogGetoneBlog />} />
-        {/* Indstri Start */}
-        <Route path="/agriculture" element={<Agriculture />} />
-        <Route path="/ecommerce-development-services" element={<Ecommerce />} />
-        <Route path="/health-care" element={<HealthCare />} />
-        <Route path="/banking-and-finance" element={<Banking />} />
-        <Route path="/mining" element={<Mining />} />
-        <Route path="/transport-and-logistics" element={<Transport />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/real-estate" element={<RealEstate />} />
-        <Route path="/manufacturing" element={<Manufacturing />} />
-        {/* Indstri End */}
-        <Route path="/whitepapers" element={<CaseStudy />} />
-        <Route path="/whitepapers/:id" element={<CaseStudyByOne />} />
-        <Route path="/terms-Conditions" element={<Termconditions />} />
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="/about-us" element={<AboutUS />} />
-        <Route path="/solution" element={<Solution />} />
-        <Route path="/Portfolio" element={<Portfolio />} />
-        <Route path="/solution/schoolerp" element={<SchoolERP />} />
-        <Route path="/solution/E-Commerse" element={<ECommerse />} />
-      </Routes>
-      <Footer />
+        <FreeQuote />
+        <Search />
+        <Routes>
+          <Route exact path="/" element={<Hero />} />
+          {/* Company Navbar start */}
+          <Route path="/overview" element={<Overview />} />
+          <Route
+            path="/training-and-development"
+            element={<TrainingAndDevelopment />}
+          />
+          <Route path="/team" element={<Team />} />
+          <Route path="/life-at-cerbosys" element={<LifeCerbosys />} />
+          <Route path="/diversity-at-cerbosys" element={<Diversity />} />
+          <Route path="/testimonial" element={<Testimonial />} />
+          {/* Company Navbar End */}
+          {/* Service Navbar Start */}
+          <Route path="/web-development" element={<WebDevelopment />} />
+          <Route
+            path="/software-development"
+            element={<Softwaredevelopment />}
+          />
+          <Route path="/digital-marketing" element={<DigitalMarketing />} />
+          <Route path="/lead-generation" element={<LeadGeneration />} />
+          <Route
+            path="/branding-and-packaging"
+            element={<BrandingAndPackaging />}
+          />
+          <Route
+            path="/mobile-app-development"
+            element={<MobileDevelopment />}
+          />
+          <Route path="/ui-ux-designing" element={<UIAndUX />} />
+          {/* Service Navbar End */}
+          {/* StaffAugmentation start */}
+          <Route path="/staff-augmentation" element={<StaffAugmentation />} />
+          <Route path="/hire-react-js-developer" element={<Reactjs />} />{' '}
+          <Route path="/hire-node-js-developer" element={<Nodejs />} />
+          <Route path="/hire-android-developer" element={<Android />} />
+          <Route path="/hire-ios-developer" element={<IOS />} />
+          <Route path="/hire-flutter-developer" element={<Flutter />} />
+          <Route path="/hire-laravel-developer" element={<Laravel />} />
+          <Route path="/hire-codeIgniter-developer" element={<CodeIgniter />} />
+          <Route path="/hire-angular-developer" element={<Angular />} />
+          <Route path="/hire-dotnet-developer" element={<DotNet />} />
+          {/* StaffAugmentation END */}
+          {/* contact-us start */}
+          <Route path="/contact-us" element={<ContactUs />} />
+          {/* contact-us End */}
+          <Route path="/current-opening" element={<CurrentOpening />} />
+          <Route
+            path="/current-opening/:id"
+            element={<CurrentOpningGetbyOne />}
+          />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/singleBlogshow/:id" element={<BlogGetoneBlog />} />
+          {/* Indstri Start */}
+          <Route path="/agriculture" element={<Agriculture />} />
+          <Route
+            path="/ecommerce-development-services"
+            element={<Ecommerce />}
+          />
+          <Route path="/health-care" element={<HealthCare />} />
+          <Route path="/banking-and-finance" element={<Banking />} />
+          <Route path="/mining" element={<Mining />} />
+          <Route path="/transport-and-logistics" element={<Transport />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/real-estate" element={<RealEstate />} />
+          <Route path="/manufacturing" element={<Manufacturing />} />
+          {/* Indstri End */}
+          <Route path="/whitepapers" element={<CaseStudy />} />
+          <Route path="/whitepapers/:id" element={<CaseStudyByOne />} />
+          <Route path="/terms-Conditions" element={<Termconditions />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/about-us" element={<AboutUS />} />
+          <Route path="/solution" element={<Solution />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/solution/schoolerp" element={<SchoolERP />} />
+          <Route path="/solution/E-Commerse" element={<ECommerse />} />
+        </Routes>
+        <Footer />
+      </div>
       <ScrollToTop />
     </>
   );

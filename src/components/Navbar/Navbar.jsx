@@ -7,16 +7,16 @@ import IndustryNavLinks from './IndustryNavLinks';
 // import CompanyNavLinks from './CompanyNavLinks';
 import headerlogo from '../../assets/headerlogo.png';
 import openeyeswhit from '../../assets/openeyeswhit.png';
-
+import opwhitey from '../../assets/opwhitey.png';
 import backcloseeye from '../../assets/backcloseeye.png';
 import blackopey from '../../assets/blackopey.png';
 import blackclosey from '../../assets/blackclosey.png';
 import whiteopeye from '../../assets/innerpage/whiteopeye.png';
-
+import whiclosey from '../../assets/whiclosey.png';
 // import MovingComponent from 'react-moving-text';
 
-const firstimg = <img src={openeyeswhit} alt="img" className="w-full" />;
-const secondimg = <img src={whiteopeye} alt="img" className="w-full" />;
+const firstimg = <img src={opwhitey} alt="img" className="w-full" />;
+const secondimg = <img src={whiclosey} alt="img" className="w-full" />;
 
 const firstclose = <img src={blackopey} alt="img" className="w-full" />;
 const secondclose = <img src={blackclosey} alt="img" className="w-full" />;
@@ -60,6 +60,7 @@ const Navbar = () => {
   const func1 = () => {
     // setText(true);
     // setHover(`${text}`);
+    // alert('depika');
     setOpeneye(openeye.firstimg);
     setCloseeye(closeeye.fistclose);
     setTimeout(() => {
@@ -69,13 +70,17 @@ const Navbar = () => {
     setText(true);
   };
 
+  //
+
+  //
+
   return (
     <>
       <nav
         className={
           !headerVisible
-            ? 'z-[999] bg-transparent fixed m-auto w-full h-[85px] '
-            : 'z-[999] bg-white fixed m-auto w-full  h-[85px]'
+            ? 'z-[999] bg-transparent fixed m-auto w-full h-[80px] '
+            : 'z-[999] bg-white fixed m-auto w-full  h-[80px]'
         }
       >
         <div className="flex items-center font-heading justify-around  h-full">
@@ -93,6 +98,11 @@ const Navbar = () => {
                 <p className="text-white font-bold font-heading text-4xl">
                   {text ? (!headerVisible ? openeye : closeeye) : ''}
                 </p>
+                {/* <p
+                  className={`text-white font-bold font-heading text-4xl ${
+                    hover === text ? (!headerVisible ? openeye : closeeye) : ''
+                  }`}
+                ></p> */}
               </div>
               {/* <div onMouseEnter={() => func1()}>
                 <img

@@ -7,7 +7,7 @@ import Bounce from 'react-reveal/Bounce';
 const ServiceDesc = () => {
   return (
     <div>
-      <div className=" mx-auto w-full py-16 px-4 ">
+      <div className=" mx-auto w-full py-16 px-4 selection:bg-Green selection:text-white">
         <div className="max-w-[1240px] mx-auto ">
           {/* First Section */}
           <Bounce duration={3000}>
@@ -57,7 +57,7 @@ const ServiceDesc = () => {
               <img
                 src={webserviceclip_articon}
                 alt="Web Service Icon"
-                className="w-full"
+                className="w-full p-4"
                 //     className="md:w-[24rem] mx-auto my-8
                 //  w-[18rem] mt-8"
               />
