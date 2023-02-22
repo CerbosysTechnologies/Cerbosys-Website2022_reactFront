@@ -27,7 +27,7 @@ const IndustryNavLinks = () => {
           </h2>
         </div>
 
-        <div className="absolute top-20 left-0 right-0 hidden group-hover:md:block hover:md:block ">
+        <div className="absolute top-[63px] left-0 right-0 hidden group-hover:md:block hover:md:block ">
           <div
             className="bg-Primary flex flex-row items-center justify-center md:h-[400px] text-white pb-2
           "

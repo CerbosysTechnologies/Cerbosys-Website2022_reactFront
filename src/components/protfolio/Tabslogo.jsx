@@ -12,94 +12,90 @@ const Tabslogo = () => {
     <>
       <div>
         <div className="flex  justify-center flex-col md:flex-row content-center items-center gap-6 text-white">
-          <div className="mt-6 w-full">
+          <div className="mt-6 w-full ">
             <h1 className="text-Purpal border-b-2  border-b-Orange rounded-md mx-auto  p-3 max-w-fit  text-center font-heading  md:text-3xl text-xl md:mb-5 min-w-fit mt-5 md:mt-0">
               Logo
             </h1>
-            <div className="flex justify-between flex-col md:flex-row content-center items-center gap-y-20 text-black">
-              <div className="md:w-[50%] w-[100%] my-10">
-                <div className="shadow flex justify-center items-center md:h-[20rem] md:w-[20rem]">
+            <div className="flex mx-auto md:flex-nowrap px-10 flex-wrap justify-center flex-col md:flex-row content-center items-center md:gap-y-20 gap-y-5 gap-x-8 text-black">
+              <div className="  my-10">
+                <div className="shadow mx-auto  flex justify-center items-center w-[220px] h-[200px]">
                   <img
                     src={portlog1}
                     alt="djhfj"
-                    className="object-cover p-3"
+                    className="object-cover p-5 "
                   />
                 </div>
               </div>
-              <div className="md:w-[50%] w-[100%] my-10">
-                <div className="shadow flex justify-center items-center md:h-[20rem] md:w-[20rem]">
+              <div className=" my-10">
+                <div className="shadow mx-auto  flex justify-center items-center w-[220px] h-[200px]">
                   <img
                     src={portlog2}
                     alt="djhfj"
-                    className="object-cover p-3"
+                    className="object-cover w-full p-5"
                   />
                 </div>
               </div>
-              <div className="md:w-[50%] w-[100%] my-10">
-                <div className="shadow flex justify-center items-center md:h-[20rem] md:w-[20rem]">
+              <div className=" my-10">
+                <div className="shadow mx-auto  flex justify-center items-center w-[220px] h-[200px]">
                   <img
                     src={portlog3}
                     alt="djhfj"
-                    className="object-cover p-3"
+                    className="object-cover p-5"
                   />
                 </div>
               </div>
             </div>
-            <div className="flex justify-between flex-col md:flex-row content-center items-center gap-y-20 text-black">
-              <div className="md:w-[50%] w-[100%] my-10">
-                <div className="shadow flex justify-center items-center md:h-[20rem] md:w-[20rem]">
-                  <img
-                    src={portlog4}
-                    alt="djhfj"
-                    className="object-cover p-3"
-                  />
+            <div className="flex justify-center px-10 flex-col md:flex-row content-center items-center md:gap-y-20 gap-y-5 gap-x-8 text-black">
+              <div className=" my-10">
+                <div className="shadow mx-auto  flex justify-center items-center w-[220px] h-[200px]">
+                  <img src={portlog4} alt="djhfj" className="w-full p-5" />
                 </div>
               </div>
-              <div className="md:w-[50%] w-[100%] my-10">
-                <div className="shadow flex justify-center items-center md:h-[20rem] md:w-[20rem]">
+              <div className="my-10">
+                <div className="shadow mx-auto  flex justify-center items-center w-[220px] h-[200px]">
                   <img
                     src={portlog5}
                     alt="djhfj"
-                    className="object-cover p-3"
+                    className="object-cover p-5"
                   />
                 </div>
               </div>
-              <div className="md:w-[50%] w-[100%] my-10">
-                <div className="shadow flex justify-center items-center md:h-[20rem] md:w-[20rem]">
+              <div className=" my-10">
+                <div className="shadow mx-auto  flex justify-center items-center w-[220px] h-[200px]">
                   <img
                     src={portlog6}
                     alt="djhfj"
-                    className="object-cover p-3"
+                    className="object-cover p-5"
                   />
                 </div>
               </div>
             </div>
-            <div className="flex justify-between flex-col md:flex-row content-center items-center gap-y-20 text-black">
-              <div className="md:w-[50%] w-[100%] my-10">
-                <div className="shadow  flex justify-center items-center md:h-[20rem] md:w-[20rem]">
+            <div className="flex px-10 justify-center flex-col md:flex-row content-center items-center md:gap-y-20 gap-y-5 gap-x-8 text-black">
+              <div className=" my-10">
+                <div className="shadow  mx-auto  flex justify-center items-center w-[220px] h-[200px]">
                   <img
                     src={portlog7}
                     alt="djhfj"
-                    className="object-cover p-3"
+                    className="object-fill w-full p-5"
                   />
                   {/* box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px; */}
                 </div>
               </div>
-              <div className="md:w-[50%] w-[100%] my-10">
-                <div className="shadow flex justify-center items-center md:h-[20rem] md:w-[20rem]">
+              <div className="my-10">
+                <div className="shadow mx-auto  flex justify-center items-center w-[220px] h-[200px]">
                   <img
                     src={portlog8}
                     alt="djhfj"
-                    className="object-cover p-3"
+                    className="object-cover p-5"
                   />
                 </div>
               </div>
-              <div className="md:w-[50%] w-[100%] my-10">
-                <div className="shadow flex justify-center items-center md:h-[20rem] md:w-[20rem]">
+              <div className=" my-10">
+                <div className="shadow mx-auto  flex justify-center items-center w-[220px] h-[200px]">
                   <img
                     src={portlog8}
                     alt="djhfj"
-                    className="object-cover p-3"
+                    className="object-cover p-5"
                   />
                 </div>
               </div>

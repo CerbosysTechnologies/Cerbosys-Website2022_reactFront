@@ -1,7 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
-
+  // darekmood start
+  // darkMode: 'class',
+  // darekmood snd
   corePlugins: {
     userSelect: false,
   },

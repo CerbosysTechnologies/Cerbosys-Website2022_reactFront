@@ -7,8 +7,35 @@ import postimg5 from '../../assets/portfolio/postimg5.png';
 import postimg6 from '../../assets/portfolio/postimg6.png';
 import postimg7 from '../../assets/portfolio/postimg7.png';
 import real from '../../assets/portfolio/real.mp4';
+import InfiniteScroll from 'react-infinite-scroll-component';
 
 const Tabspost = () => {
+  const data = [
+    {
+      img: postimg1,
+    },
+    {
+      img1: Sarthipost2,
+    },
+    {
+      img2: postimg1,
+    },
+    {
+      img: postimg1,
+    },
+    {
+      img1: postimg3,
+    },
+    {
+      img2: postimg4,
+    },
+    {
+      img: postimg1,
+    },
+    {
+      img2: real,
+    },
+  ];
   return (
     <>
       <div>
@@ -18,81 +45,294 @@ const Tabspost = () => {
           </h1>
         </div>
 
-        {/* w-[72%]  */}
-        <div className="grid grid-cols-3 col-w-[33%] gap-10">
-          <div className="">
-            <img
-              src={postimg7}
-              alt="fgh"
-              className="w-full rounded-lg h-full object-cover"
-            />
+        <section className="overflow-hidden text-neutral-700">
+          <div className="container mx-auto px-0 md:px-5 py-2 lg:px-20 lg:pt-12">
+            <div className="-m-1 flex flex-wrap md:-m-2">
+              <div className="flex w-1/2 flex-wrap">
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill  object-center hover:opacity-2"
+                    src={Sarthipost2}
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src={postimg1}
+                  />
+                </div>
+                <div className="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src={postimg3}
+                  />
+                </div>
+              </div>
+              <div className="flex w-1/2 flex-wrap">
+                <div className="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src={postimg5}
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl   object-fill object-center"
+                    src={postimg4}
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <video
+                    className=" rounded-2xl "
+                    src={real}
+                    controls
+                    autoPlay
+                  ></video>
+                </div>
+              </div>
+              <div className="flex w-1/2 flex-wrap">
+                <div className="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-cover object-center"
+                    src={postimg1}
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src={Sarthipost2}
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <video
+                    className="rounded-2xl"
+                    src={real}
+                    controls
+                    autoPlay
+                  ></video>
+                </div>
+              </div>
+              <div className="flex w-1/2 flex-wrap">
+                <div className="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full rounded-2xl object-cover object-center"
+                    src={postimg7}
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-cover object-center"
+                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <video
+                    className=" rounded-2xl "
+                    src={real}
+                    controls
+                    autoPlay
+                  ></video>
+                </div>
+              </div>
+              <div className="flex w-1/2 flex-wrap">
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-cover object-center"
+                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"
+                  />
+                </div>
+                <div className="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  />
+                </div>
+              </div>
+              <div className="flex w-1/2 flex-wrap">
+                <div className="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <video
+                    className=" rounded-2xl "
+                    src={real}
+                    controls
+                    autoPlay
+                  ></video>
+                </div>
+              </div>
+              <div className="flex w-1/2 flex-wrap">
+                <div className="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-cover object-center"
+                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-cover object-center"
+                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <video
+                    className=" rounded-2xl "
+                    src={real}
+                    controls
+                    autoPlay
+                  ></video>
+                </div>
+              </div>
+              <div className="flex w-1/2 flex-wrap">
+                <div className="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full rounded-2xl  object-cover object-center"
+                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src={postimg7}
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <video
+                    className=" rounded-2xl "
+                    src={real}
+                    controls
+                    autoPlay
+                  ></video>
+                </div>
+              </div>
+              <div className="flex w-1/2 flex-wrap">
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full rounded-2xl   object-fill object-center"
+                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"
+                  />
+                </div>
+                <div className="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  />
+                </div>
+              </div>
+              <div className="flex w-1/2 flex-wrap">
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill  object-center"
+                    src={Sarthipost2}
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src={postimg1}
+                  />
+                </div>
+                <div className="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src={postimg3}
+                  />
+                </div>
+              </div>
+              <div className="flex w-1/2 flex-wrap">
+                <div className="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src={postimg5}
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl   object-fill object-center"
+                    src={postimg4}
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl   object-fill object-center"
+                    src={postimg1}
+                  />
+                </div>
+              </div>
+              <div className="flex w-1/2 flex-wrap">
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src={postimg5}
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl   object-fill object-center"
+                    src={postimg4}
+                  />
+                </div>
+                <div className="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl   object-fill object-center"
+                    src={postimg7}
+                  />
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="">
-            <img
-              src={postimg7}
-              alt="fgh"
-              className="w-full rounded-lg h-full object-cover"
-            />
-          </div>
-          <div className="">
-            <img
-              src={postimg7}
-              alt="fgh"
-              className="w-full rounded-lg h-full object-cover"
-            />
-          </div>
-          <div className="">
-            <img
-              src={postimg7}
-              alt="fgh"
-              className="w-full rounded-lg object-cover"
-            />
-          </div>
-
-          <div className="">
-            <video className="rounded-lg" src={real} controls autoPlay></video>
-          </div>
-          <div className="">
-            <video className="rounded-lg" src={real} controls autoPlay></video>
-          </div>
-          <div className="">
-            <video className="rounded-lg" src={real} controls autoPlay></video>
-          </div>
-
-          {/* <div className="min-h-fit inline relative">
-            <video className="rounded-lg" src={real} controls autoPlay></video>
-          </div>
-          <div className="min-h-fit inline relative">
-            <img src={postimg7} alt="fgh" className="w-full rounded-lg" />
-          </div>
-          <div className="min-h-fit inline relative">
-            <img src={postimg7} alt="fgh" className="w-full rounded-lg" />
-          </div>
-          <div className="min-h-fit inline relative">
-            <img src={postimg7} alt="fgh" className="w-full rounded-lg" />
-          </div>
-          <div className="min-h-fit inline relative">
-            <img src={postimg7} alt="fgh" className="w-full rounded-lg" />
-          </div>
-          <div className="min-h-fit inline relative">
-            <img src={postimg7} alt="fgh" className="w-full rounded-lg" />
-          </div>
-          <div className="min-h-fit">
-            <video className="rounded-lg" src={real} controls autoPlay></video>
-          </div>
-          <div className="min-h-fit inline relative">
-            <img src={postimg7} alt="fgh" className="w-full rounded-lg" />
-          </div>
-          <div className="min-h-fit inline relative">
-            <img src={postimg7} alt="fgh" className="w-full rounded-lg" />
-          </div>
-          <div className="min-h-fit inline relative">
-            <img src={postimg7} alt="fgh" className="w-full rounded-lg" />
-          </div>
-          <div className="min-h-fit inline relative">
-            <video className="rounded-lg" src={real} controls autoPlay></video>
-          </div> */}
-        </div>
+        </section>
       </div>
     </>
   );

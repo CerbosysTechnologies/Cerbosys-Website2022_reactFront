@@ -39,7 +39,7 @@ const NavLinks = () => {
           <div className="relative">
             <h2
               className="py-2 flex justify-between items-center md:pr-0 pr-5 group
-            after:content-[''] after:absolute after:bg-orange-600 after:h-[3px] after:w-[0%] after:left-0 after:bottom-[-3px]
+            after:content-[''] after:absolute after:bg-orange-600 after:h-[3px] after:w-[0%] after:left-0 after:bottom-[-2px]
             after:ease-in-out after:duration-300
             hover:after:w-[100%]
            "
@@ -70,7 +70,7 @@ const NavLinks = () => {
           </div>
           <div>
             <div
-              className="absolute top-20
+              className="absolute top-[63px]
              left-0 right-0 hidden group-hover:md:block hover:md:block "
             >
               <div className="bg-Primary flex flex-row items-center justify-center md:h-[380px] text-white pb-5">
