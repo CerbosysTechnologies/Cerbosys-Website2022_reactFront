@@ -27,7 +27,6 @@ function Blog() {
         </div>
         {/* Content Section Ends*/}
       </div>
-
       <Blogsbody />
     </>
   );
