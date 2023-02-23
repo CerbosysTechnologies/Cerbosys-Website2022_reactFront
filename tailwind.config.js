@@ -31,20 +31,41 @@ module.exports = {
         wave: {
           '0%': { transform: 'translateX(-35px)' },
           '100%': { transform: 'translateX(40px)' },
-          // '0%': { transform: 'rotate(0.0deg)' },
-          // '10%': { transform: 'rotate(14deg)' },
-          // '20%': { transform: 'rotate(-8deg)' },
-          // '30%': { transform: 'rotate(14deg)' },
-          // '40%': { transform: 'rotate(-4deg)' },
-          // '50%': { transform: 'rotate(10.0deg)' },
-          // '60%': { transform: 'rotate(0.0deg)' },
-          // '100%': { transform: 'rotate(0.0deg)' },
-          // '0%': { transform: 'rotate(0.0deg)' },
-          // '100%': { transform: 'rotate(0.0deg)' },
+        },
+        cyclie: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+        pulse: {
+          from: { transform: 'rotate(0deg)' },
+          to: { transform: 'rotate(360deg)' },
+        },
+        // bouns: {
+        //   '0%': { transform: 'rotateY(180deg)' },
+        //   '100%': { transform: 'rotateY(360deg)' },
+        // },
+
+        btns: {
+          from: { transform: 'rotate(0deg)' },
+          to: { transform: 'rotate(360deg)' },
+        },
+        btnani: {
+          from: { transform: 'rotate(0deg)' },
+          to: { transform: 'rotate(360deg)' },
+        },
+        bttn: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
         },
       },
+
       animation: {
-        'waving-hand': 'wave 2s linear infinite',
+        'waving-hand': 'wave 3s linear infinite',
+        'cyclieing-hand': 'cyclie 1s linear infinite',
+        'pulse-hand': 'pulse 3s linear infinite',
+        'btns-hand': 'btns 3s linear infinite',
+        'btnani-hand': 'moveInBottom 5s ease-out',
+        'bttn-hand': 'bttn 3s linear infinite',
       },
     },
 

@@ -26,7 +26,7 @@ const Footer = () => {
   };
   // animation end
   return (
-    <div>
+    <div className="selection:bg-Green selection:text-white">
       {/* py-4 px-20 */}
       <div className="bg-FooterBackground w-full h-full mx-auto px-5 py-2  md:px-20 md:py-4">
         <div className="max-w-[1240px] mx-auto">
@@ -144,7 +144,7 @@ const Footer = () => {
                   </li>
                   <li className="">
                     <Link to="/training-and-development">
-                      Traing and development
+                      Training and development
                     </Link>
                   </li>
                   {/* <li className="">Services</li>
@@ -249,7 +249,7 @@ const Footer = () => {
                   </li>
                   <li className="flex">
                     <Link
-                      to="/education "
+                      to="/education"
                       // className="inline-flex  transition duration-150 all-in-out"
                     >
                       Education

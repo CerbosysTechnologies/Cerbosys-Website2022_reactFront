@@ -1,24 +1,37 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import cerbosyswhite from '../../assets/cerbosysNewSvgWhite.svg';
-import cerbosysblack from '../../assets/cerbosysNewSvg.svg';
-import logoheader from '../../assets/logoheader.png';
-import logotext from '../../assets/logotext.png';
+
 import callicon from '../../assets/call_icon.svg';
 import NavLinks from './ServiceNavLinks';
 import IndustryNavLinks from './IndustryNavLinks';
-import CompanyNavLinks from './CompanyNavLinks';
+// import CompanyNavLinks from './CompanyNavLinks';
 import headerlogo from '../../assets/headerlogo.png';
-import whiteopeneyess from '../../assets/whiteopeneyess.png';
+import openeyeswhit from '../../assets/openeyeswhit.png';
+import opwhitey from '../../assets/opwhitey.png';
+import backcloseeye from '../../assets/backcloseeye.png';
+import blackopey from '../../assets/blackopey.png';
+import blackclosey from '../../assets/blackclosey.png';
+import whiteopeye from '../../assets/innerpage/whiteopeye.png';
+import whiclosey from '../../assets/whiclosey.png';
+// import MovingComponent from 'react-moving-text';
 
-import closeye from '../../assets/closeye.png';
+const firstimg = <img src={opwhitey} alt="img" className="w-full" />;
+const secondimg = <img src={whiclosey} alt="img" className="w-full" />;
 
-import MovingComponent from 'react-moving-text';
-
+const firstclose = <img src={blackopey} alt="img" className="w-full" />;
+const secondclose = <img src={blackclosey} alt="img" className="w-full" />;
 const Navbar = () => {
-  const [text, settext] = useState(false);
-  const [openeye, setOpeneye] = useState(false);
-  const [closeeye, setCloseeye] = useState(false);
+  const [text, setText] = useState(false);
+  const [hover, setHover] = useState('');
+  const [openeye, setOpeneye] = useState({
+    firstimg: firstimg,
+    secondimg: secondimg,
+  });
+  const [closeeye, setCloseeye] = useState({
+    fistclose: firstclose,
+    secondclose: secondclose,
+  });
+
   const [search, setSearch] = useState('');
   console.log(search);
   // -------start ----
@@ -42,65 +55,68 @@ const Navbar = () => {
       );
     }
   }, []);
-
+  //   setOpeneye(openeye.secondimg);
+  // setCloseeye(closeeye.secondclose);
   const func1 = () => {
-    settext(true);
-    setCloseeye(true);
-
+    // setText(true);
+    // setHover(`${text}`);
+    // alert('depika');
+    setOpeneye(openeye.firstimg);
+    setCloseeye(closeeye.fistclose);
     setTimeout(() => {
-      // setOpeneye(<img src={whiteopeneyess} alt="img" />);
-      // alert('hello');
-    }, 500);
+      setOpeneye(openeye.secondimg);
+      setCloseeye(closeeye.secondclose);
+    }, 700);
+    setText(true);
   };
+
+  //
+
+  //
 
   return (
     <>
       <nav
         className={
           !headerVisible
-            ? 'z-[999] bg-transparent fixed m-auto w-full'
-            : 'z-[999] bg-white fixed m-auto w-full'
+            ? 'z-[999] bg-transparent fixed m-auto w-full h-[80px] '
+            : 'z-[999] bg-white fixed m-auto w-full  h-[80px]'
         }
       >
-        <div className="flex items-center font-heading justify-around">
+        <div className="flex items-center font-heading justify-around  h-full">
           {/* Logo Div */}
-          <div className="z-10 px-2 md:w-auto w-full flex justify-between">
+          <div className="z-10 px-2 md:w-auto w-full flex justify-between items-center">
             <Link to="/">
-              <img
-                src={headerlogo}
-                // src={!headerVisible ? cerbosyswhite : cerbosysblack}
-                alt="logo"
-                className="w-[50px]"
-                // className="md:cursor-pointer md:w-[65px]  md:h-20 md:mt-0 mt-5 w-[55px] "
-                // className={
-                //   !headerVisible
-                //     ? 'md:cursor-pointer md:w-[65px]  md:h-20 md:mt-0 mt-5 w-[55px] text-white'
-                //     : 'text-black'
-                // }
-                onMouseEnter={() => func1()}
-              />
               <div>
+                <img
+                  src={headerlogo}
+                  alt="logo"
+                  className="w-[50px] mx-auto"
+                  onMouseEnter={() => func1()}
+                />
+
                 <p className="text-white font-bold font-heading text-4xl">
-                  {text ? (
-                    !headerVisible ? (
-                      <img src={whiteopeneyess} alt="img" />
-                    ) : (
-                      <img src={closeye} alt="img" />
-                    )
-                  ) : (
-                    ''
-                  )}
-                  {/* {text
-                    ? !headerVisible ?
-                   ( <img src={blackopeneyess} alt="img" />
-                      // : closeeye
-                    :  <img src={whiteopeneyess} alt="img" />)
-                    :""
-                      } */}
+                  {text ? (!headerVisible ? openeye : closeeye) : ''}
                 </p>
+                {/* <p
+                  className={`text-white font-bold font-heading text-4xl ${
+                    hover === text ? (!headerVisible ? openeye : closeeye) : ''
+                  }`}
+                ></p> */}
               </div>
+              {/* <div onMouseEnter={() => func1()}>
+                <img
+                  src={headerlogo}
+                  alt="logo"
+                  className="w-[50px] mx-auto "
+                />
+
+                <p
+                  className={`hover === ${text} ? (!headerVisible ? ${openeye} : ${closeeye}) : ''`}
+                ></p>
+              </div> */}
             </Link>
-            {/* Test Code */}
+
             <div
               className={`text-5xl md:hidden m-5 ${
                 !headerVisible ? 'text-white' : 'text-black'
@@ -130,12 +146,26 @@ const Navbar = () => {
             </Link>
           </li> */}
             <NavLinks></NavLinks>
-            <li>
-              <Link to="/solution">Solution </Link>
+            <li className="px-3 animate-lines-hover relative">
+              <Link
+                to="/solution"
+                className=" after:content-[''] after:absolute after:bg-orange-600 after:h-[3px] after:w-[0%] after:left-0 after:bottom-[-6px]
+                after:ease-in-out after:duration-300
+                hover:after:w-[100%]"
+              >
+                Solution{' '}
+              </Link>
             </li>
             <IndustryNavLinks></IndustryNavLinks>
-            <li>
-              <Link to="/Portfolio">Portfolio</Link>
+            <li className="px-3 relative">
+              <Link
+                to="/Portfolio"
+                className=" after:content-[''] after:absolute after:bg-orange-600 after:h-[3px] after:w-[0%] after:left-0 after:bottom-[-6px]
+                after:ease-in-out after:duration-300
+                hover:after:w-[100%]"
+              >
+                Portfolio
+              </Link>
             </li>
             {/* <li>
             <Link to="/" className="py-5 px-1 inline-block">
@@ -148,16 +178,36 @@ const Navbar = () => {
             </Link>
           </li> */}
 
-            <li>
-              <Link to="/current-opening">Career</Link>
+            <li className="px-3 relative">
+              <Link
+                to="/current-opening"
+                className=" after:content-[''] after:absolute after:bg-orange-600 after:h-[3px] after:w-[0%] after:left-0 after:bottom-[-6px]
+               after:ease-in-out after:duration-300
+               hover:after:w-[100%]"
+              >
+                Career
+              </Link>
             </li>
 
-            <li>
-              <Link to="/blog">Blog</Link>
+            <li className="px-3 relative">
+              <Link
+                to="/blog"
+                className=" after:content-[''] after:absolute after:bg-orange-600 after:h-[3px] after:w-[0%] after:left-0 after:bottom-[-6px]
+               after:ease-in-out after:duration-300
+               hover:after:w-[100%]"
+              >
+                Blog
+              </Link>
             </li>
 
-            <li>
-              <Link to="/contact-us" className="py-5 px-1 inline-block">
+            <li className="px-3 relative">
+              <Link
+                to="/contact-us"
+                className=" px-1 inline-block
+               after:content-[''] after:absolute after:bg-orange-600 after:h-[3px] after:w-[0%] after:left-0 after:bottom-[-6px]
+               after:ease-in-out after:duration-300
+               hover:after:w-[100%]"
+              >
                 Contact Us
               </Link>
             </li>

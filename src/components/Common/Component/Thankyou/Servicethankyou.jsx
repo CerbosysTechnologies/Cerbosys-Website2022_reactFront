@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 function Servicethankyou() {
   return (
-    <div>
+    <div className="selection:bg-Green selection:text-white">
       <div
         className="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden"
         id="ServiceThankyou"
@@ -30,7 +30,7 @@ function Servicethankyou() {
                   className="flex flex-col items-center p-4 space-y-2 bg-white rounded-lg  "
                   style={{
                     background:
-                      "linear-gradient(180deg, rgba(156,195,255,1) 30%, rgba(138,255,116,1) 100%)",
+                      'linear-gradient(180deg, rgba(156,195,255,1) 30%, rgba(138,255,116,1) 100%)',
                   }}
                 >
                   <svg
@@ -83,7 +83,7 @@ function Servicethankyou() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Servicethankyou
+export default Servicethankyou;

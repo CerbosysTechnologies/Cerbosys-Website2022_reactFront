@@ -18,7 +18,7 @@ function ServiceDescSD() {
                   <h2 className="font-heading md:text-2xl text-xl mb-5">
                     Software Development
                   </h2>
-                  <p className="text-black  py-2 mb-8 font-content md:text-lg text-sm">
+                  <p className="text-black  text-sm  md:text-base text-start py-2 mb-8 font-content ">
                     Software development is a complex and ever-evolving field
                     that requires specialized skills, experience, and
                     dedication. If you need a software developer for your
@@ -70,7 +70,7 @@ function ServiceDescSD() {
                     We are aware of the Software Development Technology Pulse
                     that Leads to Better Performance
                   </h2>
-                  <p className="font-content md:text-lg text-sm mb-8 text-white">
+                  <p className="text-sm  md:text-base text-start  mb-8 text-white">
                     Software development technology is the backbone of any
                     company. It provides the foundation for all business
                     operations, and without it, there would be nothing to run

@@ -40,7 +40,7 @@ const Ecommercesilder = () => {
     ],
   };
   return (
-    <div className="mt-3">
+    <div className="mt-8">
       {/* h-52 md:h-90 */}
       <Slider {...settings}>
         <div className="h-96 md:h-90 px-8">

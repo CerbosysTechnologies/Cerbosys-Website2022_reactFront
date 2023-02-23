@@ -143,7 +143,7 @@ const BankingBody = () => {
           <div className="max-w-[1240px] mx-auto">
             {/* Image Section */}
             <div className="w-full mt-4">
-              <h1 className="text-Secondary font-heading  md:text-3xl text-xl md:mb-5 min-w-fit mt-5 md:mt-0">
+              <h1 className="text-Secondary uppercase font-heading  md:text-3xl text-xl md:mb-5 min-w-fit mt-5 md:mt-0">
                 Need of technology
                 <span className="text-black"> in Banking & Finance sector</span>
               </h1>
@@ -215,11 +215,11 @@ const BankingBody = () => {
                 return (
                   <>
                     <div className="w-full mx-auto" key={ind}>
-                      <div className="mx-auto">
+                      <div className="mx-auto hover:animate-bouns-hand cursor-pointer">
                         <img
                           src={curent.img}
                           alt="img"
-                          className="md:h-[12rem] mx-auto"
+                          className="md:h-[12rem] mx-auto transition ease-in-out hover:-translate-y-5 hover:ease-in-out cursor-pointer"
                         />
                       </div>
                       <p className="text-white text-center font-subheading  mt-6">

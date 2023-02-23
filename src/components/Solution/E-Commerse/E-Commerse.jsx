@@ -1,11 +1,11 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import ECommersebody from "./ECommersebody";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import ECommersebody from './ECommersebody';
 
 function ECommerse() {
   return (
     <>
-      <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-Ecomers bg-cover md:bg-top bg-center">
+      <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-Ecomers bg-cover md:bg-top bg-center">
         {/* Content Section */}
         <div className="flex flex-col justify-center text-center items-center md:h-[35rem] h-96 mx-auto">
           <p className="text-white font-heading py-2 md:text-3xl text-xl mb-10 ">

@@ -17,7 +17,7 @@ const Portfolio = () => {
           content="We work tirelessly to help you meet both banking compliance requirements and business goals. Leverage the power of PPC, SEO, Social, content & more."
         />
       </Helmet>
-      <div>
+      <div className="">
         <Portfoliobody />
       </div>
     </>

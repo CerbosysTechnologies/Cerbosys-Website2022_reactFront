@@ -4,6 +4,7 @@ import { TbPlayerTrackNext } from 'react-icons/tb';
 import { AiFillCaretRight } from 'react-icons/ai';
 
 const NavLinks = () => {
+  // const [heading, setHeading] = useState('Services');
   const [heading, setHeading] = useState('Services');
   const [subHeading, setSubHeading] = useState('');
 
@@ -21,32 +22,59 @@ const NavLinks = () => {
       Head: 'Digital Marketing',
     },
   ];
+  // const demofuc = () => {
+  //   heading !== 'Services'
+  //     ? setTimeout(() => {
+  //         setHeading('Services');
+  //       }, 7000)
+  //     : setHeading('');
+  //   setSubHeading('');
+  // };
 
   return (
     <>
       <div>
+        {/* md:py-4 sm:py-3 md:h-32*/}
         <div className="px-3 text-left md:cursor-pointer group">
-          <h2
-            className="md:py-4 sm:py-3 flex justify-between items-center md:pr-0 pr-5 group md:h-32"
-            onClick={() => {
-              heading !== 'Services' ? setHeading('Services') : setHeading('');
-              setSubHeading('');
-            }}
-          >
-            {'Services'}
-            {/* <span className="text-xl md:hidden inline">
+          <div className="relative">
+            <h2
+              className="py-2 flex justify-between items-center md:pr-0 pr-5 group
+            after:content-[''] after:absolute after:bg-orange-600 after:h-[3px] after:w-[0%] after:left-0 after:bottom-[-3px]
+            after:ease-in-out after:duration-300
+            hover:after:w-[100%]
+           "
+              //  (setTimeout(() => setShowModal(true), 1000))
+              // onClick={() => {
+              //   heading !== 'Services'
+              //     ? setHeading('Services')
+              //     : setHeading('');
+              //   setSubHeading('');
+              // }}
+              // onClick={() => demofuc()}
+              onClick={() => {
+                heading !== 'Services'
+                  ? setTimeout(() => {
+                      setHeading('Services');
+                    }, 10000)
+                  : setHeading('');
+                setSubHeading('');
+              }}
+            >
+              {'Services'}
+              {/* <span className="text-xl md:hidden inline">
               <ion-icon
                 name={`${heading === "Services" ? "toggle-up" : "toggle-down"}`}
               ></ion-icon>
             </span> */}
-          </h2>
+            </h2>
+          </div>
           <div>
             <div
-              className="absolute top-32
+              className="absolute top-20
              left-0 right-0 hidden group-hover:md:block hover:md:block "
             >
               <div className="bg-Primary flex flex-row items-center justify-center md:h-[380px] text-white pb-5">
-                {/* First Row */}
+                {/* First Row top-32*/}
                 <div className="flex flex-wrap flex-col  border-r-2  py-4 px-10 ">
                   <div className="mt-4">
                     <h2 className="font-subheading md:text-sm text-xs">
@@ -251,12 +279,14 @@ const NavLinks = () => {
             </div>
           </div>
         </div>
-
         {/* Mobile menus */}
         <div
+          //   className={`
+          //   ${heading === 'Services' ? 'hidden' : 'md:hidden'}
+          // (setTimeout(() => setShowModal(true), 1000))`}
           className={`
-              ${heading === 'Services' ? 'hidden' : 'md:hidden'}
-            `}
+          ${heading === 'Services' ? 'hidden' : 'md:hidden'}
+        `}
         >
           {/* sublinks */}
 

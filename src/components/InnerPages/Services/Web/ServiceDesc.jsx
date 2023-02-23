@@ -7,7 +7,7 @@ import Bounce from 'react-reveal/Bounce';
 const ServiceDesc = () => {
   return (
     <div>
-      <div className=" mx-auto w-full py-16 px-4 ">
+      <div className=" mx-auto w-full py-16 px-4 selection:bg-Green selection:text-white">
         <div className="max-w-[1240px] mx-auto ">
           {/* First Section */}
           <Bounce duration={3000}>
@@ -19,7 +19,7 @@ const ServiceDesc = () => {
                   Web Development Services
                 </h2>
 
-                <p className=" font-subheading  md:text-lg text-xs  mt-3">
+                <p className=" text-sm  md:text-base text-start   mt-3">
                   Web development is the process of designing and coding a
                   website, web applications, or other computer programs that are
                   accessible on the internet. Website design & development
@@ -57,7 +57,7 @@ const ServiceDesc = () => {
               <img
                 src={webserviceclip_articon}
                 alt="Web Service Icon"
-                className="w-full"
+                className="w-full p-4"
                 //     className="md:w-[24rem] mx-auto my-8
                 //  w-[18rem] mt-8"
               />
@@ -70,7 +70,7 @@ const ServiceDesc = () => {
                 <h2 className="font-heading md:text-2xl text-lg text-white mb-5">
                   Web Development Services
                 </h2>
-                <p className="font-content md:text-lg text-sm mb-8 text-white">
+                <p className="text-sm  md:text-base text-start  mb-8 text-white">
                   The core function of a website development service is to help
                   a business to excel in its online presence. As a professional
                   web development company in India, we develop a website keeping

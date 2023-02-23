@@ -111,7 +111,7 @@ const Contact = () => {
   };
 
   return (
-    <div>
+    <div className='selection:bg-Green selection:text-white'>
       <div className="bg-white md:px-1 items-center justify-center text-center">
         <form onSubmit={(e) => handleSubmit(e)}>
           {/* Name Div */}

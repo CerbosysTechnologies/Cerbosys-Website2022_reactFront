@@ -8,7 +8,7 @@ const Realsolution = () => {
     <>
       {/*  md:w-[50%]  lg:w-[100%] */}
       <div className="bg-Primary">
-        <div className="p-6 text-center ">
+        <div className="p-6 text-center hover:animate-bouns-hand cursor-pointer">
           <img src={realicon1} alt="img" className="w-[100px] mx-auto" />
         </div>
         <div className="p-4 md:p-3 lg:p-7">
@@ -23,7 +23,7 @@ const Realsolution = () => {
         </div>
       </div>
       <div className="bg-Green">
-        <div className="p-6 text-center ">
+        <div className="p-6 text-center  hover:animate-bouns-hand cursor-pointer">
           <img src={realicon2} alt="img" className="w-[100px] mx-auto" />
         </div>
         <div className="p-4 md:p-3 lg:p-7">
@@ -38,7 +38,7 @@ const Realsolution = () => {
         </div>
       </div>
       <div className="bg-Primary">
-        <div className="p-6 text-center ">
+        <div className="p-6 text-center hover:animate-bouns-hand cursor-pointer">
           <img src={realicon3} alt="img" className="w-[80px] mx-auto" />
         </div>
         <div className="p-4 md:p-3 lg:p-7">
@@ -53,7 +53,7 @@ const Realsolution = () => {
         </div>
       </div>
       <div className="bg-Green text-center">
-        <div className="p-6 text-center ">
+        <div className="p-6 text-center hover:animate-bouns-hand cursor-pointer">
           <img src={realicon4} alt="img" className="w-[45px] mx-auto" />
         </div>
         <div className="p-4 md:p-3 lg:p-7">

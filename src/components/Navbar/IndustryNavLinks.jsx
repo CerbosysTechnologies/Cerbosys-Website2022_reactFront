@@ -8,20 +8,26 @@ const IndustryNavLinks = () => {
 
   return (
     <div>
+      {/* md:py-4 sm:py-3 md:h-32*/}
       <div className="px-3 text-left md:cursor-pointer group">
-        <h2
-          className="md:py-4 sm:py-3 flex justify-between items-center md:pr-0 pr-5 group md:h-32"
-          onClick={() => {
-            heading !== 'Industries'
-              ? setHeading('Industries')
-              : setHeading('');
-            setSubHeading('');
-          }}
-        >
-          {'Industries'}
-        </h2>
+        <div className="relative">
+          <h2
+            className="py-2 flex justify-between items-center md:pr-0 pr-5 group 
+          after:content-[''] after:absolute after:bg-orange-600 after:h-[3px] after:w-[0%] after:left-0 after:bottom-[-3px]
+          after:ease-in-out after:duration-300
+          hover:after:w-[100%]"
+            onClick={() => {
+              heading !== 'Industries'
+                ? setHeading('Industries')
+                : setHeading('');
+              setSubHeading('');
+            }}
+          >
+            {'Industries'}
+          </h2>
+        </div>
 
-        <div className="absolute top-32 left-0 right-0 hidden group-hover:md:block hover:md:block ">
+        <div className="absolute top-20 left-0 right-0 hidden group-hover:md:block hover:md:block ">
           <div
             className="bg-Primary flex flex-row items-center justify-center md:h-[400px] text-white pb-2
           "
@@ -147,7 +153,7 @@ const IndustryNavLinks = () => {
       {/* Web Menu Ends */}
 
       {/* Mobile Menu Starts */}
-      <div className={` ${heading === 'Industries' ? 'hidden' : 'md:hidden'}`}>
+      <div className={` ${heading === 'Indu stries' ? 'hidden' : 'md:hidden'}`}>
         <div className="flex flex-wrap flex-col m-2">
           <div className="mt-[-10px] ">
             <ul className="text-sm font-subheading list-inside list-disc">

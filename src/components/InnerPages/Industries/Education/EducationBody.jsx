@@ -71,8 +71,8 @@ const EducationBody = () => {
             </h2>{' '}
             <div className="flex md:flex-nowrap flex-wrap gap-y-20  gap-x-72 mt-12">
               <div className="">
-                <img src={educationfirst} alt="iomg" />
-                <div className="mt-8">
+                <img src={educationfirst} alt="iomg" className="w-[230px]" />
+                <div className="">
                   <p className="text-grey   font-heading">
                     Website Development
                   </p>
@@ -85,8 +85,8 @@ const EducationBody = () => {
                 </div>
               </div>
               <div className="">
-                <img src={educationsecond} alt="iomg" />
-                <div className="mt-8">
+                <img src={educationsecond} alt="iomg" className="w-[230px] " />
+                <div className="">
                   <p className="text-grey   font-heading">
                     Mobile App Development
                   </p>
@@ -102,8 +102,8 @@ const EducationBody = () => {
             </div>
             <div className="flex md:flex-nowrap flex-wrap gap-y-20  gap-x-72 mt-12">
               <div className="">
-                <img src={educationthird} alt="iomg" />
-                <div className="mt-8">
+                <img src={educationthird} alt="iomg" className="w-[230px] " />
+                <div className="">
                   <p className="text-grey   font-heading">
                     ERP & LMS Software Development
                   </p>
@@ -115,8 +115,8 @@ const EducationBody = () => {
                 </div>
               </div>
               <div className="">
-                <img src={educationfouth} alt="iomg" />
-                <div className="mt-8">
+                <img src={educationfouth} alt="iomg" className="w-[230px] " />
+                <div className="">
                   <p className="text-grey   font-heading">
                     Educational Digital Marketing Solutions
                   </p>

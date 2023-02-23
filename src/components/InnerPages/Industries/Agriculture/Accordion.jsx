@@ -14,8 +14,8 @@ const Accordion = () => {
       <div
         className={
           show
-            ? 'bg-Primary text-white rounded-lg mt-3 ease-in duration-150'
-            : 'text-Primary  mt-3 ease-in duration-150'
+            ? 'bg-Primary text-white rounded-lg mt-3 ease-in duration-150 '
+            : 'text-Primary  mt-3 ease-in duration-150 '
         }
       >
         <div
@@ -121,13 +121,13 @@ const Accordion = () => {
             <p className="px-4 py-2">
               There are several major trends in agriculture at play:
             </p>
-            <ul className="px-4 py-2 ">
-              <li>- The rise of data collection and analysis</li>
+            <ul className="px-10 py-2 list-disc">
+              <li> The rise of data collection and analysis</li>
               <li>
-                - The growth of online farming software, which allows farmers to
+                The growth of online farming software, which allows farmers to
                 make more informed decisions about their farms
               </li>
-              <li>- The use of drones for aerial photosynthetic analysis</li>
+              <li> The use of drones for aerial photosynthetic analysis</li>
             </ul>
           </>
         ) : (

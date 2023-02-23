@@ -30,7 +30,7 @@ const AgricultureBody = () => {
   ];
   return (
     <div>
-      <div className="mx-auto w-full py-10 px-4 ">
+      <div className="mx-auto w-full py-10 px-4 selection:bg-Green selection:text-white">
         <div className="max-w-[1240px] mx-auto">
           {/* Image Section */}
           <div className="flex flex-wrap md:flex-nowrap mx-auto  justify-between py-5">
@@ -49,41 +49,40 @@ const AgricultureBody = () => {
                 Agriculture
               </h2>
 
-              <p className="font-content  md:w-[33rem] mt-6 text-justify">
+              <p className="font-content  md:w-[33rem] mt-6 text-justify max-w-fit">
                 The agricultural sector has been facing many challenges in
                 recent years, including high costs and low productivity. These
                 are some of the reasons why they need IT solutions.
               </p>
-              <h2 className="  mb-6 text-lg  font-subheading">
+              <h2 className="  mb-6 text-lg  font-subheading max-w-fit">
                 {' '}
                 IT solutions can help them with:
               </h2>
-              <h2 className="  mb-6 text-lg  font-subheading max-w-fit">
-                {' '}
-                -Automation:{' '}
-                <span className="font-content  md:w-[33rem] mt-6 text-justify">
-                  {' '}
+              <ol className="list-disc max-w-fit px-2">
+                <li className="font-content  mt-6 text-justify">
+                  <strong className="  mb-6 text-lg  font-subheading max-w-fit">
+                    {' '}
+                    Automation:{' '}
+                  </strong>
                   The use of computers and technology to increase efficiency,
-                  reduce costs and increase productivity
-                </span>
-              </h2>
-              <h2 className="  mb-6 text-lg  font-subheading max-w-fit">
-                {' '}
-                -Information sharing:
-                <span className="font-content  md:w-[33rem] mt-6 text-justify">
-                  {' '}
+                  reduce costs and increase productivity.
+                </li>
+                <li className="font-content  mt-6 text-justify selection:bg-Green selection:text-white">
+                  <strong className="  mb-6 text-lg  font-subheading max-w-fit">
+                    Information sharing:
+                  </strong>
                   The use of electronic data interchange (EDI) to share
                   information among all parties involved in an agricultural
-                  transaction
-                </span>
-              </h2>
-              <h2 className="  mb-6 text-lg  font-subheading max-w-fit">
-                -Integration:
-                <span className="font-content  md:w-[33rem] mt-6 text-justify">
+                  transaction.
+                </li>
+                <li className="font-content   mt-6 text-justify">
+                  <strong className="  mb-6 text-lg  font-subheading max-w-fit">
+                    Integration:
+                  </strong>
                   Use of software applications to integrate different systems
-                  into a single system by sharing data between them
-                </span>
-              </h2>
+                  into a single system by sharing data between them.
+                </li>
+              </ol>
             </div>
             {/* Side Image*/}
           </div>
@@ -112,18 +111,18 @@ const AgricultureBody = () => {
                           className="flex flex-row justify-between gap-6"
                           key={ind}
                         >
-                          <div>
+                          <div className="overflow-hidden">
                             <img
                               src={curent.img1}
                               alt="img"
-                              className="w-full"
+                              className="w-full hover:scale-125 transition duration-700 ease-in-out "
                             />
                           </div>
-                          <div>
+                          <div className="overflow-hidden">
                             <img
                               src={curent.img2}
                               alt="img"
-                              className="w-full"
+                              className="w-full hover:scale-125 transition duration-700 ease-in-out "
                             />
                           </div>
                         </div>
@@ -138,7 +137,7 @@ const AgricultureBody = () => {
         </div>
       </div>
       {/*start slider section */}
-      <div className="w-full md:h-[36rem] bg-EcommersBodybg  mt-16 py-8">
+      <div className="w-full md:h-[36rem] bg-EcommersBodybg  mt-16 py-8 selection:bg-Green selection:text-white">
         <div className="max-w-[1240px] mx-auto">
           <div className="px-8 md:px-12">
             <div>
@@ -155,7 +154,7 @@ const AgricultureBody = () => {
 
       {/*start smart solution we provide */}
       {/* w-full md:h-[62rem] h-[62rem] bg-Agriculturebg relative bg-no-repeat */}
-      <div className="mx-auto w-full relative bg-Agriculturebg lg:h-[62rem] md:h-[62rem] h-[62rem] py-12 px-4 bg-cover md:bg-top bg-center">
+      <div className="mx-auto w-full relative bg-Agriculturebg lg:h-[62rem] md:h-[62rem] h-[62rem] py-12 px-4 bg-cover md:bg-top bg-center selection:bg-Green selection:text-white">
         <p className="text-Primary md:text-3xl text-xl  font-heading mb-6 p-5">
           SMART FARMING
           <span className="text-black md:text-3xl text-xl font-heading mb-6">
@@ -163,11 +162,7 @@ const AgricultureBody = () => {
           </span>
         </p>
         {/* //lg:left-[34rem] lg:bottom-[12rem] */}
-        <div
-          className="lg:visible  invisible absolute
-        
-         right-0 left-0 bottom-[28rem] md:left-[62rem] md:bottom-64"
-        >
+        <div className="lg:visible  invisible absolute right-0 left-0 bottom-[28rem] md:left-[62rem] md:bottom-64">
           <img
             src={bgimg3}
             alt="img"
@@ -176,28 +171,16 @@ const AgricultureBody = () => {
         </div>
         {/* //lg:left-[16rem]
         //bottom-[18rem] */}
-        <div
-          className="absolute 
-          right-0 left-0
-        
-          md:left-[30rem]
-        md:bottom-[6rem] "
-        >
+        <div className="absolute right-0 left-0 md:left-[30rem] md:bottom-[6rem] ">
           {/* lg:w-[18rem] */}
           <img
             src={bgimg2}
             alt="img"
             className="mx-auto w-[150px]  lg:w-[18rem]"
-            // className="mx-auto w-[150px]  lg:w-[18rem]"
           />
         </div>
 
-        <div
-          className="absolute  
-         
-            right-0 left-0 bottom-32 md:left-[-6rem] md:bottom-4  
-        "
-        >
+        <div className="absolute  right-0 left-0 bottom-32 md:left-[-6rem] md:bottom-4">
           <img
             src={bgimg1}
             alt="img"
@@ -206,7 +189,44 @@ const AgricultureBody = () => {
           />
         </div>
       </div>
-      {/*end smart solution we provide */}
+      {/*end smart solution we provide  [-25%] left-[25%] */}
+      <div className="flex justify-center items-center h-screen">
+        <div
+          className="relative w-[200px] h-[200px] bg-[#020233] before:content-[''] before:absolute
+          before:bottom-[20%] 
+         before:right-[20%] 
+           before:bg-pink-500
+            before:w-[400px] 
+            before:h-[400px] 
+
+        before:animate-bttn-hand 
+        overflow-hidden
+
+
+
+     "
+        >
+          <span className=""></span>
+        </div>
+      </div>
+      {/*
+         after:content-['']
+        
+        after:w-[400px] 
+        after:h-[400px]  
+        after:absolute
+        after:bg-Green
+         after:top-[20%] 
+         after:left-[20%] 
+        after:flex 
+        after:justify-center 
+        after:items-center
+        after:uppercase 
+        after:rounded-md
+        after:animate-bttn-hand  <div
+        className="w-[300px] h-[300px] bg-black relative rounded-md flex justify-center items-center
+      before:content-[''] before:absolute before:w-[500px] before:h-[500px] before:bg-Green"
+      ></div> */}
     </div>
   );
 };

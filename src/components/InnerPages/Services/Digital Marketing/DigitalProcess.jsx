@@ -24,7 +24,7 @@ const MobileProcess = () => {
             <h2 className="font-subheading md:text-xl text-black mt-4 text-sm mb-4">
               Our Digital Marketing Service Process
             </h2>
-            <p className="font-content md:text-lg text-black text-sm text-justify align-baseline md:px-28 px-10">
+            <p className="text-sm  md:text-base text-justify  text-black  align-baseline md:px-28 px-10">
               Our digital marketing service process comprises five major steps
               which includes proper and genuine research to analyze the market,
               then creating quality SEO content, promoting the content using
@@ -57,7 +57,7 @@ const MobileProcess = () => {
                 {' '}
                 Research
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-justify col-span-2">
                 As a digital marketing team, it's important to understand the
                 target audience and their journey. Research is a powerful tool
                 that we use to get insights into customer behavior and how they
@@ -89,7 +89,7 @@ const MobileProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Create
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-justify  col-span-2">
                 Creating content is a major part of digital marketing and for
                 that we make sure that the content is SEO optimized, user
                 friendly and is able to meet the needs of businesses and brands
@@ -129,7 +129,7 @@ const MobileProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Promote
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-justify  col-span-2">
                 Digital promotion is the marketing technique of using digital
                 media to promote a product or an organization as a way of
                 raising awareness, reaching new customers and building a
@@ -159,7 +159,7 @@ const MobileProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Analyze
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-justify  col-span-2">
                 Social media marketing is one of the most important and commonly
                 used tools for business strategies. It has the power to boost
                 sales and generate new customers and for analyzing the digital
@@ -200,7 +200,7 @@ const MobileProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Optimize
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-justify col-span-2">
                 Digital marketing optimization is the process of adjusting the
                 marketing campaign to improve conversions and ROI. This can be
                 done through a variety of means, including A/B testing,

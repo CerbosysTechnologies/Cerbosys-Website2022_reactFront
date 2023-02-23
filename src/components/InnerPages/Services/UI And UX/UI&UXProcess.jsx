@@ -23,7 +23,7 @@ const UIAndUXProcess = () => {
             <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
               Our UI/UX Development Process
             </h2>
-            <p className="font-content md:text-lg text-black text-sm text-justify align-baseline md:px-28 px-10 mt-4">
+            <p className="text-sm  md:text-base text-justify  text-black  align-baseline md:px-28 px-10 ">
               UI/UX developers work closely with software developers and product
               managers to create applications that are both effective and easy
               to use.
@@ -52,7 +52,7 @@ const UIAndUXProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Empathize
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-justify  col-span-2">
                 This process involves in depth research and analysis to
                 understand people, their experiences and their needs regarding
                 web and apps. It's important to empathize with them and try to
@@ -81,7 +81,7 @@ const UIAndUXProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Define
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-justify  col-span-2">
                 After the Empathize stage, it's time to gather all the
                 information collected and then it is analyzed. This helps our
                 team identify the core problems. These problem statements are
@@ -119,7 +119,7 @@ const UIAndUXProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Ideate
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-justify col-span-2">
                 Now that all the necessary information is gathered, we start
                 generating ideas. With a strong foundation of knowledge from the
                 first two phases, we think creatively and look for different
@@ -147,7 +147,7 @@ const UIAndUXProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Prototype
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-justify  col-span-2">
                 This is an exploratory phase. The focus is to find the most
                 optimal solution for each issue discovered. Our group creates
                 some lower-cost, smaller versions of the product (or particular
@@ -185,7 +185,7 @@ const UIAndUXProcess = () => {
               <h2 className="font-heading md:text-xl text-sm uppercase mb-4">
                 Brand Launch
               </h2>
-              <p className="font-content md:text-lg text-sm col-span-2">
+              <p className="text-sm  md:text-base text-justify  col-span-2">
                 Brand launching is a big undertaking, but it can be an
                 incredibly rewarding experience. Since this is the final phase
                 of design & thinking, here are a few things we follow to launch

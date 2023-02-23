@@ -46,7 +46,7 @@ const Ecommerceservices = () => {
   ];
   return (
     <>
-      <div>
+      <div className="mt-14">
         {/*start Our Solutions & Services for E-commerce & Retail Industry */}
         <div className="max-w-[1240px] mx-auto ">
           <h2 className="text-Secondary uppercase md:text-3xl text-xl mt-4 font-heading text-center mb-6">
@@ -62,14 +62,14 @@ const Ecommerceservices = () => {
                 return (
                   <>
                     <div
-                      className="flex flex-wrap w-full md:w-1/2  mt-3 pt-4 px-2"
+                      className="flex flex-wrap w-full md:w-1/2  mt-8 pt-4 px-2"
                       key={ind}
                     >
                       <div className="w-1/3 h-full text-center ">
                         <img
                           src={curent.img}
                           alt="img"
-                          className="inline w-32"
+                          className="inline w-32 transition ease-in-out hover:-translate-y-5 hover:ease-in-out cursor-pointer"
                         />
                         <p className="text-base   font-semibold mt-3">
                           {curent.title}
@@ -89,10 +89,10 @@ const Ecommerceservices = () => {
         </div>
         {/* end Our Solutions & Services for E-commerce & Retail Industry */}
         {/* start Choose Cerbosys as Your Tech Partner */}
-        <div className="bg-Primary p-4 mt-5">
+        <div className="bg-Primary p-4 mt-14">
           <div className="max-w-[1240px] mx-auto ">
             <div className="flex flex-wrap gap-8">
-              <div>
+              <div className="flex justify-center items-center">
                 <img src={ecommersmulty} alt="img" />
               </div>
               <div className="text-white">
@@ -114,22 +114,24 @@ const Ecommerceservices = () => {
                 <div class="flex flex-wrap justify-between mt-3">
                   <div className="">
                     <div className="flex mt-2  pt-3">
-                      <div>
-                        <img src={sicon1} alt="img" className="w-14 md:w-20" />
+                      <div className="hover:animate-bouns-hand cursor-pointer">
+                        <img src={sicon1} alt="img" className="w-14 md:w-20 " />
                       </div>
                       <div className="self-center ml-2">
-                        {' '}
                         <p className="text-lg font-heading">
                           Trustworthy Services
                         </p>
                       </div>
                     </div>
                     <div className="flex mt-2  pt-3">
-                      <div>
-                        <img src={sicon3} alt="img" className="w-14 md:w-20" />
+                      <div className="hover:animate-bouns-hand cursor-pointer">
+                        <img
+                          src={sicon3}
+                          alt="img"
+                          className="w-14 md:w-20  "
+                        />
                       </div>
                       <div className="self-center ml-2">
-                        {' '}
                         <p className="text-lg  font-heading">
                           Increase Your Business’s<br></br> Performance
                         </p>
@@ -138,22 +140,28 @@ const Ecommerceservices = () => {
                   </div>
                   <div className="">
                     <div className="flex mt-2  pt-3">
-                      <div>
-                        <img src={sicon4} alt="img" className="w-14 md:w-20" />
+                      <div className="hover:animate-bouns-hand cursor-pointer">
+                        <img
+                          src={sicon4}
+                          alt="img"
+                          className="w-14 md:w-20  "
+                        />
                       </div>
                       <div className="self-center ml-2">
-                        {' '}
                         <p className="md:text-lg   font-heading">
                           Expand Your <br></br>Technology Expertise
                         </p>
                       </div>
                     </div>
                     <div className="flex mt-2 pt-3">
-                      <div>
-                        <img src={sicon2} alt="img" className="w-14 md:w-20" />
+                      <div className="hover:animate-bouns-hand cursor-pointer">
+                        <img
+                          src={sicon2}
+                          alt="img"
+                          className="w-14 md:w-20  "
+                        />
                       </div>
                       <div className="self-start ml-2 md:self-center">
-                        {' '}
                         <p className="text-lg  font-heading">
                           Time and Cost<br></br> Optimization
                         </p>

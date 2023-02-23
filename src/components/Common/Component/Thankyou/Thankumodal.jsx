@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 // import tickicon from "../../../assets/tick.svg";
 // import Thankyou from "../../../assets/contactus/Thank you page.png";
 
 const Thankumodal = () => {
   return (
-    <div>
+    <div className="selection:bg-Green selection:text-white">
       <div
         className="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden"
         id="Thankyou"
@@ -32,7 +32,7 @@ const Thankumodal = () => {
                   className="flex flex-col items-center p-4 space-y-2 bg-white rounded-lg  "
                   style={{
                     background:
-                      "linear-gradient(180deg, rgba(156,195,255,1) 30%, rgba(138,255,116,1) 100%)",
+                      'linear-gradient(180deg, rgba(156,195,255,1) 30%, rgba(138,255,116,1) 100%)',
                   }}
                 >
                   <svg
@@ -64,7 +64,7 @@ const Thankumodal = () => {
                       xmlns="http://www.w3.org/2000/svg"
                       class="w-3 h-3 mr-2"
                       fill="none"
-                      viewBox="0 0 24 24" 
+                      viewBox="0 0 24 24"
                       stroke="currentColor"
                       stroke-width="2"
                     >
