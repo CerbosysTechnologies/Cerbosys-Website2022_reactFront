@@ -71,7 +71,7 @@ const AgricultureBody = () => {
                   <strong className="  mb-6 text-lg  font-subheading max-w-fit">
                     Information sharing:
                   </strong>
-                  The use of electronic data interchange (EDI) to share
+                  &nbsp;The use of electronic data interchange (EDI) to share
                   information among all parties involved in an agricultural
                   transaction.
                 </li>
@@ -79,8 +79,8 @@ const AgricultureBody = () => {
                   <strong className="  mb-6 text-lg  font-subheading max-w-fit">
                     Integration:
                   </strong>
-                  Use of software applications to integrate different systems
-                  into a single system by sharing data between them.
+                  &nbsp;Use of software applications to integrate different
+                  systems into a single system by sharing data between them.
                 </li>
               </ol>
             </div>
@@ -190,7 +190,7 @@ const AgricultureBody = () => {
         </div>
       </div>
       {/*end smart solution we provide  [-25%] left-[25%] */}
-      <div className="flex justify-center items-center h-screen">
+      {/* <div className="flex justify-center items-center h-screen">
         <div
           className="relative w-[200px] h-[200px] bg-[#020233] before:content-[''] before:absolute
           before:bottom-[20%] 
@@ -208,7 +208,7 @@ const AgricultureBody = () => {
         >
           <span className=""></span>
         </div>
-      </div>
+      </div> */}
       {/*
          after:content-['']
         

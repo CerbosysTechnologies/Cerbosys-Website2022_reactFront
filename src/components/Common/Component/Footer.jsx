@@ -24,6 +24,8 @@ const Footer = () => {
     setAnimationIndex(animationIndex + 1);
     setAnimationType([animationIndex + 1]);
   };
+  let newdat = new Date();
+  let year = newdat.getFullYear();
   // animation end
   return (
     <div className="selection:bg-Green selection:text-white">
@@ -101,16 +103,16 @@ const Footer = () => {
                   <li className="">
                     <Link to="/">Home</Link>
                   </li>
-                  <li className="">
+                  {/* <li className="">
                     <Link to="/overview">Company</Link>
-                  </li>
+                  </li> */}
                   {/* <li className="">Services</li>
                   <li className="">Industries</li>
                   <li className="">Case Study</li>
                   <li className="">Blog</li> */}
-                  <li className="">
+                  {/* <li className="">
                     <Link to="/team">Team</Link>
-                  </li>
+                  </li> */}
                   <li className="">
                     <Link to="/contact-us">Contact Us</Link>
                   </li>
@@ -424,7 +426,7 @@ const Footer = () => {
         </div>
         <hr></hr>
         <div className="font-heading text-center text-white md:text-sm text-xs mt-2">
-          &copy; Cerbosys Technologies Inc. All rights reserved
+          &copy; Cerbosys Technologies Inc {year}. All rights reserved
         </div>
         {/* Max Width Div Ends */}
       </div>

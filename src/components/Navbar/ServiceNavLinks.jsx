@@ -5,7 +5,7 @@ import { AiFillCaretRight } from 'react-icons/ai';
 
 const NavLinks = () => {
   // const [heading, setHeading] = useState('Services');
-  const [heading, setHeading] = useState('Services');
+  const [heading, setHeading] = useState("");
   const [subHeading, setSubHeading] = useState('');
 
   const slinks = [
@@ -51,7 +51,7 @@ const NavLinks = () => {
               //   setSubHeading('');
               // }}
               // onClick={() => demofuc()}
-              onClick={() => {
+              onC lick={() => {
                 heading !== 'Services'
                   ? setTimeout(() => {
                       setHeading('Services');
@@ -68,10 +68,11 @@ const NavLinks = () => {
             </span> */}
             </h2>
           </div>
+
           <div>
             <div
               className="absolute top-[63px]
-             left-0 right-0 hidden group-hover:md:block hover:md:block "
+                 left-0 right-0 hidden group-hover:md:block hover:md:block "
             >
               <div className="bg-Primary flex flex-row items-center justify-center md:h-[380px] text-white pb-5">
                 {/* First Row top-32*/}
@@ -260,7 +261,7 @@ const NavLinks = () => {
                   <Link to="/contact-us">
                     <button
                       className="bg-Green rounded-full 
-            font-heading px-6 py-3 text-white uppercase "
+                font-heading px-6 py-3 text-white uppercase "
                     >
                       Get Free Estimation
                     </button>

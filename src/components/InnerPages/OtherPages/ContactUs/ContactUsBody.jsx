@@ -4,7 +4,8 @@ import contacticon from '../../../../assets/contactus/icon_contact.svg';
 import logo from '../../../../assets/footer/Logo_in_footer.svg';
 import callicon from '../../../../assets/footer/call_icon.svg';
 import emailicon from '../../../../assets/footer/email_icon.svg';
-
+import calling from '../../../../assets/contactus/calling.gif';
+import email from '../../../../assets/contactus/email.gif';
 const ContactUsBody = () => {
   return (
     <div>
@@ -49,9 +50,9 @@ const ContactUsBody = () => {
                     </h2>
                     <div className="flex flex-row">
                       <img
-                        src={callicon}
+                        src={calling}
                         alt="Call Icon"
-                        className="mr-3 md:w-10 md:h-10 mt-4"
+                        className="mr-3 w-[55px] mt-4"
                       ></img>
                       <span className="font-subheading md:text-lg text-sm text-black mt-5">
                         +91 9826906988<br></br>
@@ -61,9 +62,9 @@ const ContactUsBody = () => {
 
                     <div className="flex flex-row mb-4">
                       <img
-                        src={emailicon}
+                        src={email}
                         alt="Email Icon"
-                        className="mr-3 md:w-10 md:h-10 mt-4"
+                        className="mr-3 w-[55px]  mt-4"
                       ></img>
                       <span className="font-subheading md:text-lg text-sm text-black mt-5">
                         info@cerbosys.com
@@ -81,20 +82,20 @@ const ContactUsBody = () => {
                     </h2>
                     <div className="flex flex-row">
                       <img
-                        src={callicon}
+                        src={calling}
                         alt="Call Icon"
-                        className="mr-3 md:w-10 md:h-10 mt-4"
-                      ></img>
+                        className="mr-3 w-[55px]  mt-4"
+                      />
                       <span className="font-subheading md:text-lg text-sm text-black mt-5">
                         +91 8817922577 <br /> 0731-499-34-44
                       </span>
                     </div>
                     <div className="flex flex-row">
                       <img
-                        src={emailicon}
+                        src={email}
                         alt="Email Icon"
-                        className="mr-3 md:w-10 md:h-10 mt-4"
-                      ></img>
+                        className="mr-3 w-[55px] mt-4"
+                      />
                       <span className="font-subheading md:text-lg text-sm text-black mt-5">
                         career@cerbosys.com
                       </span>

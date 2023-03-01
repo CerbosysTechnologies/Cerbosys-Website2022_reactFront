@@ -102,7 +102,7 @@ const Hero = () => {
           <p className="font-heading text-white md:text-base text-xs md:mt-3 mt-10">
             {/* <div style={exampleStyle}> */}
             <div className="uppercase flex md:mt-8">
-              <div>Let's collaborate to</div>
+              <div>Let's collaborate to &nbsp;</div>
               <div>
                 <MovingComponent
                   onAnimationEnd={handleChainAnimation}
@@ -115,7 +115,7 @@ const Hero = () => {
                   &nbsp;@accelerate&nbsp;
                 </MovingComponent>
               </div>
-              <div>your business growth </div>
+              <div> &nbsp;your business growth </div>
             </div>
             {/* <Random
               text="Let's collaborate to accelerate your

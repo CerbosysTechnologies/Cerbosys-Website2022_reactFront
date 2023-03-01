@@ -434,7 +434,9 @@ const Teambody = () => {
               /> */}
 
               <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hey, I am Akash Yadav Motion Graphics Designer
+                Hey, I am Akash Yadav
+                <br></br>
+                Motion Graphics Designer
                 <br></br>
                 <i className="text-Primary">
                   “Let’s promote your brand with visual trends”

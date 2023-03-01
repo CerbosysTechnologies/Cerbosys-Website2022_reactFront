@@ -28,6 +28,7 @@ module.exports = {
         Grey: '#9F9F9F',
         Lightsky: '#C9DEFF',
         Purpal: '#522165',
+        Darkgray: ' #F8F9FC',
       },
       keyframes: {
         wave: {
@@ -132,8 +133,8 @@ module.exports = {
       FlutterHeader: "url('assets/innerpage/flutter/flutterheader.png')",
       IOSHeader: "url('assets/innerpage/ios/iosheader1.png')",
       LaravelHeader: "url('assets/innerpage/laravel/laravelheader.png')",
-      NodejsHeader: "url('assets/innerpage/nodejs/node.jsheader.svg')",
-      ReactjsHeader: "url('assets/innerpage/reactjs/reactjsheader1.png')",
+      NodejsHeader: "url('assets/innerpage/nodejs/nodejsbg.png')",
+      ReactjsHeader: "url('assets/innerpage/reactjs/reactjsbg.png')",
       CaseStudyHeader: "url('assets/innerpage/casestudy/casestudy.svg')",
       CaseStudyHeader2: "url('assets/innerpage/casestudy/Slice.svg')",
       PrivacyPolicy: "url('assets/Privecy/Privacy.png')",

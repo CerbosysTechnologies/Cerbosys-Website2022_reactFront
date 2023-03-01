@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Miningtabs = () => {
+const Miningtabs = ({ color }) => {
+  const [openTab, setOpenTab] = React.useState(1);
   return (
     <>
       <div className="">
@@ -19,25 +20,16 @@ const Miningtabs = () => {
                 {/* active */}
                 <a
                   href="#tabs-homeVertical"
-                  className="
-                rounded-[20px]  block
-          font-sm
-          md:font-bold
-          text-sm
-        
-          leading-tight
-          uppercase
-        p-3
-         
-          my-2
-          
-          active:text-white !important  
-        focus:text-white
-          focus:bg-Primary
-    
-     
-       
-        "
+                  className={`rounded-[20px]  block font-sm md:font-bold text-sm leading-tight uppercase p-3 my-2
+           active:text-white !important   focus:text-white focus:bg-Primary ${
+             openTab === 1
+               ? 'text-Primary bg-white'
+               : 'text-' + color + '-600 text-Grey bg-grey'
+           }`}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setOpenTab(1);
+                  }}
                   id="tabs-home-tabVertical"
                   data-bs-toggle="pill"
                   data-bs-target="#tabs-homeVertical"
@@ -54,25 +46,18 @@ const Miningtabs = () => {
               >
                 <a
                   href="#tabs-profileVertical"
-                  className="
-                rounded-[20px] p-3
-               
-          
-          block
-          font-sm
-          md:font-bold
-          text-sm
-          leading-tight
-          uppercase
-        
-        
-          
-          my-2
+                  className={`rounded-[20px] p-3 block font-sm md:font-bold text-sm leading-tight uppercase my-2
           active:text-white !important  
           focus:text-white
-            focus:bg-Primary
-        
-        "
+            focus:bg-Primary ${
+              openTab === 2
+                ? 'text-Primary bg-white'
+                : 'text-' + color + '-600 text-Grey'
+            }`}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setOpenTab(2);
+                  }}
                   id="tabs-profile-tabVertical"
                   data-bs-toggle="pill"
                   data-bs-target="#tabs-profileVertical"
@@ -89,26 +74,16 @@ const Miningtabs = () => {
               >
                 <a
                   href="#tabs-messagesVertical"
-                  className="
-                rounded-[20px]
-                p-3
-              
-          
-          block
-          font-sm
-          md:font-bold
-          text-sm
-          leading-tight
-          uppercase
-         
-         
-          
-          my-2
-          active:text-white !important  
-          focus:text-white
-            focus:bg-Primary
-         
-        "
+                  className={`rounded-[20px] p-3 block font-sm md:font-bold text-sm leading-tight
+          uppercase my-2 active:text-white !important   focus:text-white focus:bg-Primary ${
+            openTab === 3
+              ? 'text-Primary bg-white'
+              : 'text-' + color + '-600 text-Grey'
+          }`}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setOpenTab(3);
+                  }}
                   id="tabs-messages-tabVertical"
                   data-bs-toggle="pill"
                   data-bs-target="#tabs-messagesVertical"
@@ -127,26 +102,18 @@ const Miningtabs = () => {
               >
                 <a
                   href="#tabs-messagesVertical"
-                  className="
-                rounded-[20px]
-                
-                p-3
-          
-          block
-          font-sm
-          md:font-bold
-          text-sm
-          leading-tight
-          uppercase
-         
-         
-         
-          my-2
+                  className={`rounded-[20px] p-3 block font-sm md:font-bold text-sm leading-tight uppercase my-2
           active:text-white !important  
           focus:text-white
-            focus:bg-Primary
-         
-        "
+            focus:bg-Primary ${
+              openTab === 4
+                ? 'text-Primary bg-white'
+                : 'text-' + color + '-600 text-Grey'
+            }`}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setOpenTab(4);
+                  }}
                   id="tabs-messages-tabVertical"
                   data-bs-toggle="pill"
                   data-bs-target="#tabs-friendlyVertical"
@@ -165,7 +132,9 @@ const Miningtabs = () => {
               id="tabs-tabContentVertical"
             >
               <div
-                className="tab-pane fade show active"
+                className={`tab-pane fade show active ${
+                  openTab === 1 ? 'block' : 'hidden'
+                }`}
                 id="tabs-homeVertical"
                 role="tabpanel"
                 aria-labelledby="tabs-home-tabVertical"
@@ -176,7 +145,9 @@ const Miningtabs = () => {
                 integrate with either platform.
               </div>
               <div
-                className="tab-pane fade"
+                className={`tab-pane fade ${
+                  openTab === 2 ? 'block' : 'hidden'
+                }`}
                 id="tabs-profileVertical"
                 role="tabpanel"
                 aria-labelledby="tabs-profile-tabVertical"
@@ -186,7 +157,9 @@ const Miningtabs = () => {
                 descriptions, craft custom neat URLs, and more.
               </div>
               <div
-                className="tab-pane fade"
+                className={`tab-pane fade ${
+                  openTab === 3 ? 'block' : 'hidden'
+                }`}
                 id="tabs-messagesVertical"
                 role="tabpanel"
                 aria-labelledby="tabs-profile-tabVertical"
@@ -197,7 +170,9 @@ const Miningtabs = () => {
                 user-friendly format.
               </div>
               <div
-                className="tab-pane fade"
+                className={`tab-pane fade ${
+                  openTab === 4 ? 'block' : 'hidden'
+                }`}
                 id="tabs-friendlyVertical"
                 role="tabpanel"
                 aria-labelledby="tabs-profile-tabVertical"
