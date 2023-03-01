@@ -102,7 +102,7 @@ const CompanyNavLinks = () => {
               <Link to="/contact-us">
                 <button
                   className="bg-Green rounded-full 
-            font-heading px-6 py-3 text-white uppercase "
+            font-heading px-6 py-3 text-white uppercase"
                 >
                   Get Free Estimation
                 </button>
