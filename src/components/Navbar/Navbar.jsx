@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 import callicon from '../../assets/call_icon.svg';
 import NavLinks from './ServiceNavLinks';
 import IndustryNavLinks from './IndustryNavLinks';
-// import CompanyNavLinks from './CompanyNavLinks';
+
 import headerlogo from '../../assets/headerlogo.png';
-import openeyeswhit from '../../assets/openeyeswhit.png';
+
 import opwhitey from '../../assets/opwhitey.png';
-import backcloseeye from '../../assets/backcloseeye.png';
+
 import blackopey from '../../assets/blackopey.png';
 import blackclosey from '../../assets/blackclosey.png';
-import whiteopeye from '../../assets/innerpage/whiteopeye.png';
+
 import whiclosey from '../../assets/whiclosey.png';
 // import MovingComponent from 'react-moving-text';
 
@@ -21,7 +21,7 @@ const secondimg = <img src={whiclosey} alt="img" className="w-full" />;
 const firstclose = <img src={blackopey} alt="img" className="w-full" />;
 const secondclose = <img src={blackclosey} alt="img" className="w-full" />;
 const Navbar = () => {
-  const [text, setText] = useState(false);
+  const [text, setText] = useState('');
   const [hover, setHover] = useState('');
   const [openeye, setOpeneye] = useState({
     firstimg: firstimg,
@@ -58,15 +58,12 @@ const Navbar = () => {
   //   setOpeneye(openeye.secondimg);
   // setCloseeye(closeeye.secondclose);
   const func1 = () => {
-    // setText(true);
-    // setHover(`${text}`);
-    // alert('depika');
     setOpeneye(openeye.firstimg);
     setCloseeye(closeeye.fistclose);
     setTimeout(() => {
       setOpeneye(openeye.secondimg);
       setCloseeye(closeeye.secondclose);
-    }, 700);
+    }, 900);
     setText(true);
   };
 
@@ -79,8 +76,8 @@ const Navbar = () => {
       <nav
         className={
           !headerVisible
-            ? 'z-[999] bg-transparent fixed m-auto w-full h-[80px] '
-            : 'z-[999] bg-white fixed m-auto w-full  h-[80px]'
+            ? 'z-[999] bg-transparent fixed m-auto w-full h-[70px] '
+            : 'z-[999] bg-white fixed m-auto w-full  h-[70px]'
         }
       >
         <div className="flex items-center font-heading justify-around  h-full">
@@ -92,14 +89,15 @@ const Navbar = () => {
                   src={headerlogo}
                   alt="logo"
                   className="w-[50px] mx-auto"
-                  onMouseEnter={() => func1()}
+                  onMouseOver={func1}
+                  // onMouseLeave={() => func2()}
                 />
 
                 <p className="text-white font-bold font-heading text-4xl">
-                  {text ? (!headerVisible ? openeye : closeeye) : ''}
+                  {text ? (!headerVisible ? openeye : closeeye) : ' '}
                 </p>
                 {/* <p
-                  className={`text-white font-bold font-heading text-4xl ${
+                  className={`text-white font-bold font-heading text-4xl 
                     hover === text ? (!headerVisible ? openeye : closeeye) : ''
                   }`}
                 ></p> */}
@@ -156,6 +154,7 @@ const Navbar = () => {
                 Solution{' '}
               </Link>
             </li>
+
             <IndustryNavLinks></IndustryNavLinks>
             <li className="px-3 relative">
               <Link
@@ -250,12 +249,14 @@ const Navbar = () => {
             {/* <li className="py-2 px-2 inline-block">
               <CompanyNavLinks></CompanyNavLinks>
             </li> */}
+
             <li className="py-2 px-2 ">
               <NavLinks />
             </li>
             <li className="py-1 px-4 inline-block">
               <Link to="/solution">Solution </Link>
             </li>
+
             <br />
             <li className="py-2 px-2 inline-block">
               <IndustryNavLinks />

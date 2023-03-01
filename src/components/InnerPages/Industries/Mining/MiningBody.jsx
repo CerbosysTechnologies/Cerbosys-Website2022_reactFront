@@ -34,10 +34,10 @@ const MiningBody = () => {
                   </p>
                   <p className="mt-2">
                     {' '}
-                    * Using big data to improve decision-making by providing
+                     Using big data to improve decision-making by providing
                     more information about the market, customers, competitors,
                     and suppliers. * Using analytics to optimize operations,
-                    including reducing costs and increasing efficiency. *
+                    including reducing costs and increasing efficiency. 
                     Integrating legacy systems into new architectures that can
                     be more flexible and responsive to changing requirements.
                   </p>

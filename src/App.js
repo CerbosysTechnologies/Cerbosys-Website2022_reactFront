@@ -51,7 +51,7 @@ import SchoolERP from './components/Solution/School/SchoolERP';
 import ECommerse from './components/Solution/E-Commerse/E-Commerse';
 import CaseStudyByOne from './components/CaseStudy/CaseStudyByOne';
 import Search from './search';
-import { Fragment } from 'react';
+import { Fragment, useEffect } from 'react';
 import { useState } from 'react';
 import Softwaredevelopment from './components/InnerPages/Services/SoftwareDevelopment/Softwaredevelopment';
 import CurrentOpningGetbyOne from './components/InnerPages/Company/CurrentOpening/CurrentOpningGetbyOne';
@@ -59,6 +59,19 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Portfolio from './components/protfolio/Portfolio';
 function App() {
+  // dark mood functions start
+  // const [theme, setTheme] = useState('light');
+  // useEffect(() => {
+  //   if (theme === 'dark') {
+  //     document.documentElement.classList.add('dark');
+  //   } else {
+  //     document.documentElement.classList.remove('dark');
+  //   }
+  // }, [theme]);
+  // const handlecolor = () => {
+  //   setTheme(theme === 'dark' ? 'light' : 'dark');
+  // };
+  // dark mood functions end
   document.addEventListener('contextmenu', handelRightClick);
   return (
     <>

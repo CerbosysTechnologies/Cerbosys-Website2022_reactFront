@@ -1,43 +1,43 @@
-import React, { useState, useEffect } from "react";
-import { SERVER } from "../../../ServerUrls";
-import axios from "axios";
-import { AiOutlineClose } from "react-icons/ai";
-import Contact from "./Contact";
-import imagepopup from "../../../assets/contactus/Getintuch.png";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import Thankumodal from "./Thankyou/Thankumodal";
+import React, { useState, useEffect } from 'react';
+import { SERVER } from '../../../ServerUrls';
+import axios from 'axios';
+import { AiOutlineClose } from 'react-icons/ai';
+import Contact from './Contact';
+import imagepopup from '../../../assets/contactus/Getintuch.png';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Thankumodal from './Thankyou/Thankumodal';
 const FreeQuote = () => {
   // const [serviceitems, setServiceItems] = React.useState([]);
   // const [serviceId, setServiceId] = useState("");
 
   const toggleModal = () => {
-    document.getElementById("modal").style.display = "block";
+    document.getElementById('modal').style.display = 'block';
   };
   const modalclose = () => {
-    document.getElementById("modal").style.display = "none";
+    document.getElementById('modal').style.display = 'none';
   };
   //hooks
-  const [username, setUsername] = useState("");
-  const [errorsname, setErrorsName] = useState("");
-  const [errorsNa, setErrorsNa] = useState("");
-  const [email, setEmail] = useState("");
+  const [username, setUsername] = useState('');
+  const [errorsname, setErrorsName] = useState('');
+  const [errorsNa, setErrorsNa] = useState('');
+  const [email, setEmail] = useState('');
 
-  const [subject, setSubject] = useState("");
-  const [errorsEmail_s, setErrorsEmail_s] = useState("");
+  const [subject, setSubject] = useState('');
+  const [errorsEmail_s, setErrorsEmail_s] = useState('');
   const [errorsEml, setErrorsEml] = useState(false);
 
-  const [contactNumber, setContactNumber] = useState("");
+  const [contactNumber, setContactNumber] = useState('');
   const [errorscon, setErrorsCon] = useState(false);
-  const [errorscontact, setErrorsContact] = useState("");
-  const [serviceId, setServiceId] = useState("");
+  const [errorscontact, setErrorsContact] = useState('');
+  const [serviceId, setServiceId] = useState('');
   console.log(serviceId);
 
-  const [hearaboutus, setHearaboutus] = useState("");
-  const [message, setMessage] = useState("");
+  const [hearaboutus, setHearaboutus] = useState('');
+  const [message, setMessage] = useState('');
   const [serviceitems, setServiceItems] = React.useState([]);
   //Image
-  const [techimg, setTechImg] = useState("");
+  const [techimg, setTechImg] = useState('');
   const [showImageSec, setShowImageSection] = useState(true);
 
   const handlerChange = (event) => {
@@ -48,13 +48,13 @@ const FreeQuote = () => {
 
   const getAllServices = () => {
     axios
-      .get(SERVER + "/getAllServices", {
+      .get(SERVER + '/getAllServices', {
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
       })
       .then((res) => {
-        console.log("Get All Services->", res.data.data);
+        console.log('Get All Services->', res.data.data);
         setServiceItems(res.data.data);
       });
   };
@@ -64,10 +64,10 @@ const FreeQuote = () => {
   }, []);
   // Form Validation
   const onchangeFullName = (e) => {
-    const username = e.target.value.replace(/[^a-z]/gi, " ");
+    const username = e.target.value.replace(/[^a-z]/gi, ' ');
     setUsername(username);
     if (username.length <= 5) {
-      setErrorsName("Enter Name");
+      setErrorsName('Enter Name');
       setErrorsNa(true);
       return username;
     } else {
@@ -77,11 +77,11 @@ const FreeQuote = () => {
 
   const onchangeContact = (e) => {
     // console.log("onchangeContact");
-    const contactNumber = e.target.value.replace(/([^0-9])+/i, "");
+    const contactNumber = e.target.value.replace(/([^0-9])+/i, '');
     setContactNumber(contactNumber);
     // (contact.length < 10 || contact.length > 10)
     if (contactNumber.length < 10) {
-      setErrorsContact("Enter valid Contact");
+      setErrorsContact('Enter valid Contact');
       setErrorsCon(true);
     } else {
       setErrorsCon(false);
@@ -97,26 +97,26 @@ const FreeQuote = () => {
       contact_number: contactNumber,
       myservice_id: serviceId,
       message: message,
-      obtained_from: "Quote",
+      obtained_from: 'Quote',
     };
-    console.log("befor Quote", insertData);
+    console.log('befor Quote', insertData);
     axios
-      .post(SERVER + "/insertQuoteEnquiry", insertData, {
+      .post(SERVER + '/insertQuoteEnquiry', insertData, {
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
       })
       .then((res) => {
-        console.log("Insert Enquiry Res", res);
-        console.log("after Quote api", res.data);
-        document.getElementById("Thankyou").style.display = "block";
+        console.log('Insert Enquiry Res', res);
+        console.log('after Quote api', res.data);
+        document.getElementById('Thankyou').style.display = 'block';
         setTimeout(() => {
           window.location.reload();
         }, 5000);
       })
       .catch((err) => {
-        console.log("not post", err);
-        toast.error("something wrong");
+        console.log('not post', err);
+        toast.error('something wrong');
         setTimeout(() => {
           window.location.reload();
         }, 2000);
@@ -143,7 +143,7 @@ const FreeQuote = () => {
       </div>
 
       <div
-        className="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden"
+        className="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden "
         id="modal"
       >
         <div className="flex items-center justify-center max-height-100vh pt-4 px-4 pb-20 text-center sm:block sm:p-0">
@@ -164,7 +164,8 @@ const FreeQuote = () => {
             aria-modal="true"
             aria-labelledby="modal-headline"
           >
-            <div className="grid md:grid-cols-2 md:mb-4 md:mt-10 mt-5 md:h-1/2 overflow-auto">
+            {/* md:h-1/2 */}
+            <div className="grid md:grid-cols-2 md:mb-4 md:mt-10 mt-5 md:h-[450px]  md:overflow-scroll">
               <div className="mx-10 hidden md:block">
                 <img src={imagepopup} alt="" className="h-full w-screen" />
               </div>
@@ -258,22 +259,21 @@ const FreeQuote = () => {
                       >
                         <option>Please Select</option>
 
-                          {serviceitems ? (
-                        
-                        serviceitems.map((item) => (
-                          <option
-                            key={item.service_name}
-                            value={item.myservices_id}
-                          >
-                            {item.service_name}
-                          </option>
-                        ))) : (
-                    <>
-                
-                 <option value="">No Service</option>
-                    <p>no service</p>
-                </>
-                  )}
+                        {serviceitems ? (
+                          serviceitems.map((item) => (
+                            <option
+                              key={item.service_name}
+                              value={item.myservices_id}
+                            >
+                              {item.service_name}
+                            </option>
+                          ))
+                        ) : (
+                          <>
+                            <option value="">No Service</option>
+                            <p>no service</p>
+                          </>
+                        )}
                       </select>
                     </div>
                     {/* Selection Div Ends*/}
@@ -300,7 +300,7 @@ const FreeQuote = () => {
                       type="submit"
                       value="Submit"
                       disabled={
-                        username === "" || contactNumber === "" ? true : false
+                        username === '' || contactNumber === '' ? true : false
                       }
                     />
                   </form>
