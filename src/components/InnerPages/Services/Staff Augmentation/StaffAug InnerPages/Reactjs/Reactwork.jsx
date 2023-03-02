@@ -25,7 +25,7 @@ const Reactwork = () => {
                 <p className="font-content text-Primary   mt-2 text-justify max-w-fit ">
                   We’ve been delivering working code and awesome solutions
                   since2014. 90% of our current clients have stayed with us for
-                  morethan two years.s
+                  morethan two years.
                 </p>
               </div>
             </div>

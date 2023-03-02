@@ -5,6 +5,8 @@ import icon3img from '../../../../assets/innerpage/healthcare/icon3img.png';
 import icon4img from '../../../../assets/innerpage/healthcare/icon4img.png';
 import healthdrimg from '../../../../assets/innerpage/healthcare/healthdrimg.png';
 import tickicon2 from '../../../../assets/innerpage/healthcare/tickicon2.png';
+// import iconrigimg from '../../../../assets/innerpage/healthcare/iconrigimg.png';
+import righticon from '../../../../assets/innerpage/healthcare/righticon.png';
 import HealthCare from './HealthCare';
 import { MdVerified } from 'react-icons/md';
 const Managmentsys = () => {
@@ -26,6 +28,28 @@ const Managmentsys = () => {
   //     default:
   //       break;
   //   }
+  const data = [
+    {
+      img: righticon,
+      title: 'Easy to use',
+      para: 'A quicker access to the integrated high end hospital solution by making it user-friendly. Ensuring top notch patient care with just a single click and is manageable across all platforms.',
+    },
+    {
+      img: icon1img,
+      title: 'Customizable',
+      para: 'Evolved from the cornerstone of technology, make the most out of our highly flexible solution. Experience the customized usage of our product that makes you deal with the primary issues.',
+    },
+    {
+      img: icon4img,
+      title: 'Responsive',
+      para: 'Flying up to the expectations of each client and improves the user experience with a responsive layout. Giving you the best view on all devices with no worries of speed and efficiency.',
+    },
+    {
+      img: icon3img,
+      title: 'Premium',
+      para: 'Try out our tried and tested product with more added features in the premium version. Get the upgraded version today itself and join the automated healthier community.',
+    },
+  ];
   const items = [
     {
       icon: tickicon2,
@@ -48,6 +72,24 @@ const Managmentsys = () => {
       para: 'Online healthcare and life sciences consulting services improves patient experience with more efficient care.',
     },
   ];
+  const row = [
+    {
+      title: 'Mobile App Development',
+      para: "Our Doctor's Appointment and Medicine Ecommerce apps are the best in the market, and we provide the service at a very affordable price. We also offer Lab Test Booking apps for hospitals and labs for managing their scheduling and inventory management.",
+    },
+    {
+      title: 'Website Development',
+      para: 'Our website development services are designed to help hospital management and healthcare companies achieve their goals. Our team of experts has years of experience in this industry, and we can help you build a site that will be both easy to use and SEO-friendly.',
+    },
+    {
+      title: 'UI/UX App Development',
+      para: 'We develop apps for the healthcare sector which are scalable and flexible to meet the needs of different users. Our unique approach to developing apps is based on a blend of user experience and design.',
+    },
+    {
+      title: 'CRM Software',
+      para: 'We developed CRM Software for the healthcare sector, the healthcare sector across the globe to streamline their operations and deliver better services to their patients. Our goal is to provide you with the best tools possible so that you can focus on what really matters: your patients.',
+    },
+  ];
   return (
     <>
       <div className="">
@@ -60,84 +102,33 @@ const Managmentsys = () => {
                 Management System
               </h1>
               <div className="flex  flex-wrap  justify-between p-0 md:p-3">
-                <div className="mt-5  rounded-md p-0 md:p-4 justify-center text-center w-[100%]  lg:w-[25%]">
-                  <div className="">
-                    <div className="mx-auto text-center   ">
-                      <img
-                        src={icon2img}
-                        alt="img"
-                        className="w-32 mx-auto   hover:scale-125 duration-300 delay-200"
-                      />
-                    </div>
-
-                    <div className="w-full">
-                      <p className=" mt-3 text-lg font-heading ">Easy to use</p>
-
-                      <p className="mt-3 text-justify leading-7 md:mx-4 mx-5  ">
-                        A quicker access to the integrated high end hospital
-                        solution by making it user-friendly. Ensuring top notch
-                        patient care with just a single click and is manageable
-                        across all platforms.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="mt-5 p-0 md:p-4 w-[100%]  lg:w-[25%]">
-                  {' '}
-                  <div className="text-center ">
-                    <div className="mx-auto text-center ">
-                      <img
-                        src={icon1img}
-                        alt="img"
-                        className="w-24 mx-auto  hover:scale-125 duration-300 delay-200"
-                      />
-                    </div>
-                    <p className="mt-3 text-lg font-heading ">Customizable</p>
-                    <p className=" mt-3 text-justify leading-7 md:mx-4 mx-5">
-                      Evolved from the cornerstone of technology, make the most
-                      out of our highly flexible solution. Experience the
-                      customized usage of our product that makes you deal with
-                      the primary issues.
-                    </p>
-                  </div>
-                </div>
-                <div className="mt-5 p-0 md:p-4 w-[100%]  lg:w-[25%]">
-                  {' '}
-                  <div className="text-center">
-                    <div className="mx-auto text-center">
-                      <img
-                        src={icon4img}
-                        alt="img"
-                        className="w-24 mx-auto hover:scale-125 duration-300 delay-200 "
-                      />
-                    </div>
-                    <p className=" mt-3 text-lg font-heading">Responsive</p>
-                    <p className=" mt-3 text-justify leading-7 md:mx-4 mx-5 ">
-                      Flying up to the expectations of each client and improves
-                      the user experience with a responsive layout. Giving you
-                      the best view on all devices with no worries of speed and
-                      efficiency.
-                    </p>
-                  </div>
-                </div>
-                <div className="mt-5 p-0 md:p-4 w-[100%]  lg:w-[25%]">
-                  {' '}
-                  <div className="text-center">
-                    <div className="mx-auto text-center">
-                      <img
-                        src={icon3img}
-                        alt="img"
-                        className="w-16 mx-auto  hover:scale-125 duration-300 delay-200"
-                      />
-                    </div>
-                    <p className="mt-3 text-lg font-heading">Premium</p>
-                    <p className=" mt-3 text-justify leading-7 md:mx-4 mx-5 ">
-                      Try out our tried and tested product with more added
-                      features in the premium version. Get the upgraded version
-                      today itself and join the automated healthier community.
-                    </p>
-                  </div>{' '}
-                </div>
+                {data &&
+                  data.map((curent, ind) => {
+                    return (
+                      <>
+                        <div
+                          className="mt-5 p-0 md:p-4 w-[100%]  lg:w-[25%]"
+                          key={ind}
+                        >
+                          <div className="text-center ">
+                            <div className="mx-auto text-center ">
+                              <img
+                                src={curent.img}
+                                alt="img"
+                                className="h-[80px] w-[100px] mx-auto  hover:scale-125 duration-300 delay-200"
+                              />
+                            </div>
+                            <p className="mt-3 text-lg font-heading ">
+                              {curent.title}
+                            </p>
+                            <p className=" mt-3 text-justify leading-7 md:mx-4 mx-5">
+                              {curent.para}
+                            </p>
+                          </div>
+                        </div>
+                      </>
+                    );
+                  })}
               </div>
             </div>
           </div>
@@ -153,59 +144,25 @@ const Managmentsys = () => {
               &nbsp;we offer
             </h1>
             <div className="flex  flex-wrap  justify-between pt-4">
-              <div className="p-4 w-[100%]  lg:w-[25%] relative hover:bg-Primary hover:text-white">
-                <p className="mt-3 text-lg font-heading">
-                  Mobile App Development
-                </p>
-                <div className="absolute bottom-0 top-20 right-3 hidden md:block bg-Primary w-1 h-28">
-                  {' '}
-                </div>
-                <p className="mt-3 pr-3 ">
-                  Our Doctor's Appointment and Medicine Ecommerce apps are the
-                  best in the market, and we provide the service at a very
-                  affordable price. We also offer Lab Test Booking apps for
-                  hospitals and labs for managing their scheduling and inventory
-                  management.
-                </p>
-              </div>
-              <div className="p-4 w-[100%]  lg:w-[25%] relative hover:bg-Primary hover:text-white">
-                <p className="mt-3 text-lg font-heading">Website Development</p>
-                <div className="absolute bottom-0 top-20 right-3 hidden md:block  bg-Primary w-1 h-28">
-                  {' '}
-                </div>
-                <p className="mt-3 pr-3 ">
-                  Our website development services are designed to help hospital
-                  management and healthcare companies achieve their goals. Our
-                  team of experts has years of experience in this industry, and
-                  we can help you build a site that will be both easy to use and
-                  SEO-friendly.
-                </p>
-              </div>
-              <div className="p-4 w-[100%]  lg:w-[25%] relative hover:bg-Primary hover:text-white">
-                <p className="mt-3 text-lg font-heading">
-                  UI/UX App Development
-                </p>
-                <div className="absolute bottom-0 top-20 right-3 hidden md:block  bg-Primary w-1 h-28">
-                  {' '}
-                </div>
-                <p className="mt-3 pr-3 ">
-                  We develop apps for the healthcare sector which are scalable
-                  and flexible to meet the needs of different users. Our unique
-                  approach to developing apps is based on a blend of user
-                  experience and design.
-                </p>
-              </div>
-              <div className="p-4 w-[100%]  lg:w-[25%] hover:bg-Primary hover:text-white">
-                <p className="mt-3 text-lg font-heading">CRM Software</p>
-
-                <p className="mt-3 pr-3 ">
-                  We developed CRM Software for the healthcare sector, the
-                  healthcare sector across the globe to streamline their
-                  operations and deliver better services to their patients. Our
-                  goal is to provide you with the best tools possible so that
-                  you can focus on what really matters: your patients.
-                </p>
-              </div>
+              {row &&
+                row.map((curent, ind) => {
+                  return (
+                    <>
+                      <div
+                        className="p-4 w-[100%]  lg:w-[25%] relative hover:bg-Primary hover:rounded-lg hover:text-white"
+                        key={ind}
+                      >
+                        <p className="mt-3 text-lg font-heading">
+                          {curent.title}
+                        </p>
+                        <div className="absolute bottom-0 top-20 right-3 hidden md:block bg-Primary w-1 h-28">
+                          {' '}
+                        </div>
+                        <p className="mt-3 pr-3 ">{curent.para}</p>
+                      </div>
+                    </>
+                  );
+                })}
             </div>
           </div>
         </div>
@@ -233,7 +190,7 @@ const Managmentsys = () => {
                                 <img
                                   src={curent.icon}
                                   alt="img"
-                                  className="w-16 md:w-18  object-contain"
+                                  className="w-10 md:w-18  object-contain"
                                 />
                               </div>
                               <div className="self-center justify-self-start w-[80%]">

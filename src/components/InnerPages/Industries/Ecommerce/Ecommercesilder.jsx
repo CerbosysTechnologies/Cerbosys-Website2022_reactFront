@@ -4,6 +4,7 @@ import Slider from 'react-slick';
 import ecommersarrival from '../../../../assets/innerpage/ecommerce/ecommersarrival.png';
 import ecommerfashi from '../../../../assets/innerpage/ecommerce/ecommerfashi.png';
 import ecommersboutic from '../../../../assets/innerpage/ecommerce/ecommersboutic.png';
+import { Link } from 'react-router-dom';
 const Ecommercesilder = () => {
   var settings = {
     dots: false,
@@ -61,9 +62,11 @@ const Ecommercesilder = () => {
               </p>
             </div>
             <div className="">
-              <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
-                Know More
-              </button>
+              <Link to="/Portfolio">
+                <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
+                  Know More
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -85,9 +88,11 @@ const Ecommercesilder = () => {
               </p>
             </div>
             <div className="">
-              <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
-                Know More
-              </button>
+              <Link to="/Portfolio">
+                <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
+                  Know More
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -109,9 +114,11 @@ const Ecommercesilder = () => {
               </p>
             </div>
             <div className="">
-              <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
-                Know More
-              </button>
+              <Link to="/Portfolio">
+                <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
+                  Know More
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -133,9 +140,11 @@ const Ecommercesilder = () => {
               </p>
             </div>
             <div className="">
-              <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
-                Know More
-              </button>
+              <Link to="/Portfolio">
+                <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
+                  Know More
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -157,9 +166,11 @@ const Ecommercesilder = () => {
               </p>
             </div>
             <div className="">
-              <button className="bg-Primary rounded-md text-white px-2 mt-2  ">
-                Know More
-              </button>
+              <Link to="/Portfolio">
+                <button className="bg-Primary rounded-md text-white px-2 mt-2  ">
+                  Know More
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -181,9 +192,11 @@ const Ecommercesilder = () => {
               </p>
             </div>
             <div className="">
-              <button className="bg-Primary rounded-md text-white px-2 mt-2">
-                Know More
-              </button>
+              <Link to="/Portfolio">
+                <button className="bg-Primary rounded-md text-white px-2 mt-2">
+                  Know More
+                </button>
+              </Link>
             </div>
           </div>
         </div>

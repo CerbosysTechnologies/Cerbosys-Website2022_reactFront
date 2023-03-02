@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../../../../../Navbar/Navbar';
 import Footer from '../../../../../Common/Component/Footer';
-import { Link } from 'react-router-dom';
+
 import ReactjsBody from './ReactjsBody';
 import ReactjsForm from './ReactjsForm';
 import { Helmet } from 'react-helmet';
@@ -34,15 +34,6 @@ const Reactjs = () => {
               Set your company up for achievement in the competitive environment
               by hiring React.Js specialists from Cerbosys.
             </p>
-
-            <Link to="/contact-us">
-              <button
-                className="bg-Primary rounded-full font-heading md:px-5 md:py-2 md:text-lg
-            text-white uppercase px-3 py-1.5 mt-4 text-xs mb-2"
-              >
-                Contact Us
-              </button>
-            </Link>
           </div>
           {/* Content Section Ends*/}
         </div>
