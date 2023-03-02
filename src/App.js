@@ -58,6 +58,7 @@ import CurrentOpningGetbyOne from './components/InnerPages/Company/CurrentOpenin
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Portfolio from './components/protfolio/Portfolio';
+import NotFound from './components/Common/Component/NotFound';
 function App() {
   // dark mood functions start
   // const [theme, setTheme] = useState('light');
@@ -164,6 +165,7 @@ function App() {
           <Route path="/Portfolio" element={<Portfolio />} />
           <Route path="/solution/schoolerp" element={<SchoolERP />} />
           <Route path="/solution/E-Commerse" element={<ECommerse />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </div>
