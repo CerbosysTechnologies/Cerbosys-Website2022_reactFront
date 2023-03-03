@@ -11,6 +11,7 @@ import TypeWriter from 'react-typewriter-effect';
 import MovingComponent from 'react-moving-text';
 import Recommendations from './Recommendations';
 import { Link } from 'react-router-dom';
+import Slide from 'react-reveal/Slide';
 import { Helmet } from 'react-helmet';
 const Hero = () => {
   {
@@ -112,7 +113,9 @@ const Hero = () => {
                   fillMode="forwards"
                   iteration={500}
                 >
+                  {/* <Slide left duration={3000}> */}
                   &nbsp;@accelerate&nbsp;
+                  {/* </Slide> */}
                 </MovingComponent>
               </div>
               <div> &nbsp;your business growth </div>

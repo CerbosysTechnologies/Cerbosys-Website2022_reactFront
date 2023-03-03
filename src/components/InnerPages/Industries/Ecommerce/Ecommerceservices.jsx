@@ -9,6 +9,7 @@ import sicon1 from '../../../../assets/innerpage/ecommerce/sicon1.png';
 import sicon2 from '../../../../assets/innerpage/ecommerce/sicon2.png';
 import sicon3 from '../../../../assets/innerpage/ecommerce/sicon3.png';
 import sicon4 from '../../../../assets/innerpage/ecommerce/sicon4.png';
+import Slide from 'react-reveal/Slide';
 import ecommersmulty from '../../../../assets/innerpage/ecommerce/ecommersmulty.png';
 const Ecommerceservices = () => {
   const data = [
@@ -66,20 +67,24 @@ const Ecommerceservices = () => {
                       key={ind}
                     >
                       <div className="w-1/3 h-full text-center ">
-                        <img
-                          src={curent.img}
-                          alt="img"
-                          className="inline w-32 transition ease-in-out hover:-translate-y-5 hover:ease-in-out cursor-pointer"
-                        />
+                        <Slide right duration={3000}>
+                          <img
+                            src={curent.img}
+                            alt="img"
+                            className="inline w-32 transition ease-in-out hover:-translate-y-5 hover:ease-in-out cursor-pointer"
+                          />
+                        </Slide>
                         <p className="text-base   font-semibold mt-3">
                           {curent.title}
                         </p>
                       </div>
 
                       <div class="w-2/3 px-3 md:px-0">
-                        <p className="text-sm  md:text-base text-start text-Lightgrey ">
-                          {curent.para}
-                        </p>
+                        <Slide left duration={3000}>
+                          <p className="text-sm  md:text-base text-start text-Lightgrey ">
+                            {curent.para}
+                          </p>
+                        </Slide>
                       </div>
                     </div>
                   </>
@@ -92,80 +97,101 @@ const Ecommerceservices = () => {
         <div className="bg-Primary p-4 mt-14">
           <div className="max-w-[1240px] mx-auto ">
             <div className="flex flex-wrap gap-8">
-              <div className="flex justify-center items-center">
-                <img src={ecommersmulty} alt="img" />
-              </div>
+              <Slide bottom duration={3000}>
+                <div className="flex justify-center items-center">
+                  <img src={ecommersmulty} alt="img" />
+                </div>
+              </Slide>
               <div className="text-white">
-                <p className=" md:text-3xl text-xl mt-4 font-heading text-center mb-6">
-                  Why Choose Cerbosys as Your Tech Partner
-                </p>
-                <p>
-                  When you work with us, we'll listen to your needs, then build
-                  a<br></br>
-                  custom solution that's exactly right for you.
-                </p>
-                <p className="mt-3">
-                  We'll take the time to understand what makes your business
-                  stand
-                  <br></br>
-                  out, then develop a website that reflects those strengths and
-                  helps<br></br> you grow.
-                </p>
+                <Slide right duration={3000}>
+                  <p className=" md:text-3xl text-xl mt-4 font-heading text-center mb-6">
+                    Why Choose Cerbosys as Your Tech Partner
+                  </p>
+                  <p>
+                    When you work with us, we'll listen to your needs, then
+                    build a<br></br>
+                    custom solution that's exactly right for you.
+                  </p>
+                  <p className="mt-3">
+                    We'll take the time to understand what makes your business
+                    stand
+                    <br></br>
+                    out, then develop a website that reflects those strengths
+                    and helps<br></br> you grow.
+                  </p>
+                </Slide>
                 <div class="flex flex-wrap justify-between mt-3">
                   <div className="">
                     <div className="flex mt-2  pt-3">
-                      <div className="hover:animate-bouns-hand cursor-pointer">
-                        <img src={sicon1} alt="img" className="w-14 md:w-20 " />
-                      </div>
-                      <div className="self-center ml-2">
-                        <p className="text-lg font-heading">
-                          Trustworthy Services
-                        </p>
-                      </div>
+                      <Slide bottom duration={3000}>
+                        <div className="hover:animate-bouns-hand cursor-pointer">
+                          <img
+                            src={sicon1}
+                            alt="img"
+                            className="w-14 md:w-20 "
+                          />
+                        </div>
+
+                        <div className="self-center ml-2">
+                          <p className="text-lg font-heading">
+                            Trustworthy Services
+                          </p>
+                        </div>
+                      </Slide>
                     </div>
                     <div className="flex mt-2  pt-3">
-                      <div className="hover:animate-bouns-hand cursor-pointer">
-                        <img
-                          src={sicon3}
-                          alt="img"
-                          className="w-14 md:w-20  "
-                        />
-                      </div>
-                      <div className="self-center ml-2">
-                        <p className="text-lg  font-heading">
-                          Increase Your Business’s<br></br> Performance
-                        </p>
-                      </div>
+                      <Slide bottom duration={3000}>
+                        <div className="hover:animate-bouns-hand cursor-pointer">
+                          <img
+                            src={sicon3}
+                            alt="img"
+                            className="w-14 md:w-20  "
+                          />
+                        </div>
+
+                        <div className="self-center ml-2">
+                          <p className="text-lg  font-heading">
+                            Increase Your Business’s<br></br> Performance
+                          </p>
+                        </div>
+                      </Slide>
                     </div>
                   </div>
                   <div className="">
                     <div className="flex mt-2  pt-3">
-                      <div className="hover:animate-bouns-hand cursor-pointer">
-                        <img
-                          src={sicon4}
-                          alt="img"
-                          className="w-14 md:w-20  "
-                        />
-                      </div>
-                      <div className="self-center ml-2">
-                        <p className="md:text-lg   font-heading">
-                          Expand Your <br></br>Technology Expertise
-                        </p>
-                      </div>
+                      <Slide bottom duration={3000}>
+                        <div className="hover:animate-bouns-hand cursor-pointer">
+                          <img
+                            src={sicon4}
+                            alt="img"
+                            className="w-14 md:w-20  "
+                          />
+                        </div>
+
+                        <div className="self-center ml-2">
+                          <p className="md:text-lg   font-heading">
+                            Expand Your <br></br>Technology Expertise
+                          </p>
+                        </div>
+                      </Slide>
                     </div>
+
                     <div className="flex mt-2 pt-3">
-                      <div className="hover:animate-bouns-hand cursor-pointer">
-                        <img
-                          src={sicon2}
-                          alt="img"
-                          className="w-14 md:w-20  "
-                        />
-                      </div>
-                      <div className="self-start ml-2 md:self-center">
-                        <p className="text-lg  font-heading">
-                          Time and Cost<br></br> Optimization
-                        </p>
-                      </div>
+                      <Slide bottom duration={3000}>
+                        <div className="hover:animate-bouns-hand cursor-pointer">
+                          <img
+                            src={sicon2}
+                            alt="img"
+                            className="w-14 md:w-20  "
+                          />
+                        </div>
+
+                        <div className="self-start ml-2 md:self-center">
+                          <p className="text-lg  font-heading">
+                            Time and Cost<br></br> Optimization
+                          </p>
+                        </div>
+                      </Slide>
                     </div>
                   </div>
                 </div>

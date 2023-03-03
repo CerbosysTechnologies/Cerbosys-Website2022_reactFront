@@ -26,7 +26,8 @@ const ServiceHomePage = () => {
               <RubberBand duration={3000}>Our Best Services</RubberBand>
             </h2>
             <h2 className="font-subheading text-black font-bold text-2xl md:text-xl mb-3 mt-4">
-              <Slide bottom duration={3000}>
+              {/* <Slide bottom duration={3000}> */}
+              <Slide left duration={3000}>
                 Services offered by us to grow your business
               </Slide>
             </h2>
