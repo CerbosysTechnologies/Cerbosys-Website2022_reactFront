@@ -5,8 +5,8 @@ const Miningtabs = ({ color }) => {
   return (
     <>
       <div className="">
-        <h2 className="text-Primary md:text-3xl text-xl mt-4 font-heading  mb-6 px-3">
-          <span className="text-black">An Overview Of Our </span> Mining Web
+        <h2 className="text-Green uppercase md:text-3xl text-xl mt-4 font-heading  mb-6 px-3">
+          <span className="text-white">An Overview Of Our </span> Mining Web
           Design Features
         </h2>
         <div className="flex items-start flex-wrap  lg:flex-nowrap gap-10 md:gap-20 my-6 px-4">
@@ -21,10 +21,10 @@ const Miningtabs = ({ color }) => {
                 <a
                   href="#tabs-homeVertical"
                   className={`rounded-[20px]  block font-sm md:font-bold text-sm leading-tight uppercase p-3 my-2
-           active:text-white !important   focus:text-white focus:bg-Primary ${
+           active:text-white !important   focus:text-white focus:bg-Green ${
              openTab === 1
-               ? 'text-Primary bg-white'
-               : 'text-' + color + '-600 text-Grey bg-grey'
+               ? 'text-white bg-Green'
+               : 'text-' + color + '-600 text-white bg-grey'
            }`}
                   onClick={(e) => {
                     e.preventDefault();
@@ -49,10 +49,10 @@ const Miningtabs = ({ color }) => {
                   className={`rounded-[20px] p-3 block font-sm md:font-bold text-sm leading-tight uppercase my-2
           active:text-white !important  
           focus:text-white
-            focus:bg-Primary ${
+            focus:bg-Green  ${
               openTab === 2
-                ? 'text-Primary bg-white'
-                : 'text-' + color + '-600 text-Grey'
+                ? ' bg-Green text-white'
+                : 'text-' + color + '-600 text-white'
             }`}
                   onClick={(e) => {
                     e.preventDefault();
@@ -75,10 +75,10 @@ const Miningtabs = ({ color }) => {
                 <a
                   href="#tabs-messagesVertical"
                   className={`rounded-[20px] p-3 block font-sm md:font-bold text-sm leading-tight
-          uppercase my-2 active:text-white !important   focus:text-white focus:bg-Primary ${
+          uppercase my-2 active:text-white !important   focus:text-white focus:bg-Green  ${
             openTab === 3
-              ? 'text-Primary bg-white'
-              : 'text-' + color + '-600 text-Grey'
+              ? 'text-white bg-Green'
+              : 'text-' + color + '-600 text-white'
           }`}
                   onClick={(e) => {
                     e.preventDefault();
@@ -105,10 +105,10 @@ const Miningtabs = ({ color }) => {
                   className={`rounded-[20px] p-3 block font-sm md:font-bold text-sm leading-tight uppercase my-2
           active:text-white !important  
           focus:text-white
-            focus:bg-Primary ${
+            focus:bg-Green  ${
               openTab === 4
-                ? 'text-Primary bg-white'
-                : 'text-' + color + '-600 text-Grey'
+                ? 'text-white bg-Green'
+                : 'text-' + color + '-600 text-white'
             }`}
                   onClick={(e) => {
                     e.preventDefault();

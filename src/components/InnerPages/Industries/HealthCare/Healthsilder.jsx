@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import silder1img from '../../../../assets/innerpage/healthcare/silder1img.png';
 import silder2img from '../../../../assets/innerpage/healthcare/silder2img.png';
@@ -69,9 +70,11 @@ const Healthsilder = () => {
                       </p>
                     </div>
                     <div className="">
-                      <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
-                        Know More
-                      </button>
+                      <Link to="/Portfolio">
+                        <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
+                          Know More
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -93,9 +96,11 @@ const Healthsilder = () => {
                       </p>
                     </div>
                     <div className="">
-                      <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
-                        Know More
-                      </button>
+                      <Link to="/Portfolio">
+                        <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
+                          Know More
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -117,9 +122,11 @@ const Healthsilder = () => {
                       </p>
                     </div>
                     <div className="">
-                      <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
-                        Know More
-                      </button>
+                      <Link to="/Portfolio">
+                        <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
+                          Know More
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -141,9 +148,11 @@ const Healthsilder = () => {
                       </p>
                     </div>
                     <div className="">
-                      <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
-                        Know More
-                      </button>
+                      <Link to="/Portfolio">
+                        <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
+                          Know More
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -165,9 +174,11 @@ const Healthsilder = () => {
                       </p>
                     </div>
                     <div className="">
-                      <button className="bg-Primary rounded-md text-white px-2 mt-2  ">
-                        Know More
-                      </button>
+                      <Link to="/Portfolio">
+                        <button className="bg-Primary rounded-md text-white px-2 mt-2  ">
+                          Know More
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -189,9 +200,11 @@ const Healthsilder = () => {
                       </p>
                     </div>
                     <div className="">
-                      <button className="bg-Primary rounded-md text-white px-2">
-                        Know More
-                      </button>
+                      <Link to="/Portfolio">
+                        <button className="bg-Primary rounded-md text-white px-2">
+                          Know More
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>

@@ -39,7 +39,7 @@ const ReactjsBody = () => {
             </div>
             <div className="w-[100%] md:w-[30%] ">
               <div className="px-4">
-                <img src={reactjsimg} alt="img" className="w-full" />
+                <img src={reactjsimg} alt="img" className="w-[80%] mx-auto" />
               </div>
             </div>
           </div>

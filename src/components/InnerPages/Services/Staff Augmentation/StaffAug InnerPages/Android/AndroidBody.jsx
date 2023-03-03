@@ -35,7 +35,7 @@ const AndroidBody = () => {
             </div>
             <div className="w-[100%] md:w-[30%]">
               <div className="px-4">
-                <img src={andoriimg} alt="img" className="w-full" />
+                <img src={andoriimg} alt="img" className="w-[80%] mx-auto" />
               </div>
             </div>
           </div>
@@ -69,14 +69,18 @@ const AndroidBody = () => {
       {/* start work with us section */}
       <Reactwork />
       {/*  end work with us section */}
-      {/* start Benefits of Hiring React JS */}
+      {/* start Benefits of Hiring android JS */}
       <div className="bg-gradient-to-r from-cyan-50 to-blue-500">
         <div className="max-w-[1240px] mx-auto px-3 py-8">
           <Heading title="Benefits of Hiring Andriod JS Developers for your business" />
           <div className="flex justify-between   gap-8 md:gap-20 flex-wrap md:flex-nowrap mt-7">
             <div className="flex gap-5 md:w-[50%] w-[100%]">
               <div className="w-[20%]">
-                <img src={abdroidsmimg} alt="img" className="w-[60px]" />
+                <img
+                  src={abdroidsmimg}
+                  alt="img"
+                  className="w-[60px] mx-auto"
+                />
               </div>
               <div className="w-[80%]">
                 <p className="font-content text-Primary   mt-2 text-justify max-w-fit">
@@ -88,7 +92,11 @@ const AndroidBody = () => {
             </div>
             <div className="flex gap-5 md:w-[50%] w-[100%]">
               <div className="w-[20%]">
-                <img src={abdroidsmimg} alt="img" className="w-[60px]" />
+                <img
+                  src={abdroidsmimg}
+                  alt="img"
+                  className="w-[60px] mx-auto"
+                />
               </div>
               <div className="w-[80%]">
                 <p className="font-content text-Primary  mt-2 text-justify max-w-fit ">
@@ -101,7 +109,11 @@ const AndroidBody = () => {
           <div className="flex justify-between  gap-8 md:gap-20  flex-wrap md:flex-nowrap mt-7">
             <div className="flex gap-5 md:w-[50%] w-[100%]">
               <div className="w-[20%]">
-                <img src={abdroidsmimg} alt="img" className="w-[60px]" />
+                <img
+                  src={abdroidsmimg}
+                  alt="img"
+                  className="w-[60px] mx-auto"
+                />
               </div>
               <div className="w-[80%]">
                 <p className="font-content text-Primary   mt-2 text-justify max-w-fit">
@@ -113,7 +125,11 @@ const AndroidBody = () => {
             </div>
             <div className="flex gap-5 md:w-[50%] w-[100%]">
               <div className="w-[20%]">
-                <img src={abdroidsmimg} alt="img" className="w-[60px]" />
+                <img
+                  src={abdroidsmimg}
+                  alt="img"
+                  className="w-[60px] mx-auto"
+                />
               </div>
               <div className="w-[80%]">
                 <p className="font-content text-Primary  mt-2 text-justify max-w-fit ">
@@ -126,7 +142,7 @@ const AndroidBody = () => {
         </div>
       </div>
 
-      {/* end Benefits of Hiring React JS*/}
+      {/* end Benefits of Hiring android JS*/}
       {/*start Helpful Resources */}
       <Reacthelpfull />
       {/*end Helpful Resources */}

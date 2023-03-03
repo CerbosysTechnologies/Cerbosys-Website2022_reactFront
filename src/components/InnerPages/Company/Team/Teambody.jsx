@@ -7,7 +7,7 @@ import Samita from '../../../../assets/innerpage/team/Samita.png';
 import Arifsir1 from '../../../../assets/innerpage/team/Arifsir1.png';
 import kanchanmam1 from '../../../../assets/innerpage/team/kanchanmam1.png';
 import Omprakashsir1 from '../../../../assets/innerpage/team/Omprakashsir1.png';
-import Lalitsir1 from '../../../../assets/innerpage/team/Lalitsir1.png';
+import lalitsisrji from '../../../../assets/innerpage/team/lalitsisrji.png';
 import Rishabsir1 from '../../../../assets/innerpage/team/Rishabsir1.png';
 import Swetamam1 from '../../../../assets/innerpage/team/Swetamam1.png';
 import Shubhamsir1 from '../../../../assets/innerpage/team/Shubhamsir1.png';
@@ -24,6 +24,10 @@ import tryimgs from '../../../../assets/tryimgs.png';
 import tryimg6 from '../../../../assets/innerpage/team/tryimg6.png';
 import dumyblueg from '../../../../assets/innerpage/team/damyblueg.png';
 import greenb from '../../../../assets/innerpage/team/greenb.png';
+import girlgreen from '../../../../assets/innerpage/team/girlgreen.png';
+import boysblue from '../../../../assets/innerpage/team/boysblue.png';
+import greenboys from '../../../../assets/innerpage/team/greenboys.png';
+import gourboth from '../../../../assets/innerpage/team/gourboth.png';
 const Teambody = () => {
   return (
     <div>
@@ -447,7 +451,7 @@ const Teambody = () => {
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
                 <img
-                  src={Lalitsir1}
+                  src={lalitsisrji}
                   alt="Mohit Nayak"
                   className="w-[280px] mx-auto 
               
@@ -630,7 +634,7 @@ const Teambody = () => {
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
                 <img
-                  src={avtarmanblueicon}
+                  src={girlgreen}
                   alt="Mohit Nayak"
                   className="w-[280px] mx-auto 
               
@@ -642,8 +646,7 @@ const Teambody = () => {
                     src={tryimg6}
                     alt="Mohit Nayak"
                     className="w-[280px] mx-auto
-           hover:animate-cyclieing-hand
-               "
+                       hover:animate-cyclieing-hand "
                   />
                 </div>
               </div>{' '}
@@ -661,8 +664,41 @@ const Teambody = () => {
             </div>
 
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
+              <div className="relative cursor-pointer">
+                <img
+                  src={boysblue}
+                  alt="Mohit Nayak"
+                  className="w-[280px] mx-auto 
+              
+               "
+                />
+                <div className="absolute inset-1">
+                  {' '}
+                  <img
+                    src={tryimg6}
+                    alt="Mohit Nayak"
+                    className="w-[280px] mx-auto
+                       hover:animate-cyclieing-hand "
+                  />
+                </div>
+              </div>{' '}
+              {/* <img
+                src={rajniicon}
+                alt="Rajni Gajabhiye"
+                className="md:w-72 md:h-72 w-56 h-56"
+              /> */}
+              <p className="font-heading md:text-lg text-sm text-center mt-6">
+                Hey, I am Anil Banwar
+                <br></br> Senior FullStack Developer.
+                <br></br>
+                <i className="text-Primary">
+                  “Let’s write a code to solve your problem”
+                </i>
+              </p>
+            </div>
+            {/* <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <img
-                src={avtarmanblueicon}
+                src={boysblue}
                 alt="Anil Banwar"
                 className="md:w-72 md:h-72 w-56 h-56"
               />
@@ -675,7 +711,7 @@ const Teambody = () => {
                   “Let’s write a code to solve your problem”
                 </i>
               </p>
-            </div>
+            </div> */}
           </div>
           {/* 9 Grid Ends */}
 
@@ -719,7 +755,7 @@ const Teambody = () => {
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
               <div className="relative cursor-pointer">
                 <img
-                  src={avtarmanblueicon}
+                  src={girlgreen}
                   alt="Mohit Nayak"
                   className="w-[280px] mx-auto 
               
@@ -755,7 +791,7 @@ const Teambody = () => {
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
                 <img
-                  src={greenb}
+                  src={greenboys}
                   alt="Mohit Nayak"
                   className="w-[280px] mx-auto 
               
@@ -790,8 +826,8 @@ const Teambody = () => {
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
               <div className="relative cursor-pointer">
                 <img
-                  src={avtarmanblueicon}
-                  alt="Mohit Nayak"
+                  src={boysblue}
+                  alt="Shubham Khushwah"
                   className="w-[280px] mx-auto 
               
                "
@@ -800,7 +836,7 @@ const Teambody = () => {
                   {' '}
                   <img
                     src={tryimg6}
-                    alt="Mohit Nayak"
+                    alt="Shubham Khushwah"
                     className="w-[280px] mx-auto
            hover:animate-cyclieing-hand
                "
@@ -826,7 +862,7 @@ const Teambody = () => {
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
                 <img
-                  src={avtarmanblueicon}
+                  src={boysblue}
                   alt="Mohit Nayak"
                   className="w-[280px] mx-auto 
               
@@ -861,7 +897,7 @@ const Teambody = () => {
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
               <div className="relative cursor-pointer">
                 <img
-                  src={avtarmanblueicon}
+                  src={girlgreen}
                   alt="Mohit Nayak"
                   className="w-[280px] mx-auto 
               
@@ -897,7 +933,7 @@ const Teambody = () => {
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
                 <img
-                  src={dumyblueg}
+                  src={girlgreen}
                   alt="Mohit Nayak"
                   className="w-[280px] mx-auto 
               
@@ -932,7 +968,7 @@ const Teambody = () => {
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
               <div className="relative cursor-pointer">
                 <img
-                  src={avtarmanblueicon}
+                  src={boysblue}
                   alt="Mohit Nayak"
                   className="w-[280px] mx-auto 
               
@@ -965,13 +1001,31 @@ const Teambody = () => {
           {/* 13 grid end */}
           {/* 14 Grid */}
           <div className="grid md:grid-cols-2 mt-8">
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
-              <img
-                src={avtarmanblueicon}
-                alt="CS Sir"
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
+              <div className="relative cursor-pointer">
+                <img
+                  src={boysblue}
+                  alt="Shubham Khushwah"
+                  className="w-[280px] mx-auto 
+              
+               "
+                />
+                <div className="absolute inset-1">
+                  {' '}
+                  <img
+                    src={tryimg6}
+                    alt="Shubham Khushwah"
+                    className="w-[280px] mx-auto
+           hover:animate-cyclieing-hand
+               "
+                  />
+                </div>
+              </div>{' '}
+              {/* <img
+                src={rajnimam1}
+                alt="Prashant Goutam"
                 className="md:w-72 md:h-72 w-56 h-56"
-              />
-
+              /> */}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
                 Hey, I am CS Bairagi
                 <br></br> Senior .Net Developer
@@ -983,12 +1037,30 @@ const Teambody = () => {
             </div>
 
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
-              <img
-                src={avtarmangreenicon}
-                alt="Mohit Nayak"
+              <div className="relative cursor-pointer">
+                <img
+                  src={greenboys}
+                  alt="Mohit Nayak"
+                  className="w-[280px] mx-auto 
+              
+               "
+                />
+                <div className="absolute inset-1">
+                  {' '}
+                  <img
+                    src={tryimg6}
+                    alt="Mohit Nayak"
+                    className="w-[280px] mx-auto
+           hover:animate-cyclieing-hand
+               "
+                  />
+                </div>
+              </div>{' '}
+              {/* <img
+                src={shubhamicon}
+                alt="Shubham Shrivastava"
                 className="md:w-72 md:h-72 w-56 h-56"
-              />
-
+              /> */}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
                 Hey, I am Mohit Nayak
                 <br></br>Senior Php Developer.
@@ -1000,20 +1072,27 @@ const Teambody = () => {
           {/* 14 Grid Ends */}
 
           {/* 15 Grid */}
-          <div className="flex flex-wrap flex-col items-center justify-center md:mt-4">
-            <div className="relative w-[400px] ">
-              {/* <span
-                className="relative w-[250px] h-[250px] bg-white rounded-full border-2 before:content-[''] before:absolute before:inset-0 before:rounded-full after:content-[''] after:absolute after:inset-[40px]  after:rounded-full"
-                // className="animate-cyclieing-hand  before:content-[''] before:absolute before:top-[-10px] before:bottom-[-10px] before:left-[140px] before:right-[150px] before:bg-orange-700 hover:before:inset-[20px 0px] before:z-index-[999] after:content-[''] after:absolute after:inset-[6px] after:bg-black after:rounded-full after:z-40 "
-              > */}
+
+          <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
+            <div className="relative cursor-pointer">
               <img
-                src={manwomanicon}
-                alt="Many More"
-                className="md:w-72 md:h-72 w-56 h-56 "
-                // absolute inset-0 rounded-full  bg-gradient-to-r from-cyan-500 to-blue-500 animate-cyclieing-hand"
+                src={gourboth}
+                alt="Mohit Nayak"
+                className="w-[280px] mx-auto 
+              
+               "
               />
-              {/* </span> */}
-            </div>
+              <div className="absolute inset-1">
+                {' '}
+                <img
+                  src={tryimg6}
+                  alt="Mohit Nayak"
+                  className="w-[280px] mx-auto
+           hover:animate-cyclieing-hand
+               "
+                />
+              </div>
+            </div>{' '}
             <p className="font-heading md:text-lg text-sm text-center mt-4">
               Hii, I am your new mate 😊
               <br></br>

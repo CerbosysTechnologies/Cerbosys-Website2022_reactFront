@@ -4,6 +4,7 @@ import second from '../../../../assets/innerpage/education/second.png';
 import third from '../../../../assets/innerpage/education/third.png';
 
 import Slider from 'react-slick';
+import { Link } from 'react-router-dom';
 const Educattionsilder = () => {
   var settings = {
     dots: false,
@@ -74,9 +75,11 @@ const Educattionsilder = () => {
                         </p>
                       </div>
                       <div className="">
-                        <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
-                          Know More
-                        </button>
+                        <Link to="/Portfolio">
+                          <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
+                            Know More
+                          </button>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -99,9 +102,11 @@ const Educattionsilder = () => {
                         </p>
                       </div>
                       <div className="">
-                        <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
-                          Know More
-                        </button>
+                        <Link to="/Portfolio">
+                          <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
+                            Know More
+                          </button>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -123,9 +128,11 @@ const Educattionsilder = () => {
                         </p>
                       </div>
                       <div className="">
-                        <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
-                          Know More
-                        </button>
+                        <Link to="/Portfolio">
+                          <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
+                            Know More
+                          </button>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -147,9 +154,11 @@ const Educattionsilder = () => {
                         </p>
                       </div>
                       <div className="">
-                        <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
-                          Know More
-                        </button>
+                        <Link to="/Portfolio">
+                          <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
+                            Know More
+                          </button>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -171,9 +180,11 @@ const Educattionsilder = () => {
                         </p>
                       </div>
                       <div className="">
-                        <button className="bg-Primary rounded-md text-white px-2 mt-2  ">
-                          Know More
-                        </button>
+                        <Link to="/Portfolio">
+                          <button className="bg-Primary rounded-md text-white px-2 mt-2  ">
+                            Know More
+                          </button>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -195,9 +206,11 @@ const Educattionsilder = () => {
                         </p>
                       </div>
                       <div className="">
-                        <button className="bg-Primary rounded-md text-white px-2">
-                          Know More
-                        </button>
+                        <Link to="/Portfolio">
+                          <button className="bg-Primary rounded-md text-white px-2">
+                            Know More
+                          </button>
+                        </Link>
                       </div>
                     </div>
                   </div>

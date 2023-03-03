@@ -13,6 +13,7 @@ import Accordion from './Accordion';
 import bgimg1 from '../../../../assets/innerpage/agriculture/bgimg1.png';
 import bgimg2 from '../../../../assets/innerpage/agriculture/bgimg2.png';
 import bgimg3 from '../../../../assets/innerpage/agriculture/bgimg3.png';
+import Slide from 'react-reveal/Slide';
 const AgricultureBody = () => {
   const data = [
     {
@@ -36,7 +37,13 @@ const AgricultureBody = () => {
           <div className="flex flex-wrap md:flex-nowrap mx-auto  justify-between py-5">
             {/* Mobile Image */}
             <div className="md:w-[40%] w-[100%]">
-              <img src={ledimg} alt="Agriculture Mobile" className=" w-full" />
+              <Slide left duration={3000}>
+                <img
+                  src={ledimg}
+                  alt="Agriculture Mobile"
+                  className=" w-full"
+                />
+              </Slide>
               {/* md:h-[30rem] */}
             </div>
             {/* Mobile Image */}
@@ -44,46 +51,48 @@ const AgricultureBody = () => {
             {/* Image Section Ends*/}
 
             {/* Side */}
-            <div className=" md:w-[60%] w-[100%]">
-              <h2 className="text-Primary uppercase md:text-3xl mb-6 text-xl  font-heading max-w-fit">
-                Agriculture
-              </h2>
+            <Slide right duration={3000}>
+              <div className=" md:w-[60%] w-[100%]">
+                <h2 className="text-Primary uppercase md:text-3xl mb-6 text-xl  font-heading max-w-fit">
+                  Agriculture
+                </h2>
 
-              <p className="font-content  md:w-[33rem] mt-6 text-justify max-w-fit">
-                The agricultural sector has been facing many challenges in
-                recent years, including high costs and low productivity. These
-                are some of the reasons why they need IT solutions.
-              </p>
-              <h2 className="  mb-6 text-lg  font-subheading max-w-fit">
-                {' '}
-                IT solutions can help them with:
-              </h2>
-              <ol className="list-disc max-w-fit px-2">
-                <li className="font-content  mt-6 text-justify">
-                  <strong className="  mb-6 text-lg  font-subheading max-w-fit">
-                    {' '}
-                    Automation:{' '}
-                  </strong>
-                  The use of computers and technology to increase efficiency,
-                  reduce costs and increase productivity.
-                </li>
-                <li className="font-content  mt-6 text-justify selection:bg-Green selection:text-white">
-                  <strong className="  mb-6 text-lg  font-subheading max-w-fit">
-                    Information sharing:
-                  </strong>
-                  &nbsp;The use of electronic data interchange (EDI) to share
-                  information among all parties involved in an agricultural
-                  transaction.
-                </li>
-                <li className="font-content   mt-6 text-justify">
-                  <strong className="  mb-6 text-lg  font-subheading max-w-fit">
-                    Integration:
-                  </strong>
-                  &nbsp;Use of software applications to integrate different
-                  systems into a single system by sharing data between them.
-                </li>
-              </ol>
-            </div>
+                <p className="font-content  md:w-[33rem] mt-6 text-justify max-w-fit">
+                  The agricultural sector has been facing many challenges in
+                  recent years, including high costs and low productivity. These
+                  are some of the reasons why they need IT solutions.
+                </p>
+                <h2 className="  mb-6 text-lg  font-subheading max-w-fit">
+                  {' '}
+                  IT solutions can help them with:
+                </h2>
+                <ol className="list-disc max-w-fit px-2">
+                  <li className="font-content  mt-6 text-justify">
+                    <strong className="  mb-6 text-lg  font-subheading max-w-fit">
+                      {' '}
+                      Automation:{' '}
+                    </strong>
+                    The use of computers and technology to increase efficiency,
+                    reduce costs and increase productivity.
+                  </li>
+                  <li className="font-content  mt-6 text-justify selection:bg-Green selection:text-white">
+                    <strong className="  mb-6 text-lg  font-subheading max-w-fit">
+                      Information sharing:
+                    </strong>
+                    &nbsp;The use of electronic data interchange (EDI) to share
+                    information among all parties involved in an agricultural
+                    transaction.
+                  </li>
+                  <li className="font-content   mt-6 text-justify">
+                    <strong className="  mb-6 text-lg  font-subheading max-w-fit">
+                      Integration:
+                    </strong>
+                    &nbsp;Use of software applications to integrate different
+                    systems into a single system by sharing data between them.
+                  </li>
+                </ol>
+              </div>
+            </Slide>
             {/* Side Image*/}
           </div>
 
@@ -100,7 +109,9 @@ const AgricultureBody = () => {
             </div>
             <div className="flex flex-wrap md:flex-nowrap mx-auto gap-14  justify-between py-5">
               <div className="md:w-[50%] w-[100%]">
-                <Accordion />
+                <Slide bottom duration={3000}>
+                  <Accordion />
+                </Slide>
               </div>
               <div className="md:w-[50%] w-[100%]">
                 <div className="flex flex-col gap-6">
@@ -112,18 +123,22 @@ const AgricultureBody = () => {
                           key={ind}
                         >
                           <div className="overflow-hidden">
-                            <img
-                              src={curent.img1}
-                              alt="img"
-                              className="w-full hover:scale-125 transition duration-700 ease-in-out "
-                            />
+                            <Slide bottom duration={3000}>
+                              <img
+                                src={curent.img1}
+                                alt="img"
+                                className="w-full hover:scale-125 transition duration-700 ease-in-out "
+                              />
+                            </Slide>
                           </div>
                           <div className="overflow-hidden">
-                            <img
-                              src={curent.img2}
-                              alt="img"
-                              className="w-full hover:scale-125 transition duration-700 ease-in-out "
-                            />
+                            <Slide top duration={3000}>
+                              <img
+                                src={curent.img2}
+                                alt="img"
+                                className="w-full hover:scale-125 transition duration-700 ease-in-out "
+                              />
+                            </Slide>
                           </div>
                         </div>
                       </>

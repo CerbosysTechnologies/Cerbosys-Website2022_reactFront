@@ -19,7 +19,7 @@ const EducationBody = () => {
       <div className="mx-auto w-full py-10 px-4 ">
         <div className="max-w-[1240px] mx-auto">
           {/* Image Section */}
-          <div className="flex flex-wrap md:flex-nowrap justify-between items-center  gap-10 p-6">
+          <div className="flex flex-wrap md:flex-nowrap justify-between gap-10 p-6">
             {/* Mobile Image */}
             <div className="p-3 md:w-[50%] w-[100%]">
               <img
@@ -34,8 +34,8 @@ const EducationBody = () => {
             {/* Image Section Ends*/}
 
             {/* Side */}
-            <div className=" md:w-[50%] w-[100%]">
-              <h2 className="text-Primary md:text-3xl  mb-6 text-xl  font-heading">
+            <div className="p-3 md:w-[50%] w-[100%]">
+              <h2 className="text-Primary md:text-3xl  text-xl  font-heading">
                 EDUCATION
               </h2>
 
@@ -50,15 +50,21 @@ const EducationBody = () => {
                 that they need an IT solution to help them run efficiently and
                 effectively.
               </p>
+              <p className="font-content mt-6   text-justify ">
+                This is where Cerbosys comes in! We specialize in providing IT
+                solutions for educational institutes across the globe.Our
+                services include website development, mobile app development,
+                ERP & CRM software development.
+              </p>
             </div>
             {/* Side Image*/}
           </div>
-          <p className="font-content   px-8 text-justify ">
+          {/* <p className="font-content   px-8 text-justify ">
             This is where Cerbosys comes in! We specialize in providing IT
             solutions for educational institutes across the globe.Our services
             include website development, mobile app development, ERP & CRM
             software development.
-          </p>
+          </p> */}
 
           {/* Bullet Section */}
           <div className="mt-12">

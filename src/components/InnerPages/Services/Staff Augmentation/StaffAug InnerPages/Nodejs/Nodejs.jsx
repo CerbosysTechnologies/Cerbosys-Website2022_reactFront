@@ -34,14 +34,7 @@ const Nodejs = () => {
               NodeJS developers from Cerbosys.
             </p>
 
-            <Link to="/contact-us">
-              <button
-                className="bg-Primary rounded-full font-heading md:px-5 md:py-2 md:text-lg
-          text-white uppercase px-3 py-1.5 text-xs mb-2 mt-4"
-              >
-                Contact Us
-              </button>
-            </Link>
+            
           </div>
           {/* Content Section Ends*/}
         </div>

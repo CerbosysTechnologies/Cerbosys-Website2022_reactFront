@@ -8,7 +8,7 @@ const ClientLogoPage = () => {
         <div className="max-w-[1240px] mx-auto md:grid md:grid-cols-2">
           {/* Content Part */}
           <div className="flex flex-col text-justify justify-center md:px-16 px-4">
-            <h2 className="text-gray-500 font-heading md:text-xl text-lg uppercase mb-5">
+            <h2 className="text-black font-heading md:text-xl text-lg uppercase mb-5">
               Our Clients
             </h2>
             <h2 className="font-heading md:text-2xl text-lg text-gray-800 mb-5  text-justify">

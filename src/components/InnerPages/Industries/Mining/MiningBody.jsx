@@ -34,10 +34,10 @@ const MiningBody = () => {
                   </p>
                   <p className="mt-2">
                     {' '}
-                     Using big data to improve decision-making by providing
-                    more information about the market, customers, competitors,
-                    and suppliers. * Using analytics to optimize operations,
-                    including reducing costs and increasing efficiency. 
+                    Using big data to improve decision-making by providing more
+                    information about the market, customers, competitors, and
+                    suppliers. * Using analytics to optimize operations,
+                    including reducing costs and increasing efficiency.
                     Integrating legacy systems into new architectures that can
                     be more flexible and responsive to changing requirements.
                   </p>
@@ -48,8 +48,10 @@ const MiningBody = () => {
         </div>
       </div>
       {/* vertical tabs start */}
-      <div className="max-w-[1240px] mx-auto ">
-        <Miningtabs />
+      <div className="bg-EducationTabsbg py-10">
+        <div className="max-w-[1240px] mx-auto ">
+          <Miningtabs />
+        </div>
       </div>
       {/*vertical tabs end  */}
       {/* slider section start */}

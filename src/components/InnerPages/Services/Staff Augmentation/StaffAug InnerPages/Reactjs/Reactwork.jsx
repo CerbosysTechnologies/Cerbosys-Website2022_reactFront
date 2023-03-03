@@ -12,31 +12,31 @@ const Reactwork = () => {
     <>
       <div className="max-w-[1240px] mx-auto my-8">
         <Heading title="Why work with us" />
-        <div className="flex flex-row md:flex-nowrap flex-wrap  gap-10 mt-5">
+        <div className="flex flex-row md:flex-nowrap items-start flex-wrap  gap-10 mt-5">
           <div className="w-[100%] md:w-[50%]">
-            <div className="bg-Darkgray px-5 gap-6  flex items-center h-[200px]">
-              <div className="w-[22%]">
+            <div className="bg-Darkgray px-5 py-3 gap-6  flex  lg:h-[200px] h-fit ">
+              <div className="w-[22%] my-auto">
                 <img src={reacticon2} alt="img" className="w-full" />
               </div>
-              <div className="w-[78%]">
+              <div className="w-[78%] ">
                 <p className="font-heading text-Primary  mt-2 text-justify max-w-fit ">
                   5+ years on the market
                 </p>
-                <p className="font-content text-Primary   mt-2 text-justify max-w-fit ">
+                <p className="font-content text-Primary   mt-2 text-justify  max-w-fit ">
                   We’ve been delivering working code and awesome solutions
                   since2014. 90% of our current clients have stayed with us for
-                  morethan two years.s
+                  morethan two years.
                 </p>
               </div>
             </div>
           </div>
 
           <div className="w-[100%] md:w-[50%]">
-            <div className="bg-Darkgray px-5 py-3 lg:h-[200px] h-fit gap-6  flex items-center">
-              <div className="w-[22%]">
+            <div className="bg-Darkgray px-5 py-3 lg:h-[200px] h-fit gap-6  flex ">
+              <div className="w-[22%] my-auto">
                 <img src={reacticon3} alt="img" className="w-full" />
               </div>
-              <div className="w-[78%]">
+              <div className="w-[78%] ">
                 <p className="font-heading text-Primary  mt-2 text-justify max-w-fit ">
                   Talent pool
                 </p>
@@ -52,11 +52,11 @@ const Reactwork = () => {
         </div>
         <div className="flex flex-row md:flex-nowrap flex-wrap  gap-10 mt-5">
           <div className="w-[100%] md:w-[50%]">
-            <div className="bg-Darkgray px-5 gap-6  flex items-center lg:h-[200px] h-fit">
-              <div className="w-[22%]">
+            <div className="bg-Darkgray px-5  py-3 gap-6 lg:h-[200px]  flex  h-fit">
+              <div className="w-[22%] my-auto">
                 <img src={reacticon4} alt="img" className="w-full" />
               </div>
-              <div className="w-[78%]">
+              <div className="w-[78%] ">
                 <p className="font-heading text-Primary  mt-2 text-justify max-w-fit ">
                   Expertise fueled by experience
                 </p>
@@ -71,11 +71,11 @@ const Reactwork = () => {
           </div>
 
           <div className="w-[100%] md:w-[50%]">
-            <div className="bg-Darkgray px-5 lg:h-[200px] h-fit gap-6  flex items-center">
-              <div className="w-[22%]">
+            <div className="bg-Darkgray px-5  py-3 lg:h-[200px]  h-fit gap-6  flex ">
+              <div className="w-[22%] my-auto">
                 <img src={reacticon5} alt="img" className="w-full" />
               </div>
-              <div className="w-[78%]">
+              <div className="w-[78%] ">
                 <p className="font-heading text-Primary  mt-2 text-justify max-w-fit ">
                   Quality-driven technical skills
                 </p>
@@ -91,11 +91,11 @@ const Reactwork = () => {
         </div>
         <div className="flex flex-row md:flex-nowrap flex-wrap  gap-10 mt-5">
           <div className="w-[100%] md:w-[50%]">
-            <div className="bg-Darkgray px-5 gap-6  flex items-center lg:h-[200px] h-fit">
-              <div className="w-[22%]">
+            <div className="bg-Darkgray px-5  py-3 gap-6  flex lg:h-[200px]   h-fit">
+              <div className="w-[22%] my-auto">
                 <img src={reacticon7} alt="img" className="w-full" />
               </div>
-              <div className="w-[78%]">
+              <div className="w-[78%] ">
                 <p className="font-heading text-Primary  mt-2 text-justify max-w-fit ">
                   Low turnover rate
                 </p>
@@ -110,11 +110,11 @@ const Reactwork = () => {
           </div>
 
           <div className="w-[100%] md:w-[50%]">
-            <div className="bg-Darkgray px-5 lg:h-[200px] h-fit gap-6  flex items-center">
-              <div className="w-[22%]">
+            <div className="bg-Darkgray px-5  py-3 lg:h-[200px] h-fit gap-6  flex ">
+              <div className="w-[22%] my-auto">
                 <img src={reacticon8} alt="img" className="w-full" />
               </div>
-              <div className="w-[78%]">
+              <div className="w-[78%] ">
                 <p className="font-heading text-Primary  mt-2 text-justify max-w-fit ">
                   Transparent processes
                 </p>
