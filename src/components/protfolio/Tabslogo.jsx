@@ -7,6 +7,11 @@ import portlog5 from '../../assets/portfolio/portlog5.png';
 import portlog6 from '../../assets/portfolio/portlog6.png';
 import portlog7 from '../../assets/portfolio/portlog7.png';
 import portlog8 from '../../assets/portfolio/portlog8.png';
+import portlogo9 from '../../assets/portfolio/portlogo9.png';
+import portlogo10 from '../../assets/portfolio/portlogo10.png';
+import portlogo11 from '../../assets/portfolio/portlogo11.jpeg';
+import portlogo12 from '../../assets/portfolio/portlogo12.jpg';
+import portlogo13 from '../../assets/portfolio/portlogo13.jpeg';
 const Tabslogo = () => {
   return (
     <>
@@ -29,7 +34,7 @@ const Tabslogo = () => {
               <div className=" my-10">
                 <div className="shadow mx-auto  flex justify-center items-center w-[220px] h-[200px]">
                   <img
-                    src={portlog2}
+                    src={portlogo10}
                     alt="djhfj"
                     className="object-cover w-full p-5"
                   />
@@ -38,7 +43,7 @@ const Tabslogo = () => {
               <div className=" my-10">
                 <div className="shadow mx-auto  flex justify-center items-center w-[220px] h-[200px]">
                   <img
-                    src={portlog3}
+                    src={portlogo9}
                     alt="djhfj"
                     className="object-cover p-5"
                   />
@@ -48,7 +53,7 @@ const Tabslogo = () => {
             <div className="flex justify-center px-10 flex-col md:flex-row content-center items-center md:gap-y-20 gap-y-5 gap-x-8 text-black">
               <div className=" my-10">
                 <div className="shadow mx-auto  flex justify-center items-center w-[220px] h-[200px]">
-                  <img src={portlog4} alt="djhfj" className="w-full p-5" />
+                  <img src={portlogo11} alt="djhfj" className="w-full p-5" />
                 </div>
               </div>
               <div className="my-10">
@@ -74,7 +79,7 @@ const Tabslogo = () => {
               <div className=" my-10">
                 <div className="shadow  mx-auto  flex justify-center items-center w-[220px] h-[200px]">
                   <img
-                    src={portlog7}
+                    src={portlogo12}
                     alt="djhfj"
                     className="object-fill w-full p-5"
                   />
@@ -92,11 +97,7 @@ const Tabslogo = () => {
               </div>
               <div className=" my-10">
                 <div className="shadow mx-auto  flex justify-center items-center w-[220px] h-[200px]">
-                  <img
-                    src={portlog8}
-                    alt="djhfj"
-                    className="object-cover p-5"
-                  />
+                  <img src={portlogo13} alt="djhfj" className=" px-5" />
                 </div>
               </div>
             </div>
