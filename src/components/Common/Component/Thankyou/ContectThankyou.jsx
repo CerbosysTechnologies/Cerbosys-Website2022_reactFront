@@ -53,8 +53,8 @@ function ContectThankyou() {
                   >
                     Thank You !
                   </h1>
-                  <p className="font-heading md:text-xl text-lg">
-                    Thank you for contacting us!<br></br> Our team of experts
+                  <p className="font-heading md:text-xl text-lg text-center">
+                    Thank you for co ntacting us!<br></br> Our team of experts
                     will get back to you shortly.
                   </p>
                   <a class="inline-flex items-center px-4 py-2 text-white bg-indigo-600 border border-indigo-600 rounded rounded-full hover:bg-indigo-700 focus:outline-none focus:ring">

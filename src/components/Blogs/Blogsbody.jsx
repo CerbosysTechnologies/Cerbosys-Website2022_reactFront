@@ -78,7 +78,7 @@ function Blogsbody() {
   return (
     <>
       <div className=" mx-auto">
-        <div className=" flex flex-wrap justify-center ">
+        <div className=" flex flex-wrap justify-center">
           {blogdata ? (
             blogdata.map((item, index) => (
               <div
@@ -90,7 +90,7 @@ function Blogsbody() {
                   <div className="flex justify-center">
                     {/* <img
                   class="md:h-[300px] md:w-[300px] scale-90  rounded-lg hover:scale-100 ease-in duration-1000"
-                  src={Websait}
+                  src={Websait}  
                   alt="Mountain"
                 /> */}
                     {item.blogImg.map((element) => {

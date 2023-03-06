@@ -27,13 +27,18 @@ const Thankumodal = () => {
             rounded-lg text-left shadow-xl transform transition-all  "
           >
             <div className="flex items-center justify-center h-screen">
-              <div className="p-1 rounded shadow-lg bg-gradient-to-r from-purple-500 via-green-500 to-blue-500">
+              <div
+                className="p-1 rounded shadow-lg
+             
+               "
+              >
+                {/*  //  bg-gradient-to-r from-purple-500 via-green-500 to-blue-500 */}
                 <div
                   className="flex flex-col items-center p-4 space-y-2 bg-white rounded-lg  "
-                  style={{
-                    background:
-                      'linear-gradient(180deg, rgba(156,195,255,1) 30%, rgba(138,255,116,1) 100%)',
-                  }}
+                  // style={{
+                  //   background:
+                  //     'linear-gradient(180deg, rgba(156,195,255,1) 30%, rgba(138,255,116,1) 100%)',
+                  // }}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -49,16 +54,17 @@ const Thankumodal = () => {
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <h1
-                    className="md:text-4xl  font-extrabold 
-                    text-green-600 font-heading text-xl"
+                  {/*  text-green-600 */}
+                  {/* <h1
+                    className="md:text-4xl text-center  font-extrabold 
+                    font-heading text-xl"
                   >
                     Thank You !
                   </h1>
-                  <p className="font-heading md:text-xl text-lg">
+                  <p className="font-heading md:text-xl text-lg text-center ">
                     Thank you for contacting us!<br></br> Our team of experts
                     will get back to you shortly.
-                  </p>
+                  </p> */}
                   <a class="inline-flex items-center px-4 py-2 text-white bg-indigo-600 border border-indigo-600 rounded rounded-full hover:bg-indigo-700 focus:outline-none focus:ring">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

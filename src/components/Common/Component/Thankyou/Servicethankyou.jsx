@@ -2,7 +2,7 @@ import React from 'react';
 
 function Servicethankyou() {
   return (
-    <div className="selection:bg-Green selection:text-white">
+    <div className="selection:bg-Green selection:text-white ">
       <div
         className="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden"
         id="ServiceThankyou"
@@ -22,15 +22,16 @@ function Servicethankyou() {
              justify-items-center
         
       
-            rounded-lg text-left shadow-xl transform transition-all  "
+            rounded-lg text-left shadow-xl transform transition-all "
           >
+            {/* bg-gradient-to-r from-purple-500 via-green-500 to-blue-500 */}
             <div className="flex items-center justify-center h-screen">
-              <div className="p-1 rounded shadow-lg bg-gradient-to-r from-purple-500 via-green-500 to-blue-500">
+              <div className="p-1 rounded shadow-lg">
+                {/*  'linear-gradient(180deg, rgba(156,195,255,1) 30%, rgba(138,255,116,1) 100%)', bg-white */}
                 <div
-                  className="flex flex-col items-center p-4 space-y-2 bg-white rounded-lg  "
+                  className="flex flex-col items-center p-28 space-y-2 rounded-lg  "
                   style={{
-                    background:
-                      'linear-gradient(180deg, rgba(156,195,255,1) 30%, rgba(138,255,116,1) 100%)',
+                    background: 'radial-gradient(white , #bee3ba )',
                   }}
                 >
                   <svg
@@ -49,15 +50,15 @@ function Servicethankyou() {
                   </svg>
                   <h1
                     className="md:text-4xl  font-extrabold 
-                    text-green-600 font-heading text-xl"
+                    text-green-600 font-heading text-xl text-center"
                   >
                     Thank You !
                   </h1>
-                  <p className="font-heading md:text-xl text-lg">
+                  <p className="font-heading md:text-xl text-lg text-center">
                     Thank you for contacting us!<br></br> Our team of experts
                     will get back to you shortly.
                   </p>
-                  <a class="inline-flex items-center px-4 py-2 text-white bg-indigo-600 border border-indigo-600 rounded rounded-full hover:bg-indigo-700 focus:outline-none focus:ring">
+                  <a class="inline-flex items-center px-4 py-2 mt-6 text-white bg-indigo-600 border border-indigo-600 rounded rounded-full hover:bg-indigo-700 focus:outline-none focus:ring">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       class="w-3 h-3 mr-2"

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import reacticon2 from '../../../../../../assets/innerpage/reactjs/reacticon2.png';
 import reacticon3 from '../../../../../../assets/innerpage/reactjs/reacticon3.png';
 import reacticon4 from '../../../../../../assets/innerpage/reactjs/reacticon4.png';
@@ -138,9 +139,11 @@ const Reactwork = () => {
             </p>
           </div>
           <div className="mt-2">
-            <button className="bg-Primary px-10 py-3 text-white">
-              Schedule a call
-            </button>
+            <Link to="/contact-us">
+              <button className="bg-Primary px-10 py-3 text-white">
+                Schedule a call
+              </button>
+            </Link>
           </div>
         </div>
         {/* tell us about ur busniss end */}

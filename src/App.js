@@ -59,6 +59,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Portfolio from './components/protfolio/Portfolio';
 import NotFound from './components/Common/Component/NotFound';
+import Servicethankyou from './components/Common/Component/Thankyou/Servicethankyou';
 function App() {
   // dark mood functions start
   // const [theme, setTheme] = useState('light');
@@ -167,6 +168,7 @@ function App() {
           <Route path="/solution/E-Commerse" element={<ECommerse />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+
         <Footer />
       </div>
       <ScrollToTop />

@@ -96,7 +96,7 @@ export const EcommerceBody = () => {
                   becomes necessary for you to invest more time and money into
                   making sure everything is done correctly.
                 </p>
-              </div>
+              </div> 
             </Slide>
             {/* Side Image*/}
           </div>
