@@ -1,6 +1,7 @@
 import React from 'react';
 import ecommerfashi from '../../assets/portfolio/ecommerfashi.png';
 import Tabslogo from './Tabslogo';
+import Tabsmouckup from './Tabsmouckup';
 
 import Tabs2 from './Tabspost';
 import Tabspost from './Tabspost';
@@ -147,57 +148,7 @@ const Portfoliotabs = ({ color }) => {
                     className={openTab === 4 ? 'block' : 'hidden'}
                     id="link3"
                   >
-                    <div className="flex  justify-between flex-col md:flex-row   gap-6 text-white">
-                      <div className="md:w-[50%] w-[100%]"> </div>
-                      <div className="md:w-[50%] w-[100%]">
-                        {/* <img
-                          src={tab3img}
-                          alt="djhfj"
-                          className="md:h-[24rem] mx-auto"
-                        /> */}
-                      </div>
-                    </div>
-                    <div className="flex  justify-between flex-col md:flex-row content-center items-center gap-6 text-white">
-                      <div className="md:w-[50%] w-[100%]">
-                        {' '}
-                        <p className=" font-subheading text-justify mt-4">
-                          Artificial intelligence (AI) is a type of machine
-                          learning that gives computers the ability to learn and
-                          make decisions. It's considered one of the most
-                          important technologies in education because it allows
-                          teachers and students to better understand how people
-                          learn, which means they can create more effective
-                          educational programs and materials for learners.
-                        </p>
-                        <p className="font-subheading text-justify mt-6">
-                          AI can be used in many different ways in education:
-                        </p>
-                        <ul className="mt-5 list-disc">
-                          <li className="mt-3">
-                            To develop models that predict student learning
-                            outcomes based on their previous performance,
-                            allowing teachers to better target their
-                            instruction.
-                          </li>
-                          <li className="mt-3">
-                            To create personalized learning experiences for
-                            students based on their interests and skill level.
-                          </li>
-                          <li className="mt-3">
-                            To provide tutoring services that adapt as each
-                            student progresses through the course material so
-                            they can focus on areas where they need extra help.
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="md:w-[50%] w-[100%]">
-                        {/* <img
-                          src={tab3img}
-                          alt="djhfj"
-                          className="md:h-[24rem] mx-auto"
-                        /> */}
-                      </div>
-                    </div>
+                    <Tabsmouckup />
                   </div>
                   {/*end fourth tab mockp*/}
                 </div>
