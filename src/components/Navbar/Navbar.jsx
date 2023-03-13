@@ -223,19 +223,21 @@ const Navbar = () => {
           </ul>
 
           {/* Call Icon */}
-          <div className="md:flex hidden">
-            <img
-              className="w-[40px] h-[30px] mr-1 cursor-pointer"
-              src={callicon}
-              alt="callicon"
-            />
-            <span
-              className={`text-sm font-heading mt-1 
+          <a href="tel:+91 9826906988">
+            <div className="md:flex hidden">
+              <img
+                className="w-[40px] h-[30px] mr-1 cursor-pointer"
+                src={callicon}
+                alt="callicon"
+              />
+              <span
+                className={`text-sm font-heading mt-1 
           ${!headerVisible ? 'text-white' : 'text-black'}`}
-            >
-              +91 9826906988
-            </span>
-          </div>
+              >
+                +91 9826906988
+              </span>
+            </div>
+          </a>
 
           {/* Menu Ends */}
 
