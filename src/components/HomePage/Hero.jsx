@@ -12,7 +12,9 @@ import MovingComponent from 'react-moving-text';
 import Recommendations from './Recommendations';
 import { Link } from 'react-router-dom';
 import Slide from 'react-reveal/Slide';
+import Bounce from 'react-reveal/Bounce';
 import { Helmet } from 'react-helmet';
+import Roll from 'react-reveal/Roll';
 const Hero = () => {
   {
     /* animation for buthhon logic start */
@@ -51,7 +53,7 @@ const Hero = () => {
           {/* md:w-[1000px] */}
           <p className="text-white text-center font-heading py-3 md:text-6xl text-xl  mb-8 md:mt-2 mt-24 min-w-fit">
             {/* The Ideal Web and Mobile Solutions for your emerging business- You’re just one click away!! */}
-            <span className="whitespace-nowrap text-white text-center font-heading py-3 md:text-5xl text-xl   mb-8 md:mt-2 mt-24">
+            <span className=" whitespace-nowrap text-white text-center font-heading py-3 md:text-5xl text-xl   mb-8 md:mt-2 mt-24">
               WE WORK FOR
               <TypeWriter
                 textStyle={{
@@ -103,7 +105,9 @@ const Hero = () => {
           <p className="font-heading text-white md:text-base text-xs md:mt-3 mt-10">
             {/* <div style={exampleStyle}> */}
             <div className="uppercase flex md:mt-8">
-              <div>Let's collaborate to &nbsp;</div>
+              <Roll bottom>
+                <div className="">Let's collaborate to &nbsp;</div>
+              </Roll>
               <div>
                 <MovingComponent
                   onAnimationEnd={handleChainAnimation}
@@ -113,12 +117,13 @@ const Hero = () => {
                   fillMode="forwards"
                   iteration={500}
                 >
-                  {/* <Slide left duration={3000}> */}
-                  &nbsp;@accelerate&nbsp;
-                  {/* </Slide> */}
+                  <Bounce left>&nbsp;@accelerate&nbsp;</Bounce>
                 </MovingComponent>
               </div>
-              <div> &nbsp;your business growth </div>
+              <Roll bottom>
+                {' '}
+                <div> &nbsp;your business growth </div>
+              </Roll>
             </div>
             {/* <Random
               text="Let's collaborate to accelerate your

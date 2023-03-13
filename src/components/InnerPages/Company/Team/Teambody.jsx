@@ -126,11 +126,6 @@ const Teambody = () => {
                   />
                 </div>
               </div>
-              {/* <img
-                src={vineeticon}
-                alt="Vineet Goyel"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
 
               <p className="font-heading md:text-lg text-sm text-center mt-6">
                 Hello, I am Vineet Goyel
@@ -162,11 +157,6 @@ const Teambody = () => {
                   />
                 </div>
               </div>
-              {/* <img
-                src={nidhimam1}
-                alt="Nidhi Goyel"
-                className="md:w-72 md:h-72 w-56 h-56 "
-              /> */}
 
               <p className="font-heading md:text-lg text-sm text-center md:mt-4">
                 Hi, I am Nidhi Garg Goyel
@@ -202,11 +192,6 @@ const Teambody = () => {
                   />
                 </div>
               </div>
-              {/* <img
-                src={jyotiicon}
-                alt="Jyoti Rajpal"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
 
               <p className="font-heading md:text-lg text-sm text-center md:mt-4">
                 Hi, I am Jyoti Rajpal
@@ -239,11 +224,6 @@ const Teambody = () => {
                   />
                 </div>
               </div>
-              {/* <img
-                src={sadaficon}
-                alt="Sadaf Armaani"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
 
               <p className="font-heading md:text-lg text-sm text-center md:mt-4">
                 Hello, I am Samita Singhal,
@@ -280,11 +260,6 @@ const Teambody = () => {
                   />
                 </div>
               </div>{' '}
-              {/* <img
-                src={aarificon}
-                alt="Aarif Hussain"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
                 Hi, I am Aarif Husain
                 <br></br>Senior Designer
@@ -315,11 +290,6 @@ const Teambody = () => {
                   />
                 </div>
               </div>
-              {/* <img
-                src={kanchanicon}
-                alt="Kanchan Gupta"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
 
               <p className="font-heading md:text-lg text-sm text-center mt-6">
                 Hello, I am Kanchan Gupta
@@ -355,11 +325,6 @@ const Teambody = () => {
                   />
                 </div>
               </div>
-              {/* <img
-                src={omicon}
-                alt="Om Prakash"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
 
               <p className="font-heading md:text-lg text-sm text-center mt-6">
                 Hey, I am Omprakash Nath
@@ -391,11 +356,6 @@ const Teambody = () => {
                   />
                 </div>
               </div>
-              {/* <img
-                src={shewtaicon}
-                alt="Shweta Deshpande"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
 
               <p className="font-heading md:text-lg text-sm text-center mt-10">
                 Hey, this is Shweta Deshpande
@@ -431,11 +391,6 @@ const Teambody = () => {
                   />
                 </div>
               </div>
-              {/* <img
-                src={akashicon}
-                alt="Akash Yadav"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
 
               <p className="font-heading md:text-lg text-sm text-center mt-6">
                 Hey, I am Akash Yadav
@@ -468,15 +423,10 @@ const Teambody = () => {
                   />
                 </div>
               </div>
-              {/* <img
-                src={laliticon}
-                alt="Lalit Yadav"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
 
               <p className="font-heading md:text-lg text-sm text-center md:mt-4">
                 Hey, I am Lalit Yadav
-                <br></br> Front end Developer
+                <br></br>Senior Frontend Developer
                 <br></br>
                 <i className="text-Green">
                   “Don’t break the code, just write it”
@@ -508,11 +458,6 @@ const Teambody = () => {
                   />
                 </div>
               </div>
-              {/* <img
-                src={rishabhicon}
-                alt="Rishabh Shrivastava"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
 
               <p className="font-heading md:text-lg text-sm text-center md:mt-4">
                 Hi, I am Rishabh Shrivastava
@@ -579,11 +524,6 @@ const Teambody = () => {
                   />
                 </div>
               </div>{' '}
-              {/* <img
-                src={shubhamicon}
-                alt="Shubham Shrivastava"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
                 Hello, I am Shubham Shrivastava
                 <br></br> Content Writer
@@ -614,11 +554,6 @@ const Teambody = () => {
                   />
                 </div>
               </div>{' '}
-              {/* <img
-                src={rajnimam1}
-                alt="Prashant Goutam"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
                 Hey, I am Rajni Gajabhiye
                 <br></br> Tester
@@ -657,7 +592,7 @@ const Teambody = () => {
               /> */}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
                 Hi, I am Pratigya Jain
-                <br></br> Frontend developer
+                <br></br> HTML/CSS Developer
                 <br></br>
                 <i className="text-Green">“There’s no test like production.”</i>
               </p>
@@ -682,38 +617,17 @@ const Teambody = () => {
                   />
                 </div>
               </div>{' '}
-              {/* <img
-                src={rajniicon}
-                alt="Rajni Gajabhiye"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hey, I am Anil Banwar
-                <br></br> Senior FullStack Developer.
+                Hey, I am Saloni Jain
+                <br></br>Business Development Specialist
                 <br></br>
                 <i className="text-Primary">
                   “Let’s write a code to solve your problem”
                 </i>
               </p>
             </div>
-            {/* <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
-              <img
-                src={boysblue}
-                alt="Anil Banwar"
-                className="md:w-72 md:h-72 w-56 h-56"
-              />
-
-              <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hey, I am Anil Banwar
-                <br></br> Senior FullStack Developer.
-                <br></br>
-                <i className="text-Primary">
-                  “Let’s write a code to solve your problem”
-                </i>
-              </p>
-            </div> */}
           </div>
-          {/* 9 Grid Ends */}
+          {/* 9 Grid Ends  */}
 
           {/* 10 grid start */}
           <div className="grid md:grid-cols-2 mt-8">
@@ -737,13 +651,8 @@ const Teambody = () => {
                   />
                 </div>
               </div>{' '}
-              {/* <img
-                src={shubhamicon}
-                alt="Shubham Shrivastava"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hello, I am Saloni Jain
+                Hello, I am Divya Prabhakar
                 <br></br> Business Development Specialist
                 <br></br>
                 <i className="text-Primary">
@@ -772,14 +681,9 @@ const Teambody = () => {
                   />
                 </div>
               </div>{' '}
-              {/* <img
-                src={rajnimam1}
-                alt="Prashant Goutam"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hey, I am Divya Prabhakar
-                <br></br> Business Development Specialist
+                Hey, I am Chandraprakash Patidar
+                <br></br> Backend Developer
                 <br></br>
                 <i className="text-Green">“Press any KEY to continue…”</i>
               </p>
@@ -787,75 +691,7 @@ const Teambody = () => {
           </div>
           {/* 10 grid end */}
           {/* 11 GRID START */}
-          <div className="grid md:grid-cols-2 mt-8">
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
-              <div className="relative cursor-pointer">
-                <img
-                  src={greenboys}
-                  alt="Mohit Nayak"
-                  className="w-[280px] mx-auto 
-              
-               "
-                />
-                <div className="absolute inset-1">
-                  {' '}
-                  <img
-                    src={tryimg6}
-                    alt="Mohit Nayak"
-                    className="w-[280px] mx-auto
-           hover:animate-cyclieing-hand
-               "
-                  />
-                </div>
-              </div>{' '}
-              {/* <img
-                src={shubhamicon}
-                alt="Shubham Shrivastava"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
-              <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hello, I am Ajaj Meer
-                <br></br> Backend developer
-                <br></br>
-                <i className="text-Primary">
-                  “Content without emotion, is like a brand without promotion.”
-                </i>
-              </p>
-            </div>
 
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
-              <div className="relative cursor-pointer">
-                <img
-                  src={boysblue}
-                  alt="Shubham Khushwah"
-                  className="w-[280px] mx-auto 
-              
-               "
-                />
-                <div className="absolute inset-1">
-                  {' '}
-                  <img
-                    src={tryimg6}
-                    alt="Shubham Khushwah"
-                    className="w-[280px] mx-auto
-           hover:animate-cyclieing-hand
-               "
-                  />
-                </div>
-              </div>{' '}
-              {/* <img
-                src={rajnimam1}
-                alt="Prashant Goutam"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
-              <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hey, I am Shubham Khushwah
-                <br></br> Backend developer
-                <br></br>
-                <i className="text-Green">“Press any KEY to continue…”</i>
-              </p>
-            </div>
-          </div>
           {/* 11 GRID END */}
           {/* 12 grid start */}
           <div className="grid md:grid-cols-2 mt-8">
@@ -879,14 +715,9 @@ const Teambody = () => {
                   />
                 </div>
               </div>{' '}
-              {/* <img
-                src={shubhamicon}
-                alt="Shubham Shrivastava"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hello, I am Chandraprakash Patidar
-                <br></br> Backend developer
+                Hello, I am Deepika Phool
+                <br></br> Reactjs Developer
                 <br></br>
                 <i className="text-Primary">
                   “Content without emotion, is like a brand without promotion.”
@@ -914,14 +745,9 @@ const Teambody = () => {
                   />
                 </div>
               </div>{' '}
-              {/* <img
-                src={rajnimam1}
-                alt="Prashant Goutam"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hey, I am Deepika Phool
-                <br></br> Frontend developer
+                Hey, I am Sapna Prajapat
+                <br></br>UI/UX and Graphic Designer
                 <br></br>
                 <i className="text-Green">“Press any KEY to continue…”</i>
               </p>
@@ -950,14 +776,9 @@ const Teambody = () => {
                   />
                 </div>
               </div>{' '}
-              {/* <img
-                src={shubhamicon}
-                alt="Shubham Shrivastava"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hello, I am Sapna Prajapat
-                <br></br> UI/UX and Graphic Designer
+                Hello, I am Harshika Bhalekar
+                <br></br> Business Development
                 <br></br>
                 <i className="text-Primary">
                   “Content without emotion, is like a brand without promotion.”
@@ -985,14 +806,9 @@ const Teambody = () => {
                   />
                 </div>
               </div>{' '}
-              {/* <img
-                src={rajnimam1}
-                alt="Prashant Goutam"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hey, I am Shubham Khushwah
-                <br></br> Backend developer
+                Hey, I am Harshika Bhalekar
+                <br></br> Business Development
                 <br></br>
                 <i className="text-Green">“Press any KEY to continue…”</i>
               </p>
@@ -1021,11 +837,6 @@ const Teambody = () => {
                   />
                 </div>
               </div>{' '}
-              {/* <img
-                src={rajnimam1}
-                alt="Prashant Goutam"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
                 Hey, I am CS Bairagi
                 <br></br> Senior .Net Developer
@@ -1056,11 +867,6 @@ const Teambody = () => {
                   />
                 </div>
               </div>{' '}
-              {/* <img
-                src={shubhamicon}
-                alt="Shubham Shrivastava"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
                 Hey, I am Mohit Nayak
                 <br></br>Senior Php Developer.
@@ -1071,33 +877,63 @@ const Teambody = () => {
           </div>
           {/* 14 Grid Ends */}
 
-          {/* 15 Grid */}
-
-          <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
-            <div className="relative cursor-pointer">
-              <img
-                src={gourboth}
-                alt="Mohit Nayak"
-                className="w-[280px] mx-auto 
+          {/* 15 Grid  Anil Banwar  Senior FullStack Developer.*/}
+          <div className="grid md:grid-cols-2 mt-8">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
+              <div className="relative cursor-pointer">
+                <img
+                  src={boysblue}
+                  alt="Mohit Nayak"
+                  className="w-[280px] mx-auto 
               
                "
-              />
-              <div className="absolute inset-1">
-                {' '}
-                <img
-                  src={tryimg6}
-                  alt="Mohit Nayak"
-                  className="w-[280px] mx-auto
+                />
+                <div className="absolute inset-1">
+                  {' '}
+                  <img
+                    src={tryimg6}
+                    alt="Mohit Nayak"
+                    className="w-[280px] mx-auto
            hover:animate-cyclieing-hand
                "
+                  />
+                </div>
+              </div>{' '}
+              <p className="font-heading md:text-lg text-sm text-center mt-4">
+                Hii, I am Anil Banwar😊
+                <br></br> Senior FullStack Developer.
+                <br></br>
+                <i className="text-Green">“Press any KEY to continue…”</i>
+              </p>
+            </div>
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
+              <div className="relative cursor-pointer">
+                <img
+                  src={gourboth}
+                  alt="Mohit Nayak"
+                  className="w-[280px] mx-auto 
+              
+               "
                 />
-              </div>
-            </div>{' '}
-            <p className="font-heading md:text-lg text-sm text-center mt-4">
-              Hii, I am your new mate 😊
-              <br></br>
-              <i className="text-Primary">“Looking forward to join you soon”</i>
-            </p>
+                <div className="absolute inset-1">
+                  {' '}
+                  <img
+                    src={tryimg6}
+                    alt="Mohit Nayak"
+                    className="w-[280px] mx-auto
+           hover:animate-cyclieing-hand
+               "
+                  />
+                </div>
+              </div>{' '}
+              <p className="font-heading md:text-lg text-sm text-center mt-4">
+                Hii, I am your new mate 😊
+                <br></br>
+                <i className="text-Primary">
+                  “Looking forward to join you soon”
+                </i>
+              </p>
+            </div>
           </div>
 
           {/* 15 Grid Ends */}
