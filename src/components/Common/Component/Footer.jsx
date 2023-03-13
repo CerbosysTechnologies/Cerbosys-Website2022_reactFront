@@ -8,6 +8,7 @@ import locationicon from '../../../assets/footer/FooterLoction.svg';
 import twittericon from '../../../assets/footer/Twittter.svg';
 import whatsappicon from '../../../assets/footer/FoterColl.svg';
 import youtubeicon from '../../../assets/footer/Youtube.svg';
+import Whats from '../../../assets/footer/Whatsp.svg';
 import footerlogo from '../../../assets/footer/FooterLogosCer.svg';
 import { HiOutlineArrowSmRight } from 'react-icons/hi';
 import right from '../../../assets/footer/right.svg';
@@ -420,6 +421,17 @@ const Footer = () => {
               alt="Facebook Icon"
               className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
             />
+            <a
+              href="https://wa.me/9826906988"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={Whats}
+                alt="whatsp Icon"
+                className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
+              />
+            </a>
           </div>
 
           {/* Social Icons Div Ends*/}
