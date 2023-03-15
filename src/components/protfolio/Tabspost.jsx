@@ -7,7 +7,22 @@ import postimg5 from '../../assets/portfolio/postimg5.png';
 import postimg6 from '../../assets/portfolio/postimg6.png';
 import postimg7 from '../../assets/portfolio/postimg7.png';
 import real from '../../assets/portfolio/real.mp4';
+import reel2 from '../../assets/portfolio/reel2.mp4';
+import reel3 from '../../assets/portfolio/reel3.mp4';
+import reel4 from '../../assets/portfolio/reel4.mp4';
+import reel5 from '../../assets/portfolio/reel5.mp4';
+import postiim5 from '../../assets/portfolio/postiim5.png';
+import postim from '../../assets/portfolio/postim.png';
+import postim6 from '../../assets/portfolio/postim6.png';
+import postim7 from '../../assets/portfolio/postim7.png';
+import postimg2 from '../../assets/portfolio/postimg2.png';
+import postim0 from '../../assets/portfolio/postim0.png';
+import postim8 from '../../assets/portfolio/postim8.png';
+import postim9 from '../../assets/portfolio/postim9.png';
 import InfiniteScroll from 'react-infinite-scroll-component';
+import reel8 from '../../assets/portfolio/reel8.mp4';
+import reel9 from '../../assets/portfolio/reel9.mp4';
+import reel0 from '../../assets/portfolio/reel0.mp4';
 
 const Tabspost = () => {
   const data = [
@@ -52,7 +67,7 @@ const Tabspost = () => {
                 <div className="w-1/2 p-1 md:p-2">
                   <img
                     alt="gallery"
-                    className="block h-full w-full  rounded-2xl  object-fill  object-center hover:opacity-2"
+                    className="block h-full w-full  rounded-2xl  object-fill  object-center "
                     src={Sarthipost2}
                   />
                 </div>
@@ -99,8 +114,32 @@ const Tabspost = () => {
                 <div className="w-full p-1 md:p-2">
                   <img
                     alt="gallery"
-                    className="block h-full w-full  rounded-2xl  object-cover object-center"
-                    src={postimg1}
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src={postim}
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src={postiim5}
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <video
+                    className="rounded-2xl"
+                    src={reel2}
+                    controls
+                    autoPlay
+                  ></video>
+                </div>
+              </div>
+              <div className="flex w-1/2 flex-wrap">
+                <div className="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full rounded-2xl object-fill object-center"
+                    src={postimg7}
                   />
                 </div>
                 <div className="w-1/2 p-1 md:p-2">
@@ -112,8 +151,55 @@ const Tabspost = () => {
                 </div>
                 <div className="w-1/2 p-1 md:p-2">
                   <video
-                    className="rounded-2xl"
-                    src={real}
+                    className=" rounded-2xl "
+                    src={reel5}
+                    controls
+                    autoPlay
+                  ></video>
+                </div>
+              </div>
+              <div className="flex w-1/2 flex-wrap">
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src={postimg2}
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src={postim6}
+                  />
+                </div>
+                <div className="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src={Sarthipost2}
+                  />
+                </div>
+              </div>
+              <div className="flex w-1/2 flex-wrap">
+                <div className="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src={postimg1}
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src={postimg2}
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <video
+                    className=" rounded-2xl "
+                    src={reel4}
                     controls
                     autoPlay
                   ></video>
@@ -123,68 +209,21 @@ const Tabspost = () => {
                 <div className="w-full p-1 md:p-2">
                   <img
                     alt="gallery"
-                    className="block h-full w-full rounded-2xl object-cover object-center"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
+                    src={postimg1}
+                  />
+                </div>
+                <div className="w-1/2 p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block h-full w-full  rounded-2xl  object-fill object-center"
                     src={postimg7}
                   />
                 </div>
                 <div className="w-1/2 p-1 md:p-2">
-                  <img
-                    alt="gallery"
-                    className="block h-full w-full  rounded-2xl  object-cover object-center"
-                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
-                  />
-                </div>
-                <div className="w-1/2 p-1 md:p-2">
                   <video
                     className=" rounded-2xl "
-                    src={real}
-                    controls
-                    autoPlay
-                  ></video>
-                </div>
-              </div>
-              <div className="flex w-1/2 flex-wrap">
-                <div className="w-1/2 p-1 md:p-2">
-                  <img
-                    alt="gallery"
-                    className="block h-full w-full  rounded-2xl  object-cover object-center"
-                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"
-                  />
-                </div>
-                <div className="w-1/2 p-1 md:p-2">
-                  <img
-                    alt="gallery"
-                    className="block h-full w-full  rounded-2xl  object-fill object-center"
-                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"
-                  />
-                </div>
-                <div className="w-full p-1 md:p-2">
-                  <img
-                    alt="gallery"
-                    className="block h-full w-full  rounded-2xl  object-fill object-center"
-                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                  />
-                </div>
-              </div>
-              <div className="flex w-1/2 flex-wrap">
-                <div className="w-full p-1 md:p-2">
-                  <img
-                    alt="gallery"
-                    className="block h-full w-full  rounded-2xl  object-fill object-center"
-                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
-                  />
-                </div>
-                <div className="w-1/2 p-1 md:p-2">
-                  <img
-                    alt="gallery"
-                    className="block h-full w-full  rounded-2xl  object-fill object-center"
-                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
-                  />
-                </div>
-                <div className="w-1/2 p-1 md:p-2">
-                  <video
-                    className=" rounded-2xl "
-                    src={real}
+                    src={reel3}
                     controls
                     autoPlay
                   ></video>
@@ -194,32 +233,8 @@ const Tabspost = () => {
                 <div className="w-full p-1 md:p-2">
                   <img
                     alt="gallery"
-                    className="block h-full w-full  rounded-2xl  object-cover object-center"
-                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
-                  />
-                </div>
-                <div className="w-1/2 p-1 md:p-2">
-                  <img
-                    alt="gallery"
-                    className="block h-full w-full  rounded-2xl  object-cover object-center"
-                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
-                  />
-                </div>
-                <div className="w-1/2 p-1 md:p-2">
-                  <video
-                    className=" rounded-2xl "
-                    src={real}
-                    controls
-                    autoPlay
-                  ></video>
-                </div>
-              </div>
-              <div className="flex w-1/2 flex-wrap">
-                <div className="w-full p-1 md:p-2">
-                  <img
-                    alt="gallery"
-                    className="block h-full w-full rounded-2xl  object-cover object-center"
-                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
+                    className="block h-full w-full rounded-2xl  object-fill object-center"
+                    src={postimg2}
                   />
                 </div>
                 <div className="w-1/2 p-1 md:p-2">
@@ -243,21 +258,21 @@ const Tabspost = () => {
                   <img
                     alt="gallery"
                     className="block h-full w-full rounded-2xl   object-fill object-center"
-                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"
+                    src={postimg2}
                   />
                 </div>
                 <div className="w-1/2 p-1 md:p-2">
                   <img
                     alt="gallery"
                     className="block h-full w-full  rounded-2xl  object-fill object-center"
-                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"
+                    src={postimg1}
                   />
                 </div>
                 <div className="w-full p-1 md:p-2">
                   <img
                     alt="gallery"
                     className="block h-full w-full  rounded-2xl  object-fill object-center"
-                    src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                    src={postimg2}
                   />
                 </div>
               </div>
@@ -266,7 +281,7 @@ const Tabspost = () => {
                   <img
                     alt="gallery"
                     className="block h-full w-full  rounded-2xl  object-fill  object-center"
-                    src={Sarthipost2}
+                    src={postim8}
                   />
                 </div>
                 <div className="w-1/2 p-1 md:p-2">
@@ -300,33 +315,36 @@ const Tabspost = () => {
                   />
                 </div>
                 <div className="w-1/2 p-1 md:p-2">
-                  <img
-                    alt="gallery"
-                    className="block h-full w-full  rounded-2xl   object-fill object-center"
-                    src={postimg1}
-                  />
+                  <video
+                    className=" rounded-2xl "
+                    src={reel8}
+                    controls
+                    autoPlay
+                  ></video>
                 </div>
               </div>
               <div className="flex w-1/2 flex-wrap">
                 <div className="w-1/2 p-1 md:p-2">
-                  <img
-                    alt="gallery"
-                    className="block h-full w-full  rounded-2xl  object-fill object-center"
-                    src={postimg5}
-                  />
+                  <video
+                    className=" rounded-2xl "
+                    src={reel9}
+                    controls
+                    autoPlay
+                  ></video>
                 </div>
                 <div className="w-1/2 p-1 md:p-2">
-                  <img
-                    alt="gallery"
-                    className="block h-full w-full  rounded-2xl   object-fill object-center"
-                    src={postimg4}
-                  />
+                  <video
+                    className=" rounded-2xl "
+                    src={reel0}
+                    controls
+                    autoPlay
+                  ></video>
                 </div>
                 <div className="w-full p-1 md:p-2">
                   <img
                     alt="gallery"
                     className="block h-full w-full  rounded-2xl   object-fill object-center"
-                    src={postimg7}
+                    src={postim7}
                   />
                 </div>
               </div>

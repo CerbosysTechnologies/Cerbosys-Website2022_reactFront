@@ -28,6 +28,11 @@ import girlgreen from '../../../../assets/innerpage/team/girlgreen.png';
 import boysblue from '../../../../assets/innerpage/team/boysblue.png';
 import greenboys from '../../../../assets/innerpage/team/greenboys.png';
 import gourboth from '../../../../assets/innerpage/team/gourboth.png';
+import sapna from '../../../../assets/innerpage/team/Sapna.png';
+import Saloni from '../../../../assets/innerpage/team/Saloni.png';
+import Pratigya from '../../../../assets/innerpage/team/Pratigya.png';
+import Divya from '../../../../assets/innerpage/team/Divya.png';
+import greengp from '../../../../assets/innerpage/team/greengp.png';
 const Teambody = () => {
   return (
     <div>
@@ -533,8 +538,43 @@ const Teambody = () => {
                 </i>
               </p>
             </div>
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
+              <div className="relative cursor-pointer">
+                <img
+                  src={Pratigya}
+                  alt="Mohit Nayak"
+                  className="w-[280px] mx-auto 
+              
+               "
+                />
+                <div className="absolute inset-1">
+                  {' '}
+                  <img
+                    src={tryimg6}
+                    alt="Mohit Nayak"
+                    className="w-[280px] mx-auto
+                       hover:animate-cyclieing-hand "
+                  />
+                </div>
+              </div>{' '}
+              {/* <img
+                src={rajniicon}
+                alt="Rajni Gajabhiye"
+                className="md:w-72 md:h-72 w-56 h-56"
+              /> */}
+              <p className="font-heading md:text-lg text-sm text-center mt-6">
+                Hi, I am Pratigya Jain
+                <br></br> HTML/CSS Developer
+                <br></br>
+                <i className="text-Green">
+                  {' '}
+                  "Every coder is a poet. Express yourself clearly and
+                  beautifully with your code."
+                </i>
+              </p>
+            </div>
 
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
+            {/* <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
               <div className="relative cursor-pointer">
                 <img
                   src={rajnimam1}
@@ -560,7 +600,7 @@ const Teambody = () => {
                 <br></br>
                 <i className="text-Green">“Press any KEY to continue…”</i>
               </p>
-            </div>
+            </div> */}
           </div>
           {/* 8 Grid Ends */}
 
@@ -569,7 +609,7 @@ const Teambody = () => {
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
                 <img
-                  src={girlgreen}
+                  src={Saloni}
                   alt="Mohit Nayak"
                   className="w-[280px] mx-auto 
               
@@ -585,23 +625,21 @@ const Teambody = () => {
                   />
                 </div>
               </div>{' '}
-              {/* <img
-                src={rajniicon}
-                alt="Rajni Gajabhiye"
-                className="md:w-72 md:h-72 w-56 h-56"
-              /> */}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hi, I am Pratigya Jain
-                <br></br> HTML/CSS Developer
+                Hi, I am Saloni Jain
+                <br></br> Business Development Specialist
                 <br></br>
-                <i className="text-Green">“There’s no test like production.”</i>
+                <i className="text-Green">
+                  {' '}
+                  "Every successful business is catalyzed by motivation."
+                </i>
               </p>
             </div>
 
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
                 <img
-                  src={boysblue}
+                  src={Divya}
                   alt="Mohit Nayak"
                   className="w-[280px] mx-auto 
               
@@ -618,11 +656,12 @@ const Teambody = () => {
                 </div>
               </div>{' '}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hey, I am Saloni Jain
+                Hey, I am Divya Prabhakar
                 <br></br>Business Development Specialist
                 <br></br>
                 <i className="text-Primary">
-                  “Let’s write a code to solve your problem”
+                  "Every problem is a gift & every gift opens up new
+                  opportunities."
                 </i>
               </p>
             </div>
@@ -652,11 +691,11 @@ const Teambody = () => {
                 </div>
               </div>{' '}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hello, I am Divya Prabhakar
-                <br></br> Business Development Specialist
+                Hello, I am Chandraprakash Patidar
+                <br></br> Backend Developer
                 <br></br>
                 <i className="text-Primary">
-                  “Content without emotion, is like a brand without promotion.”
+                  "Confusion is part of programming."
                 </i>
               </p>
             </div>
@@ -682,10 +721,12 @@ const Teambody = () => {
                 </div>
               </div>{' '}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hey, I am Chandraprakash Patidar
-                <br></br> Backend Developer
+                Hey, I am Deepika Phool
+                <br></br> Reactjs Developer
                 <br></br>
-                <i className="text-Green">“Press any KEY to continue…”</i>
+                <i className="text-Green">
+                  "Computers are fast; developers keep them slow."
+                </i>
               </p>
             </div>
           </div>
@@ -698,7 +739,7 @@ const Teambody = () => {
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
                 <img
-                  src={boysblue}
+                  src={sapna}
                   alt="Mohit Nayak"
                   className="w-[280px] mx-auto 
               
@@ -716,11 +757,11 @@ const Teambody = () => {
                 </div>
               </div>{' '}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hello, I am Deepika Phool
-                <br></br> Reactjs Developer
+                Hello, I am Sapna Prajapat
+                <br></br> UI/UX and Graphic Designer
                 <br></br>
                 <i className="text-Primary">
-                  “Content without emotion, is like a brand without promotion.”
+                  "Designing is an art, presenting it is a science."
                 </i>
               </p>
             </div>
@@ -728,7 +769,7 @@ const Teambody = () => {
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
               <div className="relative cursor-pointer">
                 <img
-                  src={girlgreen}
+                  src={dumyblueg}
                   alt="Mohit Nayak"
                   className="w-[280px] mx-auto 
               
@@ -746,16 +787,19 @@ const Teambody = () => {
                 </div>
               </div>{' '}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hey, I am Sapna Prajapat
-                <br></br>UI/UX and Graphic Designer
+                Hey, I am Harshika Bhalekar
+                <br></br> Business Development
                 <br></br>
-                <i className="text-Green">“Press any KEY to continue…”</i>
+                <i className="text-Green">
+                  {' '}
+                  "Customers who are unhappy are your best teachers."
+                </i>
               </p>
             </div>
           </div>
           {/* 12 grid end */}
           {/* 13 grid start */}
-          <div className="grid md:grid-cols-2 mt-8">
+          {/* <div className="grid md:grid-cols-2 mt-8">
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
                 <img
@@ -813,7 +857,7 @@ const Teambody = () => {
                 <i className="text-Green">“Press any KEY to continue…”</i>
               </p>
             </div>
-          </div>
+          </div> */}
           {/* 13 grid end */}
           {/* 14 Grid */}
           <div className="grid md:grid-cols-2 mt-8">
@@ -838,11 +882,13 @@ const Teambody = () => {
                 </div>
               </div>{' '}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hey, I am CS Bairagi
-                <br></br> Senior .Net Developer
+                Hey, I am Sachin Gangrade
+                {/* //CS Bairagi */}
+                <br></br> Hardware technician
+                {/* Senior .Net Developer */}
                 <br></br>
                 <i className="text-Primary">
-                  “Code for the best and prepare for the worst”
+                  "Cut the crap, just show me the code."
                 </i>
               </p>
             </div>
@@ -871,7 +917,9 @@ const Teambody = () => {
                 Hey, I am Mohit Nayak
                 <br></br>Senior Php Developer.
                 <br></br>
-                <i className="text-Green">“Legacy is always sustainable”!</i>
+                <i className="text-Green">
+                  "There is always one more bug to fix."
+                </i>
               </p>
             </div>
           </div>
@@ -879,6 +927,33 @@ const Teambody = () => {
 
           {/* 15 Grid  Anil Banwar  Senior FullStack Developer.*/}
           <div className="grid md:grid-cols-2 mt-8">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
+              <div className="relative cursor-pointer">
+                <img
+                  src={rajnimam1}
+                  alt="Mohit Nayak"
+                  className="w-[280px] mx-auto 
+              
+               "
+                />
+                <div className="absolute inset-1">
+                  {' '}
+                  <img
+                    src={tryimg6}
+                    alt="Mohit Nayak"
+                    className="w-[280px] mx-auto
+           hover:animate-cyclieing-hand
+               "
+                  />
+                </div>
+              </div>{' '}
+              <p className="font-heading md:text-lg text-sm text-center mt-6">
+                Hey, I am Rajni Gajabhiye
+                <br></br> Tester
+                <br></br>
+                <i className="text-Green">“Press any KEY to continue…”</i>
+              </p>
+            </div>
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
                 <img
@@ -903,10 +978,41 @@ const Teambody = () => {
                 Hii, I am Anil Banwar😊
                 <br></br> Senior FullStack Developer.
                 <br></br>
-                <i className="text-Green">“Press any KEY to continue…”</i>
+                <i className="text-Green">
+                  {' '}
+                  "Problem-solving attitude is what makes you a great
+                  developer."
+                </i>
               </p>
             </div>
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
+            {/* <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
+              <div className="relative cursor-pointer">
+                <img
+                  src={rajnimam1}
+                  alt="Mohit Nayak"
+                  className="w-[280px] mx-auto 
+              
+               "
+                />
+                <div className="absolute inset-1">
+                  {' '}
+                  <img
+                    src={tryimg6}
+                    alt="Mohit Nayak"
+                    className="w-[280px] mx-auto
+           hover:animate-cyclieing-hand
+               "
+                  />
+                </div>
+              </div>{' '}
+              <p className="font-heading md:text-lg text-sm text-center mt-6">
+                Hey, I am Rajni Gajabhiye
+                <br></br> Tester
+                <br></br>
+                <i className="text-Green">“Press any KEY to continue…”</i>
+              </p>
+            </div> */}
+            {/* <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
                 <img
                   src={gourboth}
@@ -933,10 +1039,72 @@ const Teambody = () => {
                   “Looking forward to join you soon”
                 </i>
               </p>
-            </div>
+            </div> */}
           </div>
 
           {/* 15 Grid Ends */}
+          {/* 16 grid start */}
+          <div className="grid md:grid-cols-2 mt-8">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
+              <div className="relative cursor-pointer">
+                <img
+                  src={boysblue}
+                  alt="Shubham Khushwah"
+                  className="w-[280px] mx-auto 
+              
+               "
+                />
+                <div className="absolute inset-1">
+                  <img
+                    src={tryimg6}
+                    alt="Shubham Khushwah"
+                    className="w-[280px] mx-auto
+           hover:animate-cyclieing-hand
+               "
+                  />
+                </div>
+              </div>{' '}
+              <p className="font-heading md:text-lg text-sm text-center mt-6">
+                Hey, I am CS Bairagi
+                {/* //CS Bairagi */}
+                <br></br> Senior .Net DeveloperS
+                {/* Senior .Net Developer */}
+                <br></br>
+                <i className="text-Primary">
+                  "Cut the crap, just show me the code."
+                </i>
+              </p>
+            </div>
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
+              <div className="relative cursor-pointer">
+                <img
+                  src={greengp}
+                  alt="Mohit Nayak"
+                  className="w-[280px] mx-auto 
+              
+               "
+                />
+                <div className="absolute inset-1">
+                  {' '}
+                  <img
+                    src={tryimg6}
+                    alt="Mohit Nayak"
+                    className="w-[280px] mx-auto
+           hover:animate-cyclieing-hand
+               "
+                  />
+                </div>
+              </div>{' '}
+              <p className="font-heading md:text-lg text-sm text-center mt-4">
+                Hii, I am your new mate 😊
+                <br></br>
+                <i className="text-Primary">
+                  “Looking forward to join you soon”
+                </i>
+              </p>
+            </div>
+          </div>
+          {/* 16 grid end */}
         </div>
       </div>
     </div>

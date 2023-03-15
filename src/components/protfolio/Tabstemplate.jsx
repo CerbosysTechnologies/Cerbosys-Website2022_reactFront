@@ -1,5 +1,8 @@
+import { Agriculture } from '@mui/icons-material';
 import React from 'react';
 import ecommerfashi from '../../assets/portfolio/ecommerfashi.png';
+import tem2 from '../../assets/portfolio/tem2.png';
+import templet1 from '../../assets/portfolio/templet1.png';
 const Tabstemplate = () => {
   return (
     <>
@@ -12,23 +15,23 @@ const Tabstemplate = () => {
         <div className="flex justify-between flex-col md:flex-row content-center items-center mt-12 gap-6 text-white">
           <div className="md:w-[50%] w-[100%]">
             <img
-              src={ecommerfashi}
+              src={templet1}
               alt="djhfj"
-              className="md:h-[24rem] mx-auto"
+              className="md:h-[24rem] mx-auto rounded-lg"
             />{' '}
           </div>
           <div className="md:w-[50%] w-[100%]">
             <img
-              src={ecommerfashi}
+              src={tem2}
               alt="djhfj"
-              className="md:h-[24rem] mx-auto"
+              className="md:h-[24rem] mx-auto rounded-lg"
             />{' '}
           </div>
           <div className="md:w-[50%] w-[100%]">
             <img
-              src={ecommerfashi}
+              src={tem2}
               alt="djhfj"
-              className="md:h-[24rem] mx-auto"
+              className="md:h-[24rem] mx-auto rounded-lg"
             />
           </div>
         </div>
