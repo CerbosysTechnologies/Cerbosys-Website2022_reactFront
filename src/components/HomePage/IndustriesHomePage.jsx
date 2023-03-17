@@ -35,9 +35,8 @@ const IndustriesHomePage = () => {
                 <li>Ecommerce And Retail</li>
                 <li>Healthcare And Life Science</li>
                 <li>Banking And Finance</li>
-                <li>Mining</li>
+                <li>Mining and many more.</li>
               </ul>
-              and many more.
             </div>
 
             <div className="font-heading italic text-white md:text-xl text-lg mt-10">

@@ -4,7 +4,6 @@ export default function swDev() {
       "BAmRt9TMINBJL0Ut6Zvq5f2EaPvTpE3V1tDdv2DpU9zz9ZbE67CVaFVqHVkK5YgydE7Nooeb9ocs3H1QcuFlyvk";
     return urlBase64ToUint8Array(vapidPublicKey);
   }
-
   function urlBase64ToUint8Array(base64String) {
     const padding = "=".repeat((4 - (base64String.length % 4)) % 4);
     const base64 = (base64String + padding)

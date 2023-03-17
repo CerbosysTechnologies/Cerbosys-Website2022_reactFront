@@ -84,6 +84,7 @@ function Blogsbody() {
               <div
                 class="p-10  scale-90 hover:scale-100 ease-in duration-500"
                 onClick={() => SingleBlog(item.blog_id)}
+                // .replace(/\s/g, '-')
               >
                 {/* <!--Card 1--> */}
                 <div class="max-w-sm h-[100%] rounded-2xl overflow-hidden shadow-2xl cursor-pointer">
