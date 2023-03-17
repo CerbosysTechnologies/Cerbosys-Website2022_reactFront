@@ -272,7 +272,7 @@ const Footer = () => {
               {/* Fourth Column Ends */}
 
               {/* Fifth Column */}
-              <div className=" ">
+              <div className="">
                 <h6 className="font-heading text-lg text-white uppercase  mb-3 max-w-fit">
                   Contact Us
                   <div className="block rounded-md h-[8px] bg-white justify-center m-auto mt-3">
@@ -317,7 +317,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <iframe
-                    className="border rounded-lg"
+                    className="border rounded-lg w-[100%] md:w-[90%]"
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6189.1755057021!2d75.91503248981599!3d22.72430959344143!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39630396f8f29591%3A0x89941c1df2cc0c2e!2sCerbosys%20Technologies%20%7C%20Mobile%20%26%20Web%20App%20Development%2C%20Digital%20Marketing%20%26%20Staff%20Augmentation%20Company!5e0!3m2!1sen!2sin!4v1678970684347!5m2!1sen!2sin"
                     width="400"
                     height="100"
