@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 
 import { AiOutlineClose } from 'react-icons/ai';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { saveAs } from 'file-saver';
 import { SERVER } from '../../ServerUrls';
 import { IMAGE_SERVER } from '../../ServerUrls';
@@ -11,6 +11,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function CaseStudyByOne() {
   const IMG = IMAGE_SERVER + '/casestudyimage/';
+  const navigate = useNavigate();
   const { id } = useParams();
   console.log(id);
   const [pdf, setpdf] = useState('');
@@ -35,11 +36,13 @@ function CaseStudyByOne() {
     .then((res) => {
       console.log(res);
       const i = res?.data?.data.length - 1;
-
       setCaseStudytitle(res?.data?.data[i].casestudy_title);
       setcasestudyDes(res?.data?.data[i].casestudy_description);
       setcasestudyimage(res?.data?.data[i].casestudy_image);
       setpdf(res?.data?.data[i].casestudy_pdf.substr(22));
+      navigate(
+        `/whitepapers/${res?.data?.data[i].casestudy_title.replace(/\s/g, '-')}`
+      );
     });
   const handleSubmit = (e, id) => {
     document.getElementById('Suscreption').style.display = 'Block';

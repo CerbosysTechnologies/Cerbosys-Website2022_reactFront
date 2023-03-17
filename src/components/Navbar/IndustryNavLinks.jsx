@@ -9,7 +9,7 @@ const IndustryNavLinks = () => {
   return (
     <div>
       {/* md:py-4 sm:py-3 md:h-32*/}
-      
+
       <div className="px-3 text-left md:cursor-pointer group">
         <div className="relative">
           <h2
@@ -46,7 +46,7 @@ const IndustryNavLinks = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/ecommerce-development-services">
+                    <Link to="/ecommerce-and-retail">
                       <span className="flex items-center gap-2 ">
                         <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
                         Ecommerce and Retail
@@ -164,9 +164,7 @@ const IndustryNavLinks = () => {
                 <Link to="/agriculture">Agriculture</Link>
               </li>
               <li>
-                <Link to="/ecommerce-development-services">
-                  Ecommerce and Retail
-                </Link>
+                <Link to="/ecommerce-and-retail">Ecommerce and Retail</Link>
               </li>
               <li>
                 <Link to="/health-care">Healthcare and Life Science</Link>

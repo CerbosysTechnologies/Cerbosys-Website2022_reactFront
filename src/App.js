@@ -142,11 +142,11 @@ function App() {
             element={<CurrentOpningGetbyOne />}
           />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/singleBlogshow/:id" element={<BlogGetoneBlog />} />
+          <Route path="/blog/:id" element={<BlogGetoneBlog />} />
           {/* Indstri Start */}
           <Route path="/agriculture" element={<Agriculture />} />
           <Route
-            path="/ecommerce-development-services"
+            path="/ecommerce-and-retail"
             element={<Ecommerce />}
           />
           <Route path="/health-care" element={<HealthCare />} />

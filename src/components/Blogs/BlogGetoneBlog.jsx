@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import { SERVER } from '../../ServerUrls';
 import { useNavigate, useParams } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper';
@@ -7,9 +7,12 @@ import SwiperCore, { Autoplay } from 'swiper';
 import axios from 'axios';
 import parser from 'html-react-parser';
 function BlogGetoneBlog() {
-  //  const history = useHistory();
   const { id } = useParams();
   console.log(id);
+  const navigate = useNavigate();
+
+  const [blog, setBlog] = useState({});
+
   const [blogid, setBlogid] = useState('');
 
   const [blogtitle, setBlogtitle] = useState('');
@@ -19,7 +22,7 @@ function BlogGetoneBlog() {
   console.log(blogimagesid);
 
   const [imageshow, setImageshow] = useState('');
-  console.log(imageshow);
+  // console.log(imageshow);
   const [blogdata, setBlogData] = useState([]);
 
   const IMAGE_URL = `https://cerbosys.in:3700/blog/`;
@@ -33,9 +36,9 @@ function BlogGetoneBlog() {
         },
       })
       .then((res) => {
-        console.log(res);
+        // console.log(res);
         const response = res.data.data;
-        console.log(response);
+        // console.log(response);
         setBlogData(response);
       })
       .catch((error) => {
@@ -50,29 +53,32 @@ function BlogGetoneBlog() {
   // get all blog End
 
   // Get by id blog start
-  useEffect(() => {
-    axios
-      .get(`https://cerbosys.in:3700/cerbosys/getBlogById?blog_id=${id}`, {
-        headers: {
-          'Content-Type': 'application/json',
-        },
-      })
-      .then((res) => {
-        const i = res?.data?.data.length - 1;
-        setBlogid(res?.data?.data[i].blog_id);
-        setBlogtitle(res?.data?.data[i].blog_title);
-        setBlogmessage(res?.data?.data[i].blog_message);
-        setBlogmessage(res?.data?.data[i].blog_message);
-        setBlogimagesid(res?.data?.data[i].blogImg[i].blog_imagesid);
-        setImage(res?.data?.data[i].blogImg[i].blog_images.substr(12));
-        console.log(res?.data?.data[i].blogImg[i].blog_imagesid);
-        console.log(image);
-      });
-  }, [id]);
+  // useEffect(() => {
+  axios
+    .get(SERVER + `/getBlogById?blog_id=${id}`, {
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
+    .then((res) => {
+      const i = res?.data?.data.length - 1;
+      setBlogid(res?.data?.data[i].blog_id);
+      setBlogtitle(res?.data?.data[i].blog_title);
+      console.log(res?.data?.data[i].blog_title);
+      setBlogmessage(res?.data?.data[i].blog_message);
+      setBlogmessage(res?.data?.data[i].blog_message);
+      setBlogimagesid(res?.data?.data[i].blogImg[i].blog_imagesid);
+      setImage(res?.data?.data[i].blogImg[i].blog_images.substr(12));
+      console.log(res?.data?.data[i].blogImg[i].blog_imagesid);
+      console.log(image);
+      navigate(`/blog/${res?.data?.data[i].blog_title.replace(/\s/g, '-')}`);
+      setTimeout(() => {
+        window.location();
+      }, 1000);
+    });
+  // }, []);
 
   // Get by id blog End
-
-  let navigate = useNavigate();
   const getblogbyid = () => {
     let path = `/blog/one-blog`;
     navigate(path);
@@ -80,8 +86,10 @@ function BlogGetoneBlog() {
     // <Navigate to="/addproduct" replace={true} />
   };
   const SingleBlog = (id) => {
-    let path = `/singleBlogshow/${id}`;
+    let path = `/blog/${id}`;
+
     navigate(path);
+    window.location();
   };
   return (
     <>

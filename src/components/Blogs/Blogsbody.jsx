@@ -63,7 +63,7 @@ function Blogsbody() {
   }, []);
 
   const SingleBlog = (id) => {
-    let path = `/singleBlogshow/${id}`;
+    let path = `/blog/${id}`;
     navigate(path);
   };
 
