@@ -315,7 +315,18 @@ const Footer = () => {
                     info@cerbosys.com
                   </span>
                 </div>
-                <br />
+                <div>
+                  <iframe
+                    className="border rounded-lg"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6189.1755057021!2d75.91503248981599!3d22.72430959344143!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39630396f8f29591%3A0x89941c1df2cc0c2e!2sCerbosys%20Technologies%20%7C%20Mobile%20%26%20Web%20App%20Development%2C%20Digital%20Marketing%20%26%20Staff%20Augmentation%20Company!5e0!3m2!1sen!2sin!4v1678970684347!5m2!1sen!2sin"
+                    width="400"
+                    height="100"
+                    style={{ border: '20px' }}
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
                 <br />
                 <br></br>
               </div>

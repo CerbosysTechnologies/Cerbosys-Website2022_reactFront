@@ -5,7 +5,7 @@ import { AiFillCaretRight } from 'react-icons/ai';
 
 const NavLinks = () => {
   // const [heading, setHeading] = useState('Services');
-  const [heading, setHeading] = useState("");
+  const [heading, setHeading] = useState('');
   const [subHeading, setSubHeading] = useState('');
 
   const slinks = [
@@ -35,12 +35,12 @@ const NavLinks = () => {
     <>
       <div>
         {/* md:py-4 sm:py-3 md:h-32*/}
-        <div className="px-3 text-left md:cursor-pointer group">
+        <div className="px-3 text-left md:cursor-pointer active:duration-700  group">
           <div className="relative">
             <h2
-              className="py-2 flex justify-between items-center md:pr-0 pr-5 group
+              className=" py-2 flex justify-between items-center md:pr-0 pr-5 group
             after:content-[''] after:absolute after:bg-orange-600 after:h-[3px] after:w-[0%] after:left-0 after:bottom-[-2px]
-            after:ease-in-out after:duration-300
+            after:ease-in-out after:duration-500
             hover:after:w-[100%]
            "
               //  (setTimeout(() => setShowModal(true), 1000))
@@ -51,7 +51,8 @@ const NavLinks = () => {
               //   setSubHeading('');
               // }}
               // onClick={() => demofuc()}
-              onC lick={() => {
+              onC
+              lick={() => {
                 heading !== 'Services'
                   ? setTimeout(() => {
                       setHeading('Services');

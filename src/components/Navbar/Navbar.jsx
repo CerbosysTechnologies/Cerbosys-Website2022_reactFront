@@ -76,8 +76,8 @@ const Navbar = () => {
       <nav
         className={
           !headerVisible
-            ? 'z-[999] bg-transparent fixed m-auto w-full h-[70px] '
-            : 'z-[999] bg-white fixed m-auto w-full  h-[70px]'
+            ? 'z-[999] bg-transparent fixed m-auto w-full h-[80px] '
+            : 'z-[999] bg-white fixed m-auto w-full  h-[80px]'
         }
       >
         <div className="flex items-center font-heading justify-around  h-full">

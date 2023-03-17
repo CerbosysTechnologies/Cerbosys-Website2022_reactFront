@@ -9,6 +9,7 @@ const IndustryNavLinks = () => {
   return (
     <div>
       {/* md:py-4 sm:py-3 md:h-32*/}
+      
       <div className="px-3 text-left md:cursor-pointer group">
         <div className="relative">
           <h2
@@ -150,9 +151,11 @@ const IndustryNavLinks = () => {
           </div>
         </div>
       </div>
+
       {/* Web Menu Ends */}
 
       {/* Mobile Menu Starts */}
+
       <div className={` ${heading === 'Indu stries' ? 'hidden' : 'md:hidden'}`}>
         <div className="flex flex-wrap flex-col m-2">
           <div className="mt-[-10px] ">
