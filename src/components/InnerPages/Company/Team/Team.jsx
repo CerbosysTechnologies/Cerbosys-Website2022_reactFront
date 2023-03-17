@@ -6,6 +6,9 @@ import Teambody from './Teambody';
 import TeamForm from './TeamForm';
 
 const Team = () => {
+   
+
+  // console.log(`arrr ${data.i}`);
   return (
     <div>
       <>

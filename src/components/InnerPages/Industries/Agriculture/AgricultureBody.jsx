@@ -177,7 +177,7 @@ const AgricultureBody = () => {
           </span>
         </p>
         {/* //lg:left-[34rem] lg:bottom-[12rem] */}
-        <div className="lg:visible  invisible absolute right-0 left-0 bottom-[28rem] md:left-[62rem] md:bottom-64">
+        <div className="invisible xl:visible absolute right-0 left-0 bottom-[28rem] md:left-[62rem] md:bottom-64">
           <img
             src={bgimg3}
             alt="img"
@@ -186,7 +186,7 @@ const AgricultureBody = () => {
         </div>
         {/* //lg:left-[16rem]
         //bottom-[18rem] */}
-        <div className="absolute right-0 left-0 md:left-[30rem] md:bottom-[6rem] ">
+        <div className="invisible lg:visible absolute right-0 left-0 md:left-[30rem] md:bottom-[6rem] ">
           {/* lg:w-[18rem] */}
           <img
             src={bgimg2}
@@ -195,7 +195,7 @@ const AgricultureBody = () => {
           />
         </div>
 
-        <div className="absolute  right-0 left-0 bottom-32 md:left-[-6rem] md:bottom-4">
+        <div className="invisible lg:visible absolute  right-0 left-0 bottom-32 md:left-[-6rem] md:bottom-4">
           <img
             src={bgimg1}
             alt="img"

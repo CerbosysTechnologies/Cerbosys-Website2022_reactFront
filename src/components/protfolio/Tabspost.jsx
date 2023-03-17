@@ -290,7 +290,7 @@ const Tabspost = () => {
                     className="block h-full w-full  rounded-2xl  object-fill object-center"
                     src={postimg1}
                   />
-                </div>
+                </div> 
                 <div className="w-full p-1 md:p-2">
                   <img
                     alt="gallery"
