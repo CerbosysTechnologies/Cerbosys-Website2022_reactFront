@@ -5,7 +5,7 @@ import MobileDesc from './MobileDesc';
 import MobileDiagram from './MobileDiagram';
 import MobileProcess from './MobileProcess';
 import MobileForm from './MobileForm';
-import Footer from '../../../Common/Component/Footer';
+// import Footer from '../../../Common/Component/Footer';
 import Investment from '../UserInvestment/Investment';
 import { Helmet } from 'react-helmet';
 const MobileDevelopment = () => {

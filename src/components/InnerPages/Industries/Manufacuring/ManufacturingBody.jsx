@@ -1,10 +1,11 @@
 import React from 'react';
-import manufacturingmobicon from '../../../../assets/innerpage/manufacturing/manufacturingmob.svg';
+// import manufacturingmobicon from '../../../../assets/innerpage/manufacturing/manufacturingmob.svg';
 import manufacturleft from '../../../../assets/innerpage/manufacturing/manufacturleft.png';
-import manufacturingbusinessicon from '../../../../assets/innerpage/manufacturing/manufacturingimage.svg';
+// import manufacturingbusinessicon from '../../../../assets/innerpage/manufacturing/manufacturingimage.svg';
 import manufacturright from '../../../../assets/innerpage/manufacturing/manufacturright.png';
 import manufacturingright from '../../../../assets/innerpage/manufacturing/manufacturingright.png';
 import Healthsilder from '../HealthCare/Healthsilder';
+import Manuslider from './Manuslider';
 const ManufacturingBody = () => {
   return (
     <div>
@@ -119,7 +120,20 @@ const ManufacturingBody = () => {
         {/*  center bg section */}
         {/* Bullet Section Ends */}
         {/* slider sectio start */}
-        <Healthsilder />
+        <div className="mx-auto  w-full h-fit-content md:h-[36rem] bg-EcommersBodybg  py-12  bg-cover md:bg-top bg-center">
+          <div className="max-w-[1040px] mx-auto ">
+            <div className="px-8 md:px-12">
+              <div>
+                {/* "font-heading md:text-3xl text-xl mt-10 text-center text-Primary" */}
+                <p className="text-white text-center uppercase md:text-3xl text-xl mt-4 font-heading mb-6">
+                  Our Portfolio
+                </p>
+              </div>
+              <Manuslider />
+            </div>
+          </div>
+        </div>
+
         {/* slider sectio end */}
         {/* start Importance of Technology in the Manufacturing Industry */}
         <div className="mx-auto w-full py-10  ">

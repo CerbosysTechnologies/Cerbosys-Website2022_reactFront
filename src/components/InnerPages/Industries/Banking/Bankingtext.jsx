@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import bankingicon1 from '../../../../assets/innerpage/banking/bankingicon1.png';
-import bankingicon2 from '../../../../assets/innerpage/banking/bankingicon2.png';
+// import bankingicon1 from '../../../../assets/innerpage/banking/bankingicon1.png';
+// import bankingicon2 from '../../../../assets/innerpage/banking/bankingicon2.png';
 const Bankingtext = () => {
   const [text, settext] = useState();
 

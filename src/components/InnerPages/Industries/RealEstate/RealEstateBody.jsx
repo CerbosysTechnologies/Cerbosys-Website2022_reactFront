@@ -6,6 +6,7 @@ import realestateimg from '../../../../assets/innerpage/realestate/realestateimg
 import Ecommercesilder from '../Ecommerce/Ecommercesilder';
 import Realsolution from './Realsolution';
 import { Link } from 'react-router-dom';
+import Realsilder from './Realsilder';
 
 const RealEstateBody = () => {
   const data = [
@@ -123,7 +124,7 @@ const RealEstateBody = () => {
         {/* Bullet Section Ends*/}
         {/*start slider section */}
         <div className="mx-auto mt-7 w-full h-fit-content md:h-[36rem] bg-EcommersBodybg  py-12  bg-cover md:bg-top bg-center">
-          <div className="max-w-[1240px] mx-auto ">
+          <div className="max-w-[1040px] mx-auto ">
             <div className="px-8 md:px-12">
               <div>
                 {/* "font-heading md:text-3xl text-xl mt-10 text-center text-Primary" */}
@@ -131,7 +132,7 @@ const RealEstateBody = () => {
                   Our Portfolio
                 </p>
               </div>
-              <Ecommercesilder />
+              <Realsilder />
             </div>
           </div>
         </div>

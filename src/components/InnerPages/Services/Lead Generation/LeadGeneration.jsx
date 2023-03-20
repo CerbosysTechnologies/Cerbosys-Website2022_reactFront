@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../../../Navbar/Navbar';
-import Footer from '../../../Common/Component/Footer';
+// import Navbar from '../../../Navbar/Navbar';
+// import Footer from '../../../Common/Component/Footer';
 import { Link } from 'react-router-dom';
 import LeadGenerationDesc from './LeadGenerationDesc';
 import LeadGenerationProcess from './LeadGenerationProcess';

@@ -1,6 +1,6 @@
 import React from 'react';
-import transportmobicon from '../../../../assets/innerpage/transport/transportmob.svg';
-import transportbusinessicon from '../../../../assets/innerpage/transport/transportimage.svg';
+// import transportmobicon from '../../../../assets/innerpage/transport/transportmob.svg';
+// import transportbusinessicon from '../../../../assets/innerpage/transport/transportimage.svg';
 import transportimg from '../../../../assets/innerpage/transport/transportimg.png';
 import transporticon from '../../../../assets/innerpage/transport/transporticon.png';
 import transporticon4 from '../../../../assets/innerpage/transport/transporticon4.png';
@@ -8,6 +8,7 @@ import transporticon1 from '../../../../assets/innerpage/transport/transporticon
 import transporticon2 from '../../../../assets/innerpage/transport/transporticon2.png';
 import Ecommercesilder from '../Ecommerce/Ecommercesilder';
 import transportright from '../../../../assets/innerpage/transport/transportright.png';
+import Transpsilder from './Transpsilder';
 export const TransportBody = () => {
   const data = [
     {
@@ -179,7 +180,7 @@ export const TransportBody = () => {
       {/* end Importance of Technology */}
       {/*  start slider sections */}
       <div className="mx-auto  w-full h-fit-content md:h-[36rem] bg-EcommersBodybg  py-12  bg-cover md:bg-top bg-center">
-        <div className="max-w-[1240px] mx-auto ">
+        <div className="max-w-[1040px] mx-auto ">
           {' '}
           <div className="px-8 md:px-12">
             <div>
@@ -188,7 +189,7 @@ export const TransportBody = () => {
                 Our Portfolio
               </p>
             </div>
-            <Ecommercesilder />
+            <Transpsilder />
           </div>
         </div>
       </div>

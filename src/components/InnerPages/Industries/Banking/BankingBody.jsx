@@ -1,6 +1,6 @@
 import React from 'react';
-import bankingmobicon from '../../../../assets/innerpage/banking/bankingmob.svg';
-import bankingbusinessicon from '../../../../assets/innerpage/banking/bankingimage.svg';
+// import bankingmobicon from '../../../../assets/innerpage/banking/bankingmob.svg';
+// import bankingbusinessicon from '../../../../assets/innerpage/banking/bankingimage.svg';
 import bankingleftimg from '../../../../assets/innerpage/banking/bankingleftimg.png';
 import bankingrightimg from '../../../../assets/innerpage/banking/bankingrightimg.png';
 import bankingicon1 from '../../../../assets/innerpage/banking/bankingicon1.png';
@@ -124,7 +124,7 @@ const BankingBody = () => {
       </div>
       {/*start slider sections */}
       <div className="mx-auto w-full h-fit-content md:h-[36rem] bg-EcommersBodybg  py-12  bg-cover md:bg-top bg-center">
-        <div className="max-w-[1240px] mx-auto ">
+        <div className="max-w-[1040px] mx-auto ">
           <div className="px-8 md:px-12">
             <div>
               {/* "font-heading md:text-3xl text-xl mt-10 text-center text-Primary" */}

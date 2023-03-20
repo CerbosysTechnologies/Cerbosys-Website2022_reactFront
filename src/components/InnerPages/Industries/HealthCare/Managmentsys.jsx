@@ -1,14 +1,14 @@
 import React from 'react';
 import icon1img from '../../../../assets/innerpage/healthcare/icon1img.png';
-import icon2img from '../../../../assets/innerpage/healthcare/icon2img.png';
+// import icon2img from '../../../../assets/innerpage/healthcare/icon2img.png';
 import icon3img from '../../../../assets/innerpage/healthcare/icon3img.png';
 import icon4img from '../../../../assets/innerpage/healthcare/icon4img.png';
 import healthdrimg from '../../../../assets/innerpage/healthcare/healthdrimg.png';
 import tickicon2 from '../../../../assets/innerpage/healthcare/tickicon2.png';
 // import iconrigimg from '../../../../assets/innerpage/healthcare/iconrigimg.png';
 import righticon from '../../../../assets/innerpage/healthcare/righticon.png';
-import HealthCare from './HealthCare';
-import { MdVerified } from 'react-icons/md';
+// import HealthCare from './HealthCare';
+// import { MdVerified } from 'react-icons/md';
 const Managmentsys = () => {
   //   let data;
   //   switch (type) {

@@ -1,10 +1,11 @@
 import React from 'react';
-import miningmobicon from '../../../../assets/innerpage/mining/miningmob.svg';
-import miningbusinessicon from '../../../../assets/innerpage/mining/miningimage.svg';
+// import miningmobicon from '../../../../assets/innerpage/mining/miningmob.svg';
+// import miningbusinessicon from '../../../../assets/innerpage/mining/miningimage.svg';
 import multymob from '../../../../assets/innerpage/mining/miningleft.png';
 import miningright from '../../../../assets/innerpage/mining/miningright.png';
 import Ecommercesilder from '../Ecommerce/Ecommercesilder';
 import Miningtabs from './Miningtabs';
+import Minsilder from './Minsilder';
 const MiningBody = () => {
   return (
     <div>
@@ -56,7 +57,7 @@ const MiningBody = () => {
       {/*vertical tabs end  */}
       {/* slider section start */}
       <div className="mx-auto  w-full h-fit-content md:h-[36rem] bg-EcommersBodybg  py-12  bg-cover md:bg-top bg-center">
-        <div className="max-w-[1240px] mx-auto ">
+        <div className="max-w-[1040px] mx-auto ">
           {' '}
           <div className="px-8 md:px-12">
             <div>
@@ -65,7 +66,7 @@ const MiningBody = () => {
                 Our Portfolio
               </p>
             </div>
-            <Ecommercesilder />
+            <Minsilder />
           </div>
         </div>
       </div>

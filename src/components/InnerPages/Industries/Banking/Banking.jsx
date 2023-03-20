@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from '../../../Navbar/Navbar';
+// import Navbar from '../../../Navbar/Navbar';
 import BankingBody from './BankingBody';
 import BankingForm from './BankingForm';
-import Footer from '../../../Common/Component/Footer';
+// import Footer from '../../../Common/Component/Footer';
 import { Helmet } from 'react-helmet';
 
 const Banking = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import Footer from '../../../Common/Component/Footer';
-import Navbar from '../../../Navbar/Navbar';
+// import Footer from '../../../Common/Component/Footer';
+// import Navbar from '../../../Navbar/Navbar';
 import { EcommerceBody } from './EcommerceBody';
 import EcommerceForm from './EcommerceForm';
 import Ecommerceservices from './Ecommerceservices';

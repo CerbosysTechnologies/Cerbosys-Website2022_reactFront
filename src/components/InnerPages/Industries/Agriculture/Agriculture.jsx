@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from '../../../Navbar/Navbar';
+// import Navbar from '../../../Navbar/Navbar';
 import AgricultureBody from './AgricultureBody';
 import AgricultureForm from './AgricultureForm';
-import Footer from '../../../Common/Component/Footer';
+// import Footer from '../../../Common/Component/Footer';
 import { Helmet } from 'react-helmet';
 
 const Agriculture = () => {

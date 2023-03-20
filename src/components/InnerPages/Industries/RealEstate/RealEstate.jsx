@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../../../Navbar/Navbar';
-import Footer from '../../../Common/Component/Footer';
+// import Navbar from '../../../Navbar/Navbar';
+// import Footer from '../../../Common/Component/Footer';
 import RealEstateBody from './RealEstateBody';
 import RealEstateForm from './RealEstateForm';
 import { Helmet } from 'react-helmet';

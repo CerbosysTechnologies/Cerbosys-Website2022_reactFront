@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../../../Navbar/Navbar';
-import Footer from '../../../Common/Component/Footer';
+// import Navbar from '../../../Navbar/Navbar';
+// import Footer from '../../../Common/Component/Footer';
 import HealthCareBody from './HealthCareBody';
 import HealthCareForm from './HealthCareForm';
 import { Helmet } from 'react-helmet';
