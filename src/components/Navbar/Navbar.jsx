@@ -258,6 +258,16 @@ const Navbar = () => {
             <li className="py-1 px-4 inline-block">
               <Link to="/solution">Solution </Link>
             </li>
+            <li className="px-3 relative">
+              <Link
+                to="/Portfolio"
+                className=" after:content-[''] after:absolute after:bg-orange-600 after:h-[3px] after:w-[0%] after:left-0 after:bottom-[-6px]
+                after:ease-in-out after:duration-300
+                hover:after:w-[100%]"
+              >
+                Portfolio
+              </Link>
+            </li>
 
             <br />
             <li className="py-2 px-2 inline-block">

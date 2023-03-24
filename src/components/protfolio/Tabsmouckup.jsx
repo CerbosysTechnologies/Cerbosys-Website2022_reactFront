@@ -20,9 +20,22 @@ import mockicon11 from '../../assets/portfolio/mockicon11.jpg';
 import mockicon12 from '../../assets/portfolio/mockicon12.jpg';
 import mockicon13 from '../../assets/portfolio/mockicon13.jpg';
 import mockupicon1 from '../../assets/portfolio/mockupicon1.png';
+import { motion } from 'framer-motion';
+import { useRef } from 'react';
+
+import { useState } from 'react';
 const Tabsmouckup = () => {
+  const [count, setCount] = useState(0);
   return (
     <>
+      {/*  opacity: 0.2;
+  background: white;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px); */}
       <div>
         <div className="flex  justify-center flex-col md:flex-row content-center items-center gap-6 text-white">
           <div className="mt-6 w-full ">

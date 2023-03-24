@@ -60,7 +60,14 @@ import 'slick-carousel/slick/slick-theme.css';
 import Portfolio from './components/protfolio/Portfolio';
 import NotFound from './components/Common/Component/NotFound';
 import Servicethankyou from './components/Common/Component/Thankyou/Servicethankyou';
+import { motion, useScroll, useSpring } from 'framer-motion';
 function App() {
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
   // dark mood functions start
   // const [theme, setTheme] = useState('light');
   // useEffect(() => {
@@ -78,6 +85,17 @@ function App() {
   return (
     <>
       <div className="selection:bg-Green selection:text-white">
+        {/*  <motion.div className="progress-bar" style={{ scaleX }} />
+      <h1>
+        <code>useScroll</code> with spring smoothing
+      </h1> */}
+        {/* <motion.Navbar
+          className="progress-bar"
+          style={{ scaleX }}
+        ></motion.Navbar> */}
+        {/* <h1>
+          <code>useScroll</code> with spring smoothing
+        </h1> */}
         <Navbar></Navbar>
         {/* <Helmet>
         <title>
@@ -145,10 +163,7 @@ function App() {
           <Route path="/blog/:id" element={<BlogGetoneBlog />} />
           {/* Indstri Start */}
           <Route path="/agriculture" element={<Agriculture />} />
-          <Route
-            path="/ecommerce-and-retail"
-            element={<Ecommerce />}
-          />
+          <Route path="/ecommerce-and-retail" element={<Ecommerce />} />
           <Route path="/health-care" element={<HealthCare />} />
           <Route path="/banking-and-finance" element={<Banking />} />
           <Route path="/mining" element={<Mining />} />

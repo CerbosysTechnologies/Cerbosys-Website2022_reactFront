@@ -104,6 +104,16 @@ const Footer = () => {
                   <li className="">
                     <Link to="/">Home</Link>
                   </li>
+                  <li className="">
+                    <Link
+                      to="/Portfolio"
+                      //       className=" after:content-[''] after:absolute after:bg-orange-600 after:h-[3px] after:w-[0%] after:left-0 after:bottom-[-6px]
+                      // after:ease-in-out after:duration-300
+                      // hover:after:w-[100%]"
+                    >
+                      Portfolio
+                    </Link>
+                  </li>
                   {/* <li className="">
                     <Link to="/overview">Company</Link>
                   </li> */}

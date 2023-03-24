@@ -102,12 +102,7 @@ const Tabspost = () => {
                   />
                 </div>
                 <div className="w-1/2 p-1 md:p-2">
-                  <video
-                    className=" rounded-2xl "
-                    src={real}
-                    controls
-                    autoPlay
-                  ></video>
+                  <video className=" rounded-2xl " src={real} controls></video>
                 </div>
               </div>
               <div className="flex w-1/2 flex-wrap">
@@ -126,12 +121,7 @@ const Tabspost = () => {
                   />
                 </div>
                 <div className="w-1/2 p-1 md:p-2">
-                  <video
-                    className="rounded-2xl"
-                    src={reel2}
-                    controls
-                    autoPlay
-                  ></video>
+                  <video className="rounded-2xl" src={reel2} controls></video>
                 </div>
               </div>
               <div className="flex w-1/2 flex-wrap">
@@ -150,12 +140,7 @@ const Tabspost = () => {
                   />
                 </div>
                 <div className="w-1/2 p-1 md:p-2">
-                  <video
-                    className=" rounded-2xl "
-                    src={reel5}
-                    controls
-                    autoPlay
-                  ></video>
+                  <video className=" rounded-2xl " src={reel5} controls></video>
                 </div>
               </div>
               <div className="flex w-1/2 flex-wrap">
@@ -197,12 +182,7 @@ const Tabspost = () => {
                   />
                 </div>
                 <div className="w-1/2 p-1 md:p-2">
-                  <video
-                    className=" rounded-2xl "
-                    src={reel4}
-                    controls
-                    autoPlay
-                  ></video>
+                  <video className=" rounded-2xl " src={reel4} controls></video>
                 </div>
               </div>
               <div className="flex w-1/2 flex-wrap">
@@ -221,12 +201,7 @@ const Tabspost = () => {
                   />
                 </div>
                 <div className="w-1/2 p-1 md:p-2">
-                  <video
-                    className=" rounded-2xl "
-                    src={reel3}
-                    controls
-                    autoPlay
-                  ></video>
+                  <video className=" rounded-2xl " src={reel3} controls></video>
                 </div>
               </div>
               <div className="flex w-1/2 flex-wrap">
@@ -245,12 +220,7 @@ const Tabspost = () => {
                   />
                 </div>
                 <div className="w-1/2 p-1 md:p-2">
-                  <video
-                    className=" rounded-2xl "
-                    src={real}
-                    controls
-                    autoPlay
-                  ></video>
+                  <video className=" rounded-2xl " src={real} controls></video>
                 </div>
               </div>
               <div className="flex w-1/2 flex-wrap">
@@ -290,7 +260,7 @@ const Tabspost = () => {
                     className="block h-full w-full  rounded-2xl  object-fill object-center"
                     src={postimg1}
                   />
-                </div> 
+                </div>
                 <div className="w-full p-1 md:p-2">
                   <img
                     alt="gallery"
@@ -315,30 +285,15 @@ const Tabspost = () => {
                   />
                 </div>
                 <div className="w-1/2 p-1 md:p-2">
-                  <video
-                    className=" rounded-2xl "
-                    src={reel8}
-                    controls
-                    autoPlay
-                  ></video>
+                  <video className=" rounded-2xl " src={reel8} controls></video>
                 </div>
               </div>
               <div className="flex w-1/2 flex-wrap">
                 <div className="w-1/2 p-1 md:p-2">
-                  <video
-                    className=" rounded-2xl "
-                    src={reel9}
-                    controls
-                    autoPlay
-                  ></video>
+                  <video className=" rounded-2xl " src={reel9} controls></video>
                 </div>
                 <div className="w-1/2 p-1 md:p-2">
-                  <video
-                    className=" rounded-2xl "
-                    src={reel0}
-                    controls
-                    autoPlay
-                  ></video>
+                  <video className=" rounded-2xl " src={reel0} controls></video>
                 </div>
                 <div className="w-full p-1 md:p-2">
                   <img

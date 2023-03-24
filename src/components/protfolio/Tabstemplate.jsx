@@ -30,6 +30,7 @@ import car from '../../assets/portfolio/car.png';
 import transpotation3 from '../../assets/portfolio/transpotation3.png';
 
 import salon from '../../assets/portfolio/salon.png';
+import { ViewModuleSharp } from '@mui/icons-material';
 const Tabstemplate = () => {
   return (
     <>
@@ -41,26 +42,32 @@ const Tabstemplate = () => {
         </div>
         <div className="flex justify-between flex-col md:flex-row content-center items-center mt-12 gap-6 text-white">
           <div className="md:w-[50%] w-[100%]">
-            <img
-              src={food}
-              alt="djhfj"
-              className="md:h-[24rem] mx-auto rounded-lg"
-            />{' '}
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img
+                src={food}
+                alt="djhfj"
+                className="md:h-[24rem] mx-auto rounded-lg"
+              />{' '}
+            </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
-            <img
-              // src={food}
-              src={Agriculture}
-              alt="djhfj"
-              className="md:h-[24rem] mx-auto rounded-lg"
-            />{' '}
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img
+                // src={food}
+                src={Agriculture}
+                alt="djhfj"
+                className="md:h-[24rem] mx-auto rounded-lg"
+              />{' '}
+            </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
-            <img
-              src={plant}
-              alt="djhfj"
-              className="md:h-[24rem] mx-auto rounded-lg"
-            />
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img
+                src={plant}
+                alt="djhfj"
+                className="md:h-[24rem] mx-auto rounded-lg"
+              />
+            </div>
           </div>
         </div>
         <div className="mt-6 ">
@@ -70,13 +77,27 @@ const Tabstemplate = () => {
         </div>
         <div className="flex justify-between flex-col md:flex-row content-center items-center mt-12 gap-6 text-white">
           <div className="md:w-[50%] w-[100%]">
-            <img src={apparel} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img src={apparel} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
-            <img src={Footwear} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img
+                src={Footwear}
+                alt="djhfj"
+                className="md:h-[24rem] mx-auto"
+              />{' '}
+            </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
-            <img src={boutique} alt="djhfj" className="md:h-[24rem] mx-auto" />
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img
+                src={boutique}
+                alt="djhfj"
+                className="md:h-[24rem] mx-auto"
+              />
+            </div>
           </div>
         </div>
         <div className="mt-6 ">
@@ -86,13 +107,23 @@ const Tabstemplate = () => {
         </div>
         <div className="flex justify-between flex-col md:flex-row content-center items-center mt-12 gap-6 text-white">
           <div className="md:w-[50%] w-[100%]">
-            <img src={gym} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img src={gym} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
-            <img src={salon} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img src={salon} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
-            <img src={barbistan} alt="djhfj" className="md:h-[24rem] mx-auto" />
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img
+                src={barbistan}
+                alt="djhfj"
+                className="md:h-[24rem] mx-auto"
+              />
+            </div>
           </div>
         </div>
         <div className="mt-6 ">
@@ -102,17 +133,23 @@ const Tabstemplate = () => {
         </div>
         <div className="flex justify-between flex-col md:flex-row content-center items-center mt-12 gap-6 text-white">
           <div className="md:w-[50%] w-[100%]">
-            <img src={Banking} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img src={Banking} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
-            <img src={Finance} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img src={Finance} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
-            <img
-              src={Finance_bitcoin}
-              alt="djhfj"
-              className="md:h-[24rem] mx-auto"
-            />
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img
+                src={Finance_bitcoin}
+                alt="djhfj"
+                className="md:h-[24rem] mx-auto"
+              />
+            </div>
           </div>
         </div>
         <div className="mt-6 ">
@@ -122,21 +159,31 @@ const Tabstemplate = () => {
         </div>
         <div className="flex justify-between flex-col md:flex-row content-center items-center mt-12 gap-6 text-white">
           <div className="md:w-[50%] w-[100%]">
-            <img
-              src={manufacturing}
-              alt="djhfj"
-              className="md:h-[24rem] mx-auto"
-            />{' '}
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img
+                src={manufacturing}
+                alt="djhfj"
+                className="md:h-[24rem] mx-auto"
+              />{' '}
+            </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
-            <img src={manufact1} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img
+                src={manufact1}
+                alt="djhfj"
+                className="md:h-[24rem] mx-auto"
+              />{' '}
+            </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
-            <img
-              src={ecommerfashi}
-              alt="djhfj"
-              className="md:h-[24rem] mx-auto"
-            />
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img
+                src={ecommerfashi}
+                alt="djhfj"
+                className="md:h-[24rem] mx-auto"
+              />
+            </div>
           </div>
         </div>
         <div className="mt-6 ">
@@ -146,17 +193,23 @@ const Tabstemplate = () => {
         </div>
         <div className="flex justify-between flex-col md:flex-row content-center items-center mt-12 gap-6 text-white">
           <div className="md:w-[50%] w-[100%]">
-            <img
-              src={mining_Experts}
-              alt="djhfj"
-              className="md:h-[24rem] mx-auto"
-            />{' '}
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img
+                src={mining_Experts}
+                alt="djhfj"
+                className="md:h-[24rem] mx-auto"
+              />{' '}
+            </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
-            <img src={mining2} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img src={mining2} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
-            <img src={Main} alt="djhfj" className="md:h-[24rem] mx-auto" />
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img src={Main} alt="djhfj" className="md:h-[24rem] mx-auto" />
+            </div>
           </div>
         </div>
         <div className="mt-6 ">
@@ -166,13 +219,23 @@ const Tabstemplate = () => {
         </div>
         <div className="flex justify-between flex-col md:flex-row content-center items-center mt-12 gap-6 text-white">
           <div className="md:w-[50%] w-[100%]">
-            <img src={coaching} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img
+                src={coaching}
+                alt="djhfj"
+                className="md:h-[24rem] mx-auto"
+              />{' '}
+            </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
-            <img src={college} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img src={college} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
-            <img src={school} alt="djhfj" className="md:h-[24rem] mx-auto" />
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img src={school} alt="djhfj" className="md:h-[24rem] mx-auto" />
+            </div>
           </div>
         </div>
         <div className="mt-6 ">
@@ -182,13 +245,27 @@ const Tabstemplate = () => {
         </div>
         <div className="flex justify-between flex-col md:flex-row content-center items-center mt-12 gap-6 text-white">
           <div className="md:w-[50%] w-[100%]">
-            <img src={architech} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img
+                src={architech}
+                alt="djhfj"
+                className="md:h-[24rem] mx-auto"
+              />{' '}
+            </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
-            <img src={hotel} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img src={hotel} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
-            <img src={realstate} alt="djhfj" className="md:h-[24rem] mx-auto" />
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img
+                src={realstate}
+                alt="djhfj"
+                className="md:h-[24rem] mx-auto"
+              />
+            </div>
           </div>
         </div>
         <div className="mt-6 ">
@@ -198,21 +275,27 @@ const Tabstemplate = () => {
         </div>
         <div className="flex justify-between flex-col md:flex-row content-center items-center mt-12 gap-6 text-white">
           <div className="md:w-[50%] w-[100%]">
-            <img
-              src={transpotation3}
-              alt="djhfj"
-              className="md:h-[24rem] mx-auto"
-            />{' '}
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img
+                src={transpotation3}
+                alt="djhfj"
+                className="md:h-[24rem] mx-auto"
+              />{' '}
+            </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
-            <img
-              src={Transportation}
-              alt="djhfj"
-              className="md:h-[24rem] mx-auto"
-            />{' '}
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img
+                src={Transportation}
+                alt="djhfj"
+                className="md:h-[24rem] mx-auto"
+              />{' '}
+            </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
-            <img src={car} alt="djhfj" className="md:h-[24rem] mx-auto" />
+            <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <img src={car} alt="djhfj" className="md:h-[24rem] mx-auto" />
+            </div>
           </div>
         </div>
       </div>

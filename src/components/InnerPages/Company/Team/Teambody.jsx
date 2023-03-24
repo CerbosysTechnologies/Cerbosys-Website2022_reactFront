@@ -114,37 +114,6 @@ const Teambody = () => {
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
                 <img
-                  src={vineetsir1}
-                  alt="Mohit Nayak"
-                  className="w-[280px] mx-auto 
-              
-               "
-                />
-                <div className="absolute inset-1">
-                  {' '}
-                  <img
-                    src={tryimg6}
-                    alt="Mohit Nayak"
-                    className="w-[280px] mx-auto
-           hover:animate-cyclieing-hand
-               "
-                  />
-                </div>
-              </div>
-
-              <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hello, I am Vineet Goyel
-                <br></br>Director of Technology
-                <br></br>
-                <i className="text-Primary">
-                  “Let’s innovate, connect and inspire”{' '}
-                </i>
-              </p>
-            </div>
-
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
-              <div className="relative cursor-pointer">
-                <img
                   src={nidhimam1}
                   alt="Mohit Nayak"
                   className="w-[280px] mx-auto 
@@ -161,26 +130,8 @@ const Teambody = () => {
                "
                   />
                 </div>
-              </div>
-
-              <p className="font-heading md:text-lg text-sm text-center md:mt-4">
-                Hi, I am Nidhi Garg Goyel
-                <br></br>Director of Finance
-                <br></br>
-                <i className="text-Green">
-                  “In the end it’s all about investments”
-                </i>
-              </p>
-            </div>
-          </div>
-          {/* Second Grid Ends */}
-
-          {/* Third Grid */}
-          <div className="grid md:grid-cols-2 mt-8">
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
-              <div className="relative cursor-pointer">
-                <img
-                  src={Jyotimam1}
+                {/* <img
+                  src={vineetsir1}
                   alt="Mohit Nayak"
                   className="w-[280px] mx-auto 
               
@@ -195,18 +146,25 @@ const Teambody = () => {
            hover:animate-cyclieing-hand
                "
                   />
-                </div>
+                </div> */}
               </div>
-
               <p className="font-heading md:text-lg text-sm text-center md:mt-4">
-                Hi, I am Jyoti Rajpal
-                <br></br>Senior Team Lead and Developer
+                Hi, I am Nidhi Garg Goyel
+                <br></br>Director of Finance
                 <br></br>
                 <i className="text-Green">
-                  “Let’s work together and grow together to achieve something
-                  which is beyond limitations”
+                  “In the end it’s all about investments”
                 </i>
               </p>
+
+              {/* <p className="font-heading md:text-lg text-sm text-center mt-6">
+                Hello, I am Vineet Goyel
+                <br></br>Director of Technology
+                <br></br>
+                <i className="text-Primary">
+                  “Let’s innovate, connect and inspire”{' '}
+                </i>
+              </p> */}
             </div>
 
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
@@ -241,9 +199,9 @@ const Teambody = () => {
               </p>
             </div>
           </div>
-          {/* Third Grid Ends */}
+          {/* Second Grid Ends */}
 
-          {/* Fourth Grid */}
+          {/* Third Grid */}
           <div className="grid md:grid-cols-2 mt-8">
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
@@ -278,6 +236,42 @@ const Teambody = () => {
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
                 <img
+                  src={Jyotimam1}
+                  alt="Mohit Nayak"
+                  className="w-[280px] mx-auto 
+              
+               "
+                />
+                <div className="absolute inset-1">
+                  {' '}
+                  <img
+                    src={tryimg6}
+                    alt="Mohit Nayak"
+                    className="w-[280px] mx-auto
+           hover:animate-cyclieing-hand
+               "
+                  />
+                </div>
+              </div>
+
+              <p className="font-heading md:text-lg text-sm text-center md:mt-4">
+                Hi, I am Jyoti Rajpal
+                <br></br>Senior Team Lead and Developer
+                <br></br>
+                <i className="text-Green">
+                  “Let’s work together and grow together to achieve something
+                  which is beyond limitations”
+                </i>
+              </p>
+            </div>
+          </div>
+          {/* Third Grid Ends */}
+
+          {/* Fourth Grid */}
+          <div className="grid md:grid-cols-2 mt-8">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
+              <div className="relative cursor-pointer">
+                <img
                   src={kanchanmam1}
                   alt="Mohit Nayak"
                   className="w-[280px] mx-auto 
@@ -302,41 +296,6 @@ const Teambody = () => {
                 <br></br>
                 <i className="text-Green">
                   “Lead generation is the future of business generation”
-                </i>
-              </p>
-            </div>
-          </div>
-          {/* Fourth Grid Ends */}
-
-          {/* Fifth Grid */}
-          <div className="grid md:grid-cols-2 mt-8">
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
-              <div className="relative cursor-pointer">
-                <img
-                  src={Omprakashsir1}
-                  alt="Mohit Nayak"
-                  className="w-[280px] mx-auto 
-              
-               "
-                />
-                <div className="absolute inset-1">
-                  {' '}
-                  <img
-                    src={tryimg6}
-                    alt="Mohit Nayak"
-                    className="w-[280px] mx-auto
-           hover:animate-cyclieing-hand
-               "
-                  />
-                </div>
-              </div>
-
-              <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hey, I am Omprakash Nath
-                <br></br>Digital marketer
-                <br></br>
-                <i className="text-Green">
-                  “Ready to feed, the #trending you need”
                 </i>
               </p>
             </div>
@@ -372,9 +331,9 @@ const Teambody = () => {
               </p>
             </div>
           </div>
-          {/* Fifth Grid Ends */}
+          {/* Fourth Grid Ends */}
 
-          {/* Sixth Grid */}
+          {/* Fifth Grid */}
           <div className="grid md:grid-cols-2 mt-8">
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
@@ -411,6 +370,41 @@ const Teambody = () => {
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
                 <img
+                  src={Omprakashsir1}
+                  alt="Mohit Nayak"
+                  className="w-[280px] mx-auto 
+              
+               "
+                />
+                <div className="absolute inset-1">
+                  {' '}
+                  <img
+                    src={tryimg6}
+                    alt="Mohit Nayak"
+                    className="w-[280px] mx-auto
+           hover:animate-cyclieing-hand
+               "
+                  />
+                </div>
+              </div>
+
+              <p className="font-heading md:text-lg text-sm text-center mt-6">
+                Hey, I am Omprakash Nath
+                <br></br>Digital marketer
+                <br></br>
+                <i className="text-Green">
+                  “Ready to feed, the #trending you need”
+                </i>
+              </p>
+            </div>
+          </div>
+          {/* Fifth Grid Ends */}
+
+          {/* Sixth Grid */}
+          <div className="grid md:grid-cols-2 mt-8">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
+              <div className="relative cursor-pointer">
+                <img
                   src={lalitsisrji}
                   alt="Mohit Nayak"
                   className="w-[280px] mx-auto 
@@ -435,41 +429,6 @@ const Teambody = () => {
                 <br></br>
                 <i className="text-Green">
                   “Don’t break the code, just write it”
-                </i>
-              </p>
-            </div>
-          </div>
-          {/* Sixth Grid Ends */}
-
-          {/* Seventh Grid */}
-          <div className="grid md:grid-cols-2 mt-8">
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
-              <div className="relative cursor-pointer">
-                <img
-                  src={Rishabsir1}
-                  alt="Mohit Nayak"
-                  className="w-[280px] mx-auto 
-              
-               "
-                />
-                <div className="absolute inset-1">
-                  {' '}
-                  <img
-                    src={tryimg6}
-                    alt="Mohit Nayak"
-                    className="w-[280px] mx-auto
-           hover:animate-cyclieing-hand
-               "
-                  />
-                </div>
-              </div>
-
-              <p className="font-heading md:text-lg text-sm text-center md:mt-4">
-                Hi, I am Rishabh Shrivastava
-                <br></br>UI/UX and Graphic Designer
-                <br></br>
-                <i className="text-Green">
-                  “You believe we design, to make your business shine”
                 </i>
               </p>
             </div>
@@ -505,9 +464,9 @@ const Teambody = () => {
               </p>
             </div>
           </div>
-          {/* Seventh Grid Ends */}
+          {/* Sixth Grid Ends */}
 
-          {/* 8 Grid */}
+          {/* Seventh Grid */}
           <div className="grid md:grid-cols-2 mt-8">
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
@@ -538,6 +497,42 @@ const Teambody = () => {
                 </i>
               </p>
             </div>
+
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
+              <div className="relative cursor-pointer">
+                <img
+                  src={Rishabsir1}
+                  alt="Mohit Nayak"
+                  className="w-[280px] mx-auto 
+              
+               "
+                />
+                <div className="absolute inset-1">
+                  {' '}
+                  <img
+                    src={tryimg6}
+                    alt="Mohit Nayak"
+                    className="w-[280px] mx-auto
+           hover:animate-cyclieing-hand
+               "
+                  />
+                </div>
+              </div>
+
+              <p className="font-heading md:text-lg text-sm text-center md:mt-4">
+                Hi, I am Rishabh Shrivastava
+                <br></br>UI/UX and Graphic Designer
+                <br></br>
+                <i className="text-Green">
+                  “You believe we design, to make your business shine”
+                </i>
+              </p>
+            </div>
+          </div>
+          {/* Seventh Grid Ends */}
+
+          {/* 8 Grid */}
+          <div className="grid md:grid-cols-2 mt-8">
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
                 <img
@@ -573,69 +568,6 @@ const Teambody = () => {
                 </i>
               </p>
             </div>
-
-            {/* <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
-              <div className="relative cursor-pointer">
-                <img
-                  src={rajnimam1}
-                  alt="Mohit Nayak"
-                  className="w-[280px] mx-auto 
-              
-               "
-                />
-                <div className="absolute inset-1">
-                  {' '}
-                  <img
-                    src={tryimg6}
-                    alt="Mohit Nayak"
-                    className="w-[280px] mx-auto
-           hover:animate-cyclieing-hand
-               "
-                  />
-                </div>
-              </div>{' '}
-              <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hey, I am Rajni Gajabhiye
-                <br></br> Tester
-                <br></br>
-                <i className="text-Green">“Press any KEY to continue…”</i>
-              </p>
-            </div> */}
-          </div>
-          {/* 8 Grid Ends */}
-
-          {/* 9 Grid */}
-          <div className="grid md:grid-cols-2 mt-8">
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
-              <div className="relative cursor-pointer">
-                <img
-                  src={Saloni}
-                  alt="Mohit Nayak"
-                  className="w-[280px] mx-auto 
-              
-               "
-                />
-                <div className="absolute inset-1">
-                  {' '}
-                  <img
-                    src={tryimg6}
-                    alt="Mohit Nayak"
-                    className="w-[280px] mx-auto
-                       hover:animate-cyclieing-hand "
-                  />
-                </div>
-              </div>{' '}
-              <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hi, I am Saloni Jain
-                <br></br> Business Development Specialist
-                <br></br>
-                <i className="text-Green">
-                  {' '}
-                  "Every successful business is catalyzed by motivation."
-                </i>
-              </p>
-            </div>
-
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
                 <img
@@ -666,14 +598,14 @@ const Teambody = () => {
               </p>
             </div>
           </div>
-          {/* 9 Grid Ends  */}
+          {/* 8 Grid Ends */}
 
-          {/* 10 grid start */}
+          {/* 9 Grid */}
           <div className="grid md:grid-cols-2 mt-8">
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
                 <img
-                  src={dumyblueg}
+                  src={boysblue}
                   alt="Mohit Nayak"
                   className="w-[280px] mx-auto 
               
@@ -700,7 +632,41 @@ const Teambody = () => {
               </p>
             </div>
 
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
+              <div className="relative cursor-pointer">
+                <img
+                  src={Saloni}
+                  alt="Mohit Nayak"
+                  className="w-[280px] mx-auto 
+              
+               "
+                />
+                <div className="absolute inset-1">
+                  {' '}
+                  <img
+                    src={tryimg6}
+                    alt="Mohit Nayak"
+                    className="w-[280px] mx-auto
+                       hover:animate-cyclieing-hand "
+                  />
+                </div>
+              </div>{' '}
+              <p className="font-heading md:text-lg text-sm text-center mt-6">
+                Hi, I am Saloni Jain
+                <br></br> Business Development Specialist
+                <br></br>
+                <i className="text-Green">
+                  {' '}
+                  "Every successful business is catalyzed by motivation."
+                </i>
+              </p>
+            </div>
+          </div>
+          {/* 9 Grid Ends  */}
+
+          {/* 10 grid start */}
+          <div className="grid md:grid-cols-2 mt-8">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
                 <img
                   src={girlgreen}
@@ -726,42 +692,6 @@ const Teambody = () => {
                 <br></br>
                 <i className="text-Green">
                   "Computers are fast; developers keep them slow."
-                </i>
-              </p>
-            </div>
-          </div>
-          {/* 10 grid end */}
-          {/* 11 GRID START */}
-
-          {/* 11 GRID END */}
-          {/* 12 grid start */}
-          <div className="grid md:grid-cols-2 mt-8">
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
-              <div className="relative cursor-pointer">
-                <img
-                  src={sapna}
-                  alt="Mohit Nayak"
-                  className="w-[280px] mx-auto 
-              
-               "
-                />
-                <div className="absolute inset-1">
-                  {' '}
-                  <img
-                    src={tryimg6}
-                    alt="Mohit Nayak"
-                    className="w-[280px] mx-auto
-           hover:animate-cyclieing-hand
-               "
-                  />
-                </div>
-              </div>{' '}
-              <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hello, I am Sapna Prajapat
-                <br></br> UI/UX and Graphic Designer
-                <br></br>
-                <i className="text-Primary">
-                  "Designing is an art, presenting it is a science."
                 </i>
               </p>
             </div>
@@ -797,71 +727,13 @@ const Teambody = () => {
               </p>
             </div>
           </div>
-          {/* 12 grid end */}
-          {/* 13 grid start */}
-          {/* <div className="grid md:grid-cols-2 mt-8">
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
-              <div className="relative cursor-pointer">
-                <img
-                  src={girlgreen}
-                  alt="Mohit Nayak"
-                  className="w-[280px] mx-auto 
-              
-               "
-                />
-                <div className="absolute inset-1">
-                  {' '}
-                  <img
-                    src={tryimg6}
-                    alt="Mohit Nayak"
-                    className="w-[280px] mx-auto
-           hover:animate-cyclieing-hand
-               "
-                  />
-                </div>
-              </div>{' '}
-              <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hello, I am Harshika Bhalekar
-                <br></br> Business Development
-                <br></br>
-                <i className="text-Primary">
-                  “Content without emotion, is like a brand without promotion.”
-                </i>
-              </p>
-            </div>
+          {/* 10 grid end */}
+          {/* 11 GRID START */}
 
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
-              <div className="relative cursor-pointer">
-                <img
-                  src={boysblue}
-                  alt="Mohit Nayak"
-                  className="w-[280px] mx-auto 
-              
-               "
-                />
-                <div className="absolute inset-1">
-                  {' '}
-                  <img
-                    src={tryimg6}
-                    alt="Mohit Nayak"
-                    className="w-[280px] mx-auto
-           hover:animate-cyclieing-hand
-               "
-                  />
-                </div>
-              </div>{' '}
-              <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hey, I am Harshika Bhalekar
-                <br></br> Business Development
-                <br></br>
-                <i className="text-Green">“Press any KEY to continue…”</i>
-              </p>
-            </div>
-          </div> */}
-          {/* 13 grid end */}
-          {/* 14 Grid */}
+          {/* 11 GRID END */}
+          {/* 12 grid start */}
           <div className="grid md:grid-cols-2 mt-8">
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
                 <img
                   src={boysblue}
@@ -893,7 +765,43 @@ const Teambody = () => {
               </p>
             </div>
 
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
+              <div className="relative cursor-pointer">
+                <img
+                  src={sapna}
+                  alt="Mohit Nayak"
+                  className="w-[280px] mx-auto 
+              
+               "
+                />
+                <div className="absolute inset-1">
+                  {' '}
+                  <img
+                    src={tryimg6}
+                    alt="Mohit Nayak"
+                    className="w-[280px] mx-auto
+           hover:animate-cyclieing-hand
+               "
+                  />
+                </div>
+              </div>{' '}
+              <p className="font-heading md:text-lg text-sm text-center mt-6">
+                Hello, I am Sapna Prajapat
+                <br></br> UI/UX and Graphic Designer
+                <br></br>
+                <i className="text-Primary">
+                  "Designing is an art, presenting it is a science."
+                </i>
+              </p>
+            </div>
+          </div>
+          {/* 12 grid end */}
+          {/* 13 grid start */}
+
+          {/* 13 grid end */}
+          {/* 14 Grid */}
+          <div className="grid md:grid-cols-2 mt-8">
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
               <div className="relative cursor-pointer">
                 <img
                   src={greenboys}
@@ -922,38 +830,7 @@ const Teambody = () => {
                 </i>
               </p>
             </div>
-          </div>
-          {/* 14 Grid Ends */}
 
-          {/* 15 Grid  Anil Banwar  Senior FullStack Developer.*/}
-          <div className="grid md:grid-cols-2 mt-8">
-            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
-              <div className="relative cursor-pointer">
-                <img
-                  src={rajnimam1}
-                  alt="Mohit Nayak"
-                  className="w-[280px] mx-auto 
-              
-               "
-                />
-                <div className="absolute inset-1">
-                  {' '}
-                  <img
-                    src={tryimg6}
-                    alt="Mohit Nayak"
-                    className="w-[280px] mx-auto
-           hover:animate-cyclieing-hand
-               "
-                  />
-                </div>
-              </div>{' '}
-              <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hey, I am Rajni Gajabhiye
-                <br></br> Tester
-                <br></br>
-                <i className="text-Green">“Press any KEY to continue…”</i>
-              </p>
-            </div>
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
                 <img
@@ -985,65 +862,10 @@ const Teambody = () => {
                 </i>
               </p>
             </div>
-            {/* <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
-              <div className="relative cursor-pointer">
-                <img
-                  src={rajnimam1}
-                  alt="Mohit Nayak"
-                  className="w-[280px] mx-auto 
-              
-               "
-                />
-                <div className="absolute inset-1">
-                  {' '}
-                  <img
-                    src={tryimg6}
-                    alt="Mohit Nayak"
-                    className="w-[280px] mx-auto
-           hover:animate-cyclieing-hand
-               "
-                  />
-                </div>
-              </div>{' '}
-              <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hey, I am Rajni Gajabhiye
-                <br></br> Tester
-                <br></br>
-                <i className="text-Green">“Press any KEY to continue…”</i>
-              </p>
-            </div> */}
-            {/* <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
-              <div className="relative cursor-pointer">
-                <img
-                  src={gourboth}
-                  alt="Mohit Nayak"
-                  className="w-[280px] mx-auto 
-              
-               "
-                />
-                <div className="absolute inset-1">
-                  {' '}
-                  <img
-                    src={tryimg6}
-                    alt="Mohit Nayak"
-                    className="w-[280px] mx-auto
-           hover:animate-cyclieing-hand
-               "
-                  />
-                </div>
-              </div>{' '}
-              <p className="font-heading md:text-lg text-sm text-center mt-4">
-                Hii, I am your new mate 😊
-                <br></br>
-                <i className="text-Primary">
-                  “Looking forward to join you soon”
-                </i>
-              </p>
-            </div> */}
           </div>
+          {/* 14 Grid Ends */}
 
-          {/* 15 Grid Ends */}
-          {/* 16 grid start */}
+          {/* 15 Grid  Anil Banwar  Senior FullStack Developer.*/}
           <div className="grid md:grid-cols-2 mt-8">
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
               <div className="relative cursor-pointer">
@@ -1075,6 +897,41 @@ const Teambody = () => {
                 </i>
               </p>
             </div>
+            <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
+              <div className="relative cursor-pointer">
+                <img
+                  src={rajnimam1}
+                  alt="Mohit Nayak"
+                  className="w-[280px] mx-auto 
+              
+               "
+                />
+                <div className="absolute inset-1">
+                  {' '}
+                  <img
+                    src={tryimg6}
+                    alt="Mohit Nayak"
+                    className="w-[280px] mx-auto
+           hover:animate-cyclieing-hand
+               "
+                  />
+                </div>
+              </div>{' '}
+              <p className="font-heading md:text-lg text-sm text-center mt-6">
+                Hey, I am Rajni Gajabhiye
+                <br></br> Tester
+                <br></br>
+                <i className="text-Green">“Press any KEY to continue…”</i>
+              </p>
+            </div>
+          </div>
+
+          {/* 15 Grid Ends */}
+          {/* 16 grid start */}
+          <div className="grid mt-8 justify-center">
+            {/* <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center ">
+              <div className="relative cursor-pointer"></div>
+            </div> */}
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">
               <div className="relative cursor-pointer">
                 <img
