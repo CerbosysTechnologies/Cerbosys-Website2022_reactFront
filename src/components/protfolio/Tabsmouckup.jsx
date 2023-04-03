@@ -24,6 +24,7 @@ import { motion } from 'framer-motion';
 import { useRef } from 'react';
 
 import { useState } from 'react';
+import { DesignServices, WebStoriesRounded } from '@mui/icons-material';
 const Tabsmouckup = () => {
   const [count, setCount] = useState(0);
   return (
@@ -168,3 +169,4 @@ const Tabsmouckup = () => {
 };
 
 export default Tabsmouckup;
+
