@@ -7,7 +7,7 @@ import bankingicon1 from '../../../../assets/innerpage/banking/bankingicon1.png'
 import bankingicon2 from '../../../../assets/innerpage/banking/bankingicon2.png';
 import bankingicon3 from '../../../../assets/innerpage/banking/bankingicon3.png';
 import bankingicon4 from '../../../../assets/innerpage/banking/bankingicon4.png';
-import Ecommercesilder from '../Ecommerce/Ecommercesilder';
+import Bankslider from '../Banking/Bankslider';
 import Bankingtext from './Bankingtext';
 const BankingBody = () => {
   const data = [
@@ -132,7 +132,7 @@ const BankingBody = () => {
                 Our Portfolio
               </p>
             </div>
-            <Ecommercesilder />
+            <Bankslider />
           </div>
         </div>
       </div>
