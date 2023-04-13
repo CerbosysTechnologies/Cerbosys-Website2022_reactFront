@@ -142,7 +142,7 @@ const CurrentOpeningBody = () => {
                                 />
                               </div>
                               <div className=" font-bold text-sm">
-                                Salary {item.salaryscale} /year
+                                Salary {item.salaryscale} /Months
                               </div>
                             </div>
                             {/* <div className="flex gap-3.5">

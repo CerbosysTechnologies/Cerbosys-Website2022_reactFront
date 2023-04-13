@@ -123,7 +123,7 @@ function CurrentOpningGetbyOne() {
                         />
                       </div>
                       <div className="text-xl  font-bold ml-3">
-                        Salary {Salry} /Month
+                        Salary {Salry} /Months
                       </div>
                     </div>
                   </li>
