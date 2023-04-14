@@ -103,12 +103,14 @@ const IndustriesHomePage = () => {
             </div>
             <Flip duration={4000}>
               <div>
+              <Link to="/health-care">
                 <img
                   src={fitnessicon}
                   alt="Fitness Icon"
                   //   className="md:w-[170px] md:h-[170px]
                   // w-[120px] h-[120px]"
                 ></img>
+                </Link>
               </div>
             </Flip>
             <div>
@@ -134,12 +136,14 @@ const IndustriesHomePage = () => {
             </div>
 
             <div>
+            <Link to="/agriculture">
               <img
                 src={foodicon}
                 alt="Food Icon"
                 // className="md:w-[170px] md:h-[170px]
                 // w-[120px] h-[120px]"
               ></img>
+              </Link>
             </div>
             <div>
               <Link to="/education">

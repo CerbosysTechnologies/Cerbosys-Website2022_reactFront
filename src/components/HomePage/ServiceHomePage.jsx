@@ -12,6 +12,7 @@ import Slide from 'react-reveal/Slide';
 import Bounce from 'react-reveal/Bounce';
 import Flip from 'react-reveal/Flip';
 import { handelRightClick } from '../../components/Common/utils/Desbalrightclick';
+import { Link } from 'react-router-dom';
 
 const ServiceHomePage = () => {
   // document.removeEventListener("contextmenu", handelRightClick);
@@ -45,10 +46,10 @@ const ServiceHomePage = () => {
             items-center justify-center text-center gap-8 p-3"
             >
               {/* Mobile App Developemnt */}
-
-              <div>
+                <Link to="/mobile-app-development">
+              <div className='hover:bg-green-500 hover:text-white p-5 rounded-lg cursor-pointer '>
                 <Bounce left duration={3000}>
-                  {' '}
+                  
                   <img
                     alt="Mobile Icon"
                     src={mobileicon}
@@ -59,7 +60,7 @@ const ServiceHomePage = () => {
                 </Bounce>
 
                 <h2 className="font-subheading text-left text-xl w-1/2 mt-4">
-                  Mobile App Developements
+                  Mobile App Development
                 </h2>
                 <p className="font-content text-justify text-sm md:mb-0 mb-2 mt-4">
                   Smartphones are a crucial part of our lives, so it's important
@@ -71,8 +72,9 @@ const ServiceHomePage = () => {
                   <br></br>
                 </p>
               </div>
-
-              <div>
+            </Link>
+            <Link to="/web-development">
+              <div className='hover:bg-green-500 hover:text-white p-5 rounded-lg cursor-pointer '>
                 <Bounce top duration={3000}>
                   {' '}
                   <img
@@ -82,7 +84,7 @@ const ServiceHomePage = () => {
                   />
                 </Bounce>
                 <h2 className="font-subheading text-left text-xl w-1/2 mt-4">
-                  Web Developement
+                  Web Development
                 </h2>
                 <p className="font-content text-justify text-sm mt-4">
                   Website development is the process of creating a new website
@@ -93,10 +95,13 @@ const ServiceHomePage = () => {
                   alike.
                 </p>
               </div>
+              </Link>
 
-              <div>
+
+              <Link to="/digital-marketing">
+              <div className='hover:bg-green-500 hover:text-white p-5 rounded-lg cursor-pointer '>
                 <Bounce right duration={3000}>
-                  {' '}
+    
                   <img
                     alt="Digital Marketing Icon"
                     src={digitalmarketingicon}
@@ -115,8 +120,11 @@ const ServiceHomePage = () => {
                   RESULTS!
                 </p>
               </div>
+              </Link>
 
-              <div>
+
+              <Link to="/staff-augmentation">
+              <div className='hover:bg-green-500 hover:text-white p-5 rounded-lg cursor-pointer '>
                 <Bounce left duration={3000}>
                   {' '}
                   <img
@@ -136,8 +144,11 @@ const ServiceHomePage = () => {
                   and projects.
                 </p>
               </div>
+            </Link>
 
-              <div>
+            <Link to="/ui-ux-designing">
+              <div className='hover:bg-green-500 hover:text-white p-5 rounded-lg cursor-pointer '>
+          
                 <Bounce bottom duration={3000}>
                   {' '}
                   <img
@@ -157,8 +168,12 @@ const ServiceHomePage = () => {
                   increase your sales effectively.
                 </p>
               </div>
+              </Link>
 
-              <div>
+
+           
+            <Link to="/branding-and-packaging">
+              <div className='hover:bg-green-500 hover:text-white p-5 rounded-lg cursor-pointer '>
                 <Bounce right duration={3000}>
                   {' '}
                   <img
@@ -178,8 +193,11 @@ const ServiceHomePage = () => {
                   clients and help their brand to draw customer attention.
                 </p>
               </div>
+              </Link>
 
-              <div>
+
+              <Link to="/lead-generation">
+              <div className='hover:bg-green-500 hover:text-white p-5 rounded-lg cursor-pointer '>
                 <Bounce left duration={3000}>
                   {' '}
                   <img
@@ -199,6 +217,7 @@ const ServiceHomePage = () => {
                   to your needs.
                 </p>
               </div>
+              </Link>
 
               <div className="md:col-span-2 col-span-1">
                 <img
