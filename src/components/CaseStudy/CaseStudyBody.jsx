@@ -2,11 +2,6 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { Bounce } from 'react-reveal';
 import { Flip } from 'react-reveal';
-// import oneicon from '../../../../assets/innerpage/webdevelopment/1.svg';
-import oneicon from '../../assets/innerpage/webdevelopment/1.svg';
-import twoicon from '../../assets/innerpage/webdevelopment/2.svg';
-import processicon1 from '../../assets/innerpage/webdevelopment/processimage1.png';
-import processicon2 from '../../assets/innerpage/webdevelopment/processimage2.png';
 import { AiOutlineClose } from 'react-icons/ai';
 import { SERVER } from '../../ServerUrls';
 import { IMAGE_SERVER } from '../../ServerUrls';
@@ -20,9 +15,8 @@ const CaseStudyBody = () => {
   const IMG = IMAGE_SERVER + '/casestudyimage/';
   const [AllServices, setAllServices] = useState('');
   const [pdf, setpdf] = useState();
-  console.log(pdf);
+  
   var i = pdf;
-  // let [...pdf] = i.casestudy_pdf;
   const [email, setEmail] = useState('');
   let navigate = useNavigate();
   const modalclose = () => {
@@ -96,15 +90,11 @@ const CaseStudyBody = () => {
       .catch((err) => {
         console.log('not post', err);
         toast.error('something wrong');
-        // setTimeout(() => {
-        //   window.location.reload();
-        // }, 2000);
       });
   };
 
   const CaseStudyByOne = (id) => {
     let path = `/whitepapers/${id}`;
-    // let path = `/${casestudy_title}/${id}`;
     navigate(path);
   };
   return (

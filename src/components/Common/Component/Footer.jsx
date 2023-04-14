@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import callicon from '../../../assets/footer/FooterWhatsp.svg';
+import callicon from '../../../assets/footer/Whatsapp_icon.svg';
 import emailicon from '../../../assets/footer//FooterEmail.svg';
 import fbcon from '../../../assets/footer/Facebook.svg';
 import instagramicon from '../../../assets/footer/Instagram.svg';
@@ -301,10 +301,10 @@ const Footer = () => {
                   </span>
                 </div>
 
-                <div className="flex flex-row mb-5">
+                <div className="flex flex-row mb-5 w-72">
                   <img src={callicon} alt="Call Icon" className="mr-3"></img>
                   <span className="font-subheading text-sm text-white">
-                    +91 9826906988
+                    +91 98-2690-6988
                   </span>
                 </div>
 
@@ -315,7 +315,7 @@ const Footer = () => {
                     className="mr-3"
                   ></img>
                   <span className="font-subheading text-sm text-white">
-                    +91 9826906988, &nbsp;88-3969-7183
+                    +91 88-3969-7183
                   </span>
                 </div>
 

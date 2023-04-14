@@ -157,7 +157,7 @@ const FreeQuote = () => {
           {/* To open contact form */}
           <div
             className="inline-block bg-white 
-              2xl:mt-52
+             
             
               rounded-lg text-left shadow-xl transform transition-all md:w-10/12 md:mt-40 mt-28"
             role="dialog"
@@ -165,12 +165,12 @@ const FreeQuote = () => {
             aria-labelledby="modal-headline"
           >
             {/* md:h-1/2 */}
-            <div className="grid md:grid-cols-2 md:mb-4 md:mt-10 mt-5 md:h-[450px]  md:overflow-scroll">
+            <div className="grid md:grid-cols-2 md:mb-4 md:mt-10 mt-5 ">
               <div className="mx-10 hidden md:block">
                 <img src={imagepopup} alt="" className="h-full w-screen" />
               </div>
 
-              <div className="bg-white md:mx-20 mx-10">
+              <div className="bg-white md:mx-20 mx-10 md:mb-20  2xl:mb-10 md:h-[400px]   md:overflow-scroll">
                 <div className="flex justify-between">
                   <div className="text-3xl">Get in touch</div>
                   <div>
@@ -250,14 +250,16 @@ const FreeQuote = () => {
                     {/* Selection Div */}
                     <div className=" mb-3 w-full group">
                       <select
-                        className="dropdown text-gray-400 font-heading  text-sm flex flex-wrap
-                      border-2 rounded-lg px-2 py-2 border-gray-400"
+                        className="block py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent 
+                        border-0 border-b-2 border-gray-300 appearance-none  dark:border-gray-400 
+                        focus:outline-none focus:ring-0 peer dropdown text-gray-400 font-heading  text-sm flex flex-wrap
+                        border-b-2  px-2 py-2  w-full"
                         onChange={(e) => {
                           handlerChange(e);
                           // hadalChnageID();
                         }}
                       >
-                        <option>Please Select</option>
+                         <option>Select Enquiry For  </option>
 
                         {serviceitems ? (
                           serviceitems.map((item) => (

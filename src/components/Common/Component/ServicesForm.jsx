@@ -241,11 +241,13 @@ const ServicesForm = (props) => {
           {/* Selection Div */}
           <div className=" mb-3 w-full group">
             <select
-              className="dropdown text-gray-400 font-heading  text-sm flex flex-wrap w-full
-                    border-2 rounded-lg px-2 py-2 border-gray-400"
+              className="block py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent 
+              border-0 border-b-2 border-gray-300 appearance-none  dark:border-gray-400 
+              focus:outline-none focus:ring-0 peer dropdown text-gray-400 font-heading  text-sm flex flex-wrap
+              border-b-2  px-2 py-2  w-full"
               onChange={handlerChange}
             >
-              <option>Please Select</option>
+              <option> Select Service For</option>
               {serviceitems ? (
                 serviceitems.map((item, ind) => (
                   <option

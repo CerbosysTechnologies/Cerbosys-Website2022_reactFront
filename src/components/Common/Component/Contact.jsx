@@ -197,14 +197,16 @@ const Contact = () => {
           {/* Selection Div */}
           <div className=" mb-3 w-full group mt-2">
             <select
-              className="dropdown text-gray-400 font-heading  text-sm flex flex-wrap
-                    border-2 rounded-lg px-2 py-2 border-gray-400 w-full"
+              className="block py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent 
+              border-0 border-b-2 border-gray-300 appearance-none  dark:border-gray-400 
+              focus:outline-none focus:ring-0 peer dropdown text-gray-400 font-heading  text-sm flex flex-wrap
+              border-b-2  px-2 py-2  w-full"
               onChange={(e) => {
                 handlerChange(e);
                 // hadalChnageID();
               }}
             >
-              <option>Please Select</option>
+              <option> Select Contact For</option>
 
               {serviceitems ? (
                 serviceitems.map((item) => (
