@@ -6,19 +6,14 @@ import experience from '../../../../assets/Careerpage/experience.png';
 import location from '../../../../assets/Careerpage/location.png';
 import rupes from '../../../../assets/Careerpage/rupes.png';
 import fulltime from '../../../../assets/Careerpage/fulltime.png';
-// import Rupees from '../../../../assets/Careerpage/Rupees.svg';
-// import hands from '../../../../assets/Careerpage/hands.svg';
-// import place from '../../../../assets/Careerpage/ic_place_24px.svg';
-import description from '../../../../assets/Careerpage/ic_description_24px.svg';
+
 
 import ApplyForjob from './ApplyForjob';
-import { createMemoryRouter, Navigate, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 
 const CurrentOpeningBody = () => {
   let navigate = useNavigate();
-  // const ModalPotion = () => {
-  //   document.getElementById('ModalPotion').style.display = 'block';
-  // };
+ 
 
   const IMG = 'https://cerbosys.in:3700/job_post/';
   const [Job, setJob] = useState([]);
@@ -43,7 +38,6 @@ const CurrentOpeningBody = () => {
 
   const CurrentOpningGetbyOne = (id) => {
     let path = `/current-opening/${id}`;
-    // let path = `/${casestudy_title}/${id}`;
     navigate(path);
   };
   return (
@@ -54,9 +48,7 @@ const CurrentOpeningBody = () => {
           <div className="block w-40  rounded-md h-[8px] bg-black justify-center m-auto mt-3">
             <span className="animate-waving-hand block w-12  rounded-md h-[8px] bg-Orange justify-center m-auto mt-3 "></span>{' '}
           </div>
-          {/* <div className="block w-40 h-1 bg-black justify-center m-auto mt-3">
-            <div className="block w-20 h-1 bg-Orange justify-center m-auto mt-3"></div>
-          </div> */}
+      
           {/* Card Content Section */}
           <div className="flex justify-center">
             <div className="flex flex-wrap md:flex-nowrap mt-10   gap-10">
@@ -145,18 +137,7 @@ const CurrentOpeningBody = () => {
                                 Salary {item.salaryscale} /Months
                               </div>
                             </div>
-                            {/* <div className="flex gap-3.5">
-                            <div className="md:mt-1 ">
-                              <img
-                                className="card-icon h-5 w-5"
-                                src={description}
-                                alt="Placeholder"
-                              />
-                            </div>
-                            <div className=" uppercase font-bold">
-                              {item.jobdescription}
-                            </div>
-                          </div> */}
+                            
                           </div>
                         </p>
 

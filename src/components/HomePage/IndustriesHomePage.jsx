@@ -12,8 +12,7 @@ import realestateicon from '../../assets/industry/real-estate.svg';
 import transportationicon from '../../assets/industry/Transportation.svg';
 import agricultureicon from '../../assets/industry/Agriculture.svg';
 import Flip from 'react-reveal/Flip';
-import Roll from 'react-reveal/Roll';
-import LightSpeed from 'react-reveal/LightSpeed';
+
 import { Link } from 'react-router-dom';
 
 const IndustriesHomePage = () => {
@@ -52,8 +51,7 @@ const IndustriesHomePage = () => {
                   <img
                     src={agricultureicon}
                     alt="Agriculture Icon"
-                    //     className="md:w-[170px] md:h-[170px]
-                    // w-[120px] h-[120px]"
+                   
                   ></img>
                 </Link>
               </div>
@@ -64,8 +62,7 @@ const IndustriesHomePage = () => {
                 <img
                   src={ecommerceicon}
                   alt="E-commerce Icon"
-                  //   className="md:w-[170px] md:h-[170px]
-                  // w-[120px] h-[120px]"
+                 
                 ></img>
               </Link>
             </div>
@@ -75,8 +72,7 @@ const IndustriesHomePage = () => {
                 <img
                   src={healthcareicon}
                   alt="Healthcare Icon"
-                  //   className="md:w-[170px] md:h-[170px]
-                  // w-[120px] h-[120px]"
+                 
                 ></img>
               </Link>
             </div>
@@ -85,8 +81,7 @@ const IndustriesHomePage = () => {
                 <img
                   src={bankingicon}
                   alt="Banking Icon"
-                  //   className="md:w-[170px] md:h-[170px]
-                  // w-[120px] h-[120px]"
+                 
                 ></img>
               </Link>
             </div>
@@ -96,8 +91,7 @@ const IndustriesHomePage = () => {
                 <img
                   src={miningicon}
                   alt="Mining Icon"
-                  //   className="md:w-[170px] md:h-[170px]
-                  // w-[120px] h-[120px]"
+                 
                 ></img>
               </Link>
             </div>
@@ -107,8 +101,7 @@ const IndustriesHomePage = () => {
                 <img
                   src={fitnessicon}
                   alt="Fitness Icon"
-                  //   className="md:w-[170px] md:h-[170px]
-                  // w-[120px] h-[120px]"
+                 
                 ></img>
                 </Link>
               </div>
@@ -118,8 +111,7 @@ const IndustriesHomePage = () => {
                 <img
                   src={transportationicon}
                   alt="Transportation Icon"
-                  //   className="md:w-[170px] md:h-[170px]
-                  // w-[120px] h-[120px]"
+                 
                 ></img>
               </Link>
             </div>
@@ -129,8 +121,7 @@ const IndustriesHomePage = () => {
                 <img
                   src={logisticsicon}
                   alt="Logistics Icon"
-                  //   className="md:w-[170px] md:h-[170px]
-                  // w-[120px] h-[120px]"
+                 
                 ></img>
               </Link>
             </div>
@@ -150,8 +141,7 @@ const IndustriesHomePage = () => {
                 <img
                   src={educationicon}
                   alt="Education Icon"
-                  //   className="md:w-[170px] md:h-[170px]
-                  // w-[120px] h-[120px]"
+                 
                 ></img>
               </Link>
             </div>
@@ -172,8 +162,7 @@ const IndustriesHomePage = () => {
                 <img
                   src={manufacturingicon}
                   alt="Manufacturing Icon"
-                  //   className="md:w-[170px] md:h-[170px]
-                  // w-[120px] h-[120px]"
+                 
                 ></img>
               </Link>
             </div>

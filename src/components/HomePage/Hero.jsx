@@ -1,24 +1,20 @@
 import React, { useState } from 'react';
-import Navbar from '../Navbar/Navbar';
 import ServiceHomePage from '../../components/HomePage/ServiceHomePage';
 import TechnologyHomePage from '../../components/HomePage/TechnologyHomePage';
 import IndustriesHomePage from '../../components/HomePage/IndustriesHomePage';
 import CustomerRelationHomePage from '../../components/HomePage/CustomerRelationHomePage';
-import Footer from '../../components/Common/Component/Footer';
 import ClientLogoPage from './ClientLogoPage';
-import { Random } from 'react-animated-text';
 import TypeWriter from 'react-typewriter-effect';
 import MovingComponent from 'react-moving-text';
 import Recommendations from './Recommendations';
 import { Link } from 'react-router-dom';
-import Slide from 'react-reveal/Slide';
 import Bounce from 'react-reveal/Bounce';
 import { Helmet } from 'react-helmet';
 import Roll from 'react-reveal/Roll';
 const Hero = () => {
-  {
+  
     /* animation for buthhon logic start */
-  }
+  
   const AnimationsForChaining = ['bounce'];
   const [animationIndex, setAnimationIndex] = useState(0);
   const [animationType, setAnimationType] = useState(AnimationsForChaining[0]);
@@ -26,9 +22,9 @@ const Hero = () => {
     setAnimationIndex(animationIndex + 1);
     setAnimationType([animationIndex + 1]);
   };
-  {
+  
     /* animation for buthhon logic end */
-  }
+  
   return (
     <>
       <Helmet>
@@ -50,7 +46,7 @@ const Hero = () => {
         {/* Content Section */}
         <div className="flex flex-col justify-center text-center items-center h-3/4 mx-auto">
           {/* Home Contet Animation start */}
-          {/* md:w-[1000px] */}
+       
           <p className="text-white text-center font-heading py-3 md:text-6xl text-xl  mb-8 md:mt-2 mt-24 min-w-fit">
             {/* The Ideal Web and Mobile Solutions for your emerging business- You’re just one click away!! */}
             <span className=" whitespace-nowrap text-white text-center font-heading py-3 md:text-5xl text-xl   mb-8 md:mt-2 mt-24">
@@ -87,11 +83,7 @@ const Hero = () => {
             </span>
           </p>
           {/* Home Contet Animation End */}
-          {/* <p className="text-white font-heading md:text-lg text-sm mb-8 md:w-[730px] w-[350px] mt-36">
-            Generating innovative ideas that convert the clicks into leads for
-            your business - with the help of highly enthusiastic and creative
-            tech-wizards.
-          </p> */}
+         
           {/* animation for buthhon start */}
           <Link to="/Contact-us">
             <button
@@ -125,15 +117,7 @@ const Hero = () => {
                 <div> &nbsp;your business growth </div>
               </Roll>
             </div>
-            {/* <Random
-              text="Let's collaborate to accelerate your
-                business growth"
-              effect="jump"
-              effectChange={0.4}
-              effectDuration={0.5}
-            /> */}
-            {/* </div> */}
-            {/* Let's collaborate to accelerate your business growth with us!! */}
+           
           </p>
         </div>
         {/* Content Section Ends*/}

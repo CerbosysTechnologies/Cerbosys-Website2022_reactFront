@@ -10,12 +10,10 @@ import quoteicon from '../../assets/services/quote.svg';
 import RubberBand from 'react-reveal/RubberBand';
 import Slide from 'react-reveal/Slide';
 import Bounce from 'react-reveal/Bounce';
-import Flip from 'react-reveal/Flip';
-import { handelRightClick } from '../../components/Common/utils/Desbalrightclick';
+
 import { Link } from 'react-router-dom';
 
 const ServiceHomePage = () => {
-  // document.removeEventListener("contextmenu", handelRightClick);
   return (
     <div>
       {/* Header Part */}

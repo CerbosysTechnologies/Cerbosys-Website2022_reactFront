@@ -1,15 +1,10 @@
 import React from 'react';
-import ecommerfashi from '../../assets/portfolio/ecommerfashi.png';
 import Tabslogo from './Tabslogo';
 import Tabsmouckup from './Tabsmouckup';
 
-import Tabs2 from './Tabspost';
 import Tabspost from './Tabspost';
 import Tabstemplate from './Tabstemplate';
-// import tablogo8 from '../../assets/tablogo6';
-// import tab1img from '../../../../../assets/innerpage/education/tab1img.png';
-// import tab2im from '../../../../../assets/innerpage/education/tab2im.png';
-// import tab3img from '../../../../../assets/innerpage/education/tab3img.png';
+
 const Portfoliotabs = ({ color }) => {
   const [openTab, setOpenTab] = React.useState(1);
   return (

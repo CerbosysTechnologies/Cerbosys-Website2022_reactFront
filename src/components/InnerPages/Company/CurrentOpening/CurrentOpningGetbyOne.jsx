@@ -6,7 +6,6 @@ import experience from '../../../../assets/Careerpage/experience.png';
 import location from '../../../../assets/Careerpage/location.png';
 import rupes from '../../../../assets/Careerpage/rupes.png';
 import fulltime from '../../../../assets/Careerpage/fulltime.png';
-import description from '../../../../assets/Careerpage/ic_description_24px.svg';
 import ApplyForjob from './ApplyForjob';
 import parser from 'html-react-parser';
 
@@ -60,7 +59,6 @@ function CurrentOpningGetbyOne() {
         </div>
         {/* Content Section Ends */}
       </div>
-      {/* md:w-[600px]  md:h-[400px] md:w-[400px] */}
       <div className="mt-10 px-8">
         <p className="font-heading text-3xl text-center "> {jobPost}</p>
         <div className="block w-40 h-1 bg-black justify-center m-auto mt-3">
@@ -70,10 +68,7 @@ function CurrentOpningGetbyOne() {
           <div className="flex flex-wrap md:flex-nowrap  ">
             <div className="w-[100%] md:w-[50%] mt-10 pt-4">
               <ul>
-                {/* // self-center py-4 */}
-                {/* <li className="text-center font-heading md:my-5 my-2 md:text-3xl text-xl">
-              {jobPost}
-            </li> */}
+                
                 <div className="bg-slate-100">
                   <li>
                     <div className="flex items-center gap-3.5">
@@ -129,27 +124,14 @@ function CurrentOpningGetbyOne() {
                   </li>
                   <br />
                 </div>
-                {/* <li className="text-justify "></li> */}
+             
                 <li>
-                  {/* <div
-                    className="flex "
-                    // md:my-10 my-5
-                  >
-                    <button
-                      className="py-2 px-6 text-sm font-heading hover:bg-Darkblue hover:text-white
-              text-center text-Darkblue rounded-xl border-Darkblue border-2"
-                      onClick={() => {
-                        ModalPotion();
-                      }}
-                    >
-                      Apply Now
-                    </button>
-                  </div> */}
+                  
                 </li>
               </ul>
               <div
                 className="flex "
-                // md:my-10 my-5
+              
               >
                 <button
                   className="py-2 px-6 text-sm font-heading hover:bg-Darkblue hover:text-white
@@ -162,17 +144,14 @@ function CurrentOpningGetbyOne() {
                 </button>
               </div>
             </div>
-            {/* "justify-center flex md:p-5 p-0 py-6" */}
             <div className="w-[100%] md:w-[50%] mt-5 pt-4">
               <img
                 src={IMG + job_icon}
                 alt="img"
                 className="object-fill w-[300px] md:w-[1200px]"
-                // className="w-96 md:w-[500px] object-fill"
               />
             </div>
           </div>
-          {/* md:mx-10 mx-5 md:my-4 my-4 */}
           <div className=" flex  items-center mt-14">
             <div className=" font-content text-2xl text-justify ">
               {parser(JobDesc)}

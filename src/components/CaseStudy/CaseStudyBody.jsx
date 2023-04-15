@@ -195,61 +195,9 @@ const CaseStudyBody = () => {
         {/* Left said coll start */}
 
         <div class="max-w-[1240px] mx-auto">
-          {/* <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6">
-            <div className="flex">
-              <div className=" bg-Primary md:w-[600px] w-[600px] square mt-5 md:p-10  text-justify   md:px-10 px-5 md:mx-10 mx-10 py-5 md:col-6 rounded-lg  shadow-2xl mb-52">
-                <div className=" font-heading  md:text-2xl md:font-bold text-xl">
-                  ENCAPSULATING SOLUTIONS, ARCHITECTURE, BUSINESS MODEL
-                </div>
-                <p className="font-content  text-justify text-sm  md:mt-3 mt-10 md:mb-5 mb-4 ">
-                  On-demand solutions have become the new normal for many
-                  businesses and entrepreneurs undertaking the advantages of
-                </p>
-                <br />
-                <p className="font-content  text-justify text-sm  md:mt-3 mt-10 md:mb-5 mb-4">
-                  On-demand solutions have become the new normal for many
-                  businesses and entrepreneurs undertaking the advantages of
-                </p>
-              </div>
-              <div className="md:h-40 h-0"></div>
-            </div>
-          </div> */}
+          
           <div className="flex flex-wrap justify-around gap-28 py-5">
-            {/* {AllServices ? (
-              AllServices.map((item) => (
-                <div
-                  class="max-w-sm  overflow-hidden shadow-lg rounded-2xl "
-                  onClick={() => CaseStudyByOne(item.casestudy_id)}
-                >
-                  <img
-                    src={IMG + `${item.casestudy_image.substr(24)}`}
-                    alt="image"
-                    className="md:w-[300px] md:h-[300px]"
-                  />
-                  <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2">
-                      
-                      {item.casestudy_title}
-                    </div>
-                    <div className="flex items-center justify-center">
-                      <button
-                        className="py-2 px-4 text-sm font-heading 
-                        hover:text-white
-                        hover:bg-blue-700
-              text-center text-Primary rounded-3xl border border-Primary "
-                      >
-                        <div>
-                          Click Here Read More
-                         
-                        </div>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              ))
-            ) : (
-              <p> No service </p>
-            )} */}
+            
           </div>
         </div>
       </div>

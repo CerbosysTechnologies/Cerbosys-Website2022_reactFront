@@ -1,5 +1,4 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import React, {   useState } from 'react';
 import { SERVER } from '../../../../ServerUrls';
 import { AiOutlineClose } from 'react-icons/ai';
 import vacancy from '../../../../assets/Careerpage/job800500.svg';
@@ -12,7 +11,6 @@ function ApplyForjob() {
   //hooks
 
   const [position, setPosition] = React.useState('');
-  const [application, setApplication] = React.useState('');
 
   const [desc, setDesc] = React.useState('');
   const [jobicons, setJobIcon] = React.useState('');
@@ -26,8 +24,6 @@ function ApplyForjob() {
   const [errorsposition, setErrorsposition] = React.useState('');
 
   const [errorsdesc, setErrorsdesc] = React.useState('');
-  const [errorsexp, setErrorsexp] = React.useState('');
-  const [errorstype, setErrorstype] = React.useState('');
   const [errorsicons, setErroricons] = React.useState('');
 
   // -------------
@@ -39,7 +35,6 @@ function ApplyForjob() {
   const [contactNumber, setContactNumber] = useState('');
   const [errorscon, setErrorsCon] = useState(false);
   const [errorscontact, setErrorsContact] = useState('');
-  const [serviceId, setServiceId] = useState('');
 
   // Job post section for tak value and  and set value in state  with validation
   const onchangeFullName = (e) => {
@@ -117,7 +112,7 @@ function ApplyForjob() {
   // post api
 
   const handleSubmit = (e) => {
-    console.log(formdata);
+ 
     e.preventDefault();
     var formdata = new FormData();
     formdata.append('positionapplied', position);
@@ -151,7 +146,7 @@ function ApplyForjob() {
       <div
         class="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden"
         id="ModalPotion"
-        // style={{ display: 'none' }}
+   
       >
         <div className="flex items-center justify-center max-height-100vh pt-4 px-4 pb-20 text-center sm:block sm:p-0">
           <div className="fixed inset-0 transition-opacity">
@@ -200,8 +195,7 @@ function ApplyForjob() {
                       required
                       value={username}
                       onChange={onchangeFullName}
-                      // onChange={(e) => setUsername(e.target.value)}
-                      // value={username}
+                      
                     />
                     {errorsNa && (
                       <div className="text-left text-red-500">{errorsname}</div>
@@ -237,7 +231,6 @@ function ApplyForjob() {
        focus:outline-none focus:ring-0 peer"
                       placeholder="Mobile Number"
                       required
-                      // onChange={(e) => setContactNumber(e.target.value)}
                       value={contactNumber}
                       onChange={onchangeContact}
                       maxLength="10"
@@ -316,8 +309,7 @@ function ApplyForjob() {
        focus:outline-none focus:ring-0 peer"
                       placeholder="Resume_description"
                       required
-                      // onChange={(e) => setMessage(e.target.value)}
-                      // value={message}
+                    
                       value={desc}
                       onChange={onchangeDesc}
                     />

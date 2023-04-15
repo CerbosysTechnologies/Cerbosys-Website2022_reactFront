@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 import { AiOutlineClose } from 'react-icons/ai';
 import { useNavigate, useParams } from 'react-router-dom';
@@ -67,9 +67,9 @@ function CaseStudyByOne() {
       .catch((err) => {
         console.log('not post', err);
         toast.error('something wrong');
-        // setTimeout(() => {
-        //   window.location.reload();
-        // }, 2000);
+        setTimeout(() => {
+          window.location.reload();
+        }, 2000);
       });
   };
   const saveFile = () => {
@@ -79,13 +79,7 @@ function CaseStudyByOne() {
 
       `${pdf}.pdf`
     );
-    // saveAs(
-    //   `https://cerbosys.in:3700/casestudypdf/${casestudy_id.casestudy_pdf.substr(
-    //     22
-    //   )}`,
-    //   // `${casestudy_id.casestudy_pdf}`
-    //   `dawnlode.pdf`
-    // );
+    
   };
   return (
     <div>

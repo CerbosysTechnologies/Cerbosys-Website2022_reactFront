@@ -8,13 +8,6 @@ import anupicon from "../../../../assets/innerpage/testimonial/anup.png";
 import sumiticon from "../../../../assets/innerpage/testimonial/sumit.png";
 import diveshicon from "../../../../assets/innerpage/testimonial/divesh.png";
 
-import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  ButtonBack,
-  ButtonNext,
-} from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -231,10 +224,7 @@ const TestimonialBody = () => {
               }}
               loop={true}
               slidesPerView={1}
-              // autoplay={{
-              //   delay: 5000,
-              //   disableOnInteraction: false,
-              // }}
+              
             >
               {/* Anita */}
               <SwiperSlide>

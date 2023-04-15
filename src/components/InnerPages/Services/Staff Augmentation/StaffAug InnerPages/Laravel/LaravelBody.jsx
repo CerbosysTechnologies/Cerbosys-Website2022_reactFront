@@ -1,7 +1,4 @@
 import React from 'react';
-
-import laravelimage from '../../../../../../assets/innerpage/laravel/laravelimage.svg';
-import laravelprocess from '../../../../../../assets/innerpage/laravel/laravelhire.svg';
 import laravelimg from '../../../../../../assets/innerpage/laravel/laravalimg.svg';
 import reactjsgroup from '../../../../../../assets/innerpage/reactjs/reactjsgroup.png';
 import laravelrgimg from '../../../../../../assets/innerpage/laravel/laravelrgimg.png';

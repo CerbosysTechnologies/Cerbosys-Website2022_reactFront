@@ -1,8 +1,6 @@
 // import { Agriculture } from '@mui/icons-material';
 import React from 'react';
 import ecommerfashi from '../../assets/portfolio/ecommerfashi.png';
-// import tem2 from '../../assets/portfolio/tem2.png';
-// import templet1 from '../../assets/portfolio/templet1.png';
 import realstate from '../../assets/portfolio/realstate.png';
 import Transportation from '../../assets/portfolio/Transportation.png';
 import Banking from '../../assets/portfolio/Banking.png';
@@ -30,7 +28,6 @@ import car from '../../assets/portfolio/car.png';
 import transpotation3 from '../../assets/portfolio/transpotation3.png';
 
 import salon from '../../assets/portfolio/salon.png';
-import { ViewModuleSharp } from '@mui/icons-material';
 const Tabstemplate = () => {
   return (
     <>
@@ -53,7 +50,7 @@ const Tabstemplate = () => {
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
               <img
-                // src={food}
+                
                 src={Agriculture}
                 alt="djhfj"
                 className="md:h-[24rem] mx-auto rounded-lg"

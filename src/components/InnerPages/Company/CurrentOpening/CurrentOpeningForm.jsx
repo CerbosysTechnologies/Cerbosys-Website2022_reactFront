@@ -29,9 +29,7 @@ const CurrentOpeningForm = ({ onChangeSelected }) => {
             </h2>
             {/* Heading Ends */}
             {/* Form Design */}
-            {/* md:w-10/12 */}
-            {/* mx-auto items-center justify-center grid-cols-2  img*/}
-            {/* items-center justify-center text-center */}
+         
             <div className="lg:grid w-full  grid-cols-2  mb-4 mt-10 shadow-xl shadow-gray-600">
               {/* Image Section */}
               <div className=" w-full">

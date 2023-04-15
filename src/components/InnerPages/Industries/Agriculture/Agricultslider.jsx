@@ -2,13 +2,10 @@ import React from 'react';
 
 import Slider from 'react-slick';
 
-// import ecommersarrival from '../../../../assets/innerpage/ecommerce/ecommersarrival.png';
-// import ecommerfashi from '../../../../assets/innerpage/ecommerce/ecommerfashi.png';
-
 import food from '../../../../assets/innerpage/agriculture/food.jpg';
 import plant from '../../../../assets/innerpage/agriculture/plant.jpg';
 import Agriculture from '../../../../assets/innerpage/agriculture/Agriculture.jpg';
-import { motion } from 'framer-motion';
+
 import { Link } from 'react-router-dom';
 
 const Agricultslider = () => {
@@ -48,17 +45,7 @@ const Agricultslider = () => {
   };
   return (
     <div className="mt-8">
-      {/*  <motion.div className="carousel">
-                <motion.div
-                   ...
-                    drag="x" 
-                    dragConstraints={{right: 0, left:-1100}} 
-                    dragTransition={{ bounceStiffness: 600, bounceDamping: 8 }} 
-                >
-                    ...
-                </motion.div>
-            </motion.div> */}
-      {/* h-52 md:h-90 */}
+      
       <Slider {...settings}>
         <div className="h-96 md:h-90 px-8">
           <div className="relative bg-Lightpink h-[140px] md:h-[200px] rounded-t-lg">

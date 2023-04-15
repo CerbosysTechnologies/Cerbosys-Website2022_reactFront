@@ -1,8 +1,7 @@
 import React from 'react';
-// import Navbar from '../../../Navbar/Navbar';
 import AgricultureBody from './AgricultureBody';
 import AgricultureForm from './AgricultureForm';
-// import Footer from '../../../Common/Component/Footer';
+
 import { Helmet } from 'react-helmet';
 
 const Agriculture = () => {
@@ -24,7 +23,7 @@ const Agriculture = () => {
           />
         </Helmet>
 
-        {/* <Navbar /> */}
+       
         <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[36rem] bg-AgricultureHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
@@ -42,7 +41,7 @@ const Agriculture = () => {
       </>
       <AgricultureBody />
       <AgricultureForm />
-      {/* <Footer /> */}
+  
     </div>
   );
 };

@@ -2,7 +2,6 @@ import React from 'react';
 import portfolioleftimg from '../../assets/portfolio/portfolioleftimg.png';
 import portfolioright from '../../assets/portfolio/portfolioright.png';
 import Portfoliotabs from './Portfoliotabs';
-import real from '../../assets/portfolio/real.mp4';
 const Portfoliobody = () => {
   return (
     <>
@@ -70,32 +69,7 @@ const Portfoliobody = () => {
             </div>
           </div>
         </div>
-        {/* text start before:py-40 before:px-4*/}
-        {/* <div
-          className="relative w-[300px] h-96 bg-black rounded-[20px] flex justify-center items-center overflow-hidden
-           before:content-[' '] 
-          before:absolute 
-          before:left-[0%]  
-          before:top-[0%] 
-          before:w-full
-           before-h-full  
-          
-          before:z-50
-           before:animate-btns-hand
-           
-           after:content-[' '] 
-           after:absolute 
-           after:left-[0%]  
-           after:top-[0%] 
-           after:w-full
-           after-h-full  
-         
-           after:z-50
-           after:animate-btns-hand"
-        >
-          <span className="text-white z-50 ">hello</span>
-        </div> */}
-        {/* text end */}
+        
 
         {/* about portfolio end */}
         {/* portfolio tabs sections */}

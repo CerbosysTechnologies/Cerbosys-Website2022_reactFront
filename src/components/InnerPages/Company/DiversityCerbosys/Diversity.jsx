@@ -1,7 +1,5 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import Footer from '../../../Common/Component/Footer';
-import Navbar from '../../../Navbar/Navbar';
 import DiversityBody from './DiversityBody';
 import DiversityForm from './DiversityForm';
 
@@ -20,8 +18,6 @@ const Diversity = () => {
             content="Cerbosys is committed to diversity and inclusion. Everyone is encouraged to bring their whole self to work, and we build a culture of diversity and creativity."
           />
         </Helmet>
-
-        {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[43rem]  h-96 py-12 px-4 bg-DiversityBackground bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-[30rem] mx-auto">
@@ -40,7 +36,6 @@ const Diversity = () => {
 
         <DiversityBody />
         <DiversityForm />
-        {/* <Footer /> */}
       </>
     </div>
   );

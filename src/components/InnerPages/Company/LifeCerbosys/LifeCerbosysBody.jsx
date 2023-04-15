@@ -12,9 +12,9 @@ const LifeCerbosysBody = () => {
     <div>
       <div className="mx-auto w-full py-16 px-4 bg-LifeCerbosysBody ">
         <div className="max-w-[1240px] mx-auto ">
-          {/* Body Section */}
+         
           <div className="grid md:grid-cols-2 mt-32">
-            {/* First Grid */}
+ 
             <div
               className="relative mx-auto flex flex-col md:px-10 px-6 py-10 break-word
                 text-justify border-4 border-Primary rounded-xl items-center"

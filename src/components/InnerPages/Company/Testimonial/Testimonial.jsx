@@ -1,7 +1,5 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import Footer from '../../../Common/Component/Footer';
-import Navbar from '../../../Navbar/Navbar';
 import TestimonialBody from './TestimonialBody';
 import TestimonialForm from './TestimonialForm';
 

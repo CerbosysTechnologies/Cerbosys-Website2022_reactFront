@@ -2,14 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { SERVER } from '../../../ServerUrls';
 import axios from 'axios';
 import { AiOutlineClose } from 'react-icons/ai';
-import Contact from './Contact';
 import imagepopup from '../../../assets/contactus/Getintuch.png';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Thankumodal from './Thankyou/Thankumodal';
 const FreeQuote = () => {
-  // const [serviceitems, setServiceItems] = React.useState([]);
-  // const [serviceId, setServiceId] = useState("");
+
 
   const toggleModal = () => {
     document.getElementById('modal').style.display = 'block';
@@ -23,27 +21,22 @@ const FreeQuote = () => {
   const [errorsNa, setErrorsNa] = useState('');
   const [email, setEmail] = useState('');
 
-  const [subject, setSubject] = useState('');
-  const [errorsEmail_s, setErrorsEmail_s] = useState('');
-  const [errorsEml, setErrorsEml] = useState(false);
 
   const [contactNumber, setContactNumber] = useState('');
   const [errorscon, setErrorsCon] = useState(false);
   const [errorscontact, setErrorsContact] = useState('');
   const [serviceId, setServiceId] = useState('');
-  console.log(serviceId);
 
-  const [hearaboutus, setHearaboutus] = useState('');
+
+
   const [message, setMessage] = useState('');
   const [serviceitems, setServiceItems] = React.useState([]);
-  //Image
-  const [techimg, setTechImg] = useState('');
-  const [showImageSec, setShowImageSection] = useState(true);
+ 
 
   const handlerChange = (event) => {
-    // props.onChangeSelected(event.target.value)
+    
     setServiceId(event.target.value);
-    // console.log(serviceId);
+    
   };
 
   const getAllServices = () => {
@@ -76,7 +69,6 @@ const FreeQuote = () => {
   };
 
   const onchangeContact = (e) => {
-    // console.log("onchangeContact");
     const contactNumber = e.target.value.replace(/([^0-9])+/i, '');
     setContactNumber(contactNumber);
     // (contact.length < 10 || contact.length > 10)
@@ -93,7 +85,6 @@ const FreeQuote = () => {
     const insertData = {
       fullname: username,
       email: email,
-      // subject: subject,
       contact_number: contactNumber,
       myservice_id: serviceId,
       message: message,
@@ -122,8 +113,7 @@ const FreeQuote = () => {
         }, 2000);
       });
 
-    // document.getElementById("modal").style.display = "none";
-    // window.location.reload();
+ 
   };
 
   return (
