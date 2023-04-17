@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-
 import callicon from '../../assets/call_icon.svg';
 import NavLinks from './ServiceNavLinks';
 import IndustryNavLinks from './IndustryNavLinks';
@@ -22,7 +21,6 @@ const firstclose = <img src={blackopey} alt="img" className="w-full" />;
 const secondclose = <img src={blackclosey} alt="img" className="w-full" />;
 const Navbar = () => {
   const [text, setText] = useState('');
-  const [hover, setHover] = useState('');
   const [openeye, setOpeneye] = useState({
     firstimg: firstimg,
     secondimg: secondimg,
@@ -32,18 +30,7 @@ const Navbar = () => {
     secondclose: secondclose,
   });
 
-  const [search, setSearch] = useState('');
-  console.log(search);
-  // -------start ----
-  // const AnimationsForChaining = ["fold"];
-  // const [animationIndex, setAnimationIndex] = useState(0);
-  // const [animationType, setAnimationType] = useState(AnimationsForChaining[0]);
-
-  // const handleChainAnimation = () => {
-  //   setAnimationIndex(animationIndex + 1);
-  //   setAnimationType([animationIndex + 1]);
-  // };
-  // --------end------------
+ 
   const [open, setOpen] = useState(false);
   //Nevbar scrolling effect
   const [headerVisible, setheaderVisible] = useState(false);
@@ -67,9 +54,6 @@ const Navbar = () => {
     setText(true);
   };
 
-  //
-
-  //
 
   return (
     <>
@@ -90,29 +74,15 @@ const Navbar = () => {
                   alt="logo"
                   className="w-[50px] mx-auto"
                   onMouseOver={func1}
-                  // onMouseLeave={() => func2()}
+                
                 />
 
                 <p className="text-white font-bold font-heading text-4xl">
                   {text ? (!headerVisible ? openeye : closeeye) : ' '}
                 </p>
-                {/* <p
-                  className={`text-white font-bold font-heading text-4xl 
-                    hover === text ? (!headerVisible ? openeye : closeeye) : ''
-                  }`}
-                ></p> */}
+               
               </div>
-              {/* <div onMouseEnter={() => func1()}>
-                <img
-                  src={headerlogo}
-                  alt="logo"
-                  className="w-[50px] mx-auto "
-                />
-
-                <p
-                  className={`hover === ${text} ? (!headerVisible ? ${openeye} : ${closeeye}) : ''`}
-                ></p>
-              </div> */}
+             
             </Link>
 
             <div
@@ -132,17 +102,7 @@ const Navbar = () => {
        md:text-white  ${!headerVisible ? '' : 'md:text-black'}
         `}
           >
-            {/* <li>
-            <Link to="/" className="py-5 px-1 inline-block">
-              Company
-            </Link>
-          </li> */}
-            {/* <CompanyNavLinks></CompanyNavLinks> */}
-            {/* <li >
-            <Link to="/" className="py-7 px-1 inline-block">
-              Services
-            </Link>
-          </li> */}
+          
             <NavLinks></NavLinks>
             <li className="px-3 animate-lines-hover relative">
               <Link
@@ -166,16 +126,7 @@ const Navbar = () => {
                 Portfolio
               </Link>
             </li>
-            {/* <li>
-            <Link to="/" className="py-5 px-1 inline-block">
-              Case Study
-            </Link>
-          </li>
-          <li>
-            <Link to="/" className="py-5 px-1 inline-block">
-              Blog
-            </Link>
-          </li> */}
+           
 
             <li className="px-3 relative">
               <Link
@@ -211,15 +162,7 @@ const Navbar = () => {
               </Link>
             </li>
 
-            {/* <li>
-           <input
-        type="text"
-        name=""
-        className=" w-32 rounded-md "
-        onChange={(e) => setSearch(e.target.value)}
-        value={search}
-      />
-          </li> */}
+           
           </ul>
 
           {/* Call Icon */}
@@ -248,9 +191,7 @@ const Navbar = () => {
         duration-500 ${open ? 'left-0' : 'left-[-100%]'}
         `}
           >
-            {/* <li className="py-2 px-2 inline-block">
-              <CompanyNavLinks></CompanyNavLinks>
-            </li> */}
+           
 
             <li className="py-2 px-2 ">
               <NavLinks />
@@ -274,16 +215,6 @@ const Navbar = () => {
               <IndustryNavLinks />
             </li>
 
-            {/* <li>
-            <Link to="/" className="py-3 px-3 ">
-              Case Study
-            </Link>
-          </li>
-          <li>
-            <Link to="/" className="py-3 px-3 inline-block">
-              Blog
-            </Link>
-          </li>          */}
             <li>
               <Link to="/current-opening" className="py-1 px-3 inline-block">
                 Career

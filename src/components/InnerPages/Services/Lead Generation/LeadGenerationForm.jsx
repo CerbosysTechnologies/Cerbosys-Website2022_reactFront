@@ -42,8 +42,6 @@ const LeadGenerationForm = ({ onChangeSelected }) => {
                 </div>
               {/* Form Section Ends*/}
 
-
-
               </div>
       </div>
       </div>

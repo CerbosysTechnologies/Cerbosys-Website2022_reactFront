@@ -1,7 +1,4 @@
 import React from 'react';
-
-import iosimage from '../../../../../../assets/innerpage/ios/iosimage.svg';
-import iosprocess from '../../../../../../assets/innerpage/ios/ioshire.svg';
 import iosapple from '../../../../../../assets/innerpage/ios/iosapple.png';
 import reactjsgroup from '../../../../../../assets/innerpage/reactjs/reactjsgroup.png';
 import iosrightimg from '../../../../../../assets/innerpage/ios/iosrightimg.png';

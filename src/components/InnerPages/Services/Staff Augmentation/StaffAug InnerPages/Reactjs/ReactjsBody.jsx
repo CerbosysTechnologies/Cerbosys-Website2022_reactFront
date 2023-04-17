@@ -1,7 +1,4 @@
 import React from 'react';
-
-import reactjsimage from '../../../../../../assets/innerpage/reactjs/reactjsimage.svg';
-import reactjsprocess from '../../../../../../assets/innerpage/reactjs/reactjshire.svg';
 import Heading from '../Heading';
 import reactjsimg from '../../../../../../assets/innerpage/reactjs/reactjsimg.svg';
 import reactjsgroup from '../../../../../../assets/innerpage/reactjs/reactjsgroup.png';

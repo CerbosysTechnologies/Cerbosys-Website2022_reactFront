@@ -1,6 +1,5 @@
 import React from 'react';
-import Navbar from '../../../../../Navbar/Navbar';
-import Footer from '../../../../../Common/Component/Footer';
+
 
 import ReactjsBody from './ReactjsBody';
 import ReactjsForm from './ReactjsForm';
@@ -22,7 +21,7 @@ const Reactjs = () => {
           />
         </Helmet>
 
-        {/* <Navbar /> */}
+   
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-ReactjsHeader bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[35rem] h-96 mx-auto">
@@ -40,7 +39,7 @@ const Reactjs = () => {
       </>
       <ReactjsBody />
       <ReactjsForm />
-      {/* <Footer /> */}
+     
     </div>
   );
 };

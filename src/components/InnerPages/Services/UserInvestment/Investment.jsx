@@ -76,8 +76,7 @@ function Investment() {
         }, 2000);
       });
 
-    // document.getElementById("modal").style.display = "none";
-    // window.location.reload();
+
   };
 
   return (
@@ -102,9 +101,7 @@ function Investment() {
                     placeholder="Name"
                     className=" text-blue-500 font-bold border-b-2 flex-wrap border-black text-center border-0 focus:outline-none focus:ring-0"
                   />
-                  {/* {errorsNa && (
-                  <div className="text-left text-red-500">{errorsname}</div>
-                )} */}
+            
                   & I am associated with a company called
                   <input
                     onChange={(e) => setCompanyname(e.target.value)}
@@ -135,9 +132,7 @@ function Investment() {
                     placeholder="Number"
                     className=" text-blue-500 font-bold border-b-2 border-black text-center border-0 focus:outline-none focus:ring-0"
                   />
-                  {/* {errorscon && (
-                  <div className="text-left text-red-500">{errorscontact}</div>
-                )} */}
+                 
                   &
                   <input
                     onChange={(e) => setEmail(e.target.value)}
@@ -157,12 +152,7 @@ function Investment() {
                       username === '' || contactNumber === '' ? true : false
                     }
                   />
-                  {/* <button
-                  className="bg-Primary rounded-full font-heading md:px-5 md:py-2 md:text-lg
-              text-white uppercase px-3 py-1.5 text-xs mb-6"
-                >
-                  Get a free consultation
-                </button> */}
+                 
                 </div>
               </form>
             </div>

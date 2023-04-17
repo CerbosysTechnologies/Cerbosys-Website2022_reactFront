@@ -1,7 +1,5 @@
 import React from 'react';
-import Navbar from '../../../../../Navbar/Navbar';
-import Footer from '../../../../../Common/Component/Footer';
-import { Link } from 'react-router-dom';
+
 import IOSBody from './IOSBody';
 import IOSForm from './IOSForm';
 import { Helmet } from 'react-helmet';
@@ -21,7 +19,7 @@ const IOS = () => {
             content="Hire ios developers on flexible hiring models. Our highly-skilled ios Developers have the ability to build your business."
           />
         </Helmet>
-        {/* <Navbar /> */}
+       
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-ReactjsHeader bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[35rem] h-96 mx-auto">
@@ -41,7 +39,7 @@ const IOS = () => {
       </>
       <IOSBody />
       <IOSForm />
-      {/* <Footer /> */}
+   
     </div>
   );
 };

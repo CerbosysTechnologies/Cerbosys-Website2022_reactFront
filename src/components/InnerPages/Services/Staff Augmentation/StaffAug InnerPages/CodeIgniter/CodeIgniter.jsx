@@ -1,7 +1,5 @@
 import React from 'react';
-import Navbar from '../../../../../Navbar/Navbar';
-import Footer from '../../../../../Common/Component/Footer';
-import { Link } from 'react-router-dom';
+
 import CodeIgniterBody from './CodeIgniterBody';
 import CodeIgniterForm from './CodeIgniterForm';
 import { Helmet } from 'react-helmet';
@@ -23,7 +21,7 @@ const CodeIgniter = () => {
             content="Hire codeigniter developers on flexible hiring models. Our highly-skilled codeigniter Developers have the ability to build your business."
           />
         </Helmet> 
-        {/* <Navbar /> */}
+
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-ReactjsHeader bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[35rem] h-96 mx-auto">
@@ -41,7 +39,7 @@ const CodeIgniter = () => {
       </>
       <CodeIgniterBody />
       <CodeIgniterForm />
-      {/* <Footer /> */}
+
     </div>
   );
 };

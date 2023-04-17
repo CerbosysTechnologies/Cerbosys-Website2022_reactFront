@@ -1,6 +1,5 @@
 import React from 'react';
-import Navbar from '../../../Navbar/Navbar';
-import Footer from '../../../Common/Component/Footer';
+
 import { Link } from 'react-router-dom';
 import UIAndUXDesc from './UI&UXDesc';
 import UIAndUXDiagram from './UI&UXDiagram';
@@ -24,7 +23,7 @@ const UIAndUXDevelopment = () => {
             content="We are an excellent UX/UI development company catering to our client's needs. Our team is comprised of UX/UI pros with in-depth knowledge of web and mobile development"
           />
         </Helmet>
-        {/* <Navbar /> */}
+   
         <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
@@ -56,7 +55,7 @@ const UIAndUXDevelopment = () => {
           <UIAndUXProcess />
           <UIAndUXForm />
         </div>
-        {/* <Footer /> */}
+        
       </>
     </div>
   );
