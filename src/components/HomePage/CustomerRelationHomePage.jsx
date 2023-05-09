@@ -1,11 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import clientinteractionicon from '../../assets/customer/Client_interaction.svg';
 import consolidationicon from '../../assets/customer/Consolidation.svg';
 import deliverablesicon from '../../assets/customer/Deliverables.svg';
 import developmenticon from '../../assets/customer/Development.svg';
-
 const CustomerRelationHomePage = () => {
   return (
     <div>
@@ -31,10 +29,7 @@ const CustomerRelationHomePage = () => {
                   className="md:w-[320px] md:h-[320px] 
                 w-[160px] h-[620px] scale-75 hover:scale-100 ease-in duration-500 "
                 ></img>
-                {/* <p className="text-black font-heading md:text-[10px] absolute md:top-32 md:mt-2 md:left-12 md:w-48 md:h-16 text-center
-                  top-[18rem] w-36 mt-2 text-[7px] left-[1.8rem] ">
-                Client interaction is the first impression a client will have about our business & a friendly and professional interaction from our side helps a lot in boosting our client’s business reputation and growth in the market.
-                </p> */}
+                
               </div>
 
               <div>
@@ -53,10 +48,7 @@ const CustomerRelationHomePage = () => {
                   className="md:w-[320px] md:h-[320px] 
                 w-[160px] h-[620px] scale-75 hover:scale-100 ease-in duration-500"
                 ></img>
-                {/* <p className="text-black font-heading md:text-[10px] absolute md:top-[29rem] md:mt-2 md:left-12 md:w-48 md:h-16 text-center
-                  top-[35rem] w-28 mt-2 text-[8px] left-[2.5rem]">
-                Executing strategic opportunities, initiatives, ideas & creativity for business expansion is a major part of the development process.
-                </p> */}
+                
               </div>
 
               <div className="md:mt-0 -mt-[26rem]">
@@ -66,10 +58,7 @@ const CustomerRelationHomePage = () => {
                   className="md:w-[320px] md:h-[320px] 
                 w-[160px] h-[620px] scale-75 hover:scale-100 ease-in duration-500"
                 ></img>
-                {/* <p className="text-black font-heading md:text-[10px] absolute md:top-[29rem] md:mt-2 md:left-96 md:w-48 md:h-16 text-center
-                  top-[35rem] w-32 mt-2 text-[8px] left-[14rem]">
-                This process is a systematic approach to fulfill a project, which helps the project manager and other team members to plan, execute and control their work more effectively.
-                </p> */}
+               
               </div>
             </div>
             {/* Image Section Ends */}

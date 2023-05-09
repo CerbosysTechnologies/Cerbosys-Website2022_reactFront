@@ -1,11 +1,9 @@
 import React from 'react';
 import portlog1 from '../../assets/portfolio/porlog1.png';
-import portlog2 from '../../assets/portfolio/portlog2.png';
-import portlog3 from '../../assets/portfolio/portlog3.png';
-import portlog4 from '../../assets/portfolio/portlog4.png';
+
 import portlog5 from '../../assets/portfolio/portlog5.png';
 import portlog6 from '../../assets/portfolio/portlog6.png';
-import portlog7 from '../../assets/portfolio/portlog7.png';
+
 import portlog8 from '../../assets/portfolio/portlog8.png';
 import portlogo9 from '../../assets/portfolio/portlogo9.png';
 import portlogo10 from '../../assets/portfolio/portlogo10.png';
@@ -16,18 +14,7 @@ import { motion } from 'framer-motion';
 const Tabslogo = () => {
   return (
     <>
-      {/*  <motion.h1
-                animate={{ x: [50, 150, 50], opacity: 1, scale: 1 }}
-                transition={{
-                    duration: 5,
-                    delay: 0.3,
-                    ease: [0.5, 0.71, 1, 1.5],
-                }}
-                initial={{ opacity: 0, scale: 0.5 }}
-                whileHover={{ scale: 1.2 }}
-            >
-                Animation made easy with Framer Motion
-            </motion.h1> */}
+    
       <div>
         <div className="flex  justify-center flex-col md:flex-row content-center items-center gap-6 text-white">
           <div className="mt-6 w-full ">
@@ -35,13 +22,7 @@ const Tabslogo = () => {
               Logo
             </h1>
             <div className="flex mx-auto md:flex-nowrap px-10 flex-wrap justify-center flex-col md:flex-row content-center items-center md:gap-y-20 gap-y-5 gap-x-8 text-black">
-              {/* <motion.div
-    animate={{
-      scale: [1, 2, 2, 1, 1],
-      rotate: [0, 0, 270, 270, 0],
-      borderRadius: ["20%", "20%", "50%", "50%", "20%"],
-    }}
-  /> */}
+              
               <div className="  my-10">
                 <motion.div
                   animate={{ x: [100, 200, 2], opacity: 1, scale: 1 }}

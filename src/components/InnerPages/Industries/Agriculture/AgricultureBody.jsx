@@ -1,5 +1,4 @@
 import React from 'react';
-// import agriculturemobicon from '../../../../assets/innerpage/agriculture/agriculturemob.svg';
 import ledimg from '../../../../assets/innerpage/agriculture/ledimg.png';
 import sideimg1 from '../../../../assets/innerpage/agriculture/sideimg1.png';
 import sideimg2 from '../../../../assets/innerpage/agriculture/sideimg2.png';
@@ -7,7 +6,6 @@ import sideimg3 from '../../../../assets/innerpage/agriculture/sideimg3.png';
 import sideimg4 from '../../../../assets/innerpage/agriculture/sideimg4.png';
 import sideimg5 from '../../../../assets/innerpage/agriculture/sideimg5.png';
 import sideimg6 from '../../../../assets/innerpage/agriculture/sideimg6.png';
-// import agriculturebusinessicon from '../../../../assets/innerpage/agriculture/agricultureimage.svg';
 
 import Accordion from './Accordion';
 import bgimg1 from '../../../../assets/innerpage/agriculture/bgimg1.png';
@@ -97,7 +95,6 @@ const AgricultureBody = () => {
             {/* Side Image*/}
           </div>
 
-          {/* start Agriculture in the 21st Century: Technological Trends Section */}
           <div className=" mx-auto">
             <div className="font-heading md:text-3xl text-xl mt-10 ">
               <h2 className="uppercase md:text-3xl mb-6 text-xl  font-heading   text-center">
@@ -169,7 +166,6 @@ const AgricultureBody = () => {
       {/*end slider section */}
 
       {/*start smart solution we provide */}
-      {/* w-full md:h-[62rem] h-[62rem] bg-Agriculturebg relative bg-no-repeat */}
       <div className="mx-auto w-full relative bg-Agriculturebg lg:h-[62rem] md:h-[62rem] h-[62rem] py-12 px-4 bg-cover md:bg-top bg-center selection:bg-Green selection:text-white">
         <p className="text-Primary md:text-3xl text-xl  font-heading mb-6 p-5">
           SMART FARMING
@@ -177,7 +173,6 @@ const AgricultureBody = () => {
             &nbsp;SOLUTIONS WE PROVIDE
           </span>
         </p>
-        {/* //lg:left-[34rem] lg:bottom-[12rem] */}
         <div className="invisible xl:visible absolute right-0 left-0 bottom-[28rem] md:left-[62rem] md:bottom-64">
           <img
             src={bgimg3}
@@ -185,8 +180,7 @@ const AgricultureBody = () => {
             className="mx-auto w-[150px]  lg:w-[18rem]"
           />
         </div>
-        {/* //lg:left-[16rem]
-        //bottom-[18rem] */}
+       
         <div className="invisible lg:visible absolute right-0 left-0 md:left-[30rem] md:bottom-[6rem] ">
           {/* lg:w-[18rem] */}
           <img
@@ -206,43 +200,7 @@ const AgricultureBody = () => {
         </div>
       </div>
       {/*end smart solution we provide  [-25%] left-[25%] */}
-      {/* <div className="flex justify-center items-center h-screen">
-        <div
-          className="relative w-[200px] h-[200px] bg-[#020233] before:content-[''] before:absolute
-          before:bottom-[20%] 
-         before:right-[20%] 
-           before:bg-pink-500
-            before:w-[400px] 
-            before:h-[400px] 
-
-        before:animate-bttn-hand 
-        overflow-hidden
-
-
-
-     "
-        >
-          <span className=""></span>
-        </div>
-      </div> */}
-      {/*
-         after:content-['']
-        
-        after:w-[400px] 
-        after:h-[400px]  
-        after:absolute
-        after:bg-Green
-         after:top-[20%] 
-         after:left-[20%] 
-        after:flex 
-        after:justify-center 
-        after:items-center
-        after:uppercase 
-        after:rounded-md
-        after:animate-bttn-hand  <div
-        className="w-[300px] h-[300px] bg-black relative rounded-md flex justify-center items-center
-      before:content-[''] before:absolute before:w-[500px] before:h-[500px] before:bg-Green"
-      ></div> */}
+      
     </div>
   );
 };

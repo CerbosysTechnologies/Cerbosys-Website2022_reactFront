@@ -1,7 +1,6 @@
 import React from 'react';
 
-import dotnetimage from '../../../../../../assets/innerpage/dotnet/netimage.svg';
-import dotnetprocess from '../../../../../../assets/innerpage/dotnet/nethire.svg';
+
 import Heading from '../Heading';
 import netrightimg from '../../../../../../assets/innerpage/dotnet/netrightimg.svg';
 import reactjsgroup from '../../../../../../assets/innerpage/reactjs/reactjsgroup.png';

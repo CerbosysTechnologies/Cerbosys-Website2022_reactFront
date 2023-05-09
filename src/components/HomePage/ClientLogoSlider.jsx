@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from "react";
-import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
+import React from "react";
+
 import icon1 from "../../assets/clientlogo/1.png";
 import icon2 from "../../assets/clientlogo/2.png";
 import icon3 from "../../assets/clientlogo/3.png";

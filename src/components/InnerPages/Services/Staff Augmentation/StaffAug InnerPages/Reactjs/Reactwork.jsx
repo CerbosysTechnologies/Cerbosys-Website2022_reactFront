@@ -7,7 +7,6 @@ import reacticon5 from '../../../../../../assets/innerpage/reactjs/reacticon5.pn
 import reacticon7 from '../../../../../../assets/innerpage/reactjs/reacticon7.png';
 import reacticon8 from '../../../../../../assets/innerpage/reactjs/reacticon8.png';
 import Heading from '../Heading';
-import Reacthelpfull from './Reacthelpfull';
 const Reactwork = () => {
   return (
     <>

@@ -11,22 +11,15 @@ const Contact = () => {
   const [errorsNa, setErrorsNa] = useState('');
   const [email, setEmail] = useState('');
 
-  const [subject, setSubject] = useState('');
-  const [errorsEmail_s, setErrorsEmail_s] = useState('');
-  const [errorsEml, setErrorsEml] = useState(false);
 
   const [contactNumber, setContactNumber] = useState('');
   const [errorscon, setErrorsCon] = useState(false);
   const [errorscontact, setErrorsContact] = useState('');
   const [serviceId, setServiceId] = useState('');
-  console.log(serviceId);
-
-  const [hearaboutus, setHearaboutus] = useState('');
+  
   const [message, setMessage] = useState('');
   const [serviceitems, setServiceItems] = useState([]);
-  //Image
-  const [techimg, setTechImg] = useState('');
-  const [showImageSec, setShowImageSection] = useState(true);
+
 
   const handlerChange = (event) => {
     // props.onChangeSelected(event.target.value)
@@ -97,9 +90,9 @@ const Contact = () => {
         console.log('Insert Enquiry Res', res);
         console.log('afterrun api', res.data);
         document.getElementById('ContectThankyou').style.display = 'block';
-        // setTimeout(() => {
-        //   window.location.reload();
-        // }, 5000);
+        setTimeout(() => {
+          window.location.reload();
+        }, 5000);
       })
       .catch((err) => {
         console.log('not post', err);
@@ -127,8 +120,7 @@ const Contact = () => {
               required
               value={username}
               onChange={onchangeFullName}
-              // onChange={(e) => setUsername(e.target.value)}
-              // value={username}
+             
             />
             {errorsNa && (
               <div className="text-left text-red-500">{errorsname}</div>
@@ -153,24 +145,7 @@ const Contact = () => {
           </div>
           {/* Email Div Ends*/}
 
-          {/* Subject Div */}
-          {/* <div className="mb-6 md:w-full group">
-            <input
-              type="text"
-              name="subject"
-              id="subject"
-              className="block py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent border-0 border-b-2 
-        border-gray-300 appearance-none  dark:border-gray-400 focus:outline-none focus:ring-0 peer"
-              placeholder="Subject"
-              required
-              value={subject}
-              onChange={(e) => setSubject(e.target.value)}
-            />
-            {errorsEml && (
-              <div className="text-left text-red-500">{errorsEmail_s}</div>
-            )}
-          </div> */}
-          {/* Subject Div Ends*/}
+          
 
           {/* Contact Number Div */}
           <div className=" mb-6 md:w-full group">
@@ -197,14 +172,16 @@ const Contact = () => {
           {/* Selection Div */}
           <div className=" mb-3 w-full group mt-2">
             <select
-              className="dropdown text-gray-400 font-heading  text-sm flex flex-wrap
-                    border-2 rounded-lg px-2 py-2 border-gray-400 w-full"
+              className="block py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent 
+              border-0 border-b-2 border-gray-300 appearance-none  dark:border-gray-400 
+              focus:outline-none focus:ring-0 peer dropdown text-gray-400 font-heading  text-sm flex flex-wrap
+              border-b-2  px-2 py-2  w-full"
               onChange={(e) => {
                 handlerChange(e);
                 // hadalChnageID();
               }}
             >
-              <option>Please Select</option>
+              <option> Select Contact For</option>
 
               {serviceitems ? (
                 serviceitems.map((item) => (

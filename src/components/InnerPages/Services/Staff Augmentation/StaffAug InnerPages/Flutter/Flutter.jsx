@@ -1,7 +1,4 @@
 import React from 'react';
-import Navbar from '../../../../../Navbar/Navbar';
-import Footer from '../../../../../Common/Component/Footer';
-import { Link } from 'react-router-dom';
 import FlutterBody from './FlutterBody';
 import FlutterForm from './FlutterForm';
 import { Helmet } from 'react-helmet';
@@ -21,7 +18,7 @@ const Flutter = () => {
             content="Hire flutter developers on flexible hiring models. Our highly-skilled flutter Developers have the ability to build your business."
           />
         </Helmet>
-        {/* <Navbar /> */}
+
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-ReactjsHeader bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[35rem] h-96 mx-auto">
@@ -40,7 +37,7 @@ const Flutter = () => {
 
       <FlutterBody />
       <FlutterForm />
-      {/* <Footer /> */}
+
     </div>
   );
 };

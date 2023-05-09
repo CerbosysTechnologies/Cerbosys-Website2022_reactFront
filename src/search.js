@@ -6,13 +6,7 @@ function Search() {
 
   return (
     <div className=" flex justify-center bg-black fixed top-36 right-20 ">
-      {/* <input
-        type="text"
-        name=""
-        className=""
-        onChange={(e) => setSearch(e.target.value)}
-        value={search}
-      /> */}
+     
     </div>
   );
 }

@@ -63,7 +63,7 @@ const BrandingAndPackagingDesc = () => {
                   We are aware of the Technology Pulse that Leads to Better
                   Performance
                 </h2>
-                {/* text-sm  md:text-base text-start text-Lightgrey  */}
+       
                 <p className="text-sm  md:text-base text-start    mb-8 text-white">
                   Our brand and packaging team helps businesses, especially
                   small size businesses to make it stand out from the

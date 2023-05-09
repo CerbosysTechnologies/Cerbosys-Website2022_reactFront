@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import callicon from '../../../assets/footer/FooterWhatsp.svg';
+import callicon from '../../../assets/footer/Whatsapp_icon.svg';
 import emailicon from '../../../assets/footer//FooterEmail.svg';
 import fbcon from '../../../assets/footer/Facebook.svg';
 import instagramicon from '../../../assets/footer/Instagram.svg';
@@ -10,9 +10,6 @@ import whatsappicon from '../../../assets/footer/FoterColl.svg';
 import youtubeicon from '../../../assets/footer/Youtube.svg';
 import Whats from '../../../assets/footer/Whatsp.svg';
 import footerlogo from '../../../assets/footer/FooterLogosCer.svg';
-import { HiOutlineArrowSmRight } from 'react-icons/hi';
-import right from '../../../assets/footer/right.svg';
-import left from '../../../assets/footer/left.svg';
 import { Link } from 'react-router-dom';
 import MovingComponent from 'react-moving-text';
 const Footer = () => {
@@ -34,29 +31,7 @@ const Footer = () => {
       <div className="bg-FooterBackground w-full h-full mx-auto px-5 py-2  md:px-20 md:py-4">
         <div className="max-w-[1240px] mx-auto">
           <div className="">
-            {/* <div className="grid md:grid-cols-5 gap-2"> */}
-            {/* First Col */}
-            {/* <div>   
-              <img
-                src={footerlogo}
-                alt="Logo Footer"
-                className="w-[350px] h-[200px]"
-              />
-              <h1 className="font-heading  text-sm md:text-lg text-white">
-                About Us
-              </h1>
-              <p className="font-content text-gray-400 md:text-sm text-xs font-extrabold  ">
-                Cerbosys is an experienced professional services provider
-                company with a proven track record of excellence which fosters
-                long-term relationships with our clients.
-                <br></br>
-                <br></br>
-                Our ability to understand and problem-solve complex client
-                issues in multiple business areas helps us differentiate in the
-                services sector. Our mission is to ensure consistent growth in
-                the performance of our clients.
-              </p>
-            </div> */}
+            
             {/* First Col Ends */}
             <div className="md:col-span-2 col-span-1 flex-col-reverse  flex  md:flex-row  md:justify-around md:items-center items-center md:m-2 md:mt-5 md:gap-20 mt-3 gap-10  ">
               <div className="text-white flex font-heading uppercase  sm:mb-3 mb-0 sm:text-2xl lg:text-2xl xl:text-3xl  w-full ">
@@ -68,9 +43,7 @@ const Footer = () => {
                   fillMode="forwards"
                   iteration={1}
                 >
-                  {/* <span className="whitespace-nowrap flex ">
-        <img src={left} alt="" className="w-10 h-10 mr-3" /> Enabling Business Make Business <img src={right} alt="" className="w-10 h-10 ml-3" />  
-        </span> */}
+                  
                   "Enabling Business Make Business"
                 </MovingComponent>
                 {/* " Enabling Business Make Business " */}
@@ -83,15 +56,13 @@ const Footer = () => {
                 />
               </div>
             </div>
-            {/* md:gap-20 md:gap-20*/}
             {/* Main Div of all three columns */}
             <div
               className="md:col-span-4 flex flex-wrap
               md:justify-between 
             md:m-3 md:mt-5  mt-3 "
             >
-              {/* md:justify-between justify-center 
-              md:items-center items-center  */}
+              
               {/* Second Column */}
               <div className="">
                 <h6 className="font-heading text-sm md:text-lg text-white uppercase mb-3 md:px-0 max-w-fit">
@@ -107,23 +78,12 @@ const Footer = () => {
                   <li className="">
                     <Link
                       to="/Portfolio"
-                      //       className=" after:content-[''] after:absolute after:bg-orange-600 after:h-[3px] after:w-[0%] after:left-0 after:bottom-[-6px]
-                      // after:ease-in-out after:duration-300
-                      // hover:after:w-[100%]"
+                      
                     >
                       Portfolio
                     </Link>
                   </li>
-                  {/* <li className="">
-                    <Link to="/overview">Company</Link>
-                  </li> */}
-                  {/* <li className="">Services</li>
-                  <li className="">Industries</li>
-                  <li className="">Case Study</li>
-                  <li className="">Blog</li> */}
-                  {/* <li className="">
-                    <Link to="/team">Team</Link>
-                  </li> */}
+                 
                   <li className="">
                     <Link to="/contact-us">Contact Us</Link>
                   </li>
@@ -160,10 +120,7 @@ const Footer = () => {
                       Training and development
                     </Link>
                   </li>
-                  {/* <li className="">Services</li>
-                  <li className="">Industries</li>
-                  <li className="">Case Study</li>
-                  <li className="">Blog</li> */}
+                 
                   <li className="">
                     <Link to="/team">Team</Link>
                   </li>
@@ -263,7 +220,6 @@ const Footer = () => {
                   <li className="flex">
                     <Link
                       to="/education"
-                      // className="inline-flex  transition duration-150 all-in-out"
                     >
                       Education
                     </Link>
@@ -301,10 +257,10 @@ const Footer = () => {
                   </span>
                 </div>
 
-                <div className="flex flex-row mb-5">
+                <div className="flex flex-row mb-5 w-72">
                   <img src={callicon} alt="Call Icon" className="mr-3"></img>
                   <span className="font-subheading text-sm text-white">
-                    +91 9826906988
+                    +91 98-2690-6988
                   </span>
                 </div>
 
@@ -315,7 +271,7 @@ const Footer = () => {
                     className="mr-3"
                   ></img>
                   <span className="font-subheading text-sm text-white">
-                    +91 9826906988, &nbsp;88-3969-7183
+                    +91 88-3969-7183
                   </span>
                 </div>
 
@@ -347,49 +303,7 @@ const Footer = () => {
           </div>
           {/* Grid Div Ends */}
 
-          {/* Contact Us Div */}
-          {/* <div className="mt-5 ">
-            <h6 className="font-heading text-lg text-white uppercase grid grid-flow-row mb-3">
-              Contact Us
-            </h6>
-
-            <div className="flex flex-row mb-5 md:w-64 w-64">
-              <img
-                src={locationicon}
-                alt="Location Icon"
-                className="mr-3"
-              ></img>
-              <span className="font-subheading text-sm text-white">
-                15-16, Lakshya Vihar,kanadia Road, Indore, M.P.-452016
-              </span>
-            </div>
-
-            <div className="flex flex-row mb-5">
-              <img src={callicon} alt="Call Icon" className="mr-3"></img>
-              <span className="font-subheading text-sm text-white">
-                0731-499-3-444
-              </span>
-            </div>
-
-            <div className="flex flex-row mb-5 w-72">
-              <img
-                src={whatsappicon}
-                alt="What'sApp Icon"
-                className="mr-3"
-              ></img>
-              <span className="font-subheading text-sm text-white">
-                999-999-2892, &nbsp;88-3969-7183
-              </span>
-            </div>
-
-            <div className="flex flex-row mb-5">
-              <img src={emailicon} alt="Email Icon" className="mr-3"></img>
-              <span className="font-subheading text-sm text-white">
-                info@cerbosys.com
-              </span>
-            </div>
-          </div> */}
-          {/* Contact Us Div Ends*/}
+        
 
           {/* Social Icons Div */}
           <div className="flex flex-row items-center justify-center mt-20 gap-2 mb-4">

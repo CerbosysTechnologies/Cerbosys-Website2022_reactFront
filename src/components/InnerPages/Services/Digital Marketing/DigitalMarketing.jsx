@@ -1,10 +1,9 @@
 import React from 'react';
-import Navbar from '../../../Navbar/Navbar';
+
 import DigitalDesc from '../Digital Marketing/DigitalDesc';
 import DigitalDiagram from '../Digital Marketing/DigitalDiagram';
 import DigitalProcess from '../Digital Marketing/DigitalProcess';
-import Footer from '../../../Common/Component/Footer';
-import AllServiceForm from '../../../Common/Component/AllServicesForm';
+
 import DigitalForm from './DigitalForm';
 import { Link } from 'react-router-dom';
 import Investment from '../UserInvestment/Investment';
@@ -25,7 +24,7 @@ const DigitalMarketing = () => {
             content="Looking for making a strong online presence? Our digital marketing consultants will help to grow SMM, SEO, paid advertisment, content marketing, email marketing & whatsapp automation for business"
           />
         </Helmet>
-        {/* <Navbar /> */}
+
         <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
@@ -57,7 +56,7 @@ const DigitalMarketing = () => {
           <DigitalProcess />
           <DigitalForm />
         </div>
-        {/* <Footer /> */}
+      
       </>
     </div>
   );

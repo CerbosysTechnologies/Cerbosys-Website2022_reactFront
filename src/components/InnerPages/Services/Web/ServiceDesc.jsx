@@ -58,14 +58,13 @@ const ServiceDesc = () => {
                 src={webserviceclip_articon}
                 alt="Web Service Icon"
                 className="w-full p-4"
-                //     className="md:w-[24rem] mx-auto my-8
-                //  w-[18rem] mt-8"
+            
               />
               {/* </Bounce> */}
               {/* Image Section Ends*/}
 
               {/* Content Section */}
-              {/* <Bounce right duration={3000}> md:px-24 px-14*/}
+              
               <div className="flex flex-col px-8 mx-auto text-justify mt-8">
                 <h2 className="font-heading md:text-2xl text-lg text-white mb-5">
                   Web Development Services

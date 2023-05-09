@@ -197,7 +197,7 @@ function ServiceProSD() {
               />
             </Flip>
           </div>
-          {/* md:px-28 px-10  */}
+     
           <div className="grid md:grid-cols-2 mt-10 gap-1 px-5 justify-center">
             <Bounce left duration={3000}>
               <img

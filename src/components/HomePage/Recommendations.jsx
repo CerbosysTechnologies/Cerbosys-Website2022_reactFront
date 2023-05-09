@@ -12,7 +12,6 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 
-// const featuredicons = [topfirmicon, goodfirmicon, clutchicon, appfuturaicon];
 
 const Recommendations = () => {
   SwiperCore.use([Autoplay]);
@@ -43,7 +42,6 @@ const Recommendations = () => {
                 disableOnInteraction: false,
               }}
             >
-              {/* {featuredicons.map((slideContent, index) => ( */}
               <SwiperSlide>
                 <img
                   src={topfirmicon}
@@ -61,7 +59,7 @@ const Recommendations = () => {
               <SwiperSlide>
                 <a
                   href="https://www.goodfirms.co/company/cerbosys-technologies-inc"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   <img
                     src={goodfirmicon}

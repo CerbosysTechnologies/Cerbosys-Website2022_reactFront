@@ -1,7 +1,5 @@
 import React from 'react';
 
-import codeigniterimage from '../../../../../../assets/innerpage/codeigniter/codeignitorimage.svg';
-import codeigniterprocess from '../../../../../../assets/innerpage/codeigniter/codeigniterhire.svg';
 import codergimg from '../../../../../../assets/innerpage/codeigniter/codergimg.svg';
 import reactjsgroup from '../../../../../../assets/innerpage/reactjs/reactjsgroup.png';
 import coderightimg from '../../../../../../assets/innerpage/codeigniter/coderightimg.png';

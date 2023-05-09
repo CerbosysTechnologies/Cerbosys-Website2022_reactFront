@@ -1,7 +1,7 @@
 import React from 'react';
 import Portfoliobody from './Portfoliobody';
 import { Helmet } from 'react-helmet';
-import { tableBodyClasses } from '@mui/material';
+
 
 const Portfolio = () => {
   return (

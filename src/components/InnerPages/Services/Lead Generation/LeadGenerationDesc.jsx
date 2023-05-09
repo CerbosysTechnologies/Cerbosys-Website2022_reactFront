@@ -12,7 +12,7 @@ const LeadGenerationDesc = () => {
 
           <Bounce duration={3000}>
             <div className="grid md:grid-cols-2">
-              {/* Content Section md:px-24 px-14 */}
+       
               <div className="mx-auto flex flex-col px-5 text-justify">
                 <h2 className="text-black uppercase font-heading pt-2 md:text-3xl text-xl md:mb-4 min-w-fit">
                   {' '}

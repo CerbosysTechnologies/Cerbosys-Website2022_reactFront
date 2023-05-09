@@ -1,4 +1,4 @@
-import { Routes, Switch, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Hero from './components/HomePage/Hero';
 import WebDevelopment from './components/InnerPages/Services/Web/WebDevelopment';
 import MobileDevelopment from './components/InnerPages/Services/Mobile/MobileDevelopment';
@@ -11,7 +11,6 @@ import Team from './components/InnerPages/Company/Team/Team';
 import Overview from './components/InnerPages/Company/Overview/Overview';
 import CurrentOpening from './components/InnerPages/Company/CurrentOpening/CurrentOpening';
 import Diversity from './components/InnerPages/Company/DiversityCerbosys/Diversity';
-// import Thanku from "./components/Common/Component/Thankumodal";
 import ContactUs from './components/InnerPages/OtherPages/ContactUs/ContactUs';
 import TrainingAndDevelopment from './components/InnerPages/Company/TrainingAndDevelopment/TrainingAndDevelopment';
 import LifeCerbosys from './components/InnerPages/Company/LifeCerbosys/LifeCerbosys';
@@ -38,7 +37,6 @@ import IOS from './components/InnerPages/Services/Staff Augmentation/StaffAug In
 import Laravel from './components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Laravel/Laravel';
 import Nodejs from './components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Nodejs/Nodejs';
 import Reactjs from './components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Reactjs/Reactjs';
-import { Helmet } from 'react-helmet';
 import Termconditions from './components/term&conditions/Termandconditions.jsx';
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
 import Navbar from './components/Navbar/Navbar';
@@ -51,16 +49,15 @@ import SchoolERP from './components/Solution/School/SchoolERP';
 import ECommerse from './components/Solution/E-Commerse/E-Commerse';
 import CaseStudyByOne from './components/CaseStudy/CaseStudyByOne';
 import Search from './search';
-import { Fragment, useEffect } from 'react';
-import { useState } from 'react';
+
+
 import Softwaredevelopment from './components/InnerPages/Services/SoftwareDevelopment/Softwaredevelopment';
 import CurrentOpningGetbyOne from './components/InnerPages/Company/CurrentOpening/CurrentOpningGetbyOne';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Portfolio from './components/protfolio/Portfolio';
 import NotFound from './components/Common/Component/NotFound';
-import Servicethankyou from './components/Common/Component/Thankyou/Servicethankyou';
-import { motion, useScroll, useSpring } from 'framer-motion';
+import { useScroll, useSpring } from 'framer-motion';
 function App() {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -68,44 +65,14 @@ function App() {
     damping: 30,
     restDelta: 0.001,
   });
-  // dark mood functions start
-  // const [theme, setTheme] = useState('light');
-  // useEffect(() => {
-  //   if (theme === 'dark') {
-  //     document.documentElement.classList.add('dark');
-  //   } else {
-  //     document.documentElement.classList.remove('dark');
-  //   }
-  // }, [theme]);
-  // const handlecolor = () => {
-  //   setTheme(theme === 'dark' ? 'light' : 'dark');
-  // };
-  // dark mood functions end
+
   document.addEventListener('contextmenu', handelRightClick);
   return (
     <>
       <div className="selection:bg-Green selection:text-white">
-        {/*  <motion.div className="progress-bar" style={{ scaleX }} />
-      <h1>
-        <code>useScroll</code> with spring smoothing
-      </h1> */}
-        {/* <motion.Navbar
-          className="progress-bar"
-          style={{ scaleX }}
-        ></motion.Navbar> */}
-        {/* <h1>
-          <code>useScroll</code> with spring smoothing
-        </h1> */}
+        
         <Navbar></Navbar>
-        {/* <Helmet>
-        <title>
-          Website Design & Mobile App Development Company | Cerbosys
-        </title>
-        <meta
-          name="description"
-          content="Cerbosys Technologies Inc. is one of the leading Website Design and  Mobile App Development company who provides services across the world. Contact us now for growth."
-        />
-      </Helmet> */}
+
         <FreeQuote />
         <Search />
         <Routes>

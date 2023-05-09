@@ -1,14 +1,11 @@
 import React from 'react';
 import CaseStudyBody from './CaseStudyBody';
-import Navbar from '../Navbar/Navbar';
-import Footer from '../Common/Component/Footer';
 import { Helmet } from 'react-helmet';
 
 const CaseStudy = () => {
   return (
     <div>
       <>
-        {/* <Navbar /> */}
         <Helmet>
           <title>Case Studies That Brought Amazing Results in 2023</title>
           <meta
@@ -40,7 +37,7 @@ const CaseStudy = () => {
       <div className="selection:bg-Green selection:text-white">
         <CaseStudyBody />
       </div>
-      {/* <Footer /> */}
+ 
     </div>
   );
 };

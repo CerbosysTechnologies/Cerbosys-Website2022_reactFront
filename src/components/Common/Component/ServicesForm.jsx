@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { SERVER } from '../../../ServerUrls';
 import axios from 'axios';
-import MobileForm from '../../InnerPages/Services/Mobile/MobileForm';
+
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { propTypesMenuProps } from '@material-tailwind/react/types/components/select';
 import Servicethankyou from './Thankyou/Servicethankyou';
 const ServicesForm = (props) => {
   //hooks
@@ -32,12 +31,7 @@ const ServicesForm = (props) => {
     var b = val.myservices_id;
   });
 
-  //Image
-  const [techimg, setTechImg] = useState('');
 
-  const [showImageSec, setShowImageSection] = useState(true);
-
-  const insertEnquiry = () => {};
 
   const handlerChange = (event) => {
     console.log('T&D', event);
@@ -64,13 +58,7 @@ const ServicesForm = (props) => {
         // const i = res.data.data.length - 1;
         setServiceItems(res.data.data);
         setmyservicesid(res.data.data);
-        //console.log('TechImage', techimg)
-        // setServiceItems(res.data.data.map((val) =>
-        // (
-        //   console.log("Map Value", val),
-        //   { label: val.service_name, value: val.service_name },
-        //   console.log('TechImage', techimg)
-        //   )));
+       
       });
   };
 
@@ -172,7 +160,6 @@ const ServicesForm = (props) => {
        focus:outline-none focus:ring-0 peer"
               placeholder="Name"
               required
-              // onChange={(e) => setUsername(e.target.value)}
               onChange={onchangeFullName}
               value={username}
             />
@@ -227,7 +214,6 @@ const ServicesForm = (props) => {
        focus:outline-none focus:ring-0 peer"
               placeholder="Contact Number"
               required
-              // onChange={(e) => setContactNumber(e.target.value)}
               onChange={onchangeContact}
               value={contactNumber}
               maxLength="10"
@@ -241,25 +227,21 @@ const ServicesForm = (props) => {
           {/* Selection Div */}
           <div className=" mb-3 w-full group">
             <select
-              className="dropdown text-gray-400 font-heading  text-sm flex flex-wrap w-full
-                    border-2 rounded-lg px-2 py-2 border-gray-400"
+              className="block py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent 
+              border-0 border-b-2 border-gray-300 appearance-none  dark:border-gray-400 
+              focus:outline-none focus:ring-0 peer dropdown text-gray-400 font-heading  text-sm flex flex-wrap
+              border-b-2  px-2 py-2  w-full"
               onChange={handlerChange}
             >
-              <option>Please Select</option>
+              <option> Select Service For</option>
               {serviceitems ? (
                 serviceitems.map((item, ind) => (
                   <option
-                    // key={item.myservices_id}
                     key={ind}
                     id={item.myservices_id}
                     value={item.service_image}
-                    // onChange={(item) => {
-                    //   hadalChnageID(item);
-                    //   // setServiceId(item.target.myservices_id);
-                    //   console.log(item);
-                    // }}
+                   
                   >
-                    {/* {item.myservices_id} */}
 
                     {item.service_name}
                   </option>

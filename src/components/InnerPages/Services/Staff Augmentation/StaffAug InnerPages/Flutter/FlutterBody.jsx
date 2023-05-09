@@ -1,7 +1,6 @@
 import React from 'react';
 
-import flutterimage from '../../../../../../assets/innerpage/flutter/flutterimage.svg';
-import flutterprocess from '../../../../../../assets/innerpage/flutter/flutterhire.svg';
+
 import flutterrgimg from '../../../../../../assets/innerpage/flutter/flutterrgimg.svg';
 import reactjsgroup from '../../../../../../assets/innerpage/reactjs/reactjsgroup.png';
 import flutterimg from '../../../../../../assets/innerpage/flutter/flutterimg.png';

@@ -4,7 +4,6 @@ import { TbPlayerTrackNext } from 'react-icons/tb';
 import { AiFillCaretRight } from 'react-icons/ai';
 
 const NavLinks = () => {
-  // const [heading, setHeading] = useState('Services');
   const [heading, setHeading] = useState('');
   const [subHeading, setSubHeading] = useState('');
 
@@ -22,19 +21,12 @@ const NavLinks = () => {
       Head: 'Digital Marketing',
     },
   ];
-  // const demofuc = () => {
-  //   heading !== 'Services'
-  //     ? setTimeout(() => {
-  //         setHeading('Services');
-  //       }, 7000)
-  //     : setHeading('');
-  //   setSubHeading('');
-  // };
+ 
 
   return (
     <>
       <div>
-        {/* md:py-4 sm:py-3 md:h-32*/}
+        
         <div className="px-3 text-left md:cursor-pointer active:duration-700  group">
           <div className="relative">
             <h2
@@ -43,14 +35,7 @@ const NavLinks = () => {
             after:ease-in-out after:duration-500
             hover:after:w-[100%]
            "
-              //  (setTimeout(() => setShowModal(true), 1000))
-              // onClick={() => {
-              //   heading !== 'Services'
-              //     ? setHeading('Services')
-              //     : setHeading('');
-              //   setSubHeading('');
-              // }}
-              // onClick={() => demofuc()}
+              
               onC
               lick={() => {
                 heading !== 'Services'
@@ -62,11 +47,7 @@ const NavLinks = () => {
               }}
             >
               {'Services'}
-              {/* <span className="text-xl md:hidden inline">
-              <ion-icon
-                name={`${heading === "Services" ? "toggle-up" : "toggle-down"}`}
-              ></ion-icon>
-            </span> */}
+            
             </h2>
           </div>
 

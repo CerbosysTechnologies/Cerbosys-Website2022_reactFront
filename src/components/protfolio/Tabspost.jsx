@@ -4,7 +4,6 @@ import Sarthipost2 from '../../assets/portfolio/Sarthipost2.jpg';
 import postimg3 from '../../assets/portfolio/postimg3.jpg';
 import postimg4 from '../../assets/portfolio/postimg4.jpg';
 import postimg5 from '../../assets/portfolio/postimg5.png';
-import postimg6 from '../../assets/portfolio/postimg6.png';
 import postimg7 from '../../assets/portfolio/postimg7.png';
 import real from '../../assets/portfolio/real.mp4';
 import reel2 from '../../assets/portfolio/reel2.mp4';
@@ -16,41 +15,38 @@ import postim from '../../assets/portfolio/postim.png';
 import postim6 from '../../assets/portfolio/postim6.png';
 import postim7 from '../../assets/portfolio/postim7.png';
 import postimg2 from '../../assets/portfolio/postimg2.png';
-import postim0 from '../../assets/portfolio/postim0.png';
 import postim8 from '../../assets/portfolio/postim8.png';
-import postim9 from '../../assets/portfolio/postim9.png';
-import InfiniteScroll from 'react-infinite-scroll-component';
 import reel8 from '../../assets/portfolio/reel8.mp4';
 import reel9 from '../../assets/portfolio/reel9.mp4';
 import reel0 from '../../assets/portfolio/reel0.mp4';
 
 const Tabspost = () => {
-  const data = [
-    {
-      img: postimg1,
-    },
-    {
-      img1: Sarthipost2,
-    },
-    {
-      img2: postimg1,
-    },
-    {
-      img: postimg1,
-    },
-    {
-      img1: postimg3,
-    },
-    {
-      img2: postimg4,
-    },
-    {
-      img: postimg1,
-    },
-    {
-      img2: real,
-    },
-  ];
+  // const data = [
+  //   {
+  //     img: postimg1,
+  //   },
+  //   {
+  //     img1: Sarthipost2,
+  //   },
+  //   {
+  //     img2: postimg1,
+  //   },
+  //   {
+  //     img: postimg1,
+  //   },
+  //   {
+  //     img1: postimg3,
+  //   },
+  //   {
+  //     img2: postimg4,
+  //   },
+  //   {
+  //     img: postimg1,
+  //   },
+  //   {
+  //     img2: real,
+  //   },
+  // ];
   return (
     <>
       <div>

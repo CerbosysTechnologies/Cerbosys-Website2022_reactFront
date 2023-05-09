@@ -11,9 +11,7 @@ const NotFound = () => {
           <div>
             <img src={eorro404} alt="img" className="md:w-[20rem] w-[14rem]" />
           </div>
-          {/* <h1 className="text-white uppercase font-heading py-2 md:text-3xl text-xl mb-3">
-            Not Foud
-          </h1> */}
+       
           <p className=" text-center text-white font-subheading mt-3   md:text-lg text-xs md:w-[980px] max-w-fit">
             OOPS… Page not found, Please go through the home page
           </p>

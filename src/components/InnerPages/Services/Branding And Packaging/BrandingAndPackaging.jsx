@@ -1,6 +1,5 @@
 import React from 'react';
-import Navbar from '../../../Navbar/Navbar';
-import Footer from '../../../Common/Component/Footer';
+
 import BrandingAndPackagingDesc from './BrandingAndPackagingDesc';
 import BrandAndPackagingProcess from './BrandingAndPackagingProcess';
 import BrandingAndPackagingForm from './BrandingAndPackagingForm';
@@ -23,7 +22,7 @@ const BrandingAndPackaging = () => {
           />
         </Helmet>
 
-        {/* <Navbar /> */}
+   
         <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
@@ -54,7 +53,7 @@ const BrandingAndPackaging = () => {
           <BrandAndPackagingProcess />
           <BrandingAndPackagingForm />
         </div>
-        {/* <Footer /> */}
+   
       </>
     </div>
   );

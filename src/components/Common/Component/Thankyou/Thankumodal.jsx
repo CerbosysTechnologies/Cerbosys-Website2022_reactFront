@@ -1,6 +1,4 @@
 import React from 'react';
-// import tickicon from "../../../assets/tick.svg";
-// import Thankyou from "../../../assets/contactus/Thank you page.png";
 
 const Thankumodal = () => {
   return (
@@ -32,13 +30,10 @@ const Thankumodal = () => {
              
                "
               >
-                {/*  //  bg-gradient-to-r from-purple-500 via-green-500 to-blue-500 */}
+       
                 <div
                   className="flex flex-col items-center p-4 space-y-2 bg-white rounded-lg  "
-                  // style={{
-                  //   background:
-                  //     'linear-gradient(180deg, rgba(156,195,255,1) 30%, rgba(138,255,116,1) 100%)',
-                  // }}
+                 
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -55,16 +50,7 @@ const Thankumodal = () => {
                     />
                   </svg>
                   {/*  text-green-600 */}
-                  {/* <h1
-                    className="md:text-4xl text-center  font-extrabold 
-                    font-heading text-xl"
-                  >
-                    Thank You !
-                  </h1>
-                  <p className="font-heading md:text-xl text-lg text-center ">
-                    Thank you for contacting us!<br></br> Our team of experts
-                    will get back to you shortly.
-                  </p> */}
+                 
                   <a class="inline-flex items-center px-4 py-2 text-white bg-indigo-600 border border-indigo-600 rounded rounded-full hover:bg-indigo-700 focus:outline-none focus:ring">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

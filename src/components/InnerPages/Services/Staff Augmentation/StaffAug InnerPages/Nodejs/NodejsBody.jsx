@@ -1,7 +1,4 @@
 import React from 'react';
-
-import nodejsimage from '../../../../../../assets/innerpage/nodejs/node.jsimage.svg';
-import nodejsprocess from '../../../../../../assets/innerpage/nodejs/node.jshire.svg';
 import nodejsrig from '../../../../../../assets/innerpage/nodejs/nodejsrig.png';
 import reactjsgroup from '../../../../../../assets/innerpage/reactjs/reactjsgroup.png';
 import nodejsimg from '../../../../../../assets/innerpage/nodejs/nodejsimg.png';

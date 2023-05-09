@@ -1,6 +1,5 @@
 import React from 'react';
-import Footer from '../Common/Component/Footer';
-import Navbar from '../Navbar/Navbar';
+
 import TermconditionsBody from './TermconditionsBody';
 
 function Termconditions() {

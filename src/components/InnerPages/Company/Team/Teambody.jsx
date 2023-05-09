@@ -1,6 +1,5 @@
 import React from 'react';
 import Ankitsir0 from '../../../../assets/innerpage/team/Ankitsir0.png';
-import vineetsir1 from '../../../../assets/innerpage/team/vineetsir1.png';
 import nidhimam1 from '../../../../assets/innerpage/team/nidhimam1.png';
 import Jyotimam1 from '../../../../assets/innerpage/team/Jyotimam1.png';
 import Samita from '../../../../assets/innerpage/team/Samita.png';
@@ -13,21 +12,13 @@ import Swetamam1 from '../../../../assets/innerpage/team/Swetamam1.png';
 import Shubhamsir1 from '../../../../assets/innerpage/team/Shubhamsir1.png';
 import Aakashsir1 from '../../../../assets/innerpage/team/Aakashsir1.png';
 import Prasangsir1 from '../../../../assets/innerpage/team/Prasangsir1.png';
-import manwomanicon from '../../../../assets/innerpage/team/man_woman.png';
 import rajnimam1 from '../../../../assets/innerpage/team/rajnimam1.png';
-import prashanticon from '../../../../assets/innerpage/team/prasant.png';
-import avtarmanblueicon from '../../../../assets/innerpage/team/avtarmanblue.png';
-import avtarmangreenicon from '../../../../assets/innerpage/team/avtarmangreen.png';
-import avtarwomenblueicon from '../../../../assets/innerpage/team/avtarwomenblue.png';
-import avtarwomengreenicon from '../../../../assets/innerpage/team/avtarwomengreen.png';
-import tryimgs from '../../../../assets/tryimgs.png';
+
 import tryimg6 from '../../../../assets/innerpage/team/tryimg6.png';
 import dumyblueg from '../../../../assets/innerpage/team/damyblueg.png';
-import greenb from '../../../../assets/innerpage/team/greenb.png';
 import girlgreen from '../../../../assets/innerpage/team/girlgreen.png';
 import boysblue from '../../../../assets/innerpage/team/boysblue.png';
 import greenboys from '../../../../assets/innerpage/team/greenboys.png';
-import gourboth from '../../../../assets/innerpage/team/gourboth.png';
 import sapna from '../../../../assets/innerpage/team/Sapna.png';
 import Saloni from '../../../../assets/innerpage/team/Saloni.png';
 import Pratigya from '../../../../assets/innerpage/team/Pratigya.png';
@@ -89,12 +80,7 @@ const Teambody = () => {
                 />
               </div>
             </div>
-            {/* <img
-              src={ankiticon}
-              alt="Ankit Goyel"
-              className="md:w-72 md:h-72 w-56 h-56"
-              // before:content-[''] before:absolute before:inset-[-10px 140px] before:bg-orange-700 hover:before:inset-[20px 0px] before:z-index-[999]"
-            /> */}
+           
             {/* </div> */}
             {/* try to animate this img */}
             <p className="font-heading md:text-lg text-sm text-center mt-4">
@@ -130,23 +116,7 @@ const Teambody = () => {
                "
                   />
                 </div>
-                {/* <img
-                  src={vineetsir1}
-                  alt="Mohit Nayak"
-                  className="w-[280px] mx-auto 
-              
-               "
-                />
-                <div className="absolute inset-1">
-                  {' '}
-                  <img
-                    src={tryimg6}
-                    alt="Mohit Nayak"
-                    className="w-[280px] mx-auto
-           hover:animate-cyclieing-hand
-               "
-                  />
-                </div> */}
+                
               </div>
               <p className="font-heading md:text-lg text-sm text-center md:mt-4">
                 Hi, I am Nidhi Garg Goyel
@@ -157,14 +127,7 @@ const Teambody = () => {
                 </i>
               </p>
 
-              {/* <p className="font-heading md:text-lg text-sm text-center mt-6">
-                Hello, I am Vineet Goyel
-                <br></br>Director of Technology
-                <br></br>
-                <i className="text-Primary">
-                  “Let’s innovate, connect and inspire”{' '}
-                </i>
-              </p> */}
+              
             </div>
 
             <div className="mx-auto px-10 py-10 flex flex-col items-center justify-center md:mt-4">

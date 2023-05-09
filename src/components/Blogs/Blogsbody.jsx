@@ -6,16 +6,10 @@ import { useNavigate } from 'react-router-dom';
 
 function Blogsbody() {
   const IMAGE_URL = `https://cerbosys.in:3700/blog/`;
-  const [allBlogas, setAllBlogas] = useState('');
   const [blogdata, setBlogData] = useState([]);
-  // const [blogdata, setBlogData] = useState([]);
-  // const [blogImg, setBlogImg] = useState([]);
-  // const [preview, setPreview] = useState("");
-  // const [allBlogas, setAllBlogas] = useState("");
-
   const fetchData = async () => {
     await axios
-      .get('https://cerbosys.in:3700/cerbosys/getAllBlogs', {
+      .get(`${SERVER}/getAllBlogs`, {
         headers: {
           'Content-Type': 'application/json',
         },
@@ -25,33 +19,7 @@ function Blogsbody() {
         const response = res.data.data;
         console.log(response);
         setBlogData(response);
-        // setisloading(true);
-
-        //getImageName(blogdata);
-        // response.forEach((element, i) => {
-        //   // console.log("In Api", element.blogImg);
-        //   //console.log("In id", element.blog_id);
-        //   const img_arr = ([] = element.blogImg);
-        //   setId(element.blog_id);
-        //   // const blogid = ([] = element.blog_id);
-        //   img_arr.forEach((images) => {
-        //     let complete_name = images.blog_images;
-        //     let img_name = complete_name;
-        //     if (img_name == null) {
-        //       img_name = null;
-        //     } else {
-        //       img_name = complete_name.substr(12);
-        //       json_image = {
-        //         id: element.blog_id,
-        //         blog_img: img_name,
-        //       };
-        //     }
-        //     //image_array.push(json_image);
-        //     blogdata.push(json_image);
-        //     console.log("Json Images", image_array);
-        //     setBlogImg(img_name);
-        //   });
-        // });
+       
       })
       .catch((error) => {
         console.log(error);
@@ -69,12 +37,7 @@ function Blogsbody() {
 
   // navigate
   let navigate = useNavigate();
-  const getblogbyid = () => {
-    let path = `/blog/one-blog`;
-    navigate(path);
-    // navigate(`/addproduct`);
-    // <Navigate to="/addproduct" replace={true} />
-  };
+  
   return (
     <>
       <div className=" mx-auto">
@@ -89,13 +52,9 @@ function Blogsbody() {
                 {/* <!--Card 1--> */}
                 <div class="max-w-sm h-[100%] rounded-2xl overflow-hidden shadow-2xl cursor-pointer">
                   <div className="flex justify-center">
-                    {/* <img
-                  class="md:h-[300px] md:w-[300px] scale-90  rounded-lg hover:scale-100 ease-in duration-1000"
-                  src={Websait}  
-                  alt="Mountain"
-                /> */}
+    
                     {item.blogImg.map((element) => {
-                      // console.log("element", element);
+                      
                       let testimg = [];
                       let arr = element.blog_images;
                       if (arr == null) {
@@ -111,24 +70,24 @@ function Blogsbody() {
                         return (
                           <img
                             alt=""
-                            className="imageblogAll h-[350px]"
+                            className="imageblogAll h-[300px] w-[300px] object-contain"
                             src={IMAGE_URL + testimg[2]}
                           />
                         );
                       }
-                      //console.log('element arr', testimg[2]),
+                      
                     })}
                   </div>
 
-                  <div class="px-6 py-4">
-                    <span class="font-subheading text-sm mb-2">
+                  <div className="px-6 py-4">
+                    <span class="font-subheading text-sm my-5">
                       Publish Date - {item.creationDate.substr(0, 10)}
                     </span>
 
-                    <div class="font-heading text-xl mb-2">
+                    <div className="font-heading text-xl mb-2">
                       {item.blog_title}
                     </div>
-                    {/* <div class="font-heading text-xl mb-2"> {item.blog_message}</div> */}
+                  
                   </div>
                 </div>
               </div>

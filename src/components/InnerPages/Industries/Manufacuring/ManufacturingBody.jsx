@@ -57,7 +57,7 @@ const ManufacturingBody = () => {
             <div className=" py-0 md:py-6">
               <div className="flex flex-wrap justify-center items-center gap-10 md:flex-nowrap px-8 md:px-12">
                 {/* <div className="flex justify-center gap-10 md:w-[50%] w-[100%] text-white px-8"> */}
-                <div className="mt-3 md:w-[60%] w-[100%] text-white">
+                <div className="mt-3 md:w-[60%] w-[100%] text-black">
                   <h2 className="md:text-3xl uppercase text-xl mt-4 font-heading mb-6">
                     Our Manufacturing Solutions
                   </h2>

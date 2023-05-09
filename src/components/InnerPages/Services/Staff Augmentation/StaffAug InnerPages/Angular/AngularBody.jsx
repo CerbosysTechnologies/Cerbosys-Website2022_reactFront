@@ -1,7 +1,4 @@
 import React from 'react';
-
-import angularimage from '../../../../../../assets/innerpage/angular/angularimage.svg';
-import angularprocess from '../../../../../../assets/innerpage/angular/angularhire.svg';
 import angularrgimg from '../../../../../../assets/innerpage/angular/angularrgimg.svg';
 import reactjsgroup from '../../../../../../assets/innerpage/reactjs/reactjsgroup.png';
 import angularimg from '../../../../../../assets/innerpage/angular/angularimg.png';

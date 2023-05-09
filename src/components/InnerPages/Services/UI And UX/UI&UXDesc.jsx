@@ -46,8 +46,7 @@ const UIAndUXDesc = () => {
                 src={uiandux_articon}
                 alt="UI/UX Icon"
                 className="md:h-[24rem] w-full p-4 mx-auto my-auto"
-                //     className="md:w-[24rem] mx-auto my-8
-                //  w-[28rem] h-[20rem] mt-8"
+              
               />
               {/* Image Section Ends*/}
 

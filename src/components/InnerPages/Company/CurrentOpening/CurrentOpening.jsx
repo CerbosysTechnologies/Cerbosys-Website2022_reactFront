@@ -1,6 +1,5 @@
 import React from 'react';
-import Navbar from '../../../Navbar/Navbar';
-import Footer from '../../../Common/Component/Footer';
+
 import CurrentOpeningBody from './CurrentOpeningBody';
 import CurrentOpeningForm from './CurrentOpeningForm';
 import { Helmet } from 'react-helmet';
@@ -26,7 +25,6 @@ const CurrentOpening = () => {
           />
         </Helmet>
 
-        {/* <Navbar /> */}
         <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-CurrentOpeningBackground bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">
@@ -44,7 +42,7 @@ const CurrentOpening = () => {
       </>
       <CurrentOpeningBody />
       <CurrentOpeningForm />
-      {/* <Footer /> */}
+
     </div>
   );
 };

@@ -1,7 +1,6 @@
 import React from 'react';
 
-import androidimage from '../../../../../../assets/innerpage/android/androidimage.svg';
-import androidprocess from '../../../../../../assets/innerpage/android/androidhire.svg';
+
 import Heading from '../Heading';
 import andoriimg from '../../../../../../assets/innerpage/android/andoriimg.svg';
 import reactjsgroup from '../../../../../../assets/innerpage/reactjs/reactjsgroup.png';

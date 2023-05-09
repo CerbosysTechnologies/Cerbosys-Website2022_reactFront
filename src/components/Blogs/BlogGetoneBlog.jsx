@@ -3,15 +3,13 @@ import { SERVER } from '../../ServerUrls';
 import { useNavigate, useParams } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper';
-import SwiperCore, { Autoplay } from 'swiper';
+import  { Autoplay } from 'swiper';
 import axios from 'axios';
 import parser from 'html-react-parser';
 function BlogGetoneBlog() {
   const { id } = useParams();
   console.log(id);
   const navigate = useNavigate();
-
-  const [blog, setBlog] = useState({});
 
   const [blogid, setBlogid] = useState('');
 
@@ -20,17 +18,13 @@ function BlogGetoneBlog() {
   const [image, setImage] = useState('');
   const [blogimagesid, setBlogimagesid] = useState('');
   console.log(blogimagesid);
-
-  const [imageshow, setImageshow] = useState('');
-  // console.log(imageshow);
   const [blogdata, setBlogData] = useState([]);
-
   const IMAGE_URL = `https://cerbosys.in:3700/blog/`;
 
   // get all blog start
   const fetchData = async () => {
     await axios
-      .get('https://cerbosys.in:3700/cerbosys/getAllBlogs', {
+      .get(`${SERVER}/getAllBlogs`, {
         headers: {
           'Content-Type': 'application/json',
         },
@@ -53,7 +47,7 @@ function BlogGetoneBlog() {
   // get all blog End
 
   // Get by id blog start
-  // useEffect(() => {
+ 
   axios
     .get(SERVER + `/getBlogById?blog_id=${id}`, {
       headers: {
@@ -64,27 +58,20 @@ function BlogGetoneBlog() {
       const i = res?.data?.data.length - 1;
       setBlogid(res?.data?.data[i].blog_id);
       setBlogtitle(res?.data?.data[i].blog_title);
-      console.log(res?.data?.data[i].blog_title);
+      
       setBlogmessage(res?.data?.data[i].blog_message);
       setBlogmessage(res?.data?.data[i].blog_message);
       setBlogimagesid(res?.data?.data[i].blogImg[i].blog_imagesid);
       setImage(res?.data?.data[i].blogImg[i].blog_images.substr(12));
-      console.log(res?.data?.data[i].blogImg[i].blog_imagesid);
-      console.log(image);
       navigate(`/blog/${res?.data?.data[i].blog_title.replace(/\s/g, '-')}`);
       setTimeout(() => {
         window.location();
       }, 1000);
     });
-  // }, []);
+  
 
   // Get by id blog End
-  const getblogbyid = () => {
-    let path = `/blog/one-blog`;
-    navigate(path);
-    // navigate(`/addproduct`);
-    // <Navigate to="/addproduct" replace={true} />
-  };
+  
   const SingleBlog = (id) => {
     let path = `/blog/${id}`;
 
@@ -169,14 +156,9 @@ function BlogGetoneBlog() {
                     {/* <!--Card 1--> */}
                     <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl h-[100%]">
                       <div className="flex justify-center">
-                        {/* <img
-                          class="md:h-[300px] md:w-[300px] scale-90  rounded-lg hover:scale-100 ease-in duration-1000"
-                          src={Websait}
-                          alt="Mountain"
-                        /> */}
+                       
 
                         {item.blogImg.map((element) => {
-                          // console.log("element", element);
                           let testimg = [];
                           let arr = element.blog_images;
                           if (arr == null) {
@@ -197,7 +179,7 @@ function BlogGetoneBlog() {
                               />
                             );
                           }
-                          //console.log('element arr', testimg[2]),
+                         
                         })}
                       </div>
 
