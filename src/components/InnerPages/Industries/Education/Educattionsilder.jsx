@@ -73,7 +73,7 @@ const Educattionsilder = () => {
                       <div className="pt-5">
                         <p className=" font-subheading">
                           {' '}
-                          Fashion E-commerce<br></br> Store
+                          Online <br></br> Education
                         </p>
                       </div>
                       <div className="">
@@ -100,7 +100,7 @@ const Educattionsilder = () => {
                     <div className="bg-white text-center  rounded-br-[50px] h-32">
                       <div className="pt-5">
                         <p className=" font-subheading">
-                          Fashion E-commerce<br></br> Store
+                        Coaching Classes <br></br> Online
                         </p>
                       </div>
                       <div className="">
@@ -112,6 +112,7 @@ const Educattionsilder = () => {
                       </div>
                     </div>
                   </div>
+
                   <div className="h-52 md:h-90 px-8">
                     <div className="relative bg-Lightblue h-[140px] md:h-[200px] rounded-t-lg">
                       <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6 h-[160px]">
@@ -126,7 +127,7 @@ const Educattionsilder = () => {
                     <div className="bg-white  text-center  rounded-br-[50px] h-32">
                       <div className="pt-5">
                         <p className=" font-subheading">
-                          Fashion E-commerce<br></br> Store
+                          Top International<br></br> School
                         </p>
                       </div>
                       <div className="">
@@ -138,8 +139,8 @@ const Educattionsilder = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="h-52 md:h-90 px-8">
-                    <div className="relative bg-Lightgreen  h-[140px] md:h-[200px] rounded-t-lg">
+                  <div className="h-96 md:h-90 px-8 ">
+                    <div className="relative bg-Lightpink h-[140px] md:h-[200px] rounded-t-lg">
                       <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6 h-[160px]">
                         <img
                           src={college}
@@ -149,10 +150,11 @@ const Educattionsilder = () => {
                       </div>
                     </div>
 
-                    <div className="bg-white  text-center  rounded-br-[50px] h-32">
+                    <div className="bg-white text-center rounded-br-[50px] h-32">
                       <div className="pt-5">
                         <p className=" font-subheading">
-                          Fashion E-commerce<br></br> Store
+                          {' '}
+                          Online <br></br> Education
                         </p>
                       </div>
                       <div className="">
@@ -164,11 +166,39 @@ const Educattionsilder = () => {
                       </div>
                     </div>
                   </div>
+
                   <div className="h-52 md:h-90 px-8">
-                    <div className="relative bg-Lightpink h-[140px] md:h-[200px] rounded-t-lg">
-                      <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6 h-[160px]">
+                    <div className="relative bg-Lightgreen h-[140px] md:h-[200px] rounded-t-lg">
+                      <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6">
                         <img
                           src={coaching}
+                          alt="img"
+                          className="w-48 mx-auto  h-[118px] md:h-[178px]"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="bg-white text-center  rounded-br-[50px] h-32">
+                      <div className="pt-5">
+                        <p className=" font-subheading">
+                        Coaching Classes <br></br> Online
+                        </p>
+                      </div>
+                      <div className="">
+                        <Link to="/Portfolio">
+                          <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
+                            Know More
+                          </button>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="h-52 md:h-90 px-8">
+                    <div className="relative bg-Lightblue h-[140px] md:h-[200px] rounded-t-lg">
+                      <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6 h-[160px]">
+                        <img
+                          src={school}
                           alt="img"
                           className="w-48 mx-auto  h-[118px] md:h-[178px]"
                         />
@@ -178,44 +208,23 @@ const Educattionsilder = () => {
                     <div className="bg-white  text-center  rounded-br-[50px] h-32">
                       <div className="pt-5">
                         <p className=" font-subheading">
-                          Fashion E-commerce<br></br> Store
+                          Top International<br></br> School
                         </p>
                       </div>
                       <div className="">
                         <Link to="/Portfolio">
-                          <button className="bg-Primary rounded-md text-white px-2 mt-2  ">
+                          <button className="bg-Primary rounded-md text-white px-2 mt-2 ">
                             Know More
                           </button>
                         </Link>
                       </div>
                     </div>
                   </div>
-                  <div className="h-52 md:h-90 px-8">
-                    <div className="relative bg-Lightgreen h-[140px] md:h-[200px] rounded-t-lg">
-                      <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6">
-                        <img
-                          src={school}
-                          alt="img"
-                          className="w-48 mx-auto h-[118px] md:h-[178px]"
-                        />
-                      </div>
-                    </div>
 
-                    <div className="bg-white text-center  h-32   rounded-br-[50px]">
-                      <div className="pt-5">
-                        <p className=" font-subheading">
-                          Fashion E-commerce<br></br> Store
-                        </p>
-                      </div>
-                      <div className="">
-                        <Link to="/Portfolio">
-                          <button className="bg-Primary rounded-md text-white px-2">
-                            Know More
-                          </button>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
+
+
+
+              
                 </Slider>
               </div>
             </div>

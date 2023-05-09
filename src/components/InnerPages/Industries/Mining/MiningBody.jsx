@@ -77,7 +77,7 @@ mining business? */}
         <div className="max-w-[1240px] mx-auto">
           <div className=" py-0 md:py-6">
             <div className="flex flex-wrap justify-center gap-5 md:flex-nowrap  px-8 md:px-12">
-              <div className="flex justify-center gap-10 md:w-[50%] w-[100%] text-white">
+              <div className="flex justify-center gap-10 md:w-[50%] w-[100%] text-black">
                 <div className="mt-3">
                   <h2 className=" md:text-3xl text-xl mt-4 font-heading  mb-6">
                     How Cerbosys can help your mining business?

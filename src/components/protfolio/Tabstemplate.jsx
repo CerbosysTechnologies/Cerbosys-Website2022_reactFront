@@ -1,6 +1,6 @@
 // import { Agriculture } from '@mui/icons-material';
 import React from 'react';
-import ecommerfashi from '../../assets/portfolio/ecommerfashi.png';
+import industry from '../../assets/portfolio/industry.png';
 import realstate from '../../assets/portfolio/realstate.png';
 import Transportation from '../../assets/portfolio/Transportation.png';
 import Banking from '../../assets/portfolio/Banking.png';
@@ -176,7 +176,7 @@ const Tabstemplate = () => {
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
               <img
-                src={ecommerfashi}
+                src={industry}
                 alt="djhfj"
                 className="md:h-[24rem] mx-auto"
               />
