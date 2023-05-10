@@ -84,7 +84,7 @@ const Bankslider = () => {
           <div className="bg-white text-center  rounded-br-[50px] h-32">
             <div className="pt-5">
               <p className=" font-subheading">
-                Finance<br></br> Banke
+                Finance<br></br> Bank
               </p>
             </div>
             <div className="">
