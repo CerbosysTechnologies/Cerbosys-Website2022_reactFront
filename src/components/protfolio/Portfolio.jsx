@@ -10,12 +10,15 @@ const Portfolio = () => {
         <title>Portfolio - Web Design and Development Company from India</title>
         <meta
           name="keywords"
-          content="Web Apps for Internet Banking, Finance solutions, banking solutions, banking and finance solutions, banking app solutions, latest technology trends "
+          content="
+          
+          "
         />
 
         <meta
           name="description"
-          content="We work tirelessly to help you meet both banking compliance requirements and business goals. Leverage the power of PPC, SEO, Social, content & more."
+          content="Our team of experts always uses the latest technologies in web development like HTML 5, Reactjs, MongoDB etc. Also, the elements
+           of design, are the building blocks used by the designers"
         />
       </Helmet>
       <div className="">
