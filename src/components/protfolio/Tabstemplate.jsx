@@ -28,6 +28,7 @@ import car from '../../assets/portfolio/car.png';
 import transpotation3 from '../../assets/portfolio/transpotation3.png';
 
 import salon from '../../assets/portfolio/salon.png';
+import { Link } from 'react-router-dom';
 const Tabstemplate = () => {
   return (
     <>
@@ -40,30 +41,34 @@ const Tabstemplate = () => {
         <div className="flex justify-between flex-col md:flex-row content-center items-center mt-12 gap-6 text-white">
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <a href="https://agriculture.cerbosys.com/foodwear" target='_blank'  rel='noreferrer'>
               <img
                 src={food}
                 alt="djhfj"
                 className="md:h-[24rem] mx-auto rounded-lg"
-              />{' '}
+              /> 
+              </a>
             </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <a href="https://agriculture.cerbosys.com/agricuture" target='_blank'  rel='noreferrer'>
               <img
                 
                 src={Agriculture}
                 alt="djhfj"
                 className="md:h-[24rem] mx-auto rounded-lg"
-              />{' '}
+              /></a>
             </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+             <a href="https://agriculture.cerbosys.com/plants" target='_blank'  rel='noreferrer'>
               <img
                 src={plant}
                 alt="djhfj"
                 className="md:h-[24rem] mx-auto rounded-lg"
-              />
+              /></a>
             </div>
           </div>
         </div>
@@ -75,25 +80,30 @@ const Tabstemplate = () => {
         <div className="flex justify-between flex-col md:flex-row content-center items-center mt-12 gap-6 text-white">
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
-              <img src={apparel} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+           <a href="https://ecommerce.cerbosys.com/accessories-online-shopping" target='_blank'  rel='noreferrer'>
+               <img src={apparel} alt="djhfj" className="md:h-[24rem] mx-auto" /></a>
             </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+           <a href="https://ecommerce.cerbosys.com/footwear" target='_blank'  rel='noreferrer'>
               <img
                 src={Footwear}
                 alt="djhfj"
                 className="md:h-[24rem] mx-auto"
-              />{' '}
+              /></a> 
             </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
-              <img
+           
+           <a href="https://ecommerce.cerbosys.com/womens-clothing" target='_blank'  rel='noreferrer'>
+             <img
                 src={boutique}
                 alt="djhfj"
                 className="md:h-[24rem] mx-auto"
               />
+              </a>  
             </div>
           </div>
         </div>
@@ -105,21 +115,23 @@ const Tabstemplate = () => {
         <div className="flex justify-between flex-col md:flex-row content-center items-center mt-12 gap-6 text-white">
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
-              <img src={gym} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+             <a href="https://healthcare.cerbosys.com/fitness-gym" target='_blank'  rel='noreferrer'>
+               <img src={gym} alt="djhfj" className="md:h-[24rem] mx-auto" /></a>
             </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
-              <img src={salon} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            <a href="https://healthcare.cerbosys.com/lookwell-parlour" target='_blank'  rel='noreferrer' >
+                <img src={salon} alt="djhfj" className="md:h-[24rem] mx-auto" /></a>
             </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
-              <img
+       <a href="https://healthcare.cerbosys.com/mens-hair-salon" target='_blank'  rel='noreferrer'>       <img
                 src={barbistan}
                 alt="djhfj"
                 className="md:h-[24rem] mx-auto"
-              />
+              /></a>
             </div>
           </div>
         </div>
@@ -131,21 +143,27 @@ const Tabstemplate = () => {
         <div className="flex justify-between flex-col md:flex-row content-center items-center mt-12 gap-6 text-white">
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
-              <img src={Banking} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            <a href="https://banking.cerbosys.com/personal-loan-online" target='_blank' rel='noreferrer'>
+               <img src={Banking} alt="djhfj" className="md:h-[24rem] mx-auto" />
+               </a> 
             </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
-              <img src={Finance} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            <a href="https://banking.cerbosys.com/financial-services" target='_blank' rel='noreferrer' >
+                <img src={Finance} alt="djhfj" className="md:h-[24rem] mx-auto" />
+                </a>
             </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
-              <img
+           <a href="https://banking.cerbosys.com/cryptocurrency" target='_blank' rel='noreferrer'>
+               <img
                 src={Finance_bitcoin}
                 alt="djhfj"
                 className="md:h-[24rem] mx-auto"
               />
+              </a>
             </div>
           </div>
         </div>
@@ -157,29 +175,37 @@ const Tabstemplate = () => {
         <div className="flex justify-between flex-col md:flex-row content-center items-center mt-12 gap-6 text-white">
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
-              <img
+           <a href="https://manufacturing.cerbosys.com/industrial-solutions" target='_blank' 
+           rel='noreferrer'>   
+           <img
                 src={manufacturing}
                 alt="djhfj"
                 className="md:h-[24rem] mx-auto"
-              />{' '}
+              /></a>
             </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <a href="https://manufacturing.cerbosys.com/sustainable-infrastructure" target='_blank'
+               rel='noreferrer'>
               <img
                 src={manufact1}
                 alt="djhfj"
                 className="md:h-[24rem] mx-auto"
-              />{' '}
+              /></a>
             </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+              <a href="https://manufacturing.cerbosys.com/buysteel" target='_blank' rel='noreferrer'>
+
+           
               <img
                 src={industry}
                 alt="djhfj"
                 className="md:h-[24rem] mx-auto"
               />
+                 </a>
             </div>
           </div>
         </div>
@@ -191,21 +217,29 @@ const Tabstemplate = () => {
         <div className="flex justify-between flex-col md:flex-row content-center items-center mt-12 gap-6 text-white">
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
-              <img
+            <a href="https://mining.cerbosys.com/mining" 
+            target="_blank" rel="noopener noreferrer">
+                <img
                 src={mining_Experts}
                 alt="djhfj"
                 className="md:h-[24rem] mx-auto"
-              />{' '}
+              /></a>
             </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
-              <img src={mining2} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+             <a href="https://mining.cerbosys.com/mining-customer-management-solution" 
+             target="_blank" rel="noopener noreferrer">
+               <img src={mining2} alt="djhfj" className="md:h-[24rem] mx-auto" />
+               </a>
             </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
-              <img src={Main} alt="djhfj" className="md:h-[24rem] mx-auto" />
+             <a href="https://mining.cerbosys.com/Mining-technology"
+              target="_blank" rel="noopener noreferrer">
+               <img src={Main} alt="djhfj" className="md:h-[24rem] mx-auto" />
+               </a>
             </div>
           </div>
         </div>
@@ -217,21 +251,28 @@ const Tabstemplate = () => {
         <div className="flex justify-between flex-col md:flex-row content-center items-center mt-12 gap-6 text-white">
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+             <a href="https://education.cerbosys.com/coaching-classes-online" 
+             target='_blank' rel='noreferrer'>
               <img
                 src={coaching}
                 alt="djhfj"
                 className="md:h-[24rem] mx-auto"
-              />{' '}
+              /></a>
             </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
-              <img src={college} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+             <a href="https://education.cerbosys.com/online-education"    target='_blank' rel='noreferrer'>
+              <img src={college} alt="djhfj" className="md:h-[24rem] mx-auto" />
+              </a> 
             </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+          <a href="https://education.cerbosys.com/top-international-school" target="_blank"
+           rel="noopener noreferrer">
               <img src={school} alt="djhfj" className="md:h-[24rem] mx-auto" />
+              </a>  
             </div>
           </div>
         </div>
@@ -243,25 +284,32 @@ const Tabstemplate = () => {
         <div className="flex justify-between flex-col md:flex-row content-center items-center mt-12 gap-6 text-white">
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
-              <img
+             
+             <a href="https://realestate.cerbosys.com/architectural-design"
+              target="_blank" rel="noopener noreferrer">
+                 <img
                 src={architech}
                 alt="djhfj"
                 className="md:h-[24rem] mx-auto"
-              />{' '}
+              /></a>
             </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
-              <img src={hotel} alt="djhfj" className="md:h-[24rem] mx-auto" />{' '}
+            <a href="https://realestate.cerbosys.com/book-luxury-hotel-online"
+             target="_blank" rel="noopener noreferrer">
+              <img src={hotel} alt="djhfj" className="md:h-[24rem] mx-auto" /></a>
             </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+           <a href="https://realestate.cerbosys.com/property-dealing"
+            target="_blank" rel="noopener noreferrer">
               <img
                 src={realstate}
                 alt="djhfj"
                 className="md:h-[24rem] mx-auto"
-              />
+              /></a>
             </div>
           </div>
         </div>
@@ -273,25 +321,32 @@ const Tabstemplate = () => {
         <div className="flex justify-between flex-col md:flex-row content-center items-center mt-12 gap-6 text-white">
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
-              <img
+           <a href="https://transport.cerbosys.com/shipping"
+            target="_blank" rel="noopener noreferrer">
+                <img
                 src={transpotation3}
                 alt="djhfj"
                 className="md:h-[24rem] mx-auto"
-              />{' '}
+              /></a> 
             </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+             <a href="https://transport.cerbosys.com/transportation"
+              target="_blank" rel="noopener noreferrer">
               <img
                 src={Transportation}
                 alt="djhfj"
                 className="md:h-[24rem] mx-auto"
-              />{' '}
+              /></a>
             </div>
           </div>
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
+           <a href="https://transport.cerbosys.com/car-service-world" 
+           target="_blank" rel="noopener noreferrer">
               <img src={car} alt="djhfj" className="md:h-[24rem] mx-auto" />
+              </a> 
             </div>
           </div>
         </div>
