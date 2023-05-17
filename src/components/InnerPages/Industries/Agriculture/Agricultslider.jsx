@@ -50,7 +50,7 @@ const Agricultslider = () => {
           <div className="relative bg-Lightpink h-[140px] md:h-[200px] rounded-t-lg">
             <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6 h-[160px]">
               <a
-                href="https://agriculture.cerbosys.com/foodwear"
+                href="https://agriculture.cerbosys.com/order-food-online"
                 target="_blank"
                 rel="noreferrer"
               >

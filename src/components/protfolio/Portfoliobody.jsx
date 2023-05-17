@@ -2,6 +2,7 @@ import React from 'react';
 import portfolioleftimg from '../../assets/portfolio/portfolioleftimg.png';
 import portfolioright from '../../assets/portfolio/portfolioright.png';
 import Portfoliotabs from './Portfoliotabs';
+import { Link } from 'react-router-dom';
 const Portfoliobody = () => {
   return (
     <>
@@ -55,9 +56,11 @@ const Portfoliobody = () => {
                   <p className="mt-10 min-w-fit text-xl">
                     As a web design company in Indore, we stay at the forefront of the latest technologies in web development. Our team of talented logo and graphic designers is dedicated to crafting visually stunning and impactful designs. Whether you're searching for a web designing company near you or looking for innovative solutions, we are here to assist you every step of the way.
                   </p>
+                  <Link to="/contact-us">
                   <button className="bg-Purpal p-2 rounded mt-8 text-white">
-                    Know More
+                  Book A Consultation Call
                   </button>
+                  </Link>
                   {/* md:h-[24rem] */}
                 </div>
                 <div className="lg:w-[50%] w-[100%] pt-4">
