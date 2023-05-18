@@ -142,7 +142,6 @@ const Agricultslider = () => {
             </div>
           </div>
         </div>
-       
       </Slider>
     </div>
   );
