@@ -169,97 +169,13 @@ const ServiceHomePage = () => {
 
 
            
-            <Link to="/branding-and-packaging">
-              <div className='hover:bg-green-500 hover:text-white p-5 rounded-lg cursor-pointer '>
-                <Bounce right duration={3000}>
-                  {' '}
-                  <img
-                    alt="Branding And Packaging Icon"
-                    src={brandpackingicon}
-                    className="w-[70px] h-[70px] mb-2 scale-100 hover:scale-75 ease-out duration-500"
-                  />
-                </Bounce>
-                <h2 className="font-subheading text-left text-xl w-1/2 mt-4">
-                  Branding And Packaging
-                </h2>
-                <p className="font-content text-justify text-sm mt-4">
-                  We serve your product from branding to packaging, that is,
-                  creating a unique identity of your product by designing the
-                  brand logo graphics and designing its packaging to make it
-                  stand different from other products. We effectively serve our
-                  clients and help their brand to draw customer attention.
-                </p>
-              </div>
-              </Link>
+   
 
 
-              <Link to="/lead-generation">
-              <div className='hover:bg-green-500 hover:text-white p-5 rounded-lg cursor-pointer '>
-                <Bounce left duration={3000}>
-                  {' '}
-                  <img
-                    alt="Lead Generation Icon"
-                    src={leadrgenerationicon}
-                    className="w-[70px] h-[70px] mb-2 scale-100 hover:scale-75 ease-out duration-500"
-                  />
-                </Bounce>
-                <h2 className="font-subheading text-left text-xl w-1/2 mt-4">
-                  Lead Generation
-                </h2>
-                <p className="font-content text-justify text-sm mb-16 mt-4">
-                  Getting high-quality leads and clients through Search Engine
-                  Optimization (SEO) and Social Media Marketing (SMM) - Drive
-                  higher engagement rates for your brand on social media
-                  platforms by having a social media marketing campaign tailored
-                  to your needs.
-                </p>
-              </div>
-              </Link>
+          
 
-              <Link to="./staff-augmentation">
-                <div className="hover:bg-green-400 hover:cursor-pointer rounded-lg p-10 hover:text-white">
-                  <Bounce left duration={3000}>
-                    {' '}
-                    <img
-                      alt="Staff Augmentation Icon"
-                      src={staffaugmentationicon}
-                      className="w-[70px] h-[70px] mb-2 scale-100 hover:scale-75 ease-out duration-500"
-                    />
-                  </Bounce>
-                  <h2 className="font-subheading text-left text-xl w-1/2 mt-4">
-                    Staff Augmentation
-                  </h2>
-                  <p className="font-content text-justify text-sm md:mb-0 mb-16 mt-4">
-                    Since one of the primary elements of staff augmentation is
-                    talent, Cerbosys acts as a link to augment the capacity of
-                    your organization and we can help your company to build an
-                    entirely effective team that can add good value to your
-                    brand and projects.
-                  </p>
-                </div>
-              </Link>
-              <Link to="./ui-ux-designing">
-                <div className="hover:bg-green-400 hover:cursor-pointer rounded-lg p-10 hover:text-white">
-                  <Bounce bottom duration={3000}>
-                    {' '}
-                    <img
-                      alt="UI/UX Icon"
-                      src={uxdevelopmenticon}
-                      className="w-[70px] h-[70px] mb-2 scale-100 hover:scale-75 ease-out duration-500"
-                    />
-                  </Bounce>
-                  <h2 className="font-subheading text-left text-xl w-1/2 mt-4">
-                    UI/UX Development
-                  </h2>
-                  <p className="font-content text-justify text-sm md:mb-0 mb-12 mt-4">
-                    We have a team that is especially concerned about the entire
-                    process of product design. Apart from designing and
-                    useability, we also provide a meaningful and enjoyable
-                    experience for the users. Since a better user experience can
-                    increase your sales effectively.
-                  </p>
-                </div>
-              </Link>
+         
+          
               <Link to="./branding-and-packaging">
                 <div className="hover:bg-green-400 hover:cursor-pointer rounded-lg p-10 hover:text-white">
                   <Bounce right duration={3000}>
