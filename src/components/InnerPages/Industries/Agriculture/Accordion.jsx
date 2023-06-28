@@ -9,12 +9,13 @@ const Accordion = () => {
   const [show3, setShow3] = useState('');
   const [show4, setShow4] = useState('');
 
+
   return (
     <>
       <div
         className={
           show
-            ? 'bg-Primary text-white rounded-lg mt-3 ease-in duration-150 '
+            ? 'bg-Primary text-white rounded-lg mt-3 transition delay-150 duration-300 ease-in-out '
             : 'text-Primary  mt-3 ease-in duration-150 '
         }
       >

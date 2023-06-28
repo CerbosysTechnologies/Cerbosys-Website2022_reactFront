@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Switch, Route } from 'react-router-dom';
 import Hero from './components/HomePage/Hero';
 import WebDevelopment from './components/InnerPages/Services/Web/WebDevelopment';
 import MobileDevelopment from './components/InnerPages/Services/Mobile/MobileDevelopment';
@@ -11,6 +11,7 @@ import Team from './components/InnerPages/Company/Team/Team';
 import Overview from './components/InnerPages/Company/Overview/Overview';
 import CurrentOpening from './components/InnerPages/Company/CurrentOpening/CurrentOpening';
 import Diversity from './components/InnerPages/Company/DiversityCerbosys/Diversity';
+// import Thanku from "./components/Common/Component/Thankumodal";
 import ContactUs from './components/InnerPages/OtherPages/ContactUs/ContactUs';
 import TrainingAndDevelopment from './components/InnerPages/Company/TrainingAndDevelopment/TrainingAndDevelopment';
 import LifeCerbosys from './components/InnerPages/Company/LifeCerbosys/LifeCerbosys';
@@ -37,6 +38,7 @@ import IOS from './components/InnerPages/Services/Staff Augmentation/StaffAug In
 import Laravel from './components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Laravel/Laravel';
 import Nodejs from './components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Nodejs/Nodejs';
 import Reactjs from './components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Reactjs/Reactjs';
+import { Helmet } from 'react-helmet';
 import Termconditions from './components/term&conditions/Termandconditions.jsx';
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
 import Navbar from './components/Navbar/Navbar';
@@ -49,15 +51,16 @@ import SchoolERP from './components/Solution/School/SchoolERP';
 import ECommerse from './components/Solution/E-Commerse/E-Commerse';
 import CaseStudyByOne from './components/CaseStudy/CaseStudyByOne';
 import Search from './search';
-
-
+import { Fragment, useEffect } from 'react';
+import { useState } from 'react';
 import Softwaredevelopment from './components/InnerPages/Services/SoftwareDevelopment/Softwaredevelopment';
 import CurrentOpningGetbyOne from './components/InnerPages/Company/CurrentOpening/CurrentOpningGetbyOne';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Portfolio from './components/protfolio/Portfolio';
 import NotFound from './components/Common/Component/NotFound';
-import { useScroll, useSpring } from 'framer-motion';
+import Servicethankyou from './components/Common/Component/Thankyou/Servicethankyou';
+import { motion, useScroll, useSpring } from 'framer-motion';
 function App() {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -65,7 +68,19 @@ function App() {
     damping: 30,
     restDelta: 0.001,
   });
-
+  // dark mood functions start
+  // const [theme, setTheme] = useState('light');
+  // useEffect(() => {
+  //   if (theme === 'dark') {
+  //     document.documentElement.classList.add('dark');
+  //   } else {
+  //     document.documentElement.classList.remove('dark');
+  //   }
+  // }, [theme]);
+  // const handlecolor = () => {
+  //   setTheme(theme === 'dark' ? 'light' : 'dark');
+  // };
+  // dark mood functions end
   document.addEventListener('contextmenu', handelRightClick);
   return (
     <>
@@ -78,77 +93,98 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Hero />} />
           {/* Company Navbar start */}
-          <Route path="/overview" element={<Overview />} />
+          <Route exact path="/overview" element={<Overview />} />
           <Route
+            exact
             path="/training-and-development"
             element={<TrainingAndDevelopment />}
           />
-          <Route path="/team" element={<Team />} />
-          <Route path="/life-at-cerbosys" element={<LifeCerbosys />} />
-          <Route path="/diversity-at-cerbosys" element={<Diversity />} />
-          <Route path="/testimonial" element={<Testimonial />} />
+          <Route exact path="/team" element={<Team />} />
+          <Route exact path="/life-at-cerbosys" element={<LifeCerbosys />} />
+          <Route exact path="/diversity-at-cerbosys" element={<Diversity />} />
+          <Route exact path="/testimonial" element={<Testimonial />} />
           {/* Company Navbar End */}
           {/* Service Navbar Start */}
-          <Route path="/web-development" element={<WebDevelopment />} />
+          <Route exact path="/web-development" element={<WebDevelopment />} />
           <Route
+            exact
             path="/software-development"
             element={<Softwaredevelopment />}
           />
-          <Route path="/digital-marketing" element={<DigitalMarketing />} />
-          <Route path="/lead-generation" element={<LeadGeneration />} />
           <Route
+            exact
+            path="/digital-marketing"
+            element={<DigitalMarketing />}
+          />
+          <Route exact path="/lead-generation" element={<LeadGeneration />} />
+          <Route
+            exact
             path="/branding-and-packaging"
             element={<BrandingAndPackaging />}
           />
           <Route
+            exact
             path="/mobile-app-development"
             element={<MobileDevelopment />}
           />
-          <Route path="/ui-ux-designing" element={<UIAndUX />} />
+          <Route exact path="/ui-ux-designing" element={<UIAndUX />} />
           {/* Service Navbar End */}
           {/* StaffAugmentation start */}
-          <Route path="/staff-augmentation" element={<StaffAugmentation />} />
-          <Route path="/hire-react-js-developer" element={<Reactjs />} />{' '}
-          <Route path="/hire-node-js-developer" element={<Nodejs />} />
-          <Route path="/hire-android-developer" element={<Android />} />
-          <Route path="/hire-ios-developer" element={<IOS />} />
-          <Route path="/hire-flutter-developer" element={<Flutter />} />
-          <Route path="/hire-laravel-developer" element={<Laravel />} />
-          <Route path="/hire-codeIgniter-developer" element={<CodeIgniter />} />
-          <Route path="/hire-angular-developer" element={<Angular />} />
-          <Route path="/hire-dotnet-developer" element={<DotNet />} />
+          <Route
+            exact
+            path="/staff-augmentation"
+            element={<StaffAugmentation />}
+          />
+          <Route exact path="/hire-react-js-developer" element={<Reactjs />} />{" "}
+          <Route exact path="/hire-node-js-developer" element={<Nodejs />} />
+          <Route exact path="/hire-android-developer" element={<Android />} />
+          <Route exact path="/hire-ios-developer" element={<IOS />} />
+          <Route exact path="/hire-flutter-developer" element={<Flutter />} />
+          <Route exact path="/hire-laravel-developer" element={<Laravel />} />
+          <Route
+            exact
+            path="/hire-codeIgniter-developer"
+            element={<CodeIgniter />}
+          />
+          <Route exact path="/hire-angular-developer" element={<Angular />} />
+          <Route exact path="/hire-dotnet-developer" element={<DotNet />} />
           {/* StaffAugmentation END */}
           {/* contact-us start */}
-          <Route path="/contact-us" element={<ContactUs />} />
+          <Route exact path="/contact-us" element={<ContactUs />} />
           {/* contact-us End */}
-          <Route path="/current-opening" element={<CurrentOpening />} />
+          <Route exact path="/current-opening" element={<CurrentOpening />} />
           <Route
+            exact
             path="/current-opening/:id"
             element={<CurrentOpningGetbyOne />}
           />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/:id" element={<BlogGetoneBlog />} />
+          <Route exact path="/blog" element={<Blog />} />
+          <Route exact path="/blog/:id" element={<BlogGetoneBlog />} />
           {/* Indstri Start */}
-          <Route path="/agriculture" element={<Agriculture />} />
-          <Route path="/ecommerce-and-retail" element={<Ecommerce />} />
-          <Route path="/health-care" element={<HealthCare />} />
-          <Route path="/banking-and-finance" element={<Banking />} />
-          <Route path="/mining" element={<Mining />} />
-          <Route path="/transport-and-logistics" element={<Transport />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/real-estate" element={<RealEstate />} />
-          <Route path="/manufacturing" element={<Manufacturing />} />
+          <Route exact path="/agriculture" element={<Agriculture />} />
+          <Route exact path="/ecommerce-and-retail" element={<Ecommerce />} />
+          <Route exact path="/health-care" element={<HealthCare />} />
+          <Route exact path="/banking-and-finance" element={<Banking />} />
+          <Route exact path="/mining" element={<Mining />} />
+          <Route
+            exact
+            path="/transport-and-logistics"
+            element={<Transport />}
+          />
+          <Route exact path="/education" element={<Education />} />
+          <Route exact path="/real-estate" element={<RealEstate />} />
+          <Route exact path="/manufacturing" element={<Manufacturing />} />
           {/* Indstri End */}
-          <Route path="/whitepapers" element={<CaseStudy />} />
-          <Route path="/whitepapers/:id" element={<CaseStudyByOne />} />
-          <Route path="/terms-Conditions" element={<Termconditions />} />
-          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/about-us" element={<AboutUS />} />
-          <Route path="/solution" element={<Solution />} />
-          <Route path="/Portfolio" element={<Portfolio />} />
-          <Route path="/solution/schoolerp" element={<SchoolERP />} />
-          <Route path="/solution/E-Commerse" element={<ECommerse />} />
-          <Route path="*" element={<NotFound />} />
+          <Route exact path="/whitepapers" element={<CaseStudy />} />
+          <Route exact path="/whitepapers/:id" element={<CaseStudyByOne />} />
+          <Route exact path="/terms-Conditions" element={<Termconditions />} />
+          <Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route exact path="/about-us" element={<AboutUS />} />
+          <Route exact path="/solution" element={<Solution />} />
+          <Route exact path="/Portfolio" element={<Portfolio />} />
+          <Route exact path="/solution/schoolerp" element={<SchoolERP />} />
+          <Route exact path="/solution/E-Commerse" element={<ECommerse />} />
+          <Route exact path="*" element={<NotFound />} />
         </Routes>
 
         <Footer />
