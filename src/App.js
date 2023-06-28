@@ -87,7 +87,7 @@ function App() {
       <div className="selection:bg-Green selection:text-white">
         
         <Navbar></Navbar>
-
+        
         <FreeQuote />
         <Search />
         <Routes>
