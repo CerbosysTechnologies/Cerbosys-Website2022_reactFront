@@ -5,9 +5,7 @@ function Search() {
   console.log(search);
 
   return (
-    <div className=" flex justify-center bg-black fixed top-36 right-20 ">
-     
-    </div>
+    <div className=" flex justify-center bg-black fixed top-36 right-20 "></div>
   );
 }
 
