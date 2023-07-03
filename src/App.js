@@ -1,4 +1,5 @@
 import { Routes, Switch, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
 import Hero from './components/HomePage/Hero';
 import WebDevelopment from './components/InnerPages/Services/Web/WebDevelopment';
 import MobileDevelopment from './components/InnerPages/Services/Mobile/MobileDevelopment';
@@ -51,8 +52,6 @@ import SchoolERP from './components/Solution/School/SchoolERP';
 import ECommerse from './components/Solution/E-Commerse/E-Commerse';
 import CaseStudyByOne from './components/CaseStudy/CaseStudyByOne';
 import Search from './search';
-import { Fragment, useEffect } from 'react';
-import { useState } from 'react';
 import Softwaredevelopment from './components/InnerPages/Services/SoftwareDevelopment/Softwaredevelopment';
 import CurrentOpningGetbyOne from './components/InnerPages/Company/CurrentOpening/CurrentOpningGetbyOne';
 import 'slick-carousel/slick/slick.css';
@@ -68,19 +67,13 @@ function App() {
     damping: 30,
     restDelta: 0.001,
   });
-  // dark mood functions start
-  // const [theme, setTheme] = useState('light');
-  // useEffect(() => {
-  //   if (theme === 'dark') {
-  //     document.documentElement.classList.add('dark');
-  //   } else {
-  //     document.documentElement.classList.remove('dark');
+  // jab hme code push karna hota hai server
+  //  tab ise uncomment  karna padega 
+  //  useEffect(() => {
+  //   if (window.location.protocol === 'http:') {
+  //     window.location.href = `https://${window.location.hostname}${window.location.pathname}`;
   //   }
-  // }, [theme]);
-  // const handlecolor = () => {
-  //   setTheme(theme === 'dark' ? 'light' : 'dark');
-  // };
-  // dark mood functions end
+  // }, []);
   document.addEventListener('contextmenu', handelRightClick);
   return (
     <>
