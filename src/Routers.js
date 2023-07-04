@@ -1,3 +1,4 @@
+import React from 'react'
 import { Routes, Switch, Route } from 'react-router-dom';
 import Hero from './components/HomePage/Hero';
 import WebDevelopment from './components/InnerPages/Services/Web/WebDevelopment';
@@ -17,7 +18,7 @@ import TrainingAndDevelopment from './components/InnerPages/Company/TrainingAndD
 import LifeCerbosys from './components/InnerPages/Company/LifeCerbosys/LifeCerbosys';
 import FreeQuote from './components/Common/Component/FreeQuote';
 import Testimonial from './components/InnerPages/Company/Testimonial/Testimonial';
-import { ScrollToTop } from '../src/components/Common/Component/ScrollToTop';
+import { ScrollToTop } from './components/Common/Component/ScrollToTop';
 import Agriculture from './components/InnerPages/Industries/Agriculture/Agriculture';
 import Banking from './components/InnerPages/Industries/Banking/Banking';
 import Ecommerce from './components/InnerPages/Industries/Ecommerce/Ecommerce';
@@ -29,7 +30,7 @@ import RealEstate from './components/InnerPages/Industries/RealEstate/RealEstate
 import Manufacturing from './components/InnerPages/Industries/Manufacuring/Manufacturing';
 import DotNet from './components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/.Net/DotNet';
 import Android from './components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Android/Android';
-import { handelRightClick } from '../src/components/Common/utils/Desbalrightclick';
+import { handelRightClick } from './components/Common/utils/Desbalrightclick';
 import CaseStudy from './components/CaseStudy/CaseStudy';
 import Angular from './components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/Angular/Angular';
 import CodeIgniter from './components/InnerPages/Services/Staff Augmentation/StaffAug InnerPages/CodeIgniter/CodeIgniter';
@@ -51,46 +52,17 @@ import SchoolERP from './components/Solution/School/SchoolERP';
 import ECommerse from './components/Solution/E-Commerse/E-Commerse';
 import CaseStudyByOne from './components/CaseStudy/CaseStudyByOne';
 import Search from './search';
-import { Fragment, useEffect } from 'react';
-import { useState } from 'react';
 import Softwaredevelopment from './components/InnerPages/Services/SoftwareDevelopment/Softwaredevelopment';
 import CurrentOpningGetbyOne from './components/InnerPages/Company/CurrentOpening/CurrentOpningGetbyOne';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Portfolio from './components/protfolio/Portfolio';
 import NotFound from './components/Common/Component/NotFound';
-import Servicethankyou from './components/Common/Component/Thankyou/Servicethankyou';
-import { motion, useScroll, useSpring } from 'framer-motion';
-function App() {
-  const { scrollYProgress } = useScroll();
-  const scaleX = useSpring(scrollYProgress, {
-    stiffness: 100,
-    damping: 30,
-    restDelta: 0.001,
-  });
-  // dark mood functions start
-  // const [theme, setTheme] = useState('light');
-  // useEffect(() => {
-  //   if (theme === 'dark') {
-  //     document.documentElement.classList.add('dark');
-  //   } else {
-  //     document.documentElement.classList.remove('dark');
-  //   }
-  // }, [theme]);
-  // const handlecolor = () => {
-  //   setTheme(theme === 'dark' ? 'light' : 'dark');
-  // };
-  // dark mood functions end
-  document.addEventListener('contextmenu', handelRightClick);
+const Routers = () => {
   return (
-    <>
-      <div className="selection:bg-Green selection:text-white">
-        
-        <Navbar></Navbar>
-
-        <FreeQuote />
-        <Search />
-        <Routes>
+    <div>
+    
+    <Routes>
           <Route exact path="/" element={<Hero />} />
           {/* Company Navbar start */}
           <Route exact path="/overview" element={<Overview />} />
@@ -186,12 +158,9 @@ function App() {
           <Route exact path="/solution/E-Commerse" element={<ECommerse />} />
           <Route exact path="*" element={<NotFound />} />
         </Routes>
-
-        <Footer />
-      </div>
-      <ScrollToTop />
-    </>
-  );
+    
+    </div>
+  )
 }
 
-export default App;
+export default Routers;
