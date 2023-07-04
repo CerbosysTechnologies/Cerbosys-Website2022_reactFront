@@ -220,14 +220,16 @@ const ServiceHomePage = () => {
                   </p>
                 </div>
               </Link>
-              <div className="md:col-span-2 col-span-1">
+           
+            </div>
+            
+            <div className="md:col-span-2 col-span-1 flex justify-center">
                 <img
                   src={quoteicon}
                   className="md:mx-16 md:w-[40rem] md:h-96 mb-10 -mt-10"
                   alt="Quote"
                 ></img>
               </div>
-            </div>
           </div>
           {/* Header Part Finish*/}
 
