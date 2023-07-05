@@ -35,6 +35,7 @@
     "react-router-sitemap": "^1.2.0",
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
+    "react-snap": "^1.23.0",
     "react-text-transition": "^3.0.2",
     "react-toastify": "^9.0.8",
     "react-typewriter-effect": "^1.1.0",
@@ -54,7 +55,8 @@
     "start": "react-scripts start",
     "build": "cross-env GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postbuild": "react-snap"
   },
   "eslintConfig": {
     "extends": [
