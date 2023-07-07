@@ -60,9 +60,8 @@ import Portfolio from './components/protfolio/Portfolio';
 import NotFound from './components/Common/Component/NotFound';
 const Routers = () => {
   return (
-    <div>
-    
-    <Routes>
+    <div> 
+        <Routes>
           <Route exact path="/" element={<Hero />} />
           {/* Company Navbar start */}
           <Route exact path="/overview" element={<Overview />} />
