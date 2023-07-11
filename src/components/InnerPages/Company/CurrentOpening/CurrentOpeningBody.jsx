@@ -78,7 +78,7 @@ const CurrentOpeningBody = () => {
                           <div className="h-30 w-70">
                             {/* \object-scale-down */}
                             <img
-                              className="h-28 w-full "
+                              className=" w-full object-contain "
                               src={IMG + `${item.job_icon.substr(18)}`}
                               alt="img"
                             />

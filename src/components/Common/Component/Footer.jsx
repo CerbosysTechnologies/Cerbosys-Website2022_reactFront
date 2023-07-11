@@ -1,20 +1,21 @@
-import React, { useState } from 'react';
-import callicon from '../../../assets/footer/Whatsapp_icon.svg';
-import emailicon from '../../../assets/footer//FooterEmail.svg';
-import fbcon from '../../../assets/footer/Facebook.svg';
-import instagramicon from '../../../assets/footer/Instagram.svg';
-import linkedinicon from '../../../assets/footer/Linkdin_footer.svg';
-import locationicon from '../../../assets/footer/FooterLoction.svg';
-import twittericon from '../../../assets/footer/Twittter.svg';
-import whatsappicon from '../../../assets/footer/FoterColl.svg';
-import youtubeicon from '../../../assets/footer/Youtube.svg';
-import Whats from '../../../assets/footer/Whatsp.svg';
-import footerlogo from '../../../assets/footer/FooterLogosCer.svg';
-import { Link } from 'react-router-dom';
-import MovingComponent from 'react-moving-text';
+import React, { useState } from "react";
+import callicon from "../../../assets/footer/Whatsapp_icon.svg";
+import emailicon from "../../../assets/footer//FooterEmail.svg";
+import fbcon from "../../../assets/footer/Facebook.svg";
+import instagramicon from "../../../assets/footer/Instagram.svg";
+import linkedinicon from "../../../assets/footer/Linkdin_footer.svg";
+import locationicon from "../../../assets/footer/FooterLoction.svg";
+import twittericon from "../../../assets/footer/Twittter.svg";
+import whatsappicon from "../../../assets/footer/FoterColl.svg";
+import youtubeicon from "../../../assets/footer/Youtube.svg";
+import pinterest from "../../../assets/footer/pinterest.svg";
+import Whats from "../../../assets/footer/Whatsp.svg";
+import footerlogo from "../../../assets/footer/FooterLogosCer.svg";
+import { Link } from "react-router-dom";
+import MovingComponent from "react-moving-text";
 const Footer = () => {
   // animation start
-  const AnimationsForChaining = ['unfold'];
+  const AnimationsForChaining = ["unfold"];
   const [animationIndex, setAnimationIndex] = useState(0);
   const [animationType, setAnimationType] = useState(AnimationsForChaining[0]);
 
@@ -31,7 +32,6 @@ const Footer = () => {
       <div className="bg-FooterBackground w-full h-full mx-auto px-5 py-2  md:px-20 md:py-4">
         <div className="max-w-[1240px] mx-auto">
           <div className="">
-            
             {/* First Col Ends */}
             <div className="md:col-span-2 col-span-1 flex-col-reverse  flex  md:flex-row  md:justify-around md:items-center items-center md:m-2 md:mt-5 md:gap-20 mt-3 gap-10  ">
               <div className="text-white flex font-heading uppercase  sm:mb-3 mb-0 sm:text-2xl lg:text-2xl xl:text-3xl  w-full ">
@@ -43,11 +43,10 @@ const Footer = () => {
                   fillMode="forwards"
                   iteration={1}
                 >
-                  
                   "Enabling Business Make Business"
                 </MovingComponent>
                 {/* " Enabling Business Make Business " */}
-              </div>{' '}
+              </div>{" "}
               <div className="flex">
                 <img
                   src={footerlogo}
@@ -62,7 +61,6 @@ const Footer = () => {
               md:justify-between 
             md:m-3 md:mt-5  mt-3 "
             >
-              
               {/* Second Column */}
               <div className="">
                 <h6 className="font-heading text-sm md:text-lg text-white uppercase mb-3 md:px-0 max-w-fit">
@@ -76,14 +74,9 @@ const Footer = () => {
                     <Link to="/">Home</Link>
                   </li>
                   <li className="">
-                    <Link
-                      to="/Portfolio"
-                      
-                    >
-                      Portfolio
-                    </Link>
+                    <Link to="/Portfolio">Portfolio</Link>
                   </li>
-                 
+
                   <li className="">
                     <Link to="/contact-us">Contact Us</Link>
                   </li>
@@ -120,7 +113,7 @@ const Footer = () => {
                       Training and development
                     </Link>
                   </li>
-                 
+
                   <li className="">
                     <Link to="/team">Team</Link>
                   </li>
@@ -154,7 +147,7 @@ const Footer = () => {
                   </li>
                   <li className="">
                     <Link to="/software-development">
-                      {' '}
+                      {" "}
                       Software Development
                     </Link>
                   </li>
@@ -218,11 +211,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li className="flex">
-                    <Link
-                      to="/education"
-                    >
-                      Education
-                    </Link>
+                    <Link to="/education">Education</Link>
                   </li>
                   <li className="">
                     <Link to="/real-estate">Real Estate And Construction</Link>
@@ -287,7 +276,7 @@ const Footer = () => {
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6189.1755057021!2d75.91503248981599!3d22.72430959344143!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39630396f8f29591%3A0x89941c1df2cc0c2e!2sCerbosys%20Technologies%20%7C%20Mobile%20%26%20Web%20App%20Development%2C%20Digital%20Marketing%20%26%20Staff%20Augmentation%20Company!5e0!3m2!1sen!2sin!4v1678970684347!5m2!1sen!2sin"
                     width="400"
                     height="100"
-                    style={{ border: '20px' }}
+                    style={{ border: "20px" }}
                     allowfullscreen=""
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"
@@ -302,8 +291,6 @@ const Footer = () => {
             {/* Main div of inside */}
           </div>
           {/* Grid Div Ends */}
-
-        
 
           {/* Social Icons Div */}
           <div className="flex flex-row items-center justify-center mt-20 gap-2 mb-4">
@@ -351,11 +338,29 @@ const Footer = () => {
                 className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
               />
             </a>
-            <img
-              src={youtubeicon}
-              alt="Facebook Icon"
-              className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
-            />
+            <a
+              href="https://in.pinterest.com/CerbosysTechnologies"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={pinterest}
+                alt="whatsp Icon"
+                className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/@cerbosys"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={youtubeicon}
+                alt="Facebook Icon"
+                className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
+              />
+            </a>
+
             <a
               href="https://wa.me/9826906988"
               target="_blank"
@@ -367,6 +372,7 @@ const Footer = () => {
                 className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
               />
             </a>
+            
           </div>
 
           {/* Social Icons Div Ends*/}

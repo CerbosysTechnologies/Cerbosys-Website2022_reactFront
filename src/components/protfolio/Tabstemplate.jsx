@@ -41,7 +41,7 @@ const Tabstemplate = () => {
         <div className="flex justify-between flex-col md:flex-row content-center items-center mt-12 gap-6 text-white">
           <div className="md:w-[50%] w-[100%]">
             <div className="shadow mx-auto  flex justify-center items-center py-2 md:h-[24rem]">
-              <a href="hhttps://agriculture.cerbosys.com/order-food-online" target='_blank'  rel='noreferrer'>
+              <a href="https://agriculture.cerbosys.com/order-food-online" target='_blank'  rel='noreferrer'>
               <img
                 src={food}
                 alt="djhfj"

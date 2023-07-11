@@ -58,6 +58,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Portfolio from './components/protfolio/Portfolio';
 import NotFound from './components/Common/Component/NotFound';
+import FreeEnquiry from './components/Common/Component/FreeEnquiry';
 const Routers = () => {
   return (
     <div> 
@@ -122,6 +123,7 @@ const Routers = () => {
           {/* StaffAugmentation END */}
           {/* contact-us start */}
           <Route exact path="/contact-us" element={<ContactUs />} />
+          <Route exact path="/free-enquiry" element={<FreeEnquiry />} />
           {/* contact-us End */}
           <Route exact path="/current-opening" element={<CurrentOpening />} />
           <Route
