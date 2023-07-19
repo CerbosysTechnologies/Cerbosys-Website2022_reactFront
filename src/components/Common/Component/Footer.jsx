@@ -266,6 +266,24 @@ const Footer = () => {
                     +91 88-3969-7183
                   </span>
                 </div>
+                <div className="flex flex-row mb-5 md:w-64 w-64">
+                  <img
+                    src={locationicon}
+                    alt="Location Icon"
+                    className="mr-3"
+                  ></img>
+                  <span className="font-subheading text-sm text-white">
+                    19 Brean Close, Sully, Penarth, United Kingdom, CF64 5TS, GB
+                    UK
+
+                  </span>
+                </div>
+                <div className="flex flex-row mb-5 w-72">
+                  <img src={callicon} alt="Call Icon" className="mr-3"></img>
+                  <span className="font-subheading text-sm text-white">
+                    +44 7424152621
+                  </span>
+                </div>
 
                 <div className="flex flex-row mb-5">
                   <img src={emailicon} alt="Email Icon" className="mr-3"></img>
@@ -273,7 +291,7 @@ const Footer = () => {
                     info@cerbosys.com
                   </span>
                 </div>
-                <div>
+                {/* <div>
                   <iframe
                     className="border rounded-lg w-[100%] md:w-[90%]"
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6189.1755057021!2d75.91503248981599!3d22.72430959344143!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39630396f8f29591%3A0x89941c1df2cc0c2e!2sCerbosys%20Technologies%20%7C%20Mobile%20%26%20Web%20App%20Development%2C%20Digital%20Marketing%20%26%20Staff%20Augmentation%20Company!5e0!3m2!1sen!2sin!4v1678970684347!5m2!1sen!2sin"
@@ -284,7 +302,7 @@ const Footer = () => {
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"
                   ></iframe>
-                </div>
+                </div> */}
                 <br />
                 <br></br>
               </div>
@@ -375,7 +393,7 @@ const Footer = () => {
                 className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
               />
             </a>
-            
+
           </div>
 
           {/* Social Icons Div Ends*/}

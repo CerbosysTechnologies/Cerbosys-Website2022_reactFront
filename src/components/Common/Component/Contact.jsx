@@ -127,8 +127,8 @@ const Contact = () => {
               required
               value={username}
               onChange={onchangeFullName}
-              // onChange={(e) => setUsername(e.target.value)}
-              // value={username}
+            // onChange={(e) => setUsername(e.target.value)}
+            // value={username}
             />
             {errorsNa && (
               <div className="text-left text-red-500">{errorsname}</div>
@@ -153,7 +153,7 @@ const Contact = () => {
           </div>
           {/* Email Div Ends*/}
 
-          
+
 
           {/* Contact Number Div */}
           <div className=" mb-6 md:w-full group">

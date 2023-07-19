@@ -12,9 +12,9 @@ import Bounce from 'react-reveal/Bounce';
 import { Helmet } from 'react-helmet';
 import Roll from 'react-reveal/Roll';
 const Hero = () => {
-  
-    /* animation for buthhon logic start */
-  
+
+  /* animation for buthhon logic start */
+
   const AnimationsForChaining = ['bounce'];
   const [animationIndex, setAnimationIndex] = useState(0);
   const [animationType, setAnimationType] = useState(AnimationsForChaining[0]);
@@ -22,14 +22,16 @@ const Hero = () => {
     setAnimationIndex(animationIndex + 1);
     setAnimationType([animationIndex + 1]);
   };
-  
-    /* animation for buthhon logic end */
-  
+
+  /* animation for buthhon logic end */
+
   return (
     <>
       <Helmet>
         <title>
-          Web Design & Mobile App Development Company Indore, UK| Cerbosys
+          {/* Web Design & Mobile App Development Company Indore, UK| Cerbosys */}
+          Web Development Company | Mobile App Services | India & UK
+
         </title>
         <meta
           name="keywords"
@@ -37,25 +39,27 @@ const Hero = () => {
         />
         <meta
           name="description"
-          content="Looking for Best IT solutions Company? We offer a wide range of services, including Ecommerce  development, Web &Mobile App Development, Digital Marketing etc."
+          // content="Looking for Best IT solutions Company? We offer a wide range of services, including Ecommerce  development, Web &Mobile App Development, Digital Marketing etc."
+          content="Are you looking for the Best Web Development Company? Get top-notch Ecommerce Web & Mobile App development solutions tailored to your needs.  
+          "
         />
       </Helmet>
 
       {/* <Navbar /> */}
-      <div className="mx-auto w-full md:h-screen h-full py-16 px-4 bg-Hero bg-cover md:bg-top bg-center">
+      <div className="mx-auto w-full md:h-screen h-full py-16 px-4 bg-Hero bg-cover md:bg-top bg-center" title="Trusted Web Development Company " >
         {/* Content Section */}
         <div className="flex flex-col justify-center text-center items-center h-3/4 mx-auto">
-          {/* Home Contet Animation start */}
-       
-          <p className="text-white text-center font-heading py-3 md:text-6xl text-xl  mb-8 md:mt-2 mt-24 min-w-fit">
+          {/*font-heading Home Contet Animation start */}
+
+          <p className="text-white text-center py-3 md:text-6xl text-xl  mb-8 md:mt-2 mt-24 min-w-fit">
             {/* The Ideal Web and Mobile Solutions for your emerging business- You’re just one click away!! */}
-            <span className=" whitespace-nowrap text-white text-center font-heading py-3 md:text-5xl text-xl   mb-8 md:mt-2 mt-24">
+            <span className=" whitespace-nowrap text-white text-center font-heading  py-3 md:text-4xl text-xl   mb-8 md:mt-2 mt-24">
               WE WORK FOR
               <TypeWriter
                 textStyle={{
                   color: '#0F52BA',
                   // fontSize: "heading",
-                  fontSize: '1.5em',
+                  //  fontSize: '1em',
                   textAlign: 'center',
                 }}
                 startDelay={2000}
@@ -83,7 +87,7 @@ const Hero = () => {
             </span>
           </p>
           {/* Home Contet Animation End */}
-         
+
           {/* animation for buthhon start */}
           <Link to="/Contact-us">
             <button
@@ -117,7 +121,7 @@ const Hero = () => {
                 <div> &nbsp;your business growth </div>
               </Roll>
             </div>
-           
+
           </p>
         </div>
         {/* Content Section Ends*/}

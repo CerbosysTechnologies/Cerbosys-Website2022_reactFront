@@ -26,9 +26,7 @@ const IndustriesHomePage = () => {
               Our Industries
             </h2>
             <div className="text-white font-content  text-justify">
-              Cerbosys has successfully managed to win the trust and hold hands
-              with clients in several emerging business sectors across the
-              country which include:-
+            Cerbosys, a trusted global web development company, has successfully earned the trust and formed strong partnerships with clients in various emerging business sectors worldwide, which include: -
               <ul className="font-content  list-disc">
                 <li>Agriculture</li>
                 <li>Ecommerce And Retail</li>

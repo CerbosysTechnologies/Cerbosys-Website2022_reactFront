@@ -11,9 +11,10 @@ const ClientLogoPage = () => {
             <h2 className="text-black font-heading md:text-xl text-lg uppercase mb-5">
               Our Clients
             </h2>
-            <h2 className="font-heading md:text-2xl text-lg text-gray-800 mb-5  text-justify">
-              Trusted by 150+ clients
-            </h2>
+            <h1 className="font-heading md:text-2xl text-lg text-gray-800 mb-5  text-justify">
+              Trusted Web Development Company & Mobile App Services for 150+ Clients
+
+            </h1>
             <div className="text-black font-content  md:text-left md:items-center md:w-[500px] md:whitespace-pre-wrap ">
               With more than four years of working experience, Cerbosys has
               successfully managed to handle several clients by providing them
