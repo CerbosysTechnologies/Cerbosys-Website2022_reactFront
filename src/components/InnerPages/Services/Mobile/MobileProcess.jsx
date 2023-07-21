@@ -37,7 +37,8 @@ const MobileProcess = () => {
             <Flip duration={3000}>
               <img
                 src={oneicon}
-                alt="Icon One"
+                alt="Mobile App Development Services"
+                // alt="Icon One"
                 className="md:w-[80px] md:h-[80px] w-[50px] h-[50px] mx-auto"
               />
             </Flip>
@@ -45,7 +46,7 @@ const MobileProcess = () => {
           <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-0 justify-center">
             <img
               src={processicon1}
-              alt="Process Icon 1"
+              alt="Mobile App Development Services"
               className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem] mx-auto mt-3"
             />
             <div className="mx-auto flex flex-col text-justify mt-3">
@@ -75,7 +76,7 @@ const MobileProcess = () => {
               {' '}
               <img
                 src={twoicon}
-                alt="Icon Two"
+                alt="Mobile App Development Services"
                 className="md:w-[80px] md:h-[80px] w-[50px] h-[50px] mx-auto"
               />
             </Flip>
@@ -94,7 +95,7 @@ const MobileProcess = () => {
             </div>
             <img
               src={processicon2}
-              alt="Process Icon 2"
+              alt="Mobile App Development Services"
               className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem] mx-auto"
             />
           </div>
@@ -108,7 +109,7 @@ const MobileProcess = () => {
               {' '}
               <img
                 src={threeicon}
-                alt="Icon Three"
+                alt="Mobile App Development Services"
                 className="md:w-[80px] md:h-[80px] w-[50px] h-[50px] mx-auto"
               />
             </Flip>
@@ -116,7 +117,7 @@ const MobileProcess = () => {
           <div className="grid md:grid-cols-2 mt-10 gap-1 md:px-28 px-0 justify-center">
             <img
               src={processicon3}
-              alt="Process Icon 3"
+              alt="Mobile App Development Services"
               className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem] mx-auto"
             />
             <div className="mx-auto flex flex-col text-justify">
@@ -140,7 +141,7 @@ const MobileProcess = () => {
               {' '}
               <img
                 src={fouricon}
-                alt="Icon Four"
+                alt="Mobile App Development Services"
                 className="md:w-[80px] md:h-[80px] w-[50px] h-[50px] mx-auto"
               />
             </Flip>
@@ -161,7 +162,7 @@ const MobileProcess = () => {
             </div>
             <img
               src={processicon4}
-              alt="Process Icon 4"
+              alt="Mobile App Development Services"
               className="md:w-[27rem] md:h-[22rem] w-[14rem] h-[14rem] mx-auto"
             />
           </div>

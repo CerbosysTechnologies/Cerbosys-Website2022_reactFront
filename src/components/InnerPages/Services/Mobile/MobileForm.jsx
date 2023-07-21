@@ -35,7 +35,7 @@ const MobileForm = ({ onChangeSelected }) => {
               <div className="mx-auto items-center justify-center ">
                 <img
                   src={!imgName ? mobileservice_technologyicon : imgName}
-                  alt=""
+                  alt="Mobile App Development Services"
                   className="h-full"
                 ></img>
               </div>

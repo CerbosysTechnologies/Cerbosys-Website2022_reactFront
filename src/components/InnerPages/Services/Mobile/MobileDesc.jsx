@@ -30,7 +30,7 @@ const MobileDesc = () => {
               {/* Image Section */}
               <img
                 src={mobileserviceicon}
-                alt="Mobile Service Icon"
+                alt="Mobile App Development Services"
                 className="mx-auto md:w-[28rem]
              w-[18rem] mt-4"
               />
@@ -46,7 +46,7 @@ const MobileDesc = () => {
               {/* Image Section */}
               <img
                 src={mobileservice_articon}
-                alt="Mobile Service Icon"
+                alt="Mobile App Development Services"
                 className="p-2 w-full mx-auto"
                 // className="md:w-[24rem] mx-auto my-8
                 //  w-[18rem] mt-8"
@@ -81,7 +81,7 @@ const MobileDesc = () => {
           <div className="flex flex-row flex-wrap items-center gap-8 mt-16 md:mt-36 mx-auto">
             <img
               src={mobiletechnologyicon}
-              alt="Technology Icon"
+              alt="Mobile App Development Services"
               className=""
             />
           </div>

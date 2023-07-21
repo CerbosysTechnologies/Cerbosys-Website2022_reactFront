@@ -20,7 +20,7 @@ const MobileDiagram = () => {
             {/* Image */}
             <img
               src={mobileservicelogo}
-              alt="Mobile Service Logo"
+              alt="Mobile App Development Services"
               className="md:w-[42rem] mt-10 w-80"
             />
             {/* Image Ends */}

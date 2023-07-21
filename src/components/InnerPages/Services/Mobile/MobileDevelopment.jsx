@@ -14,7 +14,8 @@ const MobileDevelopment = () => {
       <>
         <Helmet>
           <title>
-            Best Mobile App Development Company | Android and iOS Apps
+            Mobile App Development Services Android & iOS  | Cerbosys
+            {/* Best Mobile App Development Company | Android and iOS Apps */}
           </title>
           <meta
             name="keywords"
@@ -22,11 +23,11 @@ const MobileDevelopment = () => {
           />
           <meta
             name="description"
-            content="Need mobile app development services in Indore? Cerbosys is a creative mobile application development company offering Android and iOS App Development services"
+            content="Reliable mobile app development for Android, iOS. Expert team, all tech platforms. Native & hybrid app development. Unleash your app's potential now!"
           />
         </Helmet>
 
-  
+
         <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[30rem] h-96 mx-auto">

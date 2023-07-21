@@ -28,11 +28,14 @@ const Hero = () => {
   return (
     <>
       <Helmet>
-        <title>
-          {/* Web Design & Mobile App Development Company Indore, UK| Cerbosys */}
+        {/* Web Design & Mobile App Development Company Indore, UK| Cerbosys */}
+        <title> 
+
           Web Development Company | Mobile App Services | India & UK
 
         </title>
+        {/* <title>{pageTitle}</title>
+        <link rel="canonical" href={pageURL} /> */}
         <meta
           name="keywords"
           content="mobile app development, mobile app development services, website designing company in india, web development services, best app development company in uk, web app development company in uk, ecommerce website development, best digital marketing services company in india, digital marketing services for startups, b2b lead generation and appointment setting services, android mobile ui ux development company, staff augmentation"

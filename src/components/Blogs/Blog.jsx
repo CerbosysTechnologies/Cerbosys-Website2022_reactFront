@@ -7,6 +7,7 @@ function Blog() {
     <>
       <Helmet>
         <title>Blog | Cerbosys</title>
+        <link rel="canonical" href="https://cerbosys.com/blog" />
         <meta
           name="keywords"
           content="blog, cerbosys, development experience, customer engagement blogs, web development technologies, web development trends"
