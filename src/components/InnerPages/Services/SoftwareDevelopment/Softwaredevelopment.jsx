@@ -20,6 +20,10 @@ function Softwaredevelopment() {
           name="description"
           content="Cerbosys provides high-quality custom software development services in indore for Enterprise requirements"
         />
+        <link
+          rel="canonical"
+          href="https://cerbosys.com/software-development"
+        />
       </Helmet>
       <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">
         {/* Content Section */}
@@ -45,10 +49,10 @@ function Softwaredevelopment() {
         {/* Content Section Ends*/}
       </div>
       <div className="selection:bg-Green selection:text-white">
-      <Investment />
-      <ServiceDescSD />
-      <ServiceProSD />
-      <SoftwareDForm />
+        <Investment />
+        <ServiceDescSD />
+        <ServiceProSD />
+        <SoftwareDForm />
       </div>
     </div>
   );

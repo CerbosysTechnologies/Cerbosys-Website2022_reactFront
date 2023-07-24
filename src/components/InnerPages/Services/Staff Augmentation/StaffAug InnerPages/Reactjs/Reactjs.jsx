@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 import ReactjsBody from './ReactjsBody';
 import ReactjsForm from './ReactjsForm';
 import { Helmet } from 'react-helmet';
@@ -19,9 +18,12 @@ const Reactjs = () => {
             name="description"
             content="Hire ReactJS developers on flexible hiring models. Our highly-skilled ReactJS Developers have the ability to build your business."
           />
+          <link
+            rel="canonical"
+            href="https://cerbosys.com/hire-react-js-developer"
+          />
         </Helmet>
 
-   
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-ReactjsHeader bg-cover md:bg-top bg-center">
           {/* Content Section */}
           <div className="flex flex-col justify-center text-center items-center md:h-[35rem] h-96 mx-auto">
@@ -39,7 +41,6 @@ const Reactjs = () => {
       </>
       <ReactjsBody />
       <ReactjsForm />
-     
     </div>
   );
 };

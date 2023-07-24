@@ -25,6 +25,8 @@ const MobileDevelopment = () => {
             name="description"
             content="Reliable mobile app development for Android, iOS. Expert team, all tech platforms. Native & hybrid app development. Unleash your app's potential now!"
           />
+          <link rel="canonical" href="https://cerbosys.com/mobile-app-development" />
+
         </Helmet>
 
 

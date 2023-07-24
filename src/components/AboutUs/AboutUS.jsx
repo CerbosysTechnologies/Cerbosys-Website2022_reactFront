@@ -1,8 +1,16 @@
 import React from 'react';
 import AboutUSBody from './AboutUSBody';
+import { Helmet } from 'react-helmet';
 function AboutUS() {
   return (
     <>
+      <Helmet>
+        <title>About us</title>
+        <meta name="keywords" content="About use" />
+        <meta name="description" content="About us" />
+        <link rel="canonical" href="https://cerbosys.com/about-us" />
+      </Helmet>
+      
       <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-Aboutus bg-cover md:bg-top bg-center">
         {/* Content Section */}
         <div className="flex flex-col justify-center text-center items-center md:h-[35rem] h-96 mx-auto">

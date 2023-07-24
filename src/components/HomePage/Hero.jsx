@@ -12,7 +12,6 @@ import Bounce from 'react-reveal/Bounce';
 import { Helmet } from 'react-helmet';
 import Roll from 'react-reveal/Roll';
 const Hero = () => {
-
   /* animation for buthhon logic start */
 
   const AnimationsForChaining = ['bounce'];
@@ -28,28 +27,26 @@ const Hero = () => {
   return (
     <>
       <Helmet>
-        {/* Web Design & Mobile App Development Company Indore, UK| Cerbosys */}
-        <title> 
-
+        <title>
           Web Development Company | Mobile App Services | India & UK
-
         </title>
-        {/* <title>{pageTitle}</title>
-        <link rel="canonical" href={pageURL} /> */}
+
         <meta
           name="keywords"
           content="mobile app development, mobile app development services, website designing company in india, web development services, best app development company in uk, web app development company in uk, ecommerce website development, best digital marketing services company in india, digital marketing services for startups, b2b lead generation and appointment setting services, android mobile ui ux development company, staff augmentation"
         />
         <meta
           name="description"
-          // content="Looking for Best IT solutions Company? We offer a wide range of services, including Ecommerce  development, Web &Mobile App Development, Digital Marketing etc."
-          content="Are you looking for the Best Web Development Company? Get top-notch Ecommerce Web & Mobile App development solutions tailored to your needs.  
-          "
+          content="Are you looking for the Best Web Development Company? Get top-notch Ecommerce Web & Mobile App development solutions tailored to your needs"
         />
+        <link rel="canonical" href="https://cerbosys.com" />
       </Helmet>
 
       {/* <Navbar /> */}
-      <div className="mx-auto w-full md:h-screen h-full py-16 px-4 bg-Hero bg-cover md:bg-top bg-center" title="Trusted Web Development Company " >
+      <div
+        className="mx-auto w-full md:h-screen h-full py-16 px-4 bg-Hero bg-cover md:bg-top bg-center"
+        title="Trusted Web Development Company "
+      >
         {/* Content Section */}
         <div className="flex flex-col justify-center text-center items-center h-3/4 mx-auto">
           {/*font-heading Home Contet Animation start */}
@@ -124,7 +121,6 @@ const Hero = () => {
                 <div> &nbsp;your business growth </div>
               </Roll>
             </div>
-
           </p>
         </div>
         {/* Content Section Ends*/}

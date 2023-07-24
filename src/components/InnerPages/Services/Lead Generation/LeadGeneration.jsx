@@ -20,6 +20,8 @@ const LeadGeneration = () => {
             name="description"
             content="We offer a wide array of key cold-calling lead-generation services that are scalable and customizable. Generate more qualified leads with our cold-calling services"
           />
+          <link rel="canonical" href="https://cerbosys.com/lead-generation" />
+
         </Helmet>
   
         <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[30rem] h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">

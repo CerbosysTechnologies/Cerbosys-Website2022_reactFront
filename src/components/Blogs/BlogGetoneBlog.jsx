@@ -6,6 +6,7 @@ import { Pagination } from 'swiper';
 import { Autoplay } from 'swiper';
 import axios from 'axios';
 import parser from 'html-react-parser';
+import { Helmet } from 'react-helmet';
 function BlogGetoneBlog() {
   const { id } = useParams();
   console.log(id);
@@ -61,6 +62,7 @@ function BlogGetoneBlog() {
 
       setBlogmessage(res?.data?.data[i].blog_message);
       setBlogmessage(res?.data?.data[i].blog_message);
+      console.log(res?.data?.data[i].blog_message);
       setBlogimagesid(res?.data?.data[i].blogImg[i].blog_imagesid);
       setImage(res?.data?.data[i].blogImg[i].blog_images.substr(12));
       navigate(`/blog/${res?.data?.data[i].blog_title.replace(/\s/g, '-')}`);
@@ -68,7 +70,6 @@ function BlogGetoneBlog() {
         window.location();
       }, 1000);
     });
-
 
   // Get by id blog End
 
@@ -78,8 +79,26 @@ function BlogGetoneBlog() {
     navigate(path);
     window.location();
   };
+  // this is for the head tag satat
+  const canonicalURL = `https://cerbosys.com/${blogtitle}`;
+
+  // const message = { blogmessage };
+  // const parser = (message) => {
+  //   const doc = parser.parseFromString(message, 'text/html');
+  //   return doc.body.textContent;
+  // };
+
+  // const description = parser(blogmessage);
+  // this is for the head tag End
+
   return (
     <>
+      <Helmet>
+        <title>Blog||{blogtitle} </title>
+        {/* <meta name="description" content={description} /> */}
+        <link rel="canonical" href={canonicalURL} />
+      </Helmet>
+
       <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[38rem]  h-96 py-12 px-4 bg-Blogbg bg-cover md:bg-top bg-center">
         {/* heder Section */}
         <div className="flex flex-col justify-center text-center items-center md:h-[35rem] h-96 mx-auto">
@@ -95,7 +114,11 @@ function BlogGetoneBlog() {
           {blogtitle}
         </div>
         <div className="px-5 flex justify-center md:w-[500px ] md:h-[500px]">
-          <img src={IMAGE_URL + image} alt="Mobile App Development Services" className="object-contain" />
+          <img
+            src={IMAGE_URL + image}
+            alt="Mobile App Development Services"
+            className="object-contain"
+          />
         </div>
         <div className="font-content text-black  text-sm text-justify md:py-10 py-5 px-10 leading-5">
           {/* {blogmessage} */}
@@ -156,8 +179,6 @@ function BlogGetoneBlog() {
                     {/* <!--Card 1--> */}
                     <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl h-[100%]">
                       <div className="flex justify-center">
-
-
                         {item.blogImg.map((element) => {
                           let testimg = [];
                           let arr = element.blog_images;
@@ -179,7 +200,6 @@ function BlogGetoneBlog() {
                               />
                             );
                           }
-
                         })}
                       </div>
 

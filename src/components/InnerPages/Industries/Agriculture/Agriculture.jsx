@@ -21,6 +21,8 @@ const Agriculture = () => {
             content="Cerbosys provides agriculture software and app development services for start-ups to large business companies. Our domain specific services are customized and fine tuned according to the farmer’s perception.
 "
           />
+          <link rel="canonical" href="https://cerbosys.com/agriculture" />
+
         </Helmet>
 
        

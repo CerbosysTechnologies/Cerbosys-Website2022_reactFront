@@ -21,6 +21,8 @@ const Manufacturing = () => {
             name="description"
             content="Manufacturing industry IT solutions ready with our process & discrete manufacturing software services. Manufacturers can develop their social media profiles and deliver the latest company news or new product information to their clients"
           />
+          <link rel="canonical" href="https://cerbosys.com/manufacturing" />
+
         </Helmet>
         {/* <Navbar /> */}
         <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[36rem] bg-ManufacturingHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">

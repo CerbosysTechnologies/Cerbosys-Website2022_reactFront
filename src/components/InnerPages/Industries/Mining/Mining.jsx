@@ -21,6 +21,8 @@ const Mining = () => {
             name="description"
             content="Cerbosys tech provides an integrated & comprehensive suite of solutions for mining operations management has successfully to reconcile all key functions."
           />
+          <link rel="canonical" href="https://cerbosys.com/mining" />
+
         </Helmet>
         {/* <Navbar /> */}
         <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[36rem] bg-Miningbg h-96 py-12 px-4 bg-cover md:bg-top bg-center">

@@ -1,9 +1,16 @@
 import React from 'react';
 import SolutionBody from './SolutionBody';
+import { Helmet } from 'react-helmet';
 
 function Solution() {
   return (
     <>
+      <Helmet>
+        <title>Solution </title>
+        <meta name="keywords" content="Solution" />
+        <meta name="description" content="Solution" />
+        <link rel="canonical" href="https://cerbosys.com/solution" />
+      </Helmet>
       <div className="selection:bg-Green selection:text-white">
         <div className="mx-auto w-full md:h-[38rem]  h-96 py-12 px-4 bg-Solution bg-cover md:bg-top bg-center">
           {/* Content Section */}

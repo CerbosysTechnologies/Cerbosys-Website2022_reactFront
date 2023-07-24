@@ -16,6 +16,8 @@ const CaseStudy = () => {
             name="description"
             content="Download Cerbosys whitepapers - covering ecommerce develpment, digital marketing, ERP, mobile app"
           />
+        <link rel="canonical" href="https://cerbosys.com/whitepapers" />
+
         </Helmet>
         <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-CaseStudyHeader bg-cover md:bg-top bg-center">
           {/* Content Section */}

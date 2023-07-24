@@ -19,6 +19,8 @@ const Banking = () => {
           name="description"
           content="We work tirelessly to help you meet both banking compliance requirements and business goals. Leverage the power of PPC, SEO, Social, content & more."
         />
+          <link rel="canonical" href="https://cerbosys.com/banking-and-finance" />
+
       </Helmet>
       {/* <Navbar /> */}
       <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[36rem] bg-Bankingbg h-96 py-12 px-4 bg-cover md:bg-top bg-center">

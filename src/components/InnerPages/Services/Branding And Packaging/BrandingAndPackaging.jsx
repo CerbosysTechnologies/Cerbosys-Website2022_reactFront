@@ -20,6 +20,8 @@ const BrandingAndPackaging = () => {
             name="description"
             content="We provide brand packaging solutions with important services from brand packaging, logo designing, and brand designing"
           />
+          <link rel="canonical" href="https://cerbosys.com/branding-and-packaging" />
+
         </Helmet>
 
    

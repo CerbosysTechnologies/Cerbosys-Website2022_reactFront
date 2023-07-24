@@ -23,6 +23,7 @@ const WebDevelopment = () => {
             name="description"
             content="Cerbosys Technologies is a prominent web development company in Indore, offering enterprise-grade services all over the world. The three major web services involve Front-end web development, Back-end web development & Full-stack development"
           />
+          <link rel="canonical" href="https://cerbosys.com/web-development" />
         </Helmet>
 
         <div className=" mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">
@@ -50,7 +51,6 @@ const WebDevelopment = () => {
         <ServiceDiagram />
         <ServiceProcess />
         <ServiceForm />
-   
       </>
     </div>
   );

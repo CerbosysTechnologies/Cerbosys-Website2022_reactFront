@@ -20,6 +20,10 @@ const CodeIgniter = () => {
             name="description"
             content="Hire codeigniter developers on flexible hiring models. Our highly-skilled codeigniter Developers have the ability to build your business."
           />
+           <link
+            rel="canonical"
+            href="https://cerbosys.com/hire-codeIgniter-developer"
+          />
         </Helmet> 
 
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-ReactjsHeader bg-cover md:bg-top bg-center">

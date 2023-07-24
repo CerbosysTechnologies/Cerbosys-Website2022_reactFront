@@ -17,6 +17,7 @@ const Testimonial = () => {
             name="description"
             content="Check out Cerbosys' client testimonials, which show how we provided a competitive edge to our clients with quality services delivered ahead of schedule."
           />
+           <link rel="canonical" href="https://cerbosys.com/testimonial" />
         </Helmet>
 
         <div className="mx-auto w-full md:h-[40rem]  h-96 py-12 px-4 bg-TestimonialHeader bg-cover md:bg-top bg-center">
