@@ -45,14 +45,14 @@ const Recommendations = () => {
               <SwiperSlide>
                 <img
                   src={topfirmicon}
-                  alt=""
+                  alt="Mobile App Development Services"
                   className="md:w-72 md:h-72 mt-10 md:mx-4 px-2 w-80 h-80 md:mt-0 scale-100 hover:scale-125 ease-out duration-500"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
                   src={Entrepreneur}
-                  alt=""
+                  alt="Mobile App Development Services"
                   className="md:w-72 md:h-72 mt-10 md:mx-4 px-2 w-80 h-80 md:mt-0 scale-100 hover:scale-125 ease-out duration-500"
                 />
               </SwiperSlide>
@@ -63,7 +63,7 @@ const Recommendations = () => {
                 >
                   <img
                     src={goodfirmicon}
-                    alt=""
+                    alt="Mobile App Development Services"
                     className="md:w-72 md:h-72 mt-10 md:mx-4 px-2 w-80 h-80 md:mt-0 scale-100 hover:scale-125 ease-out duration-500"
                   />
                 </a>
@@ -75,7 +75,7 @@ const Recommendations = () => {
                 >
                   <img
                     src={clutchicon}
-                    alt=""
+                    alt="Mobile App Development Services"
                     className="md:w-72 md:h-72 mt-10 md:mx-4 px-2 w-80 h-80 md:mt-0 scale-100 hover:scale-125 ease-out duration-500"
                   />{' '}
                 </a>
@@ -87,7 +87,7 @@ const Recommendations = () => {
                 >
                   <img
                     src={appfuturaicon}
-                    alt=""
+                    alt="Mobile App Development Services"
                     className="md:w-72 md:h-72 mt-10 md:mx-4 px-2 w-80 h-80 md:mt-0 scale-100 hover:scale-125 ease-out duration-500"
                   />
                 </a>

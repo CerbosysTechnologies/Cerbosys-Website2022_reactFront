@@ -26,7 +26,7 @@ const IndustriesHomePage = () => {
               Our Industries
             </h2>
             <div className="text-white font-content  text-justify">
-            Cerbosys, a trusted global web development company, has successfully earned the trust and formed strong partnerships with clients in various emerging business sectors worldwide, which include: -
+              Cerbosys, a trusted global web development company, has successfully earned the trust and formed strong partnerships with clients in various emerging business sectors worldwide, which include:
               <ul className="font-content  list-disc">
                 <li>Agriculture</li>
                 <li>Ecommerce And Retail</li>
@@ -48,8 +48,8 @@ const IndustriesHomePage = () => {
                 <Link to="/agriculture">
                   <img
                     src={agricultureicon}
-                    alt="Agriculture Icon"
-                   
+                    alt="Mobile App Development Services"
+
                   ></img>
                 </Link>
               </div>
@@ -59,8 +59,8 @@ const IndustriesHomePage = () => {
               <Link to="/ecommerce-development-services">
                 <img
                   src={ecommerceicon}
-                  alt="E-commerce Icon"
-                 
+                  alt="Mobile App Development Services"
+
                 ></img>
               </Link>
             </div>
@@ -69,8 +69,8 @@ const IndustriesHomePage = () => {
               <Link to="/health-care">
                 <img
                   src={healthcareicon}
-                  alt="Healthcare Icon"
-                 
+                  alt="Mobile App Development Services"
+
                 ></img>
               </Link>
             </div>
@@ -78,8 +78,8 @@ const IndustriesHomePage = () => {
               <Link to="/banking-and-finance">
                 <img
                   src={bankingicon}
-                  alt="Banking Icon"
-                 
+                  alt="Mobile App Development Services"
+
                 ></img>
               </Link>
             </div>
@@ -88,19 +88,19 @@ const IndustriesHomePage = () => {
               <Link to="/mining">
                 <img
                   src={miningicon}
-                  alt="Mining Icon"
-                 
+                  alt="Mobile App Development Services"
+
                 ></img>
               </Link>
             </div>
             <Flip duration={4000}>
               <div>
-              <Link to="/health-care">
-                <img
-                  src={fitnessicon}
-                  alt="Fitness Icon"
-                 
-                ></img>
+                <Link to="/health-care">
+                  <img
+                    src={fitnessicon}
+                    alt="Mobile App Development Services"
+
+                  ></img>
                 </Link>
               </div>
             </Flip>
@@ -108,8 +108,8 @@ const IndustriesHomePage = () => {
               <Link to="/transport-and-logistics">
                 <img
                   src={transportationicon}
-                  alt="Transportation Icon"
-                 
+                  alt="Mobile App Development Services"
+
                 ></img>
               </Link>
             </div>
@@ -118,28 +118,28 @@ const IndustriesHomePage = () => {
               <Link to="/transport-and-logistics">
                 <img
                   src={logisticsicon}
-                  alt="Logistics Icon"
-                 
+                  alt="Mobile App Development Services"
+
                 ></img>
               </Link>
             </div>
 
             <div>
-            <Link to="/agriculture">
-              <img
-                src={foodicon}
-                alt="Food Icon"
+              <Link to="/agriculture">
+                <img
+                  src={foodicon}
+                  alt="Mobile App Development Services"
                 // className="md:w-[170px] md:h-[170px]
                 // w-[120px] h-[120px]"
-              ></img>
+                ></img>
               </Link>
             </div>
             <div>
               <Link to="/education">
                 <img
                   src={educationicon}
-                  alt="Education Icon"
-                 
+                  alt="Mobile App Development Services"
+
                 ></img>
               </Link>
             </div>
@@ -148,9 +148,9 @@ const IndustriesHomePage = () => {
                 <Link to="/real-estate">
                   <img
                     src={realestateicon}
-                    alt="Real Estate Icon"
-                    //     className="md:w-[170px] md:h-[170px]
-                    // w-[120px] h-[120px]"
+                    alt="Mobile App Development Services"
+                  //     className="md:w-[170px] md:h-[170px]
+                  // w-[120px] h-[120px]"
                   ></img>
                 </Link>
               </div>
@@ -159,8 +159,8 @@ const IndustriesHomePage = () => {
               <Link to="/manufacturing">
                 <img
                   src={manufacturingicon}
-                  alt="Manufacturing Icon"
-                 
+                  alt="Mobile App Development Services"
+
                 ></img>
               </Link>
             </div>

@@ -5,7 +5,7 @@ import Teambody from './Teambody';
 import TeamForm from './TeamForm';
 
 const Team = () => {
-   
+
   return (
     <div>
       <>
@@ -19,7 +19,7 @@ const Team = () => {
             name="description"
             content="Cerbosys’s progressive growth is defined by a zealous and committed leadership team of intellectual leaders. Explore their experience, expertise, and responsibilities. "
           />
-           <link rel="canonical" href="https://cerbosys.com/team" />
+          <link rel="canonical" href="https://cerbosys.com/team" />
         </Helmet>
 
         <div className="mx-auto w-full md:h-[48rem] bg-TeamCerbosys h-96 py-12 px-4 bg-cover md:bg-top bg-center">
@@ -29,7 +29,7 @@ const Team = () => {
               Meet Our Team
             </h1>
 
-            
+
           </div>
           {/* Content Section Ends */}
         </div>

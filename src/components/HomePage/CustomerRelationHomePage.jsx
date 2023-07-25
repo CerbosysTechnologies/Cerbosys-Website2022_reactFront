@@ -25,7 +25,7 @@ const CustomerRelationHomePage = () => {
               <div>
                 <img
                   src={clientinteractionicon}
-                  alt="Client Interaction Icon"
+                  alt="Mobile App Development Services"
                   className="md:w-[320px] md:h-[320px] 
                 w-[160px] h-[620px] scale-75 hover:scale-100 ease-in duration-500 "
                 ></img>
@@ -35,7 +35,7 @@ const CustomerRelationHomePage = () => {
               <div>
                 <img
                   src={consolidationicon}
-                  alt="Consolidation Icon"
+                  alt="Mobile App Development Services"
                   className="md:w-[320px] md:h-[320px] 
                 w-[160px] h-[620px] scale-75 hover:scale-100 ease-in duration-500"
                 ></img>
@@ -44,7 +44,7 @@ const CustomerRelationHomePage = () => {
               <div className="md:mt-0 -mt-[26rem]">
                 <img
                   src={developmenticon}
-                  alt="Development Icon"
+                  alt="Mobile App Development Services"
                   className="md:w-[320px] md:h-[320px] 
                 w-[160px] h-[620px] scale-75 hover:scale-100 ease-in duration-500"
                 ></img>
@@ -54,7 +54,7 @@ const CustomerRelationHomePage = () => {
               <div className="md:mt-0 -mt-[26rem]">
                 <img
                   src={deliverablesicon}
-                  alt="Deliverables Icon"
+                  alt="Mobile App Development Services"
                   className="md:w-[320px] md:h-[320px] 
                 w-[160px] h-[620px] scale-75 hover:scale-100 ease-in duration-500"
                 ></img>
