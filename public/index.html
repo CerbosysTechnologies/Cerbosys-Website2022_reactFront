@@ -28,7 +28,14 @@
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-
+  <script>
+    // Check if the current URL has the "www." prefix
+    if (window.location.hostname.startsWith("www.")) {
+        // Remove the "www." prefix and redirect to the root domain
+        var newURL = window.location.protocol + "//" + window.location.hostname.replace("www.", "") + window.location.pathname;
+        window.location.replace(newURL);
+    }
+</script>
   <!-- ion-icon -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

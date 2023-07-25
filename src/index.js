@@ -11,8 +11,8 @@ import {
 import PageScrollToTop from "./components/Common/Component/PageScrollToTop";
 import swDev from "./swDev";
 import { hydrate, render } from "react-dom";
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+const AppVer = (
   <React.StrictMode>
     <BrowserRouter>
       <PageScrollToTop />
@@ -20,10 +20,10 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>
 );
-// const rootElement = document.getElementById("root");
-// if (rootElement.hasChildNodes()) {
-//   hydrate(AppVer, rootElement);
-// } else {
-//   render(AppVer, rootElement);
-// }
+const rootElement = document.getElementById("root");
+if (rootElement.hasChildNodes()) {
+  hydrate(AppVer, rootElement);
+} else {
+  render(AppVer, rootElement);
+}
 swDev();
