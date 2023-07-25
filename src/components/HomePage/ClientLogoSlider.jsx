@@ -47,7 +47,7 @@ const ClientLogoSlider = () => {
         }}>
         {featuredicons.map((slideContent, index) => (
           <SwiperSlide key={slideContent} virtualIndex={index}>
-            <img src={slideContent} alt="" className="w-40 h-36 mt-10 mx-6 " />
+            <img src={slideContent} alt="Mobile App Development Services" className="w-40 h-36 mt-10 mx-6 " />
           </SwiperSlide>
         ))}
       </Swiper>

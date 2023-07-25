@@ -41,7 +41,7 @@ const TechnologyHomePage = () => {
               <div>
                 <img
                   src={androidicon}
-                  alt="Android Icon"
+                  alt="Mobile App Development Services"
                   className="w-[90px] h-[90px] mb-2 scale-100 hover:scale-125 ease-out duration-500"
                 ></img>
               </div>
@@ -50,7 +50,7 @@ const TechnologyHomePage = () => {
               <div>
                 <img
                   src={wordpressicon}
-                  alt="Android Icon"
+                  alt="Mobile App Development Services"
                   className="w-[90px] h-[90px] mb-2 scale-100 hover:scale-125 ease-out duration-500"
                 ></img>
               </div>
@@ -59,7 +59,7 @@ const TechnologyHomePage = () => {
               <div>
                 <img
                   src={fluttericon}
-                  alt="Android Icon"
+                  alt="Mobile App Development Services"
                   className="w-[90px] h-[90px] mb-2 scale-100 hover:scale-125 ease-out duration-500"
                 ></img>
               </div>
@@ -68,7 +68,7 @@ const TechnologyHomePage = () => {
               <div>
                 <img
                   src={nodejsicon}
-                  alt="nodejs Icon"
+                  alt="Mobile App Development Services"
                   className="w-[90px] h-[90px] mb-2 scale-100 hover:scale-125 ease-out duration-500"
                 ></img>
               </div>
@@ -77,7 +77,7 @@ const TechnologyHomePage = () => {
               <div>
                 <img
                   src={mongodbicon}
-                  alt="mongodb Icon"
+                  alt="Mobile App Development Services"
                   className="w-[90px] h-[90px] mb-2 scale-100 hover:scale-125 ease-out duration-500"
                 ></img>
               </div>
@@ -86,7 +86,7 @@ const TechnologyHomePage = () => {
               <div>
                 <img
                   src={reactjsicon}
-                  alt="Android Icon"
+                  alt="Mobile App Development Services"
                   className="w-[90px] h-[90px] mb-2 scale-100 hover:scale-125 ease-out duration-500"
                 ></img>
               </div>
@@ -95,7 +95,7 @@ const TechnologyHomePage = () => {
               <div>
                 <img
                   src={mysqlicon}
-                  alt="Android Icon"
+                  alt="Mobile App Development Services"
                   className="w-[90px] h-[90px] mb-2 scale-100 hover:scale-125 ease-out duration-500"
                 ></img>
               </div>
@@ -104,7 +104,7 @@ const TechnologyHomePage = () => {
               <div>
                 <img
                   src={iosicon}
-                  alt="Android Icon"
+                  alt="Mobile App Development Services"
                   className="w-[90px] h-[90px] mb-2 scale-100 hover:scale-125 ease-out duration-500"
                 ></img>
               </div>
@@ -113,7 +113,7 @@ const TechnologyHomePage = () => {
               <div>
                 <img
                   src={neticon}
-                  alt="Net Icon"
+                  alt="Mobile App Development Services"
                   className="w-[90px] h-[90px] mb-2 scale-100 hover:scale-125 ease-out duration-500"
                 ></img>
               </div>
@@ -122,7 +122,7 @@ const TechnologyHomePage = () => {
               <div>
                 <img
                   src={phpicon}
-                  alt="Php Icon"
+                  alt="Mobile App Development Services"
                   className="w-[90px] h-[90px] mb-2 scale-100 hover:scale-125 ease-out duration-500"
                 ></img>
               </div>
@@ -131,7 +131,7 @@ const TechnologyHomePage = () => {
               <div>
                 <img
                   src={angularicon}
-                  alt="Angular Icon"
+                  alt="Mobile App Development Services"
                   className="w-[90px] h-[90px] mb-2 scale-100 hover:scale-125 ease-out duration-500"
                 ></img>
               </div>
@@ -140,7 +140,7 @@ const TechnologyHomePage = () => {
               <div>
                 <img
                   src={laravelicon}
-                  alt="Laravel Icon"
+                  alt="Mobile App Development Services"
                   className="w-[90px] h-[90px] mb-2 scale-100 hover:scale-125 ease-out duration-500"
                 ></img>
               </div>
@@ -149,7 +149,7 @@ const TechnologyHomePage = () => {
               <div>
                 <img
                   src={codeignitericon}
-                  alt="CI Icon"
+                  alt="Mobile App Development Services"
                   className="w-[90px] h-[90px] mb-2 scale-100 hover:scale-125 ease-out duration-500"
                 ></img>
               </div>

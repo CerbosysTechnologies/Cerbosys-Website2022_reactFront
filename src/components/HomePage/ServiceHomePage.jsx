@@ -32,10 +32,8 @@ const ServiceHomePage = () => {
 
             {/* Content */}
             <p className="align-baseline text-center font-content text-lg w-3/4 m-auto mb-10 mt-4">
-              Our passion is helping companies of all sizes build their brand
-              and business by making them attractive to the consumers by
-              creating innovative solutions on a wide range of services, which
-              help in branding and engaging with the clients.
+              Our passion is helping companies of all sizes build their brand and business by making them attractive to the consumers by creating innovative solutions on a wide range of Web Development and  Mobile App services, which help in branding and engaging with the clients.
+
             </p>
             {/* w-3/4 */}
             <div
@@ -125,7 +123,7 @@ const ServiceHomePage = () => {
                   <Bounce left duration={3000}>
                     {' '}
                     <img
-                      alt="Staff Augmentation Icon"
+                      alt="Mobile App Development Services"
                       src={staffaugmentationicon}
                       className="w-[70px] h-[70px] mb-2 scale-100 hover:scale-75 ease-out duration-500"
                     />
@@ -149,7 +147,7 @@ const ServiceHomePage = () => {
                   <Bounce bottom duration={3000}>
                     {' '}
                     <img
-                      alt="UI/UX Icon"
+                      alt="Mobile App Development Services"
                       src={uxdevelopmenticon}
                       className="w-[70px] h-[70px] mb-2 scale-100 hover:scale-75 ease-out duration-500"
                     />
@@ -181,7 +179,7 @@ const ServiceHomePage = () => {
                   <Bounce right duration={3000}>
                     {' '}
                     <img
-                      alt="Branding And Packaging Icon"
+                      alt="Mobile App Development Services"
                       src={brandpackingicon}
                       className="w-[70px] h-[70px] mb-2 scale-100 hover:scale-75 ease-out duration-500"
                     />
@@ -203,7 +201,7 @@ const ServiceHomePage = () => {
                   <Bounce left duration={3000}>
                     {' '}
                     <img
-                      alt="Lead Generation Icon"
+                      alt="Mobile App Development Services"
                       src={leadrgenerationicon}
                       className="w-[70px] h-[70px] mb-2 scale-100 hover:scale-75 ease-out duration-500"
                     />
@@ -227,7 +225,7 @@ const ServiceHomePage = () => {
               <img
                 src={quoteicon}
                 className="md:mx-16 md:w-[40rem] md:h-96 mb-10 -mt-10"
-                alt="Quote"
+                alt="Mobile App Development Services"
               ></img>
             </div>
           </div>

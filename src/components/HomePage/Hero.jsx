@@ -53,12 +53,13 @@ const Hero = () => {
 
           <p className="text-white text-center py-3 md:text-6xl text-xl  mb-8 md:mt-2 mt-24 min-w-fit">
             {/* The Ideal Web and Mobile Solutions for your emerging business- You’re just one click away!! */}
-            <span className=" whitespace-nowrap text-white text-center font-heading  py-3 md:text-4xl text-xl   mb-8 md:mt-2 mt-24">
+            <span className="font-middle whitespace-nowrap text-white text-center  py-3 md:text-4xl text-xl   mb-8 md:mt-2 mt-24">
               WE WORK FOR
               <TypeWriter
                 textStyle={{
                   color: '#0F52BA',
-                  // fontSize: "heading",
+                   fontSize: "subheading !important",
+                   fontweight:"900 !important",
                   //  fontSize: '1em',
                   textAlign: 'center',
                 }}
