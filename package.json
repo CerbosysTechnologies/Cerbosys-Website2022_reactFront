@@ -48,6 +48,7 @@
     "swiper": "^8.3.2",
     "tailwindcss-gradients": "^3.0.0",
     "tawkto-react": "^3.0.1",
+    "typed.js": "^2.0.16",
     "utils": "^0.3.1",
     "web-vitals": "^2.1.4",
     "xmlbuilder": "^15.1.1",

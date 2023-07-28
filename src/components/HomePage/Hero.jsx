@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import Typed from 'typed.js';
 import ServiceHomePage from '../../components/HomePage/ServiceHomePage';
 import TechnologyHomePage from '../../components/HomePage/TechnologyHomePage';
 import IndustriesHomePage from '../../components/HomePage/IndustriesHomePage';
@@ -23,6 +24,34 @@ const Hero = () => {
   };
 
   /* animation for buthhon logic end */
+  // text animation start
+  useEffect(() => {
+    var typed = new Typed('.auto', {
+      strings: ['INNOVATION ',
+        'PASSION ',
+        'SATISFACTION',
+        'INNOVATION ',
+        'PASSION ',
+        'SATISFACTION',
+        'INNOVATION ',
+        'PASSION ',
+        'SATISFACTION',
+        'INNOVATION ',
+        'PASSION ',
+        'SATISFACTION',
+        'INNOVATION ',
+        'PASSION ',
+        'SATISFACTION',],
+      typeSpeed: 150,
+      backSpeed: 150,
+      loop: true
+    });
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
+  }, [])
+
 
   return (
     <>
@@ -55,16 +84,20 @@ const Hero = () => {
             {/* The Ideal Web and Mobile Solutions for your emerging business- You’re just one click away!! */}
             <span className="font-middle whitespace-nowrap text-white text-center  py-3 md:text-4xl text-xl   mb-8 md:mt-2 mt-24">
               WE WORK FOR
-              <TypeWriter
+              <p className='text-bluetext font-semibold' ><span className='auto' ></span></p>
+
+              {/* <TypeWriter
+                className="font"
                 textStyle={{
                   color: '#0F52BA',
-                   fontSize: "subheading !important",
-                   fontweight:"900 !important",
+                  // fontSize: "subheading !important",
+                  fontweight: "900 !important",
                   //  fontSize: '1em',
                   textAlign: 'center',
                 }}
                 startDelay={2000}
                 cursorColor="#0F52BA"
+                fontSize="20px"
                 multiText={[
                   'INNOVATION ',
                   'PASSION ',
@@ -84,7 +117,9 @@ const Hero = () => {
                 ]}
                 multiTextDelay={5000}
                 typeSpeed={80}
-              ></TypeWriter>
+              >
+
+              </TypeWriter> */}
             </span>
           </p>
           {/* Home Contet Animation End */}

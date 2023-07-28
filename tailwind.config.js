@@ -29,6 +29,7 @@ module.exports = {
         Lightsky: "#C9DEFF",
         Purpal: "#522165",
         Darkgray: " #F8F9FC",
+        bluetext:"rgb(15, 82, 186)",
       },
       keyframes: {
         wave: {
@@ -60,6 +61,18 @@ module.exports = {
           "0%": { transform: "rotate(0deg)" },
           "100%": { transform: "rotate(360deg)" },
         },
+
+        typing: {
+          "100%": {
+            left: "100%",
+            margin: "0px -35px 0 35px",
+          },
+        },
+        silde: {
+          "100%": {
+            top: "-360px",
+          },
+        },
       },
 
       animation: {
@@ -69,6 +82,8 @@ module.exports = {
         "btns-hand": "btns 3s linear infinite",
         "btnani-hand": "moveInBottom 5s ease-out",
         "bttn-hand": "bttn 3s linear infinite",
+        "typing-hand": "typing 1.5s steps(10) infinite",
+        "silde-hand": "silde 9s steps(5) infinite",
       },
     },
 
