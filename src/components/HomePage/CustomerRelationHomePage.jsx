@@ -29,7 +29,7 @@ const CustomerRelationHomePage = () => {
                   className="md:w-[320px] md:h-[320px] 
                 w-[160px] h-[620px] scale-75 hover:scale-100 ease-in duration-500 "
                 ></img>
-                
+
               </div>
 
               <div>
@@ -48,7 +48,7 @@ const CustomerRelationHomePage = () => {
                   className="md:w-[320px] md:h-[320px] 
                 w-[160px] h-[620px] scale-75 hover:scale-100 ease-in duration-500"
                 ></img>
-                
+
               </div>
 
               <div className="md:mt-0 -mt-[26rem]">
@@ -58,7 +58,7 @@ const CustomerRelationHomePage = () => {
                   className="md:w-[320px] md:h-[320px] 
                 w-[160px] h-[620px] scale-75 hover:scale-100 ease-in duration-500"
                 ></img>
-               
+
               </div>
             </div>
             {/* Image Section Ends */}
