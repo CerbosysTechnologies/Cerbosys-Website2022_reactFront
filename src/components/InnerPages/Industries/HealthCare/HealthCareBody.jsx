@@ -14,7 +14,7 @@ const HealthCareBody = () => {
         <div className="max-w-[1240px] mx-auto ">
           <div className="flex flex-wrap md:flex-nowrap justify-between items-center md:gap-10 p-6">
             <div className="md:w-[50%] w-[100%]">
-              <img src={multymob} alt="img" className="md:h-[24rem] w-full" />
+              <img src={multymob}  alt="Mobile App Development Services" className="md:h-[24rem] w-full" />
             </div>
             <div className="md:w-[50%] w-[100%]">
               <h1 className="text-Secondary font-heading pt-2 md:text-3xl text-xl md:mb-10 min-w-fit">

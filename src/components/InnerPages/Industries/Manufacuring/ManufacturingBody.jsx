@@ -17,7 +17,7 @@ const ManufacturingBody = () => {
             <div className="">
               <img
                 src={manufacturleft}
-                alt="Manufacture Mobile"
+                alt="Mobile App Development Services"
                 className="md:h-[30rem]"
               />
             </div>
@@ -104,7 +104,7 @@ const ManufacturingBody = () => {
                 <div className=" md:w-[40%] w-[100%] text-white mt-3">
                   <img
                     src={manufacturright}
-                    alt="Ecommerce Business"
+                    alt="Mobile App Development Services"
                     // className="w-full"
                     className="md:h-[24rem] mx-auto"
                   />

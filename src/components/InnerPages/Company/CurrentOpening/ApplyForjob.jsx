@@ -169,7 +169,7 @@ function ApplyForjob() {
           >
             <div className="grid md:grid-cols-2 md:mb-4 md:mt-5 mt-5">
               <div className="mx-10 hidden md:block">
-                <img src={vacancy} alt="" className="h-full w-screen" />
+                <img src={vacancy}  alt="Mobile App Development Services" className="h-full w-screen" />
               </div>
               <div className="bg-white md:mx-20 mx-10">
                 <div className="flex justify-between">

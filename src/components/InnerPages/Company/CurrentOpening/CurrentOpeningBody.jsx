@@ -80,7 +80,7 @@ const CurrentOpeningBody = () => {
                             <img
                               className=" w-full object-contain "
                               src={IMG + `${item.job_icon.substr(18)}`}
-                              alt="img"
+                              alt="Mobile App Development Services"
                             />
                           </div>
 
@@ -91,7 +91,7 @@ const CurrentOpeningBody = () => {
                                 <img
                                   className="card-icon h-7 w-7"
                                   src={location}
-                                  alt="Placeholder"
+                                  alt="Mobile App Development Services"
                                 />
                               </div>
                               <div className="text-sm font-bold">
@@ -106,7 +106,7 @@ const CurrentOpeningBody = () => {
                                 <img
                                   className="card-icon h-7 w-7"
                                   src={experience}
-                                  alt="Placeholder"
+                                  alt="Mobile App Development Services"
                                 />
                               </div>
                               <div className="text-sm  font-bold ">
@@ -118,7 +118,7 @@ const CurrentOpeningBody = () => {
                                 <img
                                   className="card-icon h-7 w-7"
                                   src={fulltime}
-                                  alt="Placeholder"
+                                  alt="Mobile App Development Services"
                                 />
                               </div>
                               <div className="font-bold text-sm">
@@ -130,7 +130,7 @@ const CurrentOpeningBody = () => {
                                 <img
                                   className="card-icon h-7 w-7"
                                   src={rupes}
-                                  alt="Placeholder"
+                                  alt="Mobile App Development Services"
                                 />
                               </div>
                               <div className=" font-bold text-sm">
@@ -179,7 +179,7 @@ const CurrentOpeningBody = () => {
             >
               <div>
                 <div className="flex flex-wrap">
-                  <img src={tripicon} />
+                  <img src={tripicon}  alt="Mobile App Development Services"/>
                   <h2 className="font-heading text-xl p-2">
                     Healthy Work Environment
                   </h2>
@@ -194,7 +194,7 @@ const CurrentOpeningBody = () => {
 
               <div>
                 <div className="flex flex-wrap">
-                  <img src={tripicon} />
+                  <img src={tripicon}  alt="Mobile App Development Services"/>
                   <h2 className="font-heading text-xl p-2 w-96">
                     Performance Linked Incentives and Reward Programs
                   </h2>
@@ -208,7 +208,7 @@ const CurrentOpeningBody = () => {
 
               <div>
                 <div className="flex flex-wrap">
-                  <img src={tripicon} />
+                  <img src={tripicon}  alt="Mobile App Development Services"/>
                   <h2 className="font-heading text-xl p-2 w-96">
                     Training and Development Sessions
                   </h2>
@@ -222,7 +222,7 @@ const CurrentOpeningBody = () => {
 
               <div>
                 <div className="flex flex-wrap">
-                  <img src={tripicon} />
+                  <img src={tripicon}  alt="Mobile App Development Services"/>
                   <h2 className="font-heading text-xl  p-2">Team Activities</h2>
                 </div>
                 <p className="font-content text-lg ml-14 text-justify">
@@ -234,7 +234,7 @@ const CurrentOpeningBody = () => {
 
               <div>
                 <div className="flex flex-wrap">
-                  <img src={tripicon} />
+                  <img src={tripicon}  alt="Mobile App Development Services"/>
                   <h2 className="font-heading text-xl p-2">
                     Maternity and Paternity Leaves
                   </h2>
@@ -248,7 +248,7 @@ const CurrentOpeningBody = () => {
 
               <div>
                 <div className="flex flex-wrap">
-                  <img src={tripicon} />
+                  <img src={tripicon}  alt="Mobile App Development Services"/>
                   <h2 className="font-heading text-xl p-2">
                     Work/Life Balance
                   </h2>

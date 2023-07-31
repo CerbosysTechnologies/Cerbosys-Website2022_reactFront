@@ -86,40 +86,7 @@ const Hero = () => {
               WE WORK FOR
               <p className='text-bluetext font-semibold' ><span className='auto' ></span></p>
 
-              {/* <TypeWriter
-                className="font"
-                textStyle={{
-                  color: '#0F52BA',
-                  // fontSize: "subheading !important",
-                  fontweight: "900 !important",
-                  //  fontSize: '1em',
-                  textAlign: 'center',
-                }}
-                startDelay={2000}
-                cursorColor="#0F52BA"
-                fontSize="20px"
-                multiText={[
-                  'INNOVATION ',
-                  'PASSION ',
-                  'SATISFACTION',
-                  'INNOVATION ',
-                  'PASSION ',
-                  'SATISFACTION',
-                  'INNOVATION ',
-                  'PASSION ',
-                  'SATISFACTION',
-                  'INNOVATION ',
-                  'PASSION ',
-                  'SATISFACTION',
-                  'INNOVATION ',
-                  'PASSION ',
-                  'SATISFACTION',
-                ]}
-                multiTextDelay={5000}
-                typeSpeed={80}
-              >
 
-              </TypeWriter> */}
             </span>
           </p>
           {/* Home Contet Animation End */}

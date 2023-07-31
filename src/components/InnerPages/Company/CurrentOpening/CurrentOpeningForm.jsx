@@ -35,7 +35,7 @@ const CurrentOpeningForm = ({ onChangeSelected }) => {
               <div className=" w-full">
                 <img
                   src={!imgName ? currentopeningicon : imgName}
-                  alt=""
+                  alt="Mobile App Development Services"
                   className="h-full w-full"
                 ></img>
               </div>

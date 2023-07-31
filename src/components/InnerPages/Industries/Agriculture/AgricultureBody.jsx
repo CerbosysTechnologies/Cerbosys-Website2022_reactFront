@@ -39,7 +39,7 @@ const AgricultureBody = () => {
               <Slide left duration={3000}>
                 <img
                   src={ledimg}
-                  alt="Agriculture Mobile"
+                  alt="Mobile App Development Services"
                   className=" w-full"
                 />
               </Slide>
@@ -124,7 +124,7 @@ const AgricultureBody = () => {
                             <Slide bottom duration={3000}>
                               <img
                                 src={curent.img1}
-                                alt="img"
+                                alt="Mobile App Development Services"
                                 className="w-full hover:scale-125 transition duration-700 ease-in-out "
                               />
                             </Slide>
@@ -176,7 +176,7 @@ const AgricultureBody = () => {
         <div className="invisible xl:visible absolute right-0 left-0 bottom-[28rem] md:left-[62rem] md:bottom-64">
           <img
             src={bgimg3}
-            alt="img"
+            alt="Mobile App Development Services"
             className="mx-auto w-[150px]  lg:w-[18rem]"
           />
         </div>
@@ -185,7 +185,7 @@ const AgricultureBody = () => {
           {/* lg:w-[18rem] */}
           <img
             src={bgimg2}
-            alt="img"
+            alt="Mobile App Development Services"
             className="mx-auto w-[150px]  lg:w-[18rem]"
           />
         </div>
@@ -193,7 +193,7 @@ const AgricultureBody = () => {
         <div className="invisible lg:visible absolute  right-0 left-0 bottom-32 md:left-[-6rem] md:bottom-4">
           <img
             src={bgimg1}
-            alt="img"
+            alt="Mobile App Development Services"
             className="mx-auto w-[150px]  lg:w-[18rem]"
             // className="mx-auto w-[150px]  md:w-[18rem]"
           />

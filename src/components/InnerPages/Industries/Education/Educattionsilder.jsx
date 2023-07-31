@@ -68,7 +68,7 @@ const Educattionsilder = () => {
                         >
                           <img
                             src={college}
-                            alt="img"
+                            alt="Mobile App Development Services"
                             className="w-48 mx-auto  h-[118px] md:h-[178px]"
                           />
                         </a>
@@ -101,7 +101,7 @@ const Educattionsilder = () => {
                         >
                           <img
                             src={coaching}
-                            alt="img"
+                            alt="Mobile App Development Services"
                             className="w-48 mx-auto  h-[118px] md:h-[178px]"
                           />
                         </a>
@@ -134,7 +134,7 @@ const Educattionsilder = () => {
                         >
                           <img
                             src={school}
-                            alt="img"
+                            alt="Mobile App Development Services"
                             className="w-48 mx-auto  h-[118px] md:h-[178px]"
                           />
                         </a>

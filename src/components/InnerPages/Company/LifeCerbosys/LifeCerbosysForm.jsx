@@ -17,7 +17,7 @@ const LifeCerbosysForm = ({ onChangeSelected }) => {
 
   return (
     <div>
-        <div className="bg-FormBackground mx-auto w-full py-16 px-2 object-contain bg-cover bg-center">
+      <div className="bg-FormBackground mx-auto w-full py-16 px-2 object-contain bg-cover bg-center">
         <div className="max-w-[1240px] mx-auto ">
           <div className="flex flex-col flex-wrap items-center">
             {/* Heading */}
@@ -29,27 +29,27 @@ const LifeCerbosysForm = ({ onChangeSelected }) => {
               associating with us.
             </h2>
             {/* Heading Ends */}
-             {/* Form Design */}
-             <div className="grid md:grid-cols-2 mb-4 mt-10 md:w-10/12 shadow-xl shadow-gray-600">
+            {/* Form Design */}
+            <div className="grid md:grid-cols-2 mb-4 mt-10 md:w-10/12 shadow-xl shadow-gray-600">
               {/* Image Section */}
               <div className="mx-auto items-center justify-center " >
-              <img src={!imgName ? contact_icon : imgName} alt="" className="h-full"></img>
+                <img src={!imgName ? contact_icon : imgName} alt="Mobile App Development Services" className="h-full"></img>
               </div>
               {/* Image Section Ends*/}
 
               {/* Form Section */}
               <div className="bg-white md:px-14 px-4 items-center justify-center text-center ">
-              <ServicesForm onChangeSelected={onChangeSelection} />
-                </div>
+                <ServicesForm onChangeSelected={onChangeSelection} />
+              </div>
               {/* Form Section Ends*/}
 
 
 
-              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      </div>
-      </div>
-      </div>
+    </div>
   )
 }
 

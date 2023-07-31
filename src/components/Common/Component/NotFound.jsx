@@ -9,7 +9,7 @@ const NotFound = () => {
         {/* Content Section */}
         <div className="flex flex-col justify-center text-center items-center md:h-[35rem] h-96 mx-auto">
           <div>
-            <img src={eorro404} alt="img" className="md:w-[20rem] w-[14rem]" />
+            <img src={eorro404}  alt="Mobile App Development Services" className="md:w-[20rem] w-[14rem]" />
           </div>
        
           <p className=" text-center text-white font-subheading mt-3   md:text-lg text-xs md:w-[980px] max-w-fit">

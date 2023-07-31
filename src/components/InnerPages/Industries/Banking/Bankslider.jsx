@@ -54,7 +54,7 @@ const Bankslider = () => {
               >
                 <img
                   src={banking}
-                  alt="img"
+                  alt="Mobile App Development Services"
                   className="w-48 mx-auto  h-[118px] md:h-[178px]"
                 />
               </a>
@@ -86,7 +86,7 @@ const Bankslider = () => {
               >
                 <img
                   src={Finance}
-                  alt="img"
+                  alt="Mobile App Development Services"
                   className="w-48 mx-auto  h-[118px] md:h-[178px]"
                 />
               </a>
@@ -118,7 +118,7 @@ const Bankslider = () => {
               >
                 <img
                   src={bitcoin}
-                  alt="img"
+                  alt="Mobile App Development Services"
                   className="w-48 mx-auto  h-[118px] md:h-[178px]"
                 />
               </a>

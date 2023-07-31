@@ -42,7 +42,7 @@ const BankingBody = () => {
                     <div className="md:w-[50%] w-[100%]">
                       <img
                         src={bankingleftimg}
-                        alt="img"
+                        alt="Mobile App Development Services"
                         className="md:h-[24rem] w-full"
                       />
                     </div>
@@ -186,7 +186,7 @@ const BankingBody = () => {
                 <div className="md:w-[50%] w-[100%] mt-3">
                   <img
                     src={bankingrightimg}
-                    alt="img"
+                    alt="Mobile App Development Services"
                     className="md:h-[24rem] w-full"
                   />
                 </div>
@@ -218,7 +218,7 @@ const BankingBody = () => {
                       <div className="mx-auto hover:animate-bouns-hand cursor-pointer">
                         <img
                           src={curent.img}
-                          alt="img"
+                          alt="Mobile App Development Services"
                           className="md:h-[12rem] mx-auto transition ease-in-out hover:-translate-y-5 hover:ease-in-out cursor-pointer"
                         />
                       </div>

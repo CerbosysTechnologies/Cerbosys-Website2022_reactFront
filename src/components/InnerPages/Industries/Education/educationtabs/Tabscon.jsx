@@ -108,7 +108,7 @@ const Tabs = ({ color }) => {
                       <div className="md:w-[50%] w-[100%]">
                         <img
                           src={tab1img}
-                          alt="djhfj"
+                          alt="Mobile App Development Services"
                           className="md:h-[24rem] mx-auto"
                         />
                       </div>
@@ -143,7 +143,7 @@ const Tabs = ({ color }) => {
                       <div className="md:w-[50%] w-[100%]">
                         <img
                           src={tab2im}
-                          alt="djhfj"
+                          alt="Mobile App Development Services"
                           className="md:h-[24rem] mx-auto"
                         />
                       </div>
@@ -189,7 +189,7 @@ const Tabs = ({ color }) => {
                       <div className="md:w-[50%] w-[100%]">
                         <img
                           src={tab3img}
-                          alt="djhfj"
+                          alt="Mobile App Development Services"
                           className="md:h-[24rem] mx-auto"
                         />
                       </div>

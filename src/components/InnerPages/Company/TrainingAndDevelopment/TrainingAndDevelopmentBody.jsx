@@ -17,7 +17,7 @@ const TrainingAndDevelopmentBody = () => {
             </p>
             <img
               src={traineeicon}
-              alt="Trainee Icon"
+              alt="Mobile App Development Services"
               className="md:w-56 md:h-48 md:ml-20 w-36 h-20 mt-10"
             />
 
@@ -41,7 +41,7 @@ const TrainingAndDevelopmentBody = () => {
               
               <img
                 src={boxone_icon}
-                alt="First Icon"
+                alt="Mobile App Development Services"
                 className="md:w-80 md:h-80 w-52 h-52"
               />
               {/* </Lottie> */}
@@ -70,7 +70,7 @@ const TrainingAndDevelopmentBody = () => {
             <div className="md:mt-0 mt-20 mx-auto flex flex-col md:px-14 py-6 px-3  text-justify border-4 border-gray-700 rounded-xl items-center w-full">
               <img
                 src={boxtwo_icon}
-                alt="Second Icon"
+                alt="Mobile App Development Services"
                 className="md:w-80 md:h-80 w-52 h-52"
               />
               <p className="font-content md:text-sm md:w-96 mt-10 w-64 text-xs">
@@ -98,7 +98,7 @@ const TrainingAndDevelopmentBody = () => {
             <div className=" mt-20 mx-auto flex flex-col md:px-14 py-6 px-3  text-justify border-4 border-gray-700 rounded-xl items-center w-full">
               <img
                 src={boxthree_icon}
-                alt="Third Icon"
+                alt="Mobile App Development Services"
                 className="md:w-80 md:h-80 w-52 h-52"
               />
               <p className="font-content md:text-sm md:w-96 mt-10 w-64 text-xs">
@@ -127,7 +127,7 @@ const TrainingAndDevelopmentBody = () => {
             <div className=" mt-20 mx-auto flex flex-col md:px-14 py-6 px-3  text-justify border-4 border-gray-700 rounded-xl items-center w-full">
               <img
                 src={boxfour_icon}
-                alt="Fourth Icon"
+                alt="Mobile App Development Services"
                 className="md:w-80 md:h-80 w-52 h-52"
               />
               <p className="font-content md:text-sm md:w-96 mt-10 w-64 text-xs">

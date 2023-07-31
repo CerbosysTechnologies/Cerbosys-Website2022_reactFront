@@ -17,7 +17,7 @@ const InnerNavbar = () => {
           <Link to="/">
             <img
               src={cerbosysblack}
-              alt="logo"
+              alt="Mobile App Development Services"
               className="md:cursor-pointer w-[150px] h-14"
             />
           </Link>
@@ -61,7 +61,7 @@ const InnerNavbar = () => {
           <img
             className="w-[40px] h-[30px] mr-1 cursor-pointer"
             src={callicon}
-            alt="callicon"
+            alt="Mobile App Development Services"
           />
           <span className={`text-sm font-heading mt-1 text-black`}>
             <p>+91 9826906988</p>
