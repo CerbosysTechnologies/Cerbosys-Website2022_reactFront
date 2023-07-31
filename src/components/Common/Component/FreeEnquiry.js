@@ -130,7 +130,7 @@ const FreeEnquiry = () => {
 
       <div className="grid md:grid-cols-2 md:mb-4 md:mt-10 mt-5  ">
         <div className="mx-10 hidden md:block">
-          <img src={imagepopup} alt="" className="h-full w-screen" />
+          <img src={imagepopup}  alt="Mobile App Development Services" className="h-full w-screen" />
         </div>
         <form onSubmit={(e) => handleSubmit(e)} className="mx-10 mx-auto">
           <div className="mb-4">

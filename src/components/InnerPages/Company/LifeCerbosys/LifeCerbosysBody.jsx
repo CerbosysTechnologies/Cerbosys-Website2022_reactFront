@@ -21,7 +21,7 @@ const LifeCerbosysBody = () => {
             >
               <img
                 src={cloudicon}
-                alt="Cloud Icon"
+                alt="Mobile App Development Services"
                 className="md:w-96 md:h-96 w-52 relative md:bottom-56 bottom-32 object-contain"
               />
 
@@ -47,7 +47,7 @@ const LifeCerbosysBody = () => {
             >
               <img
                 src={gifticon}
-                alt="Gift Icon"
+                alt="Mobile App Development Services"
                 className="md:w-80 md:h-80 w-52 relative bottom-48 object-contain"
               />
 
@@ -74,7 +74,7 @@ const LifeCerbosysBody = () => {
             >
               <img
                 src={diwaliicon}
-                alt="Diwali Icon"
+                alt="Mobile App Development Services"
                 className="md:w-96 md:h-96 w-56 relative md:bottom-48 bottom-32 object-contain "
               />
 
@@ -100,7 +100,7 @@ const LifeCerbosysBody = () => {
             >
               <img
                 src={flagicon}
-                alt="Flag Icon"
+                alt="Mobile App Development Services"
                 className="md:w-96 md:h-96 w-52 relative bottom-48 object-contain"
               />
 
@@ -126,7 +126,7 @@ const LifeCerbosysBody = () => {
             >
               <img
                 src={holiicon}
-                alt="Holi Icon"
+                alt="Mobile App Development Services"
                 className="md:w-96 md:h-96 w-56 relative md:bottom-48 bottom-32 object-contain"
               />
 
@@ -148,7 +148,7 @@ const LifeCerbosysBody = () => {
             >
               <img
                 src={newyearicon}
-                alt="New Year Icon"
+                alt="Mobile App Development Services"
                 className="md:w-96 md:h-96 w-52 relative bottom-48 object-contain"
               />
 
@@ -195,7 +195,7 @@ const LifeCerbosysBody = () => {
           <div className="items-center justify-center md:px-28 md:py-5 mt-10 md:-mb-96 -mb-56">
             <img
               src={bossthoughticon}
-              alt="Boss Thought"
+              alt="Mobile App Development Services"
               className="md:w-[60rem] md:h-[70rem]"
             />
           </div>

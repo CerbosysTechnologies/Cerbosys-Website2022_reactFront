@@ -157,7 +157,7 @@ const FreeQuote = () => {
             {/* md:h-1/2 */}
             <div className="grid md:grid-cols-2 md:mb-4 md:mt-10 mt-5 ">
               <div className="mx-10 hidden md:block">
-                <img src={imagepopup} alt="" className="h-full w-screen" />
+                <img src={imagepopup}  alt="Mobile App Development Services" className="h-full w-screen" />
               </div>
 
               <div className="bg-white md:mx-20 mx-10 md:mb-20  2xl:mb-10 md:h-[400px]   md:overflow-scroll">

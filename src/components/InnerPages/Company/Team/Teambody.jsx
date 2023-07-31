@@ -864,7 +864,7 @@ const Teambody = () => {
               <div className="relative cursor-pointer">
                 <img
                   src={rajnimam1}
-                  alt="Mohit Nayak"
+                  alt="Mobile App Development Services"
                   className="w-[280px] mx-auto 
               
                "
@@ -873,7 +873,7 @@ const Teambody = () => {
                   {' '}
                   <img
                     src={tryimg6}
-                    alt="Mohit Nayak"
+                    alt="Mobile App Development Services"
                     className="w-[280px] mx-auto
            hover:animate-cyclieing-hand
                "
@@ -899,7 +899,7 @@ const Teambody = () => {
               <div className="relative cursor-pointer">
                 <img
                   src={greengp}
-                  alt="Mohit Nayak"
+                  alt="Mobile App Development Services"
                   className="w-[280px] mx-auto 
               
                "
@@ -908,7 +908,7 @@ const Teambody = () => {
                   {' '}
                   <img
                     src={tryimg6}
-                    alt="Mohit Nayak"
+                    alt="Mobile App Development Services"
                     className="w-[280px] mx-auto
            hover:animate-cyclieing-hand
                "

@@ -114,7 +114,7 @@ const Managmentsys = () => {
                             <div className="mx-auto text-center ">
                               <img
                                 src={curent.img}
-                                alt="img"
+                                alt="Mobile App Development Services"
                                 className="h-[80px] w-[100px] mx-auto  hover:scale-125 duration-300 delay-200"
                               />
                             </div>
@@ -189,7 +189,7 @@ const Managmentsys = () => {
                               <div className="">
                                 <img
                                   src={curent.icon}
-                                  alt="img"
+                                  alt="Mobile App Development Services"
                                   className="w-10 md:w-18  object-contain"
                                 />
                               </div>
@@ -204,7 +204,7 @@ const Managmentsys = () => {
                 </div>
                 {/* \w-[100%] md:w-[50%] */}
                 <div className="px-2 self-center">
-                  <img src={healthdrimg} alt="img" className="w-full" />
+                  <img src={healthdrimg}  alt="Mobile App Development Services" className="w-full" />
                 </div>
               </div>
             </div>

@@ -21,12 +21,12 @@ const NavLinks = () => {
       Head: 'Digital Marketing',
     },
   ];
- 
+
 
   return (
     <>
       <div>
-        
+
         <div className="px-3 text-left md:cursor-pointer active:duration-700  group">
           <div className="relative">
             <h2
@@ -35,19 +35,19 @@ const NavLinks = () => {
             after:ease-in-out after:duration-500
             hover:after:w-[100%]
            "
-              
+
               onC
               lick={() => {
                 heading !== 'Services'
                   ? setTimeout(() => {
-                      setHeading('Services');
-                    }, 10000)
+                    setHeading('Services');
+                  }, 10000)
                   : setHeading('');
                 setSubHeading('');
               }}
             >
               {'Services'}
-            
+
             </h2>
           </div>
 
@@ -382,9 +382,8 @@ const NavLinks = () => {
                 {/* First Row Ends */}
               </h2>
               <div
-                className={`${
-                  subHeading === slinks.Head ? 'md:hidden' : 'hidden'
-                }`}
+                className={`${subHeading === slinks.Head ? 'md:hidden' : 'hidden'
+                  }`}
               ></div>
             </div>
           </div>

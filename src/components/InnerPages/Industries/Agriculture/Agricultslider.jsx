@@ -56,7 +56,7 @@ const Agricultslider = () => {
               >
                 <img
                   src={food}
-                  alt="img"
+                  alt="Mobile App Development Services"
                   className="w-48 mx-auto  h-[118px] md:h-[178px]"
                 />
               </a>
@@ -88,7 +88,7 @@ const Agricultslider = () => {
               >
                 <img
                   src={plant}
-                  alt="img"
+                  alt="Mobile App Development Services"
                   className="w-48 mx-auto  h-[118px] md:h-[178px]"
                 />
               </a>
@@ -120,7 +120,7 @@ const Agricultslider = () => {
               >
                 <img
                   src={Agriculture}
-                  alt="img"
+                  alt="Mobile App Development Services"
                   className="w-48 mx-auto  h-[118px] md:h-[178px]"
                 />
               </a>

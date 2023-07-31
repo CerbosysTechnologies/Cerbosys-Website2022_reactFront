@@ -241,7 +241,7 @@ const Footer = () => {
                 <div className="flex flex-row mb-5 md:w-64 w-64">
                   <img
                     src={locationicon}
-                    alt="Location Icon"
+                    alt="Mobile App Development Services"
                     className="mr-3"
                   ></img>
                   <span className="font-subheading text-sm text-white">
@@ -250,7 +250,7 @@ const Footer = () => {
                 </div>
 
                 <div className="flex flex-row mb-5 w-72">
-                  <img src={callicon} alt="Call Icon" className="mr-3"></img>
+                  <img src={callicon}  alt="Mobile App Development Services" className="mr-3"></img>
                   <span className="font-subheading text-sm text-white">
                     +91 98-2690-6988
                   </span>
@@ -259,7 +259,7 @@ const Footer = () => {
                 <div className="flex flex-row mb-5 w-72">
                   <img
                     src={whatsappicon}
-                    alt="What'sApp Icon"
+                    alt="Mobile App Development Services"
                     className="mr-3"
                   ></img>
                   <span className="font-subheading text-sm text-white">
@@ -269,7 +269,7 @@ const Footer = () => {
                 <div className="flex flex-row mb-5 md:w-64 w-64">
                   <img
                     src={locationicon}
-                    alt="Location Icon"
+                    alt="Mobile App Development Services"
                     className="mr-3"
                   ></img>
                   <span className="font-subheading text-sm text-white">
@@ -279,14 +279,14 @@ const Footer = () => {
                   </span>
                 </div>
                 <div className="flex flex-row mb-5 w-72">
-                  <img src={callicon} alt="Call Icon" className="mr-3"></img>
+                  <img src={callicon}  alt="Mobile App Development Services" className="mr-3"></img>
                   <span className="font-subheading text-sm text-white">
                     +44 7424152621
                   </span>
                 </div>
 
                 <div className="flex flex-row mb-5">
-                  <img src={emailicon} alt="Email Icon" className="mr-3"></img>
+                  <img src={emailicon}  alt="Mobile App Development Services" className="mr-3"></img>
                   <span className="font-subheading text-sm text-white">
                     info@cerbosys.com
                   </span>
@@ -322,7 +322,7 @@ const Footer = () => {
             >
               <img
                 src={fbcon}
-                alt="Facebook Icon"
+                alt="Mobile App Development Services"
                 className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
               />
             </a>
@@ -333,7 +333,7 @@ const Footer = () => {
             >
               <img
                 src={instagramicon}
-                alt="Facebook Icon"
+                alt="Mobile App Development Services"
                 className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
               />
             </a>
@@ -344,7 +344,7 @@ const Footer = () => {
             >
               <img
                 src={twittericon}
-                alt="Facebook Icon"
+                alt="Mobile App Development Services"
                 className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
               />
             </a>
@@ -355,7 +355,7 @@ const Footer = () => {
             >
               <img
                 src={linkedinicon}
-                alt="Facebook Icon"
+                alt="Mobile App Development Services"
                 className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
               />
             </a>
@@ -366,7 +366,7 @@ const Footer = () => {
             >
               <img
                 src={pinterest}
-                alt="whatsp Icon"
+                alt="Mobile App Development Services"
                 className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
               />
             </a>
@@ -377,7 +377,7 @@ const Footer = () => {
             >
               <img
                 src={youtubeicon}
-                alt="Facebook Icon"
+                alt="Mobile App Development Services"
                 className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
               />
             </a>
@@ -389,7 +389,7 @@ const Footer = () => {
             >
               <img
                 src={Whats}
-                alt="whatsp Icon"
+                alt="Mobile App Development Services"
                 className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
               />
             </a>

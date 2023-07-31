@@ -43,7 +43,7 @@ const DiversityBody = () => {
             {/* Image Section */}
             <img
               src={diversityimage}
-              alt="Diversity Icon"
+              alt="Mobile App Development Services"
               className="mx-auto md:w-[28rem]
              w-[18rem] mt-2"
             />
@@ -53,7 +53,7 @@ const DiversityBody = () => {
           <div className="flex items-center justify-center md:mt-20 mt-10 mx-4">
             <img
               src={gificon}
-              alt="Gif Icon"
+              alt="Mobile App Development Services"
               className="md:w-[50rem] md:h-[24rem]"
             />
           </div>

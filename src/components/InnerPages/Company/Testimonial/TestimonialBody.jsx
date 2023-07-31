@@ -43,13 +43,13 @@ const TestimonialBody = () => {
               <SwiperSlide>
                 <div className="flex flex-row  items-start md:w-full  ">
                   <div className="md:w-full mb-10">
-                    <img src={colonicon} alt="colon" className="w-10" />
+                    <img src={colonicon}  alt="Mobile App Development Services" className="w-10" />
                   </div>
                   <div className="md:w-full">
                     <br></br>
                     <img
                       src={anitaicon}
-                      alt="manwomen"
+                      alt="Mobile App Development Services"
                       className="w-40 h-40 rounded-full "
                     />
                   </div>
@@ -57,7 +57,7 @@ const TestimonialBody = () => {
                   <div className="md:w-full">
                     <img
                       src={colonicon}
-                      alt="manwomen"
+                      alt="Mobile App Development Services"
                       className="md:w-10 invisible "
                     />
                   </div>
@@ -79,13 +79,13 @@ const TestimonialBody = () => {
               <SwiperSlide>
                 <div className="flex flex-row  items-start md:w-full  ">
                   <div className="md:w-full mb-10">
-                    <img src={colonicon} alt="colon" className="w-10" />
+                    <img src={colonicon}  alt="Mobile App Development Services" className="w-10" />
                   </div>
                   <div className="md:w-full">
                     <br></br>
                     <img
                       src={anilicon}
-                      alt="manwomen"
+                      alt="Mobile App Development Services"
                       className="w-40 h-40 rounded-full "
                     />
                   </div>
@@ -93,7 +93,7 @@ const TestimonialBody = () => {
                   <div className="md:w-full">
                     <img
                       src={colonicon}
-                      alt="manwomen"
+                      alt="Mobile App Development Services"
                       className="md:w-10 invisible "
                     />
                   </div>
@@ -114,13 +114,13 @@ const TestimonialBody = () => {
               <SwiperSlide>
                 <div className="flex flex-row  items-start md:w-full  ">
                   <div className="md:w-full mb-10">
-                    <img src={colonicon} alt="colon" className="w-10" />
+                    <img src={colonicon}  alt="Mobile App Development Services" className="w-10" />
                   </div>
                   <div className="md:w-full">
                     <br></br>
                     <img
                       src={anupicon}
-                      alt="manwomen"
+                      alt="Mobile App Development Services"
                       className="w-40 h-40 rounded-full "
                     />
                   </div>
@@ -128,7 +128,7 @@ const TestimonialBody = () => {
                   <div className="md:w-full">
                     <img
                       src={colonicon}
-                      alt="manwomen"
+                      alt="Mobile App Development Services"
                       className="md:w-10 invisible "
                     />
                   </div>
@@ -147,13 +147,13 @@ const TestimonialBody = () => {
               <SwiperSlide>
                 <div className="flex flex-row  items-start md:w-full  ">
                   <div className="md:w-full mb-10">
-                    <img src={colonicon} alt="colon" className="w-10" />
+                    <img src={colonicon}  alt="Mobile App Development Services" className="w-10" />
                   </div>
                   <div className="md:w-full">
                     <br></br>
                     <img
                       src={sumiticon}
-                      alt="manwomen"
+                      alt="Mobile App Development Services"
                       className="w-40 h-40 rounded-full "
                     />
                   </div>
@@ -161,7 +161,7 @@ const TestimonialBody = () => {
                   <div className="md:w-full">
                     <img
                       src={colonicon}
-                      alt="manwomen"
+                      alt="Mobile App Development Services"
                       className="md:w-10 invisible "
                     />
                   </div>
@@ -182,13 +182,13 @@ const TestimonialBody = () => {
               <SwiperSlide>
                 <div className="flex flex-row  items-start md:w-full  ">
                   <div className="md:w-full mb-10">
-                    <img src={colonicon} alt="colon" className="w-10" />
+                    <img src={colonicon}  alt="Mobile App Development Services" className="w-10" />
                   </div>
                   <div className="md:w-full">
                     <br></br>
                     <img
                       src={diveshicon}
-                      alt="manwomen"
+                      alt="Mobile App Development Services"
                       className="w-40 h-40 rounded-full "
                     />
                   </div>
@@ -196,7 +196,7 @@ const TestimonialBody = () => {
                   <div className="md:w-full">
                     <img
                       src={colonicon}
-                      alt="manwomen"
+                      alt="Mobile App Development Services"
                       className="md:w-10 invisible "
                     />
                   </div>

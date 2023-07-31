@@ -22,14 +22,14 @@ export const EcommerceBody = () => {
                   <div className=" ">
                     <img
                       src={ecommermob}
-                      alt="Ecommerce Mobile"
+                      alt="Mobile App Development Services"
                       className="w-full py-2"
                     />
                   </div>
                   <div className="">
                     <img
                       src={secondmob}
-                      alt="Ecommerce Mobile"
+                      alt="Mobile App Development Services"
                       className="w-full py-2"
                     />
                   </div>
@@ -37,7 +37,7 @@ export const EcommerceBody = () => {
                 <div className="">
                   <img
                     src={newphone}
-                    alt="Ecommerce Mobile"
+                    alt="Mobile App Development Services"
                     // className="w-full"
                     className="md:h-[30rem]"
                   />
@@ -46,14 +46,14 @@ export const EcommerceBody = () => {
                   <div className="">
                     <img
                       src={thirdmob}
-                      alt="Ecommerce Mobile"
+                      alt="Mobile App Development Services"
                       className="w-full py-2"
                     />
                   </div>
                   <div className="">
                     <img
                       src={fourthmob}
-                      alt="Ecommerce Mobile"
+                      alt="Mobile App Development Services"
                       className="w-full py-2"
                     />
                   </div>

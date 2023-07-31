@@ -76,7 +76,7 @@ function CurrentOpningGetbyOne() {
                         <img
                           className="card-icon h-7 w-7"
                           src={location}
-                          alt="Placeholder"
+                          alt="Mobile App Development Services"
                         />
                       </div>
                       <div className="text-xl font-bold ml-3">{Location}</div>
@@ -88,7 +88,7 @@ function CurrentOpningGetbyOne() {
                         <img
                           className="card-icon h-7 w-7"
                           src={experience}
-                          alt="Placeholder"
+                          alt="Mobile App Development Services"
                         />
                       </div>
                       <div className="text-xl font-bold ml-3">
@@ -102,7 +102,7 @@ function CurrentOpningGetbyOne() {
                         <img
                           className="card-icon h-7 w-7"
                           src={fulltime}
-                          alt="Placeholder"
+                          alt="Mobile App Development Services"
                         />
                       </div>
                       <div className="text-xl font-bold ml-3">{Type}</div>
@@ -114,7 +114,7 @@ function CurrentOpningGetbyOne() {
                         <img
                           className="card-icon h-7 w-7"
                           src={rupes}
-                          alt="Placeholder"
+                          alt="Mobile App Development Services"
                         />
                       </div>
                       <div className="text-xl  font-bold ml-3">
@@ -147,7 +147,7 @@ function CurrentOpningGetbyOne() {
             <div className="w-[100%] md:w-[50%] mt-5 pt-4">
               <img
                 src={IMG + job_icon}
-                alt="img"
+                alt="Mobile App Development Services"
                 className="object-fill w-[300px] md:w-[1200px]"
               />
             </div>

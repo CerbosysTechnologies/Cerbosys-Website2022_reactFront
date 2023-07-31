@@ -24,7 +24,7 @@ const EducationBody = () => {
             <div className="p-3 md:w-[50%] w-[100%]">
               <img
                 src={educationleft}
-                alt="Education Mobile"
+                alt="Mobile App Development Services"
                 // className="md:h-[30rem]"
                 className="w-full"
               />
@@ -77,7 +77,7 @@ const EducationBody = () => {
             </h2>{' '}
             <div className="flex md:flex-nowrap flex-wrap gap-y-20  gap-x-72 mt-12">
               <div className="">
-                <img src={educationfirst} alt="iomg" className="w-[230px]" />
+                <img src={educationfirst}  alt="Mobile App Development Services"className="w-[230px]" />
                 <div className="">
                   <p className="text-grey   font-heading">
                     Website Development
@@ -91,7 +91,7 @@ const EducationBody = () => {
                 </div>
               </div>
               <div className="">
-                <img src={educationsecond} alt="iomg" className="w-[230px] " />
+                <img src={educationsecond}  alt="Mobile App Development Services" className="w-[230px] " />
                 <div className="">
                   <p className="text-grey   font-heading">
                     Mobile App Development
@@ -108,7 +108,7 @@ const EducationBody = () => {
             </div>
             <div className="flex md:flex-nowrap flex-wrap gap-y-20  gap-x-72 mt-12">
               <div className="">
-                <img src={educationthird} alt="iomg" className="w-[230px] " />
+                <img src={educationthird}  alt="Mobile App Development Services" className="w-[230px] " />
                 <div className="">
                   <p className="text-grey   font-heading">
                     ERP & LMS Software Development
@@ -121,7 +121,7 @@ const EducationBody = () => {
                 </div>
               </div>
               <div className="">
-                <img src={educationfouth} alt="iomg" className="w-[230px] " />
+                <img src={educationfouth} alt="Mobile App Development Services" className="w-[230px] " />
                 <div className="">
                   <p className="text-grey   font-heading">
                     Educational Digital Marketing Solutions
@@ -153,7 +153,7 @@ const EducationBody = () => {
             <div className="p-3 md:w-[50%] w-[100%]">
               <img
                 src={multymob}
-                alt="Education Mobile"
+                alt="Mobile App Development Services"
                 // className="md:h-[30rem]"
                 className="w-full md:p-3"
               />

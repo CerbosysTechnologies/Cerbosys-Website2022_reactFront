@@ -34,7 +34,7 @@ const TrainingAndDevelopmentForm = ({ onChangeSelected }) => {
               <div className="mx-auto items-center justify-center ">
                 <img
                   src={!imgName ? contact_icon : imgName}
-                  alt=""
+                  alt="Mobile App Development Services"
                   className="md:h-full"
                 ></img>
               </div>

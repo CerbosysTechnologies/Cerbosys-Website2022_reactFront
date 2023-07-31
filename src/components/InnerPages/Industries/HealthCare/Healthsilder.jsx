@@ -58,24 +58,24 @@ const Healthsilder = () => {
                 <div className="h-96 md:h-90 px-8 ">
                   <div className="relative bg-Lightpink h-[140px] md:h-[200px] rounded-t-lg">
                     <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6 h-[160px]">
-                     
-                    <a href="https://healthcare.cerbosys.com/fitness-gym" target='_blank'  rel='noreferrer'>
-                    <img
-                        src={gym}
-                        alt="img"
-                        className="w-48 mx-auto  h-[118px] md:h-[178px]"
-                      />
-               </a>
-     
-     
-                     
+
+                      <a href="https://healthcare.cerbosys.com/fitness-gym" target='_blank' rel='noreferrer'>
+                        <img
+                          src={gym}
+                          alt="Mobile App Development Services"
+                          className="w-48 mx-auto  h-[118px] md:h-[178px]"
+                        />
+                      </a>
+
+
+
                     </div>
                   </div>
 
                   <div className="bg-white text-center rounded-br-[50px] h-32">
                     <div className="pt-5">
                       <p className=" font-subheading">
-                      Fitness<br></br> gym
+                        Fitness<br></br> gym
                       </p>
                     </div>
                     <div className="">
@@ -90,22 +90,22 @@ const Healthsilder = () => {
                 <div className="h-52 md:h-90 px-8">
                   <div className="relative bg-Lightgreen h-[140px] md:h-[200px] rounded-t-lg">
                     <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6">
-                    <a href="https://healthcare.cerbosys.com/lookwell-parlour" target='_blank'  rel='noreferrer' >
-                    <img
-                        src={salon}
-                        alt="img"
-                        className="w-48 mx-auto  h-[118px] md:h-[178px]"
-                      />
-                
-                </a>
-                     
+                      <a href="https://healthcare.cerbosys.com/lookwell-parlour" target='_blank' rel='noreferrer' >
+                        <img
+                          src={salon}
+                          alt="Mobile App Development Services"
+                          className="w-48 mx-auto  h-[118px] md:h-[178px]"
+                        />
+
+                      </a>
+
                     </div>
                   </div>
 
                   <div className="bg-white text-center  rounded-br-[50px] h-32">
                     <div className="pt-5">
                       <p className=" font-subheading">
-                      Lookwell<br></br> Parlour
+                        Lookwell<br></br> Parlour
                       </p>
                     </div>
                     <div className="">
@@ -120,22 +120,22 @@ const Healthsilder = () => {
                 <div className="h-52 md:h-90 px-8">
                   <div className="relative bg-Lightblue h-[140px] md:h-[200px] rounded-t-lg">
                     <div className="absolute inset-x-0 bottom-0 left-3 right-3 top-6 h-[160px]">
-                    <a href="https://healthcare.cerbosys.com/mens-hair-salon" 
-                    target='_blank'  rel='noreferrer'>       
-                   <img
-                        src={barbistan}
-                        alt="img"
-                        className="w-48 mx-auto  h-[118px] md:h-[178px]"
-                      />
-              </a>
-                      
+                      <a href="https://healthcare.cerbosys.com/mens-hair-salon"
+                        target='_blank' rel='noreferrer'>
+                        <img
+                          src={barbistan}
+                          alt="Mobile App Development Services"
+                          className="w-48 mx-auto  h-[118px] md:h-[178px]"
+                        />
+                      </a>
+
                     </div>
                   </div>
 
                   <div className="bg-white  text-center  rounded-br-[50px] h-32">
                     <div className="pt-5">
                       <p className=" font-subheading">
-                      Mens Hair<br></br> Salon
+                        Mens Hair<br></br> Salon
                       </p>
                     </div>
                     <div className="">
@@ -147,10 +147,10 @@ const Healthsilder = () => {
                     </div>
                   </div>
                 </div>
-                
 
-              
-              
+
+
+
               </Slider>
             </div>
           </div>

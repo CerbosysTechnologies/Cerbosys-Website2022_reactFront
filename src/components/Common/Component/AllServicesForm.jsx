@@ -23,7 +23,7 @@ const AllServiceForm = () => {
               <div className="">
                 <img
                   src={mobileservice_technologyicon}
-                  alt=""
+                  alt="Mobile App Development Services"
                   className="h-full"
                 ></img>
               </div>

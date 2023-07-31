@@ -71,7 +71,7 @@ const Ecommerceservices = () => {
                         <Slide right duration={3000}>
                           <img
                             src={curent.img}
-                            alt="img"
+                            alt="Mobile App Development Services"
                             className="inline w-32 transition ease-in-out hover:-translate-y-5 hover:ease-in-out cursor-pointer"
                           />
                         </Slide>
@@ -100,7 +100,7 @@ const Ecommerceservices = () => {
             <div className="flex flex-wrap gap-8">
               <Slide bottom duration={3000}>
                 <div className="flex justify-center items-center">
-                  <img src={ecommersmulty} alt="img" />
+                  <img src={ecommersmulty}  alt="Mobile App Development Services" />
                 </div>
               </Slide>
               <div className="text-white">
@@ -128,7 +128,7 @@ const Ecommerceservices = () => {
                         <div className="hover:animate-bouns-hand cursor-pointer">
                           <img
                             src={sicon1}
-                            alt="img"
+                            alt="Mobile App Development Services"
                             className="w-14 md:w-20 "
                           />
                         </div>
@@ -145,7 +145,7 @@ const Ecommerceservices = () => {
                         <div className="hover:animate-bouns-hand cursor-pointer">
                           <img
                             src={sicon3}
-                            alt="img"
+                            alt="Mobile App Development Services"
                             className="w-14 md:w-20  "
                           />
                         </div>
@@ -164,7 +164,7 @@ const Ecommerceservices = () => {
                         <div className="hover:animate-bouns-hand cursor-pointer">
                           <img
                             src={sicon4}
-                            alt="img"
+                            alt="Mobile App Development Services"
                             className="w-14 md:w-20  "
                           />
                         </div>
@@ -182,7 +182,7 @@ const Ecommerceservices = () => {
                         <div className="hover:animate-bouns-hand cursor-pointer">
                           <img
                             src={sicon2}
-                            alt="img"
+                            alt="Mobile App Development Services"
                             className="w-14 md:w-20  "
                           />
                         </div>

@@ -34,7 +34,7 @@ const EducationForm = ({ onChangeSelected }) => {
          <div className="grid md:grid-cols-2 mb-4 mt-10 md:w-10/12 shadow-xl shadow-gray-600">
           {/* Image Section */}
           <div className="mx-auto items-center justify-center " >
-          <img src={!imgName ? contact_icon : imgName} alt="" className="h-full"></img>
+          <img src={!imgName ? contact_icon : imgName}  alt="Mobile App Development Services" className="h-full"></img>
           </div>
           {/* Image Section Ends*/}
 

@@ -56,7 +56,7 @@ const Ecommercesilder = () => {
               >
                 <img
                   src={Footwear}
-                  alt="img"
+                  alt="Mobile App Development Services"
                   className="w-48 mx-auto  h-[118px] md:h-[178px]"
                 />
               </a>
@@ -88,7 +88,7 @@ const Ecommercesilder = () => {
               >
                 <img
                   src={boutique}
-                  alt="img"
+                  alt="Mobile App Development Services"
                   className="w-48 mx-auto  h-[118px] md:h-[178px]"
                 />
               </a>
@@ -120,7 +120,7 @@ const Ecommercesilder = () => {
               >
                 <img
                   src={Ecommersarrival}
-                  alt="img"
+                  alt="Mobile App Development Services"
                   className="w-48 mx-auto  h-[118px] md:h-[178px]"
                 />
               </a>
@@ -148,7 +148,7 @@ const Ecommercesilder = () => {
             <a href="https://ecommerce.cerbosys.com/accessories-online-shopping" target='_blank'  rel='noreferrer'>
               <img
                 src={ecommerfashi}
-                alt="img"
+                alt="Mobile App Development Services"
                 className="w-48 mx-auto h-[118px] md:h-[178px]"
               />
               </a>
