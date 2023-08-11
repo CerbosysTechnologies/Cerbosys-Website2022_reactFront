@@ -1,23 +1,21 @@
-import React, { useEffect, useState } from 'react';
-import { SERVER } from '../../ServerUrls';
-import { useNavigate, useParams } from 'react-router-dom';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper';
-import { Autoplay } from 'swiper';
-import axios from 'axios';
-import parser from 'html-react-parser';
-import { Helmet } from 'react-helmet';
+import React, { useEffect, useState } from "react";
+import { SERVER } from "../../ServerUrls";
+import { useNavigate, useParams } from "react-router-dom";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper";
+import { Autoplay } from "swiper";
+import axios from "axios";
+import parser from "html-react-parser";
+import { Helmet } from "react-helmet";
 function BlogGetoneBlog() {
   const { id } = useParams();
   console.log(id);
   const navigate = useNavigate();
-
-  const [blogid, setBlogid] = useState('');
-
-  const [blogtitle, setBlogtitle] = useState('');
-  const [blogmessage, setBlogmessage] = useState('');
-  const [image, setImage] = useState('');
-  const [blogimagesid, setBlogimagesid] = useState('');
+  const [blogid, setBlogid] = useState("");
+  const [blogtitle, setBlogtitle] = useState("");
+  const [blogmessage, setBlogmessage] = useState("");
+  const [image, setImage] = useState("");
+  const [blogimagesid, setBlogimagesid] = useState("");
   console.log(blogimagesid);
   const [blogdata, setBlogData] = useState([]);
   const IMAGE_URL = `https://cerbosys.in:3700/blog/`;
@@ -27,7 +25,7 @@ function BlogGetoneBlog() {
     await axios
       .get(`${SERVER}/getAllBlogs`, {
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
       })
       .then((res) => {
@@ -46,48 +44,40 @@ function BlogGetoneBlog() {
   }, []);
 
   // get all blog End
-
   // Get by id blog start
-
   axios
     .get(SERVER + `/getBlogById?blog_id=${id}`, {
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
     })
     .then((res) => {
       const i = res?.data?.data.length - 1;
       setBlogid(res?.data?.data[i].blog_id);
       setBlogtitle(res?.data?.data[i].blog_title);
-
       setBlogmessage(res?.data?.data[i].blog_message);
       setBlogmessage(res?.data?.data[i].blog_message);
       console.log(res?.data?.data[i].blog_message);
       setBlogimagesid(res?.data?.data[i].blogImg[i].blog_imagesid);
       setImage(res?.data?.data[i].blogImg[i].blog_images.substr(12));
-      navigate(`/blog/${res?.data?.data[i].blog_title.replace(/\s/g, '-')}`);
+      // navigate(`/blog/${res?.data?.data[i].blog_title.replace(/\s/g, '-')}`);
       setTimeout(() => {
         window.location();
       }, 1000);
     });
-
   // Get by id blog End
-
   const SingleBlog = (id) => {
     let path = `/blog/${id}`;
-
     navigate(path);
     window.location();
   };
   // this is for the head tag satat
   const canonicalURL = `https://cerbosys.com/${blogtitle}`;
-
   // const message = { blogmessage };
   // const parser = (message) => {
   //   const doc = parser.parseFromString(message, 'text/html');
   //   return doc.body.textContent;
   // };
-
   // const description = parser(blogmessage);
   // this is for the head tag End
 
@@ -157,7 +147,7 @@ function BlogGetoneBlog() {
               },
               1024: {
                 width: 1024,
-                slidesPerView: 2,
+                slidesPerView: 3,
               },
             }}
             modules={[Pagination, Autoplay]}
@@ -173,7 +163,7 @@ function BlogGetoneBlog() {
               blogdata.map((item, index) => (
                 <SwiperSlide className=" flex justify-center ">
                   <div
-                    className="p-10  "
+                    className="p-10"
                     onClick={() => SingleBlog(item.blog_id)}
                   >
                     {/* <!--Card 1--> */}
@@ -191,7 +181,7 @@ function BlogGetoneBlog() {
                               />
                             );
                           } else {
-                            testimg = element.blog_images.split('/');
+                            testimg = element.blog_images.split("/");
                             return (
                               <img
                                 alt="Mobile App Development Services"
