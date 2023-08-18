@@ -86,7 +86,7 @@ function BlogGetoneBlog() {
       <Helmet>
         <title>Blog||{blogtitle} </title>
         {/* <meta name="description" content={description} /> */}
-        <link rel="canonical" href={canonicalURL} />
+        {/* <link rel="canonical" href={canonicalURL} /> */}
       </Helmet>
 
       <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[38rem]  h-96 py-12 px-4 bg-Blogbg bg-cover md:bg-top bg-center">

@@ -18,7 +18,7 @@ const LifeCerbosys = () => {
             name="description"
             content="At Cerbosys, we have an amazing work culture that helps our team to enjoy while working on a variety of website development and designing projects."
           />
-          <link rel="canonical" href="https://cerbosys.com/life-at-cerbosys" />
+          {/* <link rel="canonical" href="https://cerbosys.com/life-at-cerbosys" /> */}
         </Helmet>
         <div className="mx-auto w-full md:h-[40rem]  h-96 py-12 px-4 bg-LifeCerbosys  bg-cover md:bg-top bg-center">
           {/* Content Section */}
