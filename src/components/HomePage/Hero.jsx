@@ -68,7 +68,7 @@ const Hero = () => {
           name="description"
           content="Are you looking for the Best Web Development Company? Get top-notch Ecommerce Web & Mobile App development solutions tailored to your needs"
         />
-        <link rel="canonical" href="https://cerbosys.com" />
+        {/* <link rel="canonical" href="https://cerbosys.com" /> */}
       </Helmet>
 
       {/* <Navbar /> */}

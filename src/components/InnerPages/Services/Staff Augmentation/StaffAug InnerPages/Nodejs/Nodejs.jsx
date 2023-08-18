@@ -17,10 +17,10 @@ const Nodejs = () => {
             name="description"
             content="Hire NodeJS developers on flexible hiring models. Our highly-skilled NodeJS Developers have the ability to build your business."
           />
-          <link
+          {/* <link
             rel="canonical"
             href="https://cerbosys.com/hire-node-js-developer"
-          />
+          /> */}
         </Helmet>
 
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-NodejsHeader bg-cover md:bg-top bg-center">

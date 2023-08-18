@@ -17,10 +17,10 @@ const Diversity = () => {
             name="description"
             content="Cerbosys is committed to diversity and inclusion. Everyone is encouraged to bring their whole self to work, and we build a culture of diversity and creativity."
           />
-          <link
+          {/* <link
             rel="canonical"
             href="https://cerbosys.com/diversity-at-cerbosys"
-          />
+          /> */}
         </Helmet>
         <div className="mx-auto w-full md:h-[43rem]  h-96 py-12 px-4 bg-DiversityBackground bg-cover md:bg-top bg-center">
           {/* Content Section */}

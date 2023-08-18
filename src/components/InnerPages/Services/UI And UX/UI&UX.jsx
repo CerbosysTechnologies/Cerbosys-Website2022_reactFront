@@ -22,10 +22,10 @@ const UIAndUXDevelopment = () => {
             name="description"
             content="We are an excellent UX/UI development company catering to our client's needs. Our team is comprised of UX/UI pros with in-depth knowledge of web and mobile development"
           />
-          <link
+          {/* <link
             rel="canonical"
             href="https://cerbosys.com/ui-ux-designing"
-          />
+          /> */}
         </Helmet>
    
         <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-WebDevelopment bg-cover md:bg-top bg-center">

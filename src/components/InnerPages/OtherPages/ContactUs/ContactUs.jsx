@@ -18,7 +18,7 @@ const ContactUs = () => {
             name="description"
             content="Contact us for any query related to Mobile App & Web Development, Digital Marketing, etc. We provide a solid customer support service"
           />
-          <link rel="canonical" href="https://cerbosys.com/contact-us" />
+          {/* <link rel="canonical" href="https://cerbosys.com/contact-us" /> */}
         </Helmet>
 
         <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-ContactUsBackgroud bg-cover md:bg-top bg-center">

@@ -11,7 +11,7 @@ function Blog() {
           name="keywords"
           content="blog, cerbosys, development experience, customer engagement blogs, web development technologies, web development trends"
         />
-        <link rel="canonical" href="https://cerbosys.com/blog" />
+        {/* <link rel="canonical" href="https://cerbosys.com/blog" /> */}
         <meta name="description" content="Blog Content" />
       </Helmet>
       <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[38rem]  h-96 py-12 px-4 bg-Blogbg bg-cover md:bg-top bg-center">

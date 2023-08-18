@@ -19,10 +19,10 @@ const DotNet = () => {
             name="description"
             content="Hire dotnet developers on flexible hiring models. Our highly-skilled dotnet Developers have the ability to build your business."
           />
-           <link
+           {/* <link
             rel="canonical"
             href="https://cerbosys.com/hire-dotnet-developer"
-          />
+          /> */}
         </Helmet>
 
         <div className="mx-auto w-full md:h-[35rem]  h-96 py-12 px-4 bg-ReactjsHeader bg-cover md:bg-top bg-center">

@@ -23,7 +23,7 @@ const Ecommerce = () => {
             content="Custom eCommerce website development services to increase conversion rates and online visibility. We help to build robust digital commerce strategies & implementation plans for clients. 
             "
           />
-          <link rel="canonical" href="https://cerbosys.com/ecommerce-and-retail" />
+          {/* <link rel="canonical" href="https://cerbosys.com/ecommerce-and-retail" /> */}
 
         </Helmet>
         {/* <Navbar /> */}

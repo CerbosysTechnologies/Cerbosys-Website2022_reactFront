@@ -19,7 +19,7 @@ const RealEstate = () => {
             name="description"
             content="Cerbosys technologies creates growth-oriented digital experiences for your real estate brand. Partner with the top-rated real estate digital marketing company today!"
           />
-          <link rel="canonical" href="https://cerbosys.com/real-estate" />
+          {/* <link rel="canonical" href="https://cerbosys.com/real-estate" /> */}
         </Helmet>
         {/* <Navbar /> */}
         <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[36rem] bg-RealEstateHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">

@@ -17,7 +17,7 @@ const Overview = () => {
             name="description"
             content="Looking for the Best IT Solutions Company? We offer a wide range of services, including Ecommerce development, Web &Mobile App Development, Digital Marketing, etc."
           />
-          <link rel="canonical" href="https://cerbosys.com/overview" />
+          {/* <link rel="canonical" href="https://cerbosys.com/overview" /> */}
         </Helmet>
 
         <div className="mx-auto w-full md:h-[40rem]  h-96 py-12 px-4 bg-OverviewBackground bg-cover md:bg-top bg-center">

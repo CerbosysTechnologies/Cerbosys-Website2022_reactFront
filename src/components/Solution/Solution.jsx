@@ -9,7 +9,7 @@ function Solution() {
         <title>Solution </title>
         <meta name="keywords" content="Solution" />
         <meta name="description" content="Solution" />
-        <link rel="canonical" href="https://cerbosys.com/solution" />
+        {/* <link rel="canonical" href="https://cerbosys.com/solution" /> */}
       </Helmet>
       <div className="selection:bg-Green selection:text-white">
         <div className="mx-auto w-full md:h-[38rem]  h-96 py-12 px-4 bg-Solution bg-cover md:bg-top bg-center">
