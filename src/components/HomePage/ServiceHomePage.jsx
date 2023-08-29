@@ -93,7 +93,7 @@ const ServiceHomePage = () => {
               </Link>
 
 
-              <Link to="/digital-marketing">
+              <Link to="https://digitalmarketing.cerbosys.com/">
                 <div className='hover:bg-green-500 hover:text-white p-5 rounded-lg cursor-pointer '>
                   <Bounce right duration={3000}>
 
