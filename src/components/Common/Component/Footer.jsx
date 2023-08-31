@@ -129,6 +129,9 @@ const Footer = () => {
                   <li className="">
                     <Link to="/free-enquiry">Enquiry</Link>
                   </li>
+                  <li className="">
+                    <Link to="/banner-enquiry">Banner Enquiry</Link>
+                  </li>
                 </ul>
               </div>
 

@@ -59,6 +59,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import Portfolio from './components/protfolio/Portfolio';
 import NotFound from './components/Common/Component/NotFound';
 import FreeEnquiry from './components/Common/Component/FreeEnquiry';
+import { BannerEnquiry } from './components/Common/Component/BannerEnquiry';
 const Routers = () => {
   return (
     <div> 
@@ -157,6 +158,8 @@ const Routers = () => {
           <Route exact path="/Portfolio" element={<Portfolio />} />
           <Route exact path="/solution/schoolerp" element={<SchoolERP />} />
           <Route exact path="/solution/E-Commerse" element={<ECommerse />} />
+        
+          <Route exact path="/banner-enquiry" element={<BannerEnquiry />} />
           <Route exact path="*" element={<NotFound />} />
         </Routes>
     
