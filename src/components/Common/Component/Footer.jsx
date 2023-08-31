@@ -129,6 +129,9 @@ const Footer = () => {
                   <li className="">
                     <Link to="/free-enquiry">Enquiry</Link>
                   </li>
+                  <li className="">
+                    <Link to="/banner-enquiry">Banner Enquiry</Link>
+                  </li>
                 </ul>
               </div>
 
@@ -164,7 +167,9 @@ const Footer = () => {
                     <Link to="/ui-ux-designing">UI/UX Designing</Link>
                   </li>
                   <li className="">
-                    <Link to="/digital-marketing">Digital Marketing</Link>
+                    <Link to="https://digitalmarketing.cerbosys.com/">
+                      Digital Marketing
+                    </Link>
                   </li>
                   <li className="">
                     <Link to="/branding-and-packaging">
@@ -275,7 +280,6 @@ const Footer = () => {
                   <span className="font-subheading text-sm text-white">
                     19 Brean Close, Sully, Penarth, United Kingdom, CF64 5TS, GB
                     UK
-
                   </span>
                 </div>
                 <div className="flex flex-row mb-5 w-72">
@@ -393,7 +397,6 @@ const Footer = () => {
                 className="md:w-[40px] md:h-[40px] w-[25px] h-[25px] scale-100 hover:scale-125 ease-out duration-500"
               />
             </a>
-
           </div>
 
           {/* Social Icons Div Ends*/}

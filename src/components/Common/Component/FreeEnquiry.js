@@ -132,7 +132,7 @@ const FreeEnquiry = () => {
         <div className="mx-10 hidden md:block">
           <img src={imagepopup}  alt="Mobile App Development Services" className="h-full w-screen" />
         </div>
-        <form onSubmit={(e) => handleSubmit(e)} className="mx-10 mx-auto">
+        <form onSubmit={(e) => handleSubmit(e)} className="mx-10 ">
           <div className="mb-4">
             <label className="block mb-2 text-gray-700">Name</label>
             <input
