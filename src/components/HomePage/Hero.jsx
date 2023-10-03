@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom';
 import Bounce from 'react-reveal/Bounce';
 import { Helmet } from 'react-helmet';
 import Roll from 'react-reveal/Roll';
+import DubaiBanner from './DubaiBanner';
 const Hero = () => {
   /* animation for buthhon logic start */
 
@@ -130,6 +131,7 @@ const Hero = () => {
         {/* Testing Code */}
         {/* Testing Code Ends */}
       </div>
+      <DubaiBanner/>
       <ServiceHomePage />
       <IndustriesHomePage />
       <CustomerRelationHomePage />
