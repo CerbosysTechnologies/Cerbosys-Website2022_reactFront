@@ -141,7 +141,7 @@ const Navbar = () => {
 
             <li className="px-3 relative">
               <Link
-                to="/blog"
+                 to="https://blog.cerbosys.com/" target='_blank'
                 className=" after:content-[''] after:absolute after:bg-orange-600 after:h-[3px] after:w-[0%] after:left-0 after:bottom-[-6px]
                after:ease-in-out after:duration-300
                hover:after:w-[100%]"
@@ -221,7 +221,9 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="/blog" className="py-1 px-3 inline-block">
+              <Link 
+             to="https://blog.cerbosys.com/" target='_blank'
+              className="py-1 px-3 inline-block">
                 Blog
               </Link>
             </li>

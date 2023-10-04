@@ -82,7 +82,7 @@ const NavLinks = () => {
 
                   <div className="mt-5">
                     <h2 className="font-subheading md:text-sm text-xs">
-                      <Link to="/https://digitalmarketing.cerbosys.com/">
+                      <Link to="https://digitalmarketing.cerbosys.com/" target='_blank'>
                         <span className="flex items-center gap-2 ">
                           <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
                           Digital Marketing
@@ -298,7 +298,9 @@ const NavLinks = () => {
                   </div>
                   <div className="mt-[5px] ">
                     <h2 className="font-heading text-sm">
-                      <Link to="/https://digitalmarketing.cerbosys.com/">Digital Marketing</Link>
+                     
+                         <Link to="https://digitalmarketing.cerbosys.com/" target='_blank'>
+                      Digital Marketing</Link>
                     </h2>
                   </div>
 
