@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { SERVER } from '../../../ServerUrls';
 import axios from 'axios';
-
-
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Servicethankyou from './Thankyou/Servicethankyou';
@@ -27,9 +25,11 @@ const ServicesForm = (props) => {
   const [serviceitems, setServiceItems] = React.useState([]);
   const [myservicesid, setmyservicesid] = useState([]);
 
-  const a = myservicesid.map((val) => {
-    var b = val.myservices_id;
-  });
+  // const a = myservicesid.map((val) => {
+  //   var b = val.myservices_id;
+  // });
+  const a = myservicesid ? myservicesid.map((val) => val.myservices_id) : [];
+
 
 
 
@@ -247,7 +247,7 @@ const ServicesForm = (props) => {
                   </option>
                 ))
               ) : (
-                <p> No service </p>
+                <div> No service </div>
               )}
             </select>
           </div>
