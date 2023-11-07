@@ -3,12 +3,448 @@ import ecom from "../../assets/Solution/ecom.jpg";
 import School from "../../assets/Solution/School.png";
 import { GrLinkNext } from "react-icons/gr";
 import { Link } from "react-router-dom";
+import { Component } from "react";
+import Slider from "react-slick";
 
 function SolutionBody() {
+  const items = [
+    {
+      img: "https://vedantaschoolerp.com/img/bg-img/mobileapp.jpg",
+      titel: "Secure Cloud",
+      para: "Over 90% of our clients switched to our cloud solution as it is Secure, Reliance & Cost effective. Don't spend money on buying expensive computers & managing the servers. Our secure SSL enabled servie gives you information in lightning speed at the same time keep the information secure using state of art, industry accepted best practices. You can just pay for use then relax & take care of your business while we manage server, backup, virus protection, technical support for your customers.",
+    },
+    {
+      img: "https://vedantaschoolerp.com/img/bg-img/mobileapp.jpg",
+      titel: "Real Time Information & Upto Date Software",
+      para: "In today's digital world you need to make decision with lightening speed therefore we ensured that you get real time feed to your business wherever you are in the world. Our product solves biggest problem of information availability on time. We ensure that you always use the best without any surprises on the pricing factors. We work several education industry leader & community which help us craft the best solution for your education business need. Always get the best today & in future.",
+    },
+    {
+      img: "https://vedantaschoolerp.com/img/bg-img/mobileapp.jpg",
+      titel: "2 Hours Installation",
+      para: "From the time you sign-up with us, we will ensure your ERP system is up & running within 4 hrs. Our technical support engineers will help you transition from other softwares or offline. We understand these complexities as it we have spend several years in implementing ERP in schools/colleges & universities.",
+    },
+    {
+      img: "https://vedantaschoolerp.com/img/bg-img/mobileapp.jpg",
+      titel: "Integrated/ Role Based",
+      para: "Every user will have personalized dashboard. Let user view/edit the information which is relevant to them. You have a great control on who will see what.Automate every process in your school!!!",
+    },
+    {
+      img: "https://vedantaschoolerp.com/img/bg-img/mobileapp.jpg",
+      titel: "User Friendly",
+      para: "Design for us is not how it looks like but how it works. Everything we do we take utmost care that how the user will use the system with ease.",
+    },
+    {
+      img: "https://vedantaschoolerp.com/img/bg-img/mobileapp.jpg",
+      titel: "Mobile App",
+      para: "Our mobile app gives you and parents a great control to find every piece of information in your cell phone like fee collection, home work attendance alert etc. Parents can view the digital report card.",
+    },
+  ];
+
+  var settings = {
+    dots: false,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   return (
     <>
       <div className="md:w-[1280px] mx-auto">
-        <div className="md:flex gap-10 py-5 px-5 justify-between">
+        <div className="mt-10">
+          <p>
+            <span>VEDANTA School ERP</span> - Institution Automation System is a
+            versatile, proprietary and integrated system for an Institution
+            encompassing the end-to-end academic and administrative processes
+            across the Institution. Our product offers a comprehensive solution
+            that covers every aspect of the functioning of an Institution – from
+            academic activities to administrative functions – all on a single
+            window platform. With flexible reporting capabilities, sound
+            educational analytics and protected access,
+          </p>
+        </div>
+        {/* featur section start */}
+
+        <div>
+          <p className="font-heading text-xl text-center md:text-4xl md:pt-10">
+            Features of Vedanta School ERP
+          </p>
+          <p className="text-center">
+            Our idea is to develop a future ready product which make people more
+            efficient with the use of technnology
+          </p>
+          <div className="grid sm:grid-cols-3 grid-cols-1 gap-12 mt-10">
+            <div className=" bg-white shadow-md rounded-md p-3">
+              <img
+                src={School}
+                alt=""
+                className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
+              />
+
+              <div className="px-7">
+                <p className="font-heading text-lg  md:text-2xl md:pt-5">
+                  Front Office
+                </p>
+
+                <ul className="list-disc text-start px-4">
+                  <li className="text-[15px]">Visitor Management</li>
+                  <li className="text-[15px]">Enquiry & Appointment</li>
+                  <li className="text-[15px]">Automated Attendance</li>
+                  <li className="text-[15px]">Daily Activity Reporting</li>
+                  <li className="text-[15px]">Student/Staff Birthday Alert</li>
+                  <li className="text-[15px]">
+                    Role Based/Access User Accounts
+                  </li>
+                  <li className="text-[15px]">Student/Parents login</li>
+                  <li className="text-[15px]">User Roles & Permissions</li>
+                </ul>
+              </div>
+            </div>
+            <div className=" bg-white shadow-md rounded-md p-3">
+              <img
+                src={School}
+                alt=""
+                className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
+              />
+
+              <div className="px-7">
+                <p className="font-heading text-lg  md:text-2xl md:pt-5">
+                  People
+                </p>
+                <ul className="list-disc text-start px-4">
+                  <li className="text-[15px]">HR Management</li>
+                  <li className="text-[15px]">Student Management</li>
+                  <li className="text-[15px]">Vendor Management</li>
+                  <li className="text-[15px]">Registration Workflows</li>
+                  <li className="text-[15px]">Admission Management</li>
+                  <li className="text-[15px]">Address and Contacts</li>
+                  <li className="text-[15px]">Staff/Student Attendance</li>
+                  <li className="text-[15px]">Integrated SMS Messaging</li>
+                  <li className="text-[15px]">Leave Approvals Management</li>
+                  <li className="text-[15px]">Auto Complete Student Search</li>
+                  <li className="text-[15px]">Timeline/Profile</li>
+                  <li className="text-[15px]">Documentation Checklist</li>
+                </ul>
+              </div>
+            </div>
+            <div className=" bg-white shadow-md rounded-md p-3">
+              <img
+                src={School}
+                alt=""
+                className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
+              />
+
+              <div className="px-7">
+                <p className="font-heading text-lg  md:text-2xl md:pt-5">
+                  Academics
+                </p>
+                <ul className="list-disc text-start px-4">
+                  <li className="text-[15px]">Academics Session Management</li>
+                  <li className="text-[15px]">Standard Section Management</li>
+                  <li className="text-[15px]">Books/Subject/Classes</li>
+                  <li className="text-[15px]">Interactive Time Table</li>
+                  <li className="text-[15px]">Examination & Report Card</li>
+                  <li className="text-[15px]">Library Management</li>
+                  <li className="text-[15px]">
+                    Examination / Curriculum Planner
+                  </li>
+                  <li className="text-[15px]">Performance Tracker</li>
+                  <li className="text-[15px]">Students Home/Assignments</li>
+                  <li className="text-[15px]">Examination Management System</li>
+                  <li className="text-[15px]">Report Card Generation</li>
+                  <li className="text-[15px]">Digital Video Report Card</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {/* second sectoon */}
+
+          <div className="grid sm:grid-cols-3 grid-cols-1 gap-12 mt-10">
+            <div className=" bg-white shadow-md rounded-md p-3">
+              <img
+                src={School}
+                alt=""
+                className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
+              />
+
+              <div className="px-7">
+                <p className="font-heading text-lg  md:text-2xl md:pt-5">
+                  Finance
+                </p>
+
+                <ul className="list-disc text-start px-4">
+                  <li className="text-[15px]">Fee Management</li>
+                  <li className="text-[15px]">Discount Category</li>
+                  <li className="text-[15px]">Salary Management</li>
+                  <li className="text-[15px]">Vendor Billing Management</li>
+                  <li className="text-[15px]">Receipts and Payments</li>
+                  <li className="text-[15px]">
+                    Financial Reports / Cash Collection
+                  </li>
+                  <li className="text-[15px]">
+                    Online Fee Payment Integration
+                  </li>
+                  <li className="text-[15px]">Advanced Fee statement report</li>
+                  <li className="text-[15px]">
+                    General discount/sibling discount
+                  </li>
+                  <li className="text-[15px]">
+                    Accounting with Tally Integration
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className=" bg-white shadow-md rounded-md p-3">
+              <img
+                src={School}
+                alt=""
+                className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
+              />
+
+              <div className="px-7">
+                <p className="font-heading text-lg  md:text-2xl md:pt-5">
+                  Infrastructure
+                </p>
+                <ul className="list-disc text-start px-4">
+                  <li className="text-[15px]">Building & Asset Management</li>
+                  <li className="text-[15px]">Facilities Management</li>
+                  <li className="text-[15px]">Transport Management</li>
+                  <li className="text-[15px]">
+                    Multiple Store/Inventory Management
+                  </li>
+                  <li className="text-[15px]">Hostel Facility Management</li>
+                  <li className="text-[15px]">Student Health Care Module</li>
+                </ul>
+              </div>
+            </div>
+            <div className=" bg-white shadow-md rounded-md p-3">
+              <img
+                src={School}
+                alt=""
+                className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
+              />
+
+              <div className="px-7">
+                <p className="font-heading text-lg  md:text-2xl md:pt-5">
+                  Mobile Application
+                </p>
+                <ul className="list-disc text-start px-4">
+                  <li className="text-[15px]">Student Profile</li>
+                  <li className="text-[15px]">Online Fee Payment</li>
+                  <li className="text-[15px]">Home work</li>
+                  <li className="text-[15px]">Transport Tracking</li>
+                  <li className="text-[15px]">Time Table</li>
+                  <li className="text-[15px]">Communication & Collabration</li>
+                  <li className="text-[15px]">Report Card</li>
+                  <li className="text-[15px]">Lesson Plan</li>
+                  <li className="text-[15px]">Report Card</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {/* second section */}
+        </div>
+        {/* feature section end */}
+        {/* vender erp section start */}
+        <div className="mt-5">
+          <p className="font-heading text-xl text-center md:text-4xl md:pt-10">
+            Why vedanta ERP SIS/SMS
+          </p>
+          <p className="text-center mt-3">
+            Vedanta School ERP helps the India’s largest education businesses to
+            make good decisions, reduce costs, improve efficiency and transform
+            their customer experience into a competitive advantage.Vedanta
+            education ERP system helps an education institution to become
+            compliant with nationally acknowledged best practices for the
+            education sector. It is developed with significant domain expertise
+            contributed by leading educationists. To know more about Vedanta
+            School ERP Solution download our sales presentation Vedanta ERP
+            Introduction 2019
+          </p>
+          <div className="grid sm:grid-cols-3 grid-cols-1 gap-20 mt-10">
+            {items.map((items, ind) => {
+              return (
+                <>
+                  <div key={ind} className=" bg-white shadow-md rounded-md p-3">
+                    <img
+                      src={items.img}
+                      alt=""
+                      className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
+                    />
+
+                    <div className="px-3 text-left">
+                      <p className="font-heading text-lg  md:text-2xl md:pt-5">
+                        {items.titel}
+                      </p>
+                      <p className="text-[14px]">{items.para}</p>{" "}
+                    </div>
+                  </div>
+                </>
+              );
+            })}
+          </div>
+        </div>
+        {/* vender erp section end */}
+        {/* trust of comunitty start section */}
+        <div className="my-8">
+          <p className="font-heading text-center text-lg  md:text-2xl md:pt-5">
+            Trusted by Community
+          </p>
+          <div className="grid sm:grid-cols-4 grid-cols-1 gap-12 mt-10">
+            <div className=" bg-white border-[1px] border-grey rounded-md p-8">
+              <img
+                src={School}
+                alt=""
+                className="lg:w-[1100px] lg:h-[1100px ] p-4 rounded-lg w-300px h-300px "
+              />
+              <p className="text-Green font-heading text-center text-lg  md:text-2xl md:pt-5">
+                350000 +
+              </p>
+              <p className="font-heading text-center text-lg  md:text-xl ">
+                Students & Parents
+              </p>
+            </div>
+            <div className=" bg-white border-[1px] border-grey rounded-md p-8">
+              <img
+                src={School}
+                alt=""
+                className="lg:w-[1100px] lg:h-[1100px ] p-4 rounded-lg w-300px h-300px "
+              />
+              <p className="text-Green font-heading text-center text-lg  md:text-2xl md:pt-5">
+                90,000+
+              </p>
+              <p className="font-heading text-center text-lg  md:text-xl ">
+                Teachers & Staff
+              </p>
+            </div>
+            <div className=" bg-white border-[1px] border-grey rounded-md p-8">
+              <img
+                src={School}
+                alt=""
+                className="lg:w-[1100px] lg:h-[1100px ] p-4 rounded-lg w-300px h-300px "
+              />
+              <p className="text-Green font-heading text-center text-lg  md:text-2xl md:pt-5">
+                1500+
+              </p>
+              <p className="font-heading text-center text-lg  md:text-xl ">
+                Schools & Colleges
+              </p>
+            </div>
+            <div className=" bg-white border-[1px] border-grey rounded-md p-8">
+              <img
+                src={School}
+                alt=""
+                className="lg:w-[1100px] lg:h-[1100px ] p-4 rounded-lg w-300px h-300px "
+              />
+              <p className="text-Green font-heading text-center text-lg  md:text-2xl md:pt-5">
+                300+
+              </p>
+              <p className="font-heading text-center text-lg  md:text-xl ">
+                Modules & Features
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* trust of comunity end section */}
+        {/* our top customer start */}
+        <div className="my-8 w-[80%] mx-auto">
+          <p className="font-heading text-center text-lg  md:text-2xl md:pt-5">
+            Our Top Customers
+          </p>
+          <div className="my-5">
+            {/* <h2> Single Item</h2> */}
+            <Slider {...settings}>
+              <div className="p-10">
+                <h3>
+                  {" "}
+                  <img
+                    src={School}
+                    alt=""
+                    className="  rounded-lg w-200px h-300px "
+                  />
+                </h3>
+              </div>
+              <div className="p-10">
+                <h3>
+                  {" "}
+                  <img
+                    src={School}
+                    alt=""
+                    className="  rounded-lg w-200px h-300px "
+                  />
+                </h3>
+              </div>
+              <div className="p-10">
+                <h3>
+                  {" "}
+                  <img
+                    src={School}
+                    alt=""
+                    className="  rounded-lg w-200px h-300px "
+                  />
+                </h3>
+              </div>
+              <div className="p-10">
+                <h3>
+                  {" "}
+                  <img
+                    src={School}
+                    alt=""
+                    className="  rounded-lg w-200px h-300px "
+                  />
+                </h3>
+              </div>
+              <div className="p-10">
+                <h3>
+                  {" "}
+                  <img
+                    src={School}
+                    alt=""
+                    className="  rounded-lg w-200px h-300px "
+                  />
+                </h3>
+              </div>
+              <div className="p-10">
+                <h3>
+                  {" "}
+                  <img
+                    src={School}
+                    alt=""
+                    className="  rounded-lg w-200px h-300px "
+                  />
+                </h3>
+              </div>
+            </Slider>
+          </div>{" "}
+        </div>
+        {/* our top customer end */}
+        {/* <div className="md:flex gap-10 py-5 px-5 justify-between">
           <div className="md:w-[1280px] md:h-[500px] ">
             <img
               src={School}
@@ -16,7 +452,7 @@ function SolutionBody() {
               className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
             />
           </div>
-          <div className="md:w-[1280px] md:h-[500px] ">
+          <div className="md:w-[1280px] md:h-[500px]">
             <p className="font-heading text-xl md:text-4xl md:pt-10">
               Choosing School ERP or College ERP for your business?
             </p>
@@ -30,9 +466,7 @@ function SolutionBody() {
             </p>
             <div className="flex justify-evenly md:mt-10">
               <Link to="/solution/schoolerp">
-                <button
-                  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-                >
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                   <span className=" flex items-center gap-3">
                     Lern more
                     <GrLinkNext
@@ -49,8 +483,9 @@ function SolutionBody() {
               </Link>
             </div>
           </div>
-        </div>
-        <div className="flex gap-10 py-5 px-5 justify-between flex-col-reverse md:flex-row">
+        </div> */}
+
+        {/* <div className="flex gap-10 py-5 px-5 justify-between flex-col-reverse md:flex-row">
           <div className="md:w-[1280px] md:h-[500px] ">
             <p className="font-heading text-xl md:text-4xl md:pt-10">
               Easily build and run your ecommerce website
@@ -93,9 +528,8 @@ function SolutionBody() {
               className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
             />
           </div>
-        </div>
+        </div> */}
         {/* second start  */}
-       
       </div>
     </>
   );
