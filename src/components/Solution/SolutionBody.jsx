@@ -5,31 +5,45 @@ import { GrLinkNext } from "react-icons/gr";
 import { Link } from "react-router-dom";
 import { Component } from "react";
 import Slider from "react-slick";
-
+import s1 from "../../assets/Solution/s1.png";
+import s2 from "../../assets/Solution/s2.png";
+import s3 from "../../assets/Solution/s3.png";
+import ts4 from "../../assets/Solution/ts4.png";
+import s5 from "../../assets/Solution/s5.png";
+import p1 from "../../assets/Solution/p1.png";
+import p2 from "../../assets/Solution/p2.png";
+import p3 from "../../assets/Solution/p3.png";
+import p4 from "../../assets/Solution/p4.png";
+import inf from "../../assets/Solution/inf.png";
+import pep from "../../assets/Solution/pep.png";
+import forn from "../../assets/Solution/forn.png";
+import acd from "../../assets/Solution/acd.png";
+import fin from "../../assets/Solution/fin.png";
+import mob from "../../assets/Solution/mob.png";
 function SolutionBody() {
   const items = [
     {
-      img: "https://vedantaschoolerp.com/img/bg-img/mobileapp.jpg",
+      img: "./u3.png",
       titel: "Secure Cloud",
       para: "Over 90% of our clients switched to our cloud solution as it is Secure, Reliance & Cost effective. Don't spend money on buying expensive computers & managing the servers. Our secure SSL enabled servie gives you information in lightning speed at the same time keep the information secure using state of art, industry accepted best practices. You can just pay for use then relax & take care of your business while we manage server, backup, virus protection, technical support for your customers.",
     },
     {
-      img: "https://vedantaschoolerp.com/img/bg-img/mobileapp.jpg",
+      img: "./real.png",
       titel: "Real Time Information & Upto Date Software",
       para: "In today's digital world you need to make decision with lightening speed therefore we ensured that you get real time feed to your business wherever you are in the world. Our product solves biggest problem of information availability on time. We ensure that you always use the best without any surprises on the pricing factors. We work several education industry leader & community which help us craft the best solution for your education business need. Always get the best today & in future.",
     },
+    // {
+    //   img: "https://vedantaschoolerp.com/img/bg-img/mobileapp.jpg",
+    //   titel: "2 Hours Installation",
+    //   para: "From the time you sign-up with us, we will ensure your ERP system is up & running within 4 hrs. Our technical support engineers will help you transition from other softwares or offline. We understand these complexities as it we have spend several years in implementing ERP in schools/colleges & universities.",
+    // },
     {
-      img: "https://vedantaschoolerp.com/img/bg-img/mobileapp.jpg",
-      titel: "2 Hours Installation",
-      para: "From the time you sign-up with us, we will ensure your ERP system is up & running within 4 hrs. Our technical support engineers will help you transition from other softwares or offline. We understand these complexities as it we have spend several years in implementing ERP in schools/colleges & universities.",
-    },
-    {
-      img: "https://vedantaschoolerp.com/img/bg-img/mobileapp.jpg",
+      img: "./u2.png",
       titel: "Integrated/ Role Based",
       para: "Every user will have personalized dashboard. Let user view/edit the information which is relevant to them. You have a great control on who will see what.Automate every process in your school!!!",
     },
     {
-      img: "https://vedantaschoolerp.com/img/bg-img/mobileapp.jpg",
+      img: "./u1.png",
       titel: "User Friendly",
       para: "Design for us is not how it looks like but how it works. Everything we do we take utmost care that how the user will use the system with ease.",
     },
@@ -45,7 +59,7 @@ function SolutionBody() {
     infinite: false,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
       {
@@ -78,7 +92,10 @@ function SolutionBody() {
     <>
       <div className="md:w-[1280px] mx-auto">
         <div className="mt-10">
-          <p>
+          <p className="font-heading text-xl text-center md:text-4xl md:pt-10">
+            Vedanta School ERP | Introduction
+          </p>
+          <p className="mt-2">
             <span>VEDANTA School ERP</span> - Institution Automation System is a
             versatile, proprietary and integrated system for an Institution
             encompassing the end-to-end academic and administrative processes
@@ -95,14 +112,14 @@ function SolutionBody() {
           <p className="font-heading text-xl text-center md:text-4xl md:pt-10">
             Features of Vedanta School ERP
           </p>
-          <p className="text-center">
+          <p className="text-center mt-2">
             Our idea is to develop a future ready product which make people more
             efficient with the use of technnology
           </p>
           <div className="grid sm:grid-cols-3 grid-cols-1 gap-12 mt-10">
             <div className=" bg-white shadow-md rounded-md p-3">
               <img
-                src={School}
+                src={forn}
                 alt=""
                 className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
               />
@@ -128,7 +145,7 @@ function SolutionBody() {
             </div>
             <div className=" bg-white shadow-md rounded-md p-3">
               <img
-                src={School}
+                src={pep}
                 alt=""
                 className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
               />
@@ -155,7 +172,7 @@ function SolutionBody() {
             </div>
             <div className=" bg-white shadow-md rounded-md p-3">
               <img
-                src={School}
+                src={acd}
                 alt=""
                 className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
               />
@@ -188,7 +205,7 @@ function SolutionBody() {
           <div className="grid sm:grid-cols-3 grid-cols-1 gap-12 mt-10">
             <div className=" bg-white shadow-md rounded-md p-3">
               <img
-                src={School}
+                src={fin}
                 alt=""
                 className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
               />
@@ -222,7 +239,7 @@ function SolutionBody() {
             </div>
             <div className=" bg-white shadow-md rounded-md p-3">
               <img
-                src={School}
+                src={inf}
                 alt=""
                 className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
               />
@@ -245,7 +262,7 @@ function SolutionBody() {
             </div>
             <div className=" bg-white shadow-md rounded-md p-3">
               <img
-                src={School}
+                src={mob}
                 alt=""
                 className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
               />
@@ -283,9 +300,7 @@ function SolutionBody() {
             education ERP system helps an education institution to become
             compliant with nationally acknowledged best practices for the
             education sector. It is developed with significant domain expertise
-            contributed by leading educationists. To know more about Vedanta
-            School ERP Solution download our sales presentation Vedanta ERP
-            Introduction 2019
+            contributed by leading educationists.
           </p>
           <div className="grid sm:grid-cols-3 grid-cols-1 gap-20 mt-10">
             {items.map((items, ind) => {
@@ -295,7 +310,7 @@ function SolutionBody() {
                     <img
                       src={items.img}
                       alt=""
-                      className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
+                      className=" rounded-lg w-[300px] h-[250px] mx-auto"
                     />
 
                     <div className="px-3 text-left">
@@ -319,7 +334,7 @@ function SolutionBody() {
           <div className="grid sm:grid-cols-4 grid-cols-1 gap-12 mt-10">
             <div className=" bg-white border-[1px] border-grey rounded-md p-8">
               <img
-                src={School}
+                src={p2}
                 alt=""
                 className="lg:w-[1100px] lg:h-[1100px ] p-4 rounded-lg w-300px h-300px "
               />
@@ -332,7 +347,7 @@ function SolutionBody() {
             </div>
             <div className=" bg-white border-[1px] border-grey rounded-md p-8">
               <img
-                src={School}
+                src={p1}
                 alt=""
                 className="lg:w-[1100px] lg:h-[1100px ] p-4 rounded-lg w-300px h-300px "
               />
@@ -345,7 +360,7 @@ function SolutionBody() {
             </div>
             <div className=" bg-white border-[1px] border-grey rounded-md p-8">
               <img
-                src={School}
+                src={p3}
                 alt=""
                 className="lg:w-[1100px] lg:h-[1100px ] p-4 rounded-lg w-300px h-300px "
               />
@@ -358,7 +373,7 @@ function SolutionBody() {
             </div>
             <div className=" bg-white border-[1px] border-grey rounded-md p-8">
               <img
-                src={School}
+                src={p4}
                 alt=""
                 className="lg:w-[1100px] lg:h-[1100px ] p-4 rounded-lg w-300px h-300px "
               />
@@ -381,64 +396,54 @@ function SolutionBody() {
             {/* <h2> Single Item</h2> */}
             <Slider {...settings}>
               <div className="p-10">
-                <h3>
-                  {" "}
-                  <img
-                    src={School}
-                    alt=""
-                    className="  rounded-lg w-200px h-300px "
-                  />
-                </h3>
+                {" "}
+                <img
+                  src={s1}
+                  alt=""
+                  className="  rounded-lg w-200px h-300px "
+                />
               </div>
               <div className="p-10">
-                <h3>
-                  {" "}
-                  <img
-                    src={School}
-                    alt=""
-                    className="  rounded-lg w-200px h-300px "
-                  />
-                </h3>
+                {" "}
+                <img
+                  src={s2}
+                  alt=""
+                  className="  rounded-lg w-200px h-300px "
+                />
+                <div className="bg-grey p-6">hello</div>
               </div>
               <div className="p-10">
-                <h3>
-                  {" "}
-                  <img
-                    src={School}
-                    alt=""
-                    className="  rounded-lg w-200px h-300px "
-                  />
-                </h3>
+                {" "}
+                <img
+                  src={s3}
+                  alt=""
+                  className="  rounded-lg w-200px h-300px "
+                />
               </div>
               <div className="p-10">
-                <h3>
-                  {" "}
-                  <img
-                    src={School}
-                    alt=""
-                    className="  rounded-lg w-200px h-300px "
-                  />
-                </h3>
+                {" "}
+                <img
+                  src={ts4}
+                  alt=""
+                  className="  rounded-lg w-200px h-300px "
+                />
+                <div className="bg-grey p-6">hello</div>
               </div>
               <div className="p-10">
-                <h3>
-                  {" "}
-                  <img
-                    src={School}
-                    alt=""
-                    className="  rounded-lg w-200px h-300px "
-                  />
-                </h3>
+                <img
+                  src={s5}
+                  alt=""
+                  className="  rounded-lg w-200px h-300px "
+                />
               </div>
               <div className="p-10">
-                <h3>
-                  {" "}
+                <div className=" bg-white  rounded-2xl shadow-md  w-250px h-340px">
                   <img
-                    src={School}
+                    src={s1}
                     alt=""
-                    className="  rounded-lg w-200px h-300px "
+                    className="  rounded-lg w-200px h-300px mx-auto "
                   />
-                </h3>
+                </div>
               </div>
             </Slider>
           </div>{" "}
