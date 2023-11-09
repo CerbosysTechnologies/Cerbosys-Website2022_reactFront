@@ -8,7 +8,8 @@ import Slider from "react-slick";
 import s1 from "../../assets/Solution/s1.png";
 import s2 from "../../assets/Solution/s2.png";
 import s3 from "../../assets/Solution/s3.png";
-import ts4 from "../../assets/Solution/ts4.png";
+import s4 from "../../assets/Solution/s4.png";
+import s6 from "../../assets/Solution/s6.png";
 import s5 from "../../assets/Solution/s5.png";
 import p1 from "../../assets/Solution/p1.png";
 import p2 from "../../assets/Solution/p2.png";
@@ -20,7 +21,7 @@ import forn from "../../assets/Solution/forn.png";
 import acd from "../../assets/Solution/acd.png";
 import fin from "../../assets/Solution/fin.png";
 import mob from "../../assets/Solution/mob.png";
-import mob1 from "../../assets/Solution/mob1.png"
+import mob1 from "../../assets/Solution/mob1.png";
 function SolutionBody() {
   const items = [
     {
@@ -373,12 +374,8 @@ function SolutionBody() {
             </div>
           </div>
           <div className="md:flex justify-center flex-wrap  gap-20 mt-10 ">
-            <div className=" bg-white shadow-md rounded-md p-3 md:w-[30%] w-[100%]">
-              <img
-                src={items.img}
-                alt=""
-                className=" rounded-lg w-[300px] h-[250px] mx-auto"
-              />
+            <div className=" bg-white shadow-md rounded-md p-3 md:w-[40%] w-[100%]">
+              <img src={items.img} alt="" className=" rounded-lg  mx-auto" />
 
               <div className="px-3 text-left">
                 <p className="font-heading text-lg  md:text-2xl md:pt-5">
@@ -391,12 +388,8 @@ function SolutionBody() {
                 </p>{" "}
               </div>
             </div>
-            <div className=" bg-white shadow-md rounded-md p-3 md:w-[30%] w-[100%]">
-              <img
-                src={mob1}
-                alt=""
-                className=" rounded-lg  mx-auto"
-              />
+            <div className=" bg-white shadow-md rounded-md p-3 md:w-[40%] w-[100%]">
+              <img src={mob1} alt="" className=" rounded-lg  mx-auto" />
 
               <div className="px-3 text-left">
                 <p className="font-heading text-lg  md:text-2xl md:pt-5">
@@ -484,18 +477,14 @@ function SolutionBody() {
             <Slider {...settings}>
               <div className="">
                 {" "}
-                <img
-                  src={s1}
-                  alt=""
-                  className="  rounded-lg w-[40%]  mx-auto"
-                />
+                <img src={s1} alt="" className="  rounded-lg w-[60%] mx-auto" />
               </div>
               <div className="">
                 {" "}
                 <img
                   src={s2}
                   alt=""
-                  className="  rounded-lg w-[40%]   mx-auto"
+                  className="  rounded-lg w-[60%]  mx-auto"
                 />
                 <div className="bg-grey p-6">hello</div>
               </div>
@@ -504,15 +493,15 @@ function SolutionBody() {
                 <img
                   src={s3}
                   alt=""
-                  className="  rounded-lg w-[40%]   mx-auto"
+                  className="  rounded-lg w-[60%]  mx-auto"
                 />
               </div>
               <div className="">
                 {" "}
                 <img
-                  src={ts4}
+                  src={s4}
                   alt=""
-                  className="  rounded-lg w-[40%]   mx-auto"
+                  className="  rounded-lg  w-[60%]  mx-auto"
                 />
                 <div className="bg-grey p-6">hello</div>
               </div>
@@ -520,16 +509,12 @@ function SolutionBody() {
                 <img
                   src={s5}
                   alt=""
-                  className="  rounded-lg w-[40%]   mx-auto"
+                  className="  rounded-lg  w-[60%]  mx-auto"
                 />
               </div>
               <div className="">
                 {/* <div className=" bg-white  rounded-2xl shadow-md  w-250px h-340px"> */}
-                <img
-                  src={s1}
-                  alt=""
-                  className="  rounded-lg w-[40%]   mx-auto"
-                />
+                <img src={s6} alt="" className="  rounded-lg w-[60%] mx-auto" />
                 {/* </div> */}
               </div>
             </Slider>
