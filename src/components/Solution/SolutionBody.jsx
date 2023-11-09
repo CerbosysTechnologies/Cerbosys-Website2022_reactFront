@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ecom from "../../assets/Solution/ecom.jpg";
 import School from "../../assets/Solution/School.png";
 import { GrLinkNext } from "react-icons/gr";
@@ -22,40 +22,10 @@ import acd from "../../assets/Solution/acd.png";
 import fin from "../../assets/Solution/fin.png";
 import mob from "../../assets/Solution/mob.png";
 import mob1 from "../../assets/Solution/mob1.png";
+import u11 from "../../assets/Solution/u11.png";
+import u12 from "../../assets/Solution/u12.png";
 function SolutionBody() {
-  const items = [
-    {
-      img: "./u3.png",
-      titel: "Secure Cloud",
-      para: "Over 90% of our clients switched to our cloud solution as it is Secure, Reliance & Cost effective. Don't spend money on buying expensive computers & managing the servers. Our secure SSL enabled servie gives you information in lightning speed at the same time keep the information secure using state of art, industry accepted best practices. You can just pay for use then relax & take care of your business while we manage server, backup, virus protection, technical support for your customers.",
-    },
-    {
-      img: "./real.png",
-      titel: "Real Time Information & Upto Date Software",
-      para: "In today's digital world you need to make decision with lightening speed therefore we ensured that you get real time feed to your business wherever you are in the world. Our product solves biggest problem of information availability on time. We ensure that you always use the best without any surprises on the pricing factors. We work several education industry leader & community which help us craft the best solution for your education business need. Always get the best today & in future.",
-    },
-    // {
-    //   img: "https://vedantaschoolerp.com/img/bg-img/mobileapp.jpg",
-    //   titel: "2 Hours Installation",
-    //   para: "From the time you sign-up with us, we will ensure your ERP system is up & running within 4 hrs. Our technical support engineers will help you transition from other softwares or offline. We understand these complexities as it we have spend several years in implementing ERP in schools/colleges & universities.",
-    // },
-    {
-      img: "./u2.png",
-      titel: "Integrated/ Role Based",
-      para: "Every user will have personalized dashboard. Let user view/edit the information which is relevant to them. You have a great control on who will see what.Automate every process in your school!!!",
-    },
-    {
-      img: "./u1.png",
-      titel: "User Friendly",
-      para: "Design for us is not how it looks like but how it works. Everything we do we take utmost care that how the user will use the system with ease.",
-    },
-    {
-      img: "https://vedantaschoolerp.com/img/bg-img/mobileapp.jpg",
-      titel: "Mobile App",
-      para: "Our mobile app gives you and parents a great control to find every piece of information in your cell phone like fee collection, home work attendance alert etc. Parents can view the digital report card.",
-    },
-  ];
-
+  // const [chang1, setChang1] = useState();
   var settings = {
     dots: false,
     infinite: false,
@@ -307,7 +277,7 @@ function SolutionBody() {
           <div className="grid sm:grid-cols-3 justify-center grid-cols-1 gap-20 mt-10">
             <div className=" bg-white shadow-md rounded-md p-3">
               <img
-                src={items.img}
+                src={u11}
                 alt=""
                 className=" rounded-lg w-[300px] h-[250px] mx-auto"
               />
@@ -331,7 +301,7 @@ function SolutionBody() {
             </div>
             <div className=" bg-white shadow-md rounded-md p-3">
               <img
-                src={items.img}
+                // src={items.img}
                 alt=""
                 className=" rounded-lg w-[300px] h-[250px] mx-auto"
               />
@@ -355,10 +325,44 @@ function SolutionBody() {
             </div>
             <div className=" bg-white shadow-md rounded-md p-3">
               <img
-                src={items.img}
+                // src={items.img}
                 alt=""
-                className=" rounded-lg w-[300px] h-[250px] mx-auto"
+                className=" rounded-lg  mx-auto"
               />
+
+              <div className="px-3 text-left">
+                <p className="font-heading text-lg  md:text-2xl md:pt-5">
+                  User Friendly
+                </p>
+                <p className="text-[14px]">
+                  Design for us is not how it looks like but how it works.
+                  Everything we do we take utmost care that how the user will
+                  use the system with ease.
+                </p>{" "}
+              </div>
+            </div>
+          </div>
+          <div className="md:flex justify-center flex-wrap  gap-20 mt-10 ">
+            {/* <div className=" bg-white shadow-md rounded-md p-3 md:w-[40%] w-[100%]">
+              <img
+                // src={items.img}
+                alt=""
+                className=" rounded-lg  mx-auto"
+              />
+
+              <div className="px-3 text-left">
+                <p className="font-heading text-lg  md:text-2xl md:pt-5">
+                  User Friendly
+                </p>
+                <p className="text-[14px]">
+                  Design for us is not how it looks like but how it works.
+                  Everything we do we take utmost care that how the user will
+                  use the system with ease.
+                </p>{" "}
+              </div>
+            </div> */}
+            <div className="     bg-white shadow-md rounded-md p-3 md:w-[40%] w-[100%]">
+              <img src={u12} alt="" className=" rounded-lg mx-auto" />
 
               <div className="px-3 text-left">
                 <p className="font-heading text-lg  md:text-2xl md:pt-5">
@@ -369,22 +373,6 @@ function SolutionBody() {
                   view/edit the information which is relevant to them. You have
                   a great control on who will see what. Automate every process
                   in your school!!!
-                </p>{" "}
-              </div>
-            </div>
-          </div>
-          <div className="md:flex justify-center flex-wrap  gap-20 mt-10 ">
-            <div className=" bg-white shadow-md rounded-md p-3 md:w-[40%] w-[100%]">
-              <img src={items.img} alt="" className=" rounded-lg  mx-auto" />
-
-              <div className="px-3 text-left">
-                <p className="font-heading text-lg  md:text-2xl md:pt-5">
-                  User Friendly
-                </p>
-                <p className="text-[14px]">
-                  Design for us is not how it looks like but how it works.
-                  Everything we do we take utmost care that how the user will
-                  use the system with ease.
                 </p>{" "}
               </div>
             </div>
@@ -478,6 +466,10 @@ function SolutionBody() {
               <div className="">
                 {" "}
                 <img src={s1} alt="" className="  rounded-lg w-[60%] mx-auto" />
+                <div>
+                  Basava International Dwarka
+                  {/* <br>200 +</br> */}
+                </div>
               </div>
               <div className="">
                 {" "}
@@ -486,7 +478,7 @@ function SolutionBody() {
                   alt=""
                   className="  rounded-lg w-[60%]  mx-auto"
                 />
-                <div className="bg-grey p-6">hello</div>
+                {/* <div className="bg-grey p-6">hello</div> */}
               </div>
               <div className="">
                 {" "}
@@ -503,7 +495,7 @@ function SolutionBody() {
                   alt=""
                   className="  rounded-lg  w-[60%]  mx-auto"
                 />
-                <div className="bg-grey p-6">hello</div>
+                {/* <div className="bg-grey p-6">hello</div> */}
               </div>
               <div className="">
                 <img

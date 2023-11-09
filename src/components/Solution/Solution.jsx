@@ -1,6 +1,6 @@
-import React from 'react';
-import SolutionBody from './SolutionBody';
-import { Helmet } from 'react-helmet';
+import React from "react";
+import SolutionBody from "./SolutionBody";
+import { Helmet } from "react-helmet";
 
 function Solution() {
   return (
@@ -24,7 +24,9 @@ function Solution() {
           </div>
           {/* Content Section Ends*/}
         </div>
-        <SolutionBody />
+        <div>
+          <SolutionBody />
+        </div>
       </div>
     </>
   );
