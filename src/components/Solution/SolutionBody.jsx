@@ -24,8 +24,12 @@ import mob from "../../assets/Solution/mob.png";
 import mob1 from "../../assets/Solution/mob1.png";
 import u11 from "../../assets/Solution/u11.png";
 import u12 from "../../assets/Solution/u12.png";
+import u1 from "../../assets/Solution/u1.png";
+import real1 from "../../assets/Solution/real1.png";
+import mobapp from "../../assets/Solution/mobapp.png"
+
 function SolutionBody() {
-  // const [chang1, setChang1] = useState();
+  const [chang1, setChang1] = useState();
   var settings = {
     dots: false,
     infinite: false,
@@ -65,24 +69,24 @@ function SolutionBody() {
       <div className="md:w-[1280px] mx-auto">
         <div className="mt-10">
           <p className="font-heading text-xl text-center md:text-4xl md:pt-10">
-            Vedanta School ERP | Introduction
+            VEDANTA ERP | Introduction
           </p>
           <p className="mt-2">
-            <span>VEDANTA School ERP</span> - Institution Automation System is a
+            <span>VEDANTA ERP</span> - Institution Automation System is a
             versatile, proprietary and integrated system for an Institution
             encompassing the end-to-end academic and administrative processes
             across the Institution. Our product offers a comprehensive solution
             that covers every aspect of the functioning of an Institution – from
             academic activities to administrative functions – all on a single
             window platform. With flexible reporting capabilities, sound
-            educational analytics and protected access,
+            educational analytics and protected access.
           </p>
         </div>
         {/* featur section start */}
 
         <div>
           <p className="font-heading text-xl text-center md:text-4xl md:pt-10">
-            Features of Vedanta School ERP
+            Features of VEDANTA ERP
           </p>
           <p className="text-center mt-2">
             Our idea is to develop a future ready product which make people more
@@ -93,7 +97,7 @@ function SolutionBody() {
               <img
                 src={forn}
                 alt=""
-                className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
+                className=" rounded-lg w-full "
               />
 
               <div className="px-7">
@@ -119,7 +123,7 @@ function SolutionBody() {
               <img
                 src={pep}
                 alt=""
-                className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
+                className="w-full rounded-lg  "
               />
 
               <div className="px-7">
@@ -146,7 +150,7 @@ function SolutionBody() {
               <img
                 src={acd}
                 alt=""
-                className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
+                className=" rounded-lg w-full"
               />
 
               <div className="px-7">
@@ -179,7 +183,7 @@ function SolutionBody() {
               <img
                 src={fin}
                 alt=""
-                className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
+                className="w-full rounded-lg  "
               />
 
               <div className="px-7">
@@ -213,7 +217,7 @@ function SolutionBody() {
               <img
                 src={inf}
                 alt=""
-                className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
+                className=" rounded-lg w-full "
               />
 
               <div className="px-7">
@@ -234,9 +238,9 @@ function SolutionBody() {
             </div>
             <div className=" bg-white shadow-md rounded-md p-3">
               <img
-                src={mob}
+                src={mobapp}
                 alt=""
-                className="lg:w-[1100px] lg:h-[1100px ] rounded-lg w-300px h-300px "
+                className=" rounded-lg  w-full  "
               />
 
               <div className="px-7">
@@ -266,21 +270,16 @@ function SolutionBody() {
             Why vedanta ERP SIS/SMS
           </p>
           <p className="text-center mt-3">
-            Vedanta School ERP helps the India’s largest education businesses to
-            make good decisions, reduce costs, improve efficiency and transform
-            their customer experience into a competitive advantage.Vedanta
-            education ERP system helps an education institution to become
-            compliant with nationally acknowledged best practices for the
-            education sector. It is developed with significant domain expertise
-            contributed by leading educationists.
+            Vedanta ERP helps the education industry to make good decisions,
+            reduce costs, improve efficiency and transform their customer
+            experience into a competitive advantage.Vedanta education ERP system
+            helps an education institution to become compliant with best
+            practices for the education sector. It is developed with significant
+            domain expertise contributed by leading educationists.
           </p>
           <div className="grid sm:grid-cols-3 justify-center grid-cols-1 gap-20 mt-10">
             <div className=" bg-white shadow-md rounded-md p-3">
-              <img
-                src={u11}
-                alt=""
-                className=" rounded-lg w-[300px] h-[250px] mx-auto"
-              />
+              <img src={u11} alt="" className="w-full rounded-lg mx-auto" />
 
               <div className="px-3 text-left">
                 <p className="font-heading text-lg  md:text-2xl md:pt-5">
@@ -294,17 +293,12 @@ function SolutionBody() {
                   the same time keep the information secure using state of art,
                   industry accepted best practices. You can just pay for use
                   then relax & take care of your business while we manage
-                  server, backup, virus protection, technical support for your
-                  customers.
+                  server, backup, virus protection, technical support for you .
                 </p>{" "}
               </div>
             </div>
             <div className=" bg-white shadow-md rounded-md p-3">
-              <img
-                // src={items.img}
-                alt=""
-                className=" rounded-lg w-[300px] h-[250px] mx-auto"
-              />
+              <img src={real1} alt="" className="w-full rounded-lg  mx-auto" />
 
               <div className="px-3 text-left">
                 <p className="font-heading text-lg  md:text-2xl md:pt-5">
@@ -313,22 +307,18 @@ function SolutionBody() {
                 <p className="text-[14px]">
                   In today's digital world you need to make decision with
                   lightening speed therefore we ensured that you get real time
-                  feed to your business wherever you are in the world. Our
-                  product solves biggest problem of information availability on
-                  time. We ensure that you always use the best without any
-                  surprises on the pricing factors. We work several education
-                  industry leader & community which help us craft the best
-                  solution for your education business need. Always get the best
-                  today & in future.
+                  feed of your educational institute wherever you are in the
+                  world. Our product solves biggest problem of information
+                  availability on time. We ensure that you always use the best
+                  without any surprises on the pricing factors. We work with
+                  several education industry leader & community which help us
+                  craft the best solution for your education institute's need.
+                  Always get the best today & in future.
                 </p>{" "}
               </div>
             </div>
             <div className=" bg-white shadow-md rounded-md p-3">
-              <img
-                // src={items.img}
-                alt=""
-                className=" rounded-lg  mx-auto"
-              />
+              <img src={u1} alt="" className="w-full rounded-lg  mx-auto" />
 
               <div className="px-3 text-left">
                 <p className="font-heading text-lg  md:text-2xl md:pt-5">
@@ -362,7 +352,7 @@ function SolutionBody() {
               </div>
             </div> */}
             <div className="     bg-white shadow-md rounded-md p-3 md:w-[40%] w-[100%]">
-              <img src={u12} alt="" className=" rounded-lg mx-auto" />
+              <img src={u12} alt="" className=" rounded-lg w-full mx-auto" />
 
               <div className="px-3 text-left">
                 <p className="font-heading text-lg  md:text-2xl md:pt-5">
@@ -372,12 +362,12 @@ function SolutionBody() {
                   Every user will have personalized dashboard. Let user
                   view/edit the information which is relevant to them. You have
                   a great control on who will see what. Automate every process
-                  in your school!!!
+                  in your institute
                 </p>{" "}
               </div>
             </div>
             <div className=" bg-white shadow-md rounded-md p-3 md:w-[40%] w-[100%]">
-              <img src={mob1} alt="" className=" rounded-lg  mx-auto" />
+              <img src={mob1} alt="" className="w-full rounded-lg  mx-auto" />
 
               <div className="px-3 text-left">
                 <p className="font-heading text-lg  md:text-2xl md:pt-5">
@@ -386,7 +376,7 @@ function SolutionBody() {
                 <p className="text-[14px]">
                   Our mobile app gives you and parents a great control to find
                   every piece of information in your cell phone like fee
-                  collection, home work attendance alert etc. Parents can view
+                  payment, home-work , attendance alert etc. Parents can view
                   the digital report card.
                 </p>{" "}
               </div>
@@ -465,19 +455,18 @@ function SolutionBody() {
             <Slider {...settings}>
               <div className="">
                 {" "}
-                <img src={s1} alt="" className="  rounded-lg w-[60%] mx-auto" />
-                <div>
-                  Basava International Dwarka
-                  {/* <br>200 +</br> */}
+                <img src={s1} alt="" className="rounded-lg w-[60%] mx-auto" />
+                <div className="text-center rounded-md p-2 border-[1px] w-[70%] mx-auto">
+                  <p>Basava International Dwarka</p>
+                  <p>200+</p>
                 </div>
               </div>
               <div className="">
                 {" "}
-                <img
-                  src={s2}
-                  alt=""
-                  className="  rounded-lg w-[60%]  mx-auto"
-                />
+                <img src={s2} alt="" className="rounded-lg w-[60%]  mx-auto" />
+                <div className="text-center rounded-md p-2 border-[1px] w-[70%] mx-auto">
+                  <p>Delhi Public school</p>
+                </div>
                 {/* <div className="bg-grey p-6">hello</div> */}
               </div>
               <div className="">
@@ -487,6 +476,10 @@ function SolutionBody() {
                   alt=""
                   className="  rounded-lg w-[60%]  mx-auto"
                 />
+                <div className="text-center rounded-md p-2 border-[1px] w-[70%] mx-auto">
+                  <p>Shriram Centennial</p>
+                  <p>200+</p>
+                </div>
               </div>
               <div className="">
                 {" "}
@@ -495,6 +488,10 @@ function SolutionBody() {
                   alt=""
                   className="  rounded-lg  w-[60%]  mx-auto"
                 />
+                <div className="text-center rounded-md p-2 border-[1px] w-[70%] mx-auto">
+                  <p>Ram Mohan Roy/Cambridge</p>
+                  <p>School</p>
+                </div>
                 {/* <div className="bg-grey p-6">hello</div> */}
               </div>
               <div className="">
@@ -503,11 +500,18 @@ function SolutionBody() {
                   alt=""
                   className="  rounded-lg  w-[60%]  mx-auto"
                 />
+                <div className="text-center rounded-md p-2 border-[1px] w-[70%] mx-auto">
+                  <p>Excelsior American School</p>
+                  <p>Gurugaon</p>
+                </div>
               </div>
               <div className="">
                 {/* <div className=" bg-white  rounded-2xl shadow-md  w-250px h-340px"> */}
                 <img src={s6} alt="" className="  rounded-lg w-[60%] mx-auto" />
-                {/* </div> */}
+                <div className="text-center rounded-md p-2 border-[1px] w-[70%] mx-auto">
+                  <p>MVM Maharishi Vidya Mandir</p>
+                  <p>Gurugaon</p>
+                </div>
               </div>
             </Slider>
           </div>{" "}

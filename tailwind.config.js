@@ -30,6 +30,7 @@ module.exports = {
         Purpal: "#522165",
         Darkgray: " #F8F9FC",
         bluetext:"rgb(15, 82, 186)",
+        // greyss:"##952b2b"
       },
       keyframes: {
         wave: {

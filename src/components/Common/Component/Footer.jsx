@@ -121,7 +121,7 @@ const Footer = () => {
                     <Link to="/life-at-cerbosys">Life @ Cerbosys</Link>
                   </li>
                   <li className="">
-                    <Link to="/diversity-at-cerbosys">Deversity Cerbosys</Link>
+                    <Link to="/diversity-at-cerbosys">Diversity Cerbosys</Link>
                   </li>
                   <li className="">
                     <Link to="/testimonial">Testimonial</Link>
@@ -271,7 +271,8 @@ const Footer = () => {
                     +91 88-3969-7183
                   </span>
                 </div>
-                <div className="flex flex-row mb-5 md:w-64 w-64">
+                <hr className="h-2"></hr>
+                <div className="flex flex-row mb-5 mt-3 md:w-64 w-64">
                   <img
                     src={locationicon}
                     alt="Mobile App Development Services"
