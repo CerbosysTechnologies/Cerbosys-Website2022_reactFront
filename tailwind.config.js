@@ -29,7 +29,7 @@ module.exports = {
         Lightsky: "#C9DEFF",
         Purpal: "#522165",
         Darkgray: " #F8F9FC",
-        bluetext:"rgb(15, 82, 186)",
+        bluetext: "rgb(15, 82, 186)",
         // greyss:"##952b2b"
       },
       keyframes: {

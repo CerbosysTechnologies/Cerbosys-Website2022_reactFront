@@ -11,6 +11,7 @@ import s3 from "../../assets/Solution/s3.png";
 import s4 from "../../assets/Solution/s4.png";
 import s6 from "../../assets/Solution/s6.png";
 import s5 from "../../assets/Solution/s5.png";
+import s7 from "../../assets/Solution/s7.png";
 import p1 from "../../assets/Solution/p1.png";
 import p2 from "../../assets/Solution/p2.png";
 import p3 from "../../assets/Solution/p3.png";
@@ -26,7 +27,7 @@ import u11 from "../../assets/Solution/u11.png";
 import u12 from "../../assets/Solution/u12.png";
 import u1 from "../../assets/Solution/u1.png";
 import real1 from "../../assets/Solution/real1.png";
-import mobapp from "../../assets/Solution/mobapp.png"
+import mobapp from "../../assets/Solution/mobapp.png";
 
 function SolutionBody() {
   const [chang1, setChang1] = useState();
@@ -94,11 +95,7 @@ function SolutionBody() {
           </p>
           <div className="grid sm:grid-cols-3 grid-cols-1 gap-12 mt-10">
             <div className=" bg-white shadow-md rounded-md p-3">
-              <img
-                src={forn}
-                alt=""
-                className=" rounded-lg w-full "
-              />
+              <img src={forn} alt="" className=" rounded-lg w-full " />
 
               <div className="px-7">
                 <p className="font-heading text-lg  md:text-2xl md:pt-5">
@@ -120,11 +117,7 @@ function SolutionBody() {
               </div>
             </div>
             <div className=" bg-white shadow-md rounded-md p-3">
-              <img
-                src={pep}
-                alt=""
-                className="w-full rounded-lg  "
-              />
+              <img src={pep} alt="" className="w-full rounded-lg  " />
 
               <div className="px-7">
                 <p className="font-heading text-lg  md:text-2xl md:pt-5">
@@ -147,11 +140,7 @@ function SolutionBody() {
               </div>
             </div>
             <div className=" bg-white shadow-md rounded-md p-3">
-              <img
-                src={acd}
-                alt=""
-                className=" rounded-lg w-full"
-              />
+              <img src={acd} alt="" className=" rounded-lg w-full" />
 
               <div className="px-7">
                 <p className="font-heading text-lg  md:text-2xl md:pt-5">
@@ -180,11 +169,7 @@ function SolutionBody() {
 
           <div className="grid sm:grid-cols-3 grid-cols-1 gap-12 mt-10">
             <div className=" bg-white shadow-md rounded-md p-3">
-              <img
-                src={fin}
-                alt=""
-                className="w-full rounded-lg  "
-              />
+              <img src={fin} alt="" className="w-full rounded-lg  " />
 
               <div className="px-7">
                 <p className="font-heading text-lg  md:text-2xl md:pt-5">
@@ -214,11 +199,7 @@ function SolutionBody() {
               </div>
             </div>
             <div className=" bg-white shadow-md rounded-md p-3">
-              <img
-                src={inf}
-                alt=""
-                className=" rounded-lg w-full "
-              />
+              <img src={inf} alt="" className=" rounded-lg w-full " />
 
               <div className="px-7">
                 <p className="font-heading text-lg  md:text-2xl md:pt-5">
@@ -237,11 +218,7 @@ function SolutionBody() {
               </div>
             </div>
             <div className=" bg-white shadow-md rounded-md p-3">
-              <img
-                src={mobapp}
-                alt=""
-                className=" rounded-lg  w-full  "
-              />
+              <img src={mobapp} alt="" className=" rounded-lg  w-full  " />
 
               <div className="px-7">
                 <p className="font-heading text-lg  md:text-2xl md:pt-5">
@@ -458,7 +435,7 @@ function SolutionBody() {
                 <img src={s1} alt="" className="rounded-lg w-[60%] mx-auto" />
                 <div className="text-center rounded-md p-2 border-[1px] w-[70%] mx-auto">
                   <p>Basava International Dwarka</p>
-                  <p>200+</p>
+                  <p>200+ Branchan</p>
                 </div>
               </div>
               <div className="">
@@ -478,7 +455,7 @@ function SolutionBody() {
                 />
                 <div className="text-center rounded-md p-2 border-[1px] w-[70%] mx-auto">
                   <p>Shriram Centennial</p>
-                  <p>200+</p>
+                  <p>Dehradun</p>
                 </div>
               </div>
               <div className="">
@@ -502,7 +479,7 @@ function SolutionBody() {
                 />
                 <div className="text-center rounded-md p-2 border-[1px] w-[70%] mx-auto">
                   <p>Excelsior American School</p>
-                  <p>Gurugaon</p>
+                  <p>Gurugram</p>
                 </div>
               </div>
               <div className="">
@@ -510,7 +487,15 @@ function SolutionBody() {
                 <img src={s6} alt="" className="  rounded-lg w-[60%] mx-auto" />
                 <div className="text-center rounded-md p-2 border-[1px] w-[70%] mx-auto">
                   <p>MVM Maharishi Vidya Mandir</p>
-                  <p>Gurugaon</p>
+                  <p>200+ Branches</p>
+                </div>
+              </div>
+              <div className="">
+                {/* <div className=" bg-white  rounded-2xl shadow-md  w-250px h-340px"> */}
+                <img src={s7} alt="" className="  rounded-lg w-[60%] mx-auto" />
+                <div className="text-center rounded-md p-2 border-[1px] w-[70%] mx-auto">
+                  <p>Ridge Valley School</p>
+                  <p>DLF School</p>
                 </div>
               </div>
             </Slider>
