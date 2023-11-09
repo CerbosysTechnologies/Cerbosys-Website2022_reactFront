@@ -1,8 +1,8 @@
-import React from 'react';
-import portfolioleftimg from '../../assets/portfolio/portfolioleftimg.png';
-import portfolioright from '../../assets/portfolio/portfolioright.png';
-import Portfoliotabs from './Portfoliotabs';
-import { Link } from 'react-router-dom';
+import React from "react";
+import portfolioleftimg from "../../assets/portfolio/portfolioleftimg.png";
+import portfolioright from "../../assets/portfolio/portfolioright.png";
+import Portfoliotabs from "./Portfoliotabs";
+import { Link } from "react-router-dom";
 const Portfoliobody = () => {
   return (
     <>
@@ -25,7 +25,9 @@ const Portfoliobody = () => {
                       Portfolio
                     </h1>
                     <p className="mt-2 min-w-fit text-xl font-bold ">
-                      Join forces with us to elevate your business's growth! We offer a diverse range of choices for you to explore. Let's embark on this path of growth and success together.
+                      Join forces with us to elevate your business's growth! We
+                      offer a diverse range of choices for you to explore. Let's
+                      embark on this path of growth and success together.
                     </p>
                   </div>
                 </div>
@@ -50,16 +52,25 @@ const Portfoliobody = () => {
                   </h1>
                   <hr className="h-1 bg-Orange md:w-[420px] m-0 w-[220px]"></hr>
                   <p className="mt-10 min-w-fit text-xl">
-                    In our portfolio, you will discover an extensive collection of website and UI designs, social media posts, logos, and mockups. Dig deep into our captivating designs and get in
-                    touch with us to discuss how we can customize them to fulfill your business needs.
+                    In our portfolio, you will discover an extensive collection
+                    of website and UI designs, social media posts, logos, and
+                    mockups. Dig deep into our captivating designs and get in
+                    touch with us to discuss how we can customize them to
+                    fulfill your business needs.
                   </p>
                   <p className="mt-10 min-w-fit text-xl">
-                    As a web design company in Indore, we stay at the forefront of the latest technologies in web development. Our team of talented logo and graphic designers is dedicated to crafting visually stunning and impactful designs. Whether you're searching for a web designing company near you or looking for innovative solutions, we are here to assist you every step of the way.
+                    As a web design company in Indore, we stay at the forefront
+                    of the latest technologies in web development. Our team of
+                    talented logo and graphic designers is dedicated to crafting
+                    visually stunning and impactful designs. Whether you're
+                    searching for a web designing company near you or looking
+                    for innovative solutions, we are here to assist you every
+                    step of the way.
                   </p>
                   <Link to="/contact-us">
-                  <button className="bg-Purpal p-2 rounded mt-8 text-white">
-                  Book A Consultation Call
-                  </button>
+                    <button className="bg-Purpal p-2 rounded mt-8 text-white">
+                      Book A Consultation Call
+                    </button>
                   </Link>
                   {/* md:h-[24rem] */}
                 </div>
@@ -70,7 +81,6 @@ const Portfoliobody = () => {
             </div>
           </div>
         </div>
-
 
         {/* about portfolio end */}
         {/* portfolio tabs sections */}

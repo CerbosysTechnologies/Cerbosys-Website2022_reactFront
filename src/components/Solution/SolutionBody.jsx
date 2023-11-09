@@ -20,6 +20,7 @@ import forn from "../../assets/Solution/forn.png";
 import acd from "../../assets/Solution/acd.png";
 import fin from "../../assets/Solution/fin.png";
 import mob from "../../assets/Solution/mob.png";
+import mob1 from "../../assets/Solution/mob1.png"
 function SolutionBody() {
   const items = [
     {
@@ -302,27 +303,113 @@ function SolutionBody() {
             education sector. It is developed with significant domain expertise
             contributed by leading educationists.
           </p>
-          <div className="grid sm:grid-cols-3 grid-cols-1 gap-20 mt-10">
-            {items.map((items, ind) => {
-              return (
-                <>
-                  <div key={ind} className=" bg-white shadow-md rounded-md p-3">
-                    <img
-                      src={items.img}
-                      alt=""
-                      className=" rounded-lg w-[300px] h-[250px] mx-auto"
-                    />
+          <div className="grid sm:grid-cols-3 justify-center grid-cols-1 gap-20 mt-10">
+            <div className=" bg-white shadow-md rounded-md p-3">
+              <img
+                src={items.img}
+                alt=""
+                className=" rounded-lg w-[300px] h-[250px] mx-auto"
+              />
 
-                    <div className="px-3 text-left">
-                      <p className="font-heading text-lg  md:text-2xl md:pt-5">
-                        {items.titel}
-                      </p>
-                      <p className="text-[14px]">{items.para}</p>{" "}
-                    </div>
-                  </div>
-                </>
-              );
-            })}
+              <div className="px-3 text-left">
+                <p className="font-heading text-lg  md:text-2xl md:pt-5">
+                  Secure Cloud
+                </p>
+                <p className="text-[14px]">
+                  Over 90% of our clients switched to our cloud solution as it
+                  is Secure, Reliance & Cost effective. Don't spend money on
+                  buying expensive computers & managing the servers. Our secure
+                  SSL enabled servie gives you information in lightning speed at
+                  the same time keep the information secure using state of art,
+                  industry accepted best practices. You can just pay for use
+                  then relax & take care of your business while we manage
+                  server, backup, virus protection, technical support for your
+                  customers.
+                </p>{" "}
+              </div>
+            </div>
+            <div className=" bg-white shadow-md rounded-md p-3">
+              <img
+                src={items.img}
+                alt=""
+                className=" rounded-lg w-[300px] h-[250px] mx-auto"
+              />
+
+              <div className="px-3 text-left">
+                <p className="font-heading text-lg  md:text-2xl md:pt-5">
+                  Real Time Information & Upto Date Software
+                </p>
+                <p className="text-[14px]">
+                  In today's digital world you need to make decision with
+                  lightening speed therefore we ensured that you get real time
+                  feed to your business wherever you are in the world. Our
+                  product solves biggest problem of information availability on
+                  time. We ensure that you always use the best without any
+                  surprises on the pricing factors. We work several education
+                  industry leader & community which help us craft the best
+                  solution for your education business need. Always get the best
+                  today & in future.
+                </p>{" "}
+              </div>
+            </div>
+            <div className=" bg-white shadow-md rounded-md p-3">
+              <img
+                src={items.img}
+                alt=""
+                className=" rounded-lg w-[300px] h-[250px] mx-auto"
+              />
+
+              <div className="px-3 text-left">
+                <p className="font-heading text-lg  md:text-2xl md:pt-5">
+                  Integrated/ Role Based
+                </p>
+                <p className="text-[14px]">
+                  Every user will have personalized dashboard. Let user
+                  view/edit the information which is relevant to them. You have
+                  a great control on who will see what. Automate every process
+                  in your school!!!
+                </p>{" "}
+              </div>
+            </div>
+          </div>
+          <div className="md:flex justify-center flex-wrap  gap-20 mt-10 ">
+            <div className=" bg-white shadow-md rounded-md p-3 md:w-[30%] w-[100%]">
+              <img
+                src={items.img}
+                alt=""
+                className=" rounded-lg w-[300px] h-[250px] mx-auto"
+              />
+
+              <div className="px-3 text-left">
+                <p className="font-heading text-lg  md:text-2xl md:pt-5">
+                  User Friendly
+                </p>
+                <p className="text-[14px]">
+                  Design for us is not how it looks like but how it works.
+                  Everything we do we take utmost care that how the user will
+                  use the system with ease.
+                </p>{" "}
+              </div>
+            </div>
+            <div className=" bg-white shadow-md rounded-md p-3 md:w-[30%] w-[100%]">
+              <img
+                src={mob1}
+                alt=""
+                className=" rounded-lg  mx-auto"
+              />
+
+              <div className="px-3 text-left">
+                <p className="font-heading text-lg  md:text-2xl md:pt-5">
+                  Mobile App
+                </p>
+                <p className="text-[14px]">
+                  Our mobile app gives you and parents a great control to find
+                  every piece of information in your cell phone like fee
+                  collection, home work attendance alert etc. Parents can view
+                  the digital report card.
+                </p>{" "}
+              </div>
+            </div>
           </div>
         </div>
         {/* vender erp section end */}
@@ -339,7 +426,7 @@ function SolutionBody() {
                 className="lg:w-[1100px] lg:h-[1100px ] p-4 rounded-lg w-300px h-300px "
               />
               <p className="text-Green font-heading text-center text-lg  md:text-2xl md:pt-5">
-                350000 +
+                350000+
               </p>
               <p className="font-heading text-center text-lg  md:text-xl ">
                 Students & Parents
@@ -395,55 +482,55 @@ function SolutionBody() {
           <div className="my-5">
             {/* <h2> Single Item</h2> */}
             <Slider {...settings}>
-              <div className="p-10">
+              <div className="">
                 {" "}
                 <img
                   src={s1}
                   alt=""
-                  className="  rounded-lg w-200px h-300px "
+                  className="  rounded-lg w-[40%]  mx-auto"
                 />
               </div>
-              <div className="p-10">
+              <div className="">
                 {" "}
                 <img
                   src={s2}
                   alt=""
-                  className="  rounded-lg w-200px h-300px "
+                  className="  rounded-lg w-[40%]   mx-auto"
                 />
                 <div className="bg-grey p-6">hello</div>
               </div>
-              <div className="p-10">
+              <div className="">
                 {" "}
                 <img
                   src={s3}
                   alt=""
-                  className="  rounded-lg w-200px h-300px "
+                  className="  rounded-lg w-[40%]   mx-auto"
                 />
               </div>
-              <div className="p-10">
+              <div className="">
                 {" "}
                 <img
                   src={ts4}
                   alt=""
-                  className="  rounded-lg w-200px h-300px "
+                  className="  rounded-lg w-[40%]   mx-auto"
                 />
                 <div className="bg-grey p-6">hello</div>
               </div>
-              <div className="p-10">
+              <div className="">
                 <img
                   src={s5}
                   alt=""
-                  className="  rounded-lg w-200px h-300px "
+                  className="  rounded-lg w-[40%]   mx-auto"
                 />
               </div>
-              <div className="p-10">
-                <div className=" bg-white  rounded-2xl shadow-md  w-250px h-340px">
-                  <img
-                    src={s1}
-                    alt=""
-                    className="  rounded-lg w-200px h-300px mx-auto "
-                  />
-                </div>
+              <div className="">
+                {/* <div className=" bg-white  rounded-2xl shadow-md  w-250px h-340px"> */}
+                <img
+                  src={s1}
+                  alt=""
+                  className="  rounded-lg w-[40%]   mx-auto"
+                />
+                {/* </div> */}
               </div>
             </Slider>
           </div>{" "}
