@@ -15,7 +15,6 @@ const server = createServer((req, res) => {
       // Add more URLs dynamically based on your routes
     ],
   });
-
   if (req.url === '/sitemap.xml') {
     res.setHeader('Content-Type', 'application/xml');
     res.end(sitemap.toString());
