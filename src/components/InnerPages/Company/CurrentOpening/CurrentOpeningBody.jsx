@@ -1,34 +1,33 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react';
-import tripicon from '../../../../assets/innerpage/currentopening/trip.svg';
-import { SERVER } from '../../../../ServerUrls';
-import experience from '../../../../assets/Careerpage/experience.png';
-import location from '../../../../assets/Careerpage/location.png';
-import rupes from '../../../../assets/Careerpage/rupes.png';
-import fulltime from '../../../../assets/Careerpage/fulltime.png';
+import axios from "axios";
+import React, { useEffect, useState } from "react";
+import tripicon from "../../../../assets/innerpage/currentopening/trip.svg";
+import { SERVER } from "../../../../ServerUrls";
+import experience from "../../../../assets/Careerpage/experience.png";
+import location from "../../../../assets/Careerpage/location.png";
+import rupes from "../../../../assets/Careerpage/rupes.png";
+import fulltime from "../../../../assets/Careerpage/fulltime.png";
 
-
-import ApplyForjob from './ApplyForjob';
-import {  useNavigate } from 'react-router-dom';
+import ApplyForjob from "./ApplyForjob";
+import { useNavigate } from "react-router-dom";
 
 const CurrentOpeningBody = () => {
   let navigate = useNavigate();
- 
 
-  const IMG = 'https://cerbosys.in:3700/job_post/';
+  // const IMG = 'https://cerbosys.in:3700/job_post/';
+  const IMG = "https://api.cerbosys.com/job_post/";
   const [Job, setJob] = useState([]);
 
   const getData = () => {
     // this is for getAllJobPost for career page
 
     axios
-      .get(SERVER + '/getAllJobPost', {
+      .get(SERVER + "/getAllJobPost", {
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
       })
       .then((res, i) => {
-        console.log('getAllJobPost', res.data);
+        console.log("getAllJobPost", res.data);
         setJob(res.data.data);
       });
   };
@@ -46,9 +45,9 @@ const CurrentOpeningBody = () => {
         <div className="max-w-[1240px] mx-auto">
           <p className="font-heading text-3xl text-center ">Open Positions</p>
           <div className="block w-40  rounded-md h-[8px] bg-black justify-center m-auto mt-3">
-            <span className="animate-waving-hand block w-12  rounded-md h-[8px] bg-Orange justify-center m-auto mt-3 "></span>{' '}
+            <span className="animate-waving-hand block w-12  rounded-md h-[8px] bg-Orange justify-center m-auto mt-3 "></span>{" "}
           </div>
-      
+
           {/* Card Content Section */}
           <div className="flex justify-center">
             <div className="flex flex-wrap md:flex-nowrap mt-10   gap-10">
@@ -137,7 +136,6 @@ const CurrentOpeningBody = () => {
                                 Salary {item.salaryscale} /Months
                               </div>
                             </div>
-                            
                           </div>
                         </p>
 
@@ -179,7 +177,7 @@ const CurrentOpeningBody = () => {
             >
               <div>
                 <div className="flex flex-wrap">
-                  <img src={tripicon}  alt="Mobile App Development Services"/>
+                  <img src={tripicon} alt="Mobile App Development Services" />
                   <h2 className="font-heading text-xl p-2">
                     Healthy Work Environment
                   </h2>
@@ -194,7 +192,7 @@ const CurrentOpeningBody = () => {
 
               <div>
                 <div className="flex flex-wrap">
-                  <img src={tripicon}  alt="Mobile App Development Services"/>
+                  <img src={tripicon} alt="Mobile App Development Services" />
                   <h2 className="font-heading text-xl p-2 w-96">
                     Performance Linked Incentives and Reward Programs
                   </h2>
@@ -208,7 +206,7 @@ const CurrentOpeningBody = () => {
 
               <div>
                 <div className="flex flex-wrap">
-                  <img src={tripicon}  alt="Mobile App Development Services"/>
+                  <img src={tripicon} alt="Mobile App Development Services" />
                   <h2 className="font-heading text-xl p-2 w-96">
                     Training and Development Sessions
                   </h2>
@@ -222,7 +220,7 @@ const CurrentOpeningBody = () => {
 
               <div>
                 <div className="flex flex-wrap">
-                  <img src={tripicon}  alt="Mobile App Development Services"/>
+                  <img src={tripicon} alt="Mobile App Development Services" />
                   <h2 className="font-heading text-xl  p-2">Team Activities</h2>
                 </div>
                 <p className="font-content text-lg ml-14 text-justify">
@@ -234,7 +232,7 @@ const CurrentOpeningBody = () => {
 
               <div>
                 <div className="flex flex-wrap">
-                  <img src={tripicon}  alt="Mobile App Development Services"/>
+                  <img src={tripicon} alt="Mobile App Development Services" />
                   <h2 className="font-heading text-xl p-2">
                     Maternity and Paternity Leaves
                   </h2>
@@ -248,7 +246,7 @@ const CurrentOpeningBody = () => {
 
               <div>
                 <div className="flex flex-wrap">
-                  <img src={tripicon}  alt="Mobile App Development Services"/>
+                  <img src={tripicon} alt="Mobile App Development Services" />
                   <h2 className="font-heading text-xl p-2">
                     Work/Life Balance
                   </h2>
