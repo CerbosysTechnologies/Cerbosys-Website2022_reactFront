@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Switch, Route } from 'react-router-dom';
+import { Routes, Switch, Route, Navigate } from 'react-router-dom';
 import Hero from './components/HomePage/Hero';
 import WebDevelopment from './components/InnerPages/Services/Web/WebDevelopment';
 import MobileDevelopment from './components/InnerPages/Services/Mobile/MobileDevelopment';
@@ -60,7 +60,8 @@ import Portfolio from './components/protfolio/Portfolio';
 import NotFound from './components/Common/Component/NotFound';
 import FreeEnquiry from './components/Common/Component/FreeEnquiry';
 import { BannerEnquiry } from './components/Common/Component/BannerEnquiry';
-const Routers = () => {
+import Sitemap from './SitemapComponent.js';
+const MainRoutes = () => {
   return (
     <Routes>
       <Route exact path="/" element={<Hero />} />
@@ -136,9 +137,33 @@ const Routers = () => {
       <Route exact path="/solution/schoolerp" element={<SchoolERP />} />
       <Route exact path="/solution/E-Commerse" element={<ECommerse />} />
       <Route exact path="/banner-enquiry" element={<BannerEnquiry />} />
+      
       <Route exact path="*" element={<NotFound />} />
+      <Route path="*" element={<Navigate to="/" />} />
     </Routes>
   );
 };
+
+const Routers = () => {
+  return (
+    <Routes>
+      <Route
+        path="/"
+        element={
+          <>
+            <Navbar />
+            <MainRoutes />
+            <Footer />
+          </>
+        }
+      />
+      {/* Additional routes outside of Navbar and Footer */}
+      <Route path="/sitemap.xml" element={<Sitemap />} />
+      {/* ... (other routes) */}
+    </Routes>
+  );
+
+};
+
 
 export default Routers;

@@ -16,6 +16,7 @@ import Routers from "./Routers.js";
 import { useScroll, useSpring } from "framer-motion";
 import { useState } from "react";
 import axios from "axios";
+
 function App() {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -31,32 +32,15 @@ function App() {
   //   }
   // }, []);
   document.addEventListener("contextmenu", handelRightClick);
-  const [sitemapData, setSitemapData] = useState([]);
-  console.log(sitemapData);
-
-  useEffect(() => {
-    axios.get('https://api.cerbosys.com/cerbosys/sitemap.xml')
-      .then(response => {
-        
-        const data = response.data;
-        console.log('Sitemap => ', data);
-        setSitemapData(data);
-      })
-      .catch(error => {
-        console.error('Error fetching sitemap:', error);
-      });
-  }, []);
 
   return (
     <>
       <div className="selection:bg-Green selection:text-white">
-        <Navbar></Navbar>
-      
-        <FreeQuote /> 
-         
+        {/* <Navbar></Navbar>
+        <FreeQuote />   
         <Routers />
-{/* <Sitemap data={sitemapData} /> */}
-        <Footer />
+        <Footer /> */}
+         <Routers />
       </div>
       <ScrollToTop />
     </>

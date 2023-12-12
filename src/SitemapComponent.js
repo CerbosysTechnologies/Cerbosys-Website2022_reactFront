@@ -1,14 +1,22 @@
+import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-
-function Sitemap({ data }) {
+function Sitemap() {
+  const [sitemapData, setSitemapData] = useState([]);
+  console.log(sitemapData);
+  useEffect(() => {
+    axios.get('https://api.cerbosys.com/cerbosys/sitemap.xml')
+      .then(response => {
+        const data = response.data;
+        console.log('Sitemap => ', data);
+        setSitemapData(data);
+      })
+      .catch(error => {
+        console.error('Error fetching sitemap:', error);
+      });
+  }, []);
   return (
-    <ul>
-      {data.map(item => (
-        <li key={item.id}>
-          <a href={item.url}>{item.title}</a>
-        </li>
-      ))}
-    </ul>
+
+   <div>{sitemapData}</div>
   );
 }
 
