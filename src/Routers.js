@@ -61,9 +61,10 @@ import NotFound from './components/Common/Component/NotFound';
 import FreeEnquiry from './components/Common/Component/FreeEnquiry';
 import { BannerEnquiry } from './components/Common/Component/BannerEnquiry';
 import Sitemap from './SitemapComponent.js';
-const MainRoutes = () => {
+const Routers = () => {
   return (
     <Routes>
+     
       <Route exact path="/" element={<Hero />} />
       <Route exact path="/overview" element={<Overview />} />
       <Route
@@ -137,33 +138,13 @@ const MainRoutes = () => {
       <Route exact path="/solution/schoolerp" element={<SchoolERP />} />
       <Route exact path="/solution/E-Commerse" element={<ECommerse />} />
       <Route exact path="/banner-enquiry" element={<BannerEnquiry />} />
-      
+      <Route exact path="/sitemap.xml" element={<Sitemap />} />
       <Route exact path="*" element={<NotFound />} />
-      <Route path="*" element={<Navigate to="/" />} />
+
     </Routes>
   );
 };
 
-const Routers = () => {
-  return (
-    <Routes>
-      <Route
-        path="/"
-        element={
-          <>
-            <Navbar />
-            <MainRoutes />
-            <Footer />
-          </>
-        }
-      />
-      {/* Additional routes outside of Navbar and Footer */}
-      <Route path="/sitemap.xml" element={<Sitemap />} />
-      {/* ... (other routes) */}
-    </Routes>
-  );
-
-};
 
 
 export default Routers;
