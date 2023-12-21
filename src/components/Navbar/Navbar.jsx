@@ -30,7 +30,6 @@ const Navbar = () => {
     secondclose: secondclose,
   });
 
- 
   const [open, setOpen] = useState(false);
   //Nevbar scrolling effect
   const [headerVisible, setheaderVisible] = useState(false);
@@ -54,7 +53,6 @@ const Navbar = () => {
     setText(true);
   };
 
-
   return (
     <>
       <nav
@@ -74,20 +72,17 @@ const Navbar = () => {
                   alt="logo"
                   className="w-[50px] mx-auto"
                   onMouseOver={func1}
-                
                 />
 
                 <p className="text-white font-bold font-heading text-4xl">
                   {text ? (!headerVisible ? openeye : closeeye) : ' '}
                 </p>
-               
               </div>
-             
             </Link>
 
             <div
               className={`text-5xl md:hidden m-5 ${
-                !headerVisible ? 'text-white' : 'text-black'
+                !headerVisible ? 'text-white' : 'text-white'
               }`}
               onClick={() => setOpen(!open)}
             >
@@ -102,7 +97,6 @@ const Navbar = () => {
        md:text-white  ${!headerVisible ? '' : 'md:text-black'}
         `}
           >
-          
             <NavLinks></NavLinks>
             <li className="px-3 animate-lines-hover relative">
               <Link
@@ -126,7 +120,6 @@ const Navbar = () => {
                 Portfolio
               </Link>
             </li>
-           
 
             <li className="px-3 relative">
               <Link
@@ -141,7 +134,8 @@ const Navbar = () => {
 
             <li className="px-3 relative">
               <Link
-                 to="https://blog.cerbosys.com/" target='_blank'
+                to="https://blog.cerbosys.com/"
+                target="_blank"
                 className=" after:content-[''] after:absolute after:bg-orange-600 after:h-[3px] after:w-[0%] after:left-0 after:bottom-[-6px]
                after:ease-in-out after:duration-300
                hover:after:w-[100%]"
@@ -161,8 +155,6 @@ const Navbar = () => {
                 Contact Us
               </Link>
             </li>
-
-           
           </ul>
 
           {/* Call Icon */}
@@ -191,8 +183,6 @@ const Navbar = () => {
         duration-500 ${open ? 'left-0' : 'left-[-100%]'}
         `}
           >
-           
-
             <li className="py-2 px-2 ">
               <NavLinks />
             </li>
@@ -221,9 +211,11 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link 
-             to="https://blog.cerbosys.com/" target='_blank'
-              className="py-1 px-3 inline-block">
+              <Link
+                to="https://blog.cerbosys.com/"
+                target="_blank"
+                className="py-1 px-3 inline-block"
+              >
                 Blog
               </Link>
             </li>
