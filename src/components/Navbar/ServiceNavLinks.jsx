@@ -70,10 +70,11 @@ const NavLinks = () => {
                   </div>
                   <div className="mt-4">
                     <h2 className="font-subheading md:text-sm text-xs">
-                      <Link
+                      <Link to="/web-development">
+                        {/* <Link
                         to="https://software-development.cerbosys.com/"
                         target="_blank"
-                      >
+                      > */}
                         <span className="flex items-center gap-2 ">
                           <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
                           Software Development
