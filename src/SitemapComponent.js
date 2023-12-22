@@ -41,7 +41,7 @@ function Sitemap() {
   return (
     <div className='py-20'>
       
-      <SyntaxHighlighter language="xml" style={a11yDark}>
+      <SyntaxHighlighter language="xml" >
         {sitemapData}
       </SyntaxHighlighter>
 
