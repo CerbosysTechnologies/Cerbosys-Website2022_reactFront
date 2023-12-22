@@ -36,10 +36,10 @@ function App() {
   return (
     <>
       <div className="selection:bg-Green selection:text-white">
-        <Navbar></Navbar>
+        {/* <Navbar></Navbar> */}
         <FreeQuote />     
         <Routers />
-        <Footer />
+        {/* <Footer /> */}
       </div>
       <ScrollToTop />
     </>
