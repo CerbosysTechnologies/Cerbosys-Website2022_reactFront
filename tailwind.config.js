@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
   // darekmood start
   // darkMode: 'class',
   // darekmood snd
@@ -11,40 +11,40 @@ module.exports = {
     extend: {
       colors: {
         //'Primary':'#151F53',
-        Primary: "#0F52BA", // Sapphire Blue
+        Primary: '#0F52BA', // Sapphire Blue
         //'Primary':'#003399', // Rotary Blue
         //'Primary':'#4169E1', // King Blue
         //'Primary':'#0050B5', // Cobolt Blue
-        Secondary: "#404CDC",
-        Green: "#3C9612",
-        Skyblue: "#00D8FF",
-        Lightpink: "#FFD0D2",
-        Lightgreen: "#31E2B2",
-        Lightgrey: "#7A7A7A",
-        Lightblue: "#6BE6EB",
-        Darkblue: "#6c0ba9",
-        Textblue: "#4d516d",
-        Orange: "#fe6e00",
-        Grey: "#9F9F9F",
-        Lightsky: "#C9DEFF",
-        Purpal: "#522165",
-        Darkgray: " #F8F9FC",
-        bluetext: "rgb(15, 82, 186)",
-        Black: "rgb(0 0 0)"
+        Secondary: '#404CDC',
+        Green: '#3C9612',
+        Skyblue: '#00D8FF',
+        Lightpink: '#FFD0D2',
+        Lightgreen: '#31E2B2',
+        Lightgrey: '#7A7A7A',
+        Lightblue: '#6BE6EB',
+        Darkblue: '#6c0ba9',
+        Textblue: '#4d516d',
+        Orange: '#fe6e00',
+        Grey: '#9F9F9F',
+        Lightsky: '#C9DEFF',
+        Purpal: '#522165',
+        Darkgray: ' #F8F9FC',
+        bluetext: 'rgb(15, 82, 186)',
+        Black: 'rgb(0 0 0)',
         // greyss:"##952b2b"
       },
       keyframes: {
         wave: {
-          "0%": { transform: "translateX(-35px)" },
-          "100%": { transform: "translateX(40px)" },
+          '0%': { transform: 'translateX(-35px)' },
+          '100%': { transform: 'translateX(40px)' },
         },
         cyclie: {
-          "0%": { transform: "rotate(0deg)" },
-          "100%": { transform: "rotate(360deg)" },
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
         },
         pulse: {
-          from: { transform: "rotate(0deg)" },
-          to: { transform: "rotate(360deg)" },
+          from: { transform: 'rotate(0deg)' },
+          to: { transform: 'rotate(360deg)' },
         },
         // bouns: {
         //   '0%': { transform: 'rotateY(180deg)' },
@@ -52,40 +52,40 @@ module.exports = {
         // },
 
         btns: {
-          from: { transform: "rotate(0deg)" },
-          to: { transform: "rotate(360deg)" },
+          from: { transform: 'rotate(0deg)' },
+          to: { transform: 'rotate(360deg)' },
         },
         btnani: {
-          from: { transform: "rotate(0deg)" },
-          to: { transform: "rotate(360deg)" },
+          from: { transform: 'rotate(0deg)' },
+          to: { transform: 'rotate(360deg)' },
         },
         bttn: {
-          "0%": { transform: "rotate(0deg)" },
-          "100%": { transform: "rotate(360deg)" },
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
         },
 
         typing: {
-          "100%": {
-            left: "100%",
-            margin: "0px -35px 0 35px",
+          '100%': {
+            left: '100%',
+            margin: '0px -35px 0 35px',
           },
         },
         silde: {
-          "100%": {
-            top: "-360px",
+          '100%': {
+            top: '-360px',
           },
         },
       },
 
       animation: {
-        "waving-hand": "wave 3s linear infinite",
-        "cyclieing-hand": "cyclie 1s linear infinite",
-        "pulse-hand": "pulse 3s linear infinite",
-        "btns-hand": "btns 3s linear infinite",
-        "btnani-hand": "moveInBottom 5s ease-out",
-        "bttn-hand": "bttn 3s linear infinite",
-        "typing-hand": "typing 1.5s steps(10) infinite",
-        "silde-hand": "silde 9s steps(5) infinite",
+        'waving-hand': 'wave 3s linear infinite',
+        'cyclieing-hand': 'cyclie 1s linear infinite',
+        'pulse-hand': 'pulse 3s linear infinite',
+        'btns-hand': 'btns 3s linear infinite',
+        'btnani-hand': 'moveInBottom 5s ease-out',
+        'bttn-hand': 'bttn 3s linear infinite',
+        'typing-hand': 'typing 1.5s steps(10) infinite',
+        'silde-hand': 'silde 9s steps(5) infinite',
       },
     },
 
@@ -166,31 +166,31 @@ module.exports = {
       Ecomers: "url('assets/Solution/Ecomers.png')",
     },
     fontFamily: {
-      heading: ['"Heading"', "Montserrat-Bold"],
-      subheading: ['"Subheading"', "Montserrat-Medium"],
-      content: ['"Content"', "Montserrat-Regular"],
+      heading: ['"Heading"', 'Montserrat-Bold'],
+      subheading: ['"Subheading"', 'Montserrat-Medium'],
+      content: ['"Content"', 'Montserrat-Regular'],
     },
 
     theme: {
       screens: {
-        sm: "640px",
+        sm: '640px',
         // => @media (min-width: 640px) { ... }
 
-        md: "768px",
+        md: '768px',
         // => @media (min-width: 768px) { ... }
 
-        lg: "1024px",
+        lg: '1024px',
         // => @media (min-width: 1024px) { ... }
 
-        xl: "1280px",
+        xl: '1280px',
         // => @media (min-width: 1280px) { ... }
 
-        "2xl": "1536px",
+        '2xl': '1536px',
         // => @media (min-width: 1536px) { ... }
-        "2xxl": "1920px",
+        '2xxl': '1920px',
         // => @media (min-width: 1920px) { ... }
       },
     },
   },
-  plugins: [require("@tailwindcss/aspect-ratio")],
+  plugins: [require('@tailwindcss/aspect-ratio')],
 };

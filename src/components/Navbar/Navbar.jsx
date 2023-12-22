@@ -82,7 +82,7 @@ const Navbar = () => {
 
             <div
               className={`text-5xl md:hidden m-5 ${
-                !headerVisible ? 'text-white' : 'text-white'
+                !headerVisible ? 'text-white' : 'text-Black'
               }`}
               onClick={() => setOpen(!open)}
             >
