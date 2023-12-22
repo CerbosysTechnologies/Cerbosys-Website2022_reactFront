@@ -39,7 +39,8 @@ function Sitemap() {
       });
   }, []);
   return (
-    <div className="py-20">
+    <div className='py-20'>
+      
       <SyntaxHighlighter language="xml" style={a11yDark}>
         {sitemapData}
       </SyntaxHighlighter>

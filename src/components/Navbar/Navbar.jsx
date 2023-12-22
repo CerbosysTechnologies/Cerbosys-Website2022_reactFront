@@ -94,7 +94,7 @@ const Navbar = () => {
 
           <ul
             className={`md:flex hidden uppercase items-center gap-1 font-heading  md:text-[11px] xl:text-sm lg:text-text-[11px]
-       md:text-white  ${!headerVisible ? '' : 'md:text-black'}
+       text-white  ${!headerVisible ? 'text-white' : 'text-Black'}
         `}
           >
             <NavLinks></NavLinks>
