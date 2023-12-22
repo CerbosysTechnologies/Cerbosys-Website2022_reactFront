@@ -63,98 +63,93 @@ import { BannerEnquiry } from './components/Common/Component/BannerEnquiry';
 import Sitemap from './SitemapComponent.js';
 const Routers = () => {
   return (
+    <div>
+      {/* <Route exact path="/sitemap.xml" element={<Sitemap />} /> */}
 
-<Routes>
-<Route exact path="/sitemap.xml" element={<Sitemap />} />
-     <React.Fragment>
-        <Navbar/>
-    <Routes>
-     
-      <Route exact path="/" element={<Hero />} />
-      <Route exact path="/overview" element={<Overview />} />
-      <Route
-        exact
-        path="/training-and-development"
-        element={<TrainingAndDevelopment />}
-      />
-      <Route exact path="/team" element={<Team />} />
-      <Route exact path="/life-at-cerbosys" element={<LifeCerbosys />} />
-      <Route exact path="/diversity-at-cerbosys" element={<Diversity />} />
-      <Route exact path="/testimonial" element={<Testimonial />} />
-      <Route exact path="/web-development" element={<WebDevelopment />} />
-      <Route
-        exact
-        path="/software-development"
-        element={<Softwaredevelopment />}
-      />
-      <Route exact path="/digital-marketing" element={<DigitalMarketing />} />
-      <Route exact path="/lead-generation" element={<LeadGeneration />} />
-      <Route
-        exact
-        path="/branding-and-packaging"
-        element={<BrandingAndPackaging />}
-      />
-      <Route
-        exact
-        path="/mobile-app-development"
-        element={<MobileDevelopment />}
-      />
-      <Route exact path="/ui-ux-designing" element={<UIAndUX />} />
-      <Route exact path="/staff-augmentation" element={<StaffAugmentation />} />
-      <Route exact path="/hire-react-js-developer" element={<Reactjs />} />{' '}
-      <Route exact path="/hire-node-js-developer" element={<Nodejs />} />
-      <Route exact path="/hire-android-developer" element={<Android />} />
-      <Route exact path="/hire-ios-developer" element={<IOS />} />
-      <Route exact path="/hire-flutter-developer" element={<Flutter />} />
-      <Route exact path="/hire-laravel-developer" element={<Laravel />} />
-      <Route
-        exact
-        path="/hire-codeIgniter-developer"
-        element={<CodeIgniter />}
-      />
-      <Route exact path="/hire-angular-developer" element={<Angular />} />
-      <Route exact path="/hire-dotnet-developer" element={<DotNet />} />
-      <Route exact path="/contact-us" element={<ContactUs />} />
-      <Route exact path="/free-enquiry" element={<FreeEnquiry />} />
-      <Route exact path="/current-opening" element={<CurrentOpening />} />
-      <Route
-        exact
-        path="/current-opening/:id"
-        element={<CurrentOpningGetbyOne />}
-      />
-      <Route exact path="/blog" element={<Blog />} />
-      <Route exact path="/blog/:id" element={<BlogGetoneBlog />} />
-      <Route exact path="/agriculture" element={<Agriculture />} />
-      <Route exact path="/ecommerce-and-retail" element={<Ecommerce />} />
-      <Route exact path="/health-care" element={<HealthCare />} />
-      <Route exact path="/banking-and-finance" element={<Banking />} />
-      <Route exact path="/mining" element={<Mining />} />
-      <Route exact path="/transport-and-logistics" element={<Transport />} />
-      <Route exact path="/education" element={<Education />} />
-      <Route exact path="/real-estate" element={<RealEstate />} />
-      <Route exact path="/manufacturing" element={<Manufacturing />} />
-      <Route exact path="/whitepapers" element={<CaseStudy />} />
-      <Route exact path="/whitepapers/:id" element={<CaseStudyByOne />} />
-      <Route exact path="/terms-Conditions" element={<Termconditions />} />
-      <Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
-      <Route exact path="/about-us" element={<AboutUS />} />
-      <Route exact path="/solution" element={<Solution />} />
-      <Route exact path="/Portfolio" element={<Portfolio />} />
-      <Route exact path="/solution/schoolerp" element={<SchoolERP />} />
-      <Route exact path="/solution/E-Commerse" element={<ECommerse />} />
-      <Route exact path="/banner-enquiry" element={<BannerEnquiry />} />
-      <Route exact path="*" element={<NotFound />} />
-    </Routes>
-    <Footer/>
-    </React.Fragment>
-    </Routes>
- 
+      <Routes>
+        <Route exact path="/" element={<Hero />} />
+        <Route exact path="/overview" element={<Overview />} />
+        <Route
+          exact
+          path="/training-and-development"
+          element={<TrainingAndDevelopment />}
+        />
+        <Route exact path="/team" element={<Team />} />
+        <Route exact path="/life-at-cerbosys" element={<LifeCerbosys />} />
+        <Route exact path="/diversity-at-cerbosys" element={<Diversity />} />
+        <Route exact path="/testimonial" element={<Testimonial />} />
+        <Route exact path="/web-development" element={<WebDevelopment />} />
+        <Route
+          exact
+          path="/software-development"
+          element={<Softwaredevelopment />}
+        />
+        <Route exact path="/digital-marketing" element={<DigitalMarketing />} />
+        <Route exact path="/lead-generation" element={<LeadGeneration />} />
+        <Route
+          exact
+          path="/branding-and-packaging"
+          element={<BrandingAndPackaging />}
+        />
+        <Route
+          exact
+          path="/mobile-app-development"
+          element={<MobileDevelopment />}
+        />
+        <Route exact path="/ui-ux-designing" element={<UIAndUX />} />
+        <Route
+          exact
+          path="/staff-augmentation"
+          element={<StaffAugmentation />}
+        />
+        <Route exact path="/hire-react-js-developer" element={<Reactjs />} />{' '}
+        <Route exact path="/hire-node-js-developer" element={<Nodejs />} />
+        <Route exact path="/hire-android-developer" element={<Android />} />
+        <Route exact path="/hire-ios-developer" element={<IOS />} />
+        <Route exact path="/hire-flutter-developer" element={<Flutter />} />
+        <Route exact path="/hire-laravel-developer" element={<Laravel />} />
+        <Route
+          exact
+          path="/hire-codeIgniter-developer"
+          element={<CodeIgniter />}
+        />
+        <Route exact path="/hire-angular-developer" element={<Angular />} />
+        <Route exact path="/hire-dotnet-developer" element={<DotNet />} />
+        <Route exact path="/contact-us" element={<ContactUs />} />
+        <Route exact path="/free-enquiry" element={<FreeEnquiry />} />
+        <Route exact path="/current-opening" element={<CurrentOpening />} />
+        <Route
+          exact
+          path="/current-opening/:id"
+          element={<CurrentOpningGetbyOne />}
+        />
+        <Route exact path="/blog" element={<Blog />} />
+        <Route exact path="/blog/:id" element={<BlogGetoneBlog />} />
+        <Route exact path="/agriculture" element={<Agriculture />} />
+        <Route exact path="/ecommerce-and-retail" element={<Ecommerce />} />
+        <Route exact path="/health-care" element={<HealthCare />} />
+        <Route exact path="/banking-and-finance" element={<Banking />} />
+        <Route exact path="/mining" element={<Mining />} />
+        <Route exact path="/transport-and-logistics" element={<Transport />} />
+        <Route exact path="/education" element={<Education />} />
+        <Route exact path="/real-estate" element={<RealEstate />} />
+        <Route exact path="/manufacturing" element={<Manufacturing />} />
+        <Route exact path="/whitepapers" element={<CaseStudy />} />
+        <Route exact path="/whitepapers/:id" element={<CaseStudyByOne />} />
+        <Route exact path="/terms-Conditions" element={<Termconditions />} />
+        <Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route exact path="/about-us" element={<AboutUS />} />
+        <Route exact path="/solution" element={<Solution />} />
+        <Route exact path="/Portfolio" element={<Portfolio />} />
+        <Route exact path="/solution/schoolerp" element={<SchoolERP />} />
+        <Route exact path="/solution/E-Commerse" element={<ECommerse />} />
+        <Route exact path="/banner-enquiry" element={<BannerEnquiry />} />
+        <Route exact path="*" element={<NotFound />} />
+      </Routes>
+    </div>
 
-      // <Route exact path="/sitemap.xml" element={<Sitemap />} />
-
+    // <Route exact path="/sitemap.xml" element={<Sitemap />} />
   );
 };
-
-
 
 export default Routers;
