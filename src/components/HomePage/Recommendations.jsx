@@ -12,7 +12,6 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 
-
 const Recommendations = () => {
   SwiperCore.use([Autoplay]);
   return (
@@ -37,10 +36,7 @@ const Recommendations = () => {
               }}
               loop={true}
               slidesPerView={3}
-              autoplay={{
-                delay: 1500,
-                disableOnInteraction: false,
-              }}
+              autoplay
             >
               <SwiperSlide>
                 <img
@@ -59,7 +55,8 @@ const Recommendations = () => {
               <SwiperSlide>
                 <a
                   href="https://www.goodfirms.co/company/cerbosys-technologies-inc"
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <img
                     src={goodfirmicon}
@@ -72,6 +69,7 @@ const Recommendations = () => {
                 <a
                   href="https://clutch.co/profile/cerbosys-technologies#summary"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img
                     src={clutchicon}
@@ -84,6 +82,7 @@ const Recommendations = () => {
                 <a
                   href="https://www.appfutura.com/companies/cerbosys-technologies"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img
                     src={appfuturaicon}

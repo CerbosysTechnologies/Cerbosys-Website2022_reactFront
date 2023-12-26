@@ -63,13 +63,7 @@ import { BannerEnquiry } from './components/Common/Component/BannerEnquiry';
 import Sitemap from './SitemapComponent.js';
 const Routers = () => {
   return (
-
-<Routes>
-<Route exact path="/sitemap.xml" element={<Sitemap />} />
-     <React.Fragment>
-        <Navbar/>
     <Routes>
-     
       <Route exact path="/" element={<Hero />} />
       <Route exact path="/overview" element={<Overview />} />
       <Route
@@ -143,18 +137,10 @@ const Routers = () => {
       <Route exact path="/solution/schoolerp" element={<SchoolERP />} />
       <Route exact path="/solution/E-Commerse" element={<ECommerse />} />
       <Route exact path="/banner-enquiry" element={<BannerEnquiry />} />
+      <Route exact path="/sitemap.xml" element={<Sitemap />} />
       <Route exact path="*" element={<NotFound />} />
     </Routes>
-    <Footer/>
-    </React.Fragment>
-    </Routes>
- 
-
-      // <Route exact path="/sitemap.xml" element={<Sitemap />} />
-
   );
 };
-
-
 
 export default Routers;
