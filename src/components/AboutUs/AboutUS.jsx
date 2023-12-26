@@ -5,8 +5,8 @@ function AboutUS() {
   return (
     <>
       <Helmet>
-        <title>About us</title>
-        <meta name="keywords" content="About use" />
+        <title >About us</title>
+        <meta name="keywords" content="About use" data-react-helmet="true"  />
         <meta name="description" content="About us" />
         {/* <link rel="canonical" href="https://cerbosys.com/about-us" /> */}
       </Helmet>

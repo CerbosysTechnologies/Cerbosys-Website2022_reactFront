@@ -28,9 +28,7 @@ const Hero = () => {
   // text animation start
   useEffect(() => {
     var typed = new Typed('.auto', {
-      strings: ['INNOVATION ',
-        'PASSION ',
-        'SATISFACTION',
+      strings: [
         'INNOVATION ',
         'PASSION ',
         'SATISFACTION',
@@ -42,17 +40,20 @@ const Hero = () => {
         'SATISFACTION',
         'INNOVATION ',
         'PASSION ',
-        'SATISFACTION',],
+        'SATISFACTION',
+        'INNOVATION ',
+        'PASSION ',
+        'SATISFACTION',
+      ],
       typeSpeed: 150,
       backSpeed: 150,
-      loop: true
+      loop: true,
     });
     return () => {
       // Destroy Typed instance during cleanup to stop animation
       typed.destroy();
     };
-  }, [])
-
+  }, []);
 
   return (
     <>
@@ -64,9 +65,11 @@ const Hero = () => {
         <meta
           name="keywords"
           content="mobile app development, mobile app development services, website designing company in india, web development services, best app development company in uk, web app development company in uk, ecommerce website development, best digital marketing services company in india, digital marketing services for startups, b2b lead generation and appointment setting services, android mobile ui ux development company, staff augmentation"
+          data-react-helmet="true"
         />
         <meta
           name="description"
+          data-react-helmet="true"
           content="Are you looking for the Best Web Development Company? Get top-notch Ecommerce Web & Mobile App development solutions tailored to your needs"
         />
         {/* <link rel="canonical" href="https://cerbosys.com" /> */}
@@ -85,9 +88,9 @@ const Hero = () => {
             {/* The Ideal Web and Mobile Solutions for your emerging business- You’re just one click away!! */}
             <span className="font-middle whitespace-nowrap text-white text-center  py-3 md:text-4xl text-xl   mb-8 md:mt-2 mt-24">
               WE WORK FOR
-              <p className='text-bluetext font-semibold' ><span className='auto' ></span></p>
-
-
+              <p className="text-bluetext font-semibold">
+                <span className="auto"></span>
+              </p>
             </span>
           </p>
           {/* Home Contet Animation End */}

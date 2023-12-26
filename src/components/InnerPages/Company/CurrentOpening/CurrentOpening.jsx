@@ -16,12 +16,12 @@ const CurrentOpening = () => {
           <meta
             name="keywords"
             content="healthy work environment, innovative business solution provider, training & development sessions, performance linked incentives, reward programs, open positions, career"
-          />
+            data-react-helmet="true" />
           <meta
             name="description"
             content="Join cerbosys & lead innovations in digital marketing, ecommerce development. Make the choice that will build your future.
             Meet future coworkers who inspire you..
-            "
+            " data-react-helmet="true"
           />
           {/* <link rel="canonical" href="https://cerbosys.com/current-opening" /> */}
         </Helmet>
