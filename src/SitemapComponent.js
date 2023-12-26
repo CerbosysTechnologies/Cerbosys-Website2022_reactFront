@@ -39,11 +39,9 @@ function Sitemap() {
       });
   }, []);
   return (
-    <div className='py-20'>
-      
-      <SyntaxHighlighter language="xml" style={a11yDark}>
-        {sitemapData}
-      </SyntaxHighlighter>
+    <>
+      {/* <SyntaxHighlighter language="xml">{sitemapData}</SyntaxHighlighter> */}
+      <pre>{sitemapData}</pre>
 
       {/* Use <textarea> to render XML content */}
       {/* <textarea
@@ -51,24 +49,8 @@ function Sitemap() {
       readOnly
       style={{ width: '100%', height: '400px' }}
     /> */}
-    </div>
+    </>
   );
 }
 
-const escapeHtml = (unsafe) => {
-  return unsafe.replace(/[&<"']/g, (match) => {
-    switch (match) {
-      case '&':
-        return '&amp;';
-      case '<':
-        return '&lt;';
-      case '"':
-        return '&quot;';
-      case "'":
-        return '&#039;';
-      default:
-        return match;
-    }
-  });
-};
 export default Sitemap;

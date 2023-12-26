@@ -1,21 +1,21 @@
-import React from "react";
-import testivideo from "../../../../assets/innerpage/testimonial/employee_testimonial.mp4";
-import Anup_Vanawat from "../../../../assets/innerpage/testimonial/Anup_Vanawat.mp4";
-import colonicon from "../../../../assets/innerpage/testimonial/colon.svg";
-import anitaicon from "../../../../assets/innerpage/testimonial/anita.png";
-import anilicon from "../../../../assets/innerpage/testimonial/anil.png";
-import anupicon from "../../../../assets/innerpage/testimonial/anup.png";
-import sumiticon from "../../../../assets/innerpage/testimonial/sumit.png";
-import diveshicon from "../../../../assets/innerpage/testimonial/divesh.png";
+import React from 'react';
+import testivideo from '../../../../assets/innerpage/testimonial/employee_testimonial.mp4';
+import Anup_Vanawat from '../../../../assets/innerpage/testimonial/Anup_Vanawat.mp4';
+import colonicon from '../../../../assets/innerpage/testimonial/colon.svg';
+import anitaicon from '../../../../assets/innerpage/testimonial/anita.png';
+import anilicon from '../../../../assets/innerpage/testimonial/anil.png';
+import anupicon from '../../../../assets/innerpage/testimonial/anup.png';
+import sumiticon from '../../../../assets/innerpage/testimonial/sumit.png';
+import diveshicon from '../../../../assets/innerpage/testimonial/divesh.png';
 
-import "pure-react-carousel/dist/react-carousel.es.css";
+import 'pure-react-carousel/dist/react-carousel.es.css';
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
-import SwiperCore, { Autoplay } from "swiper";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/autoplay";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper';
+import SwiperCore, { Autoplay } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 
 const TestimonialBody = () => {
   SwiperCore.use([Autoplay]);
@@ -35,15 +35,16 @@ const TestimonialBody = () => {
               }}
               loop={true}
               slidesPerView={1}
-              autoplay={{
-                delay: 5000,
-                disableOnInteraction: false,
-              }}
+              autoplay
             >
               <SwiperSlide>
                 <div className="flex flex-row  items-start md:w-full  ">
                   <div className="md:w-full mb-10">
-                    <img src={colonicon}  alt="Mobile App Development Services" className="w-10" />
+                    <img
+                      src={colonicon}
+                      alt="Mobile App Development Services"
+                      className="w-10"
+                    />
                   </div>
                   <div className="md:w-full">
                     <br></br>
@@ -79,7 +80,11 @@ const TestimonialBody = () => {
               <SwiperSlide>
                 <div className="flex flex-row  items-start md:w-full  ">
                   <div className="md:w-full mb-10">
-                    <img src={colonicon}  alt="Mobile App Development Services" className="w-10" />
+                    <img
+                      src={colonicon}
+                      alt="Mobile App Development Services"
+                      className="w-10"
+                    />
                   </div>
                   <div className="md:w-full">
                     <br></br>
@@ -114,7 +119,11 @@ const TestimonialBody = () => {
               <SwiperSlide>
                 <div className="flex flex-row  items-start md:w-full  ">
                   <div className="md:w-full mb-10">
-                    <img src={colonicon}  alt="Mobile App Development Services" className="w-10" />
+                    <img
+                      src={colonicon}
+                      alt="Mobile App Development Services"
+                      className="w-10"
+                    />
                   </div>
                   <div className="md:w-full">
                     <br></br>
@@ -147,7 +156,11 @@ const TestimonialBody = () => {
               <SwiperSlide>
                 <div className="flex flex-row  items-start md:w-full  ">
                   <div className="md:w-full mb-10">
-                    <img src={colonicon}  alt="Mobile App Development Services" className="w-10" />
+                    <img
+                      src={colonicon}
+                      alt="Mobile App Development Services"
+                      className="w-10"
+                    />
                   </div>
                   <div className="md:w-full">
                     <br></br>
@@ -182,7 +195,11 @@ const TestimonialBody = () => {
               <SwiperSlide>
                 <div className="flex flex-row  items-start md:w-full  ">
                   <div className="md:w-full mb-10">
-                    <img src={colonicon}  alt="Mobile App Development Services" className="w-10" />
+                    <img
+                      src={colonicon}
+                      alt="Mobile App Development Services"
+                      className="w-10"
+                    />
                   </div>
                   <div className="md:w-full">
                     <br></br>
@@ -224,7 +241,6 @@ const TestimonialBody = () => {
               }}
               loop={true}
               slidesPerView={1}
-              
             >
               {/* Anita */}
               <SwiperSlide>

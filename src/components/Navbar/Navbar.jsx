@@ -59,7 +59,7 @@ const Navbar = () => {
         className={
           !headerVisible
             ? 'z-[999] bg-transparent fixed m-auto w-full h-[80px] '
-            : 'z-[999] bg-white fixed m-auto w-full  h-[80px]'
+            : 'z-[999] bg-White  fixed m-auto w-full  h-[80px]'
         }
       >
         <div className="flex items-center font-heading justify-around  h-full">
@@ -82,7 +82,7 @@ const Navbar = () => {
 
             <div
               className={`text-5xl md:hidden m-5 ${
-                !headerVisible ? 'text-white' : 'text-Black'
+                !headerVisible ? 'text-White' : 'text-black'
               }`}
               onClick={() => setOpen(!open)}
             >
@@ -94,7 +94,7 @@ const Navbar = () => {
 
           <ul
             className={`md:flex hidden uppercase items-center gap-1 font-heading  md:text-[11px] xl:text-sm lg:text-text-[11px]
-       text-white  ${!headerVisible ? 'text-white' : 'text-Black'}
+       text-White  ${!headerVisible ? 'text-White' : 'text-black'}
         `}
           >
             <NavLinks></NavLinks>
@@ -167,7 +167,7 @@ const Navbar = () => {
               />
               <span
                 className={`text-sm font-heading mt-1 
-          ${!headerVisible ? 'text-white' : 'text-black'}`}
+          ${!headerVisible ? 'text-white' : 'text-Black'}`}
               >
                 +91 9826906988
               </span>

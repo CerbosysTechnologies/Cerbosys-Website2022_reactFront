@@ -58,10 +58,7 @@ const ClientLogoSlider = () => {
         }}
         loop={true}
         slidesPerView={2}
-        autoplay={{
-          delay: 700,
-          disableOnInteraction: false,
-        }}
+        autoplay
       >
         {featuredicons.map((slideContent, index) => (
           <SwiperSlide key={slideContent} virtualIndex={index}>

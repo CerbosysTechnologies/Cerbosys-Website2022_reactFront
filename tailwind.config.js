@@ -31,6 +31,7 @@ module.exports = {
         Darkgray: ' #F8F9FC',
         bluetext: 'rgb(15, 82, 186)',
         Black: 'rgb(0 0 0)',
+        White: '#FFFFFF',
         // greyss:"##952b2b"
       },
       keyframes: {

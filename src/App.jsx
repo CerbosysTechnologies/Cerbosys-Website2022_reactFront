@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import FreeQuote from './components/Common/Component/FreeQuote';
 
 import { ScrollToTop } from '../src/components/Common/Component/ScrollToTop';
-
+import { useNavigate } from 'react-router-dom';
 import { handelRightClick } from '../src/components/Common/utils/Desbalrightclick';
 
 import Navbar from './components/Navbar/Navbar';
@@ -31,14 +31,23 @@ function App() {
   //   }
   // }, []);
   document.addEventListener('contextmenu', handelRightClick);
+  // Define routes without Navbar and Footer
+  const routesWithoutNavbarFooter = ['/sitemap.xml', '*'];
+  // Get the current route
+
+  const currentRoute = window.location.pathname;
+
+  // Check if the current route should not have Navbar and Footer
+  const shouldRenderNavbarFooter =
+    !routesWithoutNavbarFooter.includes(currentRoute);
 
   return (
     <>
       <div className="selection:bg-Green selection:text-white">
-        <Navbar></Navbar>
+        {shouldRenderNavbarFooter && <Navbar />}
         <FreeQuote />
         <Routers />
-        <Footer />
+        {shouldRenderNavbarFooter && <Footer />}
       </div>
       <ScrollToTop />
     </>

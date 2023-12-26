@@ -57,12 +57,11 @@ const NavLinks = () => {
                 <div className="flex flex-wrap flex-col  border-r-2  py-4 px-10 ">
                   <div className="mt-4">
                     <h2 className="font-subheading md:text-sm text-xs">
-                      <Link to="web-development">
+                      <Link to="/web-development">
                         {/* <Link
                         to="https://webdevelopment.cerbosys.com/"
                         target="_blank"
                       > */}
-
                         <span className="flex items-center gap-2 ">
                           <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
                           Web Development
@@ -72,10 +71,11 @@ const NavLinks = () => {
                   </div>
                   <div className="mt-4">
                     <h2 className="font-subheading md:text-sm text-xs">
-                      <Link
+                      <Link to="/software-development">
+                        {/* <Link
                         to="https://software-development.cerbosys.com/"
                         target="_blank"
-                      >
+                      > */}
                         <span className="flex items-center gap-2 ">
                           <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
                           Software Development
@@ -86,10 +86,11 @@ const NavLinks = () => {
 
                   <div className="mt-5">
                     <h2 className="font-subheading md:text-sm text-xs">
-                      <Link
+                      <Link to="/digital-marketing">
+                        {/* <Link
                         to="https://digitalmarketing.cerbosys.com/"
                         target="_blank"
-                      >
+                      > */}
                         <span className="flex items-center gap-2 ">
                           <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
                           Digital Marketing
@@ -100,10 +101,11 @@ const NavLinks = () => {
 
                   <div className="mt-5">
                     <h2 className="font-subheading md:text-sm text-xs">
-                      <Link
+                      <Link to="/lead-generation">
+                        {/* <Link
                         to="https://lead-generation.cerbosys.com/"
                         target="_blank"
-                      >
+                      > */}
                         <span className="flex items-center gap-2 ">
                           <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
                           Lead Generation
@@ -113,10 +115,11 @@ const NavLinks = () => {
                   </div>
                   <div className="mt-5">
                     <h2 className="font-subheading md:text-sm text-xs">
-                      <Link
+                      <Link to="/branding-and-packaging">
+                        {/* <Link
                         to="https://branding-and-packaging.cerbosys.com/"
                         target="_blank"
-                      >
+                      > */}
                         <span className="flex items-center gap-2 ">
                           <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
                           Branding And Packaging
@@ -127,10 +130,11 @@ const NavLinks = () => {
 
                   <div className="mt-5">
                     <h2 className="font-subheading md:text-sm text-xs">
-                      <Link
+                      <Link to="/mobile-app-development">
+                        {/* <Link
                         to="https://mobile-app-development.cerbosys.com/"
                         target="_blank"
-                      >
+                      > */}
                         <span className="flex items-center gap-2 ">
                           <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
                           Mobile App Development
@@ -141,10 +145,11 @@ const NavLinks = () => {
 
                   <div className="mt-5">
                     <h2 className="font-subheading md:text-sm text-xs">
-                      <Link
+                      <Link to="/ui-ux-designing">
+                        {/* <Link
                         to="https://ui-ux-designing.cerbosys.com/"
                         target="_blank"
-                      >
+                      > */}
                         <span className="flex items-center gap-2 ">
                           <TbPlayerTrackNext className="fill-white text-white   hover:text-green-500 hover:fill-green-500" />
                           UI/UX Designing
