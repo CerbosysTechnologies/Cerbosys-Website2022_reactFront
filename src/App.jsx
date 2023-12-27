@@ -1,20 +1,18 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 import FreeQuote from './components/Common/Component/FreeQuote';
 
 import { ScrollToTop } from '../src/components/Common/Component/ScrollToTop';
-import { useNavigate } from 'react-router-dom';
+
 import { handelRightClick } from '../src/components/Common/utils/Desbalrightclick';
 
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Common/Component/Footer';
-import Sitemap from './SitemapComponent.js';
+
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Routers from './Routers.js';
 import { useScroll, useSpring } from 'framer-motion';
-import { useState } from 'react';
-import axios from 'axios';
 
 function App() {
   const { scrollYProgress } = useScroll();
@@ -45,9 +43,9 @@ function App() {
     <>
       <div className="selection:bg-Green selection:text-white">
         {shouldRenderNavbarFooter && <Navbar />}
-        <FreeQuote />
         <Routers />
         {shouldRenderNavbarFooter && <Footer />}
+        <FreeQuote />
       </div>
       <ScrollToTop />
     </>

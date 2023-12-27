@@ -1,16 +1,31 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 
 import Teambody from './Teambody';
 import TeamForm from './TeamForm';
+import { useLocation } from 'react-router-dom';
 
 const Team = () => {
-  return (
+  const location = useLocation();
+
+  useEffect(() => {
+    document.title = 'Meet Our Team |Cerbosys';
+  }, [location]);
+  const metaDescription =
+    'Cerbosys’s progressive growth is defined by a zealous and committed leadership team of intellectual leaders. Explore their experience, expertise, and responsibilities.';
+  const metaKeywords =
+    'Founder and Managing Director, our team, young, dynamic, talented individuals, UI/UX and Graphic Designer, Front end Developer, Marketing Executive, Digital Marketer';
+  
+  
+    return (
     <div>
       <>
         <Helmet>
-          <title>Meet Our Team |Cerbosys</title>
-          <meta
+          {/* <title>Meet Our Team |Cerbosys</title> */}
+          <meta name="description" content={metaDescription} />
+          <meta name="keywords" content={metaKeywords} />
+
+          {/* <meta
             name="keywords"
             data-react-helmet="true"
             content="Founder and Managing Director, our team, young, dynamic, talented individuals, UI/UX and Graphic Designer, Front end Developer, Marketing Executive, Digital Marketer"
@@ -19,7 +34,8 @@ const Team = () => {
             name="description"
             data-react-helmet="true"
             content="Cerbosys’s progressive growth is defined by a zealous and committed leadership team of intellectual leaders. Explore their experience, expertise, and responsibilities. "
-          />
+          /> */}
+
           {/* <link rel="canonical" href="https://cerbosys.com/team" /> */}
         </Helmet>
 

@@ -13,16 +13,6 @@ function Sitemap() {
         headers: { Accept: 'application/xml' },
       })
       .then((response) => {
-        //const data = response.data;
-        // console.log('Sitemap => ', data);
-        // setSitemapData(data);
-
-        // Replace newline characters with HTML line breaks
-        //const formattedXml = response.data.replace(/\n/g, '<br>');
-        //setSitemapData(data);
-        //const xml = response.text();
-        //setSitemapData(data);
-        // Ensure that the response is XML and not treated as HTML
         const contentType = response.headers['content-type'];
         if (contentType && contentType.includes('application/xml')) {
           const formattedXml = xmlFormatter(response.data, {
