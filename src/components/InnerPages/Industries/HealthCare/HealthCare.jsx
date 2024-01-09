@@ -22,7 +22,7 @@ const HealthCare = () => {
             name="description"
             content="We offer end-to-end wide spectrum of healthcare solutions including telemedicine applications, highly optimized & targeted marketing campaign."
           />
-          {/* <link rel="canonical" href="https://cerbosys.com/health-care" /> */}
+          <link rel="canonical" href="https://cerbosys.com/health-care" />
         </Helmet>
         {/* <Navbar /> */}
         <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[36rem] bg-HealthCareHeader h-96 py-12 px-4 bg-cover md:bg-top bg-center">

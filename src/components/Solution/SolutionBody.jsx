@@ -1,33 +1,33 @@
-import React, { useState } from "react";
-import ecom from "../../assets/Solution/ecom.jpg";
-import School from "../../assets/Solution/School.png";
-import { GrLinkNext } from "react-icons/gr";
-import { Link } from "react-router-dom";
-import { Component } from "react";
-import Slider from "react-slick";
-import s1 from "../../assets/Solution/s1.png";
-import s2 from "../../assets/Solution/s2.png";
-import s3 from "../../assets/Solution/s3.png";
-import s4 from "../../assets/Solution/s4.png";
-import s6 from "../../assets/Solution/s6.png";
-import s5 from "../../assets/Solution/s5.png";
-import s7 from "../../assets/Solution/s7.png";
-import p1 from "../../assets/Solution/p1.png";
-import p2 from "../../assets/Solution/p2.png";
-import p3 from "../../assets/Solution/p3.png";
-import p4 from "../../assets/Solution/p4.png";
-import inf from "../../assets/Solution/inf.png";
-import pep from "../../assets/Solution/pep.png";
-import forn from "../../assets/Solution/forn.png";
-import acd from "../../assets/Solution/acd.png";
-import fin from "../../assets/Solution/fin.png";
-import mob from "../../assets/Solution/mob.png";
-import mob1 from "../../assets/Solution/mob1.png";
-import u11 from "../../assets/Solution/u11.png";
-import u12 from "../../assets/Solution/u12.png";
-import u1 from "../../assets/Solution/u1.png";
-import real1 from "../../assets/Solution/real1.png";
-import mobapp from "../../assets/Solution/mobapp.png";
+import React, { useState } from 'react';
+import ecom from '../../assets/Solution/ecom.jpg';
+import School from '../../assets/Solution/School.png';
+import { GrLinkNext } from 'react-icons/gr';
+import { Link } from 'react-router-dom';
+import { Component } from 'react';
+import Slider from 'react-slick';
+import s1 from '../../assets/Solution/s1.png';
+import s2 from '../../assets/Solution/s2.png';
+import s3 from '../../assets/Solution/s3.png';
+import s4 from '../../assets/Solution/s4.png';
+import s6 from '../../assets/Solution/s6.png';
+import s5 from '../../assets/Solution/s5.png';
+import s7 from '../../assets/Solution/s7.png';
+import p1 from '../../assets/Solution/p1.png';
+import p2 from '../../assets/Solution/p2.png';
+import p3 from '../../assets/Solution/p3.png';
+import p4 from '../../assets/Solution/p4.png';
+import inf from '../../assets/Solution/inf.png';
+import pep from '../../assets/Solution/pep.png';
+import forn from '../../assets/Solution/forn.png';
+import acd from '../../assets/Solution/acd.png';
+import fin from '../../assets/Solution/fin.png';
+import mob from '../../assets/Solution/mob.png';
+import mob1 from '../../assets/Solution/mob1.png';
+import u11 from '../../assets/Solution/u11.png';
+import u12 from '../../assets/Solution/u12.png';
+import u1 from '../../assets/Solution/u1.png';
+import real1 from '../../assets/Solution/real1.png';
+import mobapp from '../../assets/Solution/mobapp.png';
 
 function SolutionBody() {
   const [chang1, setChang1] = useState();
@@ -271,7 +271,7 @@ function SolutionBody() {
                   industry accepted best practices. You can just pay for use
                   then relax & take care of your business while we manage
                   server, backup, virus protection, technical support for you .
-                </p>{" "}
+                </p>{' '}
               </div>
             </div>
             <div className=" bg-white shadow-md rounded-md p-3">
@@ -291,7 +291,7 @@ function SolutionBody() {
                   several education industry leader & community which help us
                   craft the best solution for your education institute's need.
                   Always get the best today & in future.
-                </p>{" "}
+                </p>{' '}
               </div>
             </div>
             <div className=" bg-white shadow-md rounded-md p-3">
@@ -305,7 +305,7 @@ function SolutionBody() {
                   Design for us is not how it looks like but how it works.
                   Everything we do we take utmost care that how the user will
                   use the system with ease.
-                </p>{" "}
+                </p>{' '}
               </div>
             </div>
           </div>
@@ -340,7 +340,7 @@ function SolutionBody() {
                   view/edit the information which is relevant to them. You have
                   a great control on who will see what. Automate every process
                   in your institute
-                </p>{" "}
+                </p>{' '}
               </div>
             </div>
             <div className=" bg-white shadow-md rounded-md p-3 md:w-[40%] w-[100%]">
@@ -355,7 +355,7 @@ function SolutionBody() {
                   every piece of information in your cell phone like fee
                   payment, home-work , attendance alert etc. Parents can view
                   the digital report card.
-                </p>{" "}
+                </p>{' '}
               </div>
             </div>
           </div>
@@ -431,15 +431,14 @@ function SolutionBody() {
             {/* <h2> Single Item</h2> */}
             <Slider {...settings}>
               <div className="">
-                {" "}
                 <img src={s1} alt="" className="rounded-lg w-[60%] mx-auto" />
                 <div className="text-center rounded-md p-2 border-[1px] w-[70%] mx-auto">
                   <p>Basava International Dwarka</p>
-                  <p>200+ Branchan</p>
+                  <p>200+ Branches</p>
                 </div>
               </div>
               <div className="">
-                {" "}
+                {' '}
                 <img src={s2} alt="" className="rounded-lg w-[60%]  mx-auto" />
                 <div className="text-center rounded-md p-2 border-[1px] w-[70%] mx-auto">
                   <p>Delhi Public school</p>
@@ -447,7 +446,7 @@ function SolutionBody() {
                 {/* <div className="bg-grey p-6">hello</div> */}
               </div>
               <div className="">
-                {" "}
+                {' '}
                 <img
                   src={s3}
                   alt=""
@@ -459,7 +458,7 @@ function SolutionBody() {
                 </div>
               </div>
               <div className="">
-                {" "}
+                {' '}
                 <img
                   src={s4}
                   alt=""
@@ -499,7 +498,7 @@ function SolutionBody() {
                 </div>
               </div>
             </Slider>
-          </div>{" "}
+          </div>{' '}
         </div>
         {/* our top customer end */}
         {/* <div className="md:flex gap-10 py-5 px-5 justify-between">

@@ -137,7 +137,7 @@ const Routers = () => {
       <Route exact path="/solution/schoolerp" element={<SchoolERP />} />
       <Route exact path="/solution/E-Commerse" element={<ECommerse />} />
       <Route exact path="/banner-enquiry" element={<BannerEnquiry />} />
-      <Route exact path="/sitemap.xml" element={<Sitemap />} />
+      {/* <Route exact path="/sitemap.xml" element={<Sitemap />} /> */}
       <Route exact path="*" element={<NotFound />} />
     </Routes>
   );

@@ -20,8 +20,10 @@ const TrainingAndDevelopment = () => {
             name="description"
             content="Cerbosys conducts extensive training and development for employees program for our new recruits. A workplace training program allows our employees to strengthen the skills that each employee needs to improve. "
           />
-           {/* <link rel="canonical" href="https://cerbosys.com/training-and-development" /> */}
-
+          <link
+            rel="canonical"
+            href="https://cerbosys.com/training-and-development"
+          />
         </Helmet>
 
         {/* <Navbar /> */}

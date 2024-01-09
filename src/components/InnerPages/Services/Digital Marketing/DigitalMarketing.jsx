@@ -23,7 +23,7 @@ const DigitalMarketing = () => {
             name="description"
             content="Looking for making a strong online presence? Our digital marketing consultants will help to grow SMM, SEO, paid advertisment, content marketing, email marketing & whatsapp automation for business"
           />
-          {/* <link rel="canonical" href="https://cerbosys.com/digital-marketing" /> */}
+          <link rel="canonical" href="https://cerbosys.com/digital-marketing" />
 
         </Helmet>
 

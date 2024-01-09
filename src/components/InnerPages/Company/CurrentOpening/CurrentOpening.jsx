@@ -23,7 +23,7 @@ const CurrentOpening = () => {
             Meet future coworkers who inspire you..
             " data-react-helmet="true"
           />
-          {/* <link rel="canonical" href="https://cerbosys.com/current-opening" /> */}
+          <link rel="canonical" href="https://cerbosys.com/current-opening" />
         </Helmet>
 
         <div className="mx-auto w-full md:h-[30rem]  h-96 py-12 px-4 bg-CurrentOpeningBackground bg-cover md:bg-top bg-center">

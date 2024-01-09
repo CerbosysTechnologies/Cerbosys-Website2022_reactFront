@@ -15,7 +15,7 @@ function PrivacyPolicy() {
             name="description"
             content="Cerbosys Technologies is a prominent web development company in Indore, offering enterprise-grade services all over the world. The three major web services involve Front-end web development, Back-end web development & Full-stack development"
           />
-          {/* <link rel="canonical" href="https://cerbosys.com/privacy-policy" /> */}
+          <link rel="canonical" href="https://cerbosys.com/privacy-policy" />
         </Helmet>
       <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[38rem]  h-96 py-12 px-4 bg-PrivacyPolicy bg-cover md:bg-top bg-center">
         {/* Content Section */}

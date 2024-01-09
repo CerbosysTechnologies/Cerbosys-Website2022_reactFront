@@ -21,10 +21,10 @@ const Transport = () => {
             name="description"
             content="We provide logistics software and app development services  will help you optimize operating costs, cut fuel consumption,  improve asset tracking & solve vehicle routing issues"
           />
-          {/* <link
+          <link
             rel="canonical"
             href="https://cerbosys.com/transport-and-logistics"
-          /> */}
+          />
         </Helmet>
         {/* <Navbar /> */}
         <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[36rem] bg-Transportbg h-96 py-12 px-4 bg-cover md:bg-top bg-center">

@@ -10,7 +10,7 @@ function Termconditions() {
         <title>Term conditions</title>
         <meta name="keywords" content="Termconditions" />
         <meta name="description" content="Termconditions" />
-        {/* <link rel="canonical" href="https://cerbosys.com/terms-conditions" /> */}
+        <link rel="canonical" href="https://cerbosys.com/terms-conditions" />
       </Helmet>
       <div className="selection:bg-Green selection:text-white mx-auto w-full md:h-[38rem]  h-96 py-12 px-4 bg-Termandcondition bg-cover md:bg-top bg-center">
         {/* Content Section */}

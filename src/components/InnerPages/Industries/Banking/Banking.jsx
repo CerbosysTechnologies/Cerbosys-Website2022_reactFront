@@ -19,7 +19,7 @@ const Banking = () => {
           name="description"
           content="We work tirelessly to help you meet both banking compliance requirements and business goals. Leverage the power of PPC, SEO, Social, content & more."
         />
-          {/* <link rel="canonical" href="https://cerbosys.com/banking-and-finance" /> */}
+          <link rel="canonical" href="https://cerbosys.com/banking-and-finance" />
 
       </Helmet>
       {/* <Navbar /> */}

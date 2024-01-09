@@ -28,23 +28,26 @@ function App() {
   //     window.location.href = `https://${window.location.hostname}${window.location.pathname}`;
   //   }
   // }, []);
-  document.addEventListener('contextmenu', handelRightClick);
+  // document.addEventListener('contextmenu', handelRightClick);
   // Define routes without Navbar and Footer
-  const routesWithoutNavbarFooter = ['/sitemap.xml', '*'];
+  // const routesWithoutNavbarFooter = ['/sitemap.xml', '*'];
   // Get the current route
 
-  const currentRoute = window.location.pathname;
+  // const currentRoute = window.location.pathname;
 
   // Check if the current route should not have Navbar and Footer
-  const shouldRenderNavbarFooter =
-    !routesWithoutNavbarFooter.includes(currentRoute);
+  // const shouldRenderNavbarFooter =!routesWithoutNavbarFooter.includes(currentRoute);
 
   return (
     <>
       <div className="selection:bg-Green selection:text-white">
-        {shouldRenderNavbarFooter && <Navbar />}
+        {/* {shouldRenderNavbarFooter && <Navbar />}
         <Routers />
         {shouldRenderNavbarFooter && <Footer />}
+        <FreeQuote /> */}
+       <Navbar />
+        <Routers />
+        <Footer />
         <FreeQuote />
       </div>
       <ScrollToTop />
