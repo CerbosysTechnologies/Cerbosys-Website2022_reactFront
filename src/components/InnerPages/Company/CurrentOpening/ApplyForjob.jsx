@@ -4,6 +4,8 @@ import { AiOutlineClose } from 'react-icons/ai';
 import vacancy from '../../../../assets/Careerpage/job800500.svg';
 import { ToastContainer, toast } from 'react-toastify';
 import ContectThankyou from '../../../Common/Component/Thankyou/ContectThankyou';
+import PhoneInput from 'react-phone-input-2'
+import 'react-phone-input-2/lib/style.css'
 function ApplyForjob() {
   const modalclose = () => {
     document.getElementById('ModalPotion').style.display = 'none';
@@ -222,8 +224,9 @@ function ApplyForjob() {
 
                   {/* Contact Number Div */}
                   <div className=" mb-2 md:w-full group">
-                    <input
+                    <PhoneInput
                       type="text"
+                      country={'in'}
                       name="mobilenumber"
                       id="contact_number"
                       className="block py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent 
@@ -233,6 +236,16 @@ function ApplyForjob() {
                       required
                       value={contactNumber}
                       onChange={onchangeContact}
+                      inputProps={{
+                        required : true,
+                      }}
+                      inputStyle={{
+                        width: '100%',
+                        paddingleft: '48px',
+                    
+                        outline: 'none',
+                       
+                      }}
                       maxLength="10"
                     />
                     {errorscon && (
@@ -298,6 +311,8 @@ function ApplyForjob() {
                       />
                     </div>
                   </div>
+
+                  
                   {/* Message Div */}
                   <div className=" mb-2 md:w-full group">
                     <input

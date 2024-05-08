@@ -40,3 +40,29 @@
 .slick-prev:before{
   color:green !important;
 } 
+.react-tel-input .flag-dropdown {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  /* padding-right: 40px !important; */
+  background-color: transparent !important;
+  border: none !important;
+  
+}
+
+.react-tel-input .form-control {
+  position: relative;
+  font-size: 14px;
+  letter-spacing: .01rem;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  /* padding-left: 5px !important; */
+  margin-left: 0;
+  background: #FFFFFF;
+  border: none !important;
+  
+  line-height: 25px;
+  height: 35px;
+  width: 300px;
+  outline: none;
+}

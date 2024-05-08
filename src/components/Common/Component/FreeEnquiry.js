@@ -175,6 +175,7 @@ const FreeEnquiry = () => {
              <PhoneInput
         country={'in'} // Set the default country
         name="contactNumber"
+        
               // value={contactNumber}
               // onChange={onchangeContact}
               value={phoneNumber}
@@ -224,6 +225,19 @@ const FreeEnquiry = () => {
                 </>
               )}
             </select>
+          </div>
+
+          <div className="mb-4">
+            <label className="block mb-2 text-gray-700">Organisation Name</label>
+            <input
+              name="message"
+              onChange={(e) => setMessage(e.target.value)}
+              value={message}
+              className="w-full p-2 border border-gray-300 rounded-md"
+              placeholder="Your organisation"
+             
+              required
+            />
           </div>
           <div className="mb-4">
             <label className="block mb-2 text-gray-700">Message</label>

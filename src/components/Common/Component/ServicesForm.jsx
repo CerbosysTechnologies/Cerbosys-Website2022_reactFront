@@ -4,6 +4,9 @@ import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Servicethankyou from "./Thankyou/Servicethankyou";
+
+import PhoneInput from 'react-phone-input-2'
+import 'react-phone-input-2/lib/style.css'
 const ServicesForm = (props) => {
   //hooks
   const [username, setUsername] = useState("");
@@ -201,8 +204,9 @@ const ServicesForm = (props) => {
 
           {/* Contact Number Div */}
           <div className=" mb-6 md:w-full group">
-            <input
+            <PhoneInput
               type="tel"
+              country={'in'}
               name="contact_number"
               id="contact_number"
               className="block py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent 
@@ -212,6 +216,18 @@ const ServicesForm = (props) => {
               required
               onChange={onchangeContact}
               value={contactNumber}
+
+              inputProps={{
+                required : true,
+              }}
+
+              inputStyle={{
+                width: '100%',
+                paddingleft: '48px',
+            
+                outline: 'none',
+               
+              }}
               maxLength="10"
             />{" "}
             {errorscon && (
@@ -352,7 +368,22 @@ const ServicesForm = (props) => {
             </div>
           </div>
           {/* Hear About Div Ends*/}
-
+ {/* Organization Div */}
+ <div className=" mb-6 md:w-full group">
+            <input
+              type="text"
+              name="organization"
+              id="message"
+              className="block mt-5 py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent border-0 border-b-2 
+      border-gray-300 appearance-none  dark:border-gray-400 
+       focus:outline-none focus:ring-0 peer"
+              placeholder="Organisation Name"
+              required
+              onChange={(e) => setMessage(e.target.value)}
+              value={message}
+            />
+          </div>
+          {/* Organization Div Ends */}
           {/* Message Div */}
           <div className=" mb-6 md:w-full group">
             <input

@@ -3,6 +3,9 @@ import React, { useState } from 'react';
 import { SERVER } from '../../../../ServerUrls';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
+// import PhoneInput from 'react-phone-input-2'
+// import 'react-phone-input-2/lib/style.css'
 function Investment() {
   const [username, setUsername] = useState('');
   const [errorsname, setErrorsName] = useState('');
@@ -127,10 +130,21 @@ function Investment() {
                   Here are my contact details
                   <input
                     value={contactNumber}
+                    // country={'in'}
                     onChange={onchangeContact}
                     type="text"
                     placeholder="Number"
                     className=" text-blue-500 font-bold border-b-2 border-black text-center border-0 focus:outline-none focus:ring-0"
+                    // inputProps={{
+                    //   required : true,
+                    // }}
+                    // inputStyle={{
+                    //   width: '100%',
+                    //   paddingleft: '48px',
+                  
+                    //   outline: 'none',
+                     
+                    // }}
                   />
                  
                   &

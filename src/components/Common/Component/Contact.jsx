@@ -4,6 +4,8 @@ import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import ContectThankyou from "./Thankyou/ContectThankyou";
+import PhoneInput from 'react-phone-input-2'
+import 'react-phone-input-2/lib/style.css'
 const Contact = () => {
   //hooks
   const [username, setUsername] = useState("");
@@ -27,6 +29,9 @@ const Contact = () => {
   //Image
   const [techimg, setTechImg] = useState('');
   const [showImageSec, setShowImageSection] = useState(true);
+
+
+
 
   const handlerChange = (event) => {
     // props.onChangeSelected(event.target.value)
@@ -62,10 +67,10 @@ const Contact = () => {
       setErrorsName(false);
     }
   };
-  const onchangeContact = (e) => {
+  const onchangeContact = (value) => {
     // console.log("onchangeContact");
-    const contactNumber = e.target.value.replace(/([^0-9])+/i, "");
-    setContactNumber(contactNumber);
+    // const contactNumber = e.target.value.replace(/([^0-9])+/i, "");
+    setContactNumber(value);
     // (contact.length < 10 || contact.length > 10)
     if (contactNumber.length < 10) {
       setErrorsContact("Enter valid Contact");
@@ -73,6 +78,8 @@ const Contact = () => {
     } else {
       setErrorsCon(false);
     }
+;
+
   };
 
   const handleSubmit = (e) => {
@@ -157,18 +164,30 @@ const Contact = () => {
 
           {/* Contact Number Div */}
           <div className=" mb-6 md:w-full group">
-            <input
+            <PhoneInput
               type="tel"
               name="contact_number"
+              country={'in'}
               id="contact_number"
               className="block py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent 
-            border-0 border-b-2 border-gray-300 appearance-none  dark:border-gray-400 
+            border-b-2 border-gray-300 appearance-none  dark:border-gray-400 
        focus:outline-none focus:ring-0 peer"
               placeholder="Contact Number"
               required
               // onChange={(e) => setContactNumber(e.target.value)}
               value={contactNumber}
               onChange={onchangeContact}
+              inputProps={{
+                required : true,
+              }}
+
+              inputStyle={{
+                width: '100%',
+                paddingleft: '48px',
+            
+                outline: 'none',
+               
+              }}
               maxLength="10"
             />
             {errorscon && (
@@ -205,6 +224,23 @@ const Contact = () => {
             </select>
           </div>
           {/* Selection Div Ends*/}
+
+           {/* Organization Div */}
+           <div className=" mb-6 md:w-full group">
+            <input
+              type="text"
+              name="organization"
+              id="message"
+              className="block mt-5 py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent border-0 border-b-2 
+      border-gray-300 appearance-none  dark:border-gray-400 
+       focus:outline-none focus:ring-0 peer"
+              placeholder="Organisation Name"
+              required
+              onChange={(e) => setMessage(e.target.value)}
+              value={message}
+            />
+          </div>
+          {/* Organization Div Ends */}
 
           {/* Message Div */}
           <div className=" mb-6 md:w-full group">

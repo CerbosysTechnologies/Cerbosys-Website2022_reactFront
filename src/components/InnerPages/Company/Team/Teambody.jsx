@@ -522,7 +522,7 @@ const Teambody = () => {
               /> */}
               <p className="font-heading md:text-lg text-sm text-center mt-6">
                 Hi, I am Pratigya Jain
-                <br></br> HTML/CSS Developer
+                <br></br>Frontend Developer
                 <br></br>
                 <i className="text-Green">
                   {' '}
