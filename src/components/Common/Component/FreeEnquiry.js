@@ -24,7 +24,7 @@ const FreeEnquiry = () => {
   const [errorscon, setErrorsCon] = useState(false);
   const [errorscontact, setErrorsContact] = useState("");
   const [serviceId, setServiceId] = useState("");
-
+  const [organization, setOrganization] = useState("");
   const [message, setMessage] = useState("");
   const [serviceitems, setServiceItems] = React.useState([]);
 
@@ -79,6 +79,7 @@ const FreeEnquiry = () => {
       email: email,
       contact_number: phoneNumber,
       myservice_id: serviceId,
+      organization_name: organization,
       message: message,
       obtained_from: "Email",
     };
@@ -228,13 +229,13 @@ const FreeEnquiry = () => {
           </div>
 
           <div className="mb-4">
-            <label className="block mb-2 text-gray-700">Organisation Name</label>
+            <label className="block mb-2 text-gray-700">Organization Name</label>
             <input
-              name="message"
-              onChange={(e) => setMessage(e.target.value)}
-              value={message}
+              name="organization"
+              onChange={(e) => setOrganization(e.target.value)}
+              value={organization}
               className="w-full p-2 border border-gray-300 rounded-md"
-              placeholder="Your organisation"
+              placeholder="Your organization"
              
               required
             />

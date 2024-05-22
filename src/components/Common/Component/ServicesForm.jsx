@@ -27,6 +27,7 @@ const ServicesForm = (props) => {
   const [message, setMessage] = useState("");
   const [serviceitems, setServiceItems] = React.useState([]);
   const [myservicesid, setmyservicesid] = useState([]);
+  const [organization, setOrganization] = useState("");
 
   // const a = myservicesid.map((val) => {
   //   var b = val.myservices_id;
@@ -78,6 +79,7 @@ const ServicesForm = (props) => {
       email: email,
       subject: subject,
       contact_number: contactNumber,
+      organization_name:organization,
       myservice_id: serviceId,
       hearabout_us: getHearaboutUs,
       message: message,
@@ -130,9 +132,9 @@ const ServicesForm = (props) => {
     }
   };
 
-  const onchangeContact = (e) => {
-    const contactNumber = e.target.value.replace(/([^0-9])+/i, "");
-    setContactNumber(contactNumber);
+  const onchangeContact = (value) => {
+    // const contactNumber = e.target.value.replace(/([^0-9])+/i, "");
+    setContactNumber(value);
     // (contact.length < 10 || contact.length > 10)
     if (contactNumber.length < 10) {
       setErrorsContact("Enter valid Contact");
@@ -373,14 +375,14 @@ const ServicesForm = (props) => {
             <input
               type="text"
               name="organization"
-              id="message"
+              id="organization"
               className="block mt-5 py-2.5 px-0 w-full font-heading text-sm text-gray-900 bg-transparent border-0 border-b-2 
       border-gray-300 appearance-none  dark:border-gray-400 
        focus:outline-none focus:ring-0 peer"
-              placeholder="Organisation Name"
+              placeholder="Organization Name"
               required
-              onChange={(e) => setMessage(e.target.value)}
-              value={message}
+              onChange={(e) => setOrganization(e.target.value)}
+              value={organization}
             />
           </div>
           {/* Organization Div Ends */}

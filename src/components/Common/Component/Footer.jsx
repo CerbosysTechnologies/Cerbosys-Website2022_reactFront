@@ -242,6 +242,16 @@ const Footer = () => {
                     <span className="animate-waving-hand block w-12 rounded-md h-[8px] bg-Green justify-center m-auto mt-3 "></span>
                   </div>
                 </h6>
+                <div className="flex flex-row mb-5 md:w-64 w-64">
+                  <img
+                    src={locationicon}
+                    alt="Mobile App Development Services"
+                    className="mr-3"
+                  ></img>
+                  <span className="font-subheading text-sm text-white">
+                  M-24, Trade Centre, South Tukoganj Indore - 452001
+                  </span>
+                </div>
 
                 <div className="flex flex-row mb-5 md:w-64 w-64">
                   <img
